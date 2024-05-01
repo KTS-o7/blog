@@ -2,109 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on KTS Blog</title>
-    <link>http://localhost:1313/blog/tags/</link>
+    <link>https://KTS-o7.github.io/blog/tags/</link>
     <description>Recent content in Tags on KTS Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Fri, 26 Apr 2024 12:15:26 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 20:47:44 +0530</lastBuildDate>
+    <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dp</title>
-      <link>http://localhost:1313/blog/tags/dp/</link>
-      <pubDate>Fri, 26 Apr 2024 12:15:26 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/dp/</guid>
+      <title>Cpp</title>
+      <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
+      <pubDate>Wed, 01 May 2024 20:47:44 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
       <title>Leetcode</title>
-      <link>http://localhost:1313/blog/tags/leetcode/</link>
+      <link>https://KTS-o7.github.io/blog/tags/leetcode/</link>
+      <pubDate>Wed, 01 May 2024 20:47:44 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://KTS-o7.github.io/blog/tags/string/</link>
+      <pubDate>Wed, 01 May 2024 20:47:44 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dp</title>
+      <link>https://KTS-o7.github.io/blog/tags/dp/</link>
       <pubDate>Fri, 26 Apr 2024 12:15:26 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/leetcode/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrix</title>
-      <link>http://localhost:1313/blog/tags/matrix/</link>
+      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
       <pubDate>Fri, 26 Apr 2024 12:15:26 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/matrix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cpp</title>
-      <link>http://localhost:1313/blog/tags/cpp/</link>
-      <pubDate>Wed, 24 Apr 2024 13:45:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/cpp/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
-      <link>http://localhost:1313/blog/tags/math/</link>
+      <link>https://KTS-o7.github.io/blog/tags/math/</link>
       <pubDate>Wed, 24 Apr 2024 13:45:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/math/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
       <description></description>
     </item>
     <item>
       <title>Bfs</title>
-      <link>http://localhost:1313/blog/tags/bfs/</link>
+      <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
       <pubDate>Mon, 22 Apr 2024 16:27:12 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/bfs/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph</title>
-      <link>http://localhost:1313/blog/tags/graph/</link>
+      <link>https://KTS-o7.github.io/blog/tags/graph/</link>
       <pubDate>Mon, 22 Apr 2024 16:27:12 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/graph/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/graph/</guid>
       <description></description>
     </item>
     <item>
       <title>Dfs</title>
-      <link>http://localhost:1313/blog/tags/dfs/</link>
+      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
       <pubDate>Sun, 21 Apr 2024 15:42:16 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/dfs/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
       <description></description>
     </item>
     <item>
       <title>Array</title>
-      <link>http://localhost:1313/blog/tags/array/</link>
+      <link>https://KTS-o7.github.io/blog/tags/array/</link>
       <pubDate>Fri, 19 Apr 2024 13:00:30 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/array/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
       <description></description>
     </item>
     <item>
       <title>Binary Tree</title>
-      <link>http://localhost:1313/blog/tags/binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
       <pubDate>Wed, 17 Apr 2024 14:56:36 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberrypi</title>
-      <link>http://localhost:1313/blog/tags/raspberrypi/</link>
+      <link>https://KTS-o7.github.io/blog/tags/raspberrypi/</link>
       <pubDate>Mon, 15 Apr 2024 00:55:16 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/raspberrypi/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/raspberrypi/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
-      <link>http://localhost:1313/blog/tags/setup/</link>
+      <link>https://KTS-o7.github.io/blog/tags/setup/</link>
       <pubDate>Mon, 15 Apr 2024 00:55:16 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/setup/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>New</title>
-      <link>http://localhost:1313/blog/tags/new/</link>
+      <link>https://KTS-o7.github.io/blog/tags/new/</link>
       <pubDate>Sun, 14 Apr 2024 18:45:37 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/new/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>Post</title>
-      <link>http://localhost:1313/blog/tags/post/</link>
+      <link>https://KTS-o7.github.io/blog/tags/post/</link>
       <pubDate>Sun, 14 Apr 2024 18:45:37 +0530</pubDate>
-      <guid>http://localhost:1313/blog/tags/post/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/post/</guid>
       <description></description>
     </item>
   </channel>
