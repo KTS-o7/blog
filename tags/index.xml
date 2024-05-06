@@ -7,13 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sun, 05 May 2024 11:54:45 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2024 15:21:47 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cpp</title>
       <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
-      <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
+      <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linked List</title>
+      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
+      <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monotonic Stack</title>
+      <link>https://KTS-o7.github.io/blog/tags/monotonic-stack/</link>
+      <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/monotonic-stack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pointers</title>
+      <link>https://KTS-o7.github.io/blog/tags/pointers/</link>
+      <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/pointers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stack</title>
+      <link>https://KTS-o7.github.io/blog/tags/stack/</link>
+      <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/stack/</guid>
       <description></description>
     </item>
     <item>
@@ -21,20 +49,6 @@
       <link>https://KTS-o7.github.io/blog/tags/leetcode/</link>
       <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linked List</title>
-      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
-      <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pointers</title>
-      <link>https://KTS-o7.github.io/blog/tags/pointers/</link>
-      <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/pointers/</guid>
       <description></description>
     </item>
     <item>
