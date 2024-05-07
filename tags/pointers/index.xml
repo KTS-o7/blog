@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 06 May 2024 15:21:47 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 07 May 2024 18:14:06 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/pointers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Double a Number Represented as a Linked List</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-double-a-number-represented-as-a-linked-list/</link>
+      <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-double-a-number-represented-as-a-linked-list/</guid>
+      <description>Problem Statement Link - Problem 2816 Question You are given the head of a non-empty linked list representing a non-negative integer without leading zeroes.&#xA;Return the head of the linked list after doubling it&#xA;Example 1 Input graph LR A((1))--&gt;B((8)) B--&gt;C((9)) Output graph LR A((3))--&gt;B((7)) B--&gt;C((8)) Input: head = [1,8,9] Output: [3,7,8] Explanation: The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.</description>
+    </item>
     <item>
       <title>Problem Remove Nodes From Linked List</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-remove-nodes-from-linked-list/</link>
