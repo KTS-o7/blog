@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sun, 12 May 2024 10:58:07 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 20:20:37 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Score After Flipping Matrix</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-score-after-flipping-matrix/</link>
+      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-score-after-flipping-matrix/</guid>
+      <description>Problem Statement Link - Problem 861 Question You are given an m x n binary matrix grid.&#xA;A move consists of choosing any row or column and toggling each value in that row or column (i.e., changing all 0&amp;rsquo;s to 1&amp;rsquo;s, and all 1&amp;rsquo;s to 0&amp;rsquo;s).&#xA;Every row of the matrix is interpreted as a binary number, and the score of the matrix is the sum of these numbers.&#xA;Return the highest possible score after making any number of moves (including zero moves).</description>
+    </item>
     <item>
       <title>Problem Largest Local Values in a Matrix</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-largest-local-values-in-a-matrix/</link>

@@ -7,27 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sun, 12 May 2024 10:58:07 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 20:20:37 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2D Array</title>
-      <link>https://KTS-o7.github.io/blog/tags/2d-array/</link>
-      <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/2d-array/</guid>
+      <title>Bit-Manipulation</title>
+      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
+      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Cpp</title>
       <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
-      <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
+      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greedy</title>
+      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
+      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrix</title>
       <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
-      <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
+      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2D Array</title>
+      <link>https://KTS-o7.github.io/blog/tags/2d-array/</link>
+      <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/2d-array/</guid>
       <description></description>
     </item>
     <item>
@@ -70,13 +84,6 @@
       <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
       <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Greedy</title>
-      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
-      <pubDate>Thu, 09 May 2024 14:35:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
       <description></description>
     </item>
     <item>

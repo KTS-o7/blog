@@ -2,31 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/cpp/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/greedy/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/matrix/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/problem-score-after-flipping-matrix/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-05-13T20:20:37+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/2d-array/</loc>
     <lastmod>2024-05-12T10:58:07+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/cpp/</loc>
-    <lastmod>2024-05-12T10:58:07+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-05-12T10:58:07+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-05-12T10:58:07+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/matrix/</loc>
-    <lastmod>2024-05-12T10:58:07+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-05-12T10:58:07+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-largest-local-values-in-a-matrix/</loc>
-    <lastmod>2024-05-12T10:58:07+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-05-12T10:58:07+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-05-12T10:58:07+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/vector/</loc>
@@ -49,9 +58,6 @@
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-k-th-smallest-prime-fraction/</loc>
     <lastmod>2024-05-10T19:04:08+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/greedy/</loc>
-    <lastmod>2024-05-09T14:35:42+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-maximize-happiness-of-selected-children/</loc>
     <lastmod>2024-05-09T14:35:42+05:30</lastmod>
