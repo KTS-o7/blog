@@ -4,218 +4,225 @@
     <title>Tags on KTS Blog</title>
     <link>https://KTS-o7.github.io/blog/tags/</link>
     <description>Recent content in Tags on KTS Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 13 May 2024 20:20:37 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2024 22:27:55 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bit-Manipulation</title>
-      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
-      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
+      <title>Backtracking</title>
+      <link>https://KTS-o7.github.io/blog/tags/backtracking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/backtracking/</guid>
       <description></description>
     </item>
     <item>
       <title>Cpp</title>
       <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
-      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
-      <title>Greedy</title>
-      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
-      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
+      <title>Dfs</title>
+      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrix</title>
       <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
-      <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bit-Manipulation</title>
+      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greedy</title>
+      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
       <description></description>
     </item>
     <item>
       <title>2D Array</title>
       <link>https://KTS-o7.github.io/blog/tags/2d-array/</link>
-      <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/2d-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Vector</title>
       <link>https://KTS-o7.github.io/blog/tags/vector/</link>
-      <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/vector/</guid>
       <description></description>
     </item>
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
       <description></description>
     </item>
     <item>
       <title>Binary-Search</title>
       <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
-      <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
       <description></description>
     </item>
     <item>
       <title>Heap</title>
       <link>https://KTS-o7.github.io/blog/tags/heap/</link>
-      <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/heap/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
       <link>https://KTS-o7.github.io/blog/tags/math/</link>
-      <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
       <description></description>
     </item>
     <item>
       <title>Priority-Queue</title>
       <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
-      <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
       <description></description>
     </item>
     <item>
       <title>Custom-Comparator</title>
       <link>https://KTS-o7.github.io/blog/tags/custom-comparator/</link>
-      <pubDate>Wed, 08 May 2024 14:24:30 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/custom-comparator/</guid>
       <description></description>
     </item>
     <item>
       <title>Strings</title>
       <link>https://KTS-o7.github.io/blog/tags/strings/</link>
-      <pubDate>Wed, 08 May 2024 14:24:30 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/strings/</guid>
       <description></description>
     </item>
     <item>
       <title>Linked List</title>
       <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
-      <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
       <description></description>
     </item>
     <item>
       <title>Pointers</title>
       <link>https://KTS-o7.github.io/blog/tags/pointers/</link>
-      <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/pointers/</guid>
       <description></description>
     </item>
     <item>
       <title>Stack</title>
       <link>https://KTS-o7.github.io/blog/tags/stack/</link>
-      <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/stack/</guid>
       <description></description>
     </item>
     <item>
       <title>Monotonic Stack</title>
       <link>https://KTS-o7.github.io/blog/tags/monotonic-stack/</link>
-      <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/monotonic-stack/</guid>
       <description></description>
     </item>
     <item>
       <title>Leetcode</title>
       <link>https://KTS-o7.github.io/blog/tags/leetcode/</link>
-      <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/leetcode/</guid>
       <description></description>
     </item>
     <item>
       <title>Medium</title>
       <link>https://KTS-o7.github.io/blog/tags/medium/</link>
-      <pubDate>Sat, 04 May 2024 15:00:06 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/medium/</guid>
       <description></description>
     </item>
     <item>
       <title>Two Pointers</title>
       <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
-      <pubDate>Sat, 04 May 2024 15:00:06 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
       <description></description>
     </item>
     <item>
       <title>String</title>
       <link>https://KTS-o7.github.io/blog/tags/string/</link>
-      <pubDate>Wed, 01 May 2024 20:47:44 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
       <description></description>
     </item>
     <item>
       <title>Dp</title>
       <link>https://KTS-o7.github.io/blog/tags/dp/</link>
-      <pubDate>Fri, 26 Apr 2024 12:15:26 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
       <description></description>
     </item>
     <item>
       <title>Bfs</title>
       <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
-      <pubDate>Mon, 22 Apr 2024 16:27:12 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph</title>
       <link>https://KTS-o7.github.io/blog/tags/graph/</link>
-      <pubDate>Mon, 22 Apr 2024 16:27:12 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/graph/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dfs</title>
-      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
-      <pubDate>Sun, 21 Apr 2024 15:42:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
       <description></description>
     </item>
     <item>
       <title>Binary Tree</title>
       <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
-      <pubDate>Wed, 17 Apr 2024 14:56:36 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberrypi</title>
       <link>https://KTS-o7.github.io/blog/tags/raspberrypi/</link>
-      <pubDate>Mon, 15 Apr 2024 00:55:16 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/raspberrypi/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
       <link>https://KTS-o7.github.io/blog/tags/setup/</link>
-      <pubDate>Mon, 15 Apr 2024 00:55:16 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>New</title>
       <link>https://KTS-o7.github.io/blog/tags/new/</link>
-      <pubDate>Sun, 14 Apr 2024 18:45:37 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>Post</title>
       <link>https://KTS-o7.github.io/blog/tags/post/</link>
-      <pubDate>Sun, 14 Apr 2024 18:45:37 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/post/</guid>
       <description></description>
     </item>

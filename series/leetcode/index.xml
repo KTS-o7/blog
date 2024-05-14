@@ -4,11 +4,18 @@
     <title>Leetcode on KTS Blog</title>
     <link>https://KTS-o7.github.io/blog/series/leetcode/</link>
     <description>Recent content in Leetcode on KTS Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 13 May 2024 20:20:37 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2024 22:27:55 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/series/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Path With Maximum Gold</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-path-with-maximum-gold/</link>
+      <pubDate>Tue, 14 May 2024 22:27:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-path-with-maximum-gold/</guid>
+      <description>Problem Statement Link - Problem 1219 Question In a gold mine grid of size m x n, each cell in this mine has an integer representing the amount of gold in that cell, 0 if it is empty.&#xA;Return the maximum amount of gold you can collect under the conditions:&#xA;Every time you are located in a cell you will collect all the gold in that cell. From your position, you can walk one step to the left, right, up, or down.</description>
+    </item>
     <item>
       <title>Problem Score After Flipping Matrix</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-score-after-flipping-matrix/</link>
