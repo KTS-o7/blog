@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Fri, 17 May 2024 21:05:30 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 10:30:05 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Bit-Manipulation</title>
       <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
@@ -24,10 +17,31 @@
       <description></description>
     </item>
     <item>
-      <title>Cpp</title>
-      <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
+      <title>Greedy</title>
+      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/tree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XOR</title>
+      <link>https://KTS-o7.github.io/blog/tags/xor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/xor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Binary Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
       <description></description>
     </item>
     <item>
@@ -35,6 +49,27 @@
       <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postorder</title>
+      <link>https://KTS-o7.github.io/blog/tags/postorder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/postorder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursion</title>
+      <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cpp</title>
+      <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
@@ -49,13 +84,6 @@
       <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Greedy</title>
-      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
       <description></description>
     </item>
     <item>

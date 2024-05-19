@@ -155,20 +155,21 @@
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/problem-relative-ranks/">
+              <a href="/blog/posts/problem-largest-local-values-in-a-matrix/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/problem-relative-ranks/">Problem Relative Ranks</a>
+                <a href="/blog/posts/problem-largest-local-values-in-a-matrix/">Problem Largest Local Values in a Matrix</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 506 Question You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique.
-The athletes are placed based on their scores, where the 1st place athlete has the highest score, the 2nd place athlete has the 2nd highest score, and so on. The placement of each athlete determines their rank:
+    Problem Statement Link - Problem 2373 Question You are given an n x n integer matrix grid.
+Generate an integer matrix maxLocal of size (n - 2) x (n - 2) such that:
+maxLocal[i][j] is equal to the largest value of the 3 x 3 matrix in grid centered around row i + 1 and column j + 1. In other words, we want to find the largest value in every contiguous 3 x 3 matrix in grid.
   </div>
   
 
@@ -179,7 +180,7 @@ The athletes are placed based on their scores, where the 1st place athlete has t
     
       
       <li>
-        <a href="/blog/tags/priority-queue/"
+        <a href="/blog/tags/matrix/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -191,7 +192,24 @@ The athletes are placed based on their scores, where the 1st place athlete has t
 </svg>
 
           </i>
-          <span class="ml-0">priority-queue</span>
+          <span class="ml-0">matrix</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/2d-array/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">2D array</span>
         </a>
       </li>
       
@@ -229,57 +247,6 @@ The athletes are placed based on their scores, where the 1st place athlete has t
         </a>
       </li>
       
-      <li>
-        <a href="/blog/tags/strings/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">strings</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/heap/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">heap</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/custom-comparator/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">custom-comparator</span>
-        </a>
-      </li>
-      
     
   </ul>
 
@@ -301,8 +268,8 @@ The athletes are placed based on their scores, where the 1st place athlete has t
 </svg>
 
     </i>
-    <time datetime="2024-05-08T14:24:30&#43;05:30">
-      2024-05-08
+    <time datetime="2024-05-12T10:58:07&#43;05:30">
+      2024-05-12
     </time>
   </div>
 
@@ -327,21 +294,21 @@ The athletes are placed based on their scores, where the 1st place athlete has t
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/problem-double-a-number-represented-as-a-linked-list/">
+              <a href="/blog/posts/problem-k-th-smallest-prime-fraction/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/problem-double-a-number-represented-as-a-linked-list/">Problem Double a Number Represented as a Linked List</a>
+                <a href="/blog/posts/problem-k-th-smallest-prime-fraction/">Problem K th Smallest Prime Fraction</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 2816 Question You are given the head of a non-empty linked list representing a non-negative integer without leading zeroes.
-Return the head of the linked list after doubling it
-Example 1 Input graph LR A((1))&ndash;&gt;B((8)) B&ndash;&gt;C((9)) Output graph LR A((3))&ndash;&gt;B((7)) B&ndash;&gt;C((8)) Input: head = [1,8,9] Output: [3,7,8] Explanation: The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.
+    Problem Statement Link - Problem 786 Question You are given a sorted integer array arr containing 1 and prime numbers, where all the integers of arr are unique. You are also given an integer k.
+For every i and j where 0 &lt;= i &lt; j &lt; arr.length, we consider the fraction arr[i] / arr[j].
+Return the kth smallest fraction considered. Return your answer as an array of integers of size 2, where answer[0] == arr[i] and answer[1] == arr[j].
   </div>
   
 
@@ -352,7 +319,7 @@ Example 1 Input graph LR A((1))&ndash;&gt;B((8)) B&ndash;&gt;C((9)) Output graph
     
       
       <li>
-        <a href="/blog/tags/linked-list/"
+        <a href="/blog/tags/priority-queue/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -364,7 +331,75 @@ Example 1 Input graph LR A((1))&ndash;&gt;B((8)) B&ndash;&gt;C((9)) Output graph
 </svg>
 
           </i>
-          <span class="ml-0">linked-list</span>
+          <span class="ml-0">priority-queue</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/binary-search/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">binary-search</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/array/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">array</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/math/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">math</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/heap/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">heap</span>
         </a>
       </li>
       
@@ -382,40 +417,6 @@ Example 1 Input graph LR A((1))&ndash;&gt;B((8)) B&ndash;&gt;C((9)) Output graph
 
           </i>
           <span class="ml-0">cpp</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/stack/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">stack</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/pointers/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">pointers</span>
         </a>
       </li>
       
@@ -440,8 +441,8 @@ Example 1 Input graph LR A((1))&ndash;&gt;B((8)) B&ndash;&gt;C((9)) Output graph
 </svg>
 
     </i>
-    <time datetime="2024-05-07T18:14:06&#43;05:30">
-      2024-05-07
+    <time datetime="2024-05-10T19:04:08&#43;05:30">
+      2024-05-10
     </time>
   </div>
 
@@ -456,7 +457,7 @@ Example 1 Input graph LR A((1))&ndash;&gt;B((8)) B&ndash;&gt;C((9)) Output graph
 
     </i>
     <span>
-      3 minutes to read
+      4 minutes to read
     </span>
   </div>
 </div>
@@ -466,22 +467,21 @@ Example 1 Input graph LR A((1))&ndash;&gt;B((8)) B&ndash;&gt;C((9)) Output graph
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/problem-remove-nodes-from-linked-list/">
+              <a href="/blog/posts/problem-maximize-happiness-of-selected-children/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/problem-remove-nodes-from-linked-list/">Problem Remove Nodes From Linked List</a>
+                <a href="/blog/posts/problem-maximize-happiness-of-selected-children/">Problem Maximize Happiness of Selected Children</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 2487 Question You are given the head of a linked list.
-Remove every node which has a node with a greater value anywhere to the right side of it.
-Return the head of the modified linked list.
-Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt;D((3)) D&ndash;&gt;E((8)) Output graph LR A((13))&ndash;&gt;B((8)) Input: head = [5,2,13,3,8] Output: [13,8] Explanation: The nodes that should be removed are 5, 2 and 3.
+    Problem Statement Link - Problem 3075 Question You are given an array happiness of length n, and a positive integer k.
+There are n children standing in a queue, where the ith child has happiness value happiness[i]. You want to select k children from these n children in k turns.
+In each turn, when you select a child, the happiness value of all the children that have not been selected till now decreases by 1.
   </div>
   
 
@@ -490,74 +490,6 @@ Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt
   <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
     
     
-      
-      <li>
-        <a href="/blog/tags/monotonic-stack/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">monotonic stack</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/linked-list/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">linked list</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/pointers/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">pointers</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/stack/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">stack</span>
-        </a>
-      </li>
       
       <li>
         <a href="/blog/tags/cpp/"
@@ -573,6 +505,74 @@ Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt
 
           </i>
           <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/vector/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">vector</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/heap/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">heap</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/priority-queue/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">priority-queue</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/greedy/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">greedy</span>
         </a>
       </li>
       
@@ -597,8 +597,8 @@ Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt
 </svg>
 
     </i>
-    <time datetime="2024-05-06T15:21:47&#43;05:30">
-      2024-05-06
+    <time datetime="2024-05-09T14:35:42&#43;05:30">
+      2024-05-09
     </time>
   </div>
 
@@ -613,7 +613,7 @@ Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt
 
     </i>
     <span>
-      3 minutes to read
+      4 minutes to read
     </span>
   </div>
 </div>
@@ -753,6 +753,13 @@ Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt
     </li>
     
     <li class="mt-2 mr-2">
+      <a href="/blog/tags/greedy/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        Greedy
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
       <a href="/blog/tags/array/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Array
@@ -760,9 +767,9 @@ Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt
     </li>
     
     <li class="mt-2 mr-2">
-      <a href="/blog/tags/greedy/"
+      <a href="/blog/tags/bit-manipulation/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        Greedy
+        Bit-Manipulation
       </a>
     </li>
     
@@ -777,13 +784,6 @@ Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt
       <a href="/blog/tags/linked-list/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Linked List
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
-      <a href="/blog/tags/pointers/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        Pointers
       </a>
     </li>
     
