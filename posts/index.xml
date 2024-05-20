@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sun, 19 May 2024 10:30:05 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2024 22:32:09 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Sum of All Subset XOR Totals</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-sum-of-all-subset-xor-totals/</link>
+      <pubDate>Mon, 20 May 2024 22:32:09 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-sum-of-all-subset-xor-totals/</guid>
+      <description>Problem Statement Link - Problem 1863 Question The XOR total of an array is defined as the bitwise XOR of all its elements, or 0 if the array is empty.&#xA;For example, the XOR total of the array [2,5,6] is 2 XOR 5 XOR 6 = 1. Given an array nums, return the sum of all XOR totals for every subset of nums.&#xA;Note: Subsets with the same elements should be counted multiple times.</description>
+    </item>
     <item>
       <title>Problem Find the Maximum Sum of Node Values</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-find-the-maximum-sum-of-node-values/</link>
