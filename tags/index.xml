@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Tue, 21 May 2024 21:13:39 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 23:39:58 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backtracking</title>
@@ -24,17 +24,17 @@
       <description></description>
     </item>
     <item>
-      <title>Iterative</title>
-      <link>https://KTS-o7.github.io/blog/tags/iterative/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/iterative/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Recursion</title>
       <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iterative</title>
+      <link>https://KTS-o7.github.io/blog/tags/iterative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/iterative/</guid>
       <description></description>
     </item>
     <item>

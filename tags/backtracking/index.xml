@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Tue, 21 May 2024 21:13:39 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 23:39:58 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/backtracking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Palindrome Partitioning</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-palindrome-partitioning/</link>
+      <pubDate>Wed, 22 May 2024 23:39:58 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-palindrome-partitioning/</guid>
+      <description>Problem Statement Link - Problem 131 Question Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.&#xA;Note to self First we need to split the string into all possible substrings. Then we need to check if each substring is a palindrome or not. If that split is palindromic then we need to add it to the result.</description>
+    </item>
     <item>
       <title>Problem Subsets</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-subsets/</link>
