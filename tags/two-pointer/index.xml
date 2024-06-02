@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Two-Pointer on KTS Blog</title>
+    <link>https://KTS-o7.github.io/blog/tags/two-pointer/</link>
+    <description>Recent content in Two-Pointer on KTS Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Krishnatejaswi S</copyright>
+    <lastBuildDate>Sun, 02 Jun 2024 16:56:53 +0530</lastBuildDate>
+    <atom:link href="https://KTS-o7.github.io/blog/tags/two-pointer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Reverse String</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-reverse-string/</link>
+      <pubDate>Sun, 02 Jun 2024 16:56:53 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-reverse-string/</guid>
+      <description>Problem Statement Link - Problem 344 Question Write a function that reverses a string. The input string is given as an array of characters s.&#xA;You must do this by modifying the input array in-place with O(1) extra memory.&#xA;Example 1 Input: s = [&amp;#34;h&amp;#34;,&amp;#34;e&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;o&amp;#34;] Output: [&amp;#34;o&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;e&amp;#34;,&amp;#34;h&amp;#34;] Example 2 Input: s = [&amp;#34;H&amp;#34;,&amp;#34;a&amp;#34;,&amp;#34;n&amp;#34;,&amp;#34;n&amp;#34;,&amp;#34;a&amp;#34;,&amp;#34;h&amp;#34;] Output: [&amp;#34;h&amp;#34;,&amp;#34;a&amp;#34;,&amp;#34;n&amp;#34;,&amp;#34;n&amp;#34;,&amp;#34;a&amp;#34;,&amp;#34;H&amp;#34;] Constraints 1 &amp;lt;= s.length &amp;lt;= 10^5 s[i] is a printable ascii character. Solution class Solution { public: void reverseString(vector&amp;lt;char&amp;gt;&amp;amp; s) { int start = 0, end = s.</description>
+    </item>
+  </channel>
+</rss>
