@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 23:34:53 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2024 11:56:40 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hashmap</title>
+      <link>https://KTS-o7.github.io/blog/tags/hashmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/hashmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prefix-Sum</title>
+      <link>https://KTS-o7.github.io/blog/tags/prefix-sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/prefix-sum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prefixsum</title>
+      <link>https://KTS-o7.github.io/blog/tags/prefixsum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/prefixsum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vector</title>
+      <link>https://KTS-o7.github.io/blog/tags/vector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/vector/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
@@ -28,13 +56,6 @@
       <link>https://KTS-o7.github.io/blog/tags/string/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vector</title>
-      <link>https://KTS-o7.github.io/blog/tags/vector/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/vector/</guid>
       <description></description>
     </item>
     <item>
