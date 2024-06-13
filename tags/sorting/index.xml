@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Wed, 12 Jun 2024 18:48:37 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jun 2024 21:56:56 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Minimum Number of Moves to Seat Everyone</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</link>
+      <pubDate>Thu, 13 Jun 2024 21:56:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</guid>
+      <description>Problem Statement Link - Problem 2037 Question There are n seats and n students in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.&#xA;You may perform the following move any number of times:&#xA;Increase or decrease the position of the ith student by 1 (i.</description>
+    </item>
     <item>
       <title>Problem Sort Colors</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-sort-colors/</link>
