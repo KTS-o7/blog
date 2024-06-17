@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
+    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/problem-sum-of-square-numbers/</loc>
+    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/two-pointer/</loc>
+    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
     <lastmod>2024-06-15T10:35:35+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/greedy/</loc>
-    <lastmod>2024-06-15T10:35:35+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-06-15T10:35:35+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
     <lastmod>2024-06-15T10:35:35+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/max-heap/</loc>
@@ -20,16 +38,7 @@
     <loc>https://KTS-o7.github.io/blog/tags/min-heap/</loc>
     <lastmod>2024-06-15T10:35:35+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-06-15T10:35:35+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-ipo/</loc>
-    <lastmod>2024-06-15T10:35:35+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-06-15T10:35:35+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-06-15T10:35:35+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-minimum-increment-to-make-array-unique/</loc>
@@ -42,9 +51,6 @@
     <lastmod>2024-06-13T21:56:56+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-sort-colors/</loc>
-    <lastmod>2024-06-12T18:48:37+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/two-pointer/</loc>
     <lastmod>2024-06-12T18:48:37+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/count-sort/</loc>
@@ -177,9 +183,6 @@
     <lastmod>2024-05-10T19:04:08+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/heap/</loc>
-    <lastmod>2024-05-10T19:04:08+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
     <lastmod>2024-05-10T19:04:08+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/priority-queue/</loc>
