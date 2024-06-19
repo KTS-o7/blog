@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Binary-Search on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
-    <description>Recent content in Binary-Search on KTS Blog</description>
+    <title>Binary-Search-on-Answer on KTS Blog</title>
+    <link>https://KTS-o7.github.io/blog/tags/binary-search-on-answer/</link>
+    <description>Recent content in Binary-Search-on-Answer on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Wed, 19 Jun 2024 23:03:42 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/binary-search/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/binary-search-on-answer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem Minimum Number of Days to Make M Bouquets</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</link>
       <pubDate>Wed, 19 Jun 2024 23:03:42 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
       <description>Problem Statement Link - Problem 1482 Question You are given an integer array bloomDay, an integer m and an integer k.&#xA;You want to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden.&#xA;The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet.&#xA;Return the minimum number of days you need to wait to be able to make m bouquets from the garden.</description>
-    </item>
-    <item>
-      <title>Problem K th Smallest Prime Fraction</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-k-th-smallest-prime-fraction/</link>
-      <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-k-th-smallest-prime-fraction/</guid>
-      <description>Problem Statement Link - Problem 786 Question You are given a sorted integer array arr containing 1 and prime numbers, where all the integers of arr are unique. You are also given an integer k.&#xA;For every i and j where 0 &amp;lt;= i &amp;lt; j &amp;lt; arr.length, we consider the fraction arr[i] / arr[j].&#xA;Return the kth smallest fraction considered. Return your answer as an array of integers of size 2, where answer[0] == arr[i] and answer[1] == arr[j].</description>
     </item>
   </channel>
 </rss>
