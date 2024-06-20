@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Wed, 19 Jun 2024 23:03:42 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 21:42:43 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Magnetic Force Between Two Balls</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-magnetic-force-between-two-balls/</link>
+      <pubDate>Thu, 20 Jun 2024 21:42:43 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-magnetic-force-between-two-balls/</guid>
+      <description>Problem Statement Link - Problem 1552 Question In the universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put in his new invented basket. Rick has n empty baskets, the ith basket is at position[i], Morty has m balls and needs to distribute the balls into the baskets such that the minimum magnetic force between any two balls is maximum.&#xA;Rick stated that magnetic force between two different balls at positions x and y is |x - y|.</description>
+    </item>
     <item>
       <title>Problem Minimum Number of Days to Make M Bouquets</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</link>
