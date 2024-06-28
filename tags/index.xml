@@ -7,20 +7,41 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 27 Jun 2024 10:59:29 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2024 19:39:10 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Degree</title>
-      <link>https://KTS-o7.github.io/blog/tags/degree/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/degree/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Graph</title>
       <link>https://KTS-o7.github.io/blog/tags/graph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/graph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Undirected-Graph</title>
+      <link>https://KTS-o7.github.io/blog/tags/undirected-graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/undirected-graph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vector</title>
+      <link>https://KTS-o7.github.io/blog/tags/vector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/vector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Degree</title>
+      <link>https://KTS-o7.github.io/blog/tags/degree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/degree/</guid>
       <description></description>
     </item>
     <item>
@@ -108,13 +129,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sorting</title>
-      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Math</title>
       <link>https://KTS-o7.github.io/blog/tags/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -154,13 +168,6 @@
       <link>https://KTS-o7.github.io/blog/tags/hash-map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/hash-map/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vector</title>
-      <link>https://KTS-o7.github.io/blog/tags/vector/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/vector/</guid>
       <description></description>
     </item>
     <item>
