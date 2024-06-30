@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sat, 29 Jun 2024 10:39:42 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2024 18:59:42 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursion</title>
+      <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/tree/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Adjacency-List</title>
       <link>https://KTS-o7.github.io/blog/tags/adjacency-list/</link>
@@ -73,13 +94,6 @@
       <description></description>
     </item>
     <item>
-      <title>Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Binary-Search-Tree</title>
       <link>https://KTS-o7.github.io/blog/tags/binary-search-tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -91,13 +105,6 @@
       <link>https://KTS-o7.github.io/blog/tags/inorder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/inorder/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recursion</title>
-      <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
       <description></description>
     </item>
     <item>
@@ -273,13 +280,6 @@
       <link>https://KTS-o7.github.io/blog/tags/iterative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/iterative/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tree</title>
-      <link>https://KTS-o7.github.io/blog/tags/tree/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/tree/</guid>
       <description></description>
     </item>
     <item>

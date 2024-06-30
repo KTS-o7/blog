@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/binary-tree/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/problem-invert-binary-tree/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/recursion/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/tree/</loc>
+    <lastmod>2024-06-30T18:59:42+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/adjacency-list/</loc>
     <lastmod>2024-06-29T10:39:42+05:30</lastmod>
   </url><url>
@@ -14,22 +41,7 @@
     <loc>https://KTS-o7.github.io/blog/tags/graph/</loc>
     <lastmod>2024-06-29T10:39:42+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-06-29T10:39:42+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-06-29T10:39:42+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-06-29T10:39:42+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</loc>
-    <lastmod>2024-06-29T10:39:42+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-06-29T10:39:42+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-06-29T10:39:42+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-maximum-total-importance-of-roads/</loc>
@@ -53,9 +65,6 @@
     <loc>https://KTS-o7.github.io/blog/tags/star-graph/</loc>
     <lastmod>2024-06-27T10:59:29+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-tree/</loc>
-    <lastmod>2024-06-26T14:23:32+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/binary-search-tree/</loc>
     <lastmod>2024-06-26T14:23:32+05:30</lastmod>
   </url><url>
@@ -63,9 +72,6 @@
     <lastmod>2024-06-26T14:23:32+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-balance-a-binary-search-tree/</loc>
-    <lastmod>2024-06-26T14:23:32+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/recursion/</loc>
     <lastmod>2024-06-26T14:23:32+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-binary-search-tree-to-greater-sum-tree/</loc>
@@ -204,9 +210,6 @@
     <lastmod>2024-05-20T22:32:09+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-find-the-maximum-sum-of-node-values/</loc>
-    <lastmod>2024-05-19T10:30:05+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/tree/</loc>
     <lastmod>2024-05-19T10:30:05+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/xor/</loc>
