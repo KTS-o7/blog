@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Wed, 03 Jul 2024 21:40:45 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2024 21:58:32 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Merge Nodes in Between Zeros</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-merge-nodes-in-between-zeros/</link>
+      <pubDate>Thu, 04 Jul 2024 21:58:32 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-merge-nodes-in-between-zeros/</guid>
+      <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&amp;rsquo;s. The beginning and end of the linked list will have Node.val == 0.&#xA;For every two consecutive 0&amp;rsquo;s, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0&amp;rsquo;s.</description>
+    </item>
     <item>
       <title>Problem Minimum Difference Between Largest and Smallest Value in Three Moves</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</link>
