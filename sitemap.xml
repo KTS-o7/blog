@@ -3,27 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-07-04T21:58:32+05:30</lastmod>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-07-04T21:58:32+05:30</lastmod>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
-    <lastmod>2024-07-04T21:58:32+05:30</lastmod>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/pointers/</loc>
-    <lastmod>2024-07-04T21:58:32+05:30</lastmod>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-07-04T21:58:32+05:30</lastmod>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/problem-merge-nodes-in-between-zeros/</loc>
-    <lastmod>2024-07-04T21:58:32+05:30</lastmod>
+    <loc>https://KTS-o7.github.io/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</loc>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-07-04T21:58:32+05:30</lastmod>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-07-05T18:54:28+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/problem-merge-nodes-in-between-zeros/</loc>
     <lastmod>2024-07-04T21:58:32+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/greedy/</loc>
@@ -136,9 +142,6 @@
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-most-profit-assigning-work/</loc>
     <lastmod>2024-06-18T20:52:44+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
-    <lastmod>2024-06-17T18:55:17+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/problem-sum-of-square-numbers/</loc>
     <lastmod>2024-06-17T18:55:17+05:30</lastmod>
