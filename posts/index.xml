@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sat, 06 Jul 2024 16:45:27 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jul 2024 17:59:47 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Water Bottles</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-water-bottles/</link>
+      <pubDate>Sun, 07 Jul 2024 17:59:47 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-water-bottles/</guid>
+      <description>Problem Statement Link - Problem 1518 Question There are numBottles water bottles that are initially full of water. You can exchange bumExchange empty water bottles for one full water bottle. The operation of drinking a full water bottle turns it into an empty bottle.&#xA;Given two integers numBottles and numExchange, return the maximum number of water bottles you can drink.&#xA;Example 1 Input: numBottles = 9, numExchange = 3 Output: 13 Explanation: You can exchange 3 empty bottles to get 1 full water bottle.</description>
+    </item>
     <item>
       <title>Problem Pass the Pillow</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-pass-the-pillow/</link>
