@@ -2,438 +2,445 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/posts/</link>
+    <link>http://localhost:1313/blog/posts/</link>
     <description>Recent content in Posts on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Tue, 09 Jul 2024 00:39:33 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 23:52:07 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Average Waiting Time</title>
+      <link>http://localhost:1313/blog/posts/problem-average-waiting-time/</link>
+      <pubDate>Tue, 09 Jul 2024 23:52:07 +0530</pubDate>
+      <guid>http://localhost:1313/blog/posts/problem-average-waiting-time/</guid>
+      <description>Problem Statement Link - Problem 1701 Question There is a restaurant with a single chef. You are given an array customers, where customers[i] = [arrivali, timei]:&#xA;- arrivali is the arrival time of the ith customer. The arrival times are sorted in non-decreasing order.&#xA;timei is the time needed to prepare the order of the ith customer. When a customer arrives, he gives the chef his order, and the chef starts preparing it once he is idle.</description>
+    </item>
     <item>
       <title>Problem Find the Winner of the Circular Game</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-the-winner-of-the-circular-game/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-the-winner-of-the-circular-game/</link>
       <pubDate>Tue, 09 Jul 2024 00:39:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-the-winner-of-the-circular-game/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-the-winner-of-the-circular-game/</guid>
       <description>Problem Statement Link - Problem 1823 Question There are n friends that are playing a game. The friends are sitting in a circle and are numbered from 1 to n in clockwise order. More formally, moving clockwise from the ith friend brings you to the (i+1)th friend for 1 &amp;lt;= i &amp;lt; n, and moving clockwise from the nth friend brings you to the 1st friend.&#xA;The rules of the game are as follows:</description>
     </item>
     <item>
       <title>Problem Water Bottles</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-water-bottles/</link>
+      <link>http://localhost:1313/blog/posts/problem-water-bottles/</link>
       <pubDate>Sun, 07 Jul 2024 17:59:47 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-water-bottles/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-water-bottles/</guid>
       <description>Problem Statement Link - Problem 1518 Question There are numBottles water bottles that are initially full of water. You can exchange bumExchange empty water bottles for one full water bottle. The operation of drinking a full water bottle turns it into an empty bottle.&#xA;Given two integers numBottles and numExchange, return the maximum number of water bottles you can drink.&#xA;Example 1 Input: numBottles = 9, numExchange = 3 Output: 13 Explanation: You can exchange 3 empty bottles to get 1 full water bottle.</description>
     </item>
     <item>
       <title>Problem Pass the Pillow</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-pass-the-pillow/</link>
+      <link>http://localhost:1313/blog/posts/problem-pass-the-pillow/</link>
       <pubDate>Sat, 06 Jul 2024 16:45:27 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-pass-the-pillow/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-pass-the-pillow/</guid>
       <description>Problem Statement Link - Problem 2582 Question There are n people standing in a line labeled from 1 to n. The first person in the line is holding a pillow initially. Every second, the person holding the pillow passes it to the next person standing in the line. Once the pillow reaches the end of the line, the direction changes, and people continue passing the pillow in the opposite direction.</description>
     </item>
     <item>
       <title>Problem Find the Minimum and Maximum Number of Nodes Between Critical Points</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
       <pubDate>Fri, 05 Jul 2024 18:54:28 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
       <description>Problem Statement Link - Problem 2058 Question A critical point in a linked list is defined as either a local maxima or a local minima.&#xA;A node is a local maxima if the current node has a value strictly greater than the previous node and the next node.&#xA;A node is a local minima if the current node has a value strictly smaller than the previous node and the next node.</description>
     </item>
     <item>
       <title>Problem Merge Nodes in Between Zeros</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-merge-nodes-in-between-zeros/</link>
+      <link>http://localhost:1313/blog/posts/problem-merge-nodes-in-between-zeros/</link>
       <pubDate>Thu, 04 Jul 2024 21:58:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-merge-nodes-in-between-zeros/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-merge-nodes-in-between-zeros/</guid>
       <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&amp;rsquo;s. The beginning and end of the linked list will have Node.val == 0.&#xA;For every two consecutive 0&amp;rsquo;s, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0&amp;rsquo;s.</description>
     </item>
     <item>
       <title>Problem Minimum Difference Between Largest and Smallest Value in Three Moves</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</link>
+      <link>http://localhost:1313/blog/posts/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</link>
       <pubDate>Wed, 03 Jul 2024 21:40:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</guid>
       <description>Problem Statement Link - Problem 1509 Question You are given an integer array nums.&#xA;In one move, you can choose one element of nums and change it to any value.&#xA;Return the minimum difference between the largest and smallest value of nums after performing at most three moves&#xA;Example 1 Input: nums = [5,3,2,4] Output: 0 Explanation: We can make at most 3 moves. In the first move, change 2 to 3.</description>
     </item>
     <item>
       <title>Problem Intersection of Two Arrays II</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-intersection-of-two-arrays-ii/</link>
+      <link>http://localhost:1313/blog/posts/problem-intersection-of-two-arrays-ii/</link>
       <pubDate>Tue, 02 Jul 2024 22:34:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-intersection-of-two-arrays-ii/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-intersection-of-two-arrays-ii/</guid>
       <description>Problem Statement Link - Problem 350 Question Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.&#xA;Example 1 Input: nums1 = [1,2,2,1], nums2 = [2,2] Output: [2,2] Example 2 Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4] Output: [4,9] Explanation: [9,4] is also accepted.</description>
     </item>
     <item>
       <title>Problem Three Consecutive Odds</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-three-consecutive-odds/</link>
+      <link>http://localhost:1313/blog/posts/problem-three-consecutive-odds/</link>
       <pubDate>Mon, 01 Jul 2024 18:55:41 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-three-consecutive-odds/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-three-consecutive-odds/</guid>
       <description>Problem Statement Link - Problem 1550 Question Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.&#xA;Example 1 Input: arr = [2,6,4,1] Output: false Explanation: There are no three consecutive odds. Example 2 Input: arr = [1,2,34,3,4,5,7,23,12] Output: true Explanation: [5,7,23] are three consecutive odds. Constraints - `1 &amp;lt;= arr.length &amp;lt;= 1000` - `1 &amp;lt;= arr[i] &amp;lt;= 1000` Solution class Solution { public: bool threeConsecutiveOdds(vector&amp;lt;int&amp;gt;&amp;amp; arr) { if(arr.</description>
     </item>
     <item>
       <title>Problem Invert Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-invert-binary-tree/</link>
+      <link>http://localhost:1313/blog/posts/problem-invert-binary-tree/</link>
       <pubDate>Sun, 30 Jun 2024 18:59:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-invert-binary-tree/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-invert-binary-tree/</guid>
       <description>Problem Statement Link - Problem 226 Question Given the root of a binary tree, invert the tree and return its root.&#xA;Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 4 --- 2 4 --- 7 2 --- 1 2 --- 3 7 --- 6 7 --- 9 Output : graph TD 4 --- 7 4 --- 2 7 --- 9 7 --- 6 2 --- 3 2 --- 1 Example 2 Input: root = [2,1,3] Output: [2,3,1] Input : graph TD 2 --- 1 2 --- 3 Output : graph TD 2 --- 3 2 --- 1 Example 3 Input: root = [] Output: [] Constraints - The number of nodes in the tree is in the range `[0, 100]`.</description>
     </item>
     <item>
       <title>Problem All Ancestors of a Node in a DAG</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</link>
+      <link>http://localhost:1313/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</link>
       <pubDate>Sat, 29 Jun 2024 10:39:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</guid>
       <description>Problem Statement Link - Problem 2192 Question You are given a positive integer n representing the number of nodes of a Directed Acyclic Graph (DAG). The nodes are numbered from 0 to n - 1 (inclusive).&#xA;You are also given a 2D integer array edges, where edges[i] = [fromi, toi] denotes that there is a unidirectional edge from fromi to toi in the graph.&#xA;Return a list answer, where answer[i] is the list of ancestors of the ith node, sorted in ascending order.</description>
     </item>
     <item>
       <title>Problem Maximum Total Importance of Roads</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-maximum-total-importance-of-roads/</link>
+      <link>http://localhost:1313/blog/posts/problem-maximum-total-importance-of-roads/</link>
       <pubDate>Fri, 28 Jun 2024 19:39:10 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-maximum-total-importance-of-roads/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-maximum-total-importance-of-roads/</guid>
       <description>Problem Statement Link - Problem 2285 Question You are given an integer n denoting the number of cities in a country. The cities are numbered from 0 to n - 1.&#xA;You are also given a 2D integer array roads where roads[i] = [ai, bi] denotes that there exists a bidirectional road connecting cities ai and bi.&#xA;You need to assign each city with an integer value from 1 to n, where each value can only be used once.</description>
     </item>
     <item>
       <title>Problem Find Center of Star Graph</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-center-of-star-graph/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-center-of-star-graph/</link>
       <pubDate>Thu, 27 Jun 2024 10:59:29 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-center-of-star-graph/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-center-of-star-graph/</guid>
       <description>Problem Statement Link - Problem 1791 Question There is an undirected star graph consisting of n nodes labeled from 1 to n. A star graph is a graph where there is one center node and exactly n - 1 edges that connect the center node with every other node.&#xA;You are given a 2D integer array edges where each edges[i] = [ui, vi] indicates that there is an edge between the nodes ui and vi.</description>
     </item>
     <item>
       <title>Problem Balance a Binary Search Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-balance-a-binary-search-tree/</link>
+      <link>http://localhost:1313/blog/posts/problem-balance-a-binary-search-tree/</link>
       <pubDate>Wed, 26 Jun 2024 14:23:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-balance-a-binary-search-tree/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-balance-a-binary-search-tree/</guid>
       <description>Problem Statement Link - Problem 1382 Question Given the root of a binary search tree, return a balanced binary search tree with the same node values. If there is more than one answer, return any of them.&#xA;A binary search tree is balanced if the depth of the two subtrees of every node never differs by more than 1.&#xA;Example 1 Input: root = [1,null,2,null,3,null,4,null,null] Output: [2,1,3,null,null,null,4] Explanation: This is not the only correct answer, [3,1,4,null,2] is also correct.</description>
     </item>
     <item>
       <title>Problem Binary Search Tree to Greater Sum Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-binary-search-tree-to-greater-sum-tree/</link>
+      <link>http://localhost:1313/blog/posts/problem-binary-search-tree-to-greater-sum-tree/</link>
       <pubDate>Tue, 25 Jun 2024 09:30:02 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-binary-search-tree-to-greater-sum-tree/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-binary-search-tree-to-greater-sum-tree/</guid>
       <description>Problem Statement Link - Problem 1038 Question Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus the sum of all keys greater than the original key in BST.&#xA;As a reminder, a binary search tree is a tree that satisfies these constraints:&#xA;The left subtree of a node contains only nodes with keys less than the node&amp;rsquo;s key.</description>
     </item>
     <item>
       <title>Problem Magnetic Force Between Two Balls</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-magnetic-force-between-two-balls/</link>
+      <link>http://localhost:1313/blog/posts/problem-magnetic-force-between-two-balls/</link>
       <pubDate>Thu, 20 Jun 2024 21:42:43 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-magnetic-force-between-two-balls/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-magnetic-force-between-two-balls/</guid>
       <description>Problem Statement Link - Problem 1552 Question In the universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put in his new invented basket. Rick has n empty baskets, the ith basket is at position[i], Morty has m balls and needs to distribute the balls into the baskets such that the minimum magnetic force between any two balls is maximum.&#xA;Rick stated that magnetic force between two different balls at positions x and y is |x - y|.</description>
     </item>
     <item>
       <title>Problem Minimum Number of Days to Make M Bouquets</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</link>
+      <link>http://localhost:1313/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</link>
       <pubDate>Wed, 19 Jun 2024 23:03:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
       <description>Problem Statement Link - Problem 1482 Question You are given an integer array bloomDay, an integer m and an integer k.&#xA;You want to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden.&#xA;The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet.&#xA;Return the minimum number of days you need to wait to be able to make m bouquets from the garden.</description>
     </item>
     <item>
       <title>Problem Most Profit Assigning Work</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-most-profit-assigning-work/</link>
+      <link>http://localhost:1313/blog/posts/problem-most-profit-assigning-work/</link>
       <pubDate>Tue, 18 Jun 2024 20:52:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-most-profit-assigning-work/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-most-profit-assigning-work/</guid>
       <description>Problem Statement Link - Problem 826 Question You have n jobs and m workers. You are given three arrays: difficulty, profit, and worker where:&#xA;difficulty[i] and profit[i] are the difficulty and the profit of the ith job, and&#xA;worker[j] is the ability of jth worker (i.e., the jth worker can only complete a job with difficulty at most worker[j]). Every worker can be assigned at most one job, but one job can be completed multiple times.</description>
     </item>
     <item>
       <title>Problem Sum of Square Numbers</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-sum-of-square-numbers/</link>
+      <link>http://localhost:1313/blog/posts/problem-sum-of-square-numbers/</link>
       <pubDate>Mon, 17 Jun 2024 18:55:17 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-sum-of-square-numbers/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-sum-of-square-numbers/</guid>
       <description>Problem Statement Link - Problem 633 Question Given a non-negative integer c, decide whether there are two integers a and b such that a^2 + b^2 = c.&#xA;Note Even thought it doesn&amp;rsquo;t say in the question , the numbers can be equal, ie a=b is valid. since we are talking about square sums, it is safe to say that values of any one of variable can be atmost sqrt(c) Example 1 Input: c = 5 Output: true Explanation: 1 * 1 + 2 * 2 = 5 Example 2 Input: c = 3 Output: false Constraints 0 &amp;lt;= c &amp;lt;= 2^31 - 1 Solution class Solution { public: bool judgeSquareSum(int c) { long long int l =0,r = sqrt(c); long long int sum; while(l&amp;lt;=r) { sum = l*l + r*r; if(sum == c) return true; else if(sum&amp;gt;c) r--; else l++; } return false; } }; Complexity Analysis Time Complexity : O(sqrt(n)) Space Complexity : O(1) Explanation 1.</description>
     </item>
     <item>
       <title>Problem IPO</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-ipo/</link>
+      <link>http://localhost:1313/blog/posts/problem-ipo/</link>
       <pubDate>Sat, 15 Jun 2024 10:35:35 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-ipo/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-ipo/</guid>
       <description>Problem Statement Link - Problem 502 Question Suppose LeetCode will start its IPO soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on some projects to increase its capital before the IPO. Since it has limited resources, it can only finish at most k distinct projects before the IPO. Help LeetCode design the best way to maximize its total capital after finishing at most k distinct projects.</description>
     </item>
     <item>
       <title>Problem Minimum Increment to Make Array Unique</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-increment-to-make-array-unique/</link>
+      <link>http://localhost:1313/blog/posts/problem-minimum-increment-to-make-array-unique/</link>
       <pubDate>Fri, 14 Jun 2024 21:23:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-increment-to-make-array-unique/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-minimum-increment-to-make-array-unique/</guid>
       <description>Problem Statement Link - Problem 945 Question You are given an integer array nums. In one move, you can pick an index i where 0 &amp;lt;= i &amp;lt; nums.length and increment nums[i] by 1.&#xA;Return the minimum number of moves to make every value in nums unique.&#xA;The test cases are generated so that the answer fits in a 32-bit integer.&#xA;Example 1 Input: nums = [1,2,2] Output: 1 Explanation: After 1 move, the array could be [1, 2, 3].</description>
     </item>
     <item>
       <title>Problem Minimum Number of Moves to Seat Everyone</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</link>
+      <link>http://localhost:1313/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</link>
       <pubDate>Thu, 13 Jun 2024 21:56:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</guid>
       <description>Problem Statement Link - Problem 2037 Question There are n seats and n students in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.&#xA;You may perform the following move any number of times:&#xA;Increase or decrease the position of the ith student by 1 (i.</description>
     </item>
     <item>
       <title>Problem Sort Colors</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-sort-colors/</link>
+      <link>http://localhost:1313/blog/posts/problem-sort-colors/</link>
       <pubDate>Wed, 12 Jun 2024 18:48:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-sort-colors/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-sort-colors/</guid>
       <description>Problem Statement Link - Problem 75 Question Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.&#xA;We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.&#xA;You must solve this problem without using the library&amp;rsquo;s sort function.</description>
     </item>
     <item>
       <title>Problem Relative Sort Array</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-relative-sort-array/</link>
+      <link>http://localhost:1313/blog/posts/problem-relative-sort-array/</link>
       <pubDate>Tue, 11 Jun 2024 14:35:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-relative-sort-array/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-relative-sort-array/</guid>
       <description>Problem Statement Link - Problem 1122 Question Given two arrays arr1 and arr2, the elements of arr2 are distinct, and all elements in arr2 are also in arr1.&#xA;Sort the elements of arr1 such that the relative ordering of items in arr1 are the same as in arr2. Elements that do not appear in arr2 should be placed at the end of arr1 in ascending order.&#xA;Example 1 Input: arr1 = [2,3,1,3,2,4,6,7,9,2,19], arr2 = [2,1,4,3,9,6] Output: [2,2,2,1,4,3,3,9,6,7,19] Example 2 Input: arr1 = [28,6,22,8,44,17], arr2 = [22,28,8,6] Output: [22,28,8,6,17,44] Constraints 1 &amp;lt;= arr1.</description>
     </item>
     <item>
       <title>Problem Single Number</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-single-number/</link>
+      <link>http://localhost:1313/blog/posts/problem-single-number/</link>
       <pubDate>Mon, 10 Jun 2024 21:33:50 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-single-number/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-single-number/</guid>
       <description>Problem Statement Link - Problem 136 Question Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.&#xA;You must implement a solution with a linear runtime complexity and use only constant extra space.&#xA;Note We need O(1) space and O(n) time complexity. That means we cant use any other space to store frequency of elements and cant sort the array and check for the element which is not repeated.</description>
     </item>
     <item>
       <title>Problem Height Checker</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-height-checker/</link>
+      <link>http://localhost:1313/blog/posts/problem-height-checker/</link>
       <pubDate>Mon, 10 Jun 2024 21:19:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-height-checker/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-height-checker/</guid>
       <description>Problem Statement Link - Problem 1051 Question A school is trying to take an annual photo of all the students. The students are asked to stand in a single file line in non-decreasing order by height. Let this ordering be represented by the integer array expected where expected[i] is the expected height of the ith student in line.&#xA;You are given an integer array heights representing the current order that the students are standing in.</description>
     </item>
     <item>
       <title>Problem Continuous Subarray Sum</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-continuous-subarray-sum/</link>
+      <link>http://localhost:1313/blog/posts/problem-continuous-subarray-sum/</link>
       <pubDate>Sat, 08 Jun 2024 11:56:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-continuous-subarray-sum/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-continuous-subarray-sum/</guid>
       <description>Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.&#xA;A good subarray is a subarray where:&#xA;its length is at least two, and the sum of the elements of the subarray is a multiple of k.&#xA;Note A subarray is a contiguous part of the array. An integer x is a multiple of k if there exists an integer n such that x = n * k.</description>
     </item>
     <item>
       <title>Problem Find Common Characters</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-common-characters/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-common-characters/</link>
       <pubDate>Thu, 06 Jun 2024 23:34:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-common-characters/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-common-characters/</guid>
       <description>Problem Statement Link - Problem 1002 Question Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates). You may return the answer in any order.&#xA;Example 1 Input: words = [&amp;#34;bella&amp;#34;,&amp;#34;label&amp;#34;,&amp;#34;roller&amp;#34;] Output: [&amp;#34;e&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;l&amp;#34;] Example 2 Input: words = [&amp;#34;cool&amp;#34;,&amp;#34;lock&amp;#34;,&amp;#34;cook&amp;#34;] Output: [&amp;#34;c&amp;#34;,&amp;#34;o&amp;#34;] Constraints 1 &amp;lt;= words.length &amp;lt;= 100 1 &amp;lt;= words[i].length &amp;lt;= 100 words[i] consists of lowercase English letters. Solution class Solution { public: vector&amp;lt;string&amp;gt; commonChars(vector&amp;lt;string&amp;gt;&amp;amp; words) { vector&amp;lt;int&amp;gt;baselineCount(26,0); string temp; for(int i =0;i&amp;lt;words[0].</description>
     </item>
     <item>
       <title>Problem Hand of Straights</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-hand-of-straights/</link>
+      <link>http://localhost:1313/blog/posts/problem-hand-of-straights/</link>
       <pubDate>Thu, 06 Jun 2024 23:33:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-hand-of-straights/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-hand-of-straights/</guid>
       <description>Problem Statement Link - Problem 846 Question Alice has some number of cards and she wants to rearrange the cards into groups so that each group is of size groupSize, and consists of groupSize consecutive cards.&#xA;Given an integer array hand where hand[i] is the value written on the ith card and an integer groupSize, return true if she can rearrange the cards, or false otherwise.&#xA;Note : Only groupSize matters not the number of groups.</description>
     </item>
     <item>
       <title>Problem Reverse String</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-reverse-string/</link>
+      <link>http://localhost:1313/blog/posts/problem-reverse-string/</link>
       <pubDate>Sun, 02 Jun 2024 16:56:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-reverse-string/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-reverse-string/</guid>
       <description>Problem Statement Link - Problem 344 Question Write a function that reverses a string. The input string is given as an array of characters s.&#xA;You must do this by modifying the input array in-place with O(1) extra memory.&#xA;Example 1 Input: s = [&amp;#34;h&amp;#34;,&amp;#34;e&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;o&amp;#34;] Output: [&amp;#34;o&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;e&amp;#34;,&amp;#34;h&amp;#34;] Example 2 Input: s = [&amp;#34;H&amp;#34;,&amp;#34;a&amp;#34;,&amp;#34;n&amp;#34;,&amp;#34;n&amp;#34;,&amp;#34;a&amp;#34;,&amp;#34;h&amp;#34;] Output: [&amp;#34;h&amp;#34;,&amp;#34;a&amp;#34;,&amp;#34;n&amp;#34;,&amp;#34;n&amp;#34;,&amp;#34;a&amp;#34;,&amp;#34;H&amp;#34;] Constraints 1 &amp;lt;= s.length &amp;lt;= 10^5 s[i] is a printable ascii character. Solution class Solution { public: void reverseString(vector&amp;lt;char&amp;gt;&amp;amp; s) { int start = 0, end = s.</description>
     </item>
     <item>
       <title>Problem Score of a String</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-score-of-a-string/</link>
+      <link>http://localhost:1313/blog/posts/problem-score-of-a-string/</link>
       <pubDate>Sat, 01 Jun 2024 11:51:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-score-of-a-string/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-score-of-a-string/</guid>
       <description>Problem Statement Link - Problem 3110 Question You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.&#xA;Return the score of s.&#xA;Example 1 Input: s = &amp;#34;hello&amp;#34; Output: 13 Explanation: The ASCII values of the characters in s are: &amp;#39;h&amp;#39; = 104, &amp;#39;e&amp;#39; = 101, &amp;#39;l&amp;#39; = 108, &amp;#39;o&amp;#39; = 111. So, the score of s would be |104 - 101| + |101 - 108| + |108 - 108| + |108 - 111| = 3 + 7 + 0 + 3 = 13.</description>
     </item>
     <item>
       <title>Problem Palindrome Partitioning</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-palindrome-partitioning/</link>
+      <link>http://localhost:1313/blog/posts/problem-palindrome-partitioning/</link>
       <pubDate>Wed, 22 May 2024 23:39:58 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-palindrome-partitioning/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-palindrome-partitioning/</guid>
       <description>Problem Statement Link - Problem 131 Question Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.&#xA;Note to self First we need to split the string into all possible substrings. Then we need to check if each substring is a palindrome or not. If that split is palindromic then we need to add it to the result.</description>
     </item>
     <item>
       <title>Problem Subsets</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-subsets/</link>
+      <link>http://localhost:1313/blog/posts/problem-subsets/</link>
       <pubDate>Tue, 21 May 2024 21:13:39 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-subsets/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-subsets/</guid>
       <description>Problem Statement Link - Problem 78 Question Given an integer array nums of unique elements, return all possible subsets (the power set).&#xA;A subset of an array is a selection of elements (possibly none) of the array. The solution set must not contain duplicate subsets. Return the solution in any order.&#xA;Example 1 Input: nums = [1,2,3] Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]] Example 2 Input: nums = [0] Output: [[],[0]] Constraints 1 &amp;lt;= nums.</description>
     </item>
     <item>
       <title>Problem Sum of All Subset XOR Totals</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-sum-of-all-subset-xor-totals/</link>
+      <link>http://localhost:1313/blog/posts/problem-sum-of-all-subset-xor-totals/</link>
       <pubDate>Mon, 20 May 2024 22:32:09 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-sum-of-all-subset-xor-totals/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-sum-of-all-subset-xor-totals/</guid>
       <description>Problem Statement Link - Problem 1863 Question The XOR total of an array is defined as the bitwise XOR of all its elements, or 0 if the array is empty.&#xA;For example, the XOR total of the array [2,5,6] is 2 XOR 5 XOR 6 = 1. Given an array nums, return the sum of all XOR totals for every subset of nums.&#xA;Note: Subsets with the same elements should be counted multiple times.</description>
     </item>
     <item>
       <title>Problem Find the Maximum Sum of Node Values</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-the-maximum-sum-of-node-values/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-the-maximum-sum-of-node-values/</link>
       <pubDate>Sun, 19 May 2024 10:30:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-the-maximum-sum-of-node-values/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-the-maximum-sum-of-node-values/</guid>
       <description>Problem Statement Link - Problem 3068 Question There exists an undirected tree with n nodes numbered 0 to n - 1. You are given a 0-indexed 2D integer array edges of length n - 1, where edges[i] = [ui, vi] indicates that there is an edge between nodes ui and vi in the tree. You are also given a positive integer k, and a 0-indexed array of non-negative integers nums of length n, where nums[i] represents the value of the node numbered i.</description>
     </item>
     <item>
       <title>Problem Distribute Coins in Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-distribute-coins-in-binary-tree/</link>
+      <link>http://localhost:1313/blog/posts/problem-distribute-coins-in-binary-tree/</link>
       <pubDate>Sun, 19 May 2024 10:29:15 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-distribute-coins-in-binary-tree/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-distribute-coins-in-binary-tree/</guid>
       <description>Problem Statement Link - Problem 979 Question You are given the root of a binary tree with n nodes where each node in the tree has node.val coins. There are n coins in total throughout the whole tree.&#xA;In one move, we may choose two adjacent nodes and move one coin from one node to another. A move may be from parent to child, or from child to parent.&#xA;Return the minimum number of moves required to make every node have exactly one coin.</description>
     </item>
     <item>
       <title>Problem Delete Leaves With a Given Value</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-delete-leaves-with-a-given-value/</link>
+      <link>http://localhost:1313/blog/posts/problem-delete-leaves-with-a-given-value/</link>
       <pubDate>Sun, 19 May 2024 10:27:59 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-delete-leaves-with-a-given-value/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-delete-leaves-with-a-given-value/</guid>
       <description>Problem Statement Link - Problem 1325 Question Given a binary tree root and an integer target, delete all the leaf nodes with value target.&#xA;Note that once you delete a leaf node with value target, if its parent node becomes a leaf node and has the value target, it should also be deleted (you need to continue doing that until you cannot).&#xA;Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4] Explanation: Leaf nodes in green with value (target = 2) are removed (Picture in left).</description>
     </item>
     <item>
       <title>Problem Evaluate Boolean Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-evaluate-boolean-binary-tree/</link>
+      <link>http://localhost:1313/blog/posts/problem-evaluate-boolean-binary-tree/</link>
       <pubDate>Fri, 17 May 2024 21:05:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-evaluate-boolean-binary-tree/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-evaluate-boolean-binary-tree/</guid>
       <description>Problem Statement Link - Problem 2331 Question You are given the root of a full binary tree with the following properties:&#xA;Leaf nodes have either the value 0 or 1, where 0 represents False and 1 represents True. Non-leaf nodes have either the value 2 or 3, where 2 represents the boolean OR and 3 represents the boolean AND. The evaluation of a node is as follows:&#xA;If the node is a leaf node, the evaluation is the value of the node, i.</description>
     </item>
     <item>
       <title>Problem Path With Maximum Gold</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-path-with-maximum-gold/</link>
+      <link>http://localhost:1313/blog/posts/problem-path-with-maximum-gold/</link>
       <pubDate>Tue, 14 May 2024 22:27:55 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-path-with-maximum-gold/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-path-with-maximum-gold/</guid>
       <description>Problem Statement Link - Problem 1219 Question In a gold mine grid of size m x n, each cell in this mine has an integer representing the amount of gold in that cell, 0 if it is empty.&#xA;Return the maximum amount of gold you can collect under the conditions:&#xA;Every time you are located in a cell you will collect all the gold in that cell. From your position, you can walk one step to the left, right, up, or down.</description>
     </item>
     <item>
       <title>Problem Score After Flipping Matrix</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-score-after-flipping-matrix/</link>
+      <link>http://localhost:1313/blog/posts/problem-score-after-flipping-matrix/</link>
       <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-score-after-flipping-matrix/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-score-after-flipping-matrix/</guid>
       <description>Problem Statement Link - Problem 861 Question You are given an m x n binary matrix grid.&#xA;A move consists of choosing any row or column and toggling each value in that row or column (i.e., changing all 0&amp;rsquo;s to 1&amp;rsquo;s, and all 1&amp;rsquo;s to 0&amp;rsquo;s).&#xA;Every row of the matrix is interpreted as a binary number, and the score of the matrix is the sum of these numbers.&#xA;Return the highest possible score after making any number of moves (including zero moves).</description>
     </item>
     <item>
       <title>Problem Largest Local Values in a Matrix</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-largest-local-values-in-a-matrix/</link>
+      <link>http://localhost:1313/blog/posts/problem-largest-local-values-in-a-matrix/</link>
       <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-largest-local-values-in-a-matrix/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-largest-local-values-in-a-matrix/</guid>
       <description>Problem Statement Link - Problem 2373 Question You are given an n x n integer matrix grid.&#xA;Generate an integer matrix maxLocal of size (n - 2) x (n - 2) such that:&#xA;maxLocal[i][j] is equal to the largest value of the 3 x 3 matrix in grid centered around row i + 1 and column j + 1. In other words, we want to find the largest value in every contiguous 3 x 3 matrix in grid.</description>
     </item>
     <item>
       <title>Problem K th Smallest Prime Fraction</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-k-th-smallest-prime-fraction/</link>
+      <link>http://localhost:1313/blog/posts/problem-k-th-smallest-prime-fraction/</link>
       <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-k-th-smallest-prime-fraction/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-k-th-smallest-prime-fraction/</guid>
       <description>Problem Statement Link - Problem 786 Question You are given a sorted integer array arr containing 1 and prime numbers, where all the integers of arr are unique. You are also given an integer k.&#xA;For every i and j where 0 &amp;lt;= i &amp;lt; j &amp;lt; arr.length, we consider the fraction arr[i] / arr[j].&#xA;Return the kth smallest fraction considered. Return your answer as an array of integers of size 2, where answer[0] == arr[i] and answer[1] == arr[j].</description>
     </item>
     <item>
       <title>Problem Maximize Happiness of Selected Children</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-maximize-happiness-of-selected-children/</link>
+      <link>http://localhost:1313/blog/posts/problem-maximize-happiness-of-selected-children/</link>
       <pubDate>Thu, 09 May 2024 14:35:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-maximize-happiness-of-selected-children/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-maximize-happiness-of-selected-children/</guid>
       <description>Problem Statement Link - Problem 3075 Question You are given an array happiness of length n, and a positive integer k.&#xA;There are n children standing in a queue, where the ith child has happiness value happiness[i]. You want to select k children from these n children in k turns.&#xA;In each turn, when you select a child, the happiness value of all the children that have not been selected till now decreases by 1.</description>
     </item>
     <item>
       <title>Problem Relative Ranks</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-relative-ranks/</link>
+      <link>http://localhost:1313/blog/posts/problem-relative-ranks/</link>
       <pubDate>Wed, 08 May 2024 14:24:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-relative-ranks/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-relative-ranks/</guid>
       <description>Problem Statement Link - Problem 506 Question You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique.&#xA;The athletes are placed based on their scores, where the 1st place athlete has the highest score, the 2nd place athlete has the 2nd highest score, and so on. The placement of each athlete determines their rank:</description>
     </item>
     <item>
       <title>Problem Double a Number Represented as a Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-double-a-number-represented-as-a-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/problem-double-a-number-represented-as-a-linked-list/</link>
       <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-double-a-number-represented-as-a-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-double-a-number-represented-as-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 2816 Question You are given the head of a non-empty linked list representing a non-negative integer without leading zeroes.&#xA;Return the head of the linked list after doubling it&#xA;Example 1 Input graph LR A((1))--&gt;B((8)) B--&gt;C((9)) Output graph LR A((3))--&gt;B((7)) B--&gt;C((8)) Input: head = [1,8,9] Output: [3,7,8] Explanation: The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.</description>
     </item>
     <item>
       <title>Problem Remove Nodes From Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-remove-nodes-from-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/problem-remove-nodes-from-linked-list/</link>
       <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-remove-nodes-from-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-remove-nodes-from-linked-list/</guid>
       <description>Problem Statement Link - Problem 2487 Question You are given the head of a linked list.&#xA;Remove every node which has a node with a greater value anywhere to the right side of it.&#xA;Return the head of the modified linked list.&#xA;Example 1 Input graph LR A((5))--&gt;B((2)) B--&gt;C((13)) C--&gt;D((3)) D--&gt;E((8)) Output graph LR A((13))--&gt;B((8)) Input: head = [5,2,13,3,8] Output: [13,8] Explanation: The nodes that should be removed are 5, 2 and 3.</description>
     </item>
     <item>
       <title>Problem Delete Node in a Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-delete-node-in-a-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/problem-delete-node-in-a-linked-list/</link>
       <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-delete-node-in-a-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-delete-node-in-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 237 Question There is a singly-linked list head and we want to delete a node node in it.&#xA;You are given the node to be deleted node. You will not be given access to the first node of head.&#xA;All the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list.</description>
     </item>
     <item>
       <title>Problem Boats to Save People</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-boats-to-save-people/</link>
+      <link>http://localhost:1313/blog/posts/problem-boats-to-save-people/</link>
       <pubDate>Sat, 04 May 2024 15:00:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-boats-to-save-people/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-boats-to-save-people/</guid>
       <description>Problem Statement Link - Problem 881 Question You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.&#xA;Return the minimum number of boats to carry every given person.</description>
     </item>
     <item>
       <title>Problem Reverse Prefix of Word</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-reverse-prefix-of-word/</link>
+      <link>http://localhost:1313/blog/posts/problem-reverse-prefix-of-word/</link>
       <pubDate>Wed, 01 May 2024 20:47:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-reverse-prefix-of-word/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-reverse-prefix-of-word/</guid>
       <description>Problem Statement Link - Problem 2000 Question Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). If the character ch does not exist in word, do nothing.&#xA;For example, if word = &amp;quot;abcdefd&amp;quot; and ch = &amp;quot;d&amp;quot;, then you should reverse the segment that starts at 0 and ends at 3 (inclusive).</description>
     </item>
     <item>
       <title>Problem Minimum Falling Path Sum II</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-falling-path-sum-ii/</link>
+      <link>http://localhost:1313/blog/posts/problem-minimum-falling-path-sum-ii/</link>
       <pubDate>Fri, 26 Apr 2024 12:15:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-falling-path-sum-ii/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-minimum-falling-path-sum-ii/</guid>
       <description>Problem Statement Link: Problem Minimum Falling Path Sum II Question Given an n x n integer matrix grid, return the minimum sum of a falling path with non-zero shifts.&#xA;A falling path with non-zero shifts is a choice of exactly one element from each row of grid such that no two elements chosen in adjacent rows are in the same column.&#xA;Example 1 1 2 3 4 5 6 7 8 9 Input: grid = [[1,2,3],[4,5,6],[7,8,9]] Output: 13 Explanation: The possible falling paths are: [1,5,9], [1,5,7], [1,6,7], [1,6,8], [2,4,8], [2,4,9], [2,6,7], [2,6,8], [3,4,8], [3,4,9], [3,5,7], [3,5,9] The falling path with the smallest sum is [1,5,7], so the answer is 13.</description>
     </item>
     <item>
       <title>Problem Nth Tribonacci Number</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-nth-tribonacci-number/</link>
+      <link>http://localhost:1313/blog/posts/problem-nth-tribonacci-number/</link>
       <pubDate>Wed, 24 Apr 2024 13:45:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-nth-tribonacci-number/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-nth-tribonacci-number/</guid>
       <description>Problem Statement Link - Problem 1137 Question The Tribonacci sequence T(n) is defined as follows:&#xA;T(0) = 0, T(1) = 1, T(2) = 1, and T(n+3) = T(n) + T(n+1) + T(n+2) for n &amp;gt;= 0.&#xA;Given n, return the value of T(n).&#xA;Note to self This is a straight forward Recursion Problem. We can convert this to DP by using memoization. We will use an array to store the intermediate values to prevent repeated calculations.</description>
     </item>
     <item>
       <title>Problem Open the Lock</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-open-the-lock/</link>
+      <link>http://localhost:1313/blog/posts/problem-open-the-lock/</link>
       <pubDate>Mon, 22 Apr 2024 16:27:12 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-open-the-lock/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-open-the-lock/</guid>
       <description>Problem Statement Link - Problem 752 Question You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: &#39;0&#39;, &#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;7&#39;, &#39;8&#39;, &#39;9&#39;. The wheels can rotate freely and wrap around: for example we can turn &#39;9&#39; to be &#39;0&#39;, or &#39;0&#39; to be &#39;9&#39;. Each move consists of turning one wheel one slot.&#xA;The lock initially starts at &#39;0000&#39;, a string representing the state of the 4 wheels.</description>
     </item>
     <item>
       <title>Problem Find if Path Exists in Graph</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-if-path-exists-in-graph/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-if-path-exists-in-graph/</link>
       <pubDate>Sun, 21 Apr 2024 15:42:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-if-path-exists-in-graph/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-if-path-exists-in-graph/</guid>
       <description>Problem Statement Link - Problem 1971 Question There is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n-1 (inclusive). The edges in the graph are represented as a 2D integer array edges, where each edges[i] = [ui, vi] denotes a bi-directional edge between vertex ui and vertex vi. Every vertex pair is connected by at most one edge, and no vertex has an edge to itself.</description>
     </item>
     <item>
       <title>Problem Find All Groups of Farmland</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-all-groups-of-farmland/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-all-groups-of-farmland/</link>
       <pubDate>Sat, 20 Apr 2024 10:52:46 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-all-groups-of-farmland/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-all-groups-of-farmland/</guid>
       <description>Problem Statement Link - Problem 1992 Question You are given a 0-indexed m x n binary matrix land where a 0 represents a hectare of forested land and a 1 represents a hectare of farmland.&#xA;To keep the land organized, there are designated rectangular areas of hectares that consist entirely of farmland. These rectangular areas are called groups. No two groups are adjacent, meaning farmland in one group is not four-directionally adjacent to another farmland in a different group.</description>
     </item>
     <item>
       <title>Problem Number of Islands</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-number-of-islands/</link>
+      <link>http://localhost:1313/blog/posts/problem-number-of-islands/</link>
       <pubDate>Fri, 19 Apr 2024 13:00:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-number-of-islands/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-number-of-islands/</guid>
       <description>Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of &#39;1&#39;s (land) and &#39;0&#39;s (water), return the number of islands.&#xA;An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.&#xA;Note to self They use characters not integers for 1 and 0.</description>
     </item>
     <item>
       <title>Problem Island Perimeter</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-island-perimeter/</link>
+      <link>http://localhost:1313/blog/posts/problem-island-perimeter/</link>
       <pubDate>Thu, 18 Apr 2024 20:48:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-island-perimeter/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-island-perimeter/</guid>
       <description>Problem Statement Link - Problem 463 Question You are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.&#xA;Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).&#xA;The island doesn&amp;rsquo;t have &amp;ldquo;lakes&amp;rdquo;, meaning the water inside isn&amp;rsquo;t connected to the water around the island.</description>
     </item>
     <item>
       <title>Problem Smallest String Starting From Leaf</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-smallest-string-starting-from-leaf/</link>
+      <link>http://localhost:1313/blog/posts/problem-smallest-string-starting-from-leaf/</link>
       <pubDate>Wed, 17 Apr 2024 14:56:36 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-smallest-string-starting-from-leaf/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-smallest-string-starting-from-leaf/</guid>
       <description>Problem Statement Link - Problem 988 Question You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters &#39;a&#39; to &#39;z&#39;.&#xA;Return the lexicographically smallest string that starts at a leaf of this tree and ends at the root.&#xA;As a reminder, any shorter prefix of a string is lexicographically smaller.&#xA;For example, &amp;quot;ab&amp;quot; is lexicographically smaller than &amp;quot;aba&amp;quot;.</description>
     </item>
     <item>
       <title>Problem Add One Row to Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-add-one-row-to-tree/</link>
+      <link>http://localhost:1313/blog/posts/problem-add-one-row-to-tree/</link>
       <pubDate>Tue, 16 Apr 2024 10:05:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-add-one-row-to-tree/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-add-one-row-to-tree/</guid>
       <description>Problem Statement Link - Problem 623 Question Given the root of a binary tree and two integers val and depth, add a row of nodes with value val at the given depth depth.&#xA;Note that the root node is at depth 1.&#xA;The adding rule is:&#xA;Given the integer depth, for each not null tree node cur at the depth depth - 1, create two tree nodes with value val as cur&#39;s left subtree root and right subtree root.</description>
     </item>
     <item>
       <title>Problem Sum Root to Leaf Numbers</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-sum-root-to-leaf-numbers/</link>
+      <link>http://localhost:1313/blog/posts/problem-sum-root-to-leaf-numbers/</link>
       <pubDate>Mon, 15 Apr 2024 19:38:03 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-sum-root-to-leaf-numbers/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-sum-root-to-leaf-numbers/</guid>
       <description>Problem Statement Link - Problem 129 Question You are given the root of a binary tree containing digits from 0 to 9 only.&#xA;Each root-to-leaf path in the tree represents a number.&#xA;For example, the root-to-leaf path 1 -&amp;gt; 2 -&amp;gt; 3 represents the number 123. Return the total sum of all root-to-leaf numbers. Test cases are generated so that the answer will fit in a 32-bit integer.&#xA;A leaf node is a node with no children.</description>
     </item>
     <item>
       <title>RaspberryPi_Zero_Setup</title>
-      <link>https://KTS-o7.github.io/blog/posts/raspberrypi_zero_setup/</link>
+      <link>http://localhost:1313/blog/posts/raspberrypi_zero_setup/</link>
       <pubDate>Mon, 15 Apr 2024 00:55:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/raspberrypi_zero_setup/</guid>
+      <guid>http://localhost:1313/blog/posts/raspberrypi_zero_setup/</guid>
       <description>Raspberry Pi Zero Headless WiFi Setup Using Linux The following instructions will ultimately enable your Pi Zero to connect the WiFi to the router during every boot up, for a headless management.&#xA;Appendix Prerequisite Enabling USB ethernet gadget mode on Pi Things to do once connected to Pi via USB 3.1. Enabling Internet access in Raspberry Pi 3.2. SSH into Raspberry Pi 3.3. Change locale settings 3.4. Update the OS 3.</description>
     </item>
     <item>
       <title>New Post</title>
-      <link>https://KTS-o7.github.io/blog/posts/newpost/</link>
+      <link>http://localhost:1313/blog/posts/newpost/</link>
       <pubDate>Sun, 14 Apr 2024 18:45:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/newpost/</guid>
+      <guid>http://localhost:1313/blog/posts/newpost/</guid>
       <description>What is this ? Lets find out !&#xA;mermaid sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;John: Hello John, how are you? loop Healthcheck John-&gt;&gt;John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John--&gt;&gt;Alice: Great! John-&gt;&gt;Bob: How about you? Bob--&gt;&gt;John: Jolly good! Code while(True): print(&amp;#34;Hello World&amp;#34;) </description>
     </item>
     <item>
       <title>First Post</title>
-      <link>https://KTS-o7.github.io/blog/posts/firstpost/</link>
+      <link>http://localhost:1313/blog/posts/firstpost/</link>
       <pubDate>Sun, 14 Apr 2024 18:19:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/firstpost/</guid>
+      <guid>http://localhost:1313/blog/posts/firstpost/</guid>
       <description>This is the first post to test the things. Looks like its working !</description>
     </item>
   </channel>

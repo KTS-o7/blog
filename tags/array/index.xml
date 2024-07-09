@@ -2,88 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Array on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/array/</link>
+    <link>http://localhost:1313/blog/tags/array/</link>
     <description>Recent content in Array on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 01 Jul 2024 18:55:41 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 23:52:07 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Average Waiting Time</title>
+      <link>http://localhost:1313/blog/posts/problem-average-waiting-time/</link>
+      <pubDate>Tue, 09 Jul 2024 23:52:07 +0530</pubDate>
+      <guid>http://localhost:1313/blog/posts/problem-average-waiting-time/</guid>
+      <description>Problem Statement Link - Problem 1701 Question There is a restaurant with a single chef. You are given an array customers, where customers[i] = [arrivali, timei]:&#xA;- arrivali is the arrival time of the ith customer. The arrival times are sorted in non-decreasing order.&#xA;timei is the time needed to prepare the order of the ith customer. When a customer arrives, he gives the chef his order, and the chef starts preparing it once he is idle.</description>
+    </item>
     <item>
       <title>Problem Three Consecutive Odds</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-three-consecutive-odds/</link>
+      <link>http://localhost:1313/blog/posts/problem-three-consecutive-odds/</link>
       <pubDate>Mon, 01 Jul 2024 18:55:41 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-three-consecutive-odds/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-three-consecutive-odds/</guid>
       <description>Problem Statement Link - Problem 1550 Question Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.&#xA;Example 1 Input: arr = [2,6,4,1] Output: false Explanation: There are no three consecutive odds. Example 2 Input: arr = [1,2,34,3,4,5,7,23,12] Output: true Explanation: [5,7,23] are three consecutive odds. Constraints - `1 &amp;lt;= arr.length &amp;lt;= 1000` - `1 &amp;lt;= arr[i] &amp;lt;= 1000` Solution class Solution { public: bool threeConsecutiveOdds(vector&amp;lt;int&amp;gt;&amp;amp; arr) { if(arr.</description>
     </item>
     <item>
       <title>Problem Magnetic Force Between Two Balls</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-magnetic-force-between-two-balls/</link>
+      <link>http://localhost:1313/blog/posts/problem-magnetic-force-between-two-balls/</link>
       <pubDate>Thu, 20 Jun 2024 21:42:43 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-magnetic-force-between-two-balls/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-magnetic-force-between-two-balls/</guid>
       <description>Problem Statement Link - Problem 1552 Question In the universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put in his new invented basket. Rick has n empty baskets, the ith basket is at position[i], Morty has m balls and needs to distribute the balls into the baskets such that the minimum magnetic force between any two balls is maximum.&#xA;Rick stated that magnetic force between two different balls at positions x and y is |x - y|.</description>
     </item>
     <item>
       <title>Problem Minimum Number of Days to Make M Bouquets</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</link>
+      <link>http://localhost:1313/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</link>
       <pubDate>Wed, 19 Jun 2024 23:03:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
       <description>Problem Statement Link - Problem 1482 Question You are given an integer array bloomDay, an integer m and an integer k.&#xA;You want to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden.&#xA;The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet.&#xA;Return the minimum number of days you need to wait to be able to make m bouquets from the garden.</description>
     </item>
     <item>
       <title>Problem IPO</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-ipo/</link>
+      <link>http://localhost:1313/blog/posts/problem-ipo/</link>
       <pubDate>Sat, 15 Jun 2024 10:35:35 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-ipo/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-ipo/</guid>
       <description>Problem Statement Link - Problem 502 Question Suppose LeetCode will start its IPO soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on some projects to increase its capital before the IPO. Since it has limited resources, it can only finish at most k distinct projects before the IPO. Help LeetCode design the best way to maximize its total capital after finishing at most k distinct projects.</description>
     </item>
     <item>
       <title>Problem Minimum Increment to Make Array Unique</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-increment-to-make-array-unique/</link>
+      <link>http://localhost:1313/blog/posts/problem-minimum-increment-to-make-array-unique/</link>
       <pubDate>Fri, 14 Jun 2024 21:23:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-increment-to-make-array-unique/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-minimum-increment-to-make-array-unique/</guid>
       <description>Problem Statement Link - Problem 945 Question You are given an integer array nums. In one move, you can pick an index i where 0 &amp;lt;= i &amp;lt; nums.length and increment nums[i] by 1.&#xA;Return the minimum number of moves to make every value in nums unique.&#xA;The test cases are generated so that the answer fits in a 32-bit integer.&#xA;Example 1 Input: nums = [1,2,2] Output: 1 Explanation: After 1 move, the array could be [1, 2, 3].</description>
     </item>
     <item>
       <title>Problem Minimum Number of Moves to Seat Everyone</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</link>
+      <link>http://localhost:1313/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</link>
       <pubDate>Thu, 13 Jun 2024 21:56:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-minimum-number-of-moves-to-seat-everyone/</guid>
       <description>Problem Statement Link - Problem 2037 Question There are n seats and n students in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.&#xA;You may perform the following move any number of times:&#xA;Increase or decrease the position of the ith student by 1 (i.</description>
     </item>
     <item>
       <title>Problem Sort Colors</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-sort-colors/</link>
+      <link>http://localhost:1313/blog/posts/problem-sort-colors/</link>
       <pubDate>Wed, 12 Jun 2024 18:48:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-sort-colors/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-sort-colors/</guid>
       <description>Problem Statement Link - Problem 75 Question Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.&#xA;We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.&#xA;You must solve this problem without using the library&amp;rsquo;s sort function.</description>
     </item>
     <item>
       <title>Problem Find Common Characters</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-common-characters/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-common-characters/</link>
       <pubDate>Thu, 06 Jun 2024 23:34:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-common-characters/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-common-characters/</guid>
       <description>Problem Statement Link - Problem 1002 Question Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates). You may return the answer in any order.&#xA;Example 1 Input: words = [&amp;#34;bella&amp;#34;,&amp;#34;label&amp;#34;,&amp;#34;roller&amp;#34;] Output: [&amp;#34;e&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;l&amp;#34;] Example 2 Input: words = [&amp;#34;cool&amp;#34;,&amp;#34;lock&amp;#34;,&amp;#34;cook&amp;#34;] Output: [&amp;#34;c&amp;#34;,&amp;#34;o&amp;#34;] Constraints 1 &amp;lt;= words.length &amp;lt;= 100 1 &amp;lt;= words[i].length &amp;lt;= 100 words[i] consists of lowercase English letters. Solution class Solution { public: vector&amp;lt;string&amp;gt; commonChars(vector&amp;lt;string&amp;gt;&amp;amp; words) { vector&amp;lt;int&amp;gt;baselineCount(26,0); string temp; for(int i =0;i&amp;lt;words[0].</description>
     </item>
     <item>
       <title>Problem K th Smallest Prime Fraction</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-k-th-smallest-prime-fraction/</link>
+      <link>http://localhost:1313/blog/posts/problem-k-th-smallest-prime-fraction/</link>
       <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-k-th-smallest-prime-fraction/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-k-th-smallest-prime-fraction/</guid>
       <description>Problem Statement Link - Problem 786 Question You are given a sorted integer array arr containing 1 and prime numbers, where all the integers of arr are unique. You are also given an integer k.&#xA;For every i and j where 0 &amp;lt;= i &amp;lt; j &amp;lt; arr.length, we consider the fraction arr[i] / arr[j].&#xA;Return the kth smallest fraction considered. Return your answer as an array of integers of size 2, where answer[0] == arr[i] and answer[1] == arr[j].</description>
     </item>
     <item>
       <title>Problem Number of Islands</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-number-of-islands/</link>
+      <link>http://localhost:1313/blog/posts/problem-number-of-islands/</link>
       <pubDate>Fri, 19 Apr 2024 13:00:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-number-of-islands/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-number-of-islands/</guid>
       <description>Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of &#39;1&#39;s (land) and &#39;0&#39;s (water), return the number of islands.&#xA;An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.&#xA;Note to self They use characters not integers for 1 and 0.</description>
     </item>
     <item>
       <title>Problem Island Perimeter</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-island-perimeter/</link>
+      <link>http://localhost:1313/blog/posts/problem-island-perimeter/</link>
       <pubDate>Thu, 18 Apr 2024 20:48:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-island-perimeter/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-island-perimeter/</guid>
       <description>Problem Statement Link - Problem 463 Question You are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.&#xA;Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).&#xA;The island doesn&amp;rsquo;t have &amp;ldquo;lakes&amp;rdquo;, meaning the water inside isn&amp;rsquo;t connected to the water around the island.</description>
     </item>
   </channel>
