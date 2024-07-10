@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stack on KTS Blog</title>
-    <link>http://localhost:1313/blog/tags/stack/</link>
+    <link>https://KTS-o7.github.io/blog/tags/stack/</link>
     <description>Recent content in Stack on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Tue, 07 May 2024 18:14:06 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/stack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem Double a Number Represented as a Linked List</title>
-      <link>http://localhost:1313/blog/posts/problem-double-a-number-represented-as-a-linked-list/</link>
+      <link>https://KTS-o7.github.io/blog/posts/problem-double-a-number-represented-as-a-linked-list/</link>
       <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/problem-double-a-number-represented-as-a-linked-list/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-double-a-number-represented-as-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 2816 Question You are given the head of a non-empty linked list representing a non-negative integer without leading zeroes.&#xA;Return the head of the linked list after doubling it&#xA;Example 1 Input graph LR A((1))--&gt;B((8)) B--&gt;C((9)) Output graph LR A((3))--&gt;B((7)) B--&gt;C((8)) Input: head = [1,8,9] Output: [3,7,8] Explanation: The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.</description>
     </item>
     <item>
       <title>Problem Remove Nodes From Linked List</title>
-      <link>http://localhost:1313/blog/posts/problem-remove-nodes-from-linked-list/</link>
+      <link>https://KTS-o7.github.io/blog/posts/problem-remove-nodes-from-linked-list/</link>
       <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/problem-remove-nodes-from-linked-list/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-remove-nodes-from-linked-list/</guid>
       <description>Problem Statement Link - Problem 2487 Question You are given the head of a linked list.&#xA;Remove every node which has a node with a greater value anywhere to the right side of it.&#xA;Return the head of the modified linked list.&#xA;Example 1 Input graph LR A((5))--&gt;B((2)) B--&gt;C((13)) C--&gt;D((3)) D--&gt;E((8)) Output graph LR A((13))--&gt;B((8)) Input: head = [5,2,13,3,8] Output: [13,8] Explanation: The nodes that should be removed are 5, 2 and 3.</description>
     </item>
   </channel>
