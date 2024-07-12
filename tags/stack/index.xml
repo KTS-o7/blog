@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 11 Jul 2024 22:07:28 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2024 19:10:01 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Maximum Score From Removing Substrings</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-maximum-score-from-removing-substrings/</link>
+      <pubDate>Fri, 12 Jul 2024 19:10:01 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-maximum-score-from-removing-substrings/</guid>
+      <description>Problem Statement Link - Problem 1717 Question You are given a string s and two integers x and y. You can perform two types of operations any number of times.&#xA;Remove substring &amp;quot;ab&amp;quot; and gain x points. For example, when removing &amp;quot;ab&amp;quot; from &amp;quot;cabxbae&amp;quot; it becomes &amp;quot;cxbae&amp;quot;. Remove substring &amp;quot;ba&amp;quot; and gain y points. For example, when removing &amp;quot;ba&amp;quot; from &amp;quot;cabxbae&amp;quot; it becomes &amp;quot;cabxe&amp;quot;. Return the maximum points you can gain after applying the above operations on s.</description>
+    </item>
     <item>
       <title>Problem Reverse Substrings Between Each Pair of Parentheses</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
