@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Fri, 12 Jul 2024 19:24:33 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jul 2024 12:20:45 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array</title>
+      <link>https://KTS-o7.github.io/blog/tags/array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stack</title>
+      <link>https://KTS-o7.github.io/blog/tags/stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/stack/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bfs</title>
       <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
@@ -45,24 +59,10 @@
       <description></description>
     </item>
     <item>
-      <title>Stack</title>
-      <link>https://KTS-o7.github.io/blog/tags/stack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/stack/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Math</title>
       <link>https://KTS-o7.github.io/blog/tags/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Array</title>
-      <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
       <description></description>
     </item>
     <item>
