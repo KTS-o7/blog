@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prefixsum on KTS Blog</title>
-    <link>http://localhost:1313/blog/tags/prefixsum/</link>
+    <link>https://KTS-o7.github.io/blog/tags/prefixsum/</link>
     <description>Recent content in Prefixsum on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Sat, 08 Jun 2024 11:56:40 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/prefixsum/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/prefixsum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem Continuous Subarray Sum</title>
-      <link>http://localhost:1313/blog/posts/problem-continuous-subarray-sum/</link>
+      <link>https://KTS-o7.github.io/blog/posts/problem-continuous-subarray-sum/</link>
       <pubDate>Sat, 08 Jun 2024 11:56:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/problem-continuous-subarray-sum/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-continuous-subarray-sum/</guid>
       <description>Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.&#xA;A good subarray is a subarray where:&#xA;its length is at least two, and the sum of the elements of the subarray is a multiple of k.&#xA;Note A subarray is a contiguous part of the array. An integer x is a multiple of k if there exists an integer n such that x = n * k.</description>
     </item>
   </channel>

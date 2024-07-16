@@ -2,466 +2,466 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on KTS Blog</title>
-    <link>http://localhost:1313/blog/tags/</link>
+    <link>https://KTS-o7.github.io/blog/tags/</link>
     <description>Recent content in Tags on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 15 Jul 2024 15:17:40 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jul 2024 12:54:12 +0530</lastBuildDate>
+    <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binary Tree</title>
-      <link>http://localhost:1313/blog/tags/binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/binary-tree/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hashmap</title>
-      <link>http://localhost:1313/blog/tags/hashmap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/hashmap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Stack</title>
-      <link>http://localhost:1313/blog/tags/stack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/stack/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>http://localhost:1313/blog/tags/string/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/string/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Array</title>
-      <link>http://localhost:1313/blog/tags/array/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/array/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bfs</title>
-      <link>http://localhost:1313/blog/tags/bfs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/bfs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Level-Order-Traversal</title>
-      <link>http://localhost:1313/blog/tags/level-order-traversal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/level-order-traversal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Queue</title>
-      <link>http://localhost:1313/blog/tags/queue/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/queue/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Math</title>
-      <link>http://localhost:1313/blog/tags/math/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/math/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Simulation</title>
-      <link>http://localhost:1313/blog/tags/simulation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/simulation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Iteration</title>
-      <link>http://localhost:1313/blog/tags/iteration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/iteration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linked List</title>
-      <link>http://localhost:1313/blog/tags/linked-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/linked-list/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pointers</title>
-      <link>http://localhost:1313/blog/tags/pointers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/pointers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Greedy</title>
-      <link>http://localhost:1313/blog/tags/greedy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/greedy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sorting</title>
-      <link>http://localhost:1313/blog/tags/sorting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/sorting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Arrays</title>
-      <link>http://localhost:1313/blog/tags/arrays/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/arrays/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Binary-Search</title>
-      <link>http://localhost:1313/blog/tags/binary-search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/binary-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Two-Pointer</title>
-      <link>http://localhost:1313/blog/tags/two-pointer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/two-pointer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Parity</title>
-      <link>http://localhost:1313/blog/tags/parity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/parity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recursion</title>
-      <link>http://localhost:1313/blog/tags/recursion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/recursion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tree</title>
-      <link>http://localhost:1313/blog/tags/tree/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/tree/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Adjacency-List</title>
-      <link>http://localhost:1313/blog/tags/adjacency-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/adjacency-list/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DAG</title>
-      <link>http://localhost:1313/blog/tags/dag/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/dag/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Dfs</title>
-      <link>http://localhost:1313/blog/tags/dfs/</link>
+      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/dfs/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://KTS-o7.github.io/blog/tags/string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hashmap</title>
+      <link>https://KTS-o7.github.io/blog/tags/hashmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/hashmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stack</title>
+      <link>https://KTS-o7.github.io/blog/tags/stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/stack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Array</title>
+      <link>https://KTS-o7.github.io/blog/tags/array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bfs</title>
+      <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Level-Order-Traversal</title>
+      <link>https://KTS-o7.github.io/blog/tags/level-order-traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/level-order-traversal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Queue</title>
+      <link>https://KTS-o7.github.io/blog/tags/queue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/queue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://KTS-o7.github.io/blog/tags/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulation</title>
+      <link>https://KTS-o7.github.io/blog/tags/simulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iteration</title>
+      <link>https://KTS-o7.github.io/blog/tags/iteration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/iteration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linked List</title>
+      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pointers</title>
+      <link>https://KTS-o7.github.io/blog/tags/pointers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/pointers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greedy</title>
+      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arrays</title>
+      <link>https://KTS-o7.github.io/blog/tags/arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/arrays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Binary-Search</title>
+      <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Two-Pointer</title>
+      <link>https://KTS-o7.github.io/blog/tags/two-pointer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/two-pointer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Parity</title>
+      <link>https://KTS-o7.github.io/blog/tags/parity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/parity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursion</title>
+      <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/tree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adjacency-List</title>
+      <link>https://KTS-o7.github.io/blog/tags/adjacency-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/adjacency-list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DAG</title>
+      <link>https://KTS-o7.github.io/blog/tags/dag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dag/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph</title>
-      <link>http://localhost:1313/blog/tags/graph/</link>
+      <link>https://KTS-o7.github.io/blog/tags/graph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/graph/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/graph/</guid>
       <description></description>
     </item>
     <item>
       <title>Undirected-Graph</title>
-      <link>http://localhost:1313/blog/tags/undirected-graph/</link>
+      <link>https://KTS-o7.github.io/blog/tags/undirected-graph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/undirected-graph/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/undirected-graph/</guid>
       <description></description>
     </item>
     <item>
       <title>Vector</title>
-      <link>http://localhost:1313/blog/tags/vector/</link>
+      <link>https://KTS-o7.github.io/blog/tags/vector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/vector/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/vector/</guid>
       <description></description>
     </item>
     <item>
       <title>Degree</title>
-      <link>http://localhost:1313/blog/tags/degree/</link>
+      <link>https://KTS-o7.github.io/blog/tags/degree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/degree/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/degree/</guid>
       <description></description>
     </item>
     <item>
       <title>Star-Graph</title>
-      <link>http://localhost:1313/blog/tags/star-graph/</link>
+      <link>https://KTS-o7.github.io/blog/tags/star-graph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/star-graph/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/star-graph/</guid>
       <description></description>
     </item>
     <item>
       <title>Binary-Search-Tree</title>
-      <link>http://localhost:1313/blog/tags/binary-search-tree/</link>
+      <link>https://KTS-o7.github.io/blog/tags/binary-search-tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/binary-search-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-search-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Inorder</title>
-      <link>http://localhost:1313/blog/tags/inorder/</link>
+      <link>https://KTS-o7.github.io/blog/tags/inorder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/inorder/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/inorder/</guid>
       <description></description>
     </item>
     <item>
       <title>Reverse-Inorder</title>
-      <link>http://localhost:1313/blog/tags/reverse-inorder/</link>
+      <link>https://KTS-o7.github.io/blog/tags/reverse-inorder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/reverse-inorder/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/reverse-inorder/</guid>
       <description></description>
     </item>
     <item>
       <title>Binary-Search-on-Answer</title>
-      <link>http://localhost:1313/blog/tags/binary-search-on-answer/</link>
+      <link>https://KTS-o7.github.io/blog/tags/binary-search-on-answer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/binary-search-on-answer/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-search-on-answer/</guid>
       <description></description>
     </item>
     <item>
       <title>Heap</title>
-      <link>http://localhost:1313/blog/tags/heap/</link>
+      <link>https://KTS-o7.github.io/blog/tags/heap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/heap/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/heap/</guid>
       <description></description>
     </item>
     <item>
       <title>Max-Heap</title>
-      <link>http://localhost:1313/blog/tags/max-heap/</link>
+      <link>https://KTS-o7.github.io/blog/tags/max-heap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/max-heap/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/max-heap/</guid>
       <description></description>
     </item>
     <item>
       <title>Min-Heap</title>
-      <link>http://localhost:1313/blog/tags/min-heap/</link>
+      <link>https://KTS-o7.github.io/blog/tags/min-heap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/min-heap/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/min-heap/</guid>
       <description></description>
     </item>
     <item>
       <title>Count-Sort</title>
-      <link>http://localhost:1313/blog/tags/count-sort/</link>
+      <link>https://KTS-o7.github.io/blog/tags/count-sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/count-sort/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/count-sort/</guid>
       <description></description>
     </item>
     <item>
       <title>Counting-Sort</title>
-      <link>http://localhost:1313/blog/tags/counting-sort/</link>
+      <link>https://KTS-o7.github.io/blog/tags/counting-sort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/counting-sort/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/counting-sort/</guid>
       <description></description>
     </item>
     <item>
       <title>Hash-Map</title>
-      <link>http://localhost:1313/blog/tags/hash-map/</link>
+      <link>https://KTS-o7.github.io/blog/tags/hash-map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/hash-map/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/hash-map/</guid>
       <description></description>
     </item>
     <item>
       <title>Bit-Manipulation</title>
-      <link>http://localhost:1313/blog/tags/bit-manipulation/</link>
+      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/bit-manipulation/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitwise-Xor</title>
-      <link>http://localhost:1313/blog/tags/bitwise-xor/</link>
+      <link>https://KTS-o7.github.io/blog/tags/bitwise-xor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/bitwise-xor/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/bitwise-xor/</guid>
       <description></description>
     </item>
     <item>
       <title>Vectors</title>
-      <link>http://localhost:1313/blog/tags/vectors/</link>
+      <link>https://KTS-o7.github.io/blog/tags/vectors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/vectors/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/vectors/</guid>
       <description></description>
     </item>
     <item>
       <title>Prefix-Sum</title>
-      <link>http://localhost:1313/blog/tags/prefix-sum/</link>
+      <link>https://KTS-o7.github.io/blog/tags/prefix-sum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/prefix-sum/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/prefix-sum/</guid>
       <description></description>
     </item>
     <item>
       <title>Prefixsum</title>
-      <link>http://localhost:1313/blog/tags/prefixsum/</link>
+      <link>https://KTS-o7.github.io/blog/tags/prefixsum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/prefixsum/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/prefixsum/</guid>
       <description></description>
     </item>
     <item>
       <title>Hash-Table</title>
-      <link>http://localhost:1313/blog/tags/hash-table/</link>
+      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/hash-table/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
       <description></description>
     </item>
     <item>
       <title>Traversal</title>
-      <link>http://localhost:1313/blog/tags/traversal/</link>
+      <link>https://KTS-o7.github.io/blog/tags/traversal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/traversal/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/traversal/</guid>
       <description></description>
     </item>
     <item>
       <title>Backtracking</title>
-      <link>http://localhost:1313/blog/tags/backtracking/</link>
+      <link>https://KTS-o7.github.io/blog/tags/backtracking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/backtracking/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/backtracking/</guid>
       <description></description>
     </item>
     <item>
       <title>Cpp</title>
-      <link>http://localhost:1313/blog/tags/cpp/</link>
+      <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/cpp/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
       <title>Iterative</title>
-      <link>http://localhost:1313/blog/tags/iterative/</link>
+      <link>https://KTS-o7.github.io/blog/tags/iterative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/iterative/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/iterative/</guid>
       <description></description>
     </item>
     <item>
       <title>XOR</title>
-      <link>http://localhost:1313/blog/tags/xor/</link>
+      <link>https://KTS-o7.github.io/blog/tags/xor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/xor/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/xor/</guid>
       <description></description>
     </item>
     <item>
       <title>Postorder</title>
-      <link>http://localhost:1313/blog/tags/postorder/</link>
+      <link>https://KTS-o7.github.io/blog/tags/postorder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/postorder/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/postorder/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrix</title>
-      <link>http://localhost:1313/blog/tags/matrix/</link>
+      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/matrix/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
       <description></description>
     </item>
     <item>
       <title>2D Array</title>
-      <link>http://localhost:1313/blog/tags/2d-array/</link>
+      <link>https://KTS-o7.github.io/blog/tags/2d-array/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/2d-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/2d-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Priority-Queue</title>
-      <link>http://localhost:1313/blog/tags/priority-queue/</link>
+      <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/priority-queue/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
       <description></description>
     </item>
     <item>
       <title>Custom-Comparator</title>
-      <link>http://localhost:1313/blog/tags/custom-comparator/</link>
+      <link>https://KTS-o7.github.io/blog/tags/custom-comparator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/custom-comparator/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/custom-comparator/</guid>
       <description></description>
     </item>
     <item>
       <title>Strings</title>
-      <link>http://localhost:1313/blog/tags/strings/</link>
+      <link>https://KTS-o7.github.io/blog/tags/strings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/strings/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/strings/</guid>
       <description></description>
     </item>
     <item>
       <title>Monotonic Stack</title>
-      <link>http://localhost:1313/blog/tags/monotonic-stack/</link>
+      <link>https://KTS-o7.github.io/blog/tags/monotonic-stack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/monotonic-stack/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/monotonic-stack/</guid>
       <description></description>
     </item>
     <item>
       <title>Leetcode</title>
-      <link>http://localhost:1313/blog/tags/leetcode/</link>
+      <link>https://KTS-o7.github.io/blog/tags/leetcode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/leetcode/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/leetcode/</guid>
       <description></description>
     </item>
     <item>
       <title>Medium</title>
-      <link>http://localhost:1313/blog/tags/medium/</link>
+      <link>https://KTS-o7.github.io/blog/tags/medium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/medium/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/medium/</guid>
       <description></description>
     </item>
     <item>
       <title>Two Pointers</title>
-      <link>http://localhost:1313/blog/tags/two-pointers/</link>
+      <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/two-pointers/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
       <description></description>
     </item>
     <item>
       <title>Dp</title>
-      <link>http://localhost:1313/blog/tags/dp/</link>
+      <link>https://KTS-o7.github.io/blog/tags/dp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/dp/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberrypi</title>
-      <link>http://localhost:1313/blog/tags/raspberrypi/</link>
+      <link>https://KTS-o7.github.io/blog/tags/raspberrypi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/raspberrypi/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/raspberrypi/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
-      <link>http://localhost:1313/blog/tags/setup/</link>
+      <link>https://KTS-o7.github.io/blog/tags/setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/setup/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>New</title>
-      <link>http://localhost:1313/blog/tags/new/</link>
+      <link>https://KTS-o7.github.io/blog/tags/new/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/new/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>Post</title>
-      <link>http://localhost:1313/blog/tags/post/</link>
+      <link>https://KTS-o7.github.io/blog/tags/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/post/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/post/</guid>
       <description></description>
     </item>
   </channel>
