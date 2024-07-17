@@ -2,46 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pointers on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/pointers/</link>
+    <link>http://localhost:1313/blog/tags/pointers/</link>
     <description>Recent content in Pointers on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Fri, 05 Jul 2024 18:54:28 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/pointers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jul 2024 12:04:05 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/pointers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Delete Nodes and Return Forest</title>
+      <link>http://localhost:1313/blog/posts/problem-delete-nodes-and-return-forest/</link>
+      <pubDate>Wed, 17 Jul 2024 12:04:05 +0530</pubDate>
+      <guid>http://localhost:1313/blog/posts/problem-delete-nodes-and-return-forest/</guid>
+      <description>Problem Statement Link - Problem 1110 Question Given the root of a binary tree, each node in the tree has a distinct value.&#xA;After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).&#xA;Return the roots of the trees in the remaining forest. You may return the result in any order.&#xA;Example 1 Input: root = [1,2,3,4,5,6,7], to_delete = [3,5] Output: [[1,2,null,4],[6],[7]] Example 2 Input: root = [1,2,4,null,3], to_delete = [3] Output: [[1,2,4]] Constraints - The number of nodes in the given tree is at most `1000`.</description>
+    </item>
     <item>
       <title>Problem Find the Minimum and Maximum Number of Nodes Between Critical Points</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
       <pubDate>Fri, 05 Jul 2024 18:54:28 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
       <description>Problem Statement Link - Problem 2058 Question A critical point in a linked list is defined as either a local maxima or a local minima.&#xA;A node is a local maxima if the current node has a value strictly greater than the previous node and the next node.&#xA;A node is a local minima if the current node has a value strictly smaller than the previous node and the next node.</description>
     </item>
     <item>
       <title>Problem Merge Nodes in Between Zeros</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-merge-nodes-in-between-zeros/</link>
+      <link>http://localhost:1313/blog/posts/problem-merge-nodes-in-between-zeros/</link>
       <pubDate>Thu, 04 Jul 2024 21:58:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-merge-nodes-in-between-zeros/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-merge-nodes-in-between-zeros/</guid>
       <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&amp;rsquo;s. The beginning and end of the linked list will have Node.val == 0.&#xA;For every two consecutive 0&amp;rsquo;s, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0&amp;rsquo;s.</description>
     </item>
     <item>
       <title>Problem Double a Number Represented as a Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-double-a-number-represented-as-a-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/problem-double-a-number-represented-as-a-linked-list/</link>
       <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-double-a-number-represented-as-a-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-double-a-number-represented-as-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 2816 Question You are given the head of a non-empty linked list representing a non-negative integer without leading zeroes.&#xA;Return the head of the linked list after doubling it&#xA;Example 1 Input graph LR A((1))--&gt;B((8)) B--&gt;C((9)) Output graph LR A((3))--&gt;B((7)) B--&gt;C((8)) Input: head = [1,8,9] Output: [3,7,8] Explanation: The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.</description>
     </item>
     <item>
       <title>Problem Remove Nodes From Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-remove-nodes-from-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/problem-remove-nodes-from-linked-list/</link>
       <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-remove-nodes-from-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-remove-nodes-from-linked-list/</guid>
       <description>Problem Statement Link - Problem 2487 Question You are given the head of a linked list.&#xA;Remove every node which has a node with a greater value anywhere to the right side of it.&#xA;Return the head of the modified linked list.&#xA;Example 1 Input graph LR A((5))--&gt;B((2)) B--&gt;C((13)) C--&gt;D((3)) D--&gt;E((8)) Output graph LR A((13))--&gt;B((8)) Input: head = [5,2,13,3,8] Output: [13,8] Explanation: The nodes that should be removed are 5, 2 and 3.</description>
     </item>
     <item>
       <title>Problem Delete Node in a Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-delete-node-in-a-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/problem-delete-node-in-a-linked-list/</link>
       <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-delete-node-in-a-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-delete-node-in-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 237 Question There is a singly-linked list head and we want to delete a node node in it.&#xA;You are given the node to be deleted node. You will not be given access to the first node of head.&#xA;All the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list.</description>
     </item>
   </channel>
