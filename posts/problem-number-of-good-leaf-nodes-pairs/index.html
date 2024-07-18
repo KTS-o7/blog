@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-  <title>Problem Invert Binary Tree :: KTS Blog -  Blog authored by Krishnatejaswi S</title>
+  <title>Problem Number of Good Leaf Nodes Pairs :: KTS Blog -  Blog authored by Krishnatejaswi S</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Problem Statement Link - Problem 226 Question Given the root of a binary tree, invert the tree and return its root.
-Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 4 --- 2 4 --- 7 2 --- 1 2 --- 3 7 --- 6 7 --- 9 Output : graph TD 4 --- 7 4 --- 2 7 --- 9 7 --- 6 2 --- 3 2 --- 1 Example 2 Input: root = [2,1,3] Output: [2,3,1] Input : graph TD 2 --- 1 2 --- 3 Output : graph TD 2 --- 3 2 --- 1 Example 3 Input: root = [] Output: [] Constraints - The number of nodes in the tree is in the range `[0, 100]`."
+  content="Problem Statement Link - Problem 1530 Question You are given the root of a binary tree and an integer distance. A pair of two different leaf nodes of a binary tree is said to be good if the length of the shortest path between them is less than or equal to distance.
+Return the number of good leaf node pairs in the tree.
+Example 1 Input: root = [1,2,3,null,4], distance = 3 Output: 1 Explanation: The leaf nodes of the tree are 3 and 4 and the length of the shortest path between them is 3."
 />
 <meta
   name="keywords"
@@ -18,12 +19,13 @@ Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem Invert Binary Tree">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 226 Question Given the root of a binary tree, invert the tree and return its root.
-Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 4 --- 2 4 --- 7 2 --- 1 2 --- 3 7 --- 6 7 --- 9 Output : graph TD 4 --- 7 4 --- 2 7 --- 9 7 --- 6 2 --- 3 2 --- 1 Example 2 Input: root = [2,1,3] Output: [2,3,1] Input : graph TD 2 --- 1 2 --- 3 Output : graph TD 2 --- 3 2 --- 1 Example 3 Input: root = [] Output: [] Constraints - The number of nodes in the tree is in the range `[0, 100]`.">
+  <meta name="twitter:title" content="Problem Number of Good Leaf Nodes Pairs">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 1530 Question You are given the root of a binary tree and an integer distance. A pair of two different leaf nodes of a binary tree is said to be good if the length of the shortest path between them is less than or equal to distance.
+Return the number of good leaf node pairs in the tree.
+Example 1 Input: root = [1,2,3,null,4], distance = 3 Output: 1 Explanation: The leaf nodes of the tree are 3 and 4 and the length of the shortest path between them is 3.">
 
 
-<link rel="canonical" href="https://KTS-o7.github.io/blog/posts/problem-invert-binary-tree/" />
+<link rel="canonical" href="https://KTS-o7.github.io/blog/posts/problem-number-of-good-leaf-nodes-pairs/" />
 
 <link rel="shortcut icon" href="/blog/favicon.ico" />
 <link rel="stylesheet" href="/blog/css/index.min.5d96433bd17079764d5a8866addd6d7848ea8295977a06688f43c5be97af544e.css">
@@ -143,13 +145,13 @@ Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 
 <div class="w-full max-w-4xl lg:max-w-5xl">
   <div class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
     <div>
-      <a href="/blog/posts/problem-invert-binary-tree/">
+      <a href="/blog/posts/problem-number-of-good-leaf-nodes-pairs/">
         
       </a>
     </div>
     <div class="flex flex-col gap-y-3 p-6">
       <h1 class="text-4xl font-semibold text-slate-800 dark:text-slate-100">
-        <a href="/blog/posts/problem-invert-binary-tree/">Problem Invert Binary Tree</a>
+        <a href="/blog/posts/problem-number-of-good-leaf-nodes-pairs/">Problem Number of Good Leaf Nodes Pairs</a>
       </h1>
 
       
@@ -176,7 +178,7 @@ Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 
       </li>
       
       <li>
-        <a href="/blog/tags/tree/"
+        <a href="/blog/tags/dfs/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -188,24 +190,7 @@ Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 
 </svg>
 
           </i>
-          <span class="ml-0">tree</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/recursion/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">recursion</span>
+          <span class="ml-0">dfs</span>
         </a>
       </li>
       
@@ -230,8 +215,8 @@ Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 
 </svg>
 
     </i>
-    <time datetime="2024-06-30T18:59:42&#43;05:30">
-      2024-06-30
+    <time datetime="2024-07-18T16:16:45&#43;05:30">
+      2024-07-18
     </time>
   </div>
 
@@ -246,7 +231,7 @@ Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 
 
     </i>
     <span>
-      2 minutes to read
+      4 minutes to read
     </span>
   </div>
 </div>
@@ -258,85 +243,47 @@ Example 1 Input: root = [4,2,7,1,3,6,9] Output: [4,7,2,9,6,3,1] Input: graph TD 
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
         <h1 id="problem-statement">Problem Statement</h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/invert-binary-tree/description/" target="_blank" rel="noopener">Problem 226</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/description/" target="_blank" rel="noopener">Problem 1530</a>
 </p>
 <h2 id="question">Question</h2>
-<p>Given the <code>root</code> of a binary tree, invert the tree and return its root.</p>
+<p>You are given the <code>root</code> of a binary tree and an integer <code>distance</code>. A pair of two different leaf nodes of a binary tree is said to be good if the length of the shortest path between them is less than or equal to <code>distance</code>.</p>
+<p>Return the number of good leaf node pairs in the tree.</p>
 <h2 id="example-1">Example 1</h2>
-<pre tabindex="0"><code>Input: root = [4,2,7,1,3,6,9]
-Output: [4,7,2,9,6,3,1]
-</code></pre><h4 id="input">Input:</h4>
-
-
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-
-    const lsTheme = localStorage.getItem("theme")
-    const hugoTheme = document.body.classList.contains("dark-theme") ? "dark" : null
-    const currTheme = lsTheme ? lsTheme : hugoTheme;
-    const mermaidTheme = currTheme == "light" ? "default" : "dark"
-
-    mermaid.initialize({theme: mermaidTheme});
-</script>
-
-
-
-<div class="mermaid">
-graph TD
-4 --- 2
-4 --- 7
-2 --- 1
-2 --- 3
-7 --- 6
-7 --- 9
-
-</div>
-
-<h4 id="output-">Output :</h4>
-
-
-<div class="mermaid">
-graph TD
-4 --- 7
-4 --- 2
-7 --- 9
-7 --- 6
-2 --- 3
-2 --- 1
-
-</div>
-
-<h2 id="example-2">Example 2</h2>
-<pre tabindex="0"><code>Input: root = [2,1,3]
-Output: [2,3,1]
-</code></pre><h4 id="input-">Input :</h4>
-
-
-<div class="mermaid">
-graph TD
-2 --- 1
-2 --- 3
-
-</div>
-
-<h4 id="output--1">Output :</h4>
-
-
-<div class="mermaid">
-graph TD
-2 --- 3
-2 --- 1
-
-</div>
-
-<h2 id="example-3">Example 3</h2>
-<pre tabindex="0"><code>Input: root = []
-Output: []
+<p><div class="not-prose">
+<figure>
+    <img src="https://assets.leetcode.com/uploads/2020/07/09/e1.jpg"
+      alt="image1" 
+      loading="lazy"
+    >
+  </figure></div>
+</p>
+<pre tabindex="0"><code>Input: root = [1,2,3,null,4], distance = 3
+Output: 1
+Explanation: The leaf nodes of the tree are 3 and 4 and the length of the shortest path between them is 3.
+This is the only good pair.
+</code></pre><h2 id="example-2">Example 2</h2>
+<p><div class="not-prose">
+<figure>
+    <img src="https://assets.leetcode.com/uploads/2020/07/09/e2.jpg"
+      alt="image2" 
+      loading="lazy"
+    >
+  </figure></div>
+</p>
+<pre tabindex="0"><code>Input: root = [1,2,3,4,5,6,7], distance = 3
+Output: 2
+Explanation: The good pairs are [4,5] and [6,7] with shortest path = 2.
+The pair [4,6] is not good because the length of ther shortest path between them is 4.
+</code></pre><h2 id="example-3">Example 3</h2>
+<pre tabindex="0"><code>Input: root = [7,1,4,6,null,5,3,null,null,null,null,null,2], distance = 3
+Output: 1
+Explanation: The only good pair is [2,5].
 </code></pre><h2 id="constraints">Constraints</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> The number of nodes in the tree is in the range <span style="color:#e6db74">`[0, 100]`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`-100 &lt;= Node.val &lt;= 100`</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> The number of nodes in the tree is in the range <span style="color:#e6db74">`[1, 2^10]`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`1 &lt;= Node.val &lt;= 100`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`1 &lt;= distance &lt;= 10`</span>
 </span></span></code></pre></div><h2 id="solution">Solution</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/*
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Definition for a binary tree node.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct TreeNode {
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
@@ -349,37 +296,84 @@ Output: []
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> invert(TreeNode<span style="color:#f92672">*</span> root)
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root)
-</span></span><span style="display:flex;"><span>        {
-</span></span><span style="display:flex;"><span>            swap(root<span style="color:#f92672">-&gt;</span>left,root<span style="color:#f92672">-&gt;</span>right);
-</span></span><span style="display:flex;"><span>            invert(root<span style="color:#f92672">-&gt;</span>left);
-</span></span><span style="display:flex;"><span>            invert(root<span style="color:#f92672">-&gt;</span>right);
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>countPair(TreeNode<span style="color:#f92672">*</span> root, <span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> dist, <span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> count){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>root)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> {<span style="color:#ae81ff">0</span>};
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root<span style="color:#f92672">-&gt;</span>left <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span> <span style="color:#f92672">&amp;&amp;</span> root<span style="color:#f92672">-&gt;</span>right <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> {<span style="color:#ae81ff">1</span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> left <span style="color:#f92672">=</span> countPair(root<span style="color:#f92672">-&gt;</span>left,dist,count);
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> right <span style="color:#f92672">=</span> countPair(root<span style="color:#f92672">-&gt;</span>right,dist,count);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i:left){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j:right){
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(i<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> j<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> i<span style="color:#f92672">+</span>j<span style="color:#f92672">&lt;=</span>dist){
+</span></span><span style="display:flex;"><span>                    count<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>ans;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i:left)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(i<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> i<span style="color:#f92672">&lt;</span>dist)
+</span></span><span style="display:flex;"><span>                ans.push_back(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j:right)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(j<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> j<span style="color:#f92672">&lt;</span>dist)
+</span></span><span style="display:flex;"><span>                ans.push_back(j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    TreeNode<span style="color:#f92672">*</span> <span style="color:#a6e22e">invertTree</span>(TreeNode<span style="color:#f92672">*</span> root) {
-</span></span><span style="display:flex;"><span>        invert(root);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> root;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">countPairs</span>(TreeNode<span style="color:#f92672">*</span> root, <span style="color:#66d9ef">int</span> distance) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        countPair(root,distance,count);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div><h2 id="complexity-analysis">Complexity Analysis</h2>
-<ul>
-<li><code>Time Complexity</code> : O(N)</li>
-<li><code>Space Complexity</code> : O(N)</li>
-</ul>
-<h2 id="explanation">Explanation</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| DFS       | O(n^2)          | O(n)             |
+</span></span></code></pre></div><h2 id="explanation">Explanation</h2>
 <h3 id="1-intuition">1. Intuition</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We need to produce a mirror image of the binary tree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> To do this we just need to swap the left and right subtrees recursively.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can count a good pair by checking the distance between the leaf nodes.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We need to build up the distance calculations from the leaf nodes to the root.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can use a recursive approach to solve this problem.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If we can track the distances from leaf nodes to the current node,
+</span></span><span style="display:flex;"><span>  we can find out the combinations that match in that subtree
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return 1 if the node is a leaf node.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return 0 if the node is null.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Keep track of the distances of the leaf nodes from left subtree of current node,
+</span></span><span style="display:flex;"><span>  and right subtree of the current node.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Now we can find out the good pairs by checking the distances of the leaf nodes in the left subtree
+</span></span><span style="display:flex;"><span>  and right subtree of the current node.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the sum of the distances of the leaf nodes in the left subtree and right subtree is less than or equal to the distance,
+</span></span><span style="display:flex;"><span>  then we can increment the count.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can return the distances of the leaf nodes from the current node to the parent node.
 </span></span></code></pre></div><h3 id="2-implementation">2. Implementation</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Define a helper function <span style="color:#e6db74">`invert`</span> which takes a <span style="color:#e6db74">`TreeNode*`</span> as input.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the root is not null, swap the left and right subtrees.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursively call the <span style="color:#e6db74">`invert`</span> function on the left and right subtrees.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the root.
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Define a helper function <span style="color:#e6db74">`countPair`</span> which takes the root node, distance and count as arguments.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the root is null, return a vector with 0.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the root is a leaf node, return a vector with 1.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursively call the function on the left and right child of the current node.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Store the distances of the leaf nodes of left subtree in the vector <span style="color:#e6db74">`left`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Store the distances of the leaf nodes of right subtree in the vector <span style="color:#e6db74">`right`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each distance in the <span style="color:#e6db74">`left`</span> vector,
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> For each distance in the <span style="color:#e6db74">`right`</span> vector,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> If the sum of the distances is less than or equal to the distance,
+</span></span><span style="display:flex;"><span>      increment the count.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Declare a vector <span style="color:#e6db74">`ans`</span> to store the distances of the leaf nodes from the current node to the parent node.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each distance in the <span style="color:#e6db74">`left`</span> vector,
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the distance is greater than 0 and less than the distance,
+</span></span><span style="display:flex;"><span>    add the distance + 1 to the <span style="color:#e6db74">`ans`</span> vector.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each distance in the <span style="color:#e6db74">`right`</span> vector,
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the distance is greater than 0 and less than the distance,
+</span></span><span style="display:flex;"><span>    add the distance + 1 to the <span style="color:#e6db74">`ans`</span> vector.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> This adding <span style="color:#e6db74">`1`</span> basically says that there is a node between the leaf node and the parent node.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the <span style="color:#e6db74">`ans`</span> vector.
+</span></span></code></pre></div><blockquote>
+<p>This is a good problem to understand the concept of DFS and how we can use it to solve problems related to binary trees.</p>
+</blockquote>
+
       </article>
       <link
   rel="stylesheet"
