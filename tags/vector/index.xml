@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vector on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/vector/</link>
+    <link>http://localhost:1313/blog/tags/vector/</link>
     <description>Recent content in Vector on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Fri, 28 Jun 2024 19:39:10 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/vector/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/vector/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem Maximum Total Importance of Roads</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-maximum-total-importance-of-roads/</link>
+      <link>http://localhost:1313/blog/posts/problem-maximum-total-importance-of-roads/</link>
       <pubDate>Fri, 28 Jun 2024 19:39:10 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-maximum-total-importance-of-roads/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-maximum-total-importance-of-roads/</guid>
       <description>Problem Statement Link - Problem 2285 Question You are given an integer n denoting the number of cities in a country. The cities are numbered from 0 to n - 1.&#xA;You are also given a 2D integer array roads where roads[i] = [ai, bi] denotes that there exists a bidirectional road connecting cities ai and bi.&#xA;You need to assign each city with an integer value from 1 to n, where each value can only be used once.</description>
     </item>
     <item>
       <title>Problem Relative Sort Array</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-relative-sort-array/</link>
+      <link>http://localhost:1313/blog/posts/problem-relative-sort-array/</link>
       <pubDate>Tue, 11 Jun 2024 14:35:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-relative-sort-array/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-relative-sort-array/</guid>
       <description>Problem Statement Link - Problem 1122 Question Given two arrays arr1 and arr2, the elements of arr2 are distinct, and all elements in arr2 are also in arr1.&#xA;Sort the elements of arr1 such that the relative ordering of items in arr1 are the same as in arr2. Elements that do not appear in arr2 should be placed at the end of arr1 in ascending order.&#xA;Example 1 Input: arr1 = [2,3,1,3,2,4,6,7,9,2,19], arr2 = [2,1,4,3,9,6] Output: [2,2,2,1,4,3,3,9,6,7,19] Example 2 Input: arr1 = [28,6,22,8,44,17], arr2 = [22,28,8,6] Output: [22,28,8,6,17,44] Constraints 1 &amp;lt;= arr1.</description>
     </item>
     <item>
       <title>Problem Continuous Subarray Sum</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-continuous-subarray-sum/</link>
+      <link>http://localhost:1313/blog/posts/problem-continuous-subarray-sum/</link>
       <pubDate>Sat, 08 Jun 2024 11:56:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-continuous-subarray-sum/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-continuous-subarray-sum/</guid>
       <description>Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.&#xA;A good subarray is a subarray where:&#xA;its length is at least two, and the sum of the elements of the subarray is a multiple of k.&#xA;Note A subarray is a contiguous part of the array. An integer x is a multiple of k if there exists an integer n such that x = n * k.</description>
     </item>
     <item>
       <title>Problem Find Common Characters</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-common-characters/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-common-characters/</link>
       <pubDate>Thu, 06 Jun 2024 23:34:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-common-characters/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-common-characters/</guid>
       <description>Problem Statement Link - Problem 1002 Question Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates). You may return the answer in any order.&#xA;Example 1 Input: words = [&amp;#34;bella&amp;#34;,&amp;#34;label&amp;#34;,&amp;#34;roller&amp;#34;] Output: [&amp;#34;e&amp;#34;,&amp;#34;l&amp;#34;,&amp;#34;l&amp;#34;] Example 2 Input: words = [&amp;#34;cool&amp;#34;,&amp;#34;lock&amp;#34;,&amp;#34;cook&amp;#34;] Output: [&amp;#34;c&amp;#34;,&amp;#34;o&amp;#34;] Constraints 1 &amp;lt;= words.length &amp;lt;= 100 1 &amp;lt;= words[i].length &amp;lt;= 100 words[i] consists of lowercase English letters. Solution class Solution { public: vector&amp;lt;string&amp;gt; commonChars(vector&amp;lt;string&amp;gt;&amp;amp; words) { vector&amp;lt;int&amp;gt;baselineCount(26,0); string temp; for(int i =0;i&amp;lt;words[0].</description>
     </item>
     <item>
       <title>Problem Largest Local Values in a Matrix</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-largest-local-values-in-a-matrix/</link>
+      <link>http://localhost:1313/blog/posts/problem-largest-local-values-in-a-matrix/</link>
       <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-largest-local-values-in-a-matrix/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-largest-local-values-in-a-matrix/</guid>
       <description>Problem Statement Link - Problem 2373 Question You are given an n x n integer matrix grid.&#xA;Generate an integer matrix maxLocal of size (n - 2) x (n - 2) such that:&#xA;maxLocal[i][j] is equal to the largest value of the 3 x 3 matrix in grid centered around row i + 1 and column j + 1. In other words, we want to find the largest value in every contiguous 3 x 3 matrix in grid.</description>
     </item>
     <item>
       <title>Problem Maximize Happiness of Selected Children</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-maximize-happiness-of-selected-children/</link>
+      <link>http://localhost:1313/blog/posts/problem-maximize-happiness-of-selected-children/</link>
       <pubDate>Thu, 09 May 2024 14:35:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-maximize-happiness-of-selected-children/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-maximize-happiness-of-selected-children/</guid>
       <description>Problem Statement Link - Problem 3075 Question You are given an array happiness of length n, and a positive integer k.&#xA;There are n children standing in a queue, where the ith child has happiness value happiness[i]. You want to select k children from these n children in k turns.&#xA;In each turn, when you select a child, the happiness value of all the children that have not been selected till now decreases by 1.</description>
     </item>
     <item>
       <title>Problem Relative Ranks</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-relative-ranks/</link>
+      <link>http://localhost:1313/blog/posts/problem-relative-ranks/</link>
       <pubDate>Wed, 08 May 2024 14:24:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-relative-ranks/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-relative-ranks/</guid>
       <description>Problem Statement Link - Problem 506 Question You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique.&#xA;The athletes are placed based on their scores, where the 1st place athlete has the highest score, the 2nd place athlete has the 2nd highest score, and so on. The placement of each athlete determines their rank:</description>
     </item>
   </channel>

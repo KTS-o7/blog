@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Star-Graph on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/star-graph/</link>
+    <link>http://localhost:1313/blog/tags/star-graph/</link>
     <description>Recent content in Star-Graph on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Thu, 27 Jun 2024 10:59:29 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/star-graph/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/star-graph/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem Find Center of Star Graph</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-center-of-star-graph/</link>
+      <link>http://localhost:1313/blog/posts/problem-find-center-of-star-graph/</link>
       <pubDate>Thu, 27 Jun 2024 10:59:29 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-center-of-star-graph/</guid>
+      <guid>http://localhost:1313/blog/posts/problem-find-center-of-star-graph/</guid>
       <description>Problem Statement Link - Problem 1791 Question There is an undirected star graph consisting of n nodes labeled from 1 to n. A star graph is a graph where there is one center node and exactly n - 1 edges that connect the center node with every other node.&#xA;You are given a 2D integer array edges where each edges[i] = [ui, vi] indicates that there is an edge between the nodes ui and vi.</description>
     </item>
   </channel>
