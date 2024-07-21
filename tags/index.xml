@@ -31,7 +31,7 @@
       <description></description>
     </item>
     <item>
-      <title>Binary Tree</title>
+      <title>Binary-Tree</title>
       <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
@@ -122,7 +122,7 @@
       <description></description>
     </item>
     <item>
-      <title>Linked List</title>
+      <title>Linked-List</title>
       <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
@@ -388,7 +388,7 @@
       <description></description>
     </item>
     <item>
-      <title>2D Array</title>
+      <title>2D-Array</title>
       <link>https://KTS-o7.github.io/blog/tags/2d-array/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/2d-array/</guid>
@@ -416,28 +416,14 @@
       <description></description>
     </item>
     <item>
-      <title>Monotonic Stack</title>
+      <title>Monotonic-Stack</title>
       <link>https://KTS-o7.github.io/blog/tags/monotonic-stack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/monotonic-stack/</guid>
       <description></description>
     </item>
     <item>
-      <title>Leetcode</title>
-      <link>https://KTS-o7.github.io/blog/tags/leetcode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Medium</title>
-      <link>https://KTS-o7.github.io/blog/tags/medium/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/medium/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Two Pointers</title>
+      <title>Two-Pointers</title>
       <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
@@ -462,20 +448,6 @@
       <link>https://KTS-o7.github.io/blog/tags/setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/setup/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>New</title>
-      <link>https://KTS-o7.github.io/blog/tags/new/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/new/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Post</title>
-      <link>https://KTS-o7.github.io/blog/tags/post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/post/</guid>
       <description></description>
     </item>
   </channel>

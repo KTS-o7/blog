@@ -501,9 +501,9 @@
     </item>
     <item>
       <title>RaspberryPi_Zero_Setup</title>
-      <link>https://KTS-o7.github.io/blog/posts/raspberrypi_zero_setup/</link>
+      <link>https://KTS-o7.github.io/blog/posts/raspberrypi/raspberrypi_zero_setup/</link>
       <pubDate>Mon, 15 Apr 2024 00:55:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/raspberrypi_zero_setup/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/raspberrypi/raspberrypi_zero_setup/</guid>
       <description>Raspberry Pi Zero Headless WiFi Setup Using Linux The following instructions will ultimately enable your Pi Zero to connect the WiFi to the router during every boot up, for a headless management.&#xA;Appendix Prerequisite Enabling USB ethernet gadget mode on Pi Things to do once connected to Pi via USB 3.1. Enabling Internet access in Raspberry Pi 3.2. SSH into Raspberry Pi 3.3. Change locale settings 3.4. Update the OS 3.</description>
     </item>
     <item>
@@ -512,20 +512,6 @@
       <pubDate>Sun, 14 Apr 2024 19:48:51 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/about/about/</guid>
       <description>Hello! I&amp;rsquo;m Krishnatejaswi S, a passionate Computer Science and Engineering student from Bangalore, India. My journey in the world of technology has been both challenging and rewarding, and I&amp;rsquo;m excited to share my experiences and projects with you.&#xA;Academic Background I&amp;rsquo;m currently pursuing my B.E degree in Computer Science and Engineering at RV College of Engineering, where I&amp;rsquo;ve had the opportunity to dive deep into various technologies and programming languages.</description>
-    </item>
-    <item>
-      <title>New Post</title>
-      <link>https://KTS-o7.github.io/blog/posts/newpost/</link>
-      <pubDate>Sun, 14 Apr 2024 18:45:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/newpost/</guid>
-      <description>What is this ? Lets find out !&#xA;mermaid sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;John: Hello John, how are you? loop Healthcheck John-&gt;&gt;John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John--&gt;&gt;Alice: Great! John-&gt;&gt;Bob: How about you? Bob--&gt;&gt;John: Jolly good! Code while(True): print(&amp;#34;Hello World&amp;#34;) </description>
-    </item>
-    <item>
-      <title>First Post</title>
-      <link>https://KTS-o7.github.io/blog/posts/firstpost/</link>
-      <pubDate>Sun, 14 Apr 2024 18:19:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/firstpost/</guid>
-      <description>This is the first post to test the things. Looks like its working !</description>
     </item>
     <item>
       <title></title>

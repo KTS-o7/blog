@@ -45,6 +45,13 @@
       <description>Problem Statement Link - Problem 2037 Question There are n seats and n students in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.&#xA;You may perform the following move any number of times:&#xA;Increase or decrease the position of the ith student by 1 (i.</description>
     </item>
     <item>
+      <title>Problem Hand of Straights</title>
+      <link>https://KTS-o7.github.io/blog/posts/problem-hand-of-straights/</link>
+      <pubDate>Thu, 06 Jun 2024 23:33:06 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/problem-hand-of-straights/</guid>
+      <description>Problem Statement Link - Problem 846 Question Alice has some number of cards and she wants to rearrange the cards into groups so that each group is of size groupSize, and consists of groupSize consecutive cards.&#xA;Given an integer array hand where hand[i] is the value written on the ith card and an integer groupSize, return true if she can rearrange the cards, or false otherwise.&#xA;Note : Only groupSize matters not the number of groups.</description>
+    </item>
+    <item>
       <title>Problem Find the Maximum Sum of Node Values</title>
       <link>https://KTS-o7.github.io/blog/posts/problem-find-the-maximum-sum-of-node-values/</link>
       <pubDate>Sun, 19 May 2024 10:30:05 +0530</pubDate>
