@@ -10,10 +10,10 @@
     <lastBuildDate>Tue, 09 Jul 2024 23:52:07 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Problem Average Waiting Time</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-average-waiting-time/</link>
+      <title>Problem 1701 Average Waiting Time</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-average-waiting-time/</link>
       <pubDate>Tue, 09 Jul 2024 23:52:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-average-waiting-time/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-average-waiting-time/</guid>
       <description>Problem Statement Link - Problem 1701 Question There is a restaurant with a single chef. You are given an array customers, where customers[i] = [arrivali, timei]:&#xA;- arrivali is the arrival time of the ith customer. The arrival times are sorted in non-decreasing order.&#xA;timei is the time needed to prepare the order of the ith customer. When a customer arrives, he gives the chef his order, and the chef starts preparing it once he is idle.</description>
     </item>
   </channel>

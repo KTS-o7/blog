@@ -10,101 +10,101 @@
     <lastBuildDate>Thu, 18 Jul 2024 16:16:45 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Problem Number of Good Leaf Nodes Pairs</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-number-of-good-leaf-nodes-pairs/</link>
+      <title>Problem 1530 Number of Good Leaf Nodes Pairs</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-good-leaf-nodes-pairs/</link>
       <pubDate>Thu, 18 Jul 2024 16:16:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-number-of-good-leaf-nodes-pairs/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-good-leaf-nodes-pairs/</guid>
       <description>Problem Statement Link - Problem 1530 Question You are given the root of a binary tree and an integer distance. A pair of two different leaf nodes of a binary tree is said to be good if the length of the shortest path between them is less than or equal to distance.&#xA;Return the number of good leaf node pairs in the tree.&#xA;Example 1 Input: root = [1,2,3,null,4], distance = 3 Output: 1 Explanation: The leaf nodes of the tree are 3 and 4 and the length of the shortest path between them is 3.</description>
     </item>
     <item>
-      <title>Problem Delete Nodes and Return Forest</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-delete-nodes-and-return-forest/</link>
+      <title>Problem 1110 Delete Nodes and Return Forest</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-nodes-and-return-forest/</link>
       <pubDate>Wed, 17 Jul 2024 12:04:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-delete-nodes-and-return-forest/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-nodes-and-return-forest/</guid>
       <description>Problem Statement Link - Problem 1110 Question Given the root of a binary tree, each node in the tree has a distinct value.&#xA;After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).&#xA;Return the roots of the trees in the remaining forest. You may return the result in any order.&#xA;Example 1 Input: root = [1,2,3,4,5,6,7], to_delete = [3,5] Output: [[1,2,null,4],[6],[7]] Example 2 Input: root = [1,2,4,null,3], to_delete = [3] Output: [[1,2,4]] Constraints - The number of nodes in the given tree is at most `1000`.</description>
     </item>
     <item>
-      <title>Problem Step by Step Directions From a Binary Tree Node to Another</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
+      <title>Problem 2096 Step by Step Directions From a Binary Tree Node to Another</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
       <pubDate>Tue, 16 Jul 2024 12:54:12 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
       <description>Problem Statement Link - Problem 2096 Question You are given the root of a binary tree with n nodes. Each node is uniquely assigned a value from 1 to n. You are also given an integer startValue representing the value of the start node s, and a different integer destValue representing the value of the destination node t.&#xA;Find the shortest path starting from node s and ending at node t.</description>
     </item>
     <item>
-      <title>Problem All Ancestors of a Node in a DAG</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</link>
+      <title>Problem 2192 All Ancestors of a Node in a DAG</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-all-ancestors-of-a-node-in-a-dag/</link>
       <pubDate>Sat, 29 Jun 2024 10:39:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-all-ancestors-of-a-node-in-a-dag/</guid>
       <description>Problem Statement Link - Problem 2192 Question You are given a positive integer n representing the number of nodes of a Directed Acyclic Graph (DAG). The nodes are numbered from 0 to n - 1 (inclusive).&#xA;You are also given a 2D integer array edges, where edges[i] = [fromi, toi] denotes that there is a unidirectional edge from fromi to toi in the graph.&#xA;Return a list answer, where answer[i] is the list of ancestors of the ith node, sorted in ascending order.</description>
     </item>
     <item>
-      <title>Problem Distribute Coins in Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-distribute-coins-in-binary-tree/</link>
+      <title>Problem 979 Distribute Coins in Binary Tree</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-distribute-coins-in-binary-tree/</link>
       <pubDate>Sun, 19 May 2024 10:29:15 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-distribute-coins-in-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-distribute-coins-in-binary-tree/</guid>
       <description>Problem Statement Link - Problem 979 Question You are given the root of a binary tree with n nodes where each node in the tree has node.val coins. There are n coins in total throughout the whole tree.&#xA;In one move, we may choose two adjacent nodes and move one coin from one node to another. A move may be from parent to child, or from child to parent.&#xA;Return the minimum number of moves required to make every node have exactly one coin.</description>
     </item>
     <item>
-      <title>Problem Delete Leaves With a Given Value</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-delete-leaves-with-a-given-value/</link>
+      <title>Problem 1325 Delete Leaves With a Given Value</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-leaves-with-a-given-value/</link>
       <pubDate>Sun, 19 May 2024 10:27:59 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-delete-leaves-with-a-given-value/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-leaves-with-a-given-value/</guid>
       <description>Problem Statement Link - Problem 1325 Question Given a binary tree root and an integer target, delete all the leaf nodes with value target.&#xA;Note that once you delete a leaf node with value target, if its parent node becomes a leaf node and has the value target, it should also be deleted (you need to continue doing that until you cannot).&#xA;Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4] Explanation: Leaf nodes in green with value (target = 2) are removed (Picture in left).</description>
     </item>
     <item>
-      <title>Problem Evaluate Boolean Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-evaluate-boolean-binary-tree/</link>
+      <title>Problem 2331 Evaluate Boolean Binary Tree</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-evaluate-boolean-binary-tree/</link>
       <pubDate>Fri, 17 May 2024 21:05:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-evaluate-boolean-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-evaluate-boolean-binary-tree/</guid>
       <description>Problem Statement Link - Problem 2331 Question You are given the root of a full binary tree with the following properties:&#xA;Leaf nodes have either the value 0 or 1, where 0 represents False and 1 represents True. Non-leaf nodes have either the value 2 or 3, where 2 represents the boolean OR and 3 represents the boolean AND. The evaluation of a node is as follows:&#xA;If the node is a leaf node, the evaluation is the value of the node, i.</description>
     </item>
     <item>
-      <title>Problem Path With Maximum Gold</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-path-with-maximum-gold/</link>
+      <title>Problem 1219 Path With Maximum Gold</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-path-with-maximum-gold/</link>
       <pubDate>Tue, 14 May 2024 22:27:55 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-path-with-maximum-gold/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-path-with-maximum-gold/</guid>
       <description>Problem Statement Link - Problem 1219 Question In a gold mine grid of size m x n, each cell in this mine has an integer representing the amount of gold in that cell, 0 if it is empty.&#xA;Return the maximum amount of gold you can collect under the conditions:&#xA;Every time you are located in a cell you will collect all the gold in that cell. From your position, you can walk one step to the left, right, up, or down.</description>
     </item>
     <item>
-      <title>Problem Find if Path Exists in Graph</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-if-path-exists-in-graph/</link>
+      <title>Problem 1971 Find if Path Exists in Graph</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-if-path-exists-in-graph/</link>
       <pubDate>Sun, 21 Apr 2024 15:42:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-if-path-exists-in-graph/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-if-path-exists-in-graph/</guid>
       <description>Problem Statement Link - Problem 1971 Question There is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n-1 (inclusive). The edges in the graph are represented as a 2D integer array edges, where each edges[i] = [ui, vi] denotes a bi-directional edge between vertex ui and vertex vi. Every vertex pair is connected by at most one edge, and no vertex has an edge to itself.</description>
     </item>
     <item>
-      <title>Problem Find All Groups of Farmland</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-find-all-groups-of-farmland/</link>
+      <title>Problem 1992 Find All Groups of Farmland</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-all-groups-of-farmland/</link>
       <pubDate>Sat, 20 Apr 2024 10:52:46 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-find-all-groups-of-farmland/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-all-groups-of-farmland/</guid>
       <description>Problem Statement Link - Problem 1992 Question You are given a 0-indexed m x n binary matrix land where a 0 represents a hectare of forested land and a 1 represents a hectare of farmland.&#xA;To keep the land organized, there are designated rectangular areas of hectares that consist entirely of farmland. These rectangular areas are called groups. No two groups are adjacent, meaning farmland in one group is not four-directionally adjacent to another farmland in a different group.</description>
     </item>
     <item>
-      <title>Problem Number of Islands</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-number-of-islands/</link>
+      <title>Problem 200 Number of Islands</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-islands/</link>
       <pubDate>Fri, 19 Apr 2024 13:00:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-number-of-islands/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-islands/</guid>
       <description>Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of &#39;1&#39;s (land) and &#39;0&#39;s (water), return the number of islands.&#xA;An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.&#xA;Note to self They use characters not integers for 1 and 0.</description>
     </item>
     <item>
-      <title>Problem Smallest String Starting From Leaf</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-smallest-string-starting-from-leaf/</link>
+      <title>Problem 988 Smallest String Starting From Leaf</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-smallest-string-starting-from-leaf/</link>
       <pubDate>Wed, 17 Apr 2024 14:56:36 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-smallest-string-starting-from-leaf/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-smallest-string-starting-from-leaf/</guid>
       <description>Problem Statement Link - Problem 988 Question You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters &#39;a&#39; to &#39;z&#39;.&#xA;Return the lexicographically smallest string that starts at a leaf of this tree and ends at the root.&#xA;As a reminder, any shorter prefix of a string is lexicographically smaller.&#xA;For example, &amp;quot;ab&amp;quot; is lexicographically smaller than &amp;quot;aba&amp;quot;.</description>
     </item>
     <item>
-      <title>Problem Add One Row to Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-add-one-row-to-tree/</link>
+      <title>Problem 623 Add One Row to Tree</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-add-one-row-to-tree/</link>
       <pubDate>Tue, 16 Apr 2024 10:05:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-add-one-row-to-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-add-one-row-to-tree/</guid>
       <description>Problem Statement Link - Problem 623 Question Given the root of a binary tree and two integers val and depth, add a row of nodes with value val at the given depth depth.&#xA;Note that the root node is at depth 1.&#xA;The adding rule is:&#xA;Given the integer depth, for each not null tree node cur at the depth depth - 1, create two tree nodes with value val as cur&#39;s left subtree root and right subtree root.</description>
     </item>
     <item>
-      <title>Problem Sum Root to Leaf Numbers</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-sum-root-to-leaf-numbers/</link>
+      <title>Problem 129 Sum Root to Leaf Numbers</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-root-to-leaf-numbers/</link>
       <pubDate>Mon, 15 Apr 2024 19:38:03 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-sum-root-to-leaf-numbers/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-root-to-leaf-numbers/</guid>
       <description>Problem Statement Link - Problem 129 Question You are given the root of a binary tree containing digits from 0 to 9 only.&#xA;Each root-to-leaf path in the tree represents a number.&#xA;For example, the root-to-leaf path 1 -&amp;gt; 2 -&amp;gt; 3 represents the number 123. Return the total sum of all root-to-leaf numbers. Test cases are generated so that the answer will fit in a 32-bit integer.&#xA;A leaf node is a node with no children.</description>
     </item>
   </channel>

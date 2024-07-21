@@ -10,10 +10,10 @@
     <lastBuildDate>Sat, 29 Jun 2024 10:39:42 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/adjacency-list/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Problem All Ancestors of a Node in a DAG</title>
-      <link>https://KTS-o7.github.io/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</link>
+      <title>Problem 2192 All Ancestors of a Node in a DAG</title>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-all-ancestors-of-a-node-in-a-dag/</link>
       <pubDate>Sat, 29 Jun 2024 10:39:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/problem-all-ancestors-of-a-node-in-a-dag/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-all-ancestors-of-a-node-in-a-dag/</guid>
       <description>Problem Statement Link - Problem 2192 Question You are given a positive integer n representing the number of nodes of a Directed Acyclic Graph (DAG). The nodes are numbered from 0 to n - 1 (inclusive).&#xA;You are also given a 2D integer array edges, where edges[i] = [fromi, toi] denotes that there is a unidirectional edge from fromi to toi in the graph.&#xA;Return a list answer, where answer[i] is the list of ancestors of the ith node, sorted in ascending order.</description>
     </item>
   </channel>
