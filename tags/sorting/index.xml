@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 22 Jul 2024 18:47:32 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2024 21:12:33 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1636 Sort Array by Increasing Frequency</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1636-sort-array-by-increasing-frequency/</link>
+      <pubDate>Tue, 23 Jul 2024 21:12:33 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1636-sort-array-by-increasing-frequency/</guid>
+      <description>Problem Statement Link - Problem 1636 Question Given an array of integers nums, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order.&#xA;Return the sorted array.&#xA;Example 1 Input: nums = [1,1,2,2,2,3] Output: [3,1,1,2,2,2] Explanation: &amp;#39;3&amp;#39; has a frequency of 1, &amp;#39;1&amp;#39; has a frequency of 2, and &amp;#39;2&amp;#39; has a frequency of 3. Example 2 Input: nums = [2,3,1,3,2] Output: [1,3,3,2,2] Explanation: &amp;#39;2&amp;#39; and &amp;#39;3&amp;#39; both have a frequency of 2, so they are sorted in decreasing order.</description>
+    </item>
     <item>
       <title>Problem 2418 Sort the People</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2418-sort-the-people/</link>
