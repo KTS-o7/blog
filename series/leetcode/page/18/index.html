@@ -42,7 +42,7 @@
     <div class="flex flex-row gap justify-between w-full max-w-4xl lg:max-w-5xl h-12 mt-3">
   <div class="flex-none ml-2 md:ml-0">
     <a href="/blog/" class="">
-      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.svg" alt="logo">
+      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.jpeg" alt="logo">
     </a>
   </div>
   <div class="flex-1"></div>
@@ -152,21 +152,21 @@
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-delete-leaves-with-a-given-value/">
+              <a href="/blog/posts/prev_solns/problem-minimum-falling-path-sum-ii/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-delete-leaves-with-a-given-value/">Problem 1325 Delete Leaves With a Given Value</a>
+                <a href="/blog/posts/prev_solns/problem-minimum-falling-path-sum-ii/">Problem 1289 Minimum Falling Path Sum II</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 1325 Question Given a binary tree root and an integer target, delete all the leaf nodes with value target.
-Note that once you delete a leaf node with value target, if its parent node becomes a leaf node and has the value target, it should also be deleted (you need to continue doing that until you cannot).
-Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4] Explanation: Leaf nodes in green with value (target = 2) are removed (Picture in left).
+    Problem Statement Link: Problem 1289 Question Given an n x n integer matrix grid, return the minimum sum of a falling path with non-zero shifts.
+A falling path with non-zero shifts is a choice of exactly one element from each row of grid such that no two elements chosen in adjacent rows are in the same column.
+Example 1 1 2 3 4 5 6 7 8 9 Input: grid = [[1,2,3],[4,5,6],[7,8,9]] Output: 13 Explanation: The possible falling paths are: [1,5,9], [1,5,7], [1,6,7], [1,6,8], [2,4,8], [2,4,9], [2,6,7], [2,6,8], [3,4,8], [3,4,9], [3,5,7], [3,5,9] The falling path with the smallest sum is [1,5,7], so the answer is 13.
   </div>
   
 
@@ -177,7 +177,7 @@ Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4]
     
       
       <li>
-        <a href="/blog/tags/binary-tree/"
+        <a href="/blog/tags/dp/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -189,12 +189,12 @@ Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4]
 </svg>
 
           </i>
-          <span class="ml-0">binary-tree</span>
+          <span class="ml-0">dp</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/dfs/"
+        <a href="/blog/tags/matrix/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -206,41 +206,7 @@ Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4]
 </svg>
 
           </i>
-          <span class="ml-0">dfs</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/recursion/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">recursion</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/postorder/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">postorder</span>
+          <span class="ml-0">matrix</span>
         </a>
       </li>
       
@@ -265,8 +231,8 @@ Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4]
 </svg>
 
     </i>
-    <time datetime="2024-05-19T10:27:59&#43;05:30">
-      2024-05-19
+    <time datetime="2024-04-26T12:15:26&#43;05:30">
+      2024-04-26
     </time>
   </div>
 
@@ -291,21 +257,22 @@ Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4]
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-evaluate-boolean-binary-tree/">
+              <a href="/blog/posts/prev_solns/problem-nth-tribonacci-number/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-evaluate-boolean-binary-tree/">Problem 2331 Evaluate Boolean Binary Tree</a>
+                <a href="/blog/posts/prev_solns/problem-nth-tribonacci-number/">Problem 1137 Nth Tribonacci Number</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 2331 Question You are given the root of a full binary tree with the following properties:
-Leaf nodes have either the value 0 or 1, where 0 represents False and 1 represents True. Non-leaf nodes have either the value 2 or 3, where 2 represents the boolean OR and 3 represents the boolean AND. The evaluation of a node is as follows:
-If the node is a leaf node, the evaluation is the value of the node, i.
+    Problem Statement Link - Problem 1137 Question The Tribonacci sequence T(n) is defined as follows:
+T(0) = 0, T(1) = 1, T(2) = 1, and T(n+3) = T(n) + T(n+1) + T(n+2) for n &gt;= 0.
+Given n, return the value of T(n).
+Note to self This is a straight forward Recursion Problem. We can convert this to DP by using memoization. We will use an array to store the intermediate values to prevent repeated calculations.
   </div>
   
 
@@ -314,57 +281,6 @@ If the node is a leaf node, the evaluation is the value of the node, i.
   <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
     
     
-      
-      <li>
-        <a href="/blog/tags/binary-tree/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">binary-tree</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/dfs/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">dfs</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/bit-manipulation/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">bit-manipulation</span>
-        </a>
-      </li>
       
       <li>
         <a href="/blog/tags/cpp/"
@@ -380,6 +296,40 @@ If the node is a leaf node, the evaluation is the value of the node, i.
 
           </i>
           <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/math/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">math</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/dp/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">dp</span>
         </a>
       </li>
       
@@ -404,8 +354,8 @@ If the node is a leaf node, the evaluation is the value of the node, i.
 </svg>
 
     </i>
-    <time datetime="2024-05-17T21:05:30&#43;05:30">
-      2024-05-17
+    <time datetime="2024-04-24T13:45:56&#43;05:30">
+      2024-04-24
     </time>
   </div>
 
@@ -420,7 +370,7 @@ If the node is a leaf node, the evaluation is the value of the node, i.
 
     </i>
     <span>
-      3 minutes to read
+      2 minutes to read
     </span>
   </div>
 </div>
@@ -430,21 +380,20 @@ If the node is a leaf node, the evaluation is the value of the node, i.
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-path-with-maximum-gold/">
+              <a href="/blog/posts/prev_solns/problem-open-the-lock/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-path-with-maximum-gold/">Problem 1219 Path With Maximum Gold</a>
+                <a href="/blog/posts/prev_solns/problem-open-the-lock/">Problem 752 Open the Lock</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 1219 Question In a gold mine grid of size m x n, each cell in this mine has an integer representing the amount of gold in that cell, 0 if it is empty.
-Return the maximum amount of gold you can collect under the conditions:
-Every time you are located in a cell you will collect all the gold in that cell. From your position, you can walk one step to the left, right, up, or down.
+    Problem Statement Link - Problem 752 Question You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: &lsquo;0&rsquo;, &lsquo;1&rsquo;, &lsquo;2&rsquo;, &lsquo;3&rsquo;, &lsquo;4&rsquo;, &lsquo;5&rsquo;, &lsquo;6&rsquo;, &lsquo;7&rsquo;, &lsquo;8&rsquo;, &lsquo;9&rsquo;. The wheels can rotate freely and wrap around: for example we can turn &lsquo;9&rsquo; to be &lsquo;0&rsquo;, or &lsquo;0&rsquo; to be &lsquo;9&rsquo;. Each move consists of turning one wheel one slot.
+The lock initially starts at &lsquo;0000&rsquo;, a string representing the state of the 4 wheels.
   </div>
   
 
@@ -453,57 +402,6 @@ Every time you are located in a cell you will collect all the gold in that cell.
   <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
     
     
-      
-      <li>
-        <a href="/blog/tags/matrix/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">matrix</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/dfs/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">dfs</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/backtracking/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">backtracking</span>
-        </a>
-      </li>
       
       <li>
         <a href="/blog/tags/cpp/"
@@ -519,6 +417,40 @@ Every time you are located in a cell you will collect all the gold in that cell.
 
           </i>
           <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/bfs/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">bfs</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/graph/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">graph</span>
         </a>
       </li>
       
@@ -543,8 +475,8 @@ Every time you are located in a cell you will collect all the gold in that cell.
 </svg>
 
     </i>
-    <time datetime="2024-05-14T22:27:55&#43;05:30">
-      2024-05-14
+    <time datetime="2024-04-22T16:27:12&#43;05:30">
+      2024-04-22
     </time>
   </div>
 
@@ -560,6 +492,126 @@ Every time you are located in a cell you will collect all the gold in that cell.
     </i>
     <span>
       4 minutes to read
+    </span>
+  </div>
+</div>
+
+            </div>
+          </article>
+        
+          <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
+            <div>
+              <a href="/blog/posts/prev_solns/problem-find-if-path-exists-in-graph/">
+                
+              </a>
+            </div>
+            <div class="flex flex-col gap-y-3 p-6">
+              <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
+                <a href="/blog/posts/prev_solns/problem-find-if-path-exists-in-graph/">Problem 1971 Find if Path Exists in Graph</a>
+              </h2>
+
+              
+  
+  <div class="my-4 text-large text-slate-600 dark:text-slate-300">
+    Problem Statement Link - Problem 1971 Question There is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n-1 (inclusive). The edges in the graph are represented as a 2D integer array edges, where each edges[i] = [ui, vi] denotes a bi-directional edge between vertex ui and vertex vi. Every vertex pair is connected by at most one edge, and no vertex has an edge to itself.
+  </div>
+  
+
+
+              
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+    
+      
+      <li>
+        <a href="/blog/tags/cpp/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/graph/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">graph</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/dfs/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">dfs</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+              <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-04-21T15:42:16&#43;05:30">
+      2024-04-21
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      3 minutes to read
     </span>
   </div>
 </div>
@@ -671,6 +723,13 @@ Every time you are located in a cell you will collect all the gold in that cell.
     </li>
     
     <li class="mt-2 mr-2">
+      <a href="/blog/tags/array/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        Array
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
       <a href="/blog/tags/binary-tree/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Binary-Tree
@@ -692,23 +751,9 @@ Every time you are located in a cell you will collect all the gold in that cell.
     </li>
     
     <li class="mt-2 mr-2">
-      <a href="/blog/tags/array/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        Array
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
       <a href="/blog/tags/greedy/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Greedy
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
-      <a href="/blog/tags/string/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        String
       </a>
     </li>
     
@@ -723,6 +768,13 @@ Every time you are located in a cell you will collect all the gold in that cell.
       <a href="/blog/tags/matrix/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Matrix
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
+      <a href="/blog/tags/string/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        String
       </a>
     </li>
     

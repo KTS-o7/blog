@@ -42,7 +42,7 @@
     <div class="flex flex-row gap justify-between w-full max-w-4xl lg:max-w-5xl h-12 mt-3">
   <div class="flex-none ml-2 md:ml-0">
     <a href="/blog/" class="">
-      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.svg" alt="logo">
+      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.jpeg" alt="logo">
     </a>
   </div>
   <div class="flex-1"></div>
@@ -152,22 +152,21 @@
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-continuous-subarray-sum/">
+              <a href="/blog/posts/prev_solns/problem-delete-leaves-with-a-given-value/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-continuous-subarray-sum/">Problem 523 Continuous Subarray Sum</a>
+                <a href="/blog/posts/prev_solns/problem-delete-leaves-with-a-given-value/">Problem 1325 Delete Leaves With a Given Value</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.
-A good subarray is a subarray where:
-its length is at least two, and the sum of the elements of the subarray is a multiple of k.
-Note A subarray is a contiguous part of the array. An integer x is a multiple of k if there exists an integer n such that x = n * k.
+    Problem Statement Link - Problem 1325 Question Given a binary tree root and an integer target, delete all the leaf nodes with value target.
+Note that once you delete a leaf node with value target, if its parent node becomes a leaf node and has the value target, it should also be deleted (you need to continue doing that until you cannot).
+Example 1 Input: root = [1,2,3,2,null,2,4], target = 2 Output: [1,null,3,null,4] Explanation: Leaf nodes in green with value (target = 2) are removed (Picture in left).
   </div>
   
 
@@ -178,7 +177,7 @@ Note A subarray is a contiguous part of the array. An integer x is a multiple of
     
       
       <li>
-        <a href="/blog/tags/hashmap/"
+        <a href="/blog/tags/binary-tree/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -190,12 +189,12 @@ Note A subarray is a contiguous part of the array. An integer x is a multiple of
 </svg>
 
           </i>
-          <span class="ml-0">hashmap</span>
+          <span class="ml-0">binary-tree</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/prefix-sum/"
+        <a href="/blog/tags/dfs/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -207,12 +206,12 @@ Note A subarray is a contiguous part of the array. An integer x is a multiple of
 </svg>
 
           </i>
-          <span class="ml-0">prefix-sum</span>
+          <span class="ml-0">dfs</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/prefixsum/"
+        <a href="/blog/tags/recursion/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -224,12 +223,12 @@ Note A subarray is a contiguous part of the array. An integer x is a multiple of
 </svg>
 
           </i>
-          <span class="ml-0">prefixsum</span>
+          <span class="ml-0">recursion</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/vector/"
+        <a href="/blog/tags/postorder/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -241,7 +240,7 @@ Note A subarray is a contiguous part of the array. An integer x is a multiple of
 </svg>
 
           </i>
-          <span class="ml-0">vector</span>
+          <span class="ml-0">postorder</span>
         </a>
       </li>
       
@@ -266,146 +265,8 @@ Note A subarray is a contiguous part of the array. An integer x is a multiple of
 </svg>
 
     </i>
-    <time datetime="2024-06-08T11:56:40&#43;05:30">
-      2024-06-08
-    </time>
-  </div>
-
-  <div class="flex flex-row text-base gap-x-1">
-    <i class="h-6 w-6 flex-none">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M6.5 7h11"></path>
-   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
-   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
-</svg>
-
-    </i>
-    <span>
-      4 minutes to read
-    </span>
-  </div>
-</div>
-
-            </div>
-          </article>
-        
-          <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
-            <div>
-              <a href="/blog/posts/prev_solns/problem-find-common-characters/">
-                
-              </a>
-            </div>
-            <div class="flex flex-col gap-y-3 p-6">
-              <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-find-common-characters/">Problem 1002 Find Common Characters</a>
-              </h2>
-
-              
-  
-  <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 1002 Question Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates). You may return the answer in any order.
-Example 1 Input: words = [&quot;bella&quot;,&quot;label&quot;,&quot;roller&quot;] Output: [&quot;e&quot;,&quot;l&quot;,&quot;l&quot;] Example 2 Input: words = [&quot;cool&quot;,&quot;lock&quot;,&quot;cook&quot;] Output: [&quot;c&quot;,&quot;o&quot;] Constraints 1 &lt;= words.length &lt;= 100 1 &lt;= words[i].length &lt;= 100 words[i] consists of lowercase English letters. Solution class Solution { public: vector&lt;string&gt; commonChars(vector&lt;string&gt;&amp; words) { vector&lt;int&gt;baselineCount(26,0); string temp; for(int i =0;i&lt;words[0].
-  </div>
-  
-
-
-              
-  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
-    
-    
-      
-      <li>
-        <a href="/blog/tags/string/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">string</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/hash-table/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">hash-table</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/vector/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">vector</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/array/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">array</span>
-        </a>
-      </li>
-      
-    
-  </ul>
-
-
-
-              <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
-  
-  
-  <div class="flex flex-row text-base gap-x-1">
-    <i class="h-6 w-6 flex-none">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
-   <path d="M16 3v4"></path>
-   <path d="M8 3v4"></path>
-   <path d="M4 11h16"></path>
-   <path d="M11 15h1"></path>
-   <path d="M12 15v3"></path>
-</svg>
-
-    </i>
-    <time datetime="2024-06-06T23:34:53&#43;05:30">
-      2024-06-06
+    <time datetime="2024-05-19T10:27:59&#43;05:30">
+      2024-05-19
     </time>
   </div>
 
@@ -430,21 +291,21 @@ Example 1 Input: words = [&quot;bella&quot;,&quot;label&quot;,&quot;roller&quot;
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-hand-of-straights/">
+              <a href="/blog/posts/prev_solns/problem-evaluate-boolean-binary-tree/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-hand-of-straights/">Problem 846 Hand of Straights</a>
+                <a href="/blog/posts/prev_solns/problem-evaluate-boolean-binary-tree/">Problem 2331 Evaluate Boolean Binary Tree</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 846 Question Alice has some number of cards and she wants to rearrange the cards into groups so that each group is of size groupSize, and consists of groupSize consecutive cards.
-Given an integer array hand where hand[i] is the value written on the ith card and an integer groupSize, return true if she can rearrange the cards, or false otherwise.
-Note : Only groupSize matters not the number of groups.
+    Problem Statement Link - Problem 2331 Question You are given the root of a full binary tree with the following properties:
+Leaf nodes have either the value 0 or 1, where 0 represents False and 1 represents True. Non-leaf nodes have either the value 2 or 3, where 2 represents the boolean OR and 3 represents the boolean AND. The evaluation of a node is as follows:
+If the node is a leaf node, the evaluation is the value of the node, i.
   </div>
   
 
@@ -455,7 +316,7 @@ Note : Only groupSize matters not the number of groups.
     
       
       <li>
-        <a href="/blog/tags/greedy/"
+        <a href="/blog/tags/binary-tree/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -467,12 +328,12 @@ Note : Only groupSize matters not the number of groups.
 </svg>
 
           </i>
-          <span class="ml-0">greedy</span>
+          <span class="ml-0">binary-tree</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/hash-map/"
+        <a href="/blog/tags/dfs/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -484,12 +345,12 @@ Note : Only groupSize matters not the number of groups.
 </svg>
 
           </i>
-          <span class="ml-0">hash-map</span>
+          <span class="ml-0">dfs</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/sorting/"
+        <a href="/blog/tags/bit-manipulation/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -501,7 +362,24 @@ Note : Only groupSize matters not the number of groups.
 </svg>
 
           </i>
-          <span class="ml-0">sorting</span>
+          <span class="ml-0">bit-manipulation</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/cpp/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">cpp</span>
         </a>
       </li>
       
@@ -526,8 +404,8 @@ Note : Only groupSize matters not the number of groups.
 </svg>
 
     </i>
-    <time datetime="2024-06-06T23:33:06&#43;05:30">
-      2024-06-06
+    <time datetime="2024-05-17T21:05:30&#43;05:30">
+      2024-05-17
     </time>
   </div>
 
@@ -543,6 +421,285 @@ Note : Only groupSize matters not the number of groups.
     </i>
     <span>
       3 minutes to read
+    </span>
+  </div>
+</div>
+
+            </div>
+          </article>
+        
+          <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
+            <div>
+              <a href="/blog/posts/prev_solns/problem-path-with-maximum-gold/">
+                
+              </a>
+            </div>
+            <div class="flex flex-col gap-y-3 p-6">
+              <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
+                <a href="/blog/posts/prev_solns/problem-path-with-maximum-gold/">Problem 1219 Path With Maximum Gold</a>
+              </h2>
+
+              
+  
+  <div class="my-4 text-large text-slate-600 dark:text-slate-300">
+    Problem Statement Link - Problem 1219 Question In a gold mine grid of size m x n, each cell in this mine has an integer representing the amount of gold in that cell, 0 if it is empty.
+Return the maximum amount of gold you can collect under the conditions:
+Every time you are located in a cell you will collect all the gold in that cell. From your position, you can walk one step to the left, right, up, or down.
+  </div>
+  
+
+
+              
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+    
+      
+      <li>
+        <a href="/blog/tags/matrix/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">matrix</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/dfs/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">dfs</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/backtracking/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">backtracking</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/cpp/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+              <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-05-14T22:27:55&#43;05:30">
+      2024-05-14
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      4 minutes to read
+    </span>
+  </div>
+</div>
+
+            </div>
+          </article>
+        
+          <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
+            <div>
+              <a href="/blog/posts/prev_solns/problem-score-after-flipping-matrix/">
+                
+              </a>
+            </div>
+            <div class="flex flex-col gap-y-3 p-6">
+              <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
+                <a href="/blog/posts/prev_solns/problem-score-after-flipping-matrix/">Problem 861 Score After Flipping Matrix</a>
+              </h2>
+
+              
+  
+  <div class="my-4 text-large text-slate-600 dark:text-slate-300">
+    Problem Statement Link - Problem 861 Question You are given an m x n binary matrix grid.
+A move consists of choosing any row or column and toggling each value in that row or column (i.e., changing all 0’s to 1’s, and all 1’s to 0’s).
+Every row of the matrix is interpreted as a binary number, and the score of the matrix is the sum of these numbers.
+Return the highest possible score after making any number of moves (including zero moves).
+  </div>
+  
+
+
+              
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+    
+      
+      <li>
+        <a href="/blog/tags/matrix/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">matrix</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/greedy/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">greedy</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/bit-manipulation/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">bit-manipulation</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/cpp/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+              <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-05-13T20:20:37&#43;05:30">
+      2024-05-13
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      4 minutes to read
     </span>
   </div>
 </div>
@@ -654,6 +811,13 @@ Note : Only groupSize matters not the number of groups.
     </li>
     
     <li class="mt-2 mr-2">
+      <a href="/blog/tags/array/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        Array
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
       <a href="/blog/tags/binary-tree/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Binary-Tree
@@ -675,23 +839,9 @@ Note : Only groupSize matters not the number of groups.
     </li>
     
     <li class="mt-2 mr-2">
-      <a href="/blog/tags/array/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        Array
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
       <a href="/blog/tags/greedy/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Greedy
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
-      <a href="/blog/tags/string/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        String
       </a>
     </li>
     
@@ -706,6 +856,13 @@ Note : Only groupSize matters not the number of groups.
       <a href="/blog/tags/matrix/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Matrix
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
+      <a href="/blog/tags/string/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        String
       </a>
     </li>
     

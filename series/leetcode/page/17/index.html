@@ -42,7 +42,7 @@
     <div class="flex flex-row gap justify-between w-full max-w-4xl lg:max-w-5xl h-12 mt-3">
   <div class="flex-none ml-2 md:ml-0">
     <a href="/blog/" class="">
-      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.svg" alt="logo">
+      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.jpeg" alt="logo">
     </a>
   </div>
   <div class="flex-1"></div>
@@ -152,21 +152,22 @@
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-sum-of-all-subset-xor-totals/">
+              <a href="/blog/posts/prev_solns/problem-remove-nodes-from-linked-list/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-sum-of-all-subset-xor-totals/">Problem 1863 Sum of All Subset XOR Totals</a>
+                <a href="/blog/posts/prev_solns/problem-remove-nodes-from-linked-list/">Problem 2487 Remove Nodes From Linked List</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 1863 Question The XOR total of an array is defined as the bitwise XOR of all its elements, or 0 if the array is empty.
-For example, the XOR total of the array [2,5,6] is 2 XOR 5 XOR 6 = 1. Given an array nums, return the sum of all XOR totals for every subset of nums.
-Note: Subsets with the same elements should be counted multiple times.
+    Problem Statement Link - Problem 2487 Question You are given the head of a linked list.
+Remove every node which has a node with a greater value anywhere to the right side of it.
+Return the head of the modified linked list.
+Example 1 Input graph LR A((5))&ndash;&gt;B((2)) B&ndash;&gt;C((13)) C&ndash;&gt;D((3)) D&ndash;&gt;E((8)) Output graph LR A((13))&ndash;&gt;B((8)) Input: head = [5,2,13,3,8] Output: [13,8] Explanation: The nodes that should be removed are 5, 2 and 3.
   </div>
   
 
@@ -177,7 +178,7 @@ Note: Subsets with the same elements should be counted multiple times.
     
       
       <li>
-        <a href="/blog/tags/backtracking/"
+        <a href="/blog/tags/monotonic-stack/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -189,12 +190,12 @@ Note: Subsets with the same elements should be counted multiple times.
 </svg>
 
           </i>
-          <span class="ml-0">backtracking</span>
+          <span class="ml-0">monotonic-stack</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/bit-manipulation/"
+        <a href="/blog/tags/linked-list/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -206,12 +207,12 @@ Note: Subsets with the same elements should be counted multiple times.
 </svg>
 
           </i>
-          <span class="ml-0">bit-manipulation</span>
+          <span class="ml-0">linked-list</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/recursion/"
+        <a href="/blog/tags/pointers/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -223,7 +224,24 @@ Note: Subsets with the same elements should be counted multiple times.
 </svg>
 
           </i>
-          <span class="ml-0">recursion</span>
+          <span class="ml-0">pointers</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/stack/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">stack</span>
         </a>
       </li>
       
@@ -265,8 +283,8 @@ Note: Subsets with the same elements should be counted multiple times.
 </svg>
 
     </i>
-    <time datetime="2024-05-20T22:32:09&#43;05:30">
-      2024-05-20
+    <time datetime="2024-05-06T15:21:47&#43;05:30">
+      2024-05-06
     </time>
   </div>
 
@@ -291,19 +309,21 @@ Note: Subsets with the same elements should be counted multiple times.
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-find-the-maximum-sum-of-node-values/">
+              <a href="/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-find-the-maximum-sum-of-node-values/">Problem 3068 Find the Maximum Sum of Node Values</a>
+                <a href="/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/">Problem 237 Delete Node in a Linked List</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 3068 Question There exists an undirected tree with n nodes numbered 0 to n - 1. You are given a 0-indexed 2D integer array edges of length n - 1, where edges[i] = [ui, vi] indicates that there is an edge between nodes ui and vi in the tree. You are also given a positive integer k, and a 0-indexed array of non-negative integers nums of length n, where nums[i] represents the value of the node numbered i.
+    Problem Statement Link - Problem 237 Question There is a singly-linked list head and we want to delete a node node in it.
+You are given the node to be deleted node. You will not be given access to the first node of head.
+All the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list.
   </div>
   
 
@@ -314,7 +334,7 @@ Note: Subsets with the same elements should be counted multiple times.
     
       
       <li>
-        <a href="/blog/tags/xor/"
+        <a href="/blog/tags/linked-list/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -326,12 +346,12 @@ Note: Subsets with the same elements should be counted multiple times.
 </svg>
 
           </i>
-          <span class="ml-0">XOR</span>
+          <span class="ml-0">linked-list</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/bit-manipulation/"
+        <a href="/blog/tags/pointers/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -343,12 +363,12 @@ Note: Subsets with the same elements should be counted multiple times.
 </svg>
 
           </i>
-          <span class="ml-0">bit-manipulation</span>
+          <span class="ml-0">pointers</span>
         </a>
       </li>
       
       <li>
-        <a href="/blog/tags/tree/"
+        <a href="/blog/tags/cpp/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -360,7 +380,94 @@ Note: Subsets with the same elements should be counted multiple times.
 </svg>
 
           </i>
-          <span class="ml-0">tree</span>
+          <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+              <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-05-05T11:54:45&#43;05:30">
+      2024-05-05
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      3 minutes to read
+    </span>
+  </div>
+</div>
+
+            </div>
+          </article>
+        
+          <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
+            <div>
+              <a href="/blog/posts/prev_solns/problem-boats-to-save-people/">
+                
+              </a>
+            </div>
+            <div class="flex flex-col gap-y-3 p-6">
+              <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
+                <a href="/blog/posts/prev_solns/problem-boats-to-save-people/">Problem 881 Boats to Save People</a>
+              </h2>
+
+              
+  
+  <div class="my-4 text-large text-slate-600 dark:text-slate-300">
+    Problem Statement Link - Problem 881 Question You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.
+Return the minimum number of boats to carry every given person.
+  </div>
+  
+
+
+              
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+    
+      
+      <li>
+        <a href="/blog/tags/two-pointers/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">two-pointers</span>
         </a>
       </li>
       
@@ -381,79 +488,8 @@ Note: Subsets with the same elements should be counted multiple times.
         </a>
       </li>
       
-    
-  </ul>
-
-
-
-              <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
-  
-  
-  <div class="flex flex-row text-base gap-x-1">
-    <i class="h-6 w-6 flex-none">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
-   <path d="M16 3v4"></path>
-   <path d="M8 3v4"></path>
-   <path d="M4 11h16"></path>
-   <path d="M11 15h1"></path>
-   <path d="M12 15v3"></path>
-</svg>
-
-    </i>
-    <time datetime="2024-05-19T10:30:05&#43;05:30">
-      2024-05-19
-    </time>
-  </div>
-
-  <div class="flex flex-row text-base gap-x-1">
-    <i class="h-6 w-6 flex-none">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M6.5 7h11"></path>
-   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
-   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
-</svg>
-
-    </i>
-    <span>
-      4 minutes to read
-    </span>
-  </div>
-</div>
-
-            </div>
-          </article>
-        
-          <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
-            <div>
-              <a href="/blog/posts/prev_solns/problem-distribute-coins-in-binary-tree/">
-                
-              </a>
-            </div>
-            <div class="flex flex-col gap-y-3 p-6">
-              <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-distribute-coins-in-binary-tree/">Problem 979 Distribute Coins in Binary Tree</a>
-              </h2>
-
-              
-  
-  <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 979 Question You are given the root of a binary tree with n nodes where each node in the tree has node.val coins. There are n coins in total throughout the whole tree.
-In one move, we may choose two adjacent nodes and move one coin from one node to another. A move may be from parent to child, or from child to parent.
-Return the minimum number of moves required to make every node have exactly one coin.
-  </div>
-  
-
-
-              
-  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
-    
-    
-      
       <li>
-        <a href="/blog/tags/dfs/"
+        <a href="/blog/tags/cpp/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -465,58 +501,7 @@ Return the minimum number of moves required to make every node have exactly one 
 </svg>
 
           </i>
-          <span class="ml-0">dfs</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/recursion/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">recursion</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/postorder/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">postorder</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/binary-tree/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">binary-tree</span>
+          <span class="ml-0">cpp</span>
         </a>
       </li>
       
@@ -541,8 +526,8 @@ Return the minimum number of moves required to make every node have exactly one 
 </svg>
 
     </i>
-    <time datetime="2024-05-19T10:29:15&#43;05:30">
-      2024-05-19
+    <time datetime="2024-05-04T15:00:06&#43;05:30">
+      2024-05-04
     </time>
   </div>
 
@@ -558,6 +543,110 @@ Return the minimum number of moves required to make every node have exactly one 
     </i>
     <span>
       3 minutes to read
+    </span>
+  </div>
+</div>
+
+            </div>
+          </article>
+        
+          <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
+            <div>
+              <a href="/blog/posts/prev_solns/problem-reverse-prefix-of-word/">
+                
+              </a>
+            </div>
+            <div class="flex flex-col gap-y-3 p-6">
+              <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
+                <a href="/blog/posts/prev_solns/problem-reverse-prefix-of-word/">Problem 2000 Reverse Prefix of Word</a>
+              </h2>
+
+              
+  
+  <div class="my-4 text-large text-slate-600 dark:text-slate-300">
+    Problem Statement Link - Problem 2000 Question Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). If the character ch does not exist in word, do nothing.
+For example, if word = &quot;abcdefd&quot; and ch = &quot;d&quot;, then you should reverse the segment that starts at 0 and ends at 3 (inclusive).
+  </div>
+  
+
+
+              
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+    
+      
+      <li>
+        <a href="/blog/tags/cpp/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/string/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">string</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+              <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-05-01T20:47:44&#43;05:30">
+      2024-05-01
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      2 minutes to read
     </span>
   </div>
 </div>
@@ -669,6 +758,13 @@ Return the minimum number of moves required to make every node have exactly one 
     </li>
     
     <li class="mt-2 mr-2">
+      <a href="/blog/tags/array/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        Array
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
       <a href="/blog/tags/binary-tree/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Binary-Tree
@@ -690,23 +786,9 @@ Return the minimum number of moves required to make every node have exactly one 
     </li>
     
     <li class="mt-2 mr-2">
-      <a href="/blog/tags/array/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        Array
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
       <a href="/blog/tags/greedy/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Greedy
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
-      <a href="/blog/tags/string/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        String
       </a>
     </li>
     
@@ -721,6 +803,13 @@ Return the minimum number of moves required to make every node have exactly one 
       <a href="/blog/tags/matrix/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Matrix
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
+      <a href="/blog/tags/string/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        String
       </a>
     </li>
     

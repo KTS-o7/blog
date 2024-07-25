@@ -42,7 +42,7 @@
     <div class="flex flex-row gap justify-between w-full max-w-4xl lg:max-w-5xl h-12 mt-3">
   <div class="flex-none ml-2 md:ml-0">
     <a href="/blog/" class="">
-      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.svg" alt="logo">
+      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.jpeg" alt="logo">
     </a>
   </div>
   <div class="flex-1"></div>
@@ -152,21 +152,20 @@
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/">
+              <a href="/blog/posts/prev_solns/problem-open-the-lock/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/">Problem 237 Delete Node in a Linked List</a>
+                <a href="/blog/posts/prev_solns/problem-open-the-lock/">Problem 752 Open the Lock</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 237 Question There is a singly-linked list head and we want to delete a node node in it.
-You are given the node to be deleted node. You will not be given access to the first node of head.
-All the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list.
+    Problem Statement Link - Problem 752 Question You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: &lsquo;0&rsquo;, &lsquo;1&rsquo;, &lsquo;2&rsquo;, &lsquo;3&rsquo;, &lsquo;4&rsquo;, &lsquo;5&rsquo;, &lsquo;6&rsquo;, &lsquo;7&rsquo;, &lsquo;8&rsquo;, &lsquo;9&rsquo;. The wheels can rotate freely and wrap around: for example we can turn &lsquo;9&rsquo; to be &lsquo;0&rsquo;, or &lsquo;0&rsquo; to be &lsquo;9&rsquo;. Each move consists of turning one wheel one slot.
+The lock initially starts at &lsquo;0000&rsquo;, a string representing the state of the 4 wheels.
   </div>
   
 
@@ -175,40 +174,6 @@ All the values of the linked list are unique, and it is guaranteed that the give
   <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
     
     
-      
-      <li>
-        <a href="/blog/tags/linked-list/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">linked-list</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/pointers/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">pointers</span>
-        </a>
-      </li>
       
       <li>
         <a href="/blog/tags/cpp/"
@@ -224,6 +189,40 @@ All the values of the linked list are unique, and it is guaranteed that the give
 
           </i>
           <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/bfs/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">bfs</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/graph/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">graph</span>
         </a>
       </li>
       
@@ -248,8 +247,128 @@ All the values of the linked list are unique, and it is guaranteed that the give
 </svg>
 
     </i>
-    <time datetime="2024-05-05T11:54:45&#43;05:30">
-      2024-05-05
+    <time datetime="2024-04-22T16:27:12&#43;05:30">
+      2024-04-22
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      4 minutes to read
+    </span>
+  </div>
+</div>
+
+            </div>
+          </article>
+        
+          <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
+            <div>
+              <a href="/blog/posts/prev_solns/problem-find-if-path-exists-in-graph/">
+                
+              </a>
+            </div>
+            <div class="flex flex-col gap-y-3 p-6">
+              <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
+                <a href="/blog/posts/prev_solns/problem-find-if-path-exists-in-graph/">Problem 1971 Find if Path Exists in Graph</a>
+              </h2>
+
+              
+  
+  <div class="my-4 text-large text-slate-600 dark:text-slate-300">
+    Problem Statement Link - Problem 1971 Question There is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n-1 (inclusive). The edges in the graph are represented as a 2D integer array edges, where each edges[i] = [ui, vi] denotes a bi-directional edge between vertex ui and vertex vi. Every vertex pair is connected by at most one edge, and no vertex has an edge to itself.
+  </div>
+  
+
+
+              
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+    
+      
+      <li>
+        <a href="/blog/tags/cpp/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/graph/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">graph</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/dfs/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">dfs</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+              <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-04-21T15:42:16&#43;05:30">
+      2024-04-21
     </time>
   </div>
 
@@ -274,20 +393,20 @@ All the values of the linked list are unique, and it is guaranteed that the give
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-boats-to-save-people/">
+              <a href="/blog/posts/prev_solns/problem-find-all-groups-of-farmland/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-boats-to-save-people/">Problem 881 Boats to Save People</a>
+                <a href="/blog/posts/prev_solns/problem-find-all-groups-of-farmland/">Problem 1992 Find All Groups of Farmland</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 881 Question You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.
-Return the minimum number of boats to carry every given person.
+    Problem Statement Link - Problem 1992 Question You are given a 0-indexed m x n binary matrix land where a 0 represents a hectare of forested land and a 1 represents a hectare of farmland.
+To keep the land organized, there are designated rectangular areas of hectares that consist entirely of farmland. These rectangular areas are called groups. No two groups are adjacent, meaning farmland in one group is not four-directionally adjacent to another farmland in a different group.
   </div>
   
 
@@ -296,40 +415,6 @@ Return the minimum number of boats to carry every given person.
   <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
     
     
-      
-      <li>
-        <a href="/blog/tags/two-pointers/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">two-pointers</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/blog/tags/greedy/"
-          class="flex flex-row text-sm mr-2 py-1">
-          <i class="h-5 w-5 flex-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 9l14 0"></path>
-   <path d="M5 15l14 0"></path>
-   <path d="M11 4l-4 16"></path>
-   <path d="M17 4l-4 16"></path>
-</svg>
-
-          </i>
-          <span class="ml-0">greedy</span>
-        </a>
-      </li>
       
       <li>
         <a href="/blog/tags/cpp/"
@@ -345,6 +430,40 @@ Return the minimum number of boats to carry every given person.
 
           </i>
           <span class="ml-0">cpp</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/matrix/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">matrix</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/dfs/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">dfs</span>
         </a>
       </li>
       
@@ -369,8 +488,8 @@ Return the minimum number of boats to carry every given person.
 </svg>
 
     </i>
-    <time datetime="2024-05-04T15:00:06&#43;05:30">
-      2024-05-04
+    <time datetime="2024-04-20T10:52:46&#43;05:30">
+      2024-04-20
     </time>
   </div>
 
@@ -395,20 +514,21 @@ Return the minimum number of boats to carry every given person.
         
           <article class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
             <div>
-              <a href="/blog/posts/prev_solns/problem-reverse-prefix-of-word/">
+              <a href="/blog/posts/prev_solns/problem-number-of-islands/">
                 
               </a>
             </div>
             <div class="flex flex-col gap-y-3 p-6">
               <h2 class="text-4xl font-semibold text-slate-800 dark:text-slate-200">
-                <a href="/blog/posts/prev_solns/problem-reverse-prefix-of-word/">Problem 2000 Reverse Prefix of Word</a>
+                <a href="/blog/posts/prev_solns/problem-number-of-islands/">Problem 200 Number of Islands</a>
               </h2>
 
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    Problem Statement Link - Problem 2000 Question Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). If the character ch does not exist in word, do nothing.
-For example, if word = &quot;abcdefd&quot; and ch = &quot;d&quot;, then you should reverse the segment that starts at 0 and ends at 3 (inclusive).
+    Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of &lsquo;1&rsquo;s (land) and &lsquo;0&rsquo;s (water), return the number of islands.
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+Note to self They use characters not integers for 1 and 0.
   </div>
   
 
@@ -436,7 +556,7 @@ For example, if word = &quot;abcdefd&quot; and ch = &quot;d&quot;, then you shou
       </li>
       
       <li>
-        <a href="/blog/tags/string/"
+        <a href="/blog/tags/matrix/"
           class="flex flex-row text-sm mr-2 py-1">
           <i class="h-5 w-5 flex-none">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -448,7 +568,41 @@ For example, if word = &quot;abcdefd&quot; and ch = &quot;d&quot;, then you shou
 </svg>
 
           </i>
-          <span class="ml-0">string</span>
+          <span class="ml-0">matrix</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/dfs/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">dfs</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/array/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">array</span>
         </a>
       </li>
       
@@ -473,8 +627,8 @@ For example, if word = &quot;abcdefd&quot; and ch = &quot;d&quot;, then you shou
 </svg>
 
     </i>
-    <time datetime="2024-05-01T20:47:44&#43;05:30">
-      2024-05-01
+    <time datetime="2024-04-19T13:00:30&#43;05:30">
+      2024-04-19
     </time>
   </div>
 
@@ -601,6 +755,13 @@ For example, if word = &quot;abcdefd&quot; and ch = &quot;d&quot;, then you shou
     </li>
     
     <li class="mt-2 mr-2">
+      <a href="/blog/tags/array/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        Array
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
       <a href="/blog/tags/binary-tree/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Binary-Tree
@@ -622,23 +783,9 @@ For example, if word = &quot;abcdefd&quot; and ch = &quot;d&quot;, then you shou
     </li>
     
     <li class="mt-2 mr-2">
-      <a href="/blog/tags/array/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        Array
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
       <a href="/blog/tags/greedy/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Greedy
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
-      <a href="/blog/tags/string/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        String
       </a>
     </li>
     
@@ -653,6 +800,13 @@ For example, if word = &quot;abcdefd&quot; and ch = &quot;d&quot;, then you shou
       <a href="/blog/tags/matrix/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Matrix
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
+      <a href="/blog/tags/string/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        String
       </a>
     </li>
     

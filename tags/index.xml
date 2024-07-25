@@ -7,13 +7,27 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 25 Jul 2024 12:20:26 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 22:03:45 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sorting</title>
-      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
+      <title>Bit-Manipulation</title>
+      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://KTS-o7.github.io/blog/tags/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Count</title>
+      <link>https://KTS-o7.github.io/blog/tags/count/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/count/</guid>
       <description></description>
     </item>
     <item>
@@ -24,10 +38,66 @@
       <description></description>
     </item>
     <item>
-      <title>Math</title>
-      <link>https://KTS-o7.github.io/blog/tags/math/</link>
+      <title>Hashset</title>
+      <link>https://KTS-o7.github.io/blog/tags/hashset/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
+      <guid>https://KTS-o7.github.io/blog/tags/hashset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Set</title>
+      <link>https://KTS-o7.github.io/blog/tags/set/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/set/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Array</title>
+      <link>https://KTS-o7.github.io/blog/tags/array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix</title>
+      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vector</title>
+      <link>https://KTS-o7.github.io/blog/tags/vector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/vector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iterative</title>
+      <link>https://KTS-o7.github.io/blog/tags/iterative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/iterative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linked-List</title>
+      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Two-Pointer</title>
+      <link>https://KTS-o7.github.io/blog/tags/two-pointer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/two-pointer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
       <description></description>
     </item>
     <item>
@@ -70,13 +140,6 @@
       <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Matrix</title>
-      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
       <description></description>
     </item>
     <item>
@@ -129,13 +192,6 @@
       <description></description>
     </item>
     <item>
-      <title>Array</title>
-      <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Bfs</title>
       <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -171,24 +227,10 @@
       <description></description>
     </item>
     <item>
-      <title>Linked-List</title>
-      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Binary-Search</title>
       <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Two-Pointer</title>
-      <link>https://KTS-o7.github.io/blog/tags/two-pointer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/two-pointer/</guid>
       <description></description>
     </item>
     <item>
@@ -238,13 +280,6 @@
       <link>https://KTS-o7.github.io/blog/tags/undirected-graph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/undirected-graph/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vector</title>
-      <link>https://KTS-o7.github.io/blog/tags/vector/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/vector/</guid>
       <description></description>
     </item>
     <item>
@@ -325,13 +360,6 @@
       <description></description>
     </item>
     <item>
-      <title>Bit-Manipulation</title>
-      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Bitwise-Xor</title>
       <link>https://KTS-o7.github.io/blog/tags/bitwise-xor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -378,13 +406,6 @@
       <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Iterative</title>
-      <link>https://KTS-o7.github.io/blog/tags/iterative/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/iterative/</guid>
       <description></description>
     </item>
     <item>

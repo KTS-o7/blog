@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 25 Jul 2024 12:20:26 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 22:03:45 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 89 Gray Code</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</link>
+      <pubDate>Thu, 25 Jul 2024 22:03:45 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</guid>
+      <description>Problem Statement Link - Problem 89 Question An n-bit gray code sequence is a sequence of 2^n integers where:&#xA;Every integer is in the inclusive range [0, 2^n - 1], The first integer is 0, An integer appears no more than once in the sequence, The binary representation of every pair of adjacent integers differs by exactly one bit, and The binary representation of the first and last integers differs by exactly one bit.</description>
+    </item>
+    <item>
+      <title>Problem 128 Longest Consecutive Sequence</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-128-longest-consecutive-sequence/</link>
+      <pubDate>Thu, 25 Jul 2024 21:47:34 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-128-longest-consecutive-sequence/</guid>
+      <description>Problem Statement Link - Problem 128 Question Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.&#xA;You must write an algorithm that runs in O(n) time.&#xA;Example 1 Input: nums = [100,4,200,1,3,2] Output: 4 Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4. Example 2 Input: nums = [0,3,7,2,5,8,4,6,0,1] Output: 9 Constraints - `0 &amp;lt;= nums.length &amp;lt;= 10^5` - `-10^9 &amp;lt;= nums[i] &amp;lt;= 10^9` Solution class Solution { public: int longestConsecutive(vector&amp;lt;int&amp;gt;&amp;amp; nums) { std::ios::sync_with_stdio(false); unordered_set&amp;lt;int&amp;gt;s(nums.</description>
+    </item>
+    <item>
+      <title>Problem 832 Flipping an Image</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-832-flipping-an-image/</link>
+      <pubDate>Thu, 25 Jul 2024 21:38:05 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-832-flipping-an-image/</guid>
+      <description>Problem Statement Link - Problem 832 Question Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.&#xA;To flip an image horizontally means that each row of the image is reversed.&#xA;For example, flipping [1,1,0] horizontally results in [0,1,1]. To invert an image means that each 0 is replaced by 1, and each 1 is replaced by 0.&#xA;For example, inverting [0,1,1] results in [1,0,0].</description>
+    </item>
+    <item>
+      <title>Problem 24 Swap Nodes in Pairs</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</link>
+      <pubDate>Thu, 25 Jul 2024 20:55:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</guid>
+      <description>Problem Statement Link - Problem 24 Question Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list&amp;rsquo;s nodes (i.e., only nodes themselves may be changed.)&#xA;Example 1 Input: head = [1,2,3,4] Output: [2,1,4,3] Example 2 Input: head = [] Output: [] Example 3 Input: head = [1] Output: [1] Constraints - The number of nodes in the list is in the range `[0, 100]`.</description>
+    </item>
     <item>
       <title>Problem 912 Sort an Array</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-912-sort-an-array/</link>
