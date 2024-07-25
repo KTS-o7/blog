@@ -2,34 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-07-25T12:20:26+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-07-25T12:20:26+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-07-25T12:20:26+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-912-sort-an-array/</loc>
+    <lastmod>2024-07-25T12:20:26+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-07-25T12:20:26+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/sorting/</loc>
+    <lastmod>2024-07-25T12:20:26+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-07-25T12:20:26+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/hashmap/</loc>
     <lastmod>2024-07-24T21:58:16+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-07-24T21:58:16+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-07-24T21:58:16+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
-    <lastmod>2024-07-24T21:58:16+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
     <lastmod>2024-07-24T21:58:16+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/priority-queue/</loc>
     <lastmod>2024-07-24T21:58:16+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</loc>
-    <lastmod>2024-07-24T21:58:16+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-07-24T21:58:16+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/sorting/</loc>
-    <lastmod>2024-07-24T21:58:16+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-07-24T21:58:16+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/vectors/</loc>
