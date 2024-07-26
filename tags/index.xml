@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 25 Jul 2024 22:03:45 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 15:00:02 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All-Pair-Shortest-Path</title>
+      <link>https://KTS-o7.github.io/blog/tags/all-pair-shortest-path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/all-pair-shortest-path/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Floyd-Warshall</title>
+      <link>https://KTS-o7.github.io/blog/tags/floyd-warshall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/floyd-warshall/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphs</title>
+      <link>https://KTS-o7.github.io/blog/tags/graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/graphs/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bit-Manipulation</title>
       <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
