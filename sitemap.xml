@@ -2,8 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/class/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/design/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/iterator/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/all-pair-shortest-path/</loc>
-    <lastmod>2024-07-26T15:00:02+05:30</lastmod>
+    <lastmod>2024-07-27T15:35:56+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/floyd-warshal/</loc>
+    <lastmod>2024-07-27T15:35:56+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/graph/</loc>
+    <lastmod>2024-07-27T15:35:56+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</loc>
+    <lastmod>2024-07-27T15:35:56+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/shortest-path/</loc>
+    <lastmod>2024-07-27T15:35:56+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/floyd-warshall/</loc>
     <lastmod>2024-07-26T15:00:02+05:30</lastmod>
@@ -11,22 +50,7 @@
     <loc>https://KTS-o7.github.io/blog/tags/graphs/</loc>
     <lastmod>2024-07-26T15:00:02+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-07-26T15:00:02+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-07-26T15:00:02+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-07-26T15:00:02+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</loc>
-    <lastmod>2024-07-26T15:00:02+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-07-26T15:00:02+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-07-26T15:00:02+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
@@ -231,9 +255,6 @@
     <lastmod>2024-06-29T10:39:42+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/dag/</loc>
-    <lastmod>2024-06-29T10:39:42+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/graph/</loc>
     <lastmod>2024-06-29T10:39:42+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-all-ancestors-of-a-node-in-a-dag/</loc>

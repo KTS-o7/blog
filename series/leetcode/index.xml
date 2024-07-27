@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Fri, 26 Jul 2024 15:00:02 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2024 18:37:52 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/series/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 284 Peeking Iterator</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</link>
+      <pubDate>Sat, 27 Jul 2024 18:37:52 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</guid>
+      <description>Problem Statement Link - Problem 284 Question Design an iterator that supports the peek operation on an existing iterator in addition to the hasNext and the next operations.&#xA;Implement the PeekingIterator class:&#xA;PeekingIterator(Iterator&amp;lt;int&amp;gt; nums) Initializes the object with the given integer iterator iterator. int next() Returns the next element in the array and moves the pointer to the next element. boolean hasNext() Returns true if there are still elements in the array.</description>
+    </item>
+    <item>
+      <title>Problem 2976 Minimum Cost to Convert String I</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</link>
+      <pubDate>Sat, 27 Jul 2024 15:35:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</guid>
+      <description>Problem Statement Link - Problem Question You are given two 0-indexed strings source and target, both of length n and consisting of lowercase English letters. You are also given two 0-indexed character arrays original and changed, and an integer array cost, where cost[i] represents the cost of changing the character original[i] to the character changed[i].&#xA;You start with the string source. In one operation, you can pick a character x from the string and change it to the character y at a cost of z if there exists any index j such that cost[j] == z, original[j] == x, and changed[j] == y.</description>
+    </item>
     <item>
       <title>Problem 1334 Find the City With the Smallest Number of Neighbours at a Threshold Distance</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</link>
