@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/two-pointer/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/two-pointers/</loc>
+    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/frequency-count/</loc>
+    <lastmod>2024-07-28T20:46:25+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/hash-map/</loc>
+    <lastmod>2024-07-28T20:46:25+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-299-bulls-and-cows/</loc>
+    <lastmod>2024-07-28T20:46:25+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
+    <lastmod>2024-07-28T20:46:25+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/class/</loc>
     <lastmod>2024-07-27T18:37:52+05:30</lastmod>
   </url><url>
@@ -11,22 +50,7 @@
     <loc>https://KTS-o7.github.io/blog/tags/iterator/</loc>
     <lastmod>2024-07-27T18:37:52+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</loc>
-    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-07-27T18:37:52+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-07-27T18:37:52+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/all-pair-shortest-path/</loc>
@@ -92,13 +116,7 @@
     <loc>https://KTS-o7.github.io/blog/tags/iterative/</loc>
     <lastmod>2024-07-25T20:55:46+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
-    <lastmod>2024-07-25T20:55:46+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</loc>
-    <lastmod>2024-07-25T20:55:46+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/two-pointer/</loc>
     <lastmod>2024-07-25T20:55:46+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-912-sort-an-array/</loc>
@@ -165,9 +183,6 @@
     <lastmod>2024-07-17T12:04:05+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</loc>
-    <lastmod>2024-07-16T12:54:12+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
     <lastmod>2024-07-16T12:54:12+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-create-binary-tree-from-descriptions/</loc>
@@ -329,9 +344,6 @@
     <loc>https://KTS-o7.github.io/blog/tags/counting-sort/</loc>
     <lastmod>2024-06-11T14:35:44+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/hash-map/</loc>
-    <lastmod>2024-06-11T14:35:44+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-sort-array/</loc>
     <lastmod>2024-06-11T14:35:44+05:30</lastmod>
   </url><url>
@@ -441,9 +453,6 @@
     <lastmod>2024-05-05T11:54:45+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-boats-to-save-people/</loc>
-    <lastmod>2024-05-04T15:00:06+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/two-pointers/</loc>
     <lastmod>2024-05-04T15:00:06+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-reverse-prefix-of-word/</loc>
