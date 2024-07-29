@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dynamic-Programming on KTS Blog</title>
+    <link>https://KTS-o7.github.io/blog/tags/dynamic-programming/</link>
+    <description>Recent content in Dynamic-Programming on KTS Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Krishnatejaswi S</copyright>
+    <lastBuildDate>Mon, 29 Jul 2024 18:30:07 +0530</lastBuildDate>
+    <atom:link href="https://KTS-o7.github.io/blog/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1395 Count Number of Teams</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1395-count-number-of-teams/</link>
+      <pubDate>Mon, 29 Jul 2024 18:30:07 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1395-count-number-of-teams/</guid>
+      <description>Problem Statement Link - Problem 1395 Question There are n soldiers standing in a line. Each soldier is assigned a unique rating value.&#xA;You have to form a team of 3 soldiers amongst them under the following rules:&#xA;Choose 3 soldiers with index (i, j, k) with rating (rating[i], rating[j], rating[k]). A team is valid if: (rating[i] &amp;lt; rating[j] &amp;lt; rating[k]) or (rating[i] &amp;gt; rating[j] &amp;gt; rating[k]) where (0 &amp;lt;= i &amp;lt; j &amp;lt; k &amp;lt; n).</description>
+    </item>
+  </channel>
+</rss>

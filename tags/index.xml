@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sun, 28 Jul 2024 20:59:29 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 18:30:07 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dp</title>
+      <link>https://KTS-o7.github.io/blog/tags/dp/</link>
+      <pubDate>Mon, 29 Jul 2024 18:30:07 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic-Programming</title>
+      <link>https://KTS-o7.github.io/blog/tags/dynamic-programming/</link>
+      <pubDate>Mon, 29 Jul 2024 18:30:07 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vectors</title>
+      <link>https://KTS-o7.github.io/blog/tags/vectors/</link>
+      <pubDate>Mon, 29 Jul 2024 18:30:07 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/vectors/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linked-List</title>
       <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
@@ -196,13 +217,6 @@
       <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
       <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vectors</title>
-      <link>https://KTS-o7.github.io/blog/tags/vectors/</link>
-      <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/vectors/</guid>
       <description></description>
     </item>
     <item>
@@ -511,13 +525,6 @@
       <link>https://KTS-o7.github.io/blog/tags/monotonic-stack/</link>
       <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/monotonic-stack/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dp</title>
-      <link>https://KTS-o7.github.io/blog/tags/dp/</link>
-      <pubDate>Fri, 26 Apr 2024 12:15:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
       <description></description>
     </item>
     <item>

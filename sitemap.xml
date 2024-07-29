@@ -2,28 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/dp/</loc>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/dynamic-programming/</loc>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-07-29T00:31:56+05:30</lastmod>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-07-29T00:31:56+05:30</lastmod>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-07-29T00:31:56+05:30</lastmod>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</loc>
-    <lastmod>2024-07-29T00:31:56+05:30</lastmod>
+    <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1395-count-number-of-teams/</loc>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/vectors/</loc>
+    <lastmod>2024-07-29T18:30:07+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</loc>
     <lastmod>2024-07-29T00:31:56+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
     <lastmod>2024-07-28T20:59:29+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</loc>
-    <lastmod>2024-07-28T20:59:29+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-07-28T20:59:29+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/two-pointer/</loc>
@@ -132,9 +144,6 @@
     <lastmod>2024-07-24T21:58:16+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</loc>
-    <lastmod>2024-07-24T21:58:16+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/vectors/</loc>
     <lastmod>2024-07-24T21:58:16+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/custom-comparator/</loc>
@@ -460,9 +469,6 @@
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-reverse-prefix-of-word/</loc>
     <lastmod>2024-05-01T20:47:44+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/dp/</loc>
-    <lastmod>2024-04-26T12:15:26+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-falling-path-sum-ii/</loc>
     <lastmod>2024-04-26T12:15:26+05:30</lastmod>
