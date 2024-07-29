@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 29 Jul 2024 22:05:47 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 22:30:01 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary-Search</title>
+      <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
+      <pubDate>Mon, 29 Jul 2024 22:30:01 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bit-Manipulation</title>
       <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
@@ -336,13 +343,6 @@
       <link>https://KTS-o7.github.io/blog/tags/iteration/</link>
       <pubDate>Tue, 09 Jul 2024 00:39:33 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/iteration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Binary-Search</title>
-      <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
-      <pubDate>Tue, 02 Jul 2024 22:34:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
       <description></description>
     </item>
     <item>

@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/binary-search/</loc>
+    <lastmod>2024-07-29T22:30:01+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-07-29T22:30:01+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-07-29T22:30:01+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-07-29T22:30:01+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-153-find-minimum-in-rotated-sorted-arrat/</loc>
+    <lastmod>2024-07-29T22:30:01+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-07-29T22:30:01+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-07-29T22:30:01+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
     <lastmod>2024-07-29T22:05:47+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</loc>
-    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-07-29T22:05:47+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
@@ -274,9 +280,6 @@
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</loc>
     <lastmod>2024-07-03T21:40:45+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-search/</loc>
-    <lastmod>2024-07-02T22:34:05+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</loc>
     <lastmod>2024-07-02T22:34:05+05:30</lastmod>

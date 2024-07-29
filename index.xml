@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 29 Jul 2024 22:05:47 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 22:30:01 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 153 Find Minimum in Rotated Sorted Arrat</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-153-find-minimum-in-rotated-sorted-arrat/</link>
+      <pubDate>Mon, 29 Jul 2024 22:30:01 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-153-find-minimum-in-rotated-sorted-arrat/</guid>
+      <description>Problem Statement Link - Problem 153 Question Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:&#xA;[4,5,6,7,0,1,2] if it was rotated 4 times. [0,1,2,4,5,6,7] if it was rotated 7 times. Notice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in the array [a[n-1], a[0], a[1], a[2], ..., a[n-2]].&#xA;Given the sorted rotated array nums of unique elements, return the minimum element of this array.</description>
+    </item>
     <item>
       <title>Problem 371 Sum of Two Integers</title>
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</link>
