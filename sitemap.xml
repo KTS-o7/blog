@@ -2,11 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
+    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-07-29T19:41:13+05:30</lastmod>
+    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-07-29T19:41:13+05:30</lastmod>
+    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</loc>
+    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-07-29T22:05:47+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
     <lastmod>2024-07-29T19:41:13+05:30</lastmod>
@@ -14,16 +29,7 @@
     <loc>https://KTS-o7.github.io/blog/tags/pointers/</loc>
     <lastmod>2024-07-29T19:41:13+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-07-29T19:41:13+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3217-delete-nodes-from-linked-list-present-in-array/</loc>
-    <lastmod>2024-07-29T19:41:13+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-07-29T19:41:13+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-07-29T19:41:13+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
@@ -112,9 +118,6 @@
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</loc>
     <lastmod>2024-07-26T15:00:02+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
-    <lastmod>2024-07-25T22:03:45+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</loc>
     <lastmod>2024-07-25T22:03:45+05:30</lastmod>
