@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 29 Jul 2024 23:17:43 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2024 00:52:44 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 55 Jump Game</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-55-jump-game/</link>
+      <pubDate>Tue, 30 Jul 2024 00:52:44 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-55-jump-game/</guid>
+      <description>Problem Statement Link - Problem 55 Question You are given an integer array nums. You are initially positioned at the array&amp;rsquo;s first index, and each element in the array represents your maximum jump length at that position.&#xA;Return true if you can reach the last index, or false otherwise.&#xA;Example 1 Input: nums = [2,3,1,1,4] Output: true Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.</description>
+    </item>
     <item>
       <title>Problem 62 Unique Paths</title>
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-62-unique-paths/</link>
