@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/dijkstras/</loc>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/graph/</loc>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-08-01T18:27:46+05:30</lastmod>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-08-01T18:27:46+05:30</lastmod>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-08-01T18:27:46+05:30</lastmod>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-743-network-delay-time/</loc>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/shortest-path/</loc>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-08-01T18:41:19+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2678-number-of-senior-citizens/</loc>
     <lastmod>2024-08-01T18:27:46+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-08-01T18:27:46+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
-    <lastmod>2024-08-01T18:27:46+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-08-01T18:27:46+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/dp/</loc>
@@ -134,13 +146,7 @@
     <loc>https://KTS-o7.github.io/blog/tags/floyd-warshal/</loc>
     <lastmod>2024-07-27T15:35:56+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/graph/</loc>
-    <lastmod>2024-07-27T15:35:56+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</loc>
-    <lastmod>2024-07-27T15:35:56+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/shortest-path/</loc>
     <lastmod>2024-07-27T15:35:56+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/floyd-warshall/</loc>

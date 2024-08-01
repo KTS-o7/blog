@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sat, 27 Jul 2024 15:35:56 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2024 18:41:19 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/shortest-path/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 743 Network Delay Time</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-743-network-delay-time/</link>
+      <pubDate>Thu, 01 Aug 2024 18:41:19 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-743-network-delay-time/</guid>
+      <description>Problem Statement Link - Problem 743 Question You are given a network of n nodes, labeled from 1 to n. You are also given times, a list of travel times as directed edges times[i] = (ui, vi, wi), where ui is the source node, vi is the target node, and wi is the time it takes for a signal to travel from source to target.&#xA;We will send a signal from a given node k.</description>
+    </item>
     <item>
       <title>Problem 2976 Minimum Cost to Convert String I</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</link>
