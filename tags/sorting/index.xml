@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 25 Jul 2024 12:20:26 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 04 Aug 2024 17:16:54 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1508 Range Sum of Sorted Subarray Sums</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1508-range-sum-of-sorted-subarray-sums/</link>
+      <pubDate>Sun, 04 Aug 2024 17:16:54 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
+      <description>Problem Statement Link - Problem 1508 Question You are given the array nums consisting of n positive integers. You computed the sum of all non-empty continuous subarrays from the array and then sorted them in non-decreasing order, creating a new array of n * (n + 1) / 2 numbers.&#xA;Return the sum of the numbers from index left to index right (indexed from 1), inclusive, in the new array. Since the answer can be a huge number return it modulo 10^9 + 7.</description>
+    </item>
     <item>
       <title>Problem 912 Sort an Array</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-912-sort-an-array/</link>
