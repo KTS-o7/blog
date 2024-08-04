@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 01 Aug 2024 18:56:42 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 04 Aug 2024 08:45:40 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview</title>
+      <link>https://KTS-o7.github.io/blog/series/interview/</link>
+      <pubDate>Sun, 04 Aug 2024 08:45:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/series/interview/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Leetcode</title>
       <link>https://KTS-o7.github.io/blog/series/leetcode/</link>
