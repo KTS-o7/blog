@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Tue, 06 Aug 2024 20:59:08 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 10:08:40 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class</title>
+      <link>https://KTS-o7.github.io/blog/tags/class/</link>
+      <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/class/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://KTS-o7.github.io/blog/tags/design/</link>
+      <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heap</title>
+      <link>https://KTS-o7.github.io/blog/tags/heap/</link>
+      <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/heap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Priority-Queue</title>
+      <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
+      <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Greedy</title>
       <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
@@ -227,20 +255,6 @@
       <description></description>
     </item>
     <item>
-      <title>Class</title>
-      <link>https://KTS-o7.github.io/blog/tags/class/</link>
-      <pubDate>Sat, 27 Jul 2024 18:37:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/class/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Design</title>
-      <link>https://KTS-o7.github.io/blog/tags/design/</link>
-      <pubDate>Sat, 27 Jul 2024 18:37:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/design/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Iterator</title>
       <link>https://KTS-o7.github.io/blog/tags/iterator/</link>
       <pubDate>Sat, 27 Jul 2024 18:37:52 +0530</pubDate>
@@ -322,13 +336,6 @@
       <link>https://KTS-o7.github.io/blog/tags/iterative/</link>
       <pubDate>Thu, 25 Jul 2024 20:55:46 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/iterative/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Priority-Queue</title>
-      <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
-      <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
       <description></description>
     </item>
     <item>
@@ -490,13 +497,6 @@
       <link>https://KTS-o7.github.io/blog/tags/binary-search-on-answer/</link>
       <pubDate>Thu, 20 Jun 2024 21:42:43 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-search-on-answer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Heap</title>
-      <link>https://KTS-o7.github.io/blog/tags/heap/</link>
-      <pubDate>Tue, 18 Jun 2024 20:52:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/heap/</guid>
       <description></description>
     </item>
     <item>

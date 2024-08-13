@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Sat, 27 Jul 2024 18:37:52 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 10:08:40 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 703 Kth Largest Element in a Stream</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</link>
+      <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</guid>
+      <description>Problem Statement Link - Problem 703 Question Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.&#xA;Implement KthLargest class:&#xA;KthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of integers nums. int add(int val) Appends the integer val to the stream and returns the element representing the kth largest element in the stream.</description>
+    </item>
     <item>
       <title>Problem 284 Peeking Iterator</title>
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</link>
