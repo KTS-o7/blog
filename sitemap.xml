@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
+    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/backtracking/</loc>
+    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-40-combination-sum-ii/</loc>
+    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/class/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
   </url><url>
@@ -11,25 +35,10 @@
     <loc>https://KTS-o7.github.io/blog/tags/heap/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-08-12T10:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-08-12T10:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-08-12T10:08:40+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/priority-queue/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</loc>
-    <lastmod>2024-08-12T10:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-08-12T10:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/greedy/</loc>
@@ -223,9 +232,6 @@
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/set/</loc>
     <lastmod>2024-07-25T21:47:34+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
-    <lastmod>2024-07-25T21:38:05+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/matrix/</loc>
     <lastmod>2024-07-25T21:38:05+05:30</lastmod>
@@ -475,9 +481,6 @@
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/traversal/</loc>
     <lastmod>2024-06-01T11:51:08+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/backtracking/</loc>
-    <lastmod>2024-05-22T23:39:58+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/cpp/</loc>
     <lastmod>2024-05-22T23:39:58+05:30</lastmod>

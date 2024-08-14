@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Mon, 12 Aug 2024 10:08:40 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 13 Aug 2024 10:33:14 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 40 Combination Sum II</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-40-combination-sum-ii/</link>
+      <pubDate>Tue, 13 Aug 2024 10:33:14 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-40-combination-sum-ii/</guid>
+      <description>Problem Statement Link - Problem 40 Question Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.&#xA;Each number in candidates may only be used once in the combination.&#xA;Note: The solution set must not contain duplicate combinations.&#xA;Example 1 Input: candidates = [10,1,2,7,6,1,5], target = 8 Output: [ [1,1,6], [1,2,5], [1,7], [2,6] ] Example 2 Input: candidates = [2,5,2,1,2], target = 5 Output: [ [1,2,2], [5] ] Constraints - `1 &amp;lt;= candidates.</description>
+    </item>
     <item>
       <title>Problem 703 Kth Largest Element in a Stream</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</link>
