@@ -2,28 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/binary-search/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/priority-queue/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-719-find-k-th-smallest-pair-distance/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/series/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/sorting/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-08-14T18:02:48+05:30</lastmod>
+  </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
     <lastmod>2024-08-13T10:33:14+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/backtracking/</loc>
     <lastmod>2024-08-13T10:33:14+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/leetcode/</loc>
-    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
-    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-40-combination-sum-ii/</loc>
-    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/series/</loc>
-    <lastmod>2024-08-13T10:33:14+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-08-13T10:33:14+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/class/</loc>
@@ -35,9 +47,6 @@
     <loc>https://KTS-o7.github.io/blog/tags/heap/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
   </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/priority-queue/</loc>
-    <lastmod>2024-08-12T10:08:40+05:30</lastmod>
-  </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
   </url><url>
@@ -45,9 +54,6 @@
     <lastmod>2024-08-06T20:59:08+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/daily_lc/problem-3016-minimum-number-of-pushes-to-type-word-ii/</loc>
-    <lastmod>2024-08-06T20:59:08+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/sorting/</loc>
     <lastmod>2024-08-06T20:59:08+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
@@ -130,9 +136,6 @@
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-230-kth-smallest-element-in-a-bst/</loc>
     <lastmod>2024-07-29T23:09:53+05:30</lastmod>
-  </url><url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-search/</loc>
-    <lastmod>2024-07-29T22:30:01+05:30</lastmod>
   </url><url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-153-find-minimum-in-rotated-sorted-arrat/</loc>
     <lastmod>2024-07-29T22:30:01+05:30</lastmod>
