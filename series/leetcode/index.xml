@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 18:02:48 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 18:20:56 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/series/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 860 Lemonadre Change</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-860-lemonadre-change/</link>
+      <pubDate>Thu, 15 Aug 2024 18:20:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-860-lemonadre-change/</guid>
+      <description>Problem Statement Link - Problem 860 Question At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.</description>
+    </item>
     <item>
       <title>Problem 719 Find K Th Smallest Pair Distance</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-719-find-k-th-smallest-pair-distance/</link>
