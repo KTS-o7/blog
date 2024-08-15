@@ -7,20 +7,27 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 15 Aug 2024 18:20:56 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 19:15:18 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greedy</title>
+      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
+      <pubDate>Thu, 15 Aug 2024 19:15:18 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://KTS-o7.github.io/blog/tags/string/</link>
+      <pubDate>Thu, 15 Aug 2024 19:15:18 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
       <pubDate>Thu, 15 Aug 2024 18:20:56 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Greedy</title>
-      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
-      <pubDate>Thu, 15 Aug 2024 18:20:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
       <description></description>
     </item>
     <item>
@@ -70,13 +77,6 @@
       <link>https://KTS-o7.github.io/blog/tags/heap/</link>
       <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/heap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>https://KTS-o7.github.io/blog/tags/string/</link>
-      <pubDate>Tue, 06 Aug 2024 20:59:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
       <description></description>
     </item>
     <item>
