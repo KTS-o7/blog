@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 15 Aug 2024 19:15:18 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2024 19:52:59 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/series/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 624 Maximum Distance in Arrays</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-624-maximum-distance-in-arrays/</link>
+      <pubDate>Fri, 16 Aug 2024 19:52:59 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-624-maximum-distance-in-arrays/</guid>
+      <description>Problem Statement Link - Problem 624 Question You are given m arrays, where each array is sorted in ascending order.&#xA;You can pick up two integers from two different arrays (each array picks one) and calculate the distance. We define the distance between two integers a and b to be their absolute difference |a - b|.&#xA;Return the maximum distance.&#xA;Note Even though the dont mention in the problem statement, the integers a and b CANT be from the same array.</description>
+    </item>
     <item>
       <title>Problem 3216 Lexographically Smallest String After a Swap</title>
       <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3216-lexographically-smallest-string-after-a-swap/</link>
