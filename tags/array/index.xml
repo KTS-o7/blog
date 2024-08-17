@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Fri, 16 Aug 2024 19:52:59 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2024 23:19:57 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 54 Sprial Matrix</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-54-sprial-matrix/</link>
+      <pubDate>Sat, 17 Aug 2024 23:19:57 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-54-sprial-matrix/</guid>
+      <description>Problem Statement Link - Problem 54 Question Given an m x n matrix, return all elements of the matrix in spiral order.&#xA;Example 1 Input: matrix = [[1,2,3],[4,5,6],[7,8,9]] Output: [1,2,3,6,9,8,7,4,5] Example 2 Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]] Output: [1,2,3,4,8,12,11,10,9,5,6,7] Constraints - `m == matrix.length` - `n == matrix[i].length` - `1 &amp;lt;= m, n &amp;lt;= 10` - `-100 &amp;lt;= matrix[i][j] &amp;lt;= 100` Solution class Solution { public: vector&amp;lt;int&amp;gt; spiralOrder(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp; matrix) { int rows = matrix.</description>
+    </item>
     <item>
       <title>Problem 624 Maximum Distance in Arrays</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-624-maximum-distance-in-arrays/</link>
