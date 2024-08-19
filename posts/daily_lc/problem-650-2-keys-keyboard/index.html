@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <title>Problem 650 2 Keys Keyboard :: KTS Blog -  Blog authored by Krishnatejaswi S</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Problem Statement Link - Problem 650 Question There is only one character &#39;A&#39; on the screen of a notepad. You can perform one of two operations on this notepad for each step:
+Copy All: You can copy all the characters present on the screen (a partial copy is not allowed). Paste: You can paste the characters which are copied last time. Given an integer n, return the minimum number of operations to get the character &#39;A&#39; exactly n times on the screen."
+/>
+<meta
+  name="keywords"
+  content="Leetcode, Linux, Development, Software, AI, ML"
+/>
+<meta name="robots" content="noodp" />
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Problem 650 2 Keys Keyboard">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 650 Question There is only one character &#39;A&#39; on the screen of a notepad. You can perform one of two operations on this notepad for each step:
+Copy All: You can copy all the characters present on the screen (a partial copy is not allowed). Paste: You can paste the characters which are copied last time. Given an integer n, return the minimum number of operations to get the character &#39;A&#39; exactly n times on the screen.">
+
+
+<link rel="canonical" href="https://KTS-o7.github.io/blog/posts/daily_lc/problem-650-2-keys-keyboard/" />
+
+<link rel="shortcut icon" href="/blog/favicon.ico" />
+<link rel="stylesheet" href="/blog/css/index.min.5d96433bd17079764d5a8866addd6d7848ea8295977a06688f43c5be97af544e.css">
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+</head>
+<body class="flex flex-col min-h-screen w-full bg-slate-50 dark:bg-gray-800"><header class="flex flex-none justify-center z-10">
+    <div class="flex flex-row gap justify-between w-full max-w-4xl lg:max-w-5xl h-12 mt-3">
+  <div class="flex-none ml-2 md:ml-0">
+    <a href="/blog/" class="">
+      <img class="h-12 w-12 rounded-full object-cover bg-gray-100" src="/blog/assets/LogoKTS.jpeg" alt="logo">
+    </a>
+  </div>
+  <div class="flex-1"></div>
+  <div class="flex-none">
+    
+
+
+
+<nav class="h-full static">
+  <button id="navbar-menu-toggle" type="button" class="inline-flex items-center p-2 text-sm text-slate-800 dark:text-slate-200 rounded-lg md:hidden" aria-controls="navbar-menu" aria-expanded="false">
+    <span class="sr-only">Open main menu</span>
+    <i class="w-8 h-8">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 6l16 0" />
+  <path d="M4 12l16 0" />
+  <path d="M4 18l16 0" />
+</svg>
+
+    </i>
+  </button>
+  <div class="absolute md:static top-16 left-0 right-0 z-50 hidden w-full md:block md:w-auto" id="navbar-menu">
+    <ul class="flex flex-col mx-2 md:mx-0 md:flex-row md:border-0 rounded-sm md:rounded-full px-3 text-base font-medium text-slate-800 dark:text-slate-200 shadow-lg bg-white dark:bg-gray-600 shadow-slate-800/5 dark:shadow-slate-200/5 ring-1 ring-slate-900/5 dark:ring-slate-100/5">
+    
+        <li id="about" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600"
+            href="/blog/about/about/" title="About">About</a>
+        </li>
+      
+    
+        <li id="post" class="">
+          <a class="block px-3 py-3 hover:text-emerald-600 text-emerald-600"
+            href="/blog/posts/" title="Post">Post</a>
+        </li>
+      
+    
+    </ul>
+  </div>
+</nav>
+
+
+  </div>
+  
+  <div class="flex-none mx-1"></div>
+  
+  <div class="flex-none md:hidden">
+    <a href=/blog/search/ class="inline-flex items-center p-2 text-sm text-slate-800 dark:text-slate-200 rounded-lg" aria-controls="navbar-menu" aria-expanded="false">
+      <span class="sr-only">Search</span>
+      <i class="w-8 h-8">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+    <path d="M21 21l-6 -6" />
+</svg>
+
+      </i>
+    </a>
+  </div>
+  <div class="darkmode-toggle flex flex-none mr-2 md:mr-0">
+    <label for="darkmode-toggle" class="flex items-center px-3 cursor-pointer rounded-full bg-gray-100 dark:bg-gray-600" title="Toggle dark mode">
+      <input name="darkmode-toggle" id="darkmode-toggle" type="checkbox" class="sr-only peer" aria-label="Toggle dark mode">
+      <div class="group flex flex-row gap-1 justify-center h-8 px-1 rounded-full bg-white dark:bg-gray-700">
+        <i class="h-6 w-6 flex-none rounded-full bg-yellow-400 place-self-center peer-checked:group-[]:invisible">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brightness-down" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+   <path d="M12 5l0 .01"></path>
+   <path d="M17 7l0 .01"></path>
+   <path d="M19 12l0 .01"></path>
+   <path d="M17 17l0 .01"></path>
+   <path d="M12 19l0 .01"></path>
+   <path d="M7 17l0 .01"></path>
+   <path d="M5 12l0 .01"></path>
+   <path d="M7 7l0 .01"></path>
+</svg>
+
+        </i>
+        <i class="h-6 w-6 flex-none rounded-full place-self-center invisible peer-checked:group-[]:visible">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-stars" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+   <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2"></path>
+   <path d="M19 11h2m-1 -1v2"></path>
+</svg>
+
+        </i>
+      </div>
+    </label>
+  </div>
+</div>
+
+  </header>
+  <main class="flex flex-auto justify-center">
+    
+<div class="w-full max-w-4xl lg:max-w-5xl">
+  <div class="flex flex-col mt-6 mx-2 md:mx-0 rounded-lg overflow-hidden shadow-md bg-white dark:bg-gray-700">
+    <div>
+      <a href="/blog/posts/daily_lc/problem-650-2-keys-keyboard/">
+        
+      </a>
+    </div>
+    <div class="flex flex-col gap-y-3 p-6">
+      <h1 class="text-4xl font-semibold text-slate-800 dark:text-slate-100">
+        <a href="/blog/posts/daily_lc/problem-650-2-keys-keyboard/">Problem 650 2 Keys Keyboard</a>
+      </h1>
+
+      
+      
+  <ul class="flex flex-row flex-wrap text-slate-500 dark:text-slate-300">
+    
+    
+      
+      <li>
+        <a href="/blog/tags/math/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">math</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/blog/tags/dynamic-programming/"
+          class="flex flex-row text-sm mr-2 py-1">
+          <i class="h-5 w-5 flex-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M5 9l14 0"></path>
+   <path d="M5 15l14 0"></path>
+   <path d="M11 4l-4 16"></path>
+   <path d="M17 4l-4 16"></path>
+</svg>
+
+          </i>
+          <span class="ml-0">dynamic-programming</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+
+
+
+      <div class="flex flex-col gap-y-1 md:flex-row md:gap-y-0 md:gap-x-4 text-slate-500 dark:text-slate-300">
+  
+  
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+   <path d="M16 3v4"></path>
+   <path d="M8 3v4"></path>
+   <path d="M4 11h16"></path>
+   <path d="M11 15h1"></path>
+   <path d="M12 15v3"></path>
+</svg>
+
+    </i>
+    <time datetime="2024-08-19T22:02:24&#43;05:30">
+      2024-08-19
+    </time>
+  </div>
+
+  <div class="flex flex-row text-base gap-x-1">
+    <i class="h-6 w-6 flex-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hourglass-high" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M6.5 7h11"></path>
+   <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z"></path>
+   <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1z"></path>
+</svg>
+
+    </i>
+    <span>
+      5 minutes to read
+    </span>
+  </div>
+</div>
+
+
+      
+        
+      
+
+      <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
+        <h1 id="problem-statement">Problem Statement</h1>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/2-keys-keyboard/description/" target="_blank" rel="noopener">Problem 650</a>
+</p>
+<h2 id="question">Question</h2>
+<p>There is only one character <code>'A'</code> on the screen of a notepad. You can perform one of two operations on this notepad for each step:</p>
+<ul>
+<li>Copy All: You can copy all the characters present on the screen (a partial copy is not allowed).</li>
+<li>Paste: You can paste the characters which are copied last time.</li>
+</ul>
+<p>Given an integer <code>n</code>, return the minimum number of operations to get the character <code>'A'</code> exactly <code>n</code> times on the screen.</p>
+<h2 id="example-1">Example 1</h2>
+<pre tabindex="0"><code>Input: n = 3
+Output: 3
+Explanation: Initially, we have one character &#39;A&#39;.
+In step 1, we use Copy All operation.
+In step 2, we use Paste operation to get &#39;AA&#39;.
+In step 3, we use Paste operation to get &#39;AAA&#39;.
+</code></pre><h2 id="example-2">Example 2</h2>
+<pre tabindex="0"><code>Input: n = 1
+Output: 0
+</code></pre><h2 id="constraints">Constraints</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`1 &lt;= n &lt;= 1000`</span>
+</span></span></code></pre></div><h2 id="solution">Solution</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// Recusrive solution
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> targetLength;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">findMinSteps</span>(<span style="color:#66d9ef">int</span> currentLength, <span style="color:#66d9ef">int</span> clipboardLength) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (currentLength <span style="color:#f92672">==</span> targetLength) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (currentLength <span style="color:#f92672">&gt;</span> targetLength) <span style="color:#66d9ef">return</span> INT_MAX <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> copyAndPaste <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> findMinSteps(currentLength <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>, currentLength);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> pasteOnly <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> findMinSteps(currentLength <span style="color:#f92672">+</span> clipboardLength, clipboardLength);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> min(copyAndPaste, pasteOnly);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minSteps(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        targetLength <span style="color:#f92672">=</span> n;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> findMinSteps(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Using memoization
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> targetLength;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> cache;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">calculateMinOps</span>(<span style="color:#66d9ef">int</span> currentLength, <span style="color:#66d9ef">int</span> clipboardLength) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (currentLength <span style="color:#f92672">==</span> targetLength) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (currentLength <span style="color:#f92672">&gt;</span> targetLength) <span style="color:#66d9ef">return</span> INT_MAX <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (cache[currentLength][clipboardLength] <span style="color:#f92672">!=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> cache[currentLength][clipboardLength];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> pasteOption <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> calculateMinOps(currentLength <span style="color:#f92672">+</span> clipboardLength, clipboardLength);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> copyPasteOption <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> calculateMinOps(currentLength <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>, currentLength);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> min(pasteOption, copyPasteOption);
+</span></span><span style="display:flex;"><span>        cache[currentLength][clipboardLength] <span style="color:#f92672">=</span> result;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> result;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minSteps(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        targetLength <span style="color:#f92672">=</span> n;
+</span></span><span style="display:flex;"><span>        cache <span style="color:#f92672">=</span> vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span>(n <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>(n <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> calculateMinOps(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Using factorization
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minSteps(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> sqrtN <span style="color:#f92672">=</span> sqrt(n);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> total_operations <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> factor <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>; factor <span style="color:#f92672">&lt;=</span> sqrtN; factor<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (n <span style="color:#f92672">%</span> factor <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>                total_operations <span style="color:#f92672">+=</span> factor;
+</span></span><span style="display:flex;"><span>                n <span style="color:#f92672">/=</span> factor;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>            total_operations <span style="color:#f92672">+=</span> n;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> total_operations;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><h2 id="complexity-analysis">Complexity Analysis</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm     | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Memoization   | O(n^2)          | O(n^2)           |
+</span></span><span style="display:flex;"><span>| Factorization | O(sqrt(n))      | O(1)             |
+</span></span></code></pre></div><h2 id="explanation">Explanation</h2>
+<h3 id="1-intuition">1. Intuition</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> This is for dynamic programming
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> In this method, we can build a recursive function as follows
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Let <span style="color:#e6db74">`f(x,y)`</span> be the minimum number of operations to get the character &#39;A&#39; exactly <span style="color:#e6db74">`x`</span> times
+</span></span><span style="display:flex;"><span>    on the screen with <span style="color:#e6db74">`y`</span> characters in the clipboard.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> We can copy all the characters present on the screen and paste them to get <span style="color:#e6db74">`2x`</span> characters
+</span></span><span style="display:flex;"><span>    on the screen and <span style="color:#e6db74">`x`</span> characters in the clipboard. This operation takes <span style="color:#e6db74">`2`</span> steps.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Or we can paste the characters which are copied last time to get <span style="color:#e6db74">`x+y`</span> characters
+</span></span><span style="display:flex;"><span>    on the screen and <span style="color:#e6db74">`y`</span> characters in the clipboard. This operation takes <span style="color:#e6db74">`1`</span> step.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> The base case will be when <span style="color:#e6db74">`x`</span> is equal to the target length, we return <span style="color:#e6db74">`0`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If not base case then we need to return the minimum of <span style="color:#e6db74">`2 + f(2*x,x)`</span> and <span style="color:#e6db74">`1 + f(x+y,y)`</span>.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Using the above recursive function we can design a DP solution.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> use a 2D array to store the minimum operations for each <span style="color:#e6db74">`x`</span> and <span style="color:#e6db74">`y`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`dp[x][y]`</span> will denote the minimum number of operations to get the character &#39;A&#39; exactly <span style="color:#e6db74">`x`</span> times
+</span></span><span style="display:flex;"><span>  on the screen with <span style="color:#e6db74">`y`</span> characters in the clipboard.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> This is for factorization method
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> By observation we can say the following things
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">1.</span> If n is prime then the minimum number of operations will be n.
+</span></span><span style="display:flex;"><span>     We can build <span style="color:#e6db74">`n`</span> by copying once and pasting <span style="color:#e6db74">`n-1`</span> times.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">2.</span> If <span style="color:#e6db74">`n`</span> is a power of a prime number <span style="color:#e6db74">`p`</span>, then the minimum number of operations will be <span style="color:#e6db74">`p`</span>.
+</span></span><span style="display:flex;"><span>     This is because we can first build <span style="color:#e6db74">`p`</span> by copying once and pasting <span style="color:#e6db74">`p-1`</span> times.
+</span></span><span style="display:flex;"><span>     Then we can build <span style="color:#e6db74">`n`</span> by copying <span style="color:#e6db74">`p`</span> and pasting <span style="color:#e6db74">`n/p-1`</span> times.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">3.</span> If <span style="color:#e6db74">`n`</span> is not a power of a prime number, then we can factorize <span style="color:#e6db74">`n`</span> into prime numbers.
+</span></span><span style="display:flex;"><span>     The minimum number of operations will be the sum of the prime factors.
+</span></span><span style="display:flex;"><span>     This is because we can build <span style="color:#e6db74">`n`</span> by copying the prime factors and pasting the prime factors-1 times.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can iterate from <span style="color:#e6db74">`2`</span> to <span style="color:#e6db74">`sqrt(n)`</span> and check if <span style="color:#e6db74">`n`</span> is divisible by <span style="color:#e6db74">`i`</span>.
+</span></span><span style="display:flex;"><span>  While <span style="color:#e6db74">`n`</span> is divisible by <span style="color:#e6db74">`i`</span>, we can add <span style="color:#e6db74">`i`</span> to the total operations and divide <span style="color:#e6db74">`n`</span> by <span style="color:#e6db74">`i`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> This will not consider non prime factors of <span style="color:#e6db74">`n`</span>.
+</span></span><span style="display:flex;"><span>  Because if <span style="color:#e6db74">`i`</span> is not a prime factor of <span style="color:#e6db74">`n`</span>, then <span style="color:#e6db74">`n/i`</span> will be a prime factor of <span style="color:#e6db74">`n`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Finally, we can return the total operations.
+</span></span></code></pre></div><h3 id="2-implementation">2. Implementation</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For memoization, we can use a 2D array to store the minimum operations for each <span style="color:#e6db74">`x`</span> and <span style="color:#e6db74">`y`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Declare the <span style="color:#e6db74">`targetLength`</span> and <span style="color:#e6db74">`cache`</span> as variables.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Write a recursive function <span style="color:#e6db74">`calculateMinOps`</span> to calculate the minimum operations.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> In the recursive function, we can check if the current length is equal to the target length.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the current length is greater than the target length, we can return <span style="color:#e6db74">`INT_MAX / 2`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the current length is equal to the target length, we can return <span style="color:#e6db74">`0`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the value of <span style="color:#e6db74">`cache[currentLength][clipboardLength]`</span> is not <span style="color:#e6db74">`-1`</span>, we can return the value.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Otherwise, we can calculate the minimum operations for the two options.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> <span style="color:#e6db74">`pasteOption`</span> = 1 + <span style="color:#e6db74">`calculateMinOps(currentLength + clipboardLength, clipboardLength)`</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> <span style="color:#e6db74">`copyPasteOption`</span> = 2 + <span style="color:#e6db74">`calculateMinOps(currentLength * 2, currentLength)`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`cache[currentLength][clipboardLength]`</span> will be updated with the minimum of the two options.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Finally, we can return the minimum of the two options.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize the variable <span style="color:#e6db74">`total_operations`</span> to <span style="color:#e6db74">`0`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate from <span style="color:#e6db74">`2`</span> to <span style="color:#e6db74">`sqrt(n)`</span> and check if <span style="color:#e6db74">`n`</span> is divisible by <span style="color:#e6db74">`i`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> while <span style="color:#e6db74">`n`</span> is divisible by <span style="color:#e6db74">`i`</span>, add <span style="color:#e6db74">`i`</span> to the <span style="color:#e6db74">`total_operations`</span> and divide <span style="color:#e6db74">`n`</span> by <span style="color:#e6db74">`i`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If <span style="color:#e6db74">`n`</span> is greater than <span style="color:#e6db74">`1`</span>, add <span style="color:#e6db74">`n`</span> to the <span style="color:#e6db74">`total_operations`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> This will handle the case where <span style="color:#e6db74">`n`</span> is itself a prime number.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Finally, return the <span style="color:#e6db74">`total_operations`</span>.
+</span></span></code></pre></div>
+      </article>
+      <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+  integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+  integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true },
+        { left: "***", right: "***", display: true },
+      ],
+      
+      throwOnError: false,
+    });
+  });
+</script>
+
+      
+
+
+  
+<script type="text/javascript">
+  (function() {
+    const themeToggle = document.querySelector('.darkmode-toggle input');
+    const light = 'light';
+    const dark = 'dark';
+    let isDark = localStorage.theme === dark || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    let theme = isDark ? dark : light;
+
+    const s = document.createElement('script');
+    s.type = 'text/javascript';
+    const dataset = {
+        repo: 'KTS-o7\/KTS-o7.github.io',
+        repoId: 'R_kgDOLt_ntg',
+        category: 'General',
+        categoryId: 'DIC_kwDOLt_nts4Ceruy',
+        mapping: 'pathname',
+        reactionsEnabled: '1',
+        emitMetadata: '0',
+        theme: theme,
+        lang: 'en',
+    };
+    s.src = 'https://giscus.app/client.js';
+    s.crossorigin = 'anonymous';
+    s.async = true;
+    Object.entries(dataset).forEach(function(a) {
+        return s.dataset[a[0]] = a[1];
+    });
+
+    const curScriptElement = document.currentScript;
+    curScriptElement.parentNode.insertBefore(s, curScriptElement);
+
+    function sendMessage(message) {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    }
+
+    themeToggle.addEventListener('change', function () {
+      if (this.checked) {
+        theme = dark;
+      } else {
+        theme = light;
+      }
+      sendMessage({
+        setConfig: {
+          theme: theme,
+        }
+      });
+    });
+  })();
+</script>
+  
+
+
+
+    </div>
+  </div>
+</div>
+
+  </main>
+  <footer class="flex flex-none justify-center">
+    <section class="flex flex-col md:flex-row mx-2 md:mx-0 gap-2 md:gap-0 justify-between w-full max-w-4xl lg:max-w-5xl py-6 text-slate-500 dark:text-slate-300">
+  <div class="flex flex-row">
+    
+  
+  
+    <a href="https://github.com/KTS-o7" target="_blank" title="Github" class="flex flex-row mr-2">
+      <span class="hidden">Github</span>
+      <i class="h-6 w-6 flex-none"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+</svg>
+ </i>
+    </a>
+  
+  
+  
+    <a href="https://www.linkedin.com/in/krishnatejaswi-shenthar/" target="_blank" title="LinkedIn" class="flex flex-row mr-2">
+      <span class="hidden">LinkedIn</span>
+      <i class="h-6 w-6 flex-none"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+   <path d="M8 11l0 5"></path>
+   <path d="M8 8l0 .01"></path>
+   <path d="M12 16l0 -5"></path>
+   <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+</svg>
+ </i>
+    </a>
+  
+  
+
+
+  </div>
+  <div class="grow"></div>
+  <div class="flex flex-row">
+    <i class="h-6 w-6 flex-none"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+   <path d="M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173"></path>
+</svg>
+</i> 2023 - 2024 Krishnatejaswi S
+    
+  </div>
+  
+  <div class="flex flex-row">
+    <span class="ml-0 pl-0 md:ml-2 md:pl-2 border-l-0 md:border-l border-slate-300 dark:border-slate-400">
+      Powered by <a href="https://gohugo.io" target="_blank" rel="noopener" class="underline">Hugo</a> <span class="text-red-600">&hearts;</span> <a href="https://github.com/tomowang/hugo-theme-tailwind" target="_blank" rel="noopener" class="underline">Tailwind</a>
+    </span>
+  </div>
+  
+</section>
+
+  </footer>
+  <script src="/blog/main.min.c6372b6836971865bd94bfde974748aca8415824a2facab6ccd66a87384bfacb.js"></script>
+
+<div class="hidden top-1 right-1" id="code-copy">
+  <i class="h-6 w-6 block">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+  <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+</svg>
+
+  </i>
+</div>
+<div class="hidden top-1 right-1" id="code-copy-done">
+  <i class="h-6 w-6 block">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 12l5 5l10 -10" />
+</svg>
+
+  </i>
+</div><script src="/blog/code-copy.min.366aad7b16fb4cb21d28085777314f544780febaa813080ba8d8b331220e42eb.js"></script>
+
+
+
+
+
+</body>
+</html>
