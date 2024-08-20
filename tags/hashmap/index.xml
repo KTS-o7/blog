@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hashmap on KTS Blog</title>
-    <link>http://localhost:1313/blog/tags/hashmap/</link>
+    <link>https://KTS-o7.github.io/blog/tags/hashmap/</link>
     <description>Recent content in Hashmap on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Mon, 05 Aug 2024 13:09:46 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/hashmap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/hashmap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 2053 Kth Distinct String in an Array</title>
-      <link>http://localhost:1313/blog/posts/daily_lc/problem-2053-kth-distinct-string-in-an-array/</link>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2053-kth-distinct-string-in-an-array/</link>
       <pubDate>Mon, 05 Aug 2024 13:09:46 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/daily_lc/problem-2053-kth-distinct-string-in-an-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2053-kth-distinct-string-in-an-array/</guid>
       <description>Problem Statement Link - Problem 2053 Question A distinct string is a string that is present only once in an array.&#xA;Given an array of strings arr, and an integer k, return the kth distinct string present in arr. If there are fewer than k distinct strings, return an empty string &amp;quot;&amp;quot;.&#xA;Note that the strings are considered in the order in which they appear in the array.&#xA;Example 1 Input: arr = [&amp;#34;d&amp;#34;,&amp;#34;b&amp;#34;,&amp;#34;c&amp;#34;,&amp;#34;b&amp;#34;,&amp;#34;c&amp;#34;,&amp;#34;a&amp;#34;], k = 2 Output: &amp;#34;a&amp;#34; Explanation: The only distinct strings in arr are &amp;#34;d&amp;#34; and &amp;#34;a&amp;#34;.</description>
     </item>
     <item>
       <title>Problem 128 Longest Consecutive Sequence</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-128-longest-consecutive-sequence/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-128-longest-consecutive-sequence/</link>
       <pubDate>Thu, 25 Jul 2024 21:47:34 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-128-longest-consecutive-sequence/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-128-longest-consecutive-sequence/</guid>
       <description>Problem Statement Link - Problem 128 Question Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.&#xA;You must write an algorithm that runs in O(n) time.&#xA;Example 1 Input: nums = [100,4,200,1,3,2] Output: 4 Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4. Example 2 Input: nums = [0,3,7,2,5,8,4,6,0,1] Output: 9 Constraints - `0 &amp;lt;= nums.length &amp;lt;= 10^5` - `-10^9 &amp;lt;= nums[i] &amp;lt;= 10^9` Solution class Solution { public: int longestConsecutive(vector&amp;lt;int&amp;gt;&amp;amp; nums) { std::ios::sync_with_stdio(false); unordered_set&amp;lt;int&amp;gt;s(nums.</description>
     </item>
     <item>
       <title>Problem 2191 Sort the Jumbled Number</title>
-      <link>http://localhost:1313/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</link>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</link>
       <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</guid>
       <description>Problem Statement Link - Problem 2191 Question You are given a 0-indexed integer array mapping which represents the mapping rule of a shuffled decimal system. mapping[i] = j means digit i should be mapped to digit j in this system.&#xA;The mapped value of an integer is the new integer obtained by replacing each occurrence of digit i in the integer with mapping[i] for all 0 &amp;lt;= i &amp;lt;= 9.</description>
     </item>
     <item>
       <title>Problem 1636 Sort Array by Increasing Frequency</title>
-      <link>http://localhost:1313/blog/posts/daily_lc/problem-1636-sort-array-by-increasing-frequency/</link>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1636-sort-array-by-increasing-frequency/</link>
       <pubDate>Tue, 23 Jul 2024 21:12:33 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/daily_lc/problem-1636-sort-array-by-increasing-frequency/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1636-sort-array-by-increasing-frequency/</guid>
       <description>Problem Statement Link - Problem 1636 Question Given an array of integers nums, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order.&#xA;Return the sorted array.&#xA;Example 1 Input: nums = [1,1,2,2,2,3] Output: [3,1,1,2,2,2] Explanation: &amp;#39;3&amp;#39; has a frequency of 1, &amp;#39;1&amp;#39; has a frequency of 2, and &amp;#39;2&amp;#39; has a frequency of 3. Example 2 Input: nums = [2,3,1,3,2] Output: [1,3,3,2,2] Explanation: &amp;#39;2&amp;#39; and &amp;#39;3&amp;#39; both have a frequency of 2, so they are sorted in decreasing order.</description>
     </item>
     <item>
       <title>Problem 2196 Create Binary Tree From Descriptions</title>
-      <link>http://localhost:1313/blog/posts/prev_solns/problem-create-binary-tree-from-descriptions/</link>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-create-binary-tree-from-descriptions/</link>
       <pubDate>Mon, 15 Jul 2024 15:17:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/prev_solns/problem-create-binary-tree-from-descriptions/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-create-binary-tree-from-descriptions/</guid>
       <description>Problem Statement Link - Problem 2196 Question You are given a 2D integer array descriptions where descriptions[i] = [parenti, childi, isLefti] indicates that parenti is the parent of childi in a binary tree of unique values. Furthermore,&#xA;If isLefti == 1, then childi is the left child of parenti. If isLefti == 0, then childi is the right child of parenti. Construct the binary tree described by descriptions and return its root.</description>
     </item>
     <item>
       <title>Problem 726 Number of Atoms</title>
-      <link>http://localhost:1313/blog/posts/prev_solns/problem-number-of-atoms/</link>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-atoms/</link>
       <pubDate>Sun, 14 Jul 2024 22:24:15 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/prev_solns/problem-number-of-atoms/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-atoms/</guid>
       <description>Problem Statement Link - Problem 726 Question Given a string formula representing a chemical formula, return the count of each atom.&#xA;The atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.&#xA;One or more digits representing that element&amp;rsquo;s count may follow if the count is greater than 1. If the count is 1, no digits will follow.&#xA;For example, &amp;quot;H2O&amp;quot; and &amp;quot;H2O2&amp;quot; are possible, but &amp;quot;H1O2&amp;quot; is impossible.</description>
     </item>
     <item>
       <title>Problem 350 Intersection of Two Arrays II</title>
-      <link>http://localhost:1313/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</link>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</link>
       <pubDate>Tue, 02 Jul 2024 22:34:05 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</guid>
       <description>Problem Statement Link - Problem 350 Question Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.&#xA;Example 1 Input: nums1 = [1,2,2,1], nums2 = [2,2] Output: [2,2] Example 2 Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4] Output: [4,9] Explanation: [9,4] is also accepted.</description>
     </item>
     <item>
       <title>Problem 523 Continuous Subarray Sum</title>
-      <link>http://localhost:1313/blog/posts/prev_solns/problem-continuous-subarray-sum/</link>
+      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-continuous-subarray-sum/</link>
       <pubDate>Sat, 08 Jun 2024 11:56:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/prev_solns/problem-continuous-subarray-sum/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-continuous-subarray-sum/</guid>
       <description>Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.&#xA;A good subarray is a subarray where:&#xA;its length is at least two, and the sum of the elements of the subarray is a multiple of k.&#xA;Note A subarray is a contiguous part of the array. An integer x is a multiple of k if there exists an integer n such that x = n * k.</description>
     </item>
   </channel>
