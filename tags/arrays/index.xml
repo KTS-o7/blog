@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arrays on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/arrays/</link>
+    <link>http://localhost:1313/blog/tags/arrays/</link>
     <description>Recent content in Arrays on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Mon, 22 Jul 2024 18:47:32 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/arrays/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/arrays/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 2418 Sort the People</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2418-sort-the-people/</link>
+      <link>http://localhost:1313/blog/posts/daily_lc/problem-2418-sort-the-people/</link>
       <pubDate>Mon, 22 Jul 2024 18:47:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2418-sort-the-people/</guid>
+      <guid>http://localhost:1313/blog/posts/daily_lc/problem-2418-sort-the-people/</guid>
       <description>Problem Statement Link - Problem 2418 Question You are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.&#xA;For each index i, names[i] and heights[i] denote the name and height of the ith person.&#xA;Return names sorted in descending order by the people&amp;rsquo;s heights.&#xA;Example 1 Input: names = [&amp;#34;Mary&amp;#34;,&amp;#34;John&amp;#34;,&amp;#34;Emma&amp;#34;], heights = [180,165,170] Output: [&amp;#34;Mary&amp;#34;,&amp;#34;Emma&amp;#34;,&amp;#34;John&amp;#34;] Explanation: Mary is the tallest, followed by Emma and John.</description>
     </item>
     <item>
       <title>Problem 350 Intersection of Two Arrays II</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</link>
       <pubDate>Tue, 02 Jul 2024 22:34:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</guid>
       <description>Problem Statement Link - Problem 350 Question Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.&#xA;Example 1 Input: nums1 = [1,2,2,1], nums2 = [2,2] Output: [2,2] Example 2 Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4] Output: [4,9] Explanation: [9,4] is also accepted.</description>
     </item>
   </channel>

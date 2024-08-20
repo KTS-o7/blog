@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linked-List on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
+    <link>http://localhost:1313/blog/tags/linked-list/</link>
     <description>Recent content in Linked-List on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Mon, 29 Jul 2024 19:41:13 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 3217 Delete Nodes From Linked List Present in Array</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3217-delete-nodes-from-linked-list-present-in-array/</link>
+      <link>http://localhost:1313/blog/posts/contest_lc/problem-3217-delete-nodes-from-linked-list-present-in-array/</link>
       <pubDate>Mon, 29 Jul 2024 19:41:13 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3217-delete-nodes-from-linked-list-present-in-array/</guid>
+      <guid>http://localhost:1313/blog/posts/contest_lc/problem-3217-delete-nodes-from-linked-list-present-in-array/</guid>
       <description>Problem Statement Link - Problem 3217 Question You are given an array of integers nums and the head of a linked list. Return the head of the modified linked list after removing all nodes from the linked list that have a value that exists in nums.&#xA;Example 1 Input: nums = [1,2,3], head = [1,2,3,4,5] Output: [4,5] Example 2 Input: nums = [1], head = [1,2,1,2,1,2] Output: [2,2,2] Example 3 Input: nums = [5], head = [1,2,3,4] Output: [1,2,3,4] Constraints - `1 &amp;lt;= nums.</description>
     </item>
     <item>
       <title>Problem 82 Remove Duplicates From Sorted List II</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</link>
       <pubDate>Sun, 28 Jul 2024 20:59:29 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</guid>
       <description>Problem Statement Link - Problem 82 Question Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list. Return the linked list sorted as well.&#xA;Example 1 Input: head = [1,2,3,3,4,4,5] Output: [1,2,5] Example 2 Input: head = [1,1,1,2,3] Output: [2,3] Constraints - `The number of nodes in the list is in the range [0, 300].` - `-100 &amp;lt;= Node.</description>
     </item>
     <item>
       <title>Problem 24 Swap Nodes in Pairs</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</link>
       <pubDate>Thu, 25 Jul 2024 20:55:46 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</guid>
       <description>Problem Statement Link - Problem 24 Question Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list&amp;rsquo;s nodes (i.e., only nodes themselves may be changed.)&#xA;Example 1 Input: head = [1,2,3,4] Output: [2,1,4,3] Example 2 Input: head = [] Output: [] Example 3 Input: head = [1] Output: [1] Constraints - The number of nodes in the list is in the range `[0, 100]`.</description>
     </item>
     <item>
       <title>Problem 2058 Find the Minimum and Maximum Number of Nodes Between Critical Points</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
       <pubDate>Fri, 05 Jul 2024 18:54:28 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
       <description>Problem Statement Link - Problem 2058 Question A critical point in a linked list is defined as either a local maxima or a local minima.&#xA;A node is a local maxima if the current node has a value strictly greater than the previous node and the next node.&#xA;A node is a local minima if the current node has a value strictly smaller than the previous node and the next node.</description>
     </item>
     <item>
       <title>Problem 2181 Merge Nodes in Between Zeros</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-merge-nodes-in-between-zeros/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-merge-nodes-in-between-zeros/</link>
       <pubDate>Thu, 04 Jul 2024 21:58:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-merge-nodes-in-between-zeros/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-merge-nodes-in-between-zeros/</guid>
       <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&amp;rsquo;s. The beginning and end of the linked list will have Node.val == 0.&#xA;For every two consecutive 0&amp;rsquo;s, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0&amp;rsquo;s.</description>
     </item>
     <item>
       <title>Problem 2816 Double a Number Represented as a Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-double-a-number-represented-as-a-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-double-a-number-represented-as-a-linked-list/</link>
       <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-double-a-number-represented-as-a-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-double-a-number-represented-as-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 2816 Question You are given the head of a non-empty linked list representing a non-negative integer without leading zeroes.&#xA;Return the head of the linked list after doubling it&#xA;Example 1 Input graph LR A((1))--&gt;B((8)) B--&gt;C((9)) Output graph LR A((3))--&gt;B((7)) B--&gt;C((8)) Input: head = [1,8,9] Output: [3,7,8] Explanation: The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.</description>
     </item>
     <item>
       <title>Problem 2487 Remove Nodes From Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-remove-nodes-from-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-remove-nodes-from-linked-list/</link>
       <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-remove-nodes-from-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-remove-nodes-from-linked-list/</guid>
       <description>Problem Statement Link - Problem 2487 Question You are given the head of a linked list.&#xA;Remove every node which has a node with a greater value anywhere to the right side of it.&#xA;Return the head of the modified linked list.&#xA;Example 1 Input graph LR A((5))--&gt;B((2)) B--&gt;C((13)) C--&gt;D((3)) D--&gt;E((8)) Output graph LR A((13))--&gt;B((8)) Input: head = [5,2,13,3,8] Output: [13,8] Explanation: The nodes that should be removed are 5, 2 and 3.</description>
     </item>
     <item>
       <title>Problem 237 Delete Node in a Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/</link>
       <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 237 Question There is a singly-linked list head and we want to delete a node node in it.&#xA;You are given the node to be deleted node. You will not be given access to the first node of head.&#xA;All the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list.</description>
     </item>
   </channel>

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/design/</link>
+    <link>http://localhost:1313/blog/tags/design/</link>
     <description>Recent content in Design on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Mon, 12 Aug 2024 10:08:40 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 703 Kth Largest Element in a Stream</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</link>
+      <link>http://localhost:1313/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</link>
       <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</guid>
+      <guid>http://localhost:1313/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</guid>
       <description>Problem Statement Link - Problem 703 Question Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.&#xA;Implement KthLargest class:&#xA;KthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of integers nums. int add(int val) Appends the integer val to the stream and returns the element representing the kth largest element in the stream.</description>
     </item>
     <item>
       <title>Problem 284 Peeking Iterator</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-284-peeking-iterator/</link>
       <pubDate>Sat, 27 Jul 2024 18:37:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-284-peeking-iterator/</guid>
       <description>Problem Statement Link - Problem 284 Question Design an iterator that supports the peek operation on an existing iterator in addition to the hasNext and the next operations.&#xA;Implement the PeekingIterator class:&#xA;PeekingIterator(Iterator&amp;lt;int&amp;gt; nums) Initializes the object with the given integer iterator iterator. int next() Returns the next element in the array and moves the pointer to the next element. boolean hasNext() Returns true if there are still elements in the array.</description>
     </item>
   </channel>

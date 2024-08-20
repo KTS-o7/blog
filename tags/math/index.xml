@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/math/</link>
+    <link>http://localhost:1313/blog/tags/math/</link>
     <description>Recent content in Math on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Mon, 19 Aug 2024 22:02:24 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 650 2 Keys Keyboard</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-650-2-keys-keyboard/</link>
+      <link>http://localhost:1313/blog/posts/daily_lc/problem-650-2-keys-keyboard/</link>
       <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-650-2-keys-keyboard/</guid>
+      <guid>http://localhost:1313/blog/posts/daily_lc/problem-650-2-keys-keyboard/</guid>
       <description>Problem Statement Link - Problem 650 Question There is only one character &#39;A&#39; on the screen of a notepad. You can perform one of two operations on this notepad for each step:&#xA;Copy All: You can copy all the characters present on the screen (a partial copy is not allowed). Paste: You can paste the characters which are copied last time. Given an integer n, return the minimum number of operations to get the character &#39;A&#39; exactly n times on the screen.</description>
     </item>
     <item>
       <title>Problem 3233 Find the Count of Numbers Which Are Not Special</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3233-find-the-count-of-numbers-which-are-not-special/</link>
+      <link>http://localhost:1313/blog/posts/contest_lc/problem-3233-find-the-count-of-numbers-which-are-not-special/</link>
       <pubDate>Mon, 29 Jul 2024 19:08:13 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3233-find-the-count-of-numbers-which-are-not-special/</guid>
+      <guid>http://localhost:1313/blog/posts/contest_lc/problem-3233-find-the-count-of-numbers-which-are-not-special/</guid>
       <description>Problem Statement Link - Problem 3233 Question You are given 2 positive integers l and r. For any number x, all positive divisors of x except x are called the proper divisors of x.&#xA;A number is called special if it has exactly 2 proper divisors. For example:&#xA;The number 4 is special because it has proper divisors 1 and 2. The number 6 is not special because it has proper divisors 1, 2, and 3.</description>
     </item>
     <item>
       <title>Problem 3232 Find if Digit Game Can Be Won</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3232-find-if-digit-game-can-be-won/</link>
+      <link>http://localhost:1313/blog/posts/contest_lc/problem-3232-find-if-digit-game-can-be-won/</link>
       <pubDate>Mon, 29 Jul 2024 19:00:51 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3232-find-if-digit-game-can-be-won/</guid>
+      <guid>http://localhost:1313/blog/posts/contest_lc/problem-3232-find-if-digit-game-can-be-won/</guid>
       <description>Problem Statement Link - Problem 3232 Question You are given an array of positive integers nums.&#xA;Alice and Bob are playing a game. In the game, Alice can choose either all single-digit numbers or all double-digit numbers from nums, and the rest of the numbers are given to Bob. Alice wins if the sum of her numbers is strictly greater than the sum of Bob&amp;rsquo;s numbers.&#xA;Return true if Alice can win this game, otherwise, return false.</description>
     </item>
     <item>
       <title>Problem 89 Gray Code</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-89-gray-code/</link>
       <pubDate>Thu, 25 Jul 2024 22:03:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-89-gray-code/</guid>
       <description>Problem Statement Link - Problem 89 Question An n-bit gray code sequence is a sequence of 2^n integers where:&#xA;Every integer is in the inclusive range [0, 2^n - 1], The first integer is 0, An integer appears no more than once in the sequence, The binary representation of every pair of adjacent integers differs by exactly one bit, and The binary representation of the first and last integers differs by exactly one bit.</description>
     </item>
     <item>
       <title>Problem 2191 Sort the Jumbled Number</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</link>
+      <link>http://localhost:1313/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</link>
       <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</guid>
+      <guid>http://localhost:1313/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</guid>
       <description>Problem Statement Link - Problem 2191 Question You are given a 0-indexed integer array mapping which represents the mapping rule of a shuffled decimal system. mapping[i] = j means digit i should be mapped to digit j in this system.&#xA;The mapped value of an integer is the new integer obtained by replacing each occurrence of digit i in the integer with mapping[i] for all 0 &amp;lt;= i &amp;lt;= 9.</description>
     </item>
     <item>
       <title>Problem 1598 Crawler Log Folder</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-crawler-log-folder/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-crawler-log-folder/</link>
       <pubDate>Wed, 10 Jul 2024 21:35:27 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-crawler-log-folder/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-crawler-log-folder/</guid>
       <description>Problem Statement Link - Problem 1598 Question The Leetcode file system keeps a log each time some user performs a change folder operation.&#xA;The operations are described below:&#xA;&amp;quot;../&amp;quot; : Move to the parent folder of the current folder. (If you are already in the main folder, remain in the same folder). &amp;quot;./&amp;quot; : Remain in the same folder. &amp;quot;x/&amp;quot; : Move to the child folder named x (This folder is guaranteed to always exist).</description>
     </item>
     <item>
       <title>Problem 1823 Find the Winner of the Circular Game</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-winner-of-the-circular-game/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-find-the-winner-of-the-circular-game/</link>
       <pubDate>Tue, 09 Jul 2024 00:39:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-winner-of-the-circular-game/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-find-the-winner-of-the-circular-game/</guid>
       <description>Problem Statement Link - Problem 1823 Question There are n friends that are playing a game. The friends are sitting in a circle and are numbered from 1 to n in clockwise order. More formally, moving clockwise from the ith friend brings you to the (i+1)th friend for 1 &amp;lt;= i &amp;lt; n, and moving clockwise from the nth friend brings you to the 1st friend.&#xA;The rules of the game are as follows:</description>
     </item>
     <item>
       <title>Problem 1518 Water Bottles</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-water-bottles/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-water-bottles/</link>
       <pubDate>Sun, 07 Jul 2024 17:59:47 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-water-bottles/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-water-bottles/</guid>
       <description>Problem Statement Link - Problem 1518 Question There are numBottles water bottles that are initially full of water. You can exchange bumExchange empty water bottles for one full water bottle. The operation of drinking a full water bottle turns it into an empty bottle.&#xA;Given two integers numBottles and numExchange, return the maximum number of water bottles you can drink.&#xA;Example 1 Input: numBottles = 9, numExchange = 3 Output: 13 Explanation: You can exchange 3 empty bottles to get 1 full water bottle.</description>
     </item>
     <item>
       <title>Problem 2582 Pass the Pillow</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-pass-the-pillow/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-pass-the-pillow/</link>
       <pubDate>Sat, 06 Jul 2024 16:45:27 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-pass-the-pillow/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-pass-the-pillow/</guid>
       <description>Problem Statement Link - Problem 2582 Question There are n people standing in a line labeled from 1 to n. The first person in the line is holding a pillow initially. Every second, the person holding the pillow passes it to the next person standing in the line. Once the pillow reaches the end of the line, the direction changes, and people continue passing the pillow in the opposite direction.</description>
     </item>
     <item>
       <title>Problem 2058 Find the Minimum and Maximum Number of Nodes Between Critical Points</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
       <pubDate>Fri, 05 Jul 2024 18:54:28 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
       <description>Problem Statement Link - Problem 2058 Question A critical point in a linked list is defined as either a local maxima or a local minima.&#xA;A node is a local maxima if the current node has a value strictly greater than the previous node and the next node.&#xA;A node is a local minima if the current node has a value strictly smaller than the previous node and the next node.</description>
     </item>
     <item>
       <title>Problem 633 Sum of Square Numbers</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-of-square-numbers/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-sum-of-square-numbers/</link>
       <pubDate>Mon, 17 Jun 2024 18:55:17 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-of-square-numbers/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-sum-of-square-numbers/</guid>
       <description>Problem Statement Link - Problem 633 Question Given a non-negative integer c, decide whether there are two integers a and b such that a^2 + b^2 = c.&#xA;Note Even thought it doesn&amp;rsquo;t say in the question , the numbers can be equal, ie a=b is valid. since we are talking about square sums, it is safe to say that values of any one of variable can be atmost sqrt(c) Example 1 Input: c = 5 Output: true Explanation: 1 * 1 + 2 * 2 = 5 Example 2 Input: c = 3 Output: false Constraints 0 &amp;lt;= c &amp;lt;= 2^31 - 1 Solution class Solution { public: bool judgeSquareSum(int c) { long long int l =0,r = sqrt(c); long long int sum; while(l&amp;lt;=r) { sum = l*l + r*r; if(sum == c) return true; else if(sum&amp;gt;c) r--; else l++; } return false; } }; Complexity Analysis Time Complexity : O(sqrt(n)) Space Complexity : O(1) Explanation 1.</description>
     </item>
     <item>
       <title>Problem 786 K th Smallest Prime Fraction</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-k-th-smallest-prime-fraction/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-k-th-smallest-prime-fraction/</link>
       <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-k-th-smallest-prime-fraction/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-k-th-smallest-prime-fraction/</guid>
       <description>Problem Statement Link - Problem 786 Question You are given a sorted integer array arr containing 1 and prime numbers, where all the integers of arr are unique. You are also given an integer k.&#xA;For every i and j where 0 &amp;lt;= i &amp;lt; j &amp;lt; arr.length, we consider the fraction arr[i] / arr[j].&#xA;Return the kth smallest fraction considered. Return your answer as an array of integers of size 2, where answer[0] == arr[i] and answer[1] == arr[j].</description>
     </item>
     <item>
       <title>Problem 1137 Nth Tribonacci Number</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-nth-tribonacci-number/</link>
+      <link>http://localhost:1313/blog/posts/prev_solns/problem-nth-tribonacci-number/</link>
       <pubDate>Wed, 24 Apr 2024 13:45:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-nth-tribonacci-number/</guid>
+      <guid>http://localhost:1313/blog/posts/prev_solns/problem-nth-tribonacci-number/</guid>
       <description>Problem Statement Link - Problem 1137 Question The Tribonacci sequence T(n) is defined as follows:&#xA;T(0) = 0, T(1) = 1, T(2) = 1, and T(n+3) = T(n) + T(n+1) + T(n+2) for n &amp;gt;= 0.&#xA;Given n, return the value of T(n).&#xA;Note to self This is a straight forward Recursion Problem. We can convert this to DP by using memoization. We will use an array to store the intermediate values to prevent repeated calculations.</description>
     </item>
   </channel>

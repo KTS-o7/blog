@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shortest-Path on KTS Blog</title>
-    <link>https://KTS-o7.github.io/blog/tags/shortest-path/</link>
+    <link>http://localhost:1313/blog/tags/shortest-path/</link>
     <description>Recent content in Shortest-Path on KTS Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Thu, 01 Aug 2024 18:56:42 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/shortest-path/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/shortest-path/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 787 Cheapest Flights Within K Stops</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-787-cheapest-flights-within-k-stops/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-787-cheapest-flights-within-k-stops/</link>
       <pubDate>Thu, 01 Aug 2024 18:56:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-787-cheapest-flights-within-k-stops/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-787-cheapest-flights-within-k-stops/</guid>
       <description>Problem Statement Link - Problem 787 Question There are n cities connected by some number of flights. You are given an array flights where flights[i] = [fromi, toi, pricei] indicates that there is a flight from city fromi to city toi with cost pricei.&#xA;You are also given three integers src, dst, and k, return the cheapest price from src to dst with at most k stops. If there is no such route, return -1.</description>
     </item>
     <item>
       <title>Problem 743 Network Delay Time</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-743-network-delay-time/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-743-network-delay-time/</link>
       <pubDate>Thu, 01 Aug 2024 18:41:19 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-743-network-delay-time/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-743-network-delay-time/</guid>
       <description>Problem Statement Link - Problem 743 Question You are given a network of n nodes, labeled from 1 to n. You are also given times, a list of travel times as directed edges times[i] = (ui, vi, wi), where ui is the source node, vi is the target node, and wi is the time it takes for a signal to travel from source to target.&#xA;We will send a signal from a given node k.</description>
     </item>
     <item>
       <title>Problem 2976 Minimum Cost to Convert String I</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</link>
+      <link>http://localhost:1313/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</link>
       <pubDate>Sat, 27 Jul 2024 15:35:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</guid>
+      <guid>http://localhost:1313/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</guid>
       <description>Problem Statement Link - Problem Question You are given two 0-indexed strings source and target, both of length n and consisting of lowercase English letters. You are also given two 0-indexed character arrays original and changed, and an integer array cost, where cost[i] represents the cost of changing the character original[i] to the character changed[i].&#xA;You start with the string source. In one operation, you can pick a character x from the string and change it to the character y at a cost of z if there exists any index j such that cost[j] == z, original[j] == x, and changed[j] == y.</description>
     </item>
   </channel>
