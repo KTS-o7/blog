@@ -7,20 +7,20 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Tue, 20 Aug 2024 23:57:15 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 22:42:42 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode</title>
+      <link>https://KTS-o7.github.io/blog/series/leetcode/</link>
+      <pubDate>Wed, 21 Aug 2024 22:42:42 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/series/leetcode/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Operating System</title>
       <link>https://KTS-o7.github.io/blog/series/operating-system/</link>
       <pubDate>Tue, 20 Aug 2024 23:57:15 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/series/operating-system/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Leetcode</title>
-      <link>https://KTS-o7.github.io/blog/series/leetcode/</link>
-      <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/series/leetcode/</guid>
       <description></description>
     </item>
     <item>
