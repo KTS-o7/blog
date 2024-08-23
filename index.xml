@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 22 Aug 2024 10:49:10 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 12:53:21 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 592 Fraction Addition and Subtraction</title>
+      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-592-fraction-addition-and-subtraction/</link>
+      <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-592-fraction-addition-and-subtraction/</guid>
+      <description>Problem Statement Link - Problem 592 Question Given a string expression representing an expression of fraction addition and subtraction, return the calculation result in string format.&#xA;The final result should be an irreducible fraction. If your final result is an integer, change it to the format of a fraction that has a denominator 1. So in this case, 2 should be converted to 2/1.&#xA;Irreducible fraction Example 1 Input: expression = &amp;#34;-1/2+1/2&amp;#34; Output: &amp;#34;0/1&amp;#34; Example 2 Input: expression = &amp;#34;-1/2+1/2+1/3&amp;#34; Output: &amp;#34;1/3&amp;#34; Example 3 Input: expression = &amp;#34;1/3-1/2&amp;#34; Output: &amp;#34;-1/6&amp;#34; Constraints - The input string only contains `&amp;#39;0&amp;#39;` to `&amp;#39;9&amp;#39;`, `&amp;#39;/&amp;#39;`, `&amp;#39;+&amp;#39;` and `&amp;#39;-&amp;#39;`.</description>
+    </item>
     <item>
       <title>Problem 476 Number Complement</title>
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-476-number-complement/</link>

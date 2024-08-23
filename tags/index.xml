@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Thu, 22 Aug 2024 10:49:10 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 12:53:21 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math</title>
+      <link>https://KTS-o7.github.io/blog/tags/math/</link>
+      <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regex</title>
+      <link>https://KTS-o7.github.io/blog/tags/regex/</link>
+      <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/regex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://KTS-o7.github.io/blog/tags/string/</link>
+      <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bit-Manipulation</title>
       <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
@@ -73,13 +94,6 @@
       <description></description>
     </item>
     <item>
-      <title>Math</title>
-      <link>https://KTS-o7.github.io/blog/tags/math/</link>
-      <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
       <pubDate>Sat, 17 Aug 2024 23:19:57 +0530</pubDate>
@@ -91,13 +105,6 @@
       <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
       <pubDate>Fri, 16 Aug 2024 19:52:59 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>https://KTS-o7.github.io/blog/tags/string/</link>
-      <pubDate>Thu, 15 Aug 2024 19:15:18 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
       <description></description>
     </item>
     <item>
