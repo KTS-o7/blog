@@ -7,13 +7,27 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Krishnatejaswi S</copyright>
-    <lastBuildDate>Fri, 23 Aug 2024 12:53:21 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2024 15:04:39 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Math</title>
       <link>https://KTS-o7.github.io/blog/tags/math/</link>
-      <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
+      <pubDate>Sat, 24 Aug 2024 15:04:39 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Min-Heap</title>
+      <link>https://KTS-o7.github.io/blog/tags/min-heap/</link>
+      <pubDate>Sat, 24 Aug 2024 15:04:39 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/min-heap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Priority-Queue</title>
+      <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
+      <pubDate>Sat, 24 Aug 2024 15:04:39 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
       <description></description>
     </item>
     <item>
@@ -112,13 +126,6 @@
       <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
       <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Priority-Queue</title>
-      <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
-      <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
       <description></description>
     </item>
     <item>
@@ -539,13 +546,6 @@
       <link>https://KTS-o7.github.io/blog/tags/binary-search-on-answer/</link>
       <pubDate>Thu, 20 Jun 2024 21:42:43 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-search-on-answer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Min-Heap</title>
-      <link>https://KTS-o7.github.io/blog/tags/min-heap/</link>
-      <pubDate>Sat, 15 Jun 2024 10:35:35 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/min-heap/</guid>
       <description></description>
     </item>
     <item>
