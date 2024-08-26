@@ -10,9 +10,9 @@
     <atom:link href="https://KTS-o7.github.io/blog/tags/os/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Process vs Threads</title>
-      <link>https://KTS-o7.github.io/blog/posts/core_points/process-vs-threads/</link>
+      <link>https://KTS-o7.github.io/blog/core-subjects/process-vs-threads/</link>
       <pubDate>Tue, 20 Aug 2024 23:57:15 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/core_points/process-vs-threads/</guid>
+      <guid>https://KTS-o7.github.io/blog/core-subjects/process-vs-threads/</guid>
       <description>Process Vs Thread [Popular Interview Question] A process is an independent unit of execution with its own memory space, while a thread is a lightweight unit of execution that shares memory space with other threads within the same process.</description>
     </item>
   </channel>

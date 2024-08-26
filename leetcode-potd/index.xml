@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Leetcode POTDs on The Indian Engineer</title>
+    <link>https://KTS-o7.github.io/blog/leetcode-potd/</link>
+    <description>Recent content in Leetcode POTDs on The Indian Engineer</description>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Aug 2024 10:27:00 +0530</lastBuildDate>
+    <atom:link href="https://KTS-o7.github.io/blog/leetcode-potd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 590 N Ary Tree Postorder Traversal</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</link>
+      <pubDate>Mon, 26 Aug 2024 10:27:00 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</guid>
+      <description>Problem Statement Link - Problem 590 Question Given the root of an n-ary tree, return the postorder traversal of its nodes&amp;rsquo; values.</description>
+    </item>
+    <item>
+      <title>Problem 264 Ugly Number II</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</link>
+      <pubDate>Sat, 24 Aug 2024 15:04:39 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</guid>
+      <description>Problem Statement Link - Problem 264 Question An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.</description>
+    </item>
+    <item>
+      <title>Problem 592 Fraction Addition and Subtraction</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
+      <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
+      <description>Problem Statement Link - Problem 592 Question Given a string expression representing an expression of fraction addition and subtraction, return the calculation result in string format.</description>
+    </item>
+    <item>
+      <title>Problem 476 Number Complement</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</link>
+      <pubDate>Thu, 22 Aug 2024 10:49:10 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</guid>
+      <description>Problem Statement Link - Problem 476 Question The complement of an integer is the integer you get when you flip all the 0&amp;rsquo;s to 1&amp;rsquo;s and all the 1&amp;rsquo;s to 0&amp;rsquo;s in its binary representation.</description>
+    </item>
+    <item>
+      <title>Problem 650 2 Keys Keyboard</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</link>
+      <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</guid>
+      <description>Problem Statement Link - Problem 650 Question There is only one character &#39;A&#39; on the screen of a notepad.</description>
+    </item>
+    <item>
+      <title>Problem 624 Maximum Distance in Arrays</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</link>
+      <pubDate>Fri, 16 Aug 2024 19:52:59 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</guid>
+      <description>Problem Statement Link - Problem 624 Question You are given m arrays, where each array is sorted in ascending order.</description>
+    </item>
+    <item>
+      <title>Problem 860 Lemonade Change</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-860-lemonade-change/</link>
+      <pubDate>Thu, 15 Aug 2024 18:20:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-860-lemonade-change/</guid>
+      <description>Problem Statement Link - Problem 860 Question At a lemonade stand, each lemonade costs $5.</description>
+    </item>
+    <item>
+      <title>Problem 719 Find K Th Smallest Pair Distance</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</link>
+      <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</guid>
+      <description>Problem Statement Link - Problem 719 Question The distance of a pair of integers a and b is defined as the absolute difference between a and b.</description>
+    </item>
+    <item>
+      <title>Problem 40 Combination Sum II</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-40-combination-sum-ii/</link>
+      <pubDate>Tue, 13 Aug 2024 10:33:14 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-40-combination-sum-ii/</guid>
+      <description>Problem Statement Link - Problem 40 Question Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.</description>
+    </item>
+    <item>
+      <title>Problem 703 Kth Largest Element in a Stream</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</link>
+      <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</guid>
+      <description>Problem Statement Link - Problem 703 Question Design a class to find the kth largest element in a stream.</description>
+    </item>
+    <item>
+      <title>Problem 3016 Minimum Number of Pushes to Type Word II</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
+      <pubDate>Tue, 06 Aug 2024 20:59:08 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
+      <description>Problem Statement Link - Problem 3016 Question You are given a string word containing lowercase English letters.</description>
+    </item>
+    <item>
+      <title>Problem 2053 Kth Distinct String in an Array</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</link>
+      <pubDate>Mon, 05 Aug 2024 13:09:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</guid>
+      <description>Problem Statement Link - Problem 2053 Question A distinct string is a string that is present only once in an array.</description>
+    </item>
+    <item>
+      <title>Problem 1508 Range Sum of Sorted Subarray Sums</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</link>
+      <pubDate>Sun, 04 Aug 2024 17:16:54 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
+      <description>Problem Statement Link - Problem 1508 Question You are given the array nums consisting of n positive integers.</description>
+    </item>
+    <item>
+      <title>Problem 2678 Number of Senior Citizens</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</link>
+      <pubDate>Thu, 01 Aug 2024 18:27:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</guid>
+      <description>Problem Statement Link - Problem 2678 Question You are given a 0-indexed array of strings details.</description>
+    </item>
+    <item>
+      <title>Problem 1395 Count Number of Teams</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1395-count-number-of-teams/</link>
+      <pubDate>Mon, 29 Jul 2024 18:30:07 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1395-count-number-of-teams/</guid>
+      <description>Problem Statement Link - Problem 1395 Question There are n soldiers standing in a line.</description>
+    </item>
+    <item>
+      <title>Problem 2976 Minimum Cost to Convert String I</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</link>
+      <pubDate>Sat, 27 Jul 2024 15:35:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</guid>
+      <description>Problem Statement Link - Problem Question You are given two 0-indexed strings source and target, both of length n and consisting of lowercase English letters.</description>
+    </item>
+    <item>
+      <title>Problem 1334 Find the City With the Smallest Number of Neighbours at a Threshold Distance</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</link>
+      <pubDate>Fri, 26 Jul 2024 15:00:02 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</guid>
+      <description>Problem Statement Link - Problem 1334 Question There are n cities numbered from 0 to n-1.</description>
+    </item>
+    <item>
+      <title>Problem 912 Sort an Array</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-912-sort-an-array/</link>
+      <pubDate>Thu, 25 Jul 2024 12:20:26 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-912-sort-an-array/</guid>
+      <description>Problem Statement Link - Problem 912 Question TLDR: Given an integer array nums, sort it in ascending order.</description>
+    </item>
+    <item>
+      <title>Problem 2191 Sort the Jumbled Number</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
+      <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
+      <description>Problem Statement Link - Problem 2191 Question You are given a 0-indexed integer array mapping which represents the mapping rule of a shuffled decimal system.</description>
+    </item>
+    <item>
+      <title>Problem 1636 Sort Array by Increasing Frequency</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</link>
+      <pubDate>Tue, 23 Jul 2024 21:12:33 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</guid>
+      <description>Problem Statement Link - Problem 1636 Question Given an array of integers nums, sort the array in increasing order based on the frequency of the values.</description>
+    </item>
+    <item>
+      <title>Problem 2418 Sort the People</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</link>
+      <pubDate>Mon, 22 Jul 2024 18:47:32 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</guid>
+      <description>Problem Statement Link - Problem 2418 Question You are given an array of strings names, and an array heights that consists of distinct positive integers.</description>
+    </item>
+    <item>
+      <title>Problem 1605 Find Valid Matrix Given Row and Column Sums</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1605-find-valid-matrix-given-row-and-column-sums/</link>
+      <pubDate>Sun, 21 Jul 2024 21:18:57 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1605-find-valid-matrix-given-row-and-column-sums/</guid>
+      <description>Problem Statement Link - Problem 1605 Question You are given two arrays rowSum and colSum of non-negative integers where rowSum[i] is the sum of the elements in the ith row and colSum[j] is the sum of the elements of the jth column of a 2D matrix.</description>
+    </item>
+  </channel>
+</rss>

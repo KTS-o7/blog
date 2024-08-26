@@ -10,23 +10,23 @@
     <atom:link href="https://KTS-o7.github.io/blog/tags/max-heap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 2418 Sort the People</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2418-sort-the-people/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</link>
       <pubDate>Mon, 22 Jul 2024 18:47:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2418-sort-the-people/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</guid>
       <description>Problem Statement Link - Problem 2418 Question You are given an array of strings names, and an array heights that consists of distinct positive integers.</description>
     </item>
     <item>
       <title>Problem 826 Most Profit Assigning Work</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-most-profit-assigning-work/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-most-profit-assigning-work/</link>
       <pubDate>Tue, 18 Jun 2024 20:52:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-most-profit-assigning-work/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-most-profit-assigning-work/</guid>
       <description>Problem Statement Link - Problem 826 Question You have n jobs and m workers.</description>
     </item>
     <item>
       <title>Problem 502 IPO</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-ipo/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-ipo/</link>
       <pubDate>Sat, 15 Jun 2024 10:35:35 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-ipo/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-ipo/</guid>
       <description>Problem Statement Link - Problem 502 Question Suppose LeetCode will start its IPO soon.</description>
     </item>
   </channel>

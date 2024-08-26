@@ -10,9 +10,9 @@
     <atom:link href="https://KTS-o7.github.io/blog/tags/prefixsum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 523 Continuous Subarray Sum</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-continuous-subarray-sum/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-continuous-subarray-sum/</link>
       <pubDate>Sat, 08 Jun 2024 11:56:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-continuous-subarray-sum/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-continuous-subarray-sum/</guid>
       <description>Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.</description>
     </item>
   </channel>

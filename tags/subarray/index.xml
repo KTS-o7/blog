@@ -10,9 +10,9 @@
     <atom:link href="https://KTS-o7.github.io/blog/tags/subarray/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 1508 Range Sum of Sorted Subarray Sums</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1508-range-sum-of-sorted-subarray-sums/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</link>
       <pubDate>Sun, 04 Aug 2024 17:16:54 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
       <description>Problem Statement Link - Problem 1508 Question You are given the array nums consisting of n positive integers.</description>
     </item>
   </channel>

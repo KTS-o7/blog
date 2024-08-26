@@ -10,44 +10,44 @@
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 590 N Ary Tree Postorder Traversal</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-590-n-ary-tree-postorder-traversal/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</link>
       <pubDate>Mon, 26 Aug 2024 10:27:00 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-590-n-ary-tree-postorder-traversal/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</guid>
       <description>Problem Statement Link - Problem 590 Question Given the root of an n-ary tree, return the postorder traversal of its nodes&amp;rsquo; values.</description>
     </item>
     <item>
       <title>Problem 3265 Count Almost Equal Pairs I</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3265-count-almost-equal-pairs-i/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</link>
       <pubDate>Sun, 25 Aug 2024 12:33:25 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3265-count-almost-equal-pairs-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</guid>
       <description>Problem Statement Link - Problem 3265 Question You are given an array nums consisting of positive integers.</description>
     </item>
     <item>
       <title>Problem 3264 Final Array State After K Multiplication Operations I</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3264-final-array-state-after-k-multiplication-operations-i/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</link>
       <pubDate>Sun, 25 Aug 2024 12:18:01 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3264-final-array-state-after-k-multiplication-operations-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</guid>
       <description>Problem Statement Link - Problem 3264 Question You are given an integer array nums, an integer k, and an integer multiplier.</description>
     </item>
     <item>
       <title>Problem 264 Ugly Number II</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-264-ugly-number-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</link>
       <pubDate>Sat, 24 Aug 2024 15:04:39 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-264-ugly-number-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</guid>
       <description>Problem Statement Link - Problem 264 Question An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.</description>
     </item>
     <item>
       <title>Problem 592 Fraction Addition and Subtraction</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-592-fraction-addition-and-subtraction/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
       <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-592-fraction-addition-and-subtraction/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
       <description>Problem Statement Link - Problem 592 Question Given a string expression representing an expression of fraction addition and subtraction, return the calculation result in string format.</description>
     </item>
     <item>
       <title>Problem 476 Number Complement</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-476-number-complement/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</link>
       <pubDate>Thu, 22 Aug 2024 10:49:10 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-476-number-complement/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</guid>
       <description>Problem Statement Link - Problem 476 Question The complement of an integer is the integer you get when you flip all the 0&amp;rsquo;s to 1&amp;rsquo;s and all the 1&amp;rsquo;s to 0&amp;rsquo;s in its binary representation.</description>
     </item>
     <item>
@@ -59,30 +59,30 @@
     </item>
     <item>
       <title>Process vs Threads</title>
-      <link>https://KTS-o7.github.io/blog/posts/core_points/process-vs-threads/</link>
+      <link>https://KTS-o7.github.io/blog/core-subjects/process-vs-threads/</link>
       <pubDate>Tue, 20 Aug 2024 23:57:15 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/core_points/process-vs-threads/</guid>
+      <guid>https://KTS-o7.github.io/blog/core-subjects/process-vs-threads/</guid>
       <description>Process Vs Thread [Popular Interview Question] A process is an independent unit of execution with its own memory space, while a thread is a lightweight unit of execution that shares memory space with other threads within the same process.</description>
     </item>
     <item>
       <title>Problem 650 2 Keys Keyboard</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-650-2-keys-keyboard/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</link>
       <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-650-2-keys-keyboard/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</guid>
       <description>Problem Statement Link - Problem 650 Question There is only one character &#39;A&#39; on the screen of a notepad.</description>
     </item>
     <item>
       <title>Problem 3259 Maximum Energy Boost From Two Drinks</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3259-maximum-energy-boost-from-two-drinks/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3259-maximum-energy-boost-from-two-drinks/</link>
       <pubDate>Mon, 19 Aug 2024 11:21:48 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3259-maximum-energy-boost-from-two-drinks/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3259-maximum-energy-boost-from-two-drinks/</guid>
       <description>Problem Statement Link - Problem 3259 Question You are given two integer arrays energyDrinkA and energyDrinkB of the same length n by a futuristic sports scientist.</description>
     </item>
     <item>
       <title>Problem 3258 Count Substrings That Satisfy K Constraint I</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3258-count-substrings-that-satisfy-k-constraint-i/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3258-count-substrings-that-satisfy-k-constraint-i/</link>
       <pubDate>Sun, 18 Aug 2024 22:13:46 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3258-count-substrings-that-satisfy-k-constraint-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3258-count-substrings-that-satisfy-k-constraint-i/</guid>
       <description>Problem Statement Link - Problem 3258 Question You are given a binary string s and an integer k.</description>
     </item>
     <item>
@@ -94,65 +94,65 @@
     </item>
     <item>
       <title>Problem 624 Maximum Distance in Arrays</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-624-maximum-distance-in-arrays/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</link>
       <pubDate>Fri, 16 Aug 2024 19:52:59 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-624-maximum-distance-in-arrays/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</guid>
       <description>Problem Statement Link - Problem 624 Question You are given m arrays, where each array is sorted in ascending order.</description>
     </item>
     <item>
       <title>Problem 3216 Lexographically Smallest String After a Swap</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3216-lexographically-smallest-string-after-a-swap/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</link>
       <pubDate>Thu, 15 Aug 2024 19:15:18 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3216-lexographically-smallest-string-after-a-swap/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</guid>
       <description>Problem Statement Link - Problem 3216 Question Given a string s containing only digits, return the lexicographically smallest string that can be obtained after swapping adjacent digits in s with the same parity at most once.</description>
     </item>
     <item>
       <title>Problem 860 Lemonade Change</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-860-lemonade-change/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-860-lemonade-change/</link>
       <pubDate>Thu, 15 Aug 2024 18:20:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-860-lemonade-change/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-860-lemonade-change/</guid>
       <description>Problem Statement Link - Problem 860 Question At a lemonade stand, each lemonade costs $5.</description>
     </item>
     <item>
       <title>Problem 719 Find K Th Smallest Pair Distance</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-719-find-k-th-smallest-pair-distance/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</link>
       <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-719-find-k-th-smallest-pair-distance/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</guid>
       <description>Problem Statement Link - Problem 719 Question The distance of a pair of integers a and b is defined as the absolute difference between a and b.</description>
     </item>
     <item>
       <title>Problem 40 Combination Sum II</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-40-combination-sum-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-40-combination-sum-ii/</link>
       <pubDate>Tue, 13 Aug 2024 10:33:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-40-combination-sum-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-40-combination-sum-ii/</guid>
       <description>Problem Statement Link - Problem 40 Question Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.</description>
     </item>
     <item>
       <title>Problem 703 Kth Largest Element in a Stream</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</link>
       <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-703-kth-largest-element-in-a-stream/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</guid>
       <description>Problem Statement Link - Problem 703 Question Design a class to find the kth largest element in a stream.</description>
     </item>
     <item>
       <title>Problem 3016 Minimum Number of Pushes to Type Word II</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
       <pubDate>Tue, 06 Aug 2024 20:59:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
       <description>Problem Statement Link - Problem 3016 Question You are given a string word containing lowercase English letters.</description>
     </item>
     <item>
       <title>Problem 2053 Kth Distinct String in an Array</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2053-kth-distinct-string-in-an-array/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</link>
       <pubDate>Mon, 05 Aug 2024 13:09:46 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2053-kth-distinct-string-in-an-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</guid>
       <description>Problem Statement Link - Problem 2053 Question A distinct string is a string that is present only once in an array.</description>
     </item>
     <item>
       <title>Problem 1508 Range Sum of Sorted Subarray Sums</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1508-range-sum-of-sorted-subarray-sums/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</link>
       <pubDate>Sun, 04 Aug 2024 17:16:54 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
       <description>Problem Statement Link - Problem 1508 Question You are given the array nums consisting of n positive integers.</description>
     </item>
     <item>
@@ -178,9 +178,9 @@
     </item>
     <item>
       <title>Problem 2678 Number of Senior Citizens</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2678-number-of-senior-citizens/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</link>
       <pubDate>Thu, 01 Aug 2024 18:27:46 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2678-number-of-senior-citizens/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</guid>
       <description>Problem Statement Link - Problem 2678 Question You are given a 0-indexed array of strings details.</description>
     </item>
     <item>
@@ -220,30 +220,30 @@
     </item>
     <item>
       <title>Problem 3217 Delete Nodes From Linked List Present in Array</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3217-delete-nodes-from-linked-list-present-in-array/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3217-delete-nodes-from-linked-list-present-in-array/</link>
       <pubDate>Mon, 29 Jul 2024 19:41:13 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3217-delete-nodes-from-linked-list-present-in-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3217-delete-nodes-from-linked-list-present-in-array/</guid>
       <description>Problem Statement Link - Problem 3217 Question You are given an array of integers nums and the head of a linked list.</description>
     </item>
     <item>
       <title>Problem 3233 Find the Count of Numbers Which Are Not Special</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3233-find-the-count-of-numbers-which-are-not-special/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3233-find-the-count-of-numbers-which-are-not-special/</link>
       <pubDate>Mon, 29 Jul 2024 19:08:13 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3233-find-the-count-of-numbers-which-are-not-special/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3233-find-the-count-of-numbers-which-are-not-special/</guid>
       <description>Problem Statement Link - Problem 3233 Question You are given 2 positive integers l and r.</description>
     </item>
     <item>
       <title>Problem 3232 Find if Digit Game Can Be Won</title>
-      <link>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3232-find-if-digit-game-can-be-won/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3232-find-if-digit-game-can-be-won/</link>
       <pubDate>Mon, 29 Jul 2024 19:00:51 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/contest_lc/problem-3232-find-if-digit-game-can-be-won/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3232-find-if-digit-game-can-be-won/</guid>
       <description>Problem Statement Link - Problem 3232 Question You are given an array of positive integers nums.</description>
     </item>
     <item>
       <title>Problem 1395 Count Number of Teams</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1395-count-number-of-teams/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1395-count-number-of-teams/</link>
       <pubDate>Mon, 29 Jul 2024 18:30:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1395-count-number-of-teams/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1395-count-number-of-teams/</guid>
       <description>Problem Statement Link - Problem 1395 Question There are n soldiers standing in a line.</description>
     </item>
     <item>
@@ -276,16 +276,16 @@
     </item>
     <item>
       <title>Problem 2976 Minimum Cost to Convert String I</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</link>
       <pubDate>Sat, 27 Jul 2024 15:35:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2976-minimum-cost-to-convert-string-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</guid>
       <description>Problem Statement Link - Problem Question You are given two 0-indexed strings source and target, both of length n and consisting of lowercase English letters.</description>
     </item>
     <item>
       <title>Problem 1334 Find the City With the Smallest Number of Neighbours at a Threshold Distance</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</link>
       <pubDate>Fri, 26 Jul 2024 15:00:02 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</guid>
       <description>Problem Statement Link - Problem 1334 Question There are n cities numbered from 0 to n-1.</description>
     </item>
     <item>
@@ -318,527 +318,527 @@
     </item>
     <item>
       <title>Problem 912 Sort an Array</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-912-sort-an-array/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-912-sort-an-array/</link>
       <pubDate>Thu, 25 Jul 2024 12:20:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-912-sort-an-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-912-sort-an-array/</guid>
       <description>Problem Statement Link - Problem 912 Question TLDR: Given an integer array nums, sort it in ascending order.</description>
     </item>
     <item>
       <title>Problem 2191 Sort the Jumbled Number</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
       <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2191-sort-the-jumbled-number/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
       <description>Problem Statement Link - Problem 2191 Question You are given a 0-indexed integer array mapping which represents the mapping rule of a shuffled decimal system.</description>
     </item>
     <item>
       <title>Problem 1636 Sort Array by Increasing Frequency</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1636-sort-array-by-increasing-frequency/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</link>
       <pubDate>Tue, 23 Jul 2024 21:12:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1636-sort-array-by-increasing-frequency/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</guid>
       <description>Problem Statement Link - Problem 1636 Question Given an array of integers nums, sort the array in increasing order based on the frequency of the values.</description>
     </item>
     <item>
       <title>Problem 2418 Sort the People</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2418-sort-the-people/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</link>
       <pubDate>Mon, 22 Jul 2024 18:47:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-2418-sort-the-people/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</guid>
       <description>Problem Statement Link - Problem 2418 Question You are given an array of strings names, and an array heights that consists of distinct positive integers.</description>
     </item>
     <item>
       <title>Problem 1605 Find Valid Matrix Given Row and Column Sums</title>
-      <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1605-find-valid-matrix-given-row-and-column-sums/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1605-find-valid-matrix-given-row-and-column-sums/</link>
       <pubDate>Sun, 21 Jul 2024 21:18:57 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1605-find-valid-matrix-given-row-and-column-sums/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1605-find-valid-matrix-given-row-and-column-sums/</guid>
       <description>Problem Statement Link - Problem 1605 Question You are given two arrays rowSum and colSum of non-negative integers where rowSum[i] is the sum of the elements in the ith row and colSum[j] is the sum of the elements of the jth column of a 2D matrix.</description>
     </item>
     <item>
       <title>Problem 1380 Lucky Number in a Matrix</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-lucky-number-in-a-matrix/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-lucky-number-in-a-matrix/</link>
       <pubDate>Fri, 19 Jul 2024 21:38:03 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-lucky-number-in-a-matrix/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-lucky-number-in-a-matrix/</guid>
       <description>Problem Statement Link - Problem 1380 Question Given an m x n matrix of distinct numbers, return all lucky numbers in the matrix in any order.</description>
     </item>
     <item>
       <title>Problem 1530 Number of Good Leaf Nodes Pairs</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-good-leaf-nodes-pairs/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-good-leaf-nodes-pairs/</link>
       <pubDate>Thu, 18 Jul 2024 16:16:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-good-leaf-nodes-pairs/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-good-leaf-nodes-pairs/</guid>
       <description>Problem Statement Link - Problem 1530 Question You are given the root of a binary tree and an integer distance.</description>
     </item>
     <item>
       <title>Problem 1110 Delete Nodes and Return Forest</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-nodes-and-return-forest/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-nodes-and-return-forest/</link>
       <pubDate>Wed, 17 Jul 2024 12:04:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-nodes-and-return-forest/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-nodes-and-return-forest/</guid>
       <description>Problem Statement Link - Problem 1110 Question Given the root of a binary tree, each node in the tree has a distinct value.</description>
     </item>
     <item>
       <title>Problem 2096 Step by Step Directions From a Binary Tree Node to Another</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
       <pubDate>Tue, 16 Jul 2024 12:54:12 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
       <description>Problem Statement Link - Problem 2096 Question You are given the root of a binary tree with n nodes.</description>
     </item>
     <item>
       <title>Problem 2196 Create Binary Tree From Descriptions</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-create-binary-tree-from-descriptions/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-create-binary-tree-from-descriptions/</link>
       <pubDate>Mon, 15 Jul 2024 15:17:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-create-binary-tree-from-descriptions/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-create-binary-tree-from-descriptions/</guid>
       <description>Problem Statement Link - Problem 2196 Question You are given a 2D integer array descriptions where descriptions[i] = [parenti, childi, isLefti] indicates that parenti is the parent of childi in a binary tree of unique values.</description>
     </item>
     <item>
       <title>Problem 726 Number of Atoms</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-atoms/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-atoms/</link>
       <pubDate>Sun, 14 Jul 2024 22:24:15 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-atoms/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-atoms/</guid>
       <description>Problem Statement Link - Problem 726 Question Given a string formula representing a chemical formula, return the count of each atom.</description>
     </item>
     <item>
       <title>Problem 2751 Robot Collisions</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-robot-collisions/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-robot-collisions/</link>
       <pubDate>Sat, 13 Jul 2024 12:20:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-robot-collisions/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-robot-collisions/</guid>
       <description>Problem Statement Link - Problem 2751 Question There are n 1-indexed robots, each having a position on a line, health, and movement direction.</description>
     </item>
     <item>
       <title>Problem 297 Serialize and Deserialize Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-serialize-and-deserialize-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
       <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-serialize-and-deserialize-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
       <description>Problem Statement Link - Problem 297 Question Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.</description>
     </item>
     <item>
       <title>Problem 1717 Maximum Score From Removing Substrings</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-maximum-score-from-removing-substrings/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</link>
       <pubDate>Fri, 12 Jul 2024 19:10:01 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-maximum-score-from-removing-substrings/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</guid>
       <description>Problem Statement Link - Problem 1717 Question You are given a string s and two integers x and y.</description>
     </item>
     <item>
       <title>Problem 1190 Reverse Substrings Between Each Pair of Parentheses</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
       <pubDate>Thu, 11 Jul 2024 22:07:28 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-reverse-substrings-between-each-pair-of-parentheses/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</guid>
       <description>Problem Statement Link - Problem 1190 Question You are given a string s that consists of lower case English letters and brackets.</description>
     </item>
     <item>
       <title>Problem 1598 Crawler Log Folder</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-crawler-log-folder/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</link>
       <pubDate>Wed, 10 Jul 2024 21:35:27 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-crawler-log-folder/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</guid>
       <description>Problem Statement Link - Problem 1598 Question The Leetcode file system keeps a log each time some user performs a change folder operation.</description>
     </item>
     <item>
       <title>Problem 1701 Average Waiting Time</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-average-waiting-time/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-average-waiting-time/</link>
       <pubDate>Tue, 09 Jul 2024 23:52:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-average-waiting-time/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-average-waiting-time/</guid>
       <description>Problem Statement Link - Problem 1701 Question There is a restaurant with a single chef.</description>
     </item>
     <item>
       <title>Problem 1823 Find the Winner of the Circular Game</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-winner-of-the-circular-game/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-winner-of-the-circular-game/</link>
       <pubDate>Tue, 09 Jul 2024 00:39:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-winner-of-the-circular-game/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-winner-of-the-circular-game/</guid>
       <description>Problem Statement Link - Problem 1823 Question There are n friends that are playing a game.</description>
     </item>
     <item>
       <title>Problem 1518 Water Bottles</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-water-bottles/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-water-bottles/</link>
       <pubDate>Sun, 07 Jul 2024 17:59:47 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-water-bottles/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-water-bottles/</guid>
       <description>Problem Statement Link - Problem 1518 Question There are numBottles water bottles that are initially full of water.</description>
     </item>
     <item>
       <title>Problem 2582 Pass the Pillow</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-pass-the-pillow/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-pass-the-pillow/</link>
       <pubDate>Sat, 06 Jul 2024 16:45:27 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-pass-the-pillow/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-pass-the-pillow/</guid>
       <description>Problem Statement Link - Problem 2582 Question There are n people standing in a line labeled from 1 to n.</description>
     </item>
     <item>
       <title>Problem 2058 Find the Minimum and Maximum Number of Nodes Between Critical Points</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
       <pubDate>Fri, 05 Jul 2024 18:54:28 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
       <description>Problem Statement Link - Problem 2058 Question A critical point in a linked list is defined as either a local maxima or a local minima.</description>
     </item>
     <item>
       <title>Problem 2181 Merge Nodes in Between Zeros</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-merge-nodes-in-between-zeros/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-merge-nodes-in-between-zeros/</link>
       <pubDate>Thu, 04 Jul 2024 21:58:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-merge-nodes-in-between-zeros/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-merge-nodes-in-between-zeros/</guid>
       <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&amp;rsquo;s.</description>
     </item>
     <item>
       <title>Problem 1509 Minimum Difference Between Largest and Smallest Value in Three Moves</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</link>
       <pubDate>Wed, 03 Jul 2024 21:40:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</guid>
       <description>Problem Statement Link - Problem 1509 Question You are given an integer array nums.</description>
     </item>
     <item>
       <title>Problem 350 Intersection of Two Arrays II</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</link>
       <pubDate>Tue, 02 Jul 2024 22:34:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-intersection-of-two-arrays-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</guid>
       <description>Problem Statement Link - Problem 350 Question Given two integer arrays nums1 and nums2, return an array of their intersection.</description>
     </item>
     <item>
       <title>Problem 1550 Three Consecutive Odds</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-three-consecutive-odds/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-three-consecutive-odds/</link>
       <pubDate>Mon, 01 Jul 2024 18:55:41 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-three-consecutive-odds/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-three-consecutive-odds/</guid>
       <description>Problem Statement Link - Problem 1550 Question Given an integer array arr, return true if there are three consecutive odd numbers in the array.</description>
     </item>
     <item>
       <title>Problem 226 Invert Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-invert-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-invert-binary-tree/</link>
       <pubDate>Sun, 30 Jun 2024 18:59:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-invert-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-invert-binary-tree/</guid>
       <description>Problem Statement Link - Problem 226 Question Given the root of a binary tree, invert the tree and return its root.</description>
     </item>
     <item>
       <title>Problem 2192 All Ancestors of a Node in a DAG</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-all-ancestors-of-a-node-in-a-dag/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-all-ancestors-of-a-node-in-a-dag/</link>
       <pubDate>Sat, 29 Jun 2024 10:39:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-all-ancestors-of-a-node-in-a-dag/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-all-ancestors-of-a-node-in-a-dag/</guid>
       <description>Problem Statement Link - Problem 2192 Question You are given a positive integer n representing the number of nodes of a Directed Acyclic Graph (DAG).</description>
     </item>
     <item>
       <title>Problem 2285 Maximum Total Importance of Roads</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-maximum-total-importance-of-roads/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</link>
       <pubDate>Fri, 28 Jun 2024 19:39:10 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-maximum-total-importance-of-roads/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</guid>
       <description>Problem Statement Link - Problem 2285 Question You are given an integer n denoting the number of cities in a country.</description>
     </item>
     <item>
       <title>Problem 1791 Find Center of Star Graph</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-center-of-star-graph/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-center-of-star-graph/</link>
       <pubDate>Thu, 27 Jun 2024 10:59:29 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-center-of-star-graph/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-center-of-star-graph/</guid>
       <description>Problem Statement Link - Problem 1791 Question There is an undirected star graph consisting of n nodes labeled from 1 to n.</description>
     </item>
     <item>
       <title>Problem 1382 Balance a Binary Search Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-balance-a-binary-search-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-balance-a-binary-search-tree/</link>
       <pubDate>Wed, 26 Jun 2024 14:23:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-balance-a-binary-search-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-balance-a-binary-search-tree/</guid>
       <description>Problem Statement Link - Problem 1382 Question Given the root of a binary search tree, return a balanced binary search tree with the same node values.</description>
     </item>
     <item>
       <title>Problem 1038 Binary Search Tree to Greater Sum Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-binary-search-tree-to-greater-sum-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-binary-search-tree-to-greater-sum-tree/</link>
       <pubDate>Tue, 25 Jun 2024 09:30:02 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-binary-search-tree-to-greater-sum-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-binary-search-tree-to-greater-sum-tree/</guid>
       <description>Problem Statement Link - Problem 1038 Question Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus the sum of all keys greater than the original key in BST.</description>
     </item>
     <item>
       <title>Problem 1552 Magnetic Force Between Two Balls</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-magnetic-force-between-two-balls/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-magnetic-force-between-two-balls/</link>
       <pubDate>Thu, 20 Jun 2024 21:42:43 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-magnetic-force-between-two-balls/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-magnetic-force-between-two-balls/</guid>
       <description>Problem Statement Link - Problem 1552 Question In the universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put in his new invented basket.</description>
     </item>
     <item>
       <title>Problem 1482 Minimum Number of Days to Make M Bouquets</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-number-of-days-to-make-m-bouquets/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-days-to-make-m-bouquets/</link>
       <pubDate>Wed, 19 Jun 2024 23:03:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
       <description>Problem Statement Link - Problem 1482 Question You are given an integer array bloomDay, an integer m and an integer k.</description>
     </item>
     <item>
       <title>Problem 826 Most Profit Assigning Work</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-most-profit-assigning-work/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-most-profit-assigning-work/</link>
       <pubDate>Tue, 18 Jun 2024 20:52:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-most-profit-assigning-work/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-most-profit-assigning-work/</guid>
       <description>Problem Statement Link - Problem 826 Question You have n jobs and m workers.</description>
     </item>
     <item>
       <title>Problem 633 Sum of Square Numbers</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-of-square-numbers/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</link>
       <pubDate>Mon, 17 Jun 2024 18:55:17 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-of-square-numbers/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</guid>
       <description>Problem Statement Link - Problem 633 Question Given a non-negative integer c, decide whether there are two integers a and b such that a^2 &#43; b^2 = c.</description>
     </item>
     <item>
       <title>Problem 502 IPO</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-ipo/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-ipo/</link>
       <pubDate>Sat, 15 Jun 2024 10:35:35 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-ipo/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-ipo/</guid>
       <description>Problem Statement Link - Problem 502 Question Suppose LeetCode will start its IPO soon.</description>
     </item>
     <item>
       <title>Problem 945 Minimum Increment to Make Array Unique</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-increment-to-make-array-unique/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</link>
       <pubDate>Fri, 14 Jun 2024 21:23:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-increment-to-make-array-unique/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</guid>
       <description>Problem Statement Link - Problem 945 Question You are given an integer array nums.</description>
     </item>
     <item>
       <title>Problem 2037 Minimum Number of Moves to Seat Everyone</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-number-of-moves-to-seat-everyone/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</link>
       <pubDate>Thu, 13 Jun 2024 21:56:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-number-of-moves-to-seat-everyone/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</guid>
       <description>Problem Statement Link - Problem 2037 Question There are n seats and n students in a room.</description>
     </item>
     <item>
       <title>Problem 75 Sort Colors</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sort-colors/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</link>
       <pubDate>Wed, 12 Jun 2024 18:48:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sort-colors/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</guid>
       <description>Problem Statement Link - Problem 75 Question Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.</description>
     </item>
     <item>
       <title>Problem 1122 Relative Sort Array</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-sort-array/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-sort-array/</link>
       <pubDate>Tue, 11 Jun 2024 14:35:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-sort-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-sort-array/</guid>
       <description>Problem Statement Link - Problem 1122 Question Given two arrays arr1 and arr2, the elements of arr2 are distinct, and all elements in arr2 are also in arr1.</description>
     </item>
     <item>
       <title>Problem 136 Single Number</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-single-number/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-single-number/</link>
       <pubDate>Mon, 10 Jun 2024 21:33:50 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-single-number/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-single-number/</guid>
       <description>Problem Statement Link - Problem 136 Question Given a non-empty array of integers nums, every element appears twice except for one.</description>
     </item>
     <item>
       <title>Problem 1051 Height Checker</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-height-checker/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-height-checker/</link>
       <pubDate>Mon, 10 Jun 2024 21:19:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-height-checker/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-height-checker/</guid>
       <description>Problem Statement Link - Problem 1051 Question A school is trying to take an annual photo of all the students.</description>
     </item>
     <item>
       <title>Problem 523 Continuous Subarray Sum</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-continuous-subarray-sum/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-continuous-subarray-sum/</link>
       <pubDate>Sat, 08 Jun 2024 11:56:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-continuous-subarray-sum/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-continuous-subarray-sum/</guid>
       <description>Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.</description>
     </item>
     <item>
       <title>Problem 1002 Find Common Characters</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-common-characters/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</link>
       <pubDate>Thu, 06 Jun 2024 23:34:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-common-characters/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</guid>
       <description>Problem Statement Link - Problem 1002 Question Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates).</description>
     </item>
     <item>
       <title>Problem 846 Hand of Straights</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-hand-of-straights/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-hand-of-straights/</link>
       <pubDate>Thu, 06 Jun 2024 23:33:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-hand-of-straights/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-hand-of-straights/</guid>
       <description>Problem Statement Link - Problem 846 Question Alice has some number of cards and she wants to rearrange the cards into groups so that each group is of size groupSize, and consists of groupSize consecutive cards.</description>
     </item>
     <item>
       <title>Problem 344 Reverse String</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-reverse-string/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</link>
       <pubDate>Sun, 02 Jun 2024 16:56:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-reverse-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</guid>
       <description>Problem Statement Link - Problem 344 Question Write a function that reverses a string.</description>
     </item>
     <item>
       <title>Problem 3110 Score of a String</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-score-of-a-string/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-of-a-string/</link>
       <pubDate>Sat, 01 Jun 2024 11:51:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-score-of-a-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-of-a-string/</guid>
       <description>Problem Statement Link - Problem 3110 Question You are given a string s.</description>
     </item>
     <item>
       <title>Problem 131 Palindrome Partitioning</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-palindrome-partitioning/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-palindrome-partitioning/</link>
       <pubDate>Wed, 22 May 2024 23:39:58 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-palindrome-partitioning/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-palindrome-partitioning/</guid>
       <description>Problem Statement Link - Problem 131 Question Given a string s, partition s such that every substring of the partition is a palindrome.</description>
     </item>
     <item>
       <title>Problem 78 Subsets</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-subsets/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-subsets/</link>
       <pubDate>Tue, 21 May 2024 21:13:39 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-subsets/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-subsets/</guid>
       <description>Problem Statement Link - Problem 78 Question Given an integer array nums of unique elements, return all possible subsets (the power set).</description>
     </item>
     <item>
       <title>Problem 1863 Sum of All Subset XOR Totals</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-of-all-subset-xor-totals/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-all-subset-xor-totals/</link>
       <pubDate>Mon, 20 May 2024 22:32:09 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-of-all-subset-xor-totals/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-all-subset-xor-totals/</guid>
       <description>Problem Statement Link - Problem 1863 Question The XOR total of an array is defined as the bitwise XOR of all its elements, or 0 if the array is empty.</description>
     </item>
     <item>
       <title>Problem 3068 Find the Maximum Sum of Node Values</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-maximum-sum-of-node-values/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</link>
       <pubDate>Sun, 19 May 2024 10:30:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-the-maximum-sum-of-node-values/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</guid>
       <description>Problem Statement Link - Problem 3068 Question There exists an undirected tree with n nodes numbered 0 to n - 1.</description>
     </item>
     <item>
       <title>Problem 979 Distribute Coins in Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-distribute-coins-in-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-distribute-coins-in-binary-tree/</link>
       <pubDate>Sun, 19 May 2024 10:29:15 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-distribute-coins-in-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-distribute-coins-in-binary-tree/</guid>
       <description>Problem Statement Link - Problem 979 Question You are given the root of a binary tree with n nodes where each node in the tree has node.</description>
     </item>
     <item>
       <title>Problem 1325 Delete Leaves With a Given Value</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-leaves-with-a-given-value/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-leaves-with-a-given-value/</link>
       <pubDate>Sun, 19 May 2024 10:27:59 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-leaves-with-a-given-value/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-leaves-with-a-given-value/</guid>
       <description>Problem Statement Link - Problem 1325 Question Given a binary tree root and an integer target, delete all the leaf nodes with value target.</description>
     </item>
     <item>
       <title>Problem 2331 Evaluate Boolean Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-evaluate-boolean-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</link>
       <pubDate>Fri, 17 May 2024 21:05:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-evaluate-boolean-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</guid>
       <description>Problem Statement Link - Problem 2331 Question You are given the root of a full binary tree with the following properties:</description>
     </item>
     <item>
       <title>Problem 1219 Path With Maximum Gold</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-path-with-maximum-gold/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-path-with-maximum-gold/</link>
       <pubDate>Tue, 14 May 2024 22:27:55 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-path-with-maximum-gold/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-path-with-maximum-gold/</guid>
       <description>Problem Statement Link - Problem 1219 Question In a gold mine grid of size m x n, each cell in this mine has an integer representing the amount of gold in that cell, 0 if it is empty.</description>
     </item>
     <item>
       <title>Problem 861 Score After Flipping Matrix</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-score-after-flipping-matrix/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-after-flipping-matrix/</link>
       <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-score-after-flipping-matrix/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-after-flipping-matrix/</guid>
       <description>Problem Statement Link - Problem 861 Question You are given an m x n binary matrix grid.</description>
     </item>
     <item>
       <title>Problem 2373 Largest Local Values in a Matrix</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-largest-local-values-in-a-matrix/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-largest-local-values-in-a-matrix/</link>
       <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-largest-local-values-in-a-matrix/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-largest-local-values-in-a-matrix/</guid>
       <description>Problem Statement Link - Problem 2373 Question You are given an n x n integer matrix grid.</description>
     </item>
     <item>
       <title>Problem 786 K th Smallest Prime Fraction</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-k-th-smallest-prime-fraction/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</link>
       <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-k-th-smallest-prime-fraction/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</guid>
       <description>Problem Statement Link - Problem 786 Question You are given a sorted integer array arr containing 1 and prime numbers, where all the integers of arr are unique.</description>
     </item>
     <item>
       <title>Problem 3075 Maximize Happiness of Selected Children</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-maximize-happiness-of-selected-children/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximize-happiness-of-selected-children/</link>
       <pubDate>Thu, 09 May 2024 14:35:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-maximize-happiness-of-selected-children/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximize-happiness-of-selected-children/</guid>
       <description>Problem Statement Link - Problem 3075 Question You are given an array happiness of length n, and a positive integer k.</description>
     </item>
     <item>
       <title>Problem 506 Relative Ranks</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-ranks/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-ranks/</link>
       <pubDate>Wed, 08 May 2024 14:24:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-ranks/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-ranks/</guid>
       <description>Problem Statement Link - Problem 506 Question You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition.</description>
     </item>
     <item>
       <title>Problem 2816 Double a Number Represented as a Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-double-a-number-represented-as-a-linked-list/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-double-a-number-represented-as-a-linked-list/</link>
       <pubDate>Tue, 07 May 2024 18:14:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-double-a-number-represented-as-a-linked-list/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-double-a-number-represented-as-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 2816 Question You are given the head of a non-empty linked list representing a non-negative integer without leading zeroes.</description>
     </item>
     <item>
       <title>Problem 2487 Remove Nodes From Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-remove-nodes-from-linked-list/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-remove-nodes-from-linked-list/</link>
       <pubDate>Mon, 06 May 2024 15:21:47 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-remove-nodes-from-linked-list/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-remove-nodes-from-linked-list/</guid>
       <description>Problem Statement Link - Problem 2487 Question You are given the head of a linked list.</description>
     </item>
     <item>
       <title>Problem 237 Delete Node in a Linked List</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-node-in-a-linked-list/</link>
       <pubDate>Sun, 05 May 2024 11:54:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-delete-node-in-a-linked-list/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-node-in-a-linked-list/</guid>
       <description>Problem Statement Link - Problem 237 Question There is a singly-linked list head and we want to delete a node node in it.</description>
     </item>
     <item>
       <title>Problem 881 Boats to Save People</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-boats-to-save-people/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-boats-to-save-people/</link>
       <pubDate>Sat, 04 May 2024 15:00:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-boats-to-save-people/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-boats-to-save-people/</guid>
       <description>Problem Statement Link - Problem 881 Question You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit.</description>
     </item>
     <item>
       <title>Problem 2000 Reverse Prefix of Word</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-reverse-prefix-of-word/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</link>
       <pubDate>Wed, 01 May 2024 20:47:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-reverse-prefix-of-word/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</guid>
       <description>Problem Statement Link - Problem 2000 Question Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive).</description>
     </item>
     <item>
       <title>Problem 1289 Minimum Falling Path Sum II</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-falling-path-sum-ii/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-falling-path-sum-ii/</link>
       <pubDate>Fri, 26 Apr 2024 12:15:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-minimum-falling-path-sum-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-falling-path-sum-ii/</guid>
       <description>Problem Statement Link: Problem 1289 Question Given an n x n integer matrix grid, return the minimum sum of a falling path with non-zero shifts.</description>
     </item>
     <item>
       <title>Problem 1137 Nth Tribonacci Number</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-nth-tribonacci-number/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-nth-tribonacci-number/</link>
       <pubDate>Wed, 24 Apr 2024 13:45:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-nth-tribonacci-number/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-nth-tribonacci-number/</guid>
       <description>Problem Statement Link - Problem 1137 Question The Tribonacci sequence T(n) is defined as follows:</description>
     </item>
     <item>
       <title>Problem 752 Open the Lock</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-open-the-lock/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-open-the-lock/</link>
       <pubDate>Mon, 22 Apr 2024 16:27:12 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-open-the-lock/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-open-the-lock/</guid>
       <description>Problem Statement Link - Problem 752 Question You have a lock in front of you with 4 circular wheels.</description>
     </item>
     <item>
       <title>Problem 1971 Find if Path Exists in Graph</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-if-path-exists-in-graph/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-if-path-exists-in-graph/</link>
       <pubDate>Sun, 21 Apr 2024 15:42:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-if-path-exists-in-graph/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-if-path-exists-in-graph/</guid>
       <description>Problem Statement Link - Problem 1971 Question There is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n-1 (inclusive).</description>
     </item>
     <item>
       <title>Problem 1992 Find All Groups of Farmland</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-all-groups-of-farmland/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-all-groups-of-farmland/</link>
       <pubDate>Sat, 20 Apr 2024 10:52:46 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-find-all-groups-of-farmland/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-all-groups-of-farmland/</guid>
       <description>Problem Statement Link - Problem 1992 Question You are given a 0-indexed m x n binary matrix land where a 0 represents a hectare of forested land and a 1 represents a hectare of farmland.</description>
     </item>
     <item>
       <title>Problem 200 Number of Islands</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-islands/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</link>
       <pubDate>Fri, 19 Apr 2024 13:00:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-number-of-islands/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</guid>
       <description>Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of &#39;1&#39;s (land) and &#39;0&#39;s (water), return the number of islands.</description>
     </item>
     <item>
       <title>Problem 463 Island Perimeter</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-island-perimeter/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-island-perimeter/</link>
       <pubDate>Thu, 18 Apr 2024 20:48:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-island-perimeter/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-island-perimeter/</guid>
       <description>Problem Statement Link - Problem 463 Question You are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.</description>
     </item>
     <item>
       <title>Problem 988 Smallest String Starting From Leaf</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-smallest-string-starting-from-leaf/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</link>
       <pubDate>Wed, 17 Apr 2024 14:56:36 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-smallest-string-starting-from-leaf/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</guid>
       <description>Problem Statement Link - Problem 988 Question You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters &#39;a&#39; to &#39;z&#39;.</description>
     </item>
     <item>
       <title>Problem 623 Add One Row to Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-add-one-row-to-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-add-one-row-to-tree/</link>
       <pubDate>Tue, 16 Apr 2024 10:05:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-add-one-row-to-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-add-one-row-to-tree/</guid>
       <description>Problem Statement Link - Problem 623 Question Given the root of a binary tree and two integers val and depth, add a row of nodes with value val at the given depth depth.</description>
     </item>
     <item>
       <title>Problem 129 Sum Root to Leaf Numbers</title>
-      <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-root-to-leaf-numbers/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-root-to-leaf-numbers/</link>
       <pubDate>Mon, 15 Apr 2024 19:38:03 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-sum-root-to-leaf-numbers/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-root-to-leaf-numbers/</guid>
       <description>Problem Statement Link - Problem 129 Question You are given the root of a binary tree containing digits from 0 to 9 only.</description>
     </item>
     <item>
