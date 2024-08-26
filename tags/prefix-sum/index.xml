@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Prefix-Sum on KTS Blog</title>
     <link>https://KTS-o7.github.io/blog/tags/prefix-sum/</link>
     <description>Recent content in Prefix-Sum on KTS Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.128.2</generator>
     <language>en-us</language>
-    <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Sun, 04 Aug 2024 17:16:54 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/prefix-sum/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,14 +13,14 @@
       <link>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1508-range-sum-of-sorted-subarray-sums/</link>
       <pubDate>Sun, 04 Aug 2024 17:16:54 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/daily_lc/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
-      <description>Problem Statement Link - Problem 1508 Question You are given the array nums consisting of n positive integers. You computed the sum of all non-empty continuous subarrays from the array and then sorted them in non-decreasing order, creating a new array of n * (n + 1) / 2 numbers.&#xA;Return the sum of the numbers from index left to index right (indexed from 1), inclusive, in the new array. Since the answer can be a huge number return it modulo 10^9 + 7.</description>
+      <description>Problem Statement Link - Problem 1508 Question You are given the array nums consisting of n positive integers.</description>
     </item>
     <item>
       <title>Problem 523 Continuous Subarray Sum</title>
       <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-continuous-subarray-sum/</link>
       <pubDate>Sat, 08 Jun 2024 11:56:40 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-continuous-subarray-sum/</guid>
-      <description>Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.&#xA;A good subarray is a subarray where:&#xA;its length is at least two, and the sum of the elements of the subarray is a multiple of k.&#xA;Note A subarray is a contiguous part of the array. An integer x is a multiple of k if there exists an integer n such that x = n * k.</description>
+      <description>Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.</description>
     </item>
   </channel>
 </rss>

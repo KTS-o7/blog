@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Frequency-Count on KTS Blog</title>
     <link>https://KTS-o7.github.io/blog/tags/frequency-count/</link>
     <description>Recent content in Frequency-Count on KTS Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.128.2</generator>
     <language>en-us</language>
-    <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Sun, 28 Jul 2024 20:46:25 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/frequency-count/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,7 +13,7 @@
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-299-bulls-and-cows/</link>
       <pubDate>Sun, 28 Jul 2024 20:46:25 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-299-bulls-and-cows/</guid>
-      <description>Problem Statement Link - Problem 299 Question You are playing the Bulls and Cows game with your friend.&#xA;You write down a secret number and ask your friend to guess what the number is. When your friend makes a guess, you provide a hint with the following info:&#xA;The number of &amp;ldquo;bulls&amp;rdquo;, which are digits in the guess that are in the correct position. The number of &amp;ldquo;cows&amp;rdquo;, which are digits in the guess that are in your secret number but are located in the wrong position.</description>
+      <description>Problem Statement Link - Problem 299 Question You are playing the Bulls and Cows game with your friend.</description>
     </item>
   </channel>
 </rss>

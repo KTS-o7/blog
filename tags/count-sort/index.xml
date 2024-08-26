@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Count-Sort on KTS Blog</title>
     <link>https://KTS-o7.github.io/blog/tags/count-sort/</link>
     <description>Recent content in Count-Sort on KTS Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.128.2</generator>
     <language>en-us</language>
-    <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Tue, 11 Jun 2024 14:35:44 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/count-sort/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,7 +13,7 @@
       <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-sort-array/</link>
       <pubDate>Tue, 11 Jun 2024 14:35:44 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-sort-array/</guid>
-      <description>Problem Statement Link - Problem 1122 Question Given two arrays arr1 and arr2, the elements of arr2 are distinct, and all elements in arr2 are also in arr1.&#xA;Sort the elements of arr1 such that the relative ordering of items in arr1 are the same as in arr2. Elements that do not appear in arr2 should be placed at the end of arr1 in ascending order.&#xA;Example 1 Input: arr1 = [2,3,1,3,2,4,6,7,9,2,19], arr2 = [2,1,4,3,9,6] Output: [2,2,2,1,4,3,3,9,6,7,19] Example 2 Input: arr1 = [28,6,22,8,44,17], arr2 = [22,28,8,6] Output: [22,28,8,6,17,44] Constraints 1 &amp;lt;= arr1.</description>
+      <description>Problem Statement Link - Problem 1122 Question Given two arrays arr1 and arr2, the elements of arr2 are distinct, and all elements in arr2 are also in arr1.</description>
     </item>
   </channel>
 </rss>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Strings on KTS Blog</title>
     <link>https://KTS-o7.github.io/blog/tags/strings/</link>
     <description>Recent content in Strings on KTS Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.128.2</generator>
     <language>en-us</language>
-    <copyright>Krishnatejaswi S</copyright>
     <lastBuildDate>Wed, 08 May 2024 14:24:30 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/strings/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,7 +13,7 @@
       <link>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-ranks/</link>
       <pubDate>Wed, 08 May 2024 14:24:30 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/prev_solns/problem-relative-ranks/</guid>
-      <description>Problem Statement Link - Problem 506 Question You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique.&#xA;The athletes are placed based on their scores, where the 1st place athlete has the highest score, the 2nd place athlete has the 2nd highest score, and so on. The placement of each athlete determines their rank:</description>
+      <description>Problem Statement Link - Problem 506 Question You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition.</description>
     </item>
   </channel>
 </rss>
