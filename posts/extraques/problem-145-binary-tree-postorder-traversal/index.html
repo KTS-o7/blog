@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 3265 Count Almost Equal Pairs I &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 3265 Count Almost Equal Pairs I &middot; The Indian Engineer" />
+  <title>Problem 145 Binary Tree Postorder Traversal &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 145 Binary Tree Postorder Traversal &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="string, count, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/" />
+  <meta name="keywords" content="binary-tree, postorder, recursive, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/" />
 
   
 
@@ -82,23 +82,24 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 3265 Count Almost Equal Pairs I">
-  <meta property="og:description" content="Problem Statement Link - Problem 3265 Question You are given an array nums consisting of positive integers.">
+  <meta property="og:title" content="Problem 145 Binary Tree Postorder Traversal">
+  <meta property="og:description" content="Problem Statement Link - Problem 145 Question Given the root of a binary tree, return the postorder traversal of its nodes’ values.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-08-25T12:33:25+05:30">
-    <meta property="article:modified_time" content="2024-08-25T12:33:25+05:30">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Count">
+    <meta property="article:published_time" content="2024-08-26T21:43:05+05:30">
+    <meta property="article:modified_time" content="2024-08-26T21:43:05+05:30">
+    <meta property="article:tag" content="Binary-Tree">
+    <meta property="article:tag" content="Postorder">
+    <meta property="article:tag" content="Recursive">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 3265 Count Almost Equal Pairs I">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 3265 Question You are given an array nums consisting of positive integers.">
+  <meta name="twitter:title" content="Problem 145 Binary Tree Postorder Traversal">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 145 Question Given the root of a binary tree, return the postorder traversal of its nodes’ values.">
 
   
 
@@ -395,7 +396,7 @@
 
 
 
-<h1 class="pg-title">Problem 3265 Count Almost Equal Pairs I</h1>
+<h1 class="pg-title">Problem 145 Binary Tree Postorder Traversal</h1>
 
 
 <div class="meta">
@@ -415,7 +416,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-08-25T12:33:25&#43;05:30">Aug 25, 2024</time>
+  Posted on <time datetime="2024-08-26T21:43:05&#43;05:30">Aug 26, 2024</time>
   
   
   
@@ -432,7 +433,7 @@
 
 </span>
   
-    4 mins
+    2 mins
   
 
 
@@ -449,9 +450,11 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/binary-tree/">Binary-Tree</a>
   
-  <a class="tag" href="/blog/tags/count/">Count</a>
+  <a class="tag" href="/blog/tags/postorder/">Postorder</a>
+  
+  <a class="tag" href="/blog/tags/recursive/">Recursive</a>
   
 </p>
 
@@ -504,7 +507,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/count-almost-equal-pairs-i/description/" target="_blank">Problem 3265</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/binary-tree-postorder-traversal/description/" target="_blank">Problem 145</a>
 </p>
 
 <h2 id="question">
@@ -518,13 +521,7 @@
  </a>
   
 </h2>
-<p>You are given an array <code>nums</code> consisting of positive integers.</p>
-<p>We call two integers <code>x</code> and <code>y</code> in this problem almost equal if both integers can become equal after performing the following operation at most once:</p>
-<ul>
-<li>Choose either <code>x</code> or <code>y</code> and swap any two digits within the chosen number.</li>
-</ul>
-<p>Return the number of indices <code>i</code> and <code>j</code> in nums where <code>i &lt; j</code> such that <code>nums[i]</code> and <code>nums[j]</code> are almost equal.</p>
-<p>Note that it is allowed for an integer to have leading zeros after performing an operation.</p>
+<p>Given the <code>root</code> of a binary tree, return the postorder traversal of its nodes&rsquo; values.</p>
 
 <h2 id="example-1">
   Example 1
@@ -537,16 +534,8 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: nums = [3,12,30,17,21]
-
-Output: 2
-
-Explanation:
-
-The almost equal pairs of elements are:
-
-3 and 30. By swapping 3 and 0 in 30, you get 3.
-12 and 21. By swapping 1 and 2 in 12, you get 21.
+<pre tabindex="0"><code>Input: root = [1,null,2,3]
+Output: [3,2,1]
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -559,13 +548,8 @@ The almost equal pairs of elements are:
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: nums = [1,1,1,1,1]
-
-Output: 10
-
-Explanation:
-
-Every two elements in the array are almost equal.
+<pre tabindex="0"><code>Input: root = []
+Output: []
 </code></pre>
 <h2 id="example-3">
   Example 3
@@ -578,13 +562,8 @@ Every two elements in the array are almost equal.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: nums = [123,231]
-
-Output: 0
-
-Explanation:
-
-We cannot swap any two digits of 123 or 231 to reach the other.
+<pre tabindex="0"><code>Input: root = [1]
+Output: [1]
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -597,8 +576,8 @@ We cannot swap any two digits of 123 or 231 to reach the other.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`2 &lt;= nums.length &lt;= 100`</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`1 &lt;= nums[i] &lt;= 10^6`</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`The number of the nodes in the tree is in the range [0, 100].`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`-100 &lt;= Node.val &lt;= 100`</span>
 </span></span></code></pre></div>
 <h2 id="solution">
   Solution
@@ -611,48 +590,30 @@ We cannot swap any two digits of 123 or 231 to reach the other.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Definition for a binary tree node.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct TreeNode {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *left;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *right;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * };
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> helper(<span style="color:#66d9ef">int</span> a, <span style="color:#66d9ef">int</span> b) {
-</span></span><span style="display:flex;"><span>        string sa <span style="color:#f92672">=</span> to_string(a);
-</span></span><span style="display:flex;"><span>        string sb <span style="color:#f92672">=</span> to_string(b);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> maxLen <span style="color:#f92672">=</span> max(sa.length(), sb.length());
-</span></span><span style="display:flex;"><span>        sa <span style="color:#f92672">=</span> string(maxLen <span style="color:#f92672">-</span> sa.length(), <span style="color:#e6db74">&#39;0&#39;</span>) <span style="color:#f92672">+</span> sa;
-</span></span><span style="display:flex;"><span>        sb <span style="color:#f92672">=</span> string(maxLen <span style="color:#f92672">-</span> sb.length(), <span style="color:#e6db74">&#39;0&#39;</span>) <span style="color:#f92672">+</span> sb;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (sa <span style="color:#f92672">==</span> sb) <span style="color:#66d9ef">return</span> true;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> diffCount <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> firstDiff <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, secondDiff <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> maxLen; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (sa[i] <span style="color:#f92672">!=</span> sb[i]) {
-</span></span><span style="display:flex;"><span>                diffCount<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>
-</span></span><span style="display:flex;"><span>                    (diffCount <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) firstDiff <span style="color:#f92672">=</span> i;
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>
-</span></span><span style="display:flex;"><span>                    (diffCount <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>) secondDiff <span style="color:#f92672">=</span> i;
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">else</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> postorder(TreeNode<span style="color:#f92672">*</span> root, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> v){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root){
+</span></span><span style="display:flex;"><span>            postorder(root<span style="color:#f92672">-&gt;</span>left,v);
+</span></span><span style="display:flex;"><span>            postorder(root<span style="color:#f92672">-&gt;</span>right,v);
+</span></span><span style="display:flex;"><span>            v.push_back(root<span style="color:#f92672">-&gt;</span>val);
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> diffCount <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">&amp;&amp;</span> sa[firstDiff] <span style="color:#f92672">==</span> sb[secondDiff] <span style="color:#f92672">&amp;&amp;</span> sa[secondDiff] <span style="color:#f92672">==</span> sb[firstDiff];
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">countPairs</span>(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> nums.size();
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;</span> n; j<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (helper(nums[i], nums[j])) {
-</span></span><span style="display:flex;"><span>                    count<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> postorderTraversal(TreeNode<span style="color:#f92672">*</span> root) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>v;
+</span></span><span style="display:flex;"><span>        postorder(root,v);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> v;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -667,10 +628,9 @@ We cannot swap any two digits of 123 or 231 to reach the other.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Main loop | O(n^2)          | O(1)             |
-</span></span><span style="display:flex;"><span>| Helper    | O(maxLen)       | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm           | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Postorder Traversal | O(N)            | O(N)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -695,22 +655,8 @@ We cannot swap any two digits of 123 or 231 to reach the other.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We need to take two numbers (along with preceeding zeros) and check if they are almost equal.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> A number can be almost equal to another number
-</span></span><span style="display:flex;"><span>  if we can swap any two digits of the number to make it equal to the other number.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If more than two digits are different, then we cannot make them equal.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> And we can swap only once.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> So, we need to check if we can swap any two digits of the number
-</span></span><span style="display:flex;"><span>  to make it equal to the other number.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If we can, then we increment the count.
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Its better to handle the numbers as strings, as we can easily swap the digits.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can compare the lengths of the strings and add the preceeding zeros to the smaller string.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Then parse the strings and check how many different digits are there.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If there are more than two different digits,
-</span></span><span style="display:flex;"><span>  then we cannot make them equal.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If there are exactly two different digits,
-</span></span><span style="display:flex;"><span>  then check if they can be swapped to make the numbers equal.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We need to recursive visit the left and right child of the root node
+</span></span><span style="display:flex;"><span>  and then visit the root node.
 </span></span></code></pre></div>
 <h3 id="2-implementation">
   2. Implementation
@@ -723,38 +669,15 @@ We cannot swap any two digits of 123 or 231 to reach the other.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Define a <span style="color:#e6db74">`helper`</span> function to check if two numbers are almost equal.
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Input: two integers <span style="color:#e6db74">`a`</span> and <span style="color:#e6db74">`b`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Convert the integers to strings <span style="color:#e6db74">`sa`</span> and <span style="color:#e6db74">`sb`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Find the maximum length of the strings.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Add the preceeding zeros to the smaller string.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> If the strings are equal, return <span style="color:#e6db74">`true`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Initialize the <span style="color:#e6db74">`diffCount`</span> to <span style="color:#e6db74">`0`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Initialize the <span style="color:#e6db74">`firstDiff`</span> and <span style="color:#e6db74">`secondDiff`</span> to <span style="color:#e6db74">`-1`</span>.
-</span></span><span style="display:flex;"><span>      This will store the indices of the different digits.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Iterate over the strings:
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">-</span> If the digits are different:
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">-</span> Increment the <span style="color:#e6db74">`diffCount`</span>.
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">-</span> If the <span style="color:#e6db74">`diffCount`</span> is <span style="color:#e6db74">`1`</span>, store the index in <span style="color:#e6db74">`firstDiff`</span>.
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">-</span> If the <span style="color:#e6db74">`diffCount`</span> is <span style="color:#e6db74">`2`</span>, store the index in <span style="color:#e6db74">`secondDiff`</span>.
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">-</span> If the <span style="color:#e6db74">`diffCount`</span> is more than <span style="color:#e6db74">`2`</span>, return <span style="color:#e6db74">`false`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Return <span style="color:#e6db74">`true`</span> if the <span style="color:#e6db74">`diffCount`</span> is <span style="color:#e6db74">`2`</span> and if
-</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">`sa[firstDiff] == sb[secondDiff] and sa[secondDiff] == sb[firstDiff]`</span>.
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Define a <span style="color:#e6db74">`countPairs`</span> function to count the almost equal pairs.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Input: a vector of integers <span style="color:#e6db74">`nums`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Initialize the <span style="color:#e6db74">`count`</span> to <span style="color:#e6db74">`0`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Initialize the <span style="color:#e6db74">`n`</span> to the size of the <span style="color:#e6db74">`nums`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Iterate over the <span style="color:#e6db74">`nums`</span>:
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Iterate over the <span style="color:#e6db74">`nums`</span> starting from the next element:
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">-</span> If the <span style="color:#e6db74">`helper`</span> function returns <span style="color:#e6db74">`true`</span>, increment the <span style="color:#e6db74">`count`</span>.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Return the <span style="color:#e6db74">`count`</span>.
-</span></span></code></pre></div><blockquote>
-<p>There is a follow-up problem to this problem. <a href="https://leetcode.com/problems/count-almost-equal-pairs-ii/description/" target="_blank">Problem 3267</a>
-.</p>
-</blockquote>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a vector <span style="color:#e6db74">`v`</span> to store the postorder traversal of the binary tree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Write a recursive function <span style="color:#e6db74">`postorder`</span> that takes
+</span></span><span style="display:flex;"><span>  the root node and the vector <span style="color:#e6db74">`v`</span> as arguments.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the root node is not null, then recursively call the <span style="color:#e6db74">`postorder`</span> function
+</span></span><span style="display:flex;"><span>  for the left child of the root node
+</span></span><span style="display:flex;"><span>  and then for the right child of the root node.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> After visiting the left and right child, push the value of the root node into the vector <span style="color:#e6db74">`v`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Finally, return the vector <span style="color:#e6db74">`v`</span> containing the postorder traversal of the binary tree.
+</span></span></code></pre></div>
 
 
 
@@ -767,17 +690,13 @@ We cannot swap any two digits of 123 or 231 to reach the other.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 145 Binary Tree Postorder Traversal </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/">
+    <a class="next" href="/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3264 Final Array State After K Multiplication Operations I </span>
+      <span> Problem 3265 Count Almost Equal Pairs I </span>
     </a>
   
 </nav>
