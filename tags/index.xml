@@ -6,8 +6,22 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.128.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Aug 2024 12:14:28 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 14:37:41 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dfs</title>
+      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
+      <pubDate>Wed, 28 Aug 2024 14:37:41 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursion</title>
+      <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
+      <pubDate>Wed, 28 Aug 2024 14:37:41 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dijkstra</title>
       <link>https://KTS-o7.github.io/blog/tags/dijkstra/</link>
@@ -296,13 +310,6 @@
       <description></description>
     </item>
     <item>
-      <title>Dfs</title>
-      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
-      <pubDate>Mon, 29 Jul 2024 23:09:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Inorder-Traversal</title>
       <link>https://KTS-o7.github.io/blog/tags/inorder-traversal/</link>
       <pubDate>Mon, 29 Jul 2024 23:09:53 +0530</pubDate>
@@ -503,13 +510,6 @@
       <link>https://KTS-o7.github.io/blog/tags/parity/</link>
       <pubDate>Mon, 01 Jul 2024 18:55:41 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/parity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recursion</title>
-      <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
-      <pubDate>Sun, 30 Jun 2024 18:59:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
       <description></description>
     </item>
     <item>

@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1514 Path With Maximum Probability &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1514 Path With Maximum Probability &middot; The Indian Engineer" />
+  <title>Problem 1905 Count Sub Islands &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1905 Count Sub Islands &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="dijkstra, graph, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1514-path-with-maximum-probability/" />
+  <meta name="keywords" content="dfs, recursion, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1905-count-sub-islands/" />
 
   
 
@@ -82,161 +82,28 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1514-path-with-maximum-probability/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1905-count-sub-islands/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1514 Path With Maximum Probability">
-  <meta property="og:description" content="Problem Statement Link - Problem 1514 Question You are given an undirected weighted graph of n nodes (0-indexed), represented by an edge list where edges[i] = [a, b] is an undirected edge connecting the nodes a and b with a probability of success of traversing that edge succProb[i].">
+  <meta property="og:title" content="Problem 1905 Count Sub Islands">
+  <meta property="og:description" content="Problem Statement Link - Problem 1905 Question You are given two m x n binary matrices grid1 and grid2 containing only 0’s (representing water) and 1’s (representing land).">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-08-27T12:14:28+05:30">
-    <meta property="article:modified_time" content="2024-08-27T12:14:28+05:30">
-    <meta property="article:tag" content="Dijkstra">
-    <meta property="article:tag" content="Graph">
+    <meta property="article:published_time" content="2024-08-28T14:37:41+05:30">
+    <meta property="article:modified_time" content="2024-08-28T14:37:41+05:30">
+    <meta property="article:tag" content="Dfs">
+    <meta property="article:tag" content="Recursion">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1514 Path With Maximum Probability">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 1514 Question You are given an undirected weighted graph of n nodes (0-indexed), represented by an edge list where edges[i] = [a, b] is an undirected edge connecting the nodes a and b with a probability of success of traversing that edge succProb[i].">
+  <meta name="twitter:title" content="Problem 1905 Count Sub Islands">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 1905 Question You are given two m x n binary matrices grid1 and grid2 containing only 0’s (representing water) and 1’s (representing land).">
 
   
 
   
   
-
-
-
-<link type="text/css" rel="stylesheet" href="/blog/lib/katex/katex.min.68e17230ccd917b97b7a2def38a8108918599d8aa4f580bfb8cce5e13d23e4de43dcaba5f9000553cb2c10d0d1300aabfe5c433a3305ebd752609f0762a63e59.css" integrity="sha512-aOFyMMzZF7l7ei3vOKgQiRhZnYqk9YC/uMzl4T0j5N5D3Kul&#43;QAFU8ssENDRMAqr/lxDOjMF69dSYJ8HYqY&#43;WQ==" />
-
-
-<script defer src="/blog/lib/katex/katex.min.50f14e69d6a8da7128ae3b63974c544ed377c36d096b5e3750f114e84c89d668b9301d9b0ed3248969aa183aa2e3bc4d2c1e73d5dcb7d462890c45a18d424589.js" integrity="sha512-UPFOadao2nEorjtjl0xUTtN3w20Ja143UPEU6EyJ1mi5MB2bDtMkiWmqGDqi47xNLB5z1dy31GKJDEWhjUJFiQ=="></script>
-
-
-<script defer src="/blog/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
-  onload="renderMathInElement(document.body);"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -528,7 +395,7 @@
 
 
 
-<h1 class="pg-title">Problem 1514 Path With Maximum Probability</h1>
+<h1 class="pg-title">Problem 1905 Count Sub Islands</h1>
 
 
 <div class="meta">
@@ -548,7 +415,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-08-27T12:14:28&#43;05:30">Aug 27, 2024</time>
+  Posted on <time datetime="2024-08-28T14:37:41&#43;05:30">Aug 28, 2024</time>
   
   
   
@@ -565,7 +432,7 @@
 
 </span>
   
-    3 mins
+    4 mins
   
 
 
@@ -582,9 +449,9 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/dijkstra/">Dijkstra</a>
+  <a class="tag" href="/blog/tags/dfs/">Dfs</a>
   
-  <a class="tag" href="/blog/tags/graph/">Graph</a>
+  <a class="tag" href="/blog/tags/recursion/">Recursion</a>
   
 </p>
 
@@ -606,7 +473,6 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
-    <li><a href="#example-3">Example 3</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
@@ -637,7 +503,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/path-with-maximum-probability/description/" target="_blank">Problem 1514</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/count-sub-islands/description/" target="_blank">Problem 1905</a>
 </p>
 
 <h2 id="question">
@@ -651,9 +517,9 @@
  </a>
   
 </h2>
-<p>You are given an undirected weighted graph of <code>n</code> nodes (0-indexed), represented by an edge list where <code>edges[i] = [a, b]</code> is an undirected edge connecting the nodes <code>a</code> and <code>b</code> with a probability of success of traversing that edge <code>succProb[i]</code>.</p>
-<p>Given two nodes <code>start</code> and <code>end</code>, find the path with the maximum probability of success to go from <code>start</code> to <code>end</code> and return its success probability.</p>
-<p>If there is no path from <code>start</code> to <code>end</code>, return 0. Your answer will be accepted if it differs from the correct answer by at most 1e-5.</p>
+<p>You are given two <code>m x n</code> binary matrices <code>grid1</code> and <code>grid2</code> containing only <code>0</code>&rsquo;s (representing water) and <code>1</code>&rsquo;s (representing land). An island is a group of <code>1</code>&rsquo;s connected 4-directionally (horizontal or vertical). Any cells outside of the grid are considered water cells.</p>
+<p>An island in <code>grid2</code> is considered a sub-island if there is an island in <code>grid1</code> that contains all the cells that make up this island in <code>grid2</code>.</p>
+<p>Return the number of islands in <code>grid2</code> that are considered sub-islands.</p>
 
 <h2 id="example-1">
   Example 1
@@ -681,14 +547,18 @@
 
 
 
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex1.png" alt="img1" />
+  <img loading="lazy" src="https://assets.leetcode.com/uploads/2021/06/10/test1.png" alt="img1" />
 
 
 
 </p>
-<pre tabindex="0"><code>Input: n = 3, edges = [[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.2], start = 0, end = 2
-Output: 0.25000
-Explanation: There are two paths from start to end, one having a probability of success = 0.2 and the other has 0.5 * 0.5 = 0.25.
+<pre tabindex="0"><code>Input: grid1 = [[1,1,1,0,0],[0,1,1,1,1],[0,0,0,0,0],[1,0,0,0,0],[1,1,0,1,1]],
+       grid2 = [[1,1,1,0,0],[0,0,1,1,1],[0,1,0,0,0],[1,0,1,1,0],[0,1,0,1,0]]
+Output: 3
+Explanation: In the picture above,
+the grid on the left is grid1 and the grid on the right is grid2.
+The 1s colored red in grid2 are those considered to be part of a sub-island.
+ There are three sub-islands.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -701,63 +571,11 @@ Explanation: There are two paths from start to end, one having a probability of 
  </a>
   
 </h2>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex2.png" alt="img2" />
-
-
-
-</p>
-<pre tabindex="0"><code>Input: n = 3, edges = [[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.3], start = 0, end = 2
-Output: 0.30000
-</code></pre>
-<h2 id="example-3">
-  Example 3
-  
-  <a hidden class="anchor" href="#example-3">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex3.png" alt="img3" />
-
-
-
-</p>
-<pre tabindex="0"><code>Input: n = 3, edges = [[0,1]], succProb = [0.5], start = 0, end = 2
-Output: 0.00000
-Explanation: There is no path between 0 and 2.
+<pre tabindex="0"><code>Input: grid1 = [[1,0,1,0,1],[1,1,1,1,1],[0,0,0,0,0],[1,1,1,1,1],[1,0,1,0,1]],
+       grid2 = [[0,0,0,0,0],[1,1,1,1,1],[0,1,0,1,0],[0,1,0,1,0],[1,0,0,0,1]]
+Output: 2
+Explanation: The grid on the left is grid1 and the grid on the right is grid2.
+There are two sub-islands.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -770,17 +588,11 @@ Explanation: There is no path between 0 and 2.
  </a>
   
 </h2>
-<ul>
-<li>2 &lt;= n &lt;= 10<sup>4</sup></li>
-<li>0 &lt;= start, end &lt; n</li>
-<li>start != end</li>
-<li>0 &lt;= a, b &lt; n</li>
-<li>a != b</li>
-<li>0 &lt;= succProb.length == edges.length &lt;= 2*10<sup>4</sup></li>
-<li>0 &lt;= succProb[i] &lt;= 1</li>
-<li>There is at most one edge between every two nodes.</li>
-</ul>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`m == grid1.length == grid2.length`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`n == grid1[i].length == grid2[i].length`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`1 &lt;= m, n &lt;= 500`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`grid1[i][j] and grid2[i][j] are either 0 or 1.`</span>
+</span></span></code></pre></div>
 <h2 id="solution">
   Solution
   
@@ -794,36 +606,41 @@ Explanation: There is no path between 0 and 2.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">double</span> maxProbability(<span style="color:#66d9ef">int</span> n, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> edges, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">double</span><span style="color:#f92672">&gt;&amp;</span> succProb, <span style="color:#66d9ef">int</span> start, <span style="color:#66d9ef">int</span> end) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">double</span><span style="color:#f92672">&gt;</span>prob(n,<span style="color:#ae81ff">0.0</span>);
-</span></span><span style="display:flex;"><span>        prob[start]<span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>;
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span>pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">double</span>,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&gt;</span>adj(n);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>edges.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            adj[edges[i][<span style="color:#ae81ff">0</span>]].push_back({succProb[i],edges[i][<span style="color:#ae81ff">1</span>]});
-</span></span><span style="display:flex;"><span>            adj[edges[i][<span style="color:#ae81ff">1</span>]].push_back({succProb[i],edges[i][<span style="color:#ae81ff">0</span>]});
-</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> dfs(<span style="color:#66d9ef">int</span> i, <span style="color:#66d9ef">int</span> j, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> grid1, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> grid2, <span style="color:#66d9ef">int</span> n, <span style="color:#66d9ef">int</span> m) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">||</span> j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">||</span> i <span style="color:#f92672">&gt;=</span> n <span style="color:#f92672">||</span> j <span style="color:#f92672">&gt;=</span> m)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> true;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        priority_queue<span style="color:#f92672">&lt;</span>pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">double</span>,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>,vector<span style="color:#f92672">&lt;</span>pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">double</span>,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&gt;</span>pq;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(grid2[i][j] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> true;
+</span></span><span style="display:flex;"><span>        grid2[i][j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        pq.push({<span style="color:#ae81ff">1.0</span>,start});
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> isSubIsland <span style="color:#f92672">=</span> true;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(grid1[i][j] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>            isSubIsland <span style="color:#f92672">=</span> false;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(<span style="color:#f92672">!</span>pq.empty()){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">auto</span> [curr,i] <span style="color:#f92672">=</span> pq.top();
-</span></span><span style="display:flex;"><span>            pq.pop();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> right <span style="color:#f92672">=</span> dfs(i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, j, grid1, grid2, n, m);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> down <span style="color:#f92672">=</span> dfs(i, j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, grid1, grid2, n, m);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> left <span style="color:#f92672">=</span> dfs(i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>, j, grid1, grid2, n, m);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> up <span style="color:#f92672">=</span> dfs(i, j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>, grid1, grid2, n, m);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(i <span style="color:#f92672">==</span> end)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> curr;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> isSubIsland <span style="color:#f92672">&amp;&amp;</span> right <span style="color:#f92672">&amp;&amp;</span> down <span style="color:#f92672">&amp;&amp;</span> left <span style="color:#f92672">&amp;&amp;</span> up;
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> [nextprob,j]<span style="color:#f92672">:</span>adj[i]){
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">double</span> newprob <span style="color:#f92672">=</span> curr<span style="color:#f92672">*</span>nextprob;
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(newprob<span style="color:#f92672">&gt;</span>prob[j]){
-</span></span><span style="display:flex;"><span>                    prob[j] <span style="color:#f92672">=</span> newprob;
-</span></span><span style="display:flex;"><span>                    pq.push({newprob,j});
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">countSubIslands</span>(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> grid1, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> grid2) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> grid1.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> m <span style="color:#f92672">=</span> grid1[<span style="color:#ae81ff">0</span>].size();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> m; j<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(grid2[i][j] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span>(dfs(i, j, grid1, grid2, n, m)) {
+</span></span><span style="display:flex;"><span>                        count<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>                    }
 </span></span><span style="display:flex;"><span>                }
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0.0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -840,7 +657,7 @@ Explanation: There is no path between 0 and 2.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
 </span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Dijkstra  | O(ElogV)        | O(V+E)           |
+</span></span><span style="display:flex;"><span>| DFS       | O(NM)           | O(NM)            |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -865,20 +682,26 @@ Explanation: There is no path between 0 and 2.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can use Dijkstra&#39;s algorithm to find the path with maximum probability.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> But to make it work we need to store the maximum probabilty of reaching a node
-</span></span><span style="display:flex;"><span>  from the start node.
-</span></span></code></pre></div><p>It&rsquo;s known that
-
-</p>
-\[P(A \cap B) = P(A \mid B) \times P(B)\]
-<p>Let \(B\) denote the set for a path to the current vertex.</p>
-<p>Let \(A\) denote the set for paths to the next vertex.</p>
-<p>So \(A \cap B\) is the set for a path passing the current vertex and the next vertex.</p>
-<p>Let \(P(B)\) denote the probability to the current vertex.</p>
-<p>Let \(P(A \mid B)\) denote the probability from the current vertex to the next vertex.</p>
-<p>Then \(P(A \cap B)\) is the probability of the path passing the current vertex and then the next vertex.</p>
-
+<p>So lets take a moment to summarize the problem statement and build up <strong>intuition</strong>.</p>
+<ul>
+<li>We need to find all the islands in <code>grid2</code>.</li>
+<li>Check whether each island in <code>grid2</code> is covered by an island in <code>grid1</code>.</li>
+<li>So to a cover is generated when the island in <code>grid1</code> is atleast as same as the island in <code>grid2</code>.</li>
+<li>That means we can say an island in <code>grid2</code> is covered if all the corresponding cells in <code>grid1</code> are <code>1</code>.</li>
+<li>Even if a single cell is not same inside the islands on grids then its not covered.</li>
+<li>So that being said, Now we can observe that we need to find all the possible islands and then check if the corresponding cells are same in <code>grid1</code> and <code>grid2</code>.</li>
+<li>To find all the islands we can use DFS as the classic island count problem.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can count the number of islands in <span style="color:#e6db74">`grid2`</span> using DFS.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> First check if the co-ordinates are valid
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Then check if the cell is water or not
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If water then return
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If not then mark the cell as water ( means visited )
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Then check if the cell is land in <span style="color:#e6db74">`grid1`</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If not then its not a sub island
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If yes then its a sub island
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Then recursively check for all the 4 directions
+</span></span></code></pre></div>
 <h3 id="2-implementation">
   2. Implementation
   
@@ -890,21 +713,30 @@ Explanation: There is no path between 0 and 2.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Intialize a vector <span style="color:#e6db74">`prob`</span> to store the maximum probability of reaching a node from the <span style="color:#e6db74">`start`</span> node.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Intialize a vector of vectors <span style="color:#e6db74">`adj`</span> to store the adjacency list of the graph.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the edges and store the adjacency list.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Intialize a priority queue <span style="color:#e6db74">`pq`</span> to store the maximum probability and the node.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Push the start node with probability 1.0 into the priority queue.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> While the priority queue is not empty:
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Pop the top element from the priority queue.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the node is the end node, return the probability.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Iterate over the adjacency list of the node:
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Calculate the new probability.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> If the new probability is greater than the previous probability:
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">-</span> Update the probability.
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">-</span> Push the new probability and the node into the priority queue.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return 0.0 if there is no path.
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Define a <span style="color:#e6db74">`boolean`</span> function <span style="color:#e6db74">`dfs`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Inputs are <span style="color:#e6db74">`i`</span>, <span style="color:#e6db74">`j`</span>, <span style="color:#e6db74">`grid1`</span>, <span style="color:#e6db74">`grid2`</span>, <span style="color:#e6db74">`n`</span>, <span style="color:#e6db74">`m`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`i`</span> is the row index, <span style="color:#e6db74">`j`</span> is the column index
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`grid1`</span> and <span style="color:#e6db74">`grid2`</span> are the 2D vectors
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`n`</span> and <span style="color:#e6db74">`m`</span> are the dimensions of the grid
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the co-ordinates are out of bounds then return <span style="color:#e6db74">`true`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the cell is water then return <span style="color:#e6db74">`true`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Mark the cell as water
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize <span style="color:#e6db74">`isSubIsland`</span> as <span style="color:#e6db74">`true`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Check if the cell is land in <span style="color:#e6db74">`grid1`</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If not then <span style="color:#e6db74">`isSubIsland`</span> is <span style="color:#e6db74">`false`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursively check for all the 4 directions
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`right`</span>, <span style="color:#e6db74">`down`</span>, <span style="color:#e6db74">`left`</span>, <span style="color:#e6db74">`up`</span> are the recursive calls
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> return <span style="color:#e6db74">`isSubIsland &amp;&amp; right &amp;&amp; down &amp;&amp; left &amp;&amp; up`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> This represents if the current cell contributes to the sub island or not
+</span></span></code></pre></div><blockquote>
+<p>Similar question <a href="https://leetcode.com/problems/number-of-islands/description/" target="_blank">Problem 200 classic islands</a>
+</p>
+</blockquote>
+<blockquote>
+<p>Solution to <a href="https://kts-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/" target="_blank">Problem 200 classic islands</a>
+</p>
+</blockquote>
+
 
 
 
@@ -917,17 +749,13 @@ Explanation: There is no path between 0 and 2.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1905-count-sub-islands/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1905 Count Sub Islands </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/">
+    <a class="next" href="/blog/leetcode-potd/problem-1514-path-with-maximum-probability/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 590 N Ary Tree Postorder Traversal </span>
+      <span> Problem 1514 Path With Maximum Probability </span>
     </a>
   
 </nav>
