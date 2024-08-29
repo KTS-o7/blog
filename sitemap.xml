@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/dfs/</loc>
+    <lastmod>2024-08-29T21:35:03+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/graph/</loc>
+    <lastmod>2024-08-29T21:35:03+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <lastmod>2024-08-29T21:35:03+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-947-most-stones-removed-with-same-row-or-column/</loc>
+    <lastmod>2024-08-29T21:35:03+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-08-29T21:35:03+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-08-29T21:35:03+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/union-find/</loc>
+    <lastmod>2024-08-29T21:35:03+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://KTS-o7.github.io/blog/core-subjects/</loc>
     <lastmod>2024-08-29T18:59:52+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -25,30 +67,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-08-29T18:59:52+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-08-29T18:59:52+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dfs/</loc>
-    <lastmod>2024-08-28T14:37:41+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
-    <lastmod>2024-08-28T14:37:41+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1905-count-sub-islands/</loc>
     <lastmod>2024-08-28T14:37:41+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -62,12 +80,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/dijkstra/</loc>
-    <lastmod>2024-08-27T12:14:28+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/graph/</loc>
     <lastmod>2024-08-27T12:14:28+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

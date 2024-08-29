@@ -6,8 +6,15 @@
     <description>Recent content in Graph on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Aug 2024 12:14:28 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 21:35:03 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 947 Most Stones Removed With Same Row or Column</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-947-most-stones-removed-with-same-row-or-column/</link>
+      <pubDate>Thu, 29 Aug 2024 21:35:03 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-947-most-stones-removed-with-same-row-or-column/</guid>
+      <description>Problem Statement Link - Problem 947 Question On a 2D plane, we place n stones at some integer coordinate points.</description>
+    </item>
     <item>
       <title>Problem 1514 Path With Maximum Probability</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1514-path-with-maximum-probability/</link>
