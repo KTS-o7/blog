@@ -4,16 +4,23 @@
     <title>The Indian Engineer</title>
     <link>https://KTS-o7.github.io/blog/</link>
     <description>Recent content on The Indian Engineer</description>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 14:37:41 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 18:59:52 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAT vs NTFS vs EXT4</title>
+      <link>https://KTS-o7.github.io/blog/core-subjects/fat-vs-ntfs-vs-ext4/</link>
+      <pubDate>Thu, 29 Aug 2024 18:59:52 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/core-subjects/fat-vs-ntfs-vs-ext4/</guid>
+      <description>Filesystems: FAT vs.</description>
+    </item>
     <item>
       <title>Problem 1905 Count Sub Islands</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1905-count-sub-islands/</link>
       <pubDate>Wed, 28 Aug 2024 14:37:41 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1905-count-sub-islands/</guid>
-      <description>Problem Statement Link - Problem 1905 Question You are given two m x n binary matrices grid1 and grid2 containing only 0&amp;rsquo;s (representing water) and 1&amp;rsquo;s (representing land).</description>
+      <description>Problem Statement Link - Problem 1905 Question You are given two m x n binary matrices grid1 and grid2 containing only 0&rsquo;s (representing water) and 1&rsquo;s (representing land).</description>
     </item>
     <item>
       <title>Problem 1514 Path With Maximum Probability</title>
@@ -27,14 +34,14 @@
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</link>
       <pubDate>Mon, 26 Aug 2024 21:43:05 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</guid>
-      <description>Problem Statement Link - Problem 145 Question Given the root of a binary tree, return the postorder traversal of its nodes&amp;rsquo; values.</description>
+      <description>Problem Statement Link - Problem 145 Question Given the root of a binary tree, return the postorder traversal of its nodes&rsquo; values.</description>
     </item>
     <item>
       <title>Problem 590 N Ary Tree Postorder Traversal</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</link>
       <pubDate>Mon, 26 Aug 2024 10:27:00 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</guid>
-      <description>Problem Statement Link - Problem 590 Question Given the root of an n-ary tree, return the postorder traversal of its nodes&amp;rsquo; values.</description>
+      <description>Problem Statement Link - Problem 590 Question Given the root of an n-ary tree, return the postorder traversal of its nodes&rsquo; values.</description>
     </item>
     <item>
       <title>Problem 3265 Count Almost Equal Pairs I</title>
@@ -69,7 +76,7 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</link>
       <pubDate>Thu, 22 Aug 2024 10:49:10 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</guid>
-      <description>Problem Statement Link - Problem 476 Question The complement of an integer is the integer you get when you flip all the 0&amp;rsquo;s to 1&amp;rsquo;s and all the 1&amp;rsquo;s to 0&amp;rsquo;s in its binary representation.</description>
+      <description>Problem Statement Link - Problem 476 Question The complement of an integer is the integer you get when you flip all the 0&rsquo;s to 1&rsquo;s and all the 1&rsquo;s to 0&rsquo;s in its binary representation.</description>
     </item>
     <item>
       <title>Problem 3238 Find the Number of Winning Players</title>
@@ -90,7 +97,7 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</link>
       <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</guid>
-      <description>Problem Statement Link - Problem 650 Question There is only one character &#39;A&#39; on the screen of a notepad.</description>
+      <description>Problem Statement Link - Problem 650 Question There is only one character 'A' on the screen of a notepad.</description>
     </item>
     <item>
       <title>Problem 3259 Maximum Energy Boost From Two Drinks</title>
@@ -237,7 +244,7 @@
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</link>
       <pubDate>Mon, 29 Jul 2024 22:05:47 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</guid>
-      <description>Problem Statement Link - Problem 371 Question Given two integers a and b, return the sum of the two integers without using the operators &#43; and -.</description>
+      <description>Problem Statement Link - Problem 371 Question Given two integers a and b, return the sum of the two integers without using the operators + and -.</description>
     </item>
     <item>
       <title>Problem 3217 Delete Nodes From Linked List Present in Array</title>
@@ -272,7 +279,7 @@
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</link>
       <pubDate>Mon, 29 Jul 2024 00:31:56 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</guid>
-      <description>Problem Statement Link - Problem 103 Question Given the root of a binary tree, return the zigzag level order traversal of its nodes&amp;rsquo; values.</description>
+      <description>Problem Statement Link - Problem 103 Question Given the root of a binary tree, return the zigzag level order traversal of its nodes&rsquo; values.</description>
     </item>
     <item>
       <title>Problem 82 Remove Duplicates From Sorted List II</title>
@@ -489,7 +496,7 @@
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-merge-nodes-in-between-zeros/</link>
       <pubDate>Thu, 04 Jul 2024 21:58:32 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-merge-nodes-in-between-zeros/</guid>
-      <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&amp;rsquo;s.</description>
+      <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&rsquo;s.</description>
     </item>
     <item>
       <title>Problem 1509 Minimum Difference Between Largest and Smallest Value in Three Moves</title>
@@ -580,7 +587,7 @@
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</link>
       <pubDate>Mon, 17 Jun 2024 18:55:17 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</guid>
-      <description>Problem Statement Link - Problem 633 Question Given a non-negative integer c, decide whether there are two integers a and b such that a^2 &#43; b^2 = c.</description>
+      <description>Problem Statement Link - Problem 633 Question Given a non-negative integer c, decide whether there are two integers a and b such that a^2 + b^2 = c.</description>
     </item>
     <item>
       <title>Problem 502 IPO</title>
@@ -832,7 +839,7 @@
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</link>
       <pubDate>Fri, 19 Apr 2024 13:00:30 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</guid>
-      <description>Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of &#39;1&#39;s (land) and &#39;0&#39;s (water), return the number of islands.</description>
+      <description>Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.</description>
     </item>
     <item>
       <title>Problem 463 Island Perimeter</title>
@@ -846,7 +853,7 @@
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</link>
       <pubDate>Wed, 17 Apr 2024 14:56:36 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</guid>
-      <description>Problem Statement Link - Problem 988 Question You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters &#39;a&#39; to &#39;z&#39;.</description>
+      <description>Problem Statement Link - Problem 988 Question You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters 'a' to 'z'.</description>
     </item>
     <item>
       <title>Problem 623 Add One Row to Tree</title>

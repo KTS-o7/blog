@@ -4,7 +4,7 @@
     <title>Leetcode POTDs on The Indian Engineer</title>
     <link>https://KTS-o7.github.io/blog/leetcode-potd/</link>
     <description>Recent content in Leetcode POTDs on The Indian Engineer</description>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Aug 2024 14:37:41 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/leetcode-potd/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1905-count-sub-islands/</link>
       <pubDate>Wed, 28 Aug 2024 14:37:41 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1905-count-sub-islands/</guid>
-      <description>Problem Statement Link - Problem 1905 Question You are given two m x n binary matrices grid1 and grid2 containing only 0&amp;rsquo;s (representing water) and 1&amp;rsquo;s (representing land).</description>
+      <description>Problem Statement Link - Problem 1905 Question You are given two m x n binary matrices grid1 and grid2 containing only 0&rsquo;s (representing water) and 1&rsquo;s (representing land).</description>
     </item>
     <item>
       <title>Problem 1514 Path With Maximum Probability</title>
@@ -27,7 +27,7 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</link>
       <pubDate>Mon, 26 Aug 2024 10:27:00 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</guid>
-      <description>Problem Statement Link - Problem 590 Question Given the root of an n-ary tree, return the postorder traversal of its nodes&amp;rsquo; values.</description>
+      <description>Problem Statement Link - Problem 590 Question Given the root of an n-ary tree, return the postorder traversal of its nodes&rsquo; values.</description>
     </item>
     <item>
       <title>Problem 264 Ugly Number II</title>
@@ -48,14 +48,14 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</link>
       <pubDate>Thu, 22 Aug 2024 10:49:10 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</guid>
-      <description>Problem Statement Link - Problem 476 Question The complement of an integer is the integer you get when you flip all the 0&amp;rsquo;s to 1&amp;rsquo;s and all the 1&amp;rsquo;s to 0&amp;rsquo;s in its binary representation.</description>
+      <description>Problem Statement Link - Problem 476 Question The complement of an integer is the integer you get when you flip all the 0&rsquo;s to 1&rsquo;s and all the 1&rsquo;s to 0&rsquo;s in its binary representation.</description>
     </item>
     <item>
       <title>Problem 650 2 Keys Keyboard</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</link>
       <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</guid>
-      <description>Problem Statement Link - Problem 650 Question There is only one character &#39;A&#39; on the screen of a notepad.</description>
+      <description>Problem Statement Link - Problem 650 Question There is only one character 'A' on the screen of a notepad.</description>
     </item>
     <item>
       <title>Problem 624 Maximum Distance in Arrays</title>

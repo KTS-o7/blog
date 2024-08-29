@@ -4,10 +4,24 @@
     <title>Tags on The Indian Engineer</title>
     <link>https://KTS-o7.github.io/blog/tags/</link>
     <description>Recent content in Tags on The Indian Engineer</description>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 14:37:41 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 18:59:52 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>File-System</title>
+      <link>https://KTS-o7.github.io/blog/tags/file-system/</link>
+      <pubDate>Thu, 29 Aug 2024 18:59:52 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/file-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Os</title>
+      <link>https://KTS-o7.github.io/blog/tags/os/</link>
+      <pubDate>Thu, 29 Aug 2024 18:59:52 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/os/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dfs</title>
       <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
@@ -139,13 +153,6 @@
       <link>https://KTS-o7.github.io/blog/tags/interview/</link>
       <pubDate>Tue, 20 Aug 2024 23:57:15 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/interview/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Os</title>
-      <link>https://KTS-o7.github.io/blog/tags/os/</link>
-      <pubDate>Tue, 20 Aug 2024 23:57:15 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/os/</guid>
       <description></description>
     </item>
     <item>
