@@ -709,7 +709,11 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Write
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> In a sorted array, the middle element is the root of the tree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Sorted array is same as inorder traversal of the binary search tree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> So, we can recursively build the tree by finding the middle element and then recursively build the left and right subtree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Assign the left and right child of the root node to the left and right subtree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Left sub tree will be from 0 to mid-1 and right subtree will be from mid+1 to n.
 </span></span></code></pre></div>
 <h3 id="2-implementation">
   2. Implementation
@@ -722,7 +726,13 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Write
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Define a function <span style="color:#e6db74">`helper`</span> which takes the sorted array and the left and right index.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If left index is greater than right index, return nullptr.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Find the middle element of the range <span style="color:#e6db74">`l`</span> to <span style="color:#e6db74">`r`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Create a new node with the middle element as the value.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursively call the helper function for the left and right subtree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Assign the left and right child of the root node to the left and right subtree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the root node.
 </span></span></code></pre></div>
 
 
