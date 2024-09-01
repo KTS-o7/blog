@@ -6,8 +6,43 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Aug 2024 23:54:17 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 16:34:05 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Counting</title>
+      <link>https://KTS-o7.github.io/blog/tags/counting/</link>
+      <pubDate>Sun, 01 Sep 2024 16:34:05 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/counting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Custom-Comparator</title>
+      <link>https://KTS-o7.github.io/blog/tags/custom-comparator/</link>
+      <pubDate>Sun, 01 Sep 2024 16:34:05 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/custom-comparator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
+      <pubDate>Sun, 01 Sep 2024 16:34:05 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hashing</title>
+      <link>https://KTS-o7.github.io/blog/tags/hashing/</link>
+      <pubDate>Sun, 01 Sep 2024 16:22:19 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/hashing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://KTS-o7.github.io/blog/tags/string/</link>
+      <pubDate>Sun, 01 Sep 2024 16:22:19 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Binary-Search-Tree</title>
       <link>https://KTS-o7.github.io/blog/tags/binary-search-tree/</link>
@@ -97,13 +132,6 @@
       <link>https://KTS-o7.github.io/blog/tags/count/</link>
       <pubDate>Sun, 25 Aug 2024 12:33:25 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/count/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>https://KTS-o7.github.io/blog/tags/string/</link>
-      <pubDate>Sun, 25 Aug 2024 12:33:25 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
       <description></description>
     </item>
     <item>
@@ -209,13 +237,6 @@
       <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
       <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sorting</title>
-      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
-      <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
       <description></description>
     </item>
     <item>
@@ -352,13 +373,6 @@
       <description></description>
     </item>
     <item>
-      <title>Counting</title>
-      <link>https://KTS-o7.github.io/blog/tags/counting/</link>
-      <pubDate>Mon, 29 Jul 2024 19:00:51 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/counting/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Vectors</title>
       <link>https://KTS-o7.github.io/blog/tags/vectors/</link>
       <pubDate>Mon, 29 Jul 2024 18:30:07 +0530</pubDate>
@@ -447,13 +461,6 @@
       <link>https://KTS-o7.github.io/blog/tags/iterative/</link>
       <pubDate>Thu, 25 Jul 2024 20:55:46 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/iterative/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Custom-Comparator</title>
-      <link>https://KTS-o7.github.io/blog/tags/custom-comparator/</link>
-      <pubDate>Tue, 23 Jul 2024 21:12:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/custom-comparator/</guid>
       <description></description>
     </item>
     <item>

@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 108 Convert Sorted Array to Binary Search Tree &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 108 Convert Sorted Array to Binary Search Tree &middot; The Indian Engineer" />
+  <title>Problem 3273 Minimum Amount of Damage Dealt to Bob &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3273 Minimum Amount of Damage Dealt to Bob &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="recursion, binary-tree, binary-search-tree, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/" />
+  <meta name="keywords" content="sorting, custom-comparator, counting, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/" />
 
   
 
@@ -82,24 +82,24 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 108 Convert Sorted Array to Binary Search Tree">
-  <meta property="og:description" content="Problem Statement Link - Problem 108 Question Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.">
+  <meta property="og:title" content="Problem 3273 Minimum Amount of Damage Dealt to Bob">
+  <meta property="og:description" content="Problem Statement Link - Problem 3273 Question You are given an integer power and two integer arrays damage and health, both having length n.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-08-30T23:54:17+05:30">
-    <meta property="article:modified_time" content="2024-08-30T23:54:17+05:30">
-    <meta property="article:tag" content="Recursion">
-    <meta property="article:tag" content="Binary-Tree">
-    <meta property="article:tag" content="Binary-Search-Tree">
+    <meta property="article:published_time" content="2024-09-01T16:34:05+05:30">
+    <meta property="article:modified_time" content="2024-09-01T16:34:05+05:30">
+    <meta property="article:tag" content="Sorting">
+    <meta property="article:tag" content="Custom-Comparator">
+    <meta property="article:tag" content="Counting">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 108 Convert Sorted Array to Binary Search Tree">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 108 Question Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.">
+  <meta name="twitter:title" content="Problem 3273 Minimum Amount of Damage Dealt to Bob">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 3273 Question You are given an integer power and two integer arrays damage and health, both having length n.">
 
   
 
@@ -396,7 +396,7 @@
 
 
 
-<h1 class="pg-title">Problem 108 Convert Sorted Array to Binary Search Tree</h1>
+<h1 class="pg-title">Problem 3273 Minimum Amount of Damage Dealt to Bob</h1>
 
 
 <div class="meta">
@@ -416,7 +416,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-08-30T23:54:17&#43;05:30">Aug 30, 2024</time>
+  Posted on <time datetime="2024-09-01T16:34:05&#43;05:30">Sep 1, 2024</time>
   
   
   
@@ -433,7 +433,7 @@
 
 </span>
   
-    2 mins
+    6 mins
   
 
 
@@ -450,11 +450,11 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/recursion/">Recursion</a>
+  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
   
-  <a class="tag" href="/blog/tags/binary-tree/">Binary-Tree</a>
+  <a class="tag" href="/blog/tags/custom-comparator/">Custom-Comparator</a>
   
-  <a class="tag" href="/blog/tags/binary-search-tree/">Binary-Search-Tree</a>
+  <a class="tag" href="/blog/tags/counting/">Counting</a>
   
 </p>
 
@@ -476,6 +476,8 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
+    <li><a href="#example-3">Example 3</a></li>
+    <li><a href="#edge-case">Edge Case</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
@@ -506,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/" target="_blank">Problem 108</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/description/" target="_blank">Problem 3273</a>
 </p>
 
 <h2 id="question">
@@ -520,8 +522,10 @@
  </a>
   
 </h2>
-<p>Given an integer array <code>nums</code> where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.</p>
-<p>A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one.</p>
+<p>You are given an integer <code>power</code> and two integer arrays <code>damage</code> and <code>health</code>, both having length <code>n</code>.</p>
+<p>Bob has <code>n</code> enemies, where enemy <code>i</code> will deal Bob <code>damage[i]</code> points of damage per second while they are alive (i.e. <code>health[i] &gt; 0</code>).</p>
+<p>Every second, after the enemies deal damage to Bob, he chooses one of the enemies that is still alive and deals <code>power</code> points of damage to them.</p>
+<p>Determine the minimum total amount of damage points that will be dealt to Bob before all <code>n</code> enemies are dead.</p>
 
 <h2 id="example-1">
   Example 1
@@ -534,49 +538,20 @@
  </a>
   
 </h2>
-<p>
+<pre tabindex="0"><code>Input: power = 4, damage = [1,2,3,4], health = [4,5,6,8]
 
+Output: 39
 
+Explanation:
 
-
-
-
-
-
-
-
-
-
-
-
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2021/02/18/btree1.jpg" alt="img1" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2021/02/18/btree2.jpg" alt="img2" />
-
-
-
-</p>
-<pre tabindex="0"><code>Input: nums = [-10,-3,0,5,9]
-Output: [0,-3,9,-10,null,5]
-Explanation: [0,-10,5,null,-3,null,9] is also accepted:
+Attack enemy 3 in the first two seconds, after which enemy `3` will go down,
+the number of damage points dealt to Bob is `10 + 10 = 20` points.
+Attack enemy 2 in the next two seconds, after which enemy `2` will go down,
+the number of damage points dealt to Bob is `6 + 6 = 12` points.
+Attack enemy 0 in the next second, after which enemy `0` will go down,
+the number of damage points dealt to Bob is `3` points.
+Attack enemy `1` in the next two seconds, after which enemy `1` will go down,
+the number of damage points dealt to Bob is `2 + 2 = 4` points.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -589,29 +564,59 @@ Explanation: [0,-10,5,null,-3,null,9] is also accepted:
  </a>
   
 </h2>
-<p>
+<pre tabindex="0"><code>placeHoldeInput: power = 1, damage = [1,1,1,1], health = [1,2,3,4]
+
+Output: 20
+
+Explanation:
+
+Attack enemy 0 in the first second, after which enemy 0 will go down,
+the number of damage points dealt to Bob is 4 points.
+Attack enemy 1 in the next two seconds, after which enemy 1 will go down,
+the number of damage points dealt to Bob is 3 + 3 = 6 points.
+Attack enemy 2 in the next three seconds, after which enemy 2 will go down,
+the number of damage points dealt to Bob is 2 + 2 + 2 = 6 points.
+Attack enemy 3 in the next four seconds, after which enemy 3 will go down,
+the number of damage points dealt to Bob is 1 + 1 + 1 + 1 = 4 points.
+</code></pre>
+<h2 id="example-3">
+  Example 3
+  
+  <a hidden class="anchor" href="#example-3">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
 
+ </a>
+  
+</h2>
+<pre tabindex="0"><code>Input: power = 8, damage = [40], health = [59]
+
+Output: 320
+</code></pre>
+<h2 id="edge-case">
+  Edge Case
+  
+  <a hidden class="anchor" href="#edge-case">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
 
-
-
-
-
-
-
-
-
-
-
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2021/02/18/btree.jpg" alt="img3" />
-
-
-
-</p>
-<pre tabindex="0"><code>Input: nums = [1,3]
-Output: [3,1]
-Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
+ </a>
+  
+</h2>
+<pre tabindex="0"><code>Input
+power = 28
+damage = [95,94]
+health = [23,2]
+Output
+283
+</code></pre><pre tabindex="0"><code>Input
+power = 62
+damage = [80,79]
+health = [86,13]
+Output
+319
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -625,9 +630,9 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
   
 </h2>
 <ul>
-<li>1 &lt;= <code>nums.length</code> &lt;= 10<sup>4</sup></li>
-<li>-10<sup>4</sup> &lt;= <code>nums[i]</code> &lt;= 10<sup>4</sup></li>
-<li><code>nums</code> is sorted in a strictly increasing order.</li>
+<li>1 &lt;= <code>power</code> &lt;= 10<sup>4</sup></li>
+<li>1 &lt;= n == <code>damage.length</code> == <code>health.length</code> &lt;= 10<sup>5</sup></li>
+<li>1 &lt;= <code>damage[i], health[i]</code> &lt;= 10<sup>4</sup></li>
 </ul>
 
 <h2 id="solution">
@@ -641,33 +646,34 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/**
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Definition for a binary tree node.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct TreeNode {
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *left;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *right;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * };
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    TreeNode<span style="color:#f92672">*</span> helper(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> l, <span style="color:#66d9ef">int</span> r){
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(l<span style="color:#f92672">&gt;</span>r)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nullptr</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> mid <span style="color:#f92672">=</span> (l<span style="color:#f92672">+</span>r)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>;
-</span></span><span style="display:flex;"><span>        TreeNode<span style="color:#f92672">*</span> root <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> TreeNode(nums[mid]);
-</span></span><span style="display:flex;"><span>        root<span style="color:#f92672">-&gt;</span>left <span style="color:#f92672">=</span> helper(nums,l,mid<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>        root<span style="color:#f92672">-&gt;</span>right <span style="color:#f92672">=</span> helper(nums,mid<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,r);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> minDamage(<span style="color:#66d9ef">int</span> power, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> damage, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> health) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> damage.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> totdmg <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> res <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> root;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    TreeNode<span style="color:#f92672">*</span> <span style="color:#a6e22e">sortedArrayToBST</span>(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> size <span style="color:#f92672">=</span> nums.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        TreeNode <span style="color:#f92672">*</span> root <span style="color:#f92672">=</span> helper(nums,<span style="color:#ae81ff">0</span>,size);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> root;
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>tuple<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">double</span>, <span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> e;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> turns <span style="color:#f92672">=</span> (health[i] <span style="color:#f92672">+</span> power <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">/</span> power;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">double</span> eff <span style="color:#f92672">=</span> <span style="color:#66d9ef">static_cast</span><span style="color:#f92672">&lt;</span><span style="color:#66d9ef">double</span><span style="color:#f92672">&gt;</span>(damage[i]) <span style="color:#f92672">/</span> turns;
+</span></span><span style="display:flex;"><span>            e.push_back({eff, damage[i], turns});
+</span></span><span style="display:flex;"><span>            totdmg <span style="color:#f92672">+=</span> damage[i];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        sort(e.begin(), e.end(), [](<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> a, <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> b) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (get<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span><span style="color:#f92672">&gt;</span>(a) <span style="color:#f92672">!=</span> get<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span><span style="color:#f92672">&gt;</span>(b))
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> get<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span><span style="color:#f92672">&gt;</span>(a) <span style="color:#f92672">&gt;</span> get<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">0</span><span style="color:#f92672">&gt;</span>(b);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> get<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">1</span><span style="color:#f92672">&gt;</span>(a) <span style="color:#f92672">&gt;</span> get<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">1</span><span style="color:#f92672">&gt;</span>(b);
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> [eff, dmg, turns] <span style="color:#f92672">:</span> e) {
+</span></span><span style="display:flex;"><span>            res <span style="color:#f92672">+=</span> totdmg <span style="color:#f92672">*</span> turns;
+</span></span><span style="display:flex;"><span>            totdmg <span style="color:#f92672">-=</span> dmg;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -682,9 +688,11 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Recursion | O(N)            | O(N)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm      | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| -------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Tuple creation | O(N)            | O(N)             |
+</span></span><span style="display:flex;"><span>| Sorting        | O(NlogN)        | O(1)             |
+</span></span><span style="display:flex;"><span>| Total          | O(NlogN)        | O(N)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -709,11 +717,31 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> In a sorted array, the middle element is the root of the tree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Sorted array is same as inorder traversal of the binary search tree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> So, we can recursively build the tree by finding the middle element and then recursively build the left and right subtree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Assign the left and right child of the root node to the left and right subtree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Left sub tree will be from 0 to mid-1 and right subtree will be from mid+1 to n.
+<p>We have different cases in our hand.
+To minimize the damage, we need to pay attention to both damage dealt by enemies and the health of the enemies.</p>
+<ul>
+<li>An enemy can deal lot of damage if it has high damage or low health.</li>
+<li>An enemy can deal less damage if it has low damage and low health.</li>
+<li>An enemy can deal lot of damage if it has high damage and high health.</li>
+<li>An enemy can deal lot of damage if it has low damage and high health.</li>
+</ul>
+<p>Hence we need to calculate the effective damage dealt by each enemy and sort them in descending order.</p>
+<ul>
+<li>Order of killing will be as follows
+<ul>
+<li>If the enemy has high effective damage, kill it first.</li>
+<li>If two enemies has same effective damage, kill the one with high damage first.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> First count the number of turns needed to kill an enemy using the formula (health[i] + power - 1) / power.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> This is counted using ceil division.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Calculate the effective damage dealt by each enemy using the formula damage[i] / turns.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Store the effective damage, damage and turns in a tuple.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Sort the enemies in descending order of effective damage.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Calculate the total damage dealt by all enemies.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each enemy, calculate the total damage dealt by all enemies and add it to the result.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Update the total damage dealt by all enemies by subtracting the damage dealt by the current enemy. Indicating that the enemy is dead.
 </span></span></code></pre></div>
 <h3 id="2-implementation">
   2. Implementation
@@ -726,13 +754,30 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Define a function <span style="color:#e6db74">`helper`</span> which takes the sorted array and the left and right index.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If left index is greater than right index, return nullptr.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Find the middle element of the range <span style="color:#e6db74">`l`</span> to <span style="color:#e6db74">`r`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Create a new node with the middle element as the value.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursively call the helper function for the left and right subtree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Assign the left and right child of the root node to the left and right subtree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the root node.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Declare a variable <span style="color:#e6db74">`n`</span> to store the length of the damage array.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Declare a variable <span style="color:#e6db74">`totdmg`</span> to store the total damage dealt by all enemies.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Declare a variable <span style="color:#e6db74">`res`</span> to store the result.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Declare a vector of tuples <span style="color:#e6db74">`e`</span> to store the effective damage, damage and turns needed to kill each enemy.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over from <span style="color:#e6db74">`0`</span> to <span style="color:#e6db74">`n`</span>.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Declare a variable <span style="color:#e6db74">`turns`</span> to store the number of turns needed to kill the enemy.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Calculate the number of turns needed to kill the enemy using the formula <span style="color:#e6db74">`(health[i] + power - 1) / power`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Calculate the effective damage dealt by the enemy using the formula <span style="color:#e6db74">`static_cast&lt;double&gt;(damage[i]) / turns`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Push the tuple <span style="color:#e6db74">`{eff, damage[i], turns}`</span> to the vector <span style="color:#e6db74">`e`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Add the damage dealt by the enemy to the total damage dealt by all enemies.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Sort the vector <span style="color:#e6db74">`e`</span> in descending order of effective damage.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Custom comparator is as follows
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the effective damage of the first enemy is not equal to the effective damage of the second enemy, sort in descending order of effective damage.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the effective damage of the first enemy is equal to the effective damage of the second enemy, sort in descending order of damage.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each enemy in the vector <span style="color:#e6db74">`e`</span>, calculate the total damage dealt by all enemies and add it to the result.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Update the total damage dealt by all enemies by subtracting the damage dealt by the current enemy. Indicating that the enemy is dead.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the result.
 </span></span></code></pre></div>
 
 
@@ -746,17 +791,13 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3270 Find the Key of Numbers </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/">
+    <a class="next" href="/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 145 Binary Tree Postorder Traversal </span>
+      <span> Problem 3271 Hash Divided Strings </span>
     </a>
   
 </nav>
