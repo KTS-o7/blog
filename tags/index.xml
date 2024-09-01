@@ -6,8 +6,29 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Sep 2024 17:05:40 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 17:21:31 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array</title>
+      <link>https://KTS-o7.github.io/blog/tags/array/</link>
+      <pubDate>Sun, 01 Sep 2024 17:21:31 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix</title>
+      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
+      <pubDate>Sun, 01 Sep 2024 17:21:31 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulation</title>
+      <link>https://KTS-o7.github.io/blog/tags/simulation/</link>
+      <pubDate>Sun, 01 Sep 2024 17:21:31 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/simulation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Math</title>
       <link>https://KTS-o7.github.io/blog/tags/math/</link>
@@ -20,13 +41,6 @@
       <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
       <pubDate>Sun, 01 Sep 2024 17:05:40 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Simulation</title>
-      <link>https://KTS-o7.github.io/blog/tags/simulation/</link>
-      <pubDate>Sun, 01 Sep 2024 16:56:04 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/simulation/</guid>
       <description></description>
     </item>
     <item>
@@ -184,13 +198,6 @@
       <description></description>
     </item>
     <item>
-      <title>Matrix</title>
-      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
-      <pubDate>Wed, 21 Aug 2024 22:42:42 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Interview</title>
       <link>https://KTS-o7.github.io/blog/tags/interview/</link>
       <pubDate>Tue, 20 Aug 2024 23:57:15 +0530</pubDate>
@@ -216,13 +223,6 @@
       <link>https://KTS-o7.github.io/blog/tags/dynamic-programming/</link>
       <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/dynamic-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Array</title>
-      <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Sat, 17 Aug 2024 23:19:57 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
       <description></description>
     </item>
     <item>
