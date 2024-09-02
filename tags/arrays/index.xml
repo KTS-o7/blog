@@ -6,8 +6,15 @@
     <description>Recent content in Arrays on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2024 18:47:32 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2024 16:26:58 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/arrays/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1894 Find the Student That Will Replace the Chalk</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</link>
+      <pubDate>Mon, 02 Sep 2024 16:26:58 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</guid>
+      <description>Problem Statement Link - Problem 1894 Question There are n students in a class numbered from 0 to n - 1.</description>
+    </item>
     <item>
       <title>Problem 2418 Sort the People</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</link>
