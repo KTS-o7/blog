@@ -6,8 +6,15 @@
     <description>Recent content on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Sep 2024 16:26:58 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2024 13:14:25 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1945 Sum of Digits of String After Convert</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</link>
+      <pubDate>Tue, 03 Sep 2024 13:14:25 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</guid>
+      <description>Problem Statement Link - Problem 1945 Question You are given a string s consisting of lowercase English letters, and an integer k.</description>
+    </item>
     <item>
       <title>Problem 1894 Find the Student That Will Replace the Chalk</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</link>
