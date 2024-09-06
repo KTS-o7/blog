@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1945 Sum of Digits of String After Convert &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1945 Sum of Digits of String After Convert &middot; The Indian Engineer" />
+  <title>Problem 2028 Find Missing Observations &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2028 Find Missing Observations &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="string, math, manipulation, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/" />
+  
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2028-find-missing-observations/" />
 
   
 
@@ -82,29 +82,159 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2028-find-missing-observations/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1945 Sum of Digits of String After Convert">
-  <meta property="og:description" content="Problem Statement Link - Problem 1945 Question You are given a string s consisting of lowercase English letters, and an integer k.">
+  <meta property="og:title" content="Problem 2028 Find Missing Observations">
+  <meta property="og:description" content="Problem Statement Link - Problem 2028 Question You have observations of n &#43; m 6-sided dice rolls with each face numbered from 1 to 6.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-03T13:14:25+05:30">
-    <meta property="article:modified_time" content="2024-09-03T13:14:25+05:30">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Math">
-    <meta property="article:tag" content="Manipulation">
+    <meta property="article:published_time" content="2024-09-06T10:54:36+05:30">
+    <meta property="article:modified_time" content="2024-09-06T10:54:36+05:30">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1945 Sum of Digits of String After Convert">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 1945 Question You are given a string s consisting of lowercase English letters, and an integer k.">
+  <meta name="twitter:title" content="Problem 2028 Find Missing Observations">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 2028 Question You have observations of n &#43; m 6-sided dice rolls with each face numbered from 1 to 6.">
 
   
 
   
   
+
+
+
+<link type="text/css" rel="stylesheet" href="/blog/lib/katex/katex.min.68e17230ccd917b97b7a2def38a8108918599d8aa4f580bfb8cce5e13d23e4de43dcaba5f9000553cb2c10d0d1300aabfe5c433a3305ebd752609f0762a63e59.css" integrity="sha512-aOFyMMzZF7l7ei3vOKgQiRhZnYqk9YC/uMzl4T0j5N5D3Kul&#43;QAFU8ssENDRMAqr/lxDOjMF69dSYJ8HYqY&#43;WQ==" />
+
+
+<script defer src="/blog/lib/katex/katex.min.50f14e69d6a8da7128ae3b63974c544ed377c36d096b5e3750f114e84c89d668b9301d9b0ed3248969aa183aa2e3bc4d2c1e73d5dcb7d462890c45a18d424589.js" integrity="sha512-UPFOadao2nEorjtjl0xUTtN3w20Ja143UPEU6EyJ1mi5MB2bDtMkiWmqGDqi47xNLB5z1dy31GKJDEWhjUJFiQ=="></script>
+
+
+<script defer src="/blog/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -396,7 +526,7 @@
 
 
 
-<h1 class="pg-title">Problem 1945 Sum of Digits of String After Convert</h1>
+<h1 class="pg-title">Problem 2028 Find Missing Observations</h1>
 
 
 <div class="meta">
@@ -416,7 +546,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-03T13:14:25&#43;05:30">Sep 3, 2024</time>
+  Posted on <time datetime="2024-09-06T10:54:36&#43;05:30">Sep 6, 2024</time>
   
   
   
@@ -433,31 +563,13 @@
 
 </span>
   
-    3 mins
+    4 mins
   
 
 
 </p>
 
   
-
-
-<p>
-  <span class="meta-icon"> 
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3 418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/></svg>
-
-
- </span>
-  
-  <a class="tag" href="/blog/tags/string/">String</a>
-  
-  <a class="tag" href="/blog/tags/math/">Math</a>
-  
-  <a class="tag" href="/blog/tags/manipulation/">Manipulation</a>
-  
-</p>
-
 
 
 </div>
@@ -473,11 +585,7 @@
       <div class="toc-innr">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#question">Question</a>
-      <ul>
-        <li></li>
-      </ul>
-    </li>
+    <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
     <li><a href="#example-3">Example 3</a></li>
@@ -511,7 +619,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/" target="_blank">Problem 1945</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-missing-observations/description/" target="_blank">Problem 2028</a>
 </p>
 
 <h2 id="question">
@@ -525,29 +633,11 @@
  </a>
   
 </h2>
-<p>You are given a string <code>s</code> consisting of lowercase English letters, and an integer <code>k</code>.</p>
-<p>First, convert <code>s</code> into an integer by replacing each letter with its position in the alphabet (i.e., replace <code>'a'</code> with <code>1</code>, <code>'b'</code> with <code>2</code>, &hellip;, <code>'z'</code> with <code>26</code>). Then, transform the integer by replacing it with the sum of its digits. Repeat the transform operation <code>k</code> times in total.</p>
-<p>For example, if <code>s = &quot;zbax&quot;</code> and <code>k = 2</code>, then the resulting integer would be <code>8</code> by the following operations:</p>
-<ul>
-<li>Convert: <code>&quot;zbax&quot; ➝ &quot;(26)(2)(1)(24)&quot; ➝ &quot;262124&quot; ➝ 262124</code></li>
-<li>Transform #1: <code>262124 ➝ 2 + 6 + 2 + 1 + 2 + 4 ➝ 17</code></li>
-<li>Transform #2: <code>17 ➝ 1 + 7 ➝ 8</code></li>
-</ul>
-<p>Return the resulting integer after performing the operations described above.</p>
-
-<h4 id="note">
-  Note
-  
-  <a hidden class="anchor" href="#note">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h4>
-<p>NGL this question is way more easy than it sounds. They want us to first convert each character to its position in the alphabet and then sum the digits of the resulting number. We have to do this <code>k</code> times.
-After first run it will be a set of digits. Then we need to repeatedly sum the digits of the number until we get a single digit or we exceed <code>k</code> times.</p>
+<p>You have observations of <code>n + m</code> 6-sided dice rolls with each face numbered from <code>1</code> to <code>6</code>. <code>n</code> of the observations went missing, and you only have the observations of <code>m</code> rolls. Fortunately, you have also calculated the average value of the <code>n + m</code> rolls.</p>
+<p>You are given an integer array <code>rolls</code> of length <code>m</code> where <code>rolls[i]</code> is the value of the <code>i</code><sup>th</sup> observation. You are also given the two integers <code>mean</code> and <code>n</code>.</p>
+<p>Return an array of length <code>n</code> containing the missing observations such that the average value of the <code>n + m</code> rolls is exactly <code>mean</code>. If there are multiple valid answers, return any of them. If no such array exists, return an empty array.</p>
+<p>The average value of a set of <code>k</code> numbers is the sum of the numbers divided by <code>k</code>.</p>
+<p>Note that mean is an integer, so the sum of the <code>n + m</code> rolls should be divisible by <code>n + m</code>.</p>
 
 <h2 id="example-1">
   Example 1
@@ -560,12 +650,10 @@ After first run it will be a set of digits. Then we need to repeatedly sum the d
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: s = &#34;iiii&#34;, k = 1
-Output: 36
-Explanation: The operations are as follows:
-- Convert: &#34;iiii&#34; ➝ &#34;(9)(9)(9)(9)&#34; ➝ &#34;9999&#34; ➝ 9999
-- Transform #1: 9999 ➝ 9 + 9 + 9 + 9 ➝ 36
-Thus the resulting integer is 36.
+<pre tabindex="0"><code>Input: rolls = [3,2,4,3], mean = 4, n = 2
+Output: [6,6]
+Explanation: The mean of all n + m rolls is
+ (3 + 2 + 4 + 3 + 6 + 6) / 6 = 4.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -578,13 +666,10 @@ Thus the resulting integer is 36.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: s = &#34;leetcode&#34;, k = 2
-Output: 6
-Explanation: The operations are as follows:
-- Convert: &#34;leetcode&#34; ➝ &#34;(12)(5)(5)(20)(3)(15)(4)(5)&#34; ➝ &#34;12552031545&#34; ➝ 12552031545
-- Transform #1: 12552031545 ➝ 1 + 2 + 5 + 5 + 2 + 0 + 3 + 1 + 5 + 4 + 5 ➝ 33
-- Transform #2: 33 ➝ 3 + 3 ➝ 6
-Thus the resulting integer is 6.
+<pre tabindex="0"><code>Input: rolls = [1,5,6], mean = 3, n = 4
+Output: [2,3,2,2]
+Explanation: The mean of all n + m rolls is
+ (1 + 5 + 6 + 2 + 3 + 2 + 2) / 7 = 3.
 </code></pre>
 <h2 id="example-3">
   Example 3
@@ -597,8 +682,9 @@ Thus the resulting integer is 6.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: s = &#34;zbax&#34;, k = 2
-Output: 8
+<pre tabindex="0"><code>Input: rolls = [1,2,3,4], mean = 6, n = 4
+Output: []
+Explanation: It is impossible for the mean to be 6 no matter what the 4 missing rolls are.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -612,9 +698,9 @@ Output: 8
   
 </h2>
 <ul>
-<li><code>1 &lt;= s.length &lt;= 100</code></li>
-<li><code>1 &lt;= k &lt;= 10</code></li>
-<li><code>s</code> consists of lowercase English letters.</li>
+<li><code>m == rolls.length</code></li>
+<li>1 &lt;= <code>n</code>, <code>m</code> &lt;= 10<sup>5</sup></li>
+<li>1 &lt;= <code>rolls[i]</code>, <code>mean</code> &lt;= 6</li>
 </ul>
 
 <h2 id="solution">
@@ -630,21 +716,23 @@ Output: 8
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> getLucky(string s, <span style="color:#66d9ef">int</span> k) {
-</span></span><span style="display:flex;"><span>        string number <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">char</span><span style="color:#f92672">&amp;</span> x : s) {
-</span></span><span style="display:flex;"><span>            number <span style="color:#f92672">+=</span> to_string(x <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> missingRolls(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> rolls, <span style="color:#66d9ef">int</span> mean, <span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> tot <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> rolls.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            tot <span style="color:#f92672">+=</span> rolls[i];
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> temp;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (k <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
-</span></span><span style="display:flex;"><span>            temp <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">char</span><span style="color:#f92672">&amp;</span> x : number) {
-</span></span><span style="display:flex;"><span>                temp <span style="color:#f92672">+=</span> x <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;0&#39;</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            number <span style="color:#f92672">=</span> to_string(temp);
-</span></span><span style="display:flex;"><span>            k<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> mean <span style="color:#f92672">*</span> (n <span style="color:#f92672">+</span> rolls.size()) <span style="color:#f92672">-</span> tot;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (sum <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">6</span> <span style="color:#f92672">*</span> n or sum <span style="color:#f92672">&lt;</span> n) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> {};
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">stoi</span>(number);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> divide <span style="color:#f92672">=</span> sum <span style="color:#f92672">/</span> n;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> rem <span style="color:#f92672">=</span> sum <span style="color:#f92672">%</span> n;
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> ans(n, divide);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> rem; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            ans[i]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -659,11 +747,10 @@ Output: 8
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm        | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ---------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| String traversal | O(n)            | O(1)             |
-</span></span><span style="display:flex;"><span>| Repeated sum     | O(kn)           | O(1)             |
-</span></span><span style="display:flex;"><span>| Total            | O(n+kn)         | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm    | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------ | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Accumulation | O(m)            | O(1)             |
+</span></span><span style="display:flex;"><span>| Division     | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -688,13 +775,26 @@ Output: 8
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> The idea is to first convert the string to a number by replacing each character with its position in the alphabet.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Then we need to sum the digits of the number.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We need to repeat this process <span style="color:#e6db74">`k`</span> times.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can do this by converting the number to a string and then summing the digits.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> After each sum, we need to convert the number back to a string.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> After <span style="color:#e6db74">`k`</span> iterations, we return the number.
-</span></span></code></pre></div>
+<p>Let&rsquo;s try to breakdown the meaning of the problem.
+We are given <code>m</code> die rolls and a number <code>mean</code> which is the supposed average of <code>n+m</code> die rolls. We are given <code>n</code> also.
+Now we need to find the missing <code>m</code> entries such that the average of all <code>n+m</code> die rolls is equal to <code>mean</code>.</p>
+
+
+$$
+mean = \frac{sum\ of\ all\ rolls}{n+m} = \frac{sum\ of\ m\ rolls + sum\ of\ n\ rolls}{n+m}
+$$$$
+sum\ of\ n\ rolls = mean \times (n+m) - sum\ of\ m\ rolls
+$$<ul>
+<li>Once we get the sum of <code>n</code> rolls, we can divide it by <code>n</code> to get the lower bound of the each die roll.</li>
+<li>We can then find the remainder and distribute it among the <code>n</code> rolls.</li>
+<li>But when does the solution not exist?
+<ul>
+<li>If the sum of <code>n</code> rolls is greater than <code>6*n</code> or less than <code>n</code>, then the solution does not exist.</li>
+<li>This is because the die rolls are from <code>1</code> to <code>6</code> and the sum of <code>n</code> rolls should be between <code>n</code> and <code>6*n</code>.</li>
+</ul>
+</li>
+</ul>
+
 <h3 id="2-implementation">
   2. Implementation
   
@@ -706,16 +806,16 @@ Output: 8
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a string <span style="color:#e6db74">`number`</span> to store the number.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the string and convert each character to its position in the alphabet using <span style="color:#e6db74">`to_string(x - &#39;a&#39; + 1)`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a variable <span style="color:#e6db74">`temp`</span> to store the sum of the digits.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> While <span style="color:#e6db74">`k`</span> is greater than <span style="color:#e6db74">`0`</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Initialize <span style="color:#e6db74">`temp`</span> to <span style="color:#e6db74">`0`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Iterate over the string
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> <span style="color:#e6db74">`temp += x - &#39;0&#39;`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Convert <span style="color:#e6db74">`temp`</span> to a string and store it in <span style="color:#e6db74">`number`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Decrement <span style="color:#e6db74">`k`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the integer value of <span style="color:#e6db74">`number`</span>.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a variable <span style="color:#e6db74">`tot`</span> to store the sum of <span style="color:#e6db74">`m`</span> rolls.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a variable <span style="color:#e6db74">`sum`</span> to store the sum of <span style="color:#e6db74">`n`</span> rolls.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the <span style="color:#e6db74">`rolls`</span> array and accumulate the sum of <span style="color:#e6db74">`m`</span> rolls.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Calculate the sum of <span style="color:#e6db74">`n`</span> rolls using the formula <span style="color:#e6db74">`mean * (n + rolls.size()) - tot`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the sum of <span style="color:#e6db74">`n`</span> rolls is greater than <span style="color:#e6db74">`6*n`</span> or less than <span style="color:#e6db74">`n`</span>, return an empty array.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Calculate the lower bound of each die roll using the formula <span style="color:#e6db74">`sum / n`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Calculate the remainder using the formula <span style="color:#e6db74">`sum % n`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a vector <span style="color:#e6db74">`ans`</span> of size <span style="color:#e6db74">`n`</span> and fill it with the lower bound of each die roll.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Distribute the remainder among the <span style="color:#e6db74">`n`</span> rolls.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the <span style="color:#e6db74">`ans`</span> vector.
 </span></span></code></pre></div>
 
 
@@ -729,17 +829,13 @@ Output: 8
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2028-find-missing-observations/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2028 Find Missing Observations </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/">
+    <a class="next" href="/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1894 Find the Student That Will Replace the Chalk </span>
+      <span> Problem 1945 Sum of Digits of String After Convert </span>
     </a>
   
 </nav>
