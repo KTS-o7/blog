@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2028 Find Missing Observations &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2028 Find Missing Observations &middot; The Indian Engineer" />
+  <title>Problem 1367 Linked List in Binary Tree &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1367 Linked List in Binary Tree &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2028-find-missing-observations/" />
+  <meta name="keywords" content="binary-tree, linked-list, dfs, recursion, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/" />
 
   
 
@@ -82,159 +82,30 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2028-find-missing-observations/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2028 Find Missing Observations">
-  <meta property="og:description" content="Problem Statement Link - Problem 2028 Question You have observations of n &#43; m 6-sided dice rolls with each face numbered from 1 to 6.">
+  <meta property="og:title" content="Problem 1367 Linked List in Binary Tree">
+  <meta property="og:description" content="Problem Statement Link - Problem Question Given a binary tree root and a linked list with head as the first node.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-06T10:54:36+05:30">
-    <meta property="article:modified_time" content="2024-09-06T10:54:36+05:30">
+    <meta property="article:published_time" content="2024-09-07T13:48:11+05:30">
+    <meta property="article:modified_time" content="2024-09-07T13:48:11+05:30">
+    <meta property="article:tag" content="Binary-Tree">
+    <meta property="article:tag" content="Linked-List">
+    <meta property="article:tag" content="Dfs">
+    <meta property="article:tag" content="Recursion">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2028 Find Missing Observations">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 2028 Question You have observations of n &#43; m 6-sided dice rolls with each face numbered from 1 to 6.">
+  <meta name="twitter:title" content="Problem 1367 Linked List in Binary Tree">
+  <meta name="twitter:description" content="Problem Statement Link - Problem Question Given a binary tree root and a linked list with head as the first node.">
 
   
 
   
   
-
-
-
-<link type="text/css" rel="stylesheet" href="/blog/lib/katex/katex.min.68e17230ccd917b97b7a2def38a8108918599d8aa4f580bfb8cce5e13d23e4de43dcaba5f9000553cb2c10d0d1300aabfe5c433a3305ebd752609f0762a63e59.css" integrity="sha512-aOFyMMzZF7l7ei3vOKgQiRhZnYqk9YC/uMzl4T0j5N5D3Kul&#43;QAFU8ssENDRMAqr/lxDOjMF69dSYJ8HYqY&#43;WQ==" />
-
-
-<script defer src="/blog/lib/katex/katex.min.50f14e69d6a8da7128ae3b63974c544ed377c36d096b5e3750f114e84c89d668b9301d9b0ed3248969aa183aa2e3bc4d2c1e73d5dcb7d462890c45a18d424589.js" integrity="sha512-UPFOadao2nEorjtjl0xUTtN3w20Ja143UPEU6EyJ1mi5MB2bDtMkiWmqGDqi47xNLB5z1dy31GKJDEWhjUJFiQ=="></script>
-
-
-<script defer src="/blog/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
-  onload="renderMathInElement(document.body);"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -526,7 +397,7 @@
 
 
 
-<h1 class="pg-title">Problem 2028 Find Missing Observations</h1>
+<h1 class="pg-title">Problem 1367 Linked List in Binary Tree</h1>
 
 
 <div class="meta">
@@ -546,7 +417,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-06T10:54:36&#43;05:30">Sep 6, 2024</time>
+  Posted on <time datetime="2024-09-07T13:48:11&#43;05:30">Sep 7, 2024</time>
   
   
   
@@ -563,13 +434,33 @@
 
 </span>
   
-    4 mins
+    5 mins
   
 
 
 </p>
 
   
+
+
+<p>
+  <span class="meta-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3 418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/></svg>
+
+
+ </span>
+  
+  <a class="tag" href="/blog/tags/binary-tree/">Binary-Tree</a>
+  
+  <a class="tag" href="/blog/tags/linked-list/">Linked-List</a>
+  
+  <a class="tag" href="/blog/tags/dfs/">Dfs</a>
+  
+  <a class="tag" href="/blog/tags/recursion/">Recursion</a>
+  
+</p>
+
 
 
 </div>
@@ -619,7 +510,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-missing-observations/description/" target="_blank">Problem 2028</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/linked-list-in-binary-tree/description/" target="_blank">Problem </a>
 </p>
 
 <h2 id="question">
@@ -633,11 +524,8 @@
  </a>
   
 </h2>
-<p>You have observations of <code>n + m</code> 6-sided dice rolls with each face numbered from <code>1</code> to <code>6</code>. <code>n</code> of the observations went missing, and you only have the observations of <code>m</code> rolls. Fortunately, you have also calculated the average value of the <code>n + m</code> rolls.</p>
-<p>You are given an integer array <code>rolls</code> of length <code>m</code> where <code>rolls[i]</code> is the value of the <code>i</code><sup>th</sup> observation. You are also given the two integers <code>mean</code> and <code>n</code>.</p>
-<p>Return an array of length <code>n</code> containing the missing observations such that the average value of the <code>n + m</code> rolls is exactly <code>mean</code>. If there are multiple valid answers, return any of them. If no such array exists, return an empty array.</p>
-<p>The average value of a set of <code>k</code> numbers is the sum of the numbers divided by <code>k</code>.</p>
-<p>Note that mean is an integer, so the sum of the <code>n + m</code> rolls should be divisible by <code>n + m</code>.</p>
+<p>Given a binary tree <code>root</code> and a linked list with <code>head</code> as the first node.</p>
+<p>Return True if all the elements in the linked list starting from the <code>head</code> correspond to some downward path connected in the binary tree otherwise return False.</p>
 
 <h2 id="example-1">
   Example 1
@@ -650,10 +538,30 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: rolls = [3,2,4,3], mean = 4, n = 2
-Output: [6,6]
-Explanation: The mean of all n + m rolls is
- (3 + 2 + 4 + 3 + 6 + 6) / 6 = 4.
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img loading="lazy" src="https://assets.leetcode.com/uploads/2020/02/12/sample_1_1720.png" alt="img1" />
+
+
+
+</p>
+<pre tabindex="0"><code>Input: head = [4,2,8],
+       root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
+Output: true
+Explanation: Nodes in blue form a subpath in the binary Tree.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -666,10 +574,29 @@ Explanation: The mean of all n + m rolls is
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: rolls = [1,5,6], mean = 3, n = 4
-Output: [2,3,2,2]
-Explanation: The mean of all n + m rolls is
- (1 + 5 + 6 + 2 + 3 + 2 + 2) / 7 = 3.
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img loading="lazy" src="https://assets.leetcode.com/uploads/2020/02/12/sample_2_1720.png" alt="img2" />
+
+
+
+</p>
+<pre tabindex="0"><code>Input: head = [1,4,2,6],
+       root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
+Output: true
 </code></pre>
 <h2 id="example-3">
   Example 3
@@ -682,9 +609,10 @@ Explanation: The mean of all n + m rolls is
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: rolls = [1,2,3,4], mean = 6, n = 4
-Output: []
-Explanation: It is impossible for the mean to be 6 no matter what the 4 missing rolls are.
+<pre tabindex="0"><code>Input: head = [1,4,2,6,8],
+       root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
+Output: false
+Explanation: There is no path in the binary tree containing all the elements of the linked list from head.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -698,9 +626,9 @@ Explanation: It is impossible for the mean to be 6 no matter what the 4 missing 
   
 </h2>
 <ul>
-<li><code>m == rolls.length</code></li>
-<li>1 &lt;= <code>n</code>, <code>m</code> &lt;= 10<sup>5</sup></li>
-<li>1 &lt;= <code>rolls[i]</code>, <code>mean</code> &lt;= 6</li>
+<li>The number of nodes in the tree will be in the range <code>[1, 2500]</code>.</li>
+<li>The number of nodes in the list will be in the range <code>[1, 100]</code>.</li>
+<li><code>1 &lt;= Node.val &lt;= 100</code> for each node in the linked list and binary tree</li>
 </ul>
 
 <h2 id="solution">
@@ -714,25 +642,45 @@ Explanation: It is impossible for the mean to be 6 no matter what the 4 missing 
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Definition for singly-linked list.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct ListNode {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode *next;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode() : val(0), next(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode(int x) : val(x), next(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * };
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Definition for a binary tree node.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct TreeNode {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *left;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *right;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * };
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> missingRolls(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> rolls, <span style="color:#66d9ef">int</span> mean, <span style="color:#66d9ef">int</span> n) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> tot <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> rolls.size(); i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            tot <span style="color:#f92672">+=</span> rolls[i];
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> mean <span style="color:#f92672">*</span> (n <span style="color:#f92672">+</span> rolls.size()) <span style="color:#f92672">-</span> tot;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (sum <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">6</span> <span style="color:#f92672">*</span> n or sum <span style="color:#f92672">&lt;</span> n) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> {};
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> divide <span style="color:#f92672">=</span> sum <span style="color:#f92672">/</span> n;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> rem <span style="color:#f92672">=</span> sum <span style="color:#f92672">%</span> n;
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> ans(n, divide);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> rem; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            ans[i]<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> dfs(ListNode<span style="color:#f92672">*</span> head, TreeNode<span style="color:#f92672">*</span> root){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(head <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> true;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root<span style="color:#f92672">==</span><span style="color:#66d9ef">nullptr</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root<span style="color:#f92672">-&gt;</span>val <span style="color:#f92672">!=</span> head<span style="color:#f92672">-&gt;</span>val)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">dfs</span>(head<span style="color:#f92672">-&gt;</span>next,root<span style="color:#f92672">-&gt;</span>left) <span style="color:#f92672">||</span> dfs(head<span style="color:#f92672">-&gt;</span>next,root<span style="color:#f92672">-&gt;</span>right);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> <span style="color:#a6e22e">isSubPath</span>(ListNode<span style="color:#f92672">*</span> head, TreeNode<span style="color:#f92672">*</span> root) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(dfs(head,root))
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> true;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> isSubPath(head,root<span style="color:#f92672">-&gt;</span>left) <span style="color:#f92672">||</span> isSubPath(head,root<span style="color:#f92672">-&gt;</span>right);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -747,10 +695,10 @@ Explanation: It is impossible for the mean to be 6 no matter what the 4 missing 
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm    | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------ | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Accumulation | O(m)            | O(1)             |
-</span></span><span style="display:flex;"><span>| Division     | O(n)            | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity              | Space Complexity             |
+</span></span><span style="display:flex;"><span>| --------- | ---------------------------- | ---------------------------- |
+</span></span><span style="display:flex;"><span>| DFS       | O(list.size() x tree.size()) | O(list.size() + tree.size()) |
+</span></span><span style="display:flex;"><span>| isSubPath | O(list.size() x tree.size()) | O(list.size() + tree.size()) |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -776,23 +724,39 @@ Explanation: It is impossible for the mean to be 6 no matter what the 4 missing 
   
 </h3>
 <p>Let&rsquo;s try to breakdown the meaning of the problem.
-We are given <code>m</code> die rolls and a number <code>mean</code> which is the supposed average of <code>n+m</code> die rolls. We are given <code>n</code> also.
-Now we need to find the missing <code>m</code> entries such that the average of all <code>n+m</code> die rolls is equal to <code>mean</code>.</p>
-
-
-$$
-mean = \frac{sum\ of\ all\ rolls}{n+m} = \frac{sum\ of\ m\ rolls + sum\ of\ n\ rolls}{n+m}
-$$$$
-sum\ of\ n\ rolls = mean \times (n+m) - sum\ of\ m\ rolls
-$$<ul>
-<li>Once we get the sum of <code>n</code> rolls, we can divide it by <code>n</code> to get the lower bound of the each die roll.</li>
-<li>We can then find the remainder and distribute it among the <code>n</code> rolls.</li>
-<li>But when does the solution not exist?
+We need to find if the linked list is present in the binary tree or not.
+Conditions to check:</p>
+<ol>
+<li>If list is empty it is always present in the tree.</li>
+<li>If tree is empty and list is not empty then it is not present in the tree.</li>
+<li>A list may be starting from any node in the tree.</li>
+<li>If we get the starting node of the list in the tree then we need to check if the list is present in the tree or not.</li>
+</ol>
+<p>Using the above conditions few points to be noted:</p>
 <ul>
-<li>If the sum of <code>n</code> rolls is greater than <code>6*n</code> or less than <code>n</code>, then the solution does not exist.</li>
-<li>This is because the die rolls are from <code>1</code> to <code>6</code> and the sum of <code>n</code> rolls should be between <code>n</code> and <code>6*n</code>.</li>
+<li>We need to check depth wise if the list is present in the tree or not. Hence we need to use DFS.</li>
+<li>We need to check recursively if the list is present in the left or right subtree of the tree.</li>
 </ul>
-</li>
+<p>Possible edge cases:</p>
+<ol>
+<li>If the tree is empty then the list is not present in the tree. Hence return false.</li>
+<li>If the list is empty then the list is always present in the tree. Hence return true.</li>
+<li>If the list is not empty and tree is not empty then we need to recursively check if the list is present in the tree or not.</li>
+</ol>
+<p><code>dfs</code> function:
+We can use this function to check if the list is present starting from a given tree node.</p>
+<ul>
+<li>If the list is empty then it is always present in the tree. Hence return true.</li>
+<li>If the tree node is empty then the list is not present in the tree. Hence return false.</li>
+<li>If the value of the tree node is not equal to the value of the list node then list wont be starting from this node. Hence return false.</li>
+<li>If it satisfies the above conditions then it means the current tree node is representing the current list node. Hence we need to check if the next list node is present in either left or right subtree of the current tree node.</li>
+</ul>
+<p><code>isSubPath</code> function:
+We can use this function to find the possible starting node of the list in the tree.</p>
+<ul>
+<li>If the tree is empty then the list is not present in the tree. Hence return false.</li>
+<li>If the DFS function returns true then it means the list is present in the tree. Hence return true.</li>
+<li>If the DFS function returns false then we need to recursively check if the starting node of the list is present in the left or right subtree of the tree.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -806,16 +770,22 @@ $$<ul>
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a variable <span style="color:#e6db74">`tot`</span> to store the sum of <span style="color:#e6db74">`m`</span> rolls.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a variable <span style="color:#e6db74">`sum`</span> to store the sum of <span style="color:#e6db74">`n`</span> rolls.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the <span style="color:#e6db74">`rolls`</span> array and accumulate the sum of <span style="color:#e6db74">`m`</span> rolls.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Calculate the sum of <span style="color:#e6db74">`n`</span> rolls using the formula <span style="color:#e6db74">`mean * (n + rolls.size()) - tot`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the sum of <span style="color:#e6db74">`n`</span> rolls is greater than <span style="color:#e6db74">`6*n`</span> or less than <span style="color:#e6db74">`n`</span>, return an empty array.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Calculate the lower bound of each die roll using the formula <span style="color:#e6db74">`sum / n`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Calculate the remainder using the formula <span style="color:#e6db74">`sum % n`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a vector <span style="color:#e6db74">`ans`</span> of size <span style="color:#e6db74">`n`</span> and fill it with the lower bound of each die roll.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Distribute the remainder among the <span style="color:#e6db74">`n`</span> rolls.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the <span style="color:#e6db74">`ans`</span> vector.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`dfs`</span> function is used to check if the list is present starting from a given tree node.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Input: listnode, treenode
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Output: boolean
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If listnode is empty then return true.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If treenode is empty then return false.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If treenode value is not equal to listnode value then return false.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursive case: If the above conditions are not satisfied then check if the <span style="color:#e6db74">`next`</span> listnode is present in
+</span></span><span style="display:flex;"><span>  either left or right subtree of the current treenode.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`isSubPath`</span> function is used to find the possible starting node of the list in the tree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Input: listnode, treenode
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Output: boolean
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If treenode is empty then return false.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If dfs function returns true then return true. Indicates the list is present in the tree.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursive case: If the dfs function returns false then check if the starting node of the list is present in
+</span></span><span style="display:flex;"><span>  either left or right subtree of the current treenode.
 </span></span></code></pre></div>
 
 
@@ -829,17 +799,13 @@ $$<ul>
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1367 Linked List in Binary Tree </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/">
+    <a class="next" href="/blog/leetcode-potd/problem-2028-find-missing-observations/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1945 Sum of Digits of String After Convert </span>
+      <span> Problem 2028 Find Missing Observations </span>
     </a>
   
 </nav>

@@ -1,19 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
-    <lastmod>2024-09-06T10:54:36+05:30</lastmod>
+    <loc>https://KTS-o7.github.io/blog/tags/binary-tree/</loc>
+    <lastmod>2024-09-07T13:48:11+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2028-find-missing-observations/</loc>
-    <lastmod>2024-09-06T10:54:36+05:30</lastmod>
+    <loc>https://KTS-o7.github.io/blog/tags/dfs/</loc>
+    <lastmod>2024-09-07T13:48:11+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <lastmod>2024-09-07T13:48:11+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
+    <lastmod>2024-09-07T13:48:11+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/</loc>
+    <lastmod>2024-09-07T13:48:11+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/recursion/</loc>
+    <lastmod>2024-09-07T13:48:11+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-09-07T13:48:11+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-09-07T13:48:11+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2028-find-missing-observations/</loc>
     <lastmod>2024-09-06T10:54:36+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -38,12 +74,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
-    <lastmod>2024-09-03T13:14:25+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
     <lastmod>2024-09-03T13:14:25+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -157,26 +187,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-tree/</loc>
-    <lastmod>2024-08-30T23:54:17+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/</loc>
     <lastmod>2024-08-30T23:54:17+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/recursion/</loc>
-    <lastmod>2024-08-30T23:54:17+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dfs/</loc>
-    <lastmod>2024-08-29T21:35:03+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -603,12 +615,6 @@
   <url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</loc>
     <lastmod>2024-07-29T22:05:47+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
-    <lastmod>2024-07-29T19:41:13+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
