@@ -6,8 +6,15 @@
     <description>Recent content in Pointers on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2024 19:41:13 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 14:29:52 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/pointers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 725 Split Linked List in Parts</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-725-split-linked-list-in-parts/</link>
+      <pubDate>Sun, 08 Sep 2024 14:29:52 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-725-split-linked-list-in-parts/</guid>
+      <description>Problem Statement Link - Problem 725 Question Given the head of a singly linked list and an integer k, split the linked list into k consecutive linked list parts.</description>
+    </item>
     <item>
       <title>Problem 3217 Delete Nodes From Linked List Present in Array</title>
       <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3217-delete-nodes-from-linked-list-present-in-array/</link>

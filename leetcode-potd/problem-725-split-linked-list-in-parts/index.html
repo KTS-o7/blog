@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1367 Linked List in Binary Tree &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1367 Linked List in Binary Tree &middot; The Indian Engineer" />
+  <title>Problem 725 Split Linked List in Parts &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 725 Split Linked List in Parts &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="binary-tree, linked-list, dfs, recursion, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/" />
+  <meta name="keywords" content="linked-list, pointers, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-725-split-linked-list-in-parts/" />
 
   
 
@@ -82,25 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-725-split-linked-list-in-parts/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1367 Linked List in Binary Tree">
-  <meta property="og:description" content="Problem Statement Link - Problem Question Given a binary tree root and a linked list with head as the first node.">
+  <meta property="og:title" content="Problem 725 Split Linked List in Parts">
+  <meta property="og:description" content="Problem Statement Link - Problem 725 Question Given the head of a singly linked list and an integer k, split the linked list into k consecutive linked list parts.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-07T13:48:11+05:30">
-    <meta property="article:modified_time" content="2024-09-07T13:48:11+05:30">
-    <meta property="article:tag" content="Binary-Tree">
+    <meta property="article:published_time" content="2024-09-08T14:29:52+05:30">
+    <meta property="article:modified_time" content="2024-09-08T14:29:52+05:30">
     <meta property="article:tag" content="Linked-List">
-    <meta property="article:tag" content="Dfs">
-    <meta property="article:tag" content="Recursion">
+    <meta property="article:tag" content="Pointers">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1367 Linked List in Binary Tree">
-  <meta name="twitter:description" content="Problem Statement Link - Problem Question Given a binary tree root and a linked list with head as the first node.">
+  <meta name="twitter:title" content="Problem 725 Split Linked List in Parts">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 725 Question Given the head of a singly linked list and an integer k, split the linked list into k consecutive linked list parts.">
 
   
 
@@ -397,7 +395,7 @@
 
 
 
-<h1 class="pg-title">Problem 1367 Linked List in Binary Tree</h1>
+<h1 class="pg-title">Problem 725 Split Linked List in Parts</h1>
 
 
 <div class="meta">
@@ -417,7 +415,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-07T13:48:11&#43;05:30">Sep 7, 2024</time>
+  Posted on <time datetime="2024-09-08T14:29:52&#43;05:30">Sep 8, 2024</time>
   
   
   
@@ -434,7 +432,7 @@
 
 </span>
   
-    5 mins
+    4 mins
   
 
 
@@ -451,13 +449,9 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/binary-tree/">Binary-Tree</a>
-  
   <a class="tag" href="/blog/tags/linked-list/">Linked-List</a>
   
-  <a class="tag" href="/blog/tags/dfs/">Dfs</a>
-  
-  <a class="tag" href="/blog/tags/recursion/">Recursion</a>
+  <a class="tag" href="/blog/tags/pointers/">Pointers</a>
   
 </p>
 
@@ -479,7 +473,6 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
-    <li><a href="#example-3">Example 3</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
@@ -510,7 +503,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/linked-list-in-binary-tree/description/" target="_blank">Problem </a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/split-linked-list-in-parts/description/" target="_blank">Problem 725</a>
 </p>
 
 <h2 id="question">
@@ -524,8 +517,10 @@
  </a>
   
 </h2>
-<p>Given a binary tree <code>root</code> and a linked list with <code>head</code> as the first node.</p>
-<p>Return True if all the elements in the linked list starting from the <code>head</code> correspond to some downward path connected in the binary tree otherwise return False.</p>
+<p>Given the <code>head</code> of a singly linked list and an integer <code>k</code>, split the linked list into <code>k</code> consecutive linked list parts.</p>
+<p>The length of each part should be as equal as possible: no two parts should have a size differing by more than one. This may lead to some parts being null.</p>
+<p>The parts should be in the order of occurrence in the input list, and parts occurring earlier should always have a size greater than or equal to parts occurring later.</p>
+<p>Return an array of the <code>k</code> parts.</p>
 
 <h2 id="example-1">
   Example 1
@@ -553,15 +548,16 @@
 
 
 
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2020/02/12/sample_1_1720.png" alt="img1" />
+  <img loading="lazy" src="https://assets.leetcode.com/uploads/2021/06/13/split1-lc.jpg" alt="img1" />
 
 
 
 </p>
-<pre tabindex="0"><code>Input: head = [4,2,8],
-       root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
-Output: true
-Explanation: Nodes in blue form a subpath in the binary Tree.
+<pre tabindex="0"><code>Input: head = [1,2,3], k = 5
+Output: [[1],[2],[3],[],[]]
+Explanation:
+The first element output[0] has output[0].val = 1, output[0].next = null.
+The last element output[4] is null, but its string representation as a ListNode is [].
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -589,30 +585,16 @@ Explanation: Nodes in blue form a subpath in the binary Tree.
 
 
 
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2020/02/12/sample_2_1720.png" alt="img2" />
+  <img loading="lazy" src="https://assets.leetcode.com/uploads/2021/06/13/split2-lc.jpg" alt="img2" />
 
 
 
 </p>
-<pre tabindex="0"><code>Input: head = [1,4,2,6],
-       root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
-Output: true
-</code></pre>
-<h2 id="example-3">
-  Example 3
-  
-  <a hidden class="anchor" href="#example-3">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: head = [1,4,2,6,8],
-       root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
-Output: false
-Explanation: There is no path in the binary tree containing all the elements of the linked list from head.
+<pre tabindex="0"><code>Input: head = [1,2,3,4,5,6,7,8,9,10], k = 3
+Output: [[1,2,3,4],[5,6,7],[8,9,10]]
+Explanation:
+The input has been split into consecutive parts with size difference at most 1,
+and earlier parts are a larger size than the later parts.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -626,9 +608,9 @@ Explanation: There is no path in the binary tree containing all the elements of 
   
 </h2>
 <ul>
-<li>The number of nodes in the tree will be in the range <code>[1, 2500]</code>.</li>
-<li>The number of nodes in the list will be in the range <code>[1, 100]</code>.</li>
-<li><code>1 &lt;= Node.val &lt;= 100</code> for each node in the linked list and binary tree</li>
+<li>The number of nodes in the list is in the range <code>[0, 1000]</code>.</li>
+<li><code>0 &lt;= Node.val &lt;= 1000</code></li>
+<li><code>1 &lt;= k &lt;= 50</code></li>
 </ul>
 
 <h2 id="solution">
@@ -647,40 +629,44 @@ Explanation: There is no path in the binary tree containing all the elements of 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct ListNode {
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode *next;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode() : val(0), next(nullptr) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode(int x) : val(x), next(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode() : val(0), next(nullptrptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode(int x) : val(x), next(nullptrptr) {}
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode(int x, ListNode *next) : val(x), next(next) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * };
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">/**
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Definition for a binary tree node.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct TreeNode {
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *left;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *right;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * };
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> dfs(ListNode<span style="color:#f92672">*</span> head, TreeNode<span style="color:#f92672">*</span> root){
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(head <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> true;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root<span style="color:#f92672">==</span><span style="color:#66d9ef">nullptr</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root<span style="color:#f92672">-&gt;</span>val <span style="color:#f92672">!=</span> head<span style="color:#f92672">-&gt;</span>val)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">dfs</span>(head<span style="color:#f92672">-&gt;</span>next,root<span style="color:#f92672">-&gt;</span>left) <span style="color:#f92672">||</span> dfs(head<span style="color:#f92672">-&gt;</span>next,root<span style="color:#f92672">-&gt;</span>right);
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> <span style="color:#a6e22e">isSubPath</span>(ListNode<span style="color:#f92672">*</span> head, TreeNode<span style="color:#f92672">*</span> root) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(root <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(dfs(head,root))
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> true;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> isSubPath(head,root<span style="color:#f92672">-&gt;</span>left) <span style="color:#f92672">||</span> isSubPath(head,root<span style="color:#f92672">-&gt;</span>right);
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>ListNode<span style="color:#f92672">*&gt;</span> splitListToParts(ListNode<span style="color:#f92672">*</span> head, <span style="color:#66d9ef">int</span> k)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        ListNode<span style="color:#f92672">*</span> curr<span style="color:#f92672">=</span>head;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(curr){
+</span></span><span style="display:flex;"><span>            curr<span style="color:#f92672">=</span>curr<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>            n<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> q <span style="color:#f92672">=</span> n<span style="color:#f92672">/</span>k;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> r <span style="color:#f92672">=</span> n<span style="color:#f92672">%</span>k;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> grplen(k, q);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>r; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>            grplen[i]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>ListNode<span style="color:#f92672">*&gt;</span> ans(k);
+</span></span><span style="display:flex;"><span>        curr<span style="color:#f92672">=</span>head;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>k; i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            ans[i]<span style="color:#f92672">=</span>curr;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>            ListNode<span style="color:#f92672">*</span> prev<span style="color:#f92672">=</span><span style="color:#66d9ef">nullptr</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span>(j<span style="color:#f92672">&lt;</span>grplen[i]){
+</span></span><span style="display:flex;"><span>                prev<span style="color:#f92672">=</span>curr;
+</span></span><span style="display:flex;"><span>                curr<span style="color:#f92672">=</span>curr<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>                j<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (prev)
+</span></span><span style="display:flex;"><span>                prev<span style="color:#f92672">-&gt;</span>next<span style="color:#f92672">=</span><span style="color:#66d9ef">nullptr</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -695,10 +681,10 @@ Explanation: There is no path in the binary tree containing all the elements of 
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity              | Space Complexity             |
-</span></span><span style="display:flex;"><span>| --------- | ---------------------------- | ---------------------------- |
-</span></span><span style="display:flex;"><span>| DFS       | O(list.size() x tree.size()) | O(list.size() + tree.size()) |
-</span></span><span style="display:flex;"><span>| isSubPath | O(list.size() x tree.size()) | O(list.size() + tree.size()) |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                | Time Complexity | Space Complexity  |
+</span></span><span style="display:flex;"><span>| ---------------------------------------- | --------------- | ----------------- |
+</span></span><span style="display:flex;"><span>| Counting the number of nodes in the list | O(n)            | O(1)              |
+</span></span><span style="display:flex;"><span>| Splitting the list into k parts          | O(n)            | O(k)O(n/k) = O(n) |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -723,41 +709,61 @@ Explanation: There is no path in the binary tree containing all the elements of 
  </a>
   
 </h3>
-<p>Let&rsquo;s try to breakdown the meaning of the problem.
-We need to find if the linked list is present in the binary tree or not.
-Conditions to check:</p>
+<p>Lets try to understand what the problem is asking</p>
 <ol>
-<li>If list is empty it is always present in the tree.</li>
-<li>If tree is empty and list is not empty then it is not present in the tree.</li>
-<li>A list may be starting from any node in the tree.</li>
-<li>If we get the starting node of the list in the tree then we need to check if the list is present in the tree or not.</li>
+<li>We need to split the linked list into <code>k</code> parts.</li>
+<li>Each part must be independent of each other.</li>
+<li>The length of each part should be as equal as possible.</li>
+<li>The difference between the length of any two parts should not be more than 1.</li>
+<li>The parts should be in the order of occurrence in the input list.</li>
+<li>We need to use same nodes and not create new nodes.</li>
 </ol>
-<p>Using the above conditions few points to be noted:</p>
+<p>Given this information, we can draw the following conclusions:</p>
 <ul>
-<li>We need to check depth wise if the list is present in the tree or not. Hence we need to use DFS.</li>
-<li>We need to check recursively if the list is present in the left or right subtree of the tree.</li>
+<li>First divide the total number of nodes in the list by <code>k</code> to get the number of minimum nodes in each part and how many nodes will be left.</li>
+<li>Then we can distribute the remaining nodes among the first <code>r</code> parts one at a time.</li>
+<li>So we need to keep track of the number of nodes in each part.</li>
+<li>Then we need to split the list into <code>k</code> parts and return the vector of parts.</li>
 </ul>
-<p>Possible edge cases:</p>
-<ol>
-<li>If the tree is empty then the list is not present in the tree. Hence return false.</li>
-<li>If the list is empty then the list is always present in the tree. Hence return true.</li>
-<li>If the list is not empty and tree is not empty then we need to recursively check if the list is present in the tree or not.</li>
-</ol>
-<p><code>dfs</code> function:
-We can use this function to check if the list is present starting from a given tree node.</p>
-<ul>
-<li>If the list is empty then it is always present in the tree. Hence return true.</li>
-<li>If the tree node is empty then the list is not present in the tree. Hence return false.</li>
-<li>If the value of the tree node is not equal to the value of the list node then list wont be starting from this node. Hence return false.</li>
-<li>If it satisfies the above conditions then it means the current tree node is representing the current list node. Hence we need to check if the next list node is present in either left or right subtree of the current tree node.</li>
-</ul>
-<p><code>isSubPath</code> function:
-We can use this function to find the possible starting node of the list in the tree.</p>
-<ul>
-<li>If the tree is empty then the list is not present in the tree. Hence return false.</li>
-<li>If the DFS function returns true then it means the list is present in the tree. Hence return true.</li>
-<li>If the DFS function returns false then we need to recursively check if the starting node of the list is present in the left or right subtree of the tree.</li>
-</ul>
+<p>Iterative idea to split a list into <code>2</code> parts:</p>
+<pre tabindex="0"><code>First run a loop to count the number of nodes in the list.
+ListNode* curr=head;
+int n=0;
+while(curr){
+    curr=curr-&gt;next;
+    n++;
+}
+
+int q = n/2;
+int r = n%2;
+
+vector&lt;int&gt; grplen(2, q);
+if (r)
+    grplen[0]++;
+
+vector&lt;ListNode*&gt; ans(2);
+curr=head;
+
+for(int i=0; i&lt;2; i++){
+    ans[i]=curr;
+    int j=0;
+    ListNode* prev=nullptr;
+    while(j&lt;grplen[i]){
+        prev=curr;
+        curr=curr-&gt;next;
+        j++;
+    }
+    if (prev)
+        prev-&gt;next=nullptr;
+}
+</code></pre><p>In the above code we split the list into <code>2</code> parts.</p>
+<blockquote>
+<p><code>prev</code> pointer will always point to the last node of the part.
+<code>curr</code> pointer will always point to the first node of the next part.
+Always push the <code>curr</code> pointer into the <code>ans</code> vector.
+then move <code>curr</code> and <code>prev</code> to next nodes until the length of the part is reached.
+If <code>prev</code> is not <code>nullptr</code> then make the <code>prev-&gt;next</code> as <code>nullptr</code>. This will split the list into parts.</p>
+</blockquote>
 
 <h3 id="2-implementation">
   2. Implementation
@@ -770,22 +776,21 @@ We can use this function to find the possible starting node of the list in the t
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`dfs`</span> function is used to check if the list is present starting from a given tree node.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Input: listnode, treenode
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Output: boolean
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If listnode is empty then return true.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If treenode is empty then return false.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If treenode value is not equal to listnode value then return false.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursive case: If the above conditions are not satisfied then check if the <span style="color:#e6db74">`next`</span> listnode is present in
-</span></span><span style="display:flex;"><span>  either left or right subtree of the current treenode.
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`isSubPath`</span> function is used to find the possible starting node of the list in the tree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Input: listnode, treenode
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Output: boolean
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If treenode is empty then return false.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Base case: If dfs function returns true then return true. Indicates the list is present in the tree.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Recursive case: If the dfs function returns false then check if the starting node of the list is present in
-</span></span><span style="display:flex;"><span>  either left or right subtree of the current treenode.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> initialize <span style="color:#e6db74">`curr`</span> to <span style="color:#e6db74">`head`</span> and <span style="color:#e6db74">`n`</span> to <span style="color:#e6db74">`0`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> run a loop to count the number of nodes in the list.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> initialize <span style="color:#e6db74">`q`</span> to <span style="color:#e6db74">`n/k`</span> and <span style="color:#e6db74">`r`</span> to <span style="color:#e6db74">`n%k`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> initialize a vector <span style="color:#e6db74">`grplen`</span> of size <span style="color:#e6db74">`k`</span> and fill it with <span style="color:#e6db74">`q`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> run a loop from <span style="color:#e6db74">`0`</span> to <span style="color:#e6db74">`r`</span> and increment the value of <span style="color:#e6db74">`grplen[i]`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> initialize a vector <span style="color:#e6db74">`ans`</span> of size <span style="color:#e6db74">`k`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> for each index <span style="color:#e6db74">`i`</span> from <span style="color:#e6db74">`0`</span> to <span style="color:#e6db74">`k`</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> push the <span style="color:#e6db74">`curr`</span> into the <span style="color:#e6db74">`ans`</span> vector.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> initialize <span style="color:#e6db74">`j`</span> to <span style="color:#e6db74">`0`</span> and <span style="color:#e6db74">`prev`</span> to <span style="color:#e6db74">`nullptr`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> run a loop until <span style="color:#e6db74">`j`</span> is less than <span style="color:#e6db74">`grplen[i]`</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> update <span style="color:#e6db74">`prev`</span> to <span style="color:#e6db74">`curr`</span>.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> update <span style="color:#e6db74">`curr`</span> to <span style="color:#e6db74">`curr-&gt;next`</span>.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> increment <span style="color:#e6db74">`j`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> if <span style="color:#e6db74">`prev`</span> is not <span style="color:#e6db74">`nullptr`</span> then make <span style="color:#e6db74">`prev-&gt;next`</span> as <span style="color:#e6db74">`nullptr`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> return the <span style="color:#e6db74">`ans`</span> vector.
 </span></span></code></pre></div>
 
 
@@ -799,17 +804,13 @@ We can use this function to find the possible starting node of the list in the t
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-725-split-linked-list-in-parts/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 725 Split Linked List in Parts </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2028-find-missing-observations/">
+    <a class="next" href="/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2028 Find Missing Observations </span>
+      <span> Problem 1367 Linked List in Binary Tree </span>
     </a>
   
 </nav>

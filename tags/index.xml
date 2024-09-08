@@ -6,8 +6,22 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Sep 2024 13:48:11 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 14:29:52 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linked-List</title>
+      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
+      <pubDate>Sun, 08 Sep 2024 14:29:52 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pointers</title>
+      <link>https://KTS-o7.github.io/blog/tags/pointers/</link>
+      <pubDate>Sun, 08 Sep 2024 14:29:52 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/pointers/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Binary-Tree</title>
       <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
@@ -20,13 +34,6 @@
       <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
       <pubDate>Sat, 07 Sep 2024 13:48:11 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linked-List</title>
-      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
-      <pubDate>Sat, 07 Sep 2024 13:48:11 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
       <description></description>
     </item>
     <item>
@@ -370,13 +377,6 @@
       <link>https://KTS-o7.github.io/blog/tags/inorder-traversal/</link>
       <pubDate>Mon, 29 Jul 2024 23:09:53 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/inorder-traversal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pointers</title>
-      <link>https://KTS-o7.github.io/blog/tags/pointers/</link>
-      <pubDate>Mon, 29 Jul 2024 19:41:13 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/pointers/</guid>
       <description></description>
     </item>
     <item>
