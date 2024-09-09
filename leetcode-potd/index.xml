@@ -6,8 +6,15 @@
     <description>Recent content in Leetcode POTDs on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Sep 2024 14:29:52 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2024 12:43:46 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/leetcode-potd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 2326 Spiral Matrix IV</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</link>
+      <pubDate>Mon, 09 Sep 2024 12:43:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</guid>
+      <description>Problem Statement Link - Problem 2326 Question You are given two integers m and n, which represent the dimensions of a matrix.</description>
+    </item>
     <item>
       <title>Problem 725 Split Linked List in Parts</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-725-split-linked-list-in-parts/</link>
