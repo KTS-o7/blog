@@ -6,8 +6,15 @@
     <description>Recent content on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2024 12:43:46 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 09:14:53 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 2807 Insert Greatest Common Divisors in Linked List</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</link>
+      <pubDate>Tue, 10 Sep 2024 09:14:53 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</guid>
+      <description>Problem Statement Link - Problem 2807 Question Given the head of a linked list head, in which each node contains an integer value.</description>
+    </item>
     <item>
       <title>Problem 2326 Spiral Matrix IV</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</link>
