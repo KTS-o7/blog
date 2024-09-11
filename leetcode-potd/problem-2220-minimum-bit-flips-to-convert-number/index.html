@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2807 Insert Greatest Common Divisors in Linked List &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2807 Insert Greatest Common Divisors in Linked List &middot; The Indian Engineer" />
+  <title>Problem 2220 Minimum Bit Flips to Convert Number &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2220 Minimum Bit Flips to Convert Number &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="linked-list, math, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/" />
+  <meta name="keywords" content="bit-manipulation, xor, count, hamming-distance, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/" />
 
   
 
@@ -82,23 +82,25 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2807 Insert Greatest Common Divisors in Linked List">
-  <meta property="og:description" content="Problem Statement Link - Problem 2807 Question Given the head of a linked list head, in which each node contains an integer value.">
+  <meta property="og:title" content="Problem 2220 Minimum Bit Flips to Convert Number">
+  <meta property="og:description" content="Problem Statement Link - Problem 2220 Question A bit flip of a number x is choosing a bit in the binary representation of x and flipping it from either 0 to 1 or 1 to 0.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-10T09:14:53+05:30">
-    <meta property="article:modified_time" content="2024-09-10T09:14:53+05:30">
-    <meta property="article:tag" content="Linked-List">
-    <meta property="article:tag" content="Math">
+    <meta property="article:published_time" content="2024-09-11T09:20:56+05:30">
+    <meta property="article:modified_time" content="2024-09-11T09:20:56+05:30">
+    <meta property="article:tag" content="Bit-Manipulation">
+    <meta property="article:tag" content="XOR">
+    <meta property="article:tag" content="Count">
+    <meta property="article:tag" content="Hamming-Distance">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2807 Insert Greatest Common Divisors in Linked List">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 2807 Question Given the head of a linked list head, in which each node contains an integer value.">
+  <meta name="twitter:title" content="Problem 2220 Minimum Bit Flips to Convert Number">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 2220 Question A bit flip of a number x is choosing a bit in the binary representation of x and flipping it from either 0 to 1 or 1 to 0.">
 
   
 
@@ -107,17 +109,6 @@
 
 
 
-
-  
-  
-  
-  
-  <script
-    defer
-    type="text/javascript"
-    src="/blog/js/mermaid.bundle.3c45d0c5567968acc66df8adf21571bdbce49f6b573915e689c285161834451577ed2aedd6c9fa3e89331aabc10b7e642d824c45b688a26f948567f4573c9dc9.js"
-    integrity="sha512-PEXQxVZ5aKzGbfit8hVxvbzkn2tXORXmicKFFhg0RRV37Srt1sn6PokzGqvBC35kLYJMRbaIom&#43;UhWf0VzydyQ=="
-  ></script>
 
 
 
@@ -406,7 +397,7 @@
 
 
 
-<h1 class="pg-title">Problem 2807 Insert Greatest Common Divisors in Linked List</h1>
+<h1 class="pg-title">Problem 2220 Minimum Bit Flips to Convert Number</h1>
 
 
 <div class="meta">
@@ -426,7 +417,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-10T09:14:53&#43;05:30">Sep 10, 2024</time>
+  Posted on <time datetime="2024-09-11T09:20:56&#43;05:30">Sep 11, 2024</time>
   
   
   
@@ -460,9 +451,13 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/linked-list/">Linked-List</a>
+  <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
   
-  <a class="tag" href="/blog/tags/math/">Math</a>
+  <a class="tag" href="/blog/tags/xor/">XOR</a>
+  
+  <a class="tag" href="/blog/tags/count/">Count</a>
+  
+  <a class="tag" href="/blog/tags/hamming-distance/">Hamming-Distance</a>
   
 </p>
 
@@ -514,7 +509,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/" target="_blank">Problem 2807</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/" target="_blank">Problem 2220</a>
 </p>
 
 <h2 id="question">
@@ -528,10 +523,9 @@
  </a>
   
 </h2>
-<p>Given the head of a linked list <code>head</code>, in which each node contains an integer value.</p>
-<p>Between every pair of adjacent nodes, insert a new node with a value equal to the greatest common divisor of them.</p>
-<p>Return the linked list after insertion.</p>
-<p>The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.</p>
+<p>A bit flip of a number <code>x</code> is choosing a bit in the binary representation of <code>x</code> and flipping it from either <code>0</code> to <code>1</code> or <code>1</code> to <code>0</code>.</p>
+<p>For example, for <code>x = 7</code>, the binary representation is <code>111</code> and we may choose any bit (including any leading zeros not shown) and flip it. We can flip the first bit from the right to get <code>110</code>, flip the second bit from the right to get <code>101</code>, flip the fifth bit from the right (a leading zero) to get <code>10111</code>, etc.
+Given two integers <code>start</code> and <code>goal</code>, return the minimum number of bit flips to convert <code>start</code> to <code>goal</code></p>
 
 <h2 id="example-1">
   Example 1
@@ -544,34 +538,14 @@
  </a>
   
 </h2>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <img loading="lazy" src="https://assets.leetcode.com/uploads/2023/07/18/ex1_copy.png" alt="img1" />
-
-
-
-</p>
-<pre tabindex="0"><code>Input: head = [18,6,10,3]
-Output: [18,6,6,2,10,1,3]
-Explanation: The 1st diagram denotes the initial linked list
-the 2nd diagram denotes the linked list after inserting the new nodes (nodes in blue are the inserted nodes).
-- We insert the greatest common divisor of 18 and 6 = 6 between the 1st and the 2nd nodes.
-- We insert the greatest common divisor of 6 and 10 = 2 between the 2nd and the 3rd nodes.
-- We insert the greatest common divisor of 10 and 3 = 1 between the 3rd and the 4th nodes.
-There are no more adjacent nodes, so we return the linked list.
+<pre tabindex="0"><code>Input: start = 10, goal = 7
+Output: 3
+Explanation: The binary representation of 10 and 7 are 1010 and 0111 respectively.
+We can convert 10 to 7 in 3 steps:
+- Flip the first bit from the right: 1010 -&gt; 1011.
+- Flip the third bit from the right: 1011 -&gt; 1111.
+- Flip the fourth bit from the right: 1111 -&gt; 0111.
+It can be shown we cannot convert 10 to 7 in less than 3 steps. Hence, we return 3.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -584,18 +558,14 @@ There are no more adjacent nodes, so we return the linked list.
  </a>
   
 </h2>
-<div class="mermaid" align="center">
-  
-flowchart LR
-A[7] --> B[7]
-
-</div>
-
-<pre tabindex="0"><code>Input: head = [7]
-Output: [7]
-Explanation: The 1st diagram denotes the initial linked list
-the 2nd diagram denotes the linked list after inserting the new nodes.
-There are no pairs of adjacent nodes, so we return the initial linked list.
+<pre tabindex="0"><code>Input: start = 3, goal = 4
+Output: 3
+Explanation: The binary representation of 3 and 4 are 011 and 100 respectively.
+We can convert 3 to 4 in 3 steps:
+- Flip the first bit from the right: 011 -&gt; 010.
+- Flip the second bit from the right: 010 -&gt; 000.
+- Flip the third bit from the right: 000 -&gt; 100.
+It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 3.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -609,8 +579,7 @@ There are no pairs of adjacent nodes, so we return the initial linked list.
   
 </h2>
 <ul>
-<li>The number of nodes in the list is in the range <code>[1, 5000]</code>.</li>
-<li><code>1 &lt;= Node.val &lt;= 1000</code></li>
+<li>1&lt;= <code>start</code>, <code>goal</code> &lt;= 10<sup>9</sup></li>
 </ul>
 
 <h2 id="solution">
@@ -624,47 +593,39 @@ There are no pairs of adjacent nodes, so we return the initial linked list.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/**
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Definition for singly-linked list.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct ListNode {
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode *next;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode() : val(0), next(nullptr) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode(int x) : val(x), next(nullptr) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     ListNode(int x, ListNode *next) : val(x), next(next) {}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * };
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// Bruteforce - check each bit and count if not equal
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> gcd(<span style="color:#66d9ef">int</span> a, <span style="color:#66d9ef">int</span> b) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> temp;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(a<span style="color:#f92672">&lt;</span>b)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> gcd(b,a);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (b <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>) {
-</span></span><span style="display:flex;"><span>            temp <span style="color:#f92672">=</span> a <span style="color:#f92672">%</span> b;
-</span></span><span style="display:flex;"><span>            a <span style="color:#f92672">=</span> b;
-</span></span><span style="display:flex;"><span>            b <span style="color:#f92672">=</span> temp;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minBitFlips(<span style="color:#66d9ef">int</span> start, <span style="color:#66d9ef">int</span> goal) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (start <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">||</span> goal <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> ((start <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">!=</span> (goal <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">1</span>)) {
+</span></span><span style="display:flex;"><span>                count<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            start <span style="color:#f92672">&gt;&gt;=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>            goal <span style="color:#f92672">&gt;&gt;=</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> a;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    ListNode<span style="color:#f92672">*</span> <span style="color:#a6e22e">insertGreatestCommonDivisors</span>(ListNode<span style="color:#f92672">*</span> head) {
-</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>ios<span style="color:#f92672">::</span>sync_with_stdio(false);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>head <span style="color:#f92672">||</span> <span style="color:#f92672">!</span>head<span style="color:#f92672">-&gt;</span>next)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> head;
+</span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        ListNode<span style="color:#f92672">*</span> prev <span style="color:#f92672">=</span> head;
-</span></span><span style="display:flex;"><span>        ListNode<span style="color:#f92672">*</span> curr <span style="color:#f92672">=</span> prev<span style="color:#f92672">-&gt;</span>next;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(curr<span style="color:#f92672">!=</span><span style="color:#66d9ef">nullptr</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> f <span style="color:#f92672">=</span> gcd(prev<span style="color:#f92672">-&gt;</span>val,curr<span style="color:#f92672">-&gt;</span>val);
-</span></span><span style="display:flex;"><span>            ListNode<span style="color:#f92672">*</span> temp <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ListNode(f,curr);
-</span></span><span style="display:flex;"><span>            prev<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> temp;
-</span></span><span style="display:flex;"><span>            prev <span style="color:#f92672">=</span> curr;
-</span></span><span style="display:flex;"><span>            curr<span style="color:#f92672">=</span>curr<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Optimized - XOR and count set bits
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minBitFlips(<span style="color:#66d9ef">int</span> start, <span style="color:#66d9ef">int</span> goal) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> start <span style="color:#f92672">^</span> goal; x <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>; x <span style="color:#f92672">&gt;&gt;=</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>            count <span style="color:#f92672">+=</span> x <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> head;
-</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Using built-in function
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minBitFlips(<span style="color:#66d9ef">int</span> start, <span style="color:#66d9ef">int</span> goal) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">__builtin_popcount</span>(start <span style="color:#f92672">^</span> goal);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -679,11 +640,11 @@ There are no pairs of adjacent nodes, so we return the initial linked list.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity   | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------- | ----------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| GCD       | O(log(min(a,b)))  | O(1)             |
-</span></span><span style="display:flex;"><span>| Traverse  | O(n)              | O(1)             |
-</span></span><span style="display:flex;"><span>| Total     | O(nlog(min(a,b))) | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm  | Time Complexity               | Space Complexity |
+</span></span><span style="display:flex;"><span>| ---------- | ----------------------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Bruteforce | O(max(log(start), log(goal))) | O(1)             |
+</span></span><span style="display:flex;"><span>| Optimized  | O(log(start ^ goal))          | O(1)             |
+</span></span><span style="display:flex;"><span>| Built-in   | O(1)                          | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -708,14 +669,12 @@ There are no pairs of adjacent nodes, so we return the initial linked list.
  </a>
   
 </h3>
-<p>The problem is straightforward.
-For each pair of adjacent nodes, we need to find GCD and insert a new node with the GCD value between them.</p>
+<p>The problem is asking to find the minimum number of bit flips to convert <code>start</code> to <code>goal</code>.
+In other words, we need to find the number of bits which are different in <code>start</code> and <code>goal</code>.</p>
 <ul>
-<li>We can find the GCD of two numbers using the Euclidean algorithm.</li>
-<li>Two pointers <code>prev</code> and <code>curr</code> are used to traverse the linked list.</li>
-<li>We iterate over the linked list until <code>curr</code> is not <code>nullptr</code>.</li>
-<li>For each pair of adjacent nodes, we find the GCD and insert a new node with the GCD value between them.</li>
-<li>We update the <code>prev</code> and <code>curr</code> pointers accordingly.</li>
+<li>XOR operation on two numbers will provide <code>1</code> at the bit position where the bits are different and <code>0</code> where they are the same.</li>
+<li>XOR operation on input numbers will produce a new number with <code>1</code> at the bit position where the bits are different.</li>
+<li>If we count the number of <code>1</code>s in the new number, it will give the number of bits that are different in the input numbers.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -729,16 +688,19 @@ For each pair of adjacent nodes, we need to find GCD and insert a new node with 
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the linked list is empty or contains only one node, we return the linked list as it is.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize two pointers <span style="color:#e6db74">`prev`</span> and <span style="color:#e6db74">`curr`</span> to the head of the linked list.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the linked list until <span style="color:#e6db74">`curr`</span> is not <span style="color:#e6db74">`nullptr`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each pair of adjacent nodes, find the GCD of their values.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Create a new node with the GCD value and insert it between the <span style="color:#e6db74">`prev`</span> and <span style="color:#e6db74">`curr`</span> nodes.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Point the <span style="color:#e6db74">`next`</span> pointer of the <span style="color:#e6db74">`prev`</span> node to the new node.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Point the next of the new node to the <span style="color:#e6db74">`curr`</span> node.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Update the <span style="color:#e6db74">`prev`</span> and <span style="color:#e6db74">`curr`</span> pointers to move to the next pair of nodes.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the head of the modified linked list.
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Initialize a variable <span style="color:#e6db74">`count`</span> to <span style="color:#e6db74">`0`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> Iterate over the XOR of <span style="color:#e6db74">`start`</span> and <span style="color:#e6db74">`goal`</span> until it becomes <span style="color:#e6db74">`0`</span>.
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">-</span> If the last bit of the XOR is <span style="color:#e6db74">`1`</span>, increment the <span style="color:#e6db74">`count`</span>.
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">-</span> Shift the XOR to the right by <span style="color:#e6db74">`1`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">3.</span> Return the <span style="color:#e6db74">`count`</span>.
+</span></span></code></pre></div><blockquote>
+<p>This problem is exactly the same as counting the Hamming distance between two numbers.</p>
+</blockquote>
+<blockquote>
+<p>Leetcode Hamming Distance - <a href="https://leetcode.com/problems/hamming-distance/description/" target="_blank">Problem 461</a>
+</p>
+</blockquote>
+
 
 
 
@@ -751,17 +713,13 @@ For each pair of adjacent nodes, we need to find GCD and insert a new node with 
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2220 Minimum Bit Flips to Convert Number </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2326-spiral-matrix-iv/">
+    <a class="next" href="/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2326 Spiral Matrix IV </span>
+      <span> Problem 2807 Insert Greatest Common Divisors in Linked List </span>
     </a>
   
 </nav>

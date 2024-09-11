@@ -6,8 +6,36 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Sep 2024 09:14:53 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2024 09:20:56 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bit-Manipulation</title>
+      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
+      <pubDate>Wed, 11 Sep 2024 09:20:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Count</title>
+      <link>https://KTS-o7.github.io/blog/tags/count/</link>
+      <pubDate>Wed, 11 Sep 2024 09:20:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/count/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hamming-Distance</title>
+      <link>https://KTS-o7.github.io/blog/tags/hamming-distance/</link>
+      <pubDate>Wed, 11 Sep 2024 09:20:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/hamming-distance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XOR</title>
+      <link>https://KTS-o7.github.io/blog/tags/xor/</link>
+      <pubDate>Wed, 11 Sep 2024 09:20:56 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/xor/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linked-List</title>
       <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
@@ -191,13 +219,6 @@
       <description></description>
     </item>
     <item>
-      <title>Count</title>
-      <link>https://KTS-o7.github.io/blog/tags/count/</link>
-      <pubDate>Sun, 25 Aug 2024 12:33:25 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/count/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Min-Heap</title>
       <link>https://KTS-o7.github.io/blog/tags/min-heap/</link>
       <pubDate>Sun, 25 Aug 2024 12:18:01 +0530</pubDate>
@@ -209,13 +230,6 @@
       <link>https://KTS-o7.github.io/blog/tags/regex/</link>
       <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/regex/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bit-Manipulation</title>
-      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
-      <pubDate>Thu, 22 Aug 2024 10:49:10 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
       <description></description>
     </item>
     <item>
@@ -643,13 +657,6 @@
       <link>https://KTS-o7.github.io/blog/tags/cpp/</link>
       <pubDate>Wed, 22 May 2024 23:39:58 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/cpp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>XOR</title>
-      <link>https://KTS-o7.github.io/blog/tags/xor/</link>
-      <pubDate>Sun, 19 May 2024 10:30:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/xor/</guid>
       <description></description>
     </item>
     <item>

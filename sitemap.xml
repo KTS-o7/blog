@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
+    <lastmod>2024-09-11T09:20:56+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/count/</loc>
+    <lastmod>2024-09-11T09:20:56+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/hamming-distance/</loc>
+    <lastmod>2024-09-11T09:20:56+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
-    <lastmod>2024-09-10T09:14:53+05:30</lastmod>
+    <lastmod>2024-09-11T09:20:56+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</loc>
+    <lastmod>2024-09-11T09:20:56+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-09-11T09:20:56+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-09-11T09:20:56+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/xor/</loc>
+    <lastmod>2024-09-11T09:20:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -20,18 +62,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</loc>
-    <lastmod>2024-09-10T09:14:53+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-09-10T09:14:53+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
     <lastmod>2024-09-10T09:14:53+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -307,12 +337,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/count/</loc>
-    <lastmod>2024-08-25T12:33:25+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</loc>
     <lastmod>2024-08-25T12:33:25+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -345,12 +369,6 @@
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/regex/</loc>
     <lastmod>2024-08-23T12:53:21+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
-    <lastmod>2024-08-22T10:49:10+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1256,12 +1274,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</loc>
-    <lastmod>2024-05-19T10:30:05+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/xor/</loc>
     <lastmod>2024-05-19T10:30:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
