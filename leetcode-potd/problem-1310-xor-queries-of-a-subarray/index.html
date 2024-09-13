@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1684 Count the Number of Consistent Strings &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1684 Count the Number of Consistent Strings &middot; The Indian Engineer" />
+  <title>Problem 1310 XOR Queries of a Subarray &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1310 XOR Queries of a Subarray &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="string, array, hash-map, hash-set, hash-map, count, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/" />
+  <meta name="keywords" content="xor, prefix-sum, bit-manipulation, array, range-query, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/" />
 
   
 
@@ -82,26 +82,26 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1684 Count the Number of Consistent Strings">
-  <meta property="og:description" content="Problem Statement Link - Problem 1684 Question You are given a string allowed consisting of distinct characters and an array of strings words.">
+  <meta property="og:title" content="Problem 1310 XOR Queries of a Subarray">
+  <meta property="og:description" content="Problem Statement Link - Problem 1310 Question You are given an array arr of positive integers.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-12T11:38:56+05:30">
-    <meta property="article:modified_time" content="2024-09-12T11:38:56+05:30">
-    <meta property="article:tag" content="String">
+    <meta property="article:published_time" content="2024-09-13T10:33:51+05:30">
+    <meta property="article:modified_time" content="2024-09-13T10:33:51+05:30">
+    <meta property="article:tag" content="XOR">
+    <meta property="article:tag" content="Prefix-Sum">
+    <meta property="article:tag" content="Bit-Manipulation">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Hash-Set">
-    <meta property="article:tag" content="Hash-Map">
-    <meta property="article:tag" content="Count">
+    <meta property="article:tag" content="Range-Query">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1684 Count the Number of Consistent Strings">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 1684 Question You are given a string allowed consisting of distinct characters and an array of strings words.">
+  <meta name="twitter:title" content="Problem 1310 XOR Queries of a Subarray">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 1310 Question You are given an array arr of positive integers.">
 
   
 
@@ -398,7 +398,7 @@
 
 
 
-<h1 class="pg-title">Problem 1684 Count the Number of Consistent Strings</h1>
+<h1 class="pg-title">Problem 1310 XOR Queries of a Subarray</h1>
 
 
 <div class="meta">
@@ -418,7 +418,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-12T11:38:56&#43;05:30">Sep 12, 2024</time>
+  Posted on <time datetime="2024-09-13T10:33:51&#43;05:30">Sep 13, 2024</time>
   
   
   
@@ -452,15 +452,15 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/xor/">XOR</a>
+  
+  <a class="tag" href="/blog/tags/prefix-sum/">Prefix-Sum</a>
+  
+  <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/hash-set/">Hash-Set</a>
-  
-  <a class="tag" href="/blog/tags/hash-map/">Hash-Map</a>
-  
-  <a class="tag" href="/blog/tags/count/">Count</a>
+  <a class="tag" href="/blog/tags/range-query/">Range-Query</a>
   
 </p>
 
@@ -482,7 +482,6 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
-    <li><a href="#example-3">Example 3</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
@@ -513,7 +512,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/count-the-number-of-consistent-strings/description/" target="_blank">Problem 1684</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/xor-queries-of-a-subarray/description/" target="_blank">Problem 1310</a>
 </p>
 
 <h2 id="question">
@@ -527,8 +526,9 @@
  </a>
   
 </h2>
-<p>You are given a string <code>allowed</code> consisting of distinct characters and an array of strings <code>words</code>. A string is consistent if all characters in the string appear in the string <code>allowed</code>.</p>
-<p>Return the number of consistent strings in the array <code>words</code>.</p>
+<p>You are given an array <code>arr</code> of positive integers. You are also given the array <code>queries</code> where <code>queries[i] = [lefti, righti]</code>.</p>
+<p>For each query <code>i</code> compute the XOR of elements from <code>lefti</code> to <code>righti</code> (that is, <code> arr[lefti] XOR arr[lefti + 1] XOR ... XOR arr[righti]</code> ).</p>
+<p>Return an array <code>answer</code> where <code>answer[i]</code> is the answer to the <code>ith</code> query.</p>
 
 <h2 id="example-1">
   Example 1
@@ -541,9 +541,19 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: allowed = &#34;ab&#34;, words = [&#34;ad&#34;,&#34;bd&#34;,&#34;aaab&#34;,&#34;baa&#34;,&#34;badab&#34;]
-Output: 2
-Explanation: Strings &#34;aaab&#34; and &#34;baa&#34; are consistent since they only contain characters &#39;a&#39; and &#39;b&#39;.
+<pre tabindex="0"><code>Input: arr = [1,3,4,8], queries = [[0,1],[1,2],[0,3],[3,3]]
+Output: [2,7,14,8]
+Explanation:
+The binary representation of the elements in the array are:
+1 = 0001
+3 = 0011
+4 = 0100
+8 = 1000
+The XOR values for queries are:
+[0,1] = 1 xor 3 = 2
+[1,2] = 3 xor 4 = 7
+[0,3] = 1 xor 3 xor 4 xor 8 = 14
+[3,3] = 8
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -556,24 +566,8 @@ Explanation: Strings &#34;aaab&#34; and &#34;baa&#34; are consistent since they 
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: allowed = &#34;abc&#34;, words = [&#34;a&#34;,&#34;b&#34;,&#34;c&#34;,&#34;ab&#34;,&#34;ac&#34;,&#34;bc&#34;,&#34;abc&#34;]
-Output: 7
-Explanation: All strings are consistent.
-</code></pre>
-<h2 id="example-3">
-  Example 3
-  
-  <a hidden class="anchor" href="#example-3">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: allowed = &#34;cad&#34;, words = [&#34;cc&#34;,&#34;acd&#34;,&#34;b&#34;,&#34;ba&#34;,&#34;bac&#34;,&#34;bad&#34;,&#34;ac&#34;,&#34;d&#34;]
-Output: 4
-Explanation: Strings &#34;cc&#34;, &#34;acd&#34;, &#34;ac&#34;, and &#34;d&#34; are consistent.
+<pre tabindex="0"><code>Input: arr = [4,8,2,10], queries = [[2,3],[1,3],[0,0],[0,3]]
+Output: [8,0,4,4]
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -587,11 +581,10 @@ Explanation: Strings &#34;cc&#34;, &#34;acd&#34;, &#34;ac&#34;, and &#34;d&#34; 
   
 </h2>
 <ul>
-<li>1 &lt;= <code>words.length</code> &lt;= 10<sup>4</sup></li>
-<li>1 &lt;= <code>allowed.length</code> &lt;= 26</li>
-<li>1 &lt;= <code>words[i].length</code> &lt;= 10</li>
-<li>The characters in <code>allowed</code> are distinct.</li>
-<li><code>words[i]</code> and <code>allowed</code> contain only lowercase English letters.</li>
+<li>1 &lt;= <code>arr.length</code> &lt;= 3 * 10<sup>4</sup></li>
+<li>1 &lt;= <code>arr[i]</code> &lt;= 10<sup>9</sup></li>
+<li><code>queries[i].length</code> == 2</li>
+<li>0 &lt;= <code>queries[i][0]</code> &lt;= <code>queries[i][1] &lt; arr.length</code></li>
 </ul>
 
 <h2 id="solution">
@@ -607,27 +600,26 @@ Explanation: Strings &#34;cc&#34;, &#34;acd&#34;, &#34;ac&#34;, and &#34;d&#34; 
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> countConsistentStrings(string allowed, vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;&amp;</span> words) {
-</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>ios<span style="color:#f92672">::</span>sync_with_stdio(false);
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>s(<span style="color:#ae81ff">26</span>,<span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>allowed.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            s[allowed[i]<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;a&#39;</span>]<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> flag <span style="color:#f92672">=</span> true;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> word:words){
-</span></span><span style="display:flex;"><span>            flag <span style="color:#f92672">=</span> true;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>word.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(s[word[i]<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;a&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>){
-</span></span><span style="display:flex;"><span>                    flag <span style="color:#f92672">=</span> false;
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">break</span>;
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(flag)
-</span></span><span style="display:flex;"><span>                count<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> xorQueries(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> arr, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> queries) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> arr.size();
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> prefixXOR(n);
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> ans;
 </span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        prefixXOR[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> arr[<span style="color:#ae81ff">0</span>];
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            prefixXOR[i] <span style="color:#f92672">=</span> prefixXOR[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">^</span> arr[i];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> queries.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (queries[i][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>                ans.push_back(prefixXOR[queries[i][<span style="color:#ae81ff">1</span>]]);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                ans.push_back(prefixXOR[queries[i][<span style="color:#ae81ff">1</span>]] <span style="color:#f92672">^</span> prefixXOR[queries[i][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>]);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -642,10 +634,10 @@ Explanation: Strings &#34;cc&#34;, &#34;acd&#34;, &#34;ac&#34;, and &#34;d&#34; 
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm       | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| frequency array | O(n)            | O(1)             |
-</span></span><span style="display:flex;"><span>| Counting        | O(nm)           | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm     | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Prefix XOR    | O(n)            | O(n)             |
+</span></span><span style="display:flex;"><span>| Range compute | O(n)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -670,15 +662,10 @@ Explanation: Strings &#34;cc&#34;, &#34;acd&#34;, &#34;ac&#34;, and &#34;d&#34; 
  </a>
   
 </h3>
-<p>Lets try to understand what the problem is asking.</p>
-<ul>
-<li>We are given a string <code>allowed</code> and an array of strings <code>words</code>.</li>
-<li>Count the number of strings in the array <code>words</code> which are made up of characters present in the string <code>allowed</code>.</li>
-<li>So we need a way to check if a character from the string <code>words</code> is present in the string <code>allowed</code>.</li>
-<li>So we can use a frequency array to store the frequency of characters in the string <code>allowed</code>.</li>
-<li>Then we can iterate over the array <code>words</code> and check if all the characters in the string <code>words</code> are present in the string <code>allowed</code>.</li>
-<li>If all the characters are present then we can increment the count.</li>
-</ul>
+<p>The question wants us to find the XOR of elements from <code>lefti</code> to <code>righti</code> for each query.</p>
+<p>By the property of XOR, we know that <code>a XOR b XOR a = b</code>.
+Hence XOR of elements from <code>lefti</code> to <code>righti</code> is equal to <code>0 to righti XOR 0 to lefti-1</code>.</p>
+<p>By this property, we can compute any query by using the prefix XOR array.</p>
 
 <h3 id="2-implementation">
   2. Implementation
@@ -691,14 +678,16 @@ Explanation: Strings &#34;cc&#34;, &#34;acd&#34;, &#34;ac&#34;, and &#34;d&#34; 
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a frequency array <span style="color:#e6db74">`s`</span> of size 26 with all elements as 0.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the string <span style="color:#e6db74">`allowed`</span> and increment the frequency of the character in the frequency array.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a variable <span style="color:#e6db74">`count`</span> to store the count of consistent strings.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a boolean variable <span style="color:#e6db74">`flag`</span> to check if the string is consistent.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the array <span style="color:#e6db74">`words`</span> and for each word check if all the characters are present in the string <span style="color:#e6db74">`allowed`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If any character is not present then set the flag to false and break.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the flag is true then increment the count.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the count.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a variable <span style="color:#e6db74">`n`</span> to store the size of the array.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a vector <span style="color:#e6db74">`prefixXOR`</span> of size <span style="color:#e6db74">`n`</span> to store the prefix XOR of the array.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a vector <span style="color:#e6db74">`ans`</span> to store the answer of the queries.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Compute the prefix XOR of the array in the following manner
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Initialize the <span style="color:#e6db74">`prefixXOR[0]`</span> as <span style="color:#e6db74">`arr[0]`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> for <span style="color:#e6db74">`i`</span> from <span style="color:#e6db74">`1`</span> to <span style="color:#e6db74">`n-1`</span>, compute <span style="color:#e6db74">`prefixXOR[i] = prefixXOR[i-1] XOR arr[i]`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each query in the <span style="color:#e6db74">`queries`</span> array, compute the answer in the following manner
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If <span style="color:#e6db74">`queries[i][0]`</span> is <span style="color:#e6db74">`0`</span>, then the answer is <span style="color:#e6db74">`prefixXOR[queries[i][1]]`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Else the answer is <span style="color:#e6db74">`prefixXOR[queries[i][1]] XOR prefixXOR[queries[i][0]-1]`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the answer vector.
 </span></span></code></pre></div>
 
 
@@ -712,17 +701,13 @@ Explanation: Strings &#34;cc&#34;, &#34;acd&#34;, &#34;ac&#34;, and &#34;d&#34; 
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1310 XOR Queries of a Subarray </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/">
+    <a class="next" href="/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2220 Minimum Bit Flips to Convert Number </span>
+      <span> Problem 1684 Count the Number of Consistent Strings </span>
     </a>
   
 </nav>
