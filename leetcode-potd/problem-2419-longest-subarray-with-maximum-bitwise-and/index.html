@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1310 XOR Queries of a Subarray &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1310 XOR Queries of a Subarray &middot; The Indian Engineer" />
+  <title>Problem 2419 Longest Subarray With Maximum Bitwise AND &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2419 Longest Subarray With Maximum Bitwise AND &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="xor, prefix-sum, bit-manipulation, array, range-query, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/" />
+  <meta name="keywords" content="math, bit-manipulation, array, range-query, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/" />
 
   
 
@@ -82,17 +82,16 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1310 XOR Queries of a Subarray">
-  <meta property="og:description" content="Problem Statement Link - Problem 1310 Question You are given an array arr of positive integers.">
+  <meta property="og:title" content="Problem 2419 Longest Subarray With Maximum Bitwise AND">
+  <meta property="og:description" content="Problem Statement Link - Problem 2419 Question You are given an integer array nums of size n.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-13T10:33:51+05:30">
-    <meta property="article:modified_time" content="2024-09-13T10:33:51+05:30">
-    <meta property="article:tag" content="XOR">
-    <meta property="article:tag" content="Prefix-Sum">
+    <meta property="article:published_time" content="2024-09-14T14:57:52+05:30">
+    <meta property="article:modified_time" content="2024-09-14T14:57:52+05:30">
+    <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Bit-Manipulation">
     <meta property="article:tag" content="Array">
     <meta property="article:tag" content="Range-Query">
@@ -100,8 +99,8 @@
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1310 XOR Queries of a Subarray">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 1310 Question You are given an array arr of positive integers.">
+  <meta name="twitter:title" content="Problem 2419 Longest Subarray With Maximum Bitwise AND">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 2419 Question You are given an integer array nums of size n.">
 
   
 
@@ -398,7 +397,7 @@
 
 
 
-<h1 class="pg-title">Problem 1310 XOR Queries of a Subarray</h1>
+<h1 class="pg-title">Problem 2419 Longest Subarray With Maximum Bitwise AND</h1>
 
 
 <div class="meta">
@@ -418,7 +417,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-13T10:33:51&#43;05:30">Sep 13, 2024</time>
+  Posted on <time datetime="2024-09-14T14:57:52&#43;05:30">Sep 14, 2024</time>
   
   
   
@@ -452,9 +451,7 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/xor/">XOR</a>
-  
-  <a class="tag" href="/blog/tags/prefix-sum/">Prefix-Sum</a>
+  <a class="tag" href="/blog/tags/math/">Math</a>
   
   <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
   
@@ -512,7 +509,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/xor-queries-of-a-subarray/description/" target="_blank">Problem 1310</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description/" target="_blank">Problem 2419</a>
 </p>
 
 <h2 id="question">
@@ -526,9 +523,14 @@
  </a>
   
 </h2>
-<p>You are given an array <code>arr</code> of positive integers. You are also given the array <code>queries</code> where <code>queries[i] = [lefti, righti]</code>.</p>
-<p>For each query <code>i</code> compute the XOR of elements from <code>lefti</code> to <code>righti</code> (that is, <code> arr[lefti] XOR arr[lefti + 1] XOR ... XOR arr[righti]</code> ).</p>
-<p>Return an array <code>answer</code> where <code>answer[i]</code> is the answer to the <code>ith</code> query.</p>
+<p>You are given an integer array <code>nums</code> of size <code>n</code>.</p>
+<p>Consider a non-empty subarray from <code>nums</code> that has the maximum possible bitwise AND.</p>
+<ul>
+<li>In other words, let <code>k</code> be the maximum value of the bitwise AND of any subarray of <code>nums</code>. Then, only subarrays with a bitwise AND equal to <code>k</code> should be considered.
+Return the length of the longest such subarray.</li>
+</ul>
+<p>The bitwise AND of an array is the bitwise AND of all the numbers in it.</p>
+<p>A subarray is a contiguous sequence of elements within an array.</p>
 
 <h2 id="example-1">
   Example 1
@@ -541,19 +543,11 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: arr = [1,3,4,8], queries = [[0,1],[1,2],[0,3],[3,3]]
-Output: [2,7,14,8]
+<pre tabindex="0"><code>Input: nums = [1,2,3,3,2,2]
+Output: 2
 Explanation:
-The binary representation of the elements in the array are:
-1 = 0001
-3 = 0011
-4 = 0100
-8 = 1000
-The XOR values for queries are:
-[0,1] = 1 xor 3 = 2
-[1,2] = 3 xor 4 = 7
-[0,3] = 1 xor 3 xor 4 xor 8 = 14
-[3,3] = 8
+The maximum possible bitwise AND of a subarray is 3.
+The longest subarray with that value is [3,3], so we return 2.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -566,8 +560,10 @@ The XOR values for queries are:
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: arr = [4,8,2,10], queries = [[2,3],[1,3],[0,0],[0,3]]
-Output: [8,0,4,4]
+<pre tabindex="0"><code>Output: 1
+Explanation:
+The maximum possible bitwise AND of a subarray is 4.
+The longest subarray with that value is [4], so we return 1.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -581,10 +577,8 @@ Output: [8,0,4,4]
   
 </h2>
 <ul>
-<li>1 &lt;= <code>arr.length</code> &lt;= 3 * 10<sup>4</sup></li>
-<li>1 &lt;= <code>arr[i]</code> &lt;= 10<sup>9</sup></li>
-<li><code>queries[i].length</code> == 2</li>
-<li>0 &lt;= <code>queries[i][0]</code> &lt;= <code>queries[i][1] &lt; arr.length</code></li>
+<li>1 &lt;= <code>nums.length</code> &lt;= 10<sup>5</sup></li>
+<li>0 &lt;= <code>nums[i]</code> &lt;= 10<sup>6</sup></li>
 </ul>
 
 <h2 id="solution">
@@ -600,26 +594,20 @@ Output: [8,0,4,4]
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> xorQueries(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> arr, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> queries) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> arr.size();
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> prefixXOR(n);
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> ans;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        prefixXOR[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> arr[<span style="color:#ae81ff">0</span>];
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            prefixXOR[i] <span style="color:#f92672">=</span> prefixXOR[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">^</span> arr[i];
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> queries.size(); i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (queries[i][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
-</span></span><span style="display:flex;"><span>                ans.push_back(prefixXOR[queries[i][<span style="color:#ae81ff">1</span>]]);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> longestSubarray(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> maxi <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>max_element(nums.begin(),nums.end());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> temp <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> num:nums){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(num <span style="color:#f92672">==</span> maxi)
+</span></span><span style="display:flex;"><span>                temp<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>{
+</span></span><span style="display:flex;"><span>                len <span style="color:#f92672">=</span> max(temp,len);
+</span></span><span style="display:flex;"><span>                temp <span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>                ans.push_back(prefixXOR[queries[i][<span style="color:#ae81ff">1</span>]] <span style="color:#f92672">^</span> prefixXOR[queries[i][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>]);
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            len <span style="color:#f92672">=</span> max(temp,len);
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> len;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -634,10 +622,10 @@ Output: [8,0,4,4]
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm     | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Prefix XOR    | O(n)            | O(n)             |
-</span></span><span style="display:flex;"><span>| Range compute | O(n)            | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm               | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ----------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Get Max Element         | O(n)            | O(1)             |
+</span></span><span style="display:flex;"><span>| Compute subarray length | O(n)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -662,10 +650,13 @@ Output: [8,0,4,4]
  </a>
   
 </h3>
-<p>The question wants us to find the XOR of elements from <code>lefti</code> to <code>righti</code> for each query.</p>
-<p>By the property of XOR, we know that <code>a XOR b XOR a = b</code>.
-Hence XOR of elements from <code>lefti</code> to <code>righti</code> is equal to <code>0 to righti XOR 0 to lefti-1</code>.</p>
-<p>By this property, we can compute any query by using the prefix XOR array.</p>
+<p>Question wants us to find the length of the subarray whose bitwise AND is maximum.</p>
+<ul>
+<li>If we observe the property of BITWISE AND between two numbers, the result can be at most the minimum of the two numbers.</li>
+<li>So, that means for a generic subarray the maximum bitwise AND can be the minimum of the subarray.</li>
+<li>This means that to obtain the maximum bitwise AND, we need to find the maximum element in the array and the subarray in consideration should have all the elements as the maximum element.</li>
+</ul>
+<p>Using the above observation, if we are able to find the maximum element in the array and determine the maximum length of the subarray whose elements are the maximum element, that will be the answer.</p>
 
 <h3 id="2-implementation">
   2. Implementation
@@ -678,17 +669,19 @@ Hence XOR of elements from <code>lefti</code> to <code>righti</code> is equal to
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a variable <span style="color:#e6db74">`n`</span> to store the size of the array.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a vector <span style="color:#e6db74">`prefixXOR`</span> of size <span style="color:#e6db74">`n`</span> to store the prefix XOR of the array.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize a vector <span style="color:#e6db74">`ans`</span> to store the answer of the queries.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Compute the prefix XOR of the array in the following manner
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Initialize the <span style="color:#e6db74">`prefixXOR[0]`</span> as <span style="color:#e6db74">`arr[0]`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> for <span style="color:#e6db74">`i`</span> from <span style="color:#e6db74">`1`</span> to <span style="color:#e6db74">`n-1`</span>, compute <span style="color:#e6db74">`prefixXOR[i] = prefixXOR[i-1] XOR arr[i]`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each query in the <span style="color:#e6db74">`queries`</span> array, compute the answer in the following manner
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If <span style="color:#e6db74">`queries[i][0]`</span> is <span style="color:#e6db74">`0`</span>, then the answer is <span style="color:#e6db74">`prefixXOR[queries[i][1]]`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Else the answer is <span style="color:#e6db74">`prefixXOR[queries[i][1]] XOR prefixXOR[queries[i][0]-1]`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the answer vector.
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize <span style="color:#e6db74">`maxi`</span> as the maximum element in the array.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Use <span style="color:#e6db74">`*max_element`</span> to find the maximum element in the array and store it in <span style="color:#e6db74">`maxi`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize <span style="color:#e6db74">`len`</span> to store the length of the subarray.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize <span style="color:#e6db74">`temp`</span> to store the length of the current subarray.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over all the elements in the array. For each element:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the element is equal to <span style="color:#e6db74">`maxi`</span>, increment <span style="color:#e6db74">`temp`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Else, update <span style="color:#e6db74">`len`</span> to the maximum of <span style="color:#e6db74">`temp`</span> and <span style="color:#e6db74">`len`</span> and reset <span style="color:#e6db74">`temp`</span> to 0.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Update <span style="color:#e6db74">`len`</span> to the maximum of <span style="color:#e6db74">`temp`</span> and <span style="color:#e6db74">`len`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return <span style="color:#e6db74">`len`</span>.
+</span></span></code></pre></div><blockquote>
+<p>This is a highly observation based problem. The key is to understand the property of bitwise AND and how it can be used to solve the problem.</p>
+</blockquote>
+
 
 
 
@@ -701,17 +694,13 @@ Hence XOR of elements from <code>lefti</code> to <code>righti</code> is equal to
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2419 Longest Subarray With Maximum Bitwise AND </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/">
+    <a class="next" href="/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1684 Count the Number of Consistent Strings </span>
+      <span> Problem 1310 XOR Queries of a Subarray </span>
     </a>
   
 </nav>
