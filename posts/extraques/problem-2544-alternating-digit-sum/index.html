@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 3275 K Th Nearest Obstacle Queries &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 3275 K Th Nearest Obstacle Queries &middot; The Indian Engineer" />
+  <title>Problem 2544 Alternating Digit Sum &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2544 Alternating Digit Sum &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="priority-queue, math, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/" />
+  <meta name="keywords" content="math, string, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/" />
 
   
 
@@ -82,23 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 3275 K Th Nearest Obstacle Queries">
-  <meta property="og:description" content="Problem Statement Link - Problem 3275 Question There is an infinite 2D plane.">
+  <meta property="og:title" content="Problem 2544 Alternating Digit Sum">
+  <meta property="og:description" content="Problem Statement Link - Problem 2544 Question You are given a positive integer n.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-09-01T17:05:40+05:30">
-    <meta property="article:modified_time" content="2024-09-01T17:05:40+05:30">
-    <meta property="article:tag" content="Priority-Queue">
+    <meta property="article:published_time" content="2024-09-15T16:00:34+05:30">
+    <meta property="article:modified_time" content="2024-09-15T16:00:34+05:30">
     <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="String">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 3275 K Th Nearest Obstacle Queries">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 3275 Question There is an infinite 2D plane.">
+  <meta name="twitter:title" content="Problem 2544 Alternating Digit Sum">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 2544 Question You are given a positive integer n.">
 
   
 
@@ -395,7 +395,7 @@
 
 
 
-<h1 class="pg-title">Problem 3275 K Th Nearest Obstacle Queries</h1>
+<h1 class="pg-title">Problem 2544 Alternating Digit Sum</h1>
 
 
 <div class="meta">
@@ -415,7 +415,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-01T17:05:40&#43;05:30">Sep 1, 2024</time>
+  Posted on <time datetime="2024-09-15T16:00:34&#43;05:30">Sep 15, 2024</time>
   
   
   
@@ -432,7 +432,7 @@
 
 </span>
   
-    4 mins
+    2 mins
   
 
 
@@ -449,9 +449,9 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/priority-queue/">Priority-Queue</a>
-  
   <a class="tag" href="/blog/tags/math/">Math</a>
+  
+  <a class="tag" href="/blog/tags/string/">String</a>
   
 </p>
 
@@ -473,6 +473,7 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
+    <li><a href="#example-3">Example 3</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
@@ -503,7 +504,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/" target="_blank">Problem 3275</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/alternating-digit-sum/description/" target="_blank">Problem 2544</a>
 </p>
 
 <h2 id="question">
@@ -517,15 +518,12 @@
  </a>
   
 </h2>
-<p>There is an infinite 2D plane.</p>
-<p>You are given a positive integer <code>k</code>. You are also given a 2D array <code>queries</code>, which contains the following queries:</p>
+<p>You are given a positive integer <code>n</code>. Each digit of <code>n</code> has a sign according to the following rules:</p>
 <ul>
-<li><code>queries[i] = [x, y]</code>: Build an obstacle at coordinate <code>(x, y)</code> in the plane. It is guaranteed that there is no obstacle at this coordinate when this query is made.</li>
+<li>The most significant digit is assigned a positive sign.</li>
+<li>Each other digit has an opposite sign to its adjacent digits.</li>
 </ul>
-<p>After each query, you need to find the distance of the <code>k</code><sup>th</sup> nearest obstacle from the origin.</p>
-<p>Return an integer array <code>results</code> where <code>results[i]</code> denotes the <code>k</code><sup>th</sup> nearest obstacle after query <code>i</code>, or <code>results[i] == -1</code> if there are less than <code>k</code> obstacles.</p>
-<p>Note that initially there are no obstacles anywhere.</p>
-<p>The distance of an obstacle at coordinate <code>(x, y)</code> from the origin is given by <code>|x| + |y|</code>.</p>
+<p>Return the sum of all digits with their corresponding sign.</p>
 
 <h2 id="example-1">
   Example 1
@@ -538,17 +536,9 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: queries = [[1,2],[3,4],[2,3],[-3,0]], k = 2
-
-Output: [-1,7,5,3]
-
-Explanation:
-
-Initially, there are 0 obstacles.
-After queries[0], there are less than 2 obstacles.
-After queries[1], there are obstacles at distances 3 and 7.
-After queries[2], there are obstacles at distances 3, 5, and 7.
-After queries[3], there are obstacles at distances 3, 3, 5, and 7.
+<pre tabindex="0"><code>Input: n = 521
+Output: 4
+Explanation: (+5) + (-2) + (+1) = 4.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -561,15 +551,24 @@ After queries[3], there are obstacles at distances 3, 3, 5, and 7.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: queries = [[5,5],[4,4],[3,3]], k = 1
+<pre tabindex="0"><code>Input: n = 111
+Output: 1
+Explanation: (+1) + (-1) + (+1) = 1.
+</code></pre>
+<h2 id="example-3">
+  Example 3
+  
+  <a hidden class="anchor" href="#example-3">
 
-Output: [10,8,6]
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
-Explanation:
 
-After queries[0], there is an obstacle at distance 10.
-After queries[1], there are obstacles at distances 8 and 10.
-After queries[2], there are obstacles at distances 6, 8, and 10.
+ </a>
+  
+</h2>
+<pre tabindex="0"><code>Input: n = 886996
+Output: 0
+Explanation: (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -582,11 +581,10 @@ After queries[2], there are obstacles at distances 6, 8, and 10.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`1 &lt;= queries.length &lt;= 2 * 10^5`</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`All queries[i] are unique.`</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`-10^9 &lt;= queries[i][0], queries[i][1] &lt;= 10^9`</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`1 &lt;= k &lt;= 10^5`</span>
-</span></span></code></pre></div>
+<ul>
+<li>1&lt;= <code>n</code> &lt;= 10<sup>9</sup></li>
+</ul>
+
 <h2 id="solution">
   Solution
   
@@ -600,32 +598,14 @@ After queries[2], there are obstacles at distances 6, 8, and 10.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> resultsArray(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> queries, <span style="color:#66d9ef">int</span> k) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>res;
-</span></span><span style="display:flex;"><span>        priority_queue<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>pq;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> query : queries) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> query[<span style="color:#ae81ff">0</span>];
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> y <span style="color:#f92672">=</span> query[<span style="color:#ae81ff">1</span>];
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> dist <span style="color:#f92672">=</span> abs(x) <span style="color:#f92672">+</span> abs(y);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (pq.size() <span style="color:#f92672">&lt;</span> k) {
-</span></span><span style="display:flex;"><span>                pq.push(dist);
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span> (dist <span style="color:#f92672">&lt;</span> pq.top()) {
-</span></span><span style="display:flex;"><span>                pq.pop();
-</span></span><span style="display:flex;"><span>                pq.push(dist);
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (pq.size() <span style="color:#f92672">&lt;</span> k) {
-</span></span><span style="display:flex;"><span>                res.push_back(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>                res.push_back(pq.top());
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> alternateDigitSum(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>        string num <span style="color:#f92672">=</span> to_string(n);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> var <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, sign <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span> num.size(); i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            var <span style="color:#f92672">+=</span> (num[i]<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;0&#39;</span>)<span style="color:#f92672">*</span>sign;
+</span></span><span style="display:flex;"><span>            sign<span style="color:#f92672">*=-</span><span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> var;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -640,9 +620,10 @@ After queries[2], there are obstacles at distances 6, 8, and 10.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm      | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| -------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Priority Queue | O(N log K)      | O(K)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm         | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ----------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| String conversion | O(log(n))       | O(1)             |
+</span></span><span style="display:flex;"><span>| Computation       | O(log(n))       | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -668,40 +649,8 @@ After queries[2], there are obstacles at distances 6, 8, and 10.
   
 </h3>
 <ul>
-<li>We need to keep track of obstacles being placed on a 2D plane and find the k<sup>th</sup> nearest obstacle to the origin after each query.</li>
-<li>The distance from the origin to any obstacle at coordinate (x, y) is given by the Manhattan distance: |x| + |y|.</li>
-<li>Initially, there are no obstacles. After each query, a new obstacle is added, and we need to update our result based on the current state of the plane.</li>
+<li>To handle the MSB condition, convert to string and then process the string.</li>
 </ul>
-<ol>
-<li>
-<p>Priority Queue (Max-Heap) Usage</p>
-<ul>
-<li>To efficiently manage and retrieve the k<sup>th</sup> nearest obstacle, we use a max-heap (priority queue).</li>
-<li>The heap will always store the distances of the nearest k obstacles to the origin.</li>
-<li>The top of the max-heap will represent the k<sup>th</sup> nearest obstacle, as the heap property ensures that the largest of the k nearest distances is at the top.</li>
-</ul>
-</li>
-<li>
-<p>Handling Each Query</p>
-<ul>
-<li>For each query (x, y)
-<ul>
-<li>Calculate the Manhattan distance from the origin.</li>
-<li>If the heap has fewer than k elements, simply add the distance to the heap.</li>
-<li>If the heap already has k elements, compare the new distance with the top of the heap:
-<ul>
-<li>If the new distance is smaller, it should be part of the k closest distances, so replace the largest one (heap&rsquo;s top).</li>
-<li>If not, discard the new distance as it’s not closer than the current k nearest distances.</li>
-</ul>
-</li>
-<li>After processing each query, check the heap&rsquo;s size:</li>
-<li>If it has fewer than k elements, return -1 (indicating that there aren’t enough obstacles yet).</li>
-<li>Otherwise, return the top of the heap, which is the k<sup>th</sup> nearest obstacle.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
 
 <h3 id="2-implementation">
   2. Implementation
@@ -714,18 +663,11 @@ After queries[2], there are obstacles at distances 6, 8, and 10.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Define a function <span style="color:#e6db74">`resultsArray`</span> that takes the queries and k as input.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize an empty vector <span style="color:#e6db74">`res`</span> to store the results.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Create a max-heap (priority queue) <span style="color:#e6db74">`pq`</span> to store the k nearest distances.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over each query in the queries array:
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Extract the x and y coordinates from the query.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Calculate the Manhattan distance from the origin.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the heap size is less than k, add the distance to the heap.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the heap size is k, compare the new distance with the top of the heap:
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> If the new distance is smaller, replace the top of the heap with the new distance.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the heap size is less than k, add -1 to the results array.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Otherwise, add the top of the heap to the results array.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the results array.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize the variable <span style="color:#e6db74">`var`</span> to <span style="color:#e6db74">`0`</span> and <span style="color:#e6db74">`sign`</span> to <span style="color:#e6db74">`1`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Convert the integer to string.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the string and add the digit to <span style="color:#e6db74">`var`</span> with the sign.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Change the sign after each digit.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the <span style="color:#e6db74">`var`</span>.
 </span></span></code></pre></div>
 
 
@@ -739,17 +681,13 @@ After queries[2], there are obstacles at distances 6, 8, and 10.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/extraques/problem-2544-alternating-digit-sum/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2544 Alternating Digit Sum </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/">
+    <a class="next" href="/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3274 Check if Two Chessboard Squares Have the Same Color </span>
+      <span> Problem 3275 K Th Nearest Obstacle Queries </span>
     </a>
   
 </nav>

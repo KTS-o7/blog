@@ -6,8 +6,15 @@
     <description>Recent content in String on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Sep 2024 11:38:56 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 16:00:34 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 2544 Alternating Digit Sum</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</link>
+      <pubDate>Sun, 15 Sep 2024 16:00:34 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</guid>
+      <description>Problem Statement Link - Problem 2544 Question You are given a positive integer n.</description>
+    </item>
     <item>
       <title>Problem 1684 Count the Number of Consistent Strings</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
