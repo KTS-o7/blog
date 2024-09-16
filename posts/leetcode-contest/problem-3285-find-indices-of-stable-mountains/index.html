@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2544 Alternating Digit Sum &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2544 Alternating Digit Sum &middot; The Indian Engineer" />
+  <title>Problem 3285 Find Indices of Stable Mountains &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3285 Find Indices of Stable Mountains &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="math, string, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/" />
+  <meta name="keywords" content="array, matrix, math, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/" />
 
   
 
@@ -82,23 +82,24 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2544 Alternating Digit Sum">
-  <meta property="og:description" content="Problem Statement Link - Problem 2544 Question You are given a positive integer n.">
+  <meta property="og:title" content="Problem 3285 Find Indices of Stable Mountains">
+  <meta property="og:description" content="Problem Statement Link - Problem 3285 Question There are n mountains in a row, and each mountain has a height.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-09-15T16:00:34+05:30">
-    <meta property="article:modified_time" content="2024-09-15T16:00:34+05:30">
+    <meta property="article:published_time" content="2024-09-15T16:08:07+05:30">
+    <meta property="article:modified_time" content="2024-09-15T16:08:07+05:30">
+    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Matrix">
     <meta property="article:tag" content="Math">
-    <meta property="article:tag" content="String">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2544 Alternating Digit Sum">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 2544 Question You are given a positive integer n.">
+  <meta name="twitter:title" content="Problem 3285 Find Indices of Stable Mountains">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 3285 Question There are n mountains in a row, and each mountain has a height.">
 
   
 
@@ -397,7 +398,7 @@
 
 
 
-<h1 class="pg-title">Problem 2544 Alternating Digit Sum</h1>
+<h1 class="pg-title">Problem 3285 Find Indices of Stable Mountains</h1>
 
 
 <div class="meta">
@@ -417,7 +418,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-15T16:00:34&#43;05:30">Sep 15, 2024</time>
+  Posted on <time datetime="2024-09-15T16:08:07&#43;05:30">Sep 15, 2024</time>
   
   
   
@@ -451,9 +452,11 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/math/">Math</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/matrix/">Matrix</a>
+  
+  <a class="tag" href="/blog/tags/math/">Math</a>
   
 </p>
 
@@ -506,7 +509,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/alternating-digit-sum/description/" target="_blank">Problem 2544</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-indices-of-stable-mountains/" target="_blank">Problem 3285</a>
 </p>
 
 <h2 id="question">
@@ -520,12 +523,9 @@
  </a>
   
 </h2>
-<p>You are given a positive integer <code>n</code>. Each digit of <code>n</code> has a sign according to the following rules:</p>
-<ul>
-<li>The most significant digit is assigned a positive sign.</li>
-<li>Each other digit has an opposite sign to its adjacent digits.</li>
-</ul>
-<p>Return the sum of all digits with their corresponding sign.</p>
+<p>There are <code>n</code> mountains in a row, and each mountain has a <code>height</code>. You are given an integer array <code>height</code> where <code>height[i]</code>represents the<code>height</code> of mountain <code>i</code>, and an integer <code>threshold</code>.</p>
+<p>A mountain is called stable if the mountain just before it (if it exists) has a <code>height</code> strictly greater than <code>threshold</code>. Note that mountain <code>0</code> is not stable.</p>
+<p>Return an array containing the indices of all stable mountains in any order.</p>
 
 <h2 id="example-1">
   Example 1
@@ -538,9 +538,14 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: n = 521
-Output: 4
-Explanation: (+5) + (-2) + (+1) = 4.
+<pre tabindex="0"><code>Input: height = [1,2,3,4,5], threshold = 2
+
+Output: [3,4]
+
+Explanation:
+
+Mountain 3 is stable because height[2] == 3 is greater than threshold == 2.
+Mountain 4 is stable because height[3] == 4 is greater than threshold == 2.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -553,9 +558,9 @@ Explanation: (+5) + (-2) + (+1) = 4.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: n = 111
-Output: 1
-Explanation: (+1) + (-1) + (+1) = 1.
+<pre tabindex="0"><code>Input: height = [10,1,10,1,10], threshold = 3
+
+Output: [1,3]
 </code></pre>
 <h2 id="example-3">
   Example 3
@@ -568,9 +573,9 @@ Explanation: (+1) + (-1) + (+1) = 1.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: n = 886996
-Output: 0
-Explanation: (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
+<pre tabindex="0"><code>Input: height = [10,1,10,1,10], threshold = 10
+
+Output: []
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -584,7 +589,9 @@ Explanation: (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
   
 </h2>
 <ul>
-<li>1&lt;= <code>n</code> &lt;= 10<sup>9</sup></li>
+<li><code>2 &lt;= n == height.length &lt;= 100</code></li>
+<li><code>1 &lt;= height[i] &lt;= 100</code></li>
+<li><code>1 &lt;= threshold &lt;= 100</code></li>
 </ul>
 
 <h2 id="solution">
@@ -600,14 +607,14 @@ Explanation: (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> alternateDigitSum(<span style="color:#66d9ef">int</span> n) {
-</span></span><span style="display:flex;"><span>        string num <span style="color:#f92672">=</span> to_string(n);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> var <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, sign <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span> num.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            var <span style="color:#f92672">+=</span> (num[i]<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;0&#39;</span>)<span style="color:#f92672">*</span>sign;
-</span></span><span style="display:flex;"><span>            sign<span style="color:#f92672">*=-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> stableMountains(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> height, <span style="color:#66d9ef">int</span> threshold) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> result;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> height.size(); <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (height[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">&gt;</span> threshold) {
+</span></span><span style="display:flex;"><span>                result.push_back(i);
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> var;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> result;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -622,10 +629,9 @@ Explanation: (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm         | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ----------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| String conversion | O(log(n))       | O(1)             |
-</span></span><span style="display:flex;"><span>| Computation       | O(log(n))       | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                      | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------------------------ | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Array traversal and comparison | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -650,8 +656,12 @@ Explanation: (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
  </a>
   
 </h3>
+<p>The problem asks us to find the mountains whose previous mountain has a height greater than the threshold.</p>
 <ul>
-<li>To handle the MSB condition, convert to string and then process the string.</li>
+<li>Start from second mountain, compare the previous mountain&rsquo;s height with the threshold.</li>
+<li>If the previous mountain&rsquo;s height is greater than the threshold, add the index of the current mountain to the result.</li>
+<li>Else, continue to the next mountain.</li>
+<li>Return the result.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -665,12 +675,14 @@ Explanation: (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize the variable <span style="color:#e6db74">`var`</span> to <span style="color:#e6db74">`0`</span> and <span style="color:#e6db74">`sign`</span> to <span style="color:#e6db74">`1`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Convert the integer to string.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the string and add the digit to <span style="color:#e6db74">`var`</span> with the sign.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Change the sign after each digit.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the <span style="color:#e6db74">`var`</span>.
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize an empty vector <span style="color:#e6db74">`result`</span> to store the indices of stable mountains.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the array from <span style="color:#e6db74">`1`</span> to <span style="color:#e6db74">`n-1`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> if <span style="color:#e6db74">`height[i-1]`</span> is greater than <span style="color:#e6db74">`threshold`</span>, add <span style="color:#e6db74">`i`</span> to the <span style="color:#e6db74">`result`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the <span style="color:#e6db74">`result`</span>.
+</span></span></code></pre></div><blockquote>
+<p>Biweekly Contest 139</p>
+</blockquote>
+
 
 
 
@@ -683,17 +695,13 @@ Explanation: (+8) + (-8) + (+6) + (-9) + (+9) + (-6) = 0.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3285 Find Indices of Stable Mountains </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/">
+    <a class="next" href="/blog/posts/extraques/problem-2544-alternating-digit-sum/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3275 K Th Nearest Obstacle Queries </span>
+      <span> Problem 2544 Alternating Digit Sum </span>
     </a>
   
 </nav>
