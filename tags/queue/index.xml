@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Queue on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/queue/</link>
+    <link>http://localhost:1313/blog/tags/queue/</link>
     <description>Recent content in Queue on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Jul 2024 19:24:33 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/queue/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/queue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 297 Serialize and Deserialize Binary Tree</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
       <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
       <description>Problem Statement Link - Problem 297 Question Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.</description>
     </item>
     <item>
       <title>Problem 1190 Reverse Substrings Between Each Pair of Parentheses</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
       <pubDate>Thu, 11 Jul 2024 22:07:28 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</guid>
       <description>Problem Statement Link - Problem 1190 Question You are given a string s that consists of lower case English letters and brackets.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Regex on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/regex/</link>
+    <link>http://localhost:1313/blog/tags/regex/</link>
     <description>Recent content in Regex on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Aug 2024 12:53:21 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/regex/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/regex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 592 Fraction Addition and Subtraction</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
       <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
       <description>Problem Statement Link - Problem 592 Question Given a string expression representing an expression of fraction addition and subtraction, return the calculation result in string format.</description>
     </item>
   </channel>
