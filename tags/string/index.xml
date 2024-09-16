@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>String on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/string/</link>
+    <link>https://KTS-o7.github.io/blog/tags/string/</link>
     <description>Recent content in String on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Sep 2024 16:00:34 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/string/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 2544 Alternating Digit Sum</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-2544-alternating-digit-sum/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</link>
       <pubDate>Sun, 15 Sep 2024 16:00:34 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-2544-alternating-digit-sum/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</guid>
       <description>Problem Statement Link - Problem 2544 Question You are given a positive integer n.</description>
     </item>
     <item>
       <title>Problem 1684 Count the Number of Consistent Strings</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
       <pubDate>Thu, 12 Sep 2024 11:38:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
       <description>Problem Statement Link - Problem 1684 Question You are given a string allowed consisting of distinct characters and an array of strings words.</description>
     </item>
     <item>
       <title>Problem 1945 Sum of Digits of String After Convert</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</link>
       <pubDate>Tue, 03 Sep 2024 13:14:25 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</guid>
       <description>Problem Statement Link - Problem 1945 Question You are given a string s consisting of lowercase English letters, and an integer k.</description>
     </item>
     <item>
       <title>Problem 3271 Hash Divided Strings</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</link>
       <pubDate>Sun, 01 Sep 2024 16:22:19 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</guid>
       <description>Problem Statement Link - Problem 3271 Question You are given a string s of length n and an integer k, where n is a multiple of k.</description>
     </item>
     <item>
       <title>Problem 3270 Find the Key of Numbers</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</link>
       <pubDate>Sun, 01 Sep 2024 16:13:57 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</guid>
       <description>Problem Statement Link - Problem 3270 Question You are given three positive integers num1, num2, and num3.</description>
     </item>
     <item>
       <title>Problem 3265 Count Almost Equal Pairs I</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</link>
       <pubDate>Sun, 25 Aug 2024 12:33:25 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</guid>
       <description>Problem Statement Link - Problem 3265 Question You are given an array nums consisting of positive integers.</description>
     </item>
     <item>
       <title>Problem 592 Fraction Addition and Subtraction</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
       <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
       <description>Problem Statement Link - Problem 592 Question Given a string expression representing an expression of fraction addition and subtraction, return the calculation result in string format.</description>
     </item>
     <item>
       <title>Problem 3216 Lexographically Smallest String After a Swap</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</link>
       <pubDate>Thu, 15 Aug 2024 19:15:18 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</guid>
       <description>Problem Statement Link - Problem 3216 Question Given a string s containing only digits, return the lexicographically smallest string that can be obtained after swapping adjacent digits in s with the same parity at most once.</description>
     </item>
     <item>
       <title>Problem 3016 Minimum Number of Pushes to Type Word II</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
       <pubDate>Tue, 06 Aug 2024 20:59:08 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
       <description>Problem Statement Link - Problem 3016 Question You are given a string word containing lowercase English letters.</description>
     </item>
     <item>
       <title>Problem 2053 Kth Distinct String in an Array</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</link>
       <pubDate>Mon, 05 Aug 2024 13:09:46 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</guid>
       <description>Problem Statement Link - Problem 2053 Question A distinct string is a string that is present only once in an array.</description>
     </item>
     <item>
       <title>Problem 2678 Number of Senior Citizens</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</link>
       <pubDate>Thu, 01 Aug 2024 18:27:46 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</guid>
       <description>Problem Statement Link - Problem 2678 Question You are given a 0-indexed array of strings details.</description>
     </item>
     <item>
       <title>Problem 299 Bulls and Cows</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-299-bulls-and-cows/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-299-bulls-and-cows/</link>
       <pubDate>Sun, 28 Jul 2024 20:46:25 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-299-bulls-and-cows/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-299-bulls-and-cows/</guid>
       <description>Problem Statement Link - Problem 299 Question You are playing the Bulls and Cows game with your friend.</description>
     </item>
     <item>
       <title>Problem 2096 Step by Step Directions From a Binary Tree Node to Another</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
       <pubDate>Tue, 16 Jul 2024 12:54:12 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
       <description>Problem Statement Link - Problem 2096 Question You are given the root of a binary tree with n nodes.</description>
     </item>
     <item>
       <title>Problem 726 Number of Atoms</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-atoms/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-atoms/</link>
       <pubDate>Sun, 14 Jul 2024 22:24:15 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-atoms/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-atoms/</guid>
       <description>Problem Statement Link - Problem 726 Question Given a string formula representing a chemical formula, return the count of each atom.</description>
     </item>
     <item>
       <title>Problem 297 Serialize and Deserialize Binary Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
       <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
       <description>Problem Statement Link - Problem 297 Question Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.</description>
     </item>
     <item>
       <title>Problem 1717 Maximum Score From Removing Substrings</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</link>
       <pubDate>Fri, 12 Jul 2024 19:10:01 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</guid>
       <description>Problem Statement Link - Problem 1717 Question You are given a string s and two integers x and y.</description>
     </item>
     <item>
       <title>Problem 1190 Reverse Substrings Between Each Pair of Parentheses</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
       <pubDate>Thu, 11 Jul 2024 22:07:28 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</guid>
       <description>Problem Statement Link - Problem 1190 Question You are given a string s that consists of lower case English letters and brackets.</description>
     </item>
     <item>
       <title>Problem 1598 Crawler Log Folder</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-crawler-log-folder/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</link>
       <pubDate>Wed, 10 Jul 2024 21:35:27 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-crawler-log-folder/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</guid>
       <description>Problem Statement Link - Problem 1598 Question The Leetcode file system keeps a log each time some user performs a change folder operation.</description>
     </item>
     <item>
       <title>Problem 1002 Find Common Characters</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-find-common-characters/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</link>
       <pubDate>Thu, 06 Jun 2024 23:34:53 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-find-common-characters/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</guid>
       <description>Problem Statement Link - Problem 1002 Question Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates).</description>
     </item>
     <item>
       <title>Problem 344 Reverse String</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-string/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</link>
       <pubDate>Sun, 02 Jun 2024 16:56:53 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</guid>
       <description>Problem Statement Link - Problem 344 Question Write a function that reverses a string.</description>
     </item>
     <item>
       <title>Problem 3110 Score of a String</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-score-of-a-string/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-of-a-string/</link>
       <pubDate>Sat, 01 Jun 2024 11:51:08 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-score-of-a-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-of-a-string/</guid>
       <description>Problem Statement Link - Problem 3110 Question You are given a string s.</description>
     </item>
     <item>
       <title>Problem 2000 Reverse Prefix of Word</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</link>
       <pubDate>Wed, 01 May 2024 20:47:44 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</guid>
       <description>Problem Statement Link - Problem 2000 Question Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive).</description>
     </item>
   </channel>

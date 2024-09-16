@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Two-Pointer on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/two-pointer/</link>
+    <link>https://KTS-o7.github.io/blog/tags/two-pointer/</link>
     <description>Recent content in Two-Pointer on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jul 2024 20:59:29 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/two-pointer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/two-pointer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 82 Remove Duplicates From Sorted List II</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</link>
       <pubDate>Sun, 28 Jul 2024 20:59:29 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</guid>
       <description>Problem Statement Link - Problem 82 Question Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.</description>
     </item>
     <item>
       <title>Problem 24 Swap Nodes in Pairs</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</link>
       <pubDate>Thu, 25 Jul 2024 20:55:46 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</guid>
       <description>Problem Statement Link - Problem 24 Question Given a linked list, swap every two adjacent nodes and return its head.</description>
     </item>
     <item>
       <title>Problem 350 Intersection of Two Arrays II</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</link>
       <pubDate>Tue, 02 Jul 2024 22:34:05 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</guid>
       <description>Problem Statement Link - Problem 350 Question Given two integer arrays nums1 and nums2, return an array of their intersection.</description>
     </item>
     <item>
       <title>Problem 633 Sum of Square Numbers</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-sum-of-square-numbers/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</link>
       <pubDate>Mon, 17 Jun 2024 18:55:17 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-sum-of-square-numbers/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</guid>
       <description>Problem Statement Link - Problem 633 Question Given a non-negative integer c, decide whether there are two integers a and b such that a^2 + b^2 = c.</description>
     </item>
     <item>
       <title>Problem 75 Sort Colors</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-sort-colors/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</link>
       <pubDate>Wed, 12 Jun 2024 18:48:37 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-sort-colors/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</guid>
       <description>Problem Statement Link - Problem 75 Question Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.</description>
     </item>
     <item>
       <title>Problem 344 Reverse String</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-string/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</link>
       <pubDate>Sun, 02 Jun 2024 16:56:53 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</guid>
       <description>Problem Statement Link - Problem 344 Question Write a function that reverses a string.</description>
     </item>
   </channel>
