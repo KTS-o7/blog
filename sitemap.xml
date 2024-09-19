@@ -1,1519 +1,1519 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/</loc>
     <lastmod>2024-09-17T12:53:11+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-09-17T12:53:11+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/</loc>
+    <loc>http://localhost:1313/blog/posts/</loc>
     <lastmod>2024-09-17T11:40:37+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
+    <loc>http://localhost:1313/blog/tags/array/</loc>
     <lastmod>2024-09-15T16:08:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
+    <loc>http://localhost:1313/blog/tags/math/</loc>
     <lastmod>2024-09-15T16:08:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/matrix/</loc>
+    <loc>http://localhost:1313/blog/tags/matrix/</loc>
     <lastmod>2024-09-15T16:08:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</loc>
     <lastmod>2024-09-15T16:08:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2024-09-15T16:08:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-2544-alternating-digit-sum/</loc>
     <lastmod>2024-09-15T16:00:34+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
+    <loc>http://localhost:1313/blog/tags/string/</loc>
     <lastmod>2024-09-15T16:00:34+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
+    <loc>http://localhost:1313/blog/tags/bit-manipulation/</loc>
     <lastmod>2024-09-14T14:57:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</loc>
     <lastmod>2024-09-14T14:57:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/range-query/</loc>
+    <loc>http://localhost:1313/blog/tags/range-query/</loc>
     <lastmod>2024-09-14T14:57:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/prefix-sum/</loc>
+    <loc>http://localhost:1313/blog/tags/prefix-sum/</loc>
     <lastmod>2024-09-13T10:33:51+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</loc>
     <lastmod>2024-09-13T10:33:51+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/xor/</loc>
+    <loc>http://localhost:1313/blog/tags/xor/</loc>
     <lastmod>2024-09-13T10:33:51+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/count/</loc>
+    <loc>http://localhost:1313/blog/tags/count/</loc>
     <lastmod>2024-09-12T11:38:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/hash-map/</loc>
+    <loc>http://localhost:1313/blog/tags/hash-map/</loc>
     <lastmod>2024-09-12T11:38:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/hash-set/</loc>
+    <loc>http://localhost:1313/blog/tags/hash-set/</loc>
     <lastmod>2024-09-12T11:38:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</loc>
     <lastmod>2024-09-12T11:38:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/hamming-distance/</loc>
+    <loc>http://localhost:1313/blog/tags/hamming-distance/</loc>
     <lastmod>2024-09-11T09:20:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</loc>
     <lastmod>2024-09-11T09:20:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/linked-list/</loc>
+    <loc>http://localhost:1313/blog/tags/linked-list/</loc>
     <lastmod>2024-09-10T09:14:53+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</loc>
     <lastmod>2024-09-10T09:14:53+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</loc>
     <lastmod>2024-09-09T12:43:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/simulation/</loc>
+    <loc>http://localhost:1313/blog/tags/simulation/</loc>
     <lastmod>2024-09-09T12:43:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/pointers/</loc>
+    <loc>http://localhost:1313/blog/tags/pointers/</loc>
     <lastmod>2024-09-08T14:29:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-725-split-linked-list-in-parts/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-725-split-linked-list-in-parts/</loc>
     <lastmod>2024-09-08T14:29:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-tree/</loc>
+    <loc>http://localhost:1313/blog/tags/binary-tree/</loc>
     <lastmod>2024-09-07T13:48:11+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dfs/</loc>
+    <loc>http://localhost:1313/blog/tags/dfs/</loc>
     <lastmod>2024-09-07T13:48:11+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/</loc>
     <lastmod>2024-09-07T13:48:11+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/recursion/</loc>
+    <loc>http://localhost:1313/blog/tags/recursion/</loc>
     <lastmod>2024-09-07T13:48:11+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2028-find-missing-observations/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2028-find-missing-observations/</loc>
     <lastmod>2024-09-06T10:54:36+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/manipulation/</loc>
+    <loc>http://localhost:1313/blog/tags/manipulation/</loc>
     <lastmod>2024-09-03T13:14:25+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</loc>
     <lastmod>2024-09-03T13:14:25+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/arrays/</loc>
+    <loc>http://localhost:1313/blog/tags/arrays/</loc>
     <lastmod>2024-09-02T16:26:58+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</loc>
     <lastmod>2024-09-02T16:26:58+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</loc>
     <lastmod>2024-09-01T17:21:31+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/priority-queue/</loc>
+    <loc>http://localhost:1313/blog/tags/priority-queue/</loc>
     <lastmod>2024-09-01T17:05:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</loc>
     <lastmod>2024-09-01T17:05:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</loc>
     <lastmod>2024-09-01T16:56:04+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/counting/</loc>
+    <loc>http://localhost:1313/blog/tags/counting/</loc>
     <lastmod>2024-09-01T16:34:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/custom-comparator/</loc>
+    <loc>http://localhost:1313/blog/tags/custom-comparator/</loc>
     <lastmod>2024-09-01T16:34:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/</loc>
     <lastmod>2024-09-01T16:34:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/sorting/</loc>
+    <loc>http://localhost:1313/blog/tags/sorting/</loc>
     <lastmod>2024-09-01T16:34:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/hashing/</loc>
+    <loc>http://localhost:1313/blog/tags/hashing/</loc>
     <lastmod>2024-09-01T16:22:19+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</loc>
     <lastmod>2024-09-01T16:22:19+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</loc>
     <lastmod>2024-09-01T16:13:57+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-search-tree/</loc>
+    <loc>http://localhost:1313/blog/tags/binary-search-tree/</loc>
     <lastmod>2024-08-30T23:54:17+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/</loc>
     <lastmod>2024-08-30T23:54:17+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/graph/</loc>
+    <loc>http://localhost:1313/blog/tags/graph/</loc>
     <lastmod>2024-08-29T21:35:03+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-947-most-stones-removed-with-same-row-or-column/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-947-most-stones-removed-with-same-row-or-column/</loc>
     <lastmod>2024-08-29T21:35:03+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/union-find/</loc>
+    <loc>http://localhost:1313/blog/tags/union-find/</loc>
     <lastmod>2024-08-29T21:35:03+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/core-subjects/</loc>
+    <loc>http://localhost:1313/blog/core-subjects/</loc>
     <lastmod>2024-08-29T18:59:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/core-subjects/fat-vs-ntfs-vs-ext4/</loc>
+    <loc>http://localhost:1313/blog/core-subjects/fat-vs-ntfs-vs-ext4/</loc>
     <lastmod>2024-08-29T18:59:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/file-system/</loc>
+    <loc>http://localhost:1313/blog/tags/file-system/</loc>
     <lastmod>2024-08-29T18:59:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/os/</loc>
+    <loc>http://localhost:1313/blog/tags/os/</loc>
     <lastmod>2024-08-29T18:59:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1905-count-sub-islands/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1905-count-sub-islands/</loc>
     <lastmod>2024-08-28T14:37:41+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dijkstra/</loc>
+    <loc>http://localhost:1313/blog/tags/dijkstra/</loc>
     <lastmod>2024-08-27T12:14:28+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1514-path-with-maximum-probability/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1514-path-with-maximum-probability/</loc>
     <lastmod>2024-08-27T12:14:28+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/postorder/</loc>
+    <loc>http://localhost:1313/blog/tags/postorder/</loc>
     <lastmod>2024-08-26T21:43:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</loc>
     <lastmod>2024-08-26T21:43:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/recursive/</loc>
+    <loc>http://localhost:1313/blog/tags/recursive/</loc>
     <lastmod>2024-08-26T21:43:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</loc>
     <lastmod>2024-08-26T10:27:00+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/tree/</loc>
+    <loc>http://localhost:1313/blog/tags/tree/</loc>
     <lastmod>2024-08-26T10:27:00+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</loc>
     <lastmod>2024-08-25T12:33:25+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/min-heap/</loc>
+    <loc>http://localhost:1313/blog/tags/min-heap/</loc>
     <lastmod>2024-08-25T12:18:01+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</loc>
     <lastmod>2024-08-25T12:18:01+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-264-ugly-number-ii/</loc>
     <lastmod>2024-08-24T15:04:39+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</loc>
     <lastmod>2024-08-23T12:53:21+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/regex/</loc>
+    <loc>http://localhost:1313/blog/tags/regex/</loc>
     <lastmod>2024-08-23T12:53:21+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-476-number-complement/</loc>
     <lastmod>2024-08-22T10:49:10+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-3238-find-the-number-of-winning-players/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-3238-find-the-number-of-winning-players/</loc>
     <lastmod>2024-08-21T22:42:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/interview/</loc>
+    <loc>http://localhost:1313/blog/tags/interview/</loc>
     <lastmod>2024-08-20T23:57:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/process/</loc>
+    <loc>http://localhost:1313/blog/tags/process/</loc>
     <lastmod>2024-08-20T23:57:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/core-subjects/process-vs-threads/</loc>
+    <loc>http://localhost:1313/blog/core-subjects/process-vs-threads/</loc>
     <lastmod>2024-08-20T23:57:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/threads/</loc>
+    <loc>http://localhost:1313/blog/tags/threads/</loc>
     <lastmod>2024-08-20T23:57:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dynamic-programming/</loc>
+    <loc>http://localhost:1313/blog/tags/dynamic-programming/</loc>
     <lastmod>2024-08-19T22:02:24+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-650-2-keys-keyboard/</loc>
     <lastmod>2024-08-19T22:02:24+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3259-maximum-energy-boost-from-two-drinks/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3259-maximum-energy-boost-from-two-drinks/</loc>
     <lastmod>2024-08-19T11:21:48+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3258-count-substrings-that-satisfy-k-constraint-i/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3258-count-substrings-that-satisfy-k-constraint-i/</loc>
     <lastmod>2024-08-18T22:13:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-54-sprial-matrix/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-54-sprial-matrix/</loc>
     <lastmod>2024-08-17T23:19:57+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/greedy/</loc>
+    <loc>http://localhost:1313/blog/tags/greedy/</loc>
     <lastmod>2024-08-16T19:52:59+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</loc>
     <lastmod>2024-08-16T19:52:59+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</loc>
     <lastmod>2024-08-15T19:15:18+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-860-lemonade-change/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-860-lemonade-change/</loc>
     <lastmod>2024-08-15T18:20:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-search/</loc>
+    <loc>http://localhost:1313/blog/tags/binary-search/</loc>
     <lastmod>2024-08-14T18:02:48+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</loc>
     <lastmod>2024-08-14T18:02:48+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/backtracking/</loc>
+    <loc>http://localhost:1313/blog/tags/backtracking/</loc>
     <lastmod>2024-08-13T10:33:14+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-40-combination-sum-ii/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-40-combination-sum-ii/</loc>
     <lastmod>2024-08-13T10:33:14+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/class/</loc>
+    <loc>http://localhost:1313/blog/tags/class/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/design/</loc>
+    <loc>http://localhost:1313/blog/tags/design/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/heap/</loc>
+    <loc>http://localhost:1313/blog/tags/heap/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</loc>
     <lastmod>2024-08-06T20:59:08+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/hashmap/</loc>
+    <loc>http://localhost:1313/blog/tags/hashmap/</loc>
     <lastmod>2024-08-05T13:09:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</loc>
     <lastmod>2024-08-05T13:09:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</loc>
     <lastmod>2024-08-04T17:16:54+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/subarray/</loc>
+    <loc>http://localhost:1313/blog/tags/subarray/</loc>
     <lastmod>2024-08-04T17:16:54+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/2024/</loc>
+    <loc>http://localhost:1313/blog/tags/2024/</loc>
     <lastmod>2024-08-04T08:45:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/campus-recruitment/</loc>
+    <loc>http://localhost:1313/blog/tags/campus-recruitment/</loc>
     <lastmod>2024-08-04T08:45:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/placement/</loc>
+    <loc>http://localhost:1313/blog/tags/placement/</loc>
     <lastmod>2024-08-04T08:45:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/ringcentral/</loc>
+    <loc>http://localhost:1313/blog/tags/ringcentral/</loc>
     <lastmod>2024-08-04T08:45:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/interviews/ringcentral-campus-recruitment-2024/</loc>
+    <loc>http://localhost:1313/blog/posts/interviews/ringcentral-campus-recruitment-2024/</loc>
     <lastmod>2024-08-04T08:45:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dijkstras/</loc>
+    <loc>http://localhost:1313/blog/tags/dijkstras/</loc>
     <lastmod>2024-08-01T18:56:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-787-cheapest-flights-within-k-stops/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-787-cheapest-flights-within-k-stops/</loc>
     <lastmod>2024-08-01T18:56:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/shortest-path/</loc>
+    <loc>http://localhost:1313/blog/tags/shortest-path/</loc>
     <lastmod>2024-08-01T18:56:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-743-network-delay-time/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-743-network-delay-time/</loc>
     <lastmod>2024-08-01T18:41:19+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</loc>
     <lastmod>2024-08-01T18:27:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dp/</loc>
+    <loc>http://localhost:1313/blog/tags/dp/</loc>
     <lastmod>2024-07-30T00:52:44+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-55-jump-game/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-55-jump-game/</loc>
     <lastmod>2024-07-30T00:52:44+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/combinatorics/</loc>
+    <loc>http://localhost:1313/blog/tags/combinatorics/</loc>
     <lastmod>2024-07-29T23:17:43+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-62-unique-paths/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-62-unique-paths/</loc>
     <lastmod>2024-07-29T23:17:43+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/inorder-traversal/</loc>
+    <loc>http://localhost:1313/blog/tags/inorder-traversal/</loc>
     <lastmod>2024-07-29T23:09:53+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-230-kth-smallest-element-in-a-bst/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-230-kth-smallest-element-in-a-bst/</loc>
     <lastmod>2024-07-29T23:09:53+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-153-find-minimum-in-rotated-sorted-arrat/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-153-find-minimum-in-rotated-sorted-arrat/</loc>
     <lastmod>2024-07-29T22:30:01+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-371-sum-of-two-integers/</loc>
     <lastmod>2024-07-29T22:05:47+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3217-delete-nodes-from-linked-list-present-in-array/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3217-delete-nodes-from-linked-list-present-in-array/</loc>
     <lastmod>2024-07-29T19:41:13+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/prime-counting/</loc>
+    <loc>http://localhost:1313/blog/tags/prime-counting/</loc>
     <lastmod>2024-07-29T19:08:13+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3233-find-the-count-of-numbers-which-are-not-special/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3233-find-the-count-of-numbers-which-are-not-special/</loc>
     <lastmod>2024-07-29T19:08:13+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3232-find-if-digit-game-can-be-won/</loc>
+    <loc>http://localhost:1313/blog/posts/leetcode-contest/problem-3232-find-if-digit-game-can-be-won/</loc>
     <lastmod>2024-07-29T19:00:51+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1395-count-number-of-teams/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1395-count-number-of-teams/</loc>
     <lastmod>2024-07-29T18:30:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/vectors/</loc>
+    <loc>http://localhost:1313/blog/tags/vectors/</loc>
     <lastmod>2024-07-29T18:30:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</loc>
     <lastmod>2024-07-29T00:31:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-82-remove-duplicates-from-sorted-list-ii/</loc>
     <lastmod>2024-07-28T20:59:29+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/two-pointer/</loc>
+    <loc>http://localhost:1313/blog/tags/two-pointer/</loc>
     <lastmod>2024-07-28T20:59:29+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/two-pointers/</loc>
+    <loc>http://localhost:1313/blog/tags/two-pointers/</loc>
     <lastmod>2024-07-28T20:59:29+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/frequency-count/</loc>
+    <loc>http://localhost:1313/blog/tags/frequency-count/</loc>
     <lastmod>2024-07-28T20:46:25+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-299-bulls-and-cows/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-299-bulls-and-cows/</loc>
     <lastmod>2024-07-28T20:46:25+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/iterator/</loc>
+    <loc>http://localhost:1313/blog/tags/iterator/</loc>
     <lastmod>2024-07-27T18:37:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-284-peeking-iterator/</loc>
     <lastmod>2024-07-27T18:37:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/all-pair-shortest-path/</loc>
+    <loc>http://localhost:1313/blog/tags/all-pair-shortest-path/</loc>
     <lastmod>2024-07-27T15:35:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/floyd-warshal/</loc>
+    <loc>http://localhost:1313/blog/tags/floyd-warshal/</loc>
     <lastmod>2024-07-27T15:35:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</loc>
     <lastmod>2024-07-27T15:35:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/floyd-warshall/</loc>
+    <loc>http://localhost:1313/blog/tags/floyd-warshall/</loc>
     <lastmod>2024-07-26T15:00:02+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/graphs/</loc>
+    <loc>http://localhost:1313/blog/tags/graphs/</loc>
     <lastmod>2024-07-26T15:00:02+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</loc>
     <lastmod>2024-07-26T15:00:02+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-89-gray-code/</loc>
     <lastmod>2024-07-25T22:03:45+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/hashset/</loc>
+    <loc>http://localhost:1313/blog/tags/hashset/</loc>
     <lastmod>2024-07-25T21:47:34+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-128-longest-consecutive-sequence/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-128-longest-consecutive-sequence/</loc>
     <lastmod>2024-07-25T21:47:34+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/set/</loc>
+    <loc>http://localhost:1313/blog/tags/set/</loc>
     <lastmod>2024-07-25T21:47:34+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-832-flipping-an-image/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-832-flipping-an-image/</loc>
     <lastmod>2024-07-25T21:38:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/vector/</loc>
+    <loc>http://localhost:1313/blog/tags/vector/</loc>
     <lastmod>2024-07-25T21:38:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/iterative/</loc>
+    <loc>http://localhost:1313/blog/tags/iterative/</loc>
     <lastmod>2024-07-25T20:55:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</loc>
+    <loc>http://localhost:1313/blog/posts/extraques/problem-24-swap-nodes-in-pairs/</loc>
     <lastmod>2024-07-25T20:55:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-912-sort-an-array/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-912-sort-an-array/</loc>
     <lastmod>2024-07-25T12:20:26+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</loc>
     <lastmod>2024-07-24T21:58:16+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</loc>
     <lastmod>2024-07-23T21:12:33+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/max-heap/</loc>
+    <loc>http://localhost:1313/blog/tags/max-heap/</loc>
     <lastmod>2024-07-22T18:47:32+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-2418-sort-the-people/</loc>
     <lastmod>2024-07-22T18:47:32+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1605-find-valid-matrix-given-row-and-column-sums/</loc>
+    <loc>http://localhost:1313/blog/leetcode-potd/problem-1605-find-valid-matrix-given-row-and-column-sums/</loc>
     <lastmod>2024-07-21T21:18:57+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/maxi-min/</loc>
+    <loc>http://localhost:1313/blog/tags/maxi-min/</loc>
     <lastmod>2024-07-19T21:38:03+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/mini-max/</loc>
+    <loc>http://localhost:1313/blog/tags/mini-max/</loc>
     <lastmod>2024-07-19T21:38:03+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-lucky-number-in-a-matrix/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-lucky-number-in-a-matrix/</loc>
     <lastmod>2024-07-19T21:38:03+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-good-leaf-nodes-pairs/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-good-leaf-nodes-pairs/</loc>
     <lastmod>2024-07-18T16:16:45+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-nodes-and-return-forest/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-delete-nodes-and-return-forest/</loc>
     <lastmod>2024-07-17T12:04:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</loc>
     <lastmod>2024-07-16T12:54:12+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-create-binary-tree-from-descriptions/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-create-binary-tree-from-descriptions/</loc>
     <lastmod>2024-07-15T15:17:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-atoms/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-atoms/</loc>
     <lastmod>2024-07-14T22:24:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/stack/</loc>
+    <loc>http://localhost:1313/blog/tags/stack/</loc>
     <lastmod>2024-07-14T22:24:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-robot-collisions/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-robot-collisions/</loc>
     <lastmod>2024-07-13T12:20:45+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/bfs/</loc>
+    <loc>http://localhost:1313/blog/tags/bfs/</loc>
     <lastmod>2024-07-12T19:24:33+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/level-order-traversal/</loc>
+    <loc>http://localhost:1313/blog/tags/level-order-traversal/</loc>
     <lastmod>2024-07-12T19:24:33+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</loc>
     <lastmod>2024-07-12T19:24:33+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/queue/</loc>
+    <loc>http://localhost:1313/blog/tags/queue/</loc>
     <lastmod>2024-07-12T19:24:33+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</loc>
     <lastmod>2024-07-12T19:10:01+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</loc>
     <lastmod>2024-07-11T22:07:28+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-crawler-log-folder/</loc>
     <lastmod>2024-07-10T21:35:27+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-average-waiting-time/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-average-waiting-time/</loc>
     <lastmod>2024-07-09T23:52:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/iteration/</loc>
+    <loc>http://localhost:1313/blog/tags/iteration/</loc>
     <lastmod>2024-07-09T00:39:33+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-winner-of-the-circular-game/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-winner-of-the-circular-game/</loc>
     <lastmod>2024-07-09T00:39:33+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-water-bottles/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-water-bottles/</loc>
     <lastmod>2024-07-07T17:59:47+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-pass-the-pillow/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-pass-the-pillow/</loc>
     <lastmod>2024-07-06T16:45:27+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</loc>
     <lastmod>2024-07-05T18:54:28+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-merge-nodes-in-between-zeros/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-merge-nodes-in-between-zeros/</loc>
     <lastmod>2024-07-04T21:58:32+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</loc>
     <lastmod>2024-07-03T21:40:45+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</loc>
     <lastmod>2024-07-02T22:34:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/parity/</loc>
+    <loc>http://localhost:1313/blog/tags/parity/</loc>
     <lastmod>2024-07-01T18:55:41+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-three-consecutive-odds/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-three-consecutive-odds/</loc>
     <lastmod>2024-07-01T18:55:41+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-invert-binary-tree/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-invert-binary-tree/</loc>
     <lastmod>2024-06-30T18:59:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/adjacency-list/</loc>
+    <loc>http://localhost:1313/blog/tags/adjacency-list/</loc>
     <lastmod>2024-06-29T10:39:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dag/</loc>
+    <loc>http://localhost:1313/blog/tags/dag/</loc>
     <lastmod>2024-06-29T10:39:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-all-ancestors-of-a-node-in-a-dag/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-all-ancestors-of-a-node-in-a-dag/</loc>
     <lastmod>2024-06-29T10:39:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</loc>
     <lastmod>2024-06-28T19:39:10+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/undirected-graph/</loc>
+    <loc>http://localhost:1313/blog/tags/undirected-graph/</loc>
     <lastmod>2024-06-28T19:39:10+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/degree/</loc>
+    <loc>http://localhost:1313/blog/tags/degree/</loc>
     <lastmod>2024-06-27T10:59:29+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-center-of-star-graph/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-find-center-of-star-graph/</loc>
     <lastmod>2024-06-27T10:59:29+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/star-graph/</loc>
+    <loc>http://localhost:1313/blog/tags/star-graph/</loc>
     <lastmod>2024-06-27T10:59:29+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/inorder/</loc>
+    <loc>http://localhost:1313/blog/tags/inorder/</loc>
     <lastmod>2024-06-26T14:23:32+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-balance-a-binary-search-tree/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-balance-a-binary-search-tree/</loc>
     <lastmod>2024-06-26T14:23:32+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-binary-search-tree-to-greater-sum-tree/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-binary-search-tree-to-greater-sum-tree/</loc>
     <lastmod>2024-06-25T09:30:02+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/reverse-inorder/</loc>
+    <loc>http://localhost:1313/blog/tags/reverse-inorder/</loc>
     <lastmod>2024-06-25T09:30:02+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-search-on-answer/</loc>
+    <loc>http://localhost:1313/blog/tags/binary-search-on-answer/</loc>
     <lastmod>2024-06-20T21:42:43+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-magnetic-force-between-two-balls/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-magnetic-force-between-two-balls/</loc>
     <lastmod>2024-06-20T21:42:43+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-days-to-make-m-bouquets/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-number-of-days-to-make-m-bouquets/</loc>
     <lastmod>2024-06-19T23:03:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-most-profit-assigning-work/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-most-profit-assigning-work/</loc>
     <lastmod>2024-06-18T20:52:44+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-sum-of-square-numbers/</loc>
     <lastmod>2024-06-17T18:55:17+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-ipo/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-ipo/</loc>
     <lastmod>2024-06-15T10:35:35+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</loc>
     <lastmod>2024-06-14T21:23:14+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</loc>
     <lastmod>2024-06-13T21:56:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-sort-colors/</loc>
     <lastmod>2024-06-12T18:48:37+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/count-sort/</loc>
+    <loc>http://localhost:1313/blog/tags/count-sort/</loc>
     <lastmod>2024-06-11T14:35:44+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/counting-sort/</loc>
+    <loc>http://localhost:1313/blog/tags/counting-sort/</loc>
     <lastmod>2024-06-11T14:35:44+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-sort-array/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-relative-sort-array/</loc>
     <lastmod>2024-06-11T14:35:44+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/bitwise-xor/</loc>
+    <loc>http://localhost:1313/blog/tags/bitwise-xor/</loc>
     <lastmod>2024-06-10T21:33:50+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-single-number/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-single-number/</loc>
     <lastmod>2024-06-10T21:33:50+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-height-checker/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-height-checker/</loc>
     <lastmod>2024-06-10T21:19:08+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/prefixsum/</loc>
+    <loc>http://localhost:1313/blog/tags/prefixsum/</loc>
     <lastmod>2024-06-08T11:56:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-continuous-subarray-sum/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-continuous-subarray-sum/</loc>
     <lastmod>2024-06-08T11:56:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/hash-table/</loc>
+    <loc>http://localhost:1313/blog/tags/hash-table/</loc>
     <lastmod>2024-06-06T23:34:53+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-find-common-characters/</loc>
     <lastmod>2024-06-06T23:34:53+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-hand-of-straights/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-hand-of-straights/</loc>
     <lastmod>2024-06-06T23:33:06+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-string/</loc>
     <lastmod>2024-06-02T16:56:53+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-of-a-string/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-score-of-a-string/</loc>
     <lastmod>2024-06-01T11:51:08+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/traversal/</loc>
+    <loc>http://localhost:1313/blog/tags/traversal/</loc>
     <lastmod>2024-06-01T11:51:08+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/cpp/</loc>
+    <loc>http://localhost:1313/blog/tags/cpp/</loc>
     <lastmod>2024-05-22T23:39:58+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-palindrome-partitioning/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-palindrome-partitioning/</loc>
     <lastmod>2024-05-22T23:39:58+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-subsets/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-subsets/</loc>
     <lastmod>2024-05-21T21:13:39+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-all-subset-xor-totals/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-sum-of-all-subset-xor-totals/</loc>
     <lastmod>2024-05-20T22:32:09+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</loc>
     <lastmod>2024-05-19T10:30:05+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-distribute-coins-in-binary-tree/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-distribute-coins-in-binary-tree/</loc>
     <lastmod>2024-05-19T10:29:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-leaves-with-a-given-value/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-delete-leaves-with-a-given-value/</loc>
     <lastmod>2024-05-19T10:27:59+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</loc>
     <lastmod>2024-05-17T21:05:30+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-path-with-maximum-gold/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-path-with-maximum-gold/</loc>
     <lastmod>2024-05-14T22:27:55+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-after-flipping-matrix/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-score-after-flipping-matrix/</loc>
     <lastmod>2024-05-13T20:20:37+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/2d-array/</loc>
+    <loc>http://localhost:1313/blog/tags/2d-array/</loc>
     <lastmod>2024-05-12T10:58:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-largest-local-values-in-a-matrix/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-largest-local-values-in-a-matrix/</loc>
     <lastmod>2024-05-12T10:58:07+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</loc>
     <lastmod>2024-05-10T19:04:08+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximize-happiness-of-selected-children/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-maximize-happiness-of-selected-children/</loc>
     <lastmod>2024-05-09T14:35:42+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-ranks/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-relative-ranks/</loc>
     <lastmod>2024-05-08T14:24:30+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/strings/</loc>
+    <loc>http://localhost:1313/blog/tags/strings/</loc>
     <lastmod>2024-05-08T14:24:30+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-double-a-number-represented-as-a-linked-list/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-double-a-number-represented-as-a-linked-list/</loc>
     <lastmod>2024-05-07T18:14:06+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/monotonic-stack/</loc>
+    <loc>http://localhost:1313/blog/tags/monotonic-stack/</loc>
     <lastmod>2024-05-06T15:21:47+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-remove-nodes-from-linked-list/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-remove-nodes-from-linked-list/</loc>
     <lastmod>2024-05-06T15:21:47+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-node-in-a-linked-list/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-delete-node-in-a-linked-list/</loc>
     <lastmod>2024-05-05T11:54:45+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-boats-to-save-people/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-boats-to-save-people/</loc>
     <lastmod>2024-05-04T15:00:06+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</loc>
     <lastmod>2024-05-01T20:47:44+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-falling-path-sum-ii/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-falling-path-sum-ii/</loc>
     <lastmod>2024-04-26T12:15:26+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-nth-tribonacci-number/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-nth-tribonacci-number/</loc>
     <lastmod>2024-04-24T13:45:56+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-open-the-lock/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-open-the-lock/</loc>
     <lastmod>2024-04-22T16:27:12+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-if-path-exists-in-graph/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-find-if-path-exists-in-graph/</loc>
     <lastmod>2024-04-21T15:42:16+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-all-groups-of-farmland/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-find-all-groups-of-farmland/</loc>
     <lastmod>2024-04-20T10:52:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-islands/</loc>
     <lastmod>2024-04-19T13:00:30+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-island-perimeter/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-island-perimeter/</loc>
     <lastmod>2024-04-18T20:48:14+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</loc>
     <lastmod>2024-04-17T14:56:36+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-add-one-row-to-tree/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-add-one-row-to-tree/</loc>
     <lastmod>2024-04-16T10:05:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-root-to-leaf-numbers/</loc>
+    <loc>http://localhost:1313/blog/posts/previous-solutions/problem-sum-root-to-leaf-numbers/</loc>
     <lastmod>2024-04-15T19:38:03+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/raspberrypi/</loc>
+    <loc>http://localhost:1313/blog/tags/raspberrypi/</loc>
     <lastmod>2024-04-15T00:55:16+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/posts/raspberrypi/raspberrypi_zero_setup/</loc>
+    <loc>http://localhost:1313/blog/posts/raspberrypi/raspberrypi_zero_setup/</loc>
     <lastmod>2024-04-15T00:55:16+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/setup/</loc>
+    <loc>http://localhost:1313/blog/tags/setup/</loc>
     <lastmod>2024-04-15T00:55:16+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/about/about/</loc>
+    <loc>http://localhost:1313/blog/about/about/</loc>
     <lastmod>2024-04-14T19:48:51+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/about/</loc>
+    <loc>http://localhost:1313/blog/about/</loc>
     <lastmod>2024-04-14T19:48:51+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/categories/</loc>
+    <loc>http://localhost:1313/blog/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

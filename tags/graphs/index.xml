@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Graphs on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/graphs/</link>
+    <link>http://localhost:1313/blog/tags/graphs/</link>
     <description>Recent content in Graphs on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2024 15:00:02 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/graphs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/graphs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 1334 Find the City With the Smallest Number of Neighbours at a Threshold Distance</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</link>
       <pubDate>Fri, 26 Jul 2024 15:00:02 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</guid>
       <description>Problem Statement Link - Problem 1334 Question There are n cities numbered from 0 to n-1.</description>
     </item>
   </channel>
