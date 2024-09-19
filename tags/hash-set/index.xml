@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hash-Set on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/hash-set/</link>
+    <link>https://KTS-o7.github.io/blog/tags/hash-set/</link>
     <description>Recent content in Hash-Set on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Sep 2024 11:38:56 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/hash-set/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/hash-set/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 1684 Count the Number of Consistent Strings</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
       <pubDate>Thu, 12 Sep 2024 11:38:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
       <description>Problem Statement Link - Problem 1684 Question You are given a string allowed consisting of distinct characters and an array of strings words.</description>
     </item>
   </channel>
