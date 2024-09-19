@@ -23,6 +23,34 @@
       <description></description>
     </item>
     <item>
+      <title>Bfs</title>
+      <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
+      <pubDate>Sun, 15 Sep 2024 16:15:45 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dp</title>
+      <link>https://KTS-o7.github.io/blog/tags/dp/</link>
+      <pubDate>Sun, 15 Sep 2024 16:15:45 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic-Programming</title>
+      <link>https://KTS-o7.github.io/blog/tags/dynamic-programming/</link>
+      <pubDate>Sun, 15 Sep 2024 16:15:45 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Queue</title>
+      <link>https://KTS-o7.github.io/blog/tags/queue/</link>
+      <pubDate>Sun, 15 Sep 2024 16:15:45 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/queue/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
       <pubDate>Sun, 15 Sep 2024 16:08:07 +0530</pubDate>
@@ -282,13 +310,6 @@
       <description></description>
     </item>
     <item>
-      <title>Dynamic-Programming</title>
-      <link>https://KTS-o7.github.io/blog/tags/dynamic-programming/</link>
-      <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dynamic-programming/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Greedy</title>
       <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
       <pubDate>Fri, 16 Aug 2024 19:52:59 +0530</pubDate>
@@ -384,13 +405,6 @@
       <link>https://KTS-o7.github.io/blog/tags/shortest-path/</link>
       <pubDate>Thu, 01 Aug 2024 18:56:42 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/shortest-path/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dp</title>
-      <link>https://KTS-o7.github.io/blog/tags/dp/</link>
-      <pubDate>Tue, 30 Jul 2024 00:52:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
       <description></description>
     </item>
     <item>
@@ -534,24 +548,10 @@
       <description></description>
     </item>
     <item>
-      <title>Bfs</title>
-      <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
-      <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Level-Order-Traversal</title>
       <link>https://KTS-o7.github.io/blog/tags/level-order-traversal/</link>
       <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/level-order-traversal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Queue</title>
-      <link>https://KTS-o7.github.io/blog/tags/queue/</link>
-      <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/queue/</guid>
       <description></description>
     </item>
     <item>
