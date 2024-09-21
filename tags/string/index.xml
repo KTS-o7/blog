@@ -6,8 +6,15 @@
     <description>Recent content in String on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2024 16:00:34 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 17 Sep 2024 12:53:11 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 884 Uncommon Words From Two Sentences</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</link>
+      <pubDate>Tue, 17 Sep 2024 12:53:11 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</guid>
+      <description>Problem Statement Link - Problem 884 Question A sentence is a string of single-space separated words where each word consists only of lowercase letters.</description>
+    </item>
     <item>
       <title>Problem 2544 Alternating Digit Sum</title>
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</link>

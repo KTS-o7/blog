@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2419 Longest Subarray With Maximum Bitwise AND &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2419 Longest Subarray With Maximum Bitwise AND &middot; The Indian Engineer" />
+  <title>Problem 884 Uncommon Words From Two Sentences &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 884 Uncommon Words From Two Sentences &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="math, bit-manipulation, array, range-query, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/" />
+  <meta name="keywords" content="hash-map, string, count, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/" />
 
   
 
@@ -82,25 +82,24 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2419 Longest Subarray With Maximum Bitwise AND">
-  <meta property="og:description" content="Problem Statement Link - Problem 2419 Question You are given an integer array nums of size n.">
+  <meta property="og:title" content="Problem 884 Uncommon Words From Two Sentences">
+  <meta property="og:description" content="Problem Statement Link - Problem 884 Question A sentence is a string of single-space separated words where each word consists only of lowercase letters.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-14T14:57:52+05:30">
-    <meta property="article:modified_time" content="2024-09-14T14:57:52+05:30">
-    <meta property="article:tag" content="Math">
-    <meta property="article:tag" content="Bit-Manipulation">
-    <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Range-Query">
+    <meta property="article:published_time" content="2024-09-17T12:53:11+05:30">
+    <meta property="article:modified_time" content="2024-09-17T12:53:11+05:30">
+    <meta property="article:tag" content="Hash-Map">
+    <meta property="article:tag" content="String">
+    <meta property="article:tag" content="Count">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2419 Longest Subarray With Maximum Bitwise AND">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 2419 Question You are given an integer array nums of size n.">
+  <meta name="twitter:title" content="Problem 884 Uncommon Words From Two Sentences">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 884 Question A sentence is a string of single-space separated words where each word consists only of lowercase letters.">
 
   
 
@@ -399,7 +398,7 @@
 
 
 
-<h1 class="pg-title">Problem 2419 Longest Subarray With Maximum Bitwise AND</h1>
+<h1 class="pg-title">Problem 884 Uncommon Words From Two Sentences</h1>
 
 
 <div class="meta">
@@ -419,7 +418,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-14T14:57:52&#43;05:30">Sep 14, 2024</time>
+  Posted on <time datetime="2024-09-17T12:53:11&#43;05:30">Sep 17, 2024</time>
   
   
   
@@ -453,13 +452,11 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/math/">Math</a>
+  <a class="tag" href="/blog/tags/hash-map/">Hash-Map</a>
   
-  <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
+  <a class="tag" href="/blog/tags/string/">String</a>
   
-  <a class="tag" href="/blog/tags/array/">Array</a>
-  
-  <a class="tag" href="/blog/tags/range-query/">Range-Query</a>
+  <a class="tag" href="/blog/tags/count/">Count</a>
   
 </p>
 
@@ -511,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description/" target="_blank">Problem 2419</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/uncommon-words-from-two-sentences/description/" target="_blank">Problem 884</a>
 </p>
 
 <h2 id="question">
@@ -525,14 +522,9 @@
  </a>
   
 </h2>
-<p>You are given an integer array <code>nums</code> of size <code>n</code>.</p>
-<p>Consider a non-empty subarray from <code>nums</code> that has the maximum possible bitwise AND.</p>
-<ul>
-<li>In other words, let <code>k</code> be the maximum value of the bitwise AND of any subarray of <code>nums</code>. Then, only subarrays with a bitwise AND equal to <code>k</code> should be considered.
-Return the length of the longest such subarray.</li>
-</ul>
-<p>The bitwise AND of an array is the bitwise AND of all the numbers in it.</p>
-<p>A subarray is a contiguous sequence of elements within an array.</p>
+<p>A sentence is a string of single-space separated words where each word consists only of lowercase letters.</p>
+<p>A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.</p>
+<p>Given two sentences <code>s1</code> and <code>s2</code>, return a list of all the uncommon words. You may return the answer in any order.</p>
 
 <h2 id="example-1">
   Example 1
@@ -545,11 +537,13 @@ Return the length of the longest such subarray.</li>
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: nums = [1,2,3,3,2,2]
-Output: 2
+<pre tabindex="0"><code>Input: s1 = &#34;this apple is sweet&#34;, s2 = &#34;this apple is sour&#34;
+
+Output: [&#34;sweet&#34;,&#34;sour&#34;]
+
 Explanation:
-The maximum possible bitwise AND of a subarray is 3.
-The longest subarray with that value is [3,3], so we return 2.
+
+The word &#34;sweet&#34; appears only in s1, while the word &#34;sour&#34; appears only in s2.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -562,10 +556,9 @@ The longest subarray with that value is [3,3], so we return 2.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Output: 1
-Explanation:
-The maximum possible bitwise AND of a subarray is 4.
-The longest subarray with that value is [4], so we return 1.
+<pre tabindex="0"><code>Input: s1 = &#34;apple apple&#34;, s2 = &#34;banana&#34;
+
+Output: [&#34;banana&#34;]
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -579,8 +572,10 @@ The longest subarray with that value is [4], so we return 1.
   
 </h2>
 <ul>
-<li>1 &lt;= <code>nums.length</code> &lt;= 10<sup>5</sup></li>
-<li>0 &lt;= <code>nums[i]</code> &lt;= 10<sup>6</sup></li>
+<li>1 &lt;= <code>s1.length</code>, <code>s2.length</code> &lt;= 200</li>
+<li><code>s1</code> and <code>s2</code> consist of lowercase English letters and spaces.</li>
+<li><code>s1</code> and <code>s2</code> do not have leading or trailing spaces.</li>
+<li>All the words in <code>s1</code> and <code>s2</code> are separated by a single space.</li>
 </ul>
 
 <h2 id="solution">
@@ -596,20 +591,26 @@ The longest subarray with that value is [4], so we return 1.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> longestSubarray(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> maxi <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>max_element(nums.begin(),nums.end());
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> temp <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> num:nums){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(num <span style="color:#f92672">==</span> maxi)
-</span></span><span style="display:flex;"><span>                temp<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>{
-</span></span><span style="display:flex;"><span>                len <span style="color:#f92672">=</span> max(temp,len);
-</span></span><span style="display:flex;"><span>                temp <span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            len <span style="color:#f92672">=</span> max(temp,len);
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> len;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> wordsplitcount(string s,unordered_map<span style="color:#f92672">&lt;</span>string,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> mp)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        stringstream <span style="color:#a6e22e">ss</span>(s);
+</span></span><span style="display:flex;"><span>        string word;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(ss<span style="color:#f92672">&gt;&gt;</span>word)
+</span></span><span style="display:flex;"><span>            mp[word]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span> uncommonFromSentences(string s1, string s2)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        unordered_map<span style="color:#f92672">&lt;</span>string,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>mp;
+</span></span><span style="display:flex;"><span>        wordsplitcount(s1,mp);
+</span></span><span style="display:flex;"><span>        wordsplitcount(s2,mp);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span>ans;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> x:mp)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(x.second<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>                ans.push_back(x.first);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -624,10 +625,9 @@ The longest subarray with that value is [4], so we return 1.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm               | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ----------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Get Max Element         | O(n)            | O(1)             |
-</span></span><span style="display:flex;"><span>| Compute subarray length | O(n)            | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm  | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ---------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| countWords | O(N)            | O(N)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -652,13 +652,19 @@ The longest subarray with that value is [4], so we return 1.
  </a>
   
 </h3>
-<p>Question wants us to find the length of the subarray whose bitwise AND is maximum.</p>
 <ul>
-<li>If we observe the property of BITWISE AND between two numbers, the result can be at most the minimum of the two numbers.</li>
-<li>So, that means for a generic subarray the maximum bitwise AND can be the minimum of the subarray.</li>
-<li>This means that to obtain the maximum bitwise AND, we need to find the maximum element in the array and the subarray in consideration should have all the elements as the maximum element.</li>
+<li>This question is a counting problem. We need to satisfy two conditions to get the uncommon words.
+<ol>
+<li>The word should appear only once in the sentence.</li>
+<li>The word should not appear in the other sentence.</li>
+</ol>
+</li>
+<li>This means that the frequency of the word should be 1 in the combined sentence.</li>
+<li>We can use a hash map to store the frequency of each word in the combined sentence.</li>
+<li>We can then iterate over the hash map and check if the frequency of the word is 1.</li>
+<li>If the frequency is 1, we can add the word to the answer vector.</li>
+<li>Finally, we can return the answer vector.</li>
 </ul>
-<p>Using the above observation, if we are able to find the maximum element in the array and determine the maximum length of the subarray whose elements are the maximum element, that will be the answer.</p>
 
 <h3 id="2-implementation">
   2. Implementation
@@ -671,19 +677,16 @@ The longest subarray with that value is [4], so we return 1.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize <span style="color:#e6db74">`maxi`</span> as the maximum element in the array.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Use <span style="color:#e6db74">`*max_element`</span> to find the maximum element in the array and store it in <span style="color:#e6db74">`maxi`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize <span style="color:#e6db74">`len`</span> to store the length of the subarray.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize <span style="color:#e6db74">`temp`</span> to store the length of the current subarray.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over all the elements in the array. For each element:
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If the element is equal to <span style="color:#e6db74">`maxi`</span>, increment <span style="color:#e6db74">`temp`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Else, update <span style="color:#e6db74">`len`</span> to the maximum of <span style="color:#e6db74">`temp`</span> and <span style="color:#e6db74">`len`</span> and reset <span style="color:#e6db74">`temp`</span> to 0.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Update <span style="color:#e6db74">`len`</span> to the maximum of <span style="color:#e6db74">`temp`</span> and <span style="color:#e6db74">`len`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return <span style="color:#e6db74">`len`</span>.
-</span></span></code></pre></div><blockquote>
-<p>This is a highly observation based problem. The key is to understand the property of bitwise AND and how it can be used to solve the problem.</p>
-</blockquote>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can create a helper function <span style="color:#e6db74">`wordsplitcount`</span> that takes a string and a hash map as input.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can use a string stream to split the string into words.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can then iterate over the words and increment the frequency of each word in the hash map.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can create a hash map <span style="color:#e6db74">`mp`</span> to store the frequency of each word in the combined sentence.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can call the <span style="color:#e6db74">`wordsplitcount`</span> function for both sentences to populate the hash map.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can create an answer vector <span style="color:#e6db74">`ans`</span> to store the uncommon words.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can iterate over the hash map and check if the frequency of the word is 1.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the frequency is 1, we can add the word to the answer vector.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Finally, we can return the answer vector.
+</span></span></code></pre></div>
 
 
 
@@ -696,17 +699,13 @@ The longest subarray with that value is [4], so we return 1.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 884 Uncommon Words From Two Sentences </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/">
+    <a class="next" href="/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1310 XOR Queries of a Subarray </span>
+      <span> Problem 2419 Longest Subarray With Maximum Bitwise AND </span>
     </a>
   
 </nav>
