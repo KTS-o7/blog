@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 884 Uncommon Words From Two Sentences &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 884 Uncommon Words From Two Sentences &middot; The Indian Engineer" />
+  <title>Problem 1460 Make Two Arrays Equal by Reversing Subarrays &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1460 Make Two Arrays Equal by Reversing Subarrays &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="hash-map, string, count, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/" />
+  <meta name="keywords" content="array, counting, hash-table, sorting, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/" />
 
   
 
@@ -82,24 +82,25 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 884 Uncommon Words From Two Sentences">
-  <meta property="og:description" content="Problem Statement Link - Problem 884 Question A sentence is a string of single-space separated words where each word consists only of lowercase letters.">
+  <meta property="og:title" content="Problem 1460 Make Two Arrays Equal by Reversing Subarrays">
+  <meta property="og:description" content="Problem Statement Link - Problem 1460 Question You are given two integer arrays of equal length target and arr.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-17T12:53:11+05:30">
-    <meta property="article:modified_time" content="2024-09-17T12:53:11+05:30">
-    <meta property="article:tag" content="Hash-Map">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Count">
+    <meta property="article:published_time" content="2024-09-19T22:36:08+05:30">
+    <meta property="article:modified_time" content="2024-09-19T22:36:08+05:30">
+    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Counting">
+    <meta property="article:tag" content="Hash-Table">
+    <meta property="article:tag" content="Sorting">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 884 Uncommon Words From Two Sentences">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 884 Question A sentence is a string of single-space separated words where each word consists only of lowercase letters.">
+  <meta name="twitter:title" content="Problem 1460 Make Two Arrays Equal by Reversing Subarrays">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 1460 Question You are given two integer arrays of equal length target and arr.">
 
   
 
@@ -398,7 +399,7 @@
 
 
 
-<h1 class="pg-title">Problem 884 Uncommon Words From Two Sentences</h1>
+<h1 class="pg-title">Problem 1460 Make Two Arrays Equal by Reversing Subarrays</h1>
 
 
 <div class="meta">
@@ -418,7 +419,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-17T12:53:11&#43;05:30">Sep 17, 2024</time>
+  Posted on <time datetime="2024-09-19T22:36:08&#43;05:30">Sep 19, 2024</time>
   
   
   
@@ -435,7 +436,7 @@
 
 </span>
   
-    3 mins
+    2 mins
   
 
 
@@ -452,11 +453,13 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/hash-map/">Hash-Map</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/counting/">Counting</a>
   
-  <a class="tag" href="/blog/tags/count/">Count</a>
+  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
+  
+  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
   
 </p>
 
@@ -478,6 +481,7 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
+    <li><a href="#example-3">Example 3</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
@@ -508,7 +512,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/uncommon-words-from-two-sentences/description/" target="_blank">Problem 884</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/" target="_blank">Problem 1460</a>
 </p>
 
 <h2 id="question">
@@ -522,9 +526,8 @@
  </a>
   
 </h2>
-<p>A sentence is a string of single-space separated words where each word consists only of lowercase letters.</p>
-<p>A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.</p>
-<p>Given two sentences <code>s1</code> and <code>s2</code>, return a list of all the uncommon words. You may return the answer in any order.</p>
+<p>You are given two integer arrays of equal length <code>target</code> and <code>arr</code>. In one step, you can select any non-empty subarray of <code>arr</code> and reverse it. You are allowed to make any number of steps.</p>
+<p>Return <code>true</code> if you can make <code>arr</code> equal to <code>target</code> or <code>false</code> otherwise.</p>
 
 <h2 id="example-1">
   Example 1
@@ -537,13 +540,13 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: s1 = &#34;this apple is sweet&#34;, s2 = &#34;this apple is sour&#34;
-
-Output: [&#34;sweet&#34;,&#34;sour&#34;]
-
-Explanation:
-
-The word &#34;sweet&#34; appears only in s1, while the word &#34;sour&#34; appears only in s2.
+<pre tabindex="0"><code>Input: target = [1,2,3,4], arr = [2,4,1,3]
+Output: true
+Explanation: You can follow the next steps to convert arr to target:
+1- Reverse subarray [2,4,1], arr becomes [1,4,2,3]
+2- Reverse subarray [4,2], arr becomes [1,2,4,3]
+3- Reverse subarray [4,3], arr becomes [1,2,3,4]
+There are multiple ways to convert arr to target, this is not the only way to do so.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -556,9 +559,24 @@ The word &#34;sweet&#34; appears only in s1, while the word &#34;sour&#34; appea
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: s1 = &#34;apple apple&#34;, s2 = &#34;banana&#34;
+<pre tabindex="0"><code>Input: target = [7], arr = [7]
+Output: true
+Explanation: arr is equal to target without any reverses.
+</code></pre>
+<h2 id="example-3">
+  Example 3
+  
+  <a hidden class="anchor" href="#example-3">
 
-Output: [&#34;banana&#34;]
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<pre tabindex="0"><code>Input: target = [3,7,9], arr = [3,7,11]
+Output: false
+Explanation: arr does not have value 9 and it can never be converted to target.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -572,10 +590,10 @@ Output: [&#34;banana&#34;]
   
 </h2>
 <ul>
-<li>1 &lt;= <code>s1.length</code>, <code>s2.length</code> &lt;= 200</li>
-<li><code>s1</code> and <code>s2</code> consist of lowercase English letters and spaces.</li>
-<li><code>s1</code> and <code>s2</code> do not have leading or trailing spaces.</li>
-<li>All the words in <code>s1</code> and <code>s2</code> are separated by a single space.</li>
+<li><code>target.length == arr.length</code></li>
+<li><code>1 &lt;= target.length &lt;= 1000</code></li>
+<li><code>1 &lt;= target[i] &lt;= 1000</code></li>
+<li><code>1 &lt;= arr[i] &lt;= 1000</code></li>
 </ul>
 
 <h2 id="solution">
@@ -591,26 +609,16 @@ Output: [&#34;banana&#34;]
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> wordsplitcount(string s,unordered_map<span style="color:#f92672">&lt;</span>string,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> mp)
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        stringstream <span style="color:#a6e22e">ss</span>(s);
-</span></span><span style="display:flex;"><span>        string word;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(ss<span style="color:#f92672">&gt;&gt;</span>word)
-</span></span><span style="display:flex;"><span>            mp[word]<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span> uncommonFromSentences(string s1, string s2)
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        unordered_map<span style="color:#f92672">&lt;</span>string,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>mp;
-</span></span><span style="display:flex;"><span>        wordsplitcount(s1,mp);
-</span></span><span style="display:flex;"><span>        wordsplitcount(s2,mp);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span>ans;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> x:mp)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(x.second<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>)
-</span></span><span style="display:flex;"><span>                ans.push_back(x.first);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> canBeEqual(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> target, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> arr) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> cnt1(<span style="color:#ae81ff">1001</span>);
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> cnt2(<span style="color:#ae81ff">1001</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> v : target) {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">++</span>cnt1[v];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> v : arr) {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">++</span>cnt2[v];
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> cnt1 <span style="color:#f92672">==</span> cnt2;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -625,9 +633,9 @@ Output: [&#34;banana&#34;]
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm  | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ---------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| countWords | O(N)            | O(N)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Counting  | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -652,18 +660,12 @@ Output: [&#34;banana&#34;]
  </a>
   
 </h3>
+<p>We need to create subarrays of <code>arr</code> and reverse them to obtain target. But the key point is we can do this operation any number of times.</p>
 <ul>
-<li>This question is a counting problem. We need to satisfy two conditions to get the uncommon words.
-<ol>
-<li>The word should appear only once in the sentence.</li>
-<li>The word should not appear in the other sentence.</li>
-</ol>
-</li>
-<li>This means that the frequency of the word should be 1 in the combined sentence.</li>
-<li>We can use a hash map to store the frequency of each word in the combined sentence.</li>
-<li>We can then iterate over the hash map and check if the frequency of the word is 1.</li>
-<li>If the frequency is 1, we can add the word to the answer vector.</li>
-<li>Finally, we can return the answer vector.</li>
+<li>This means we can take two element subarrays and reverse them to essentially generate the target array given that the elements are the same.</li>
+<li>Because of this we just need to check if the frequency of elements in both arrays is the same.</li>
+<li>If the frequency of elements is the same, we can generate the target array by reversing subarrays.</li>
+<li>If the frequency of elements is not the same, we cannot generate the target array by reversing subarrays.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -677,15 +679,10 @@ Output: [&#34;banana&#34;]
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can create a helper function <span style="color:#e6db74">`wordsplitcount`</span> that takes a string and a hash map as input.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can use a string stream to split the string into words.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can then iterate over the words and increment the frequency of each word in the hash map.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can create a hash map <span style="color:#e6db74">`mp`</span> to store the frequency of each word in the combined sentence.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can call the <span style="color:#e6db74">`wordsplitcount`</span> function for both sentences to populate the hash map.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can create an answer vector <span style="color:#e6db74">`ans`</span> to store the uncommon words.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can iterate over the hash map and check if the frequency of the word is 1.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the frequency is 1, we can add the word to the answer vector.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Finally, we can return the answer vector.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize two vectors <span style="color:#e6db74">`cnt1`</span> and <span style="color:#e6db74">`cnt2`</span> of size 1001 with 0.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the elements of <span style="color:#e6db74">`target`</span> and increment the count of the element in <span style="color:#e6db74">`cnt1`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the elements of <span style="color:#e6db74">`arr`</span> and increment the count of the element in <span style="color:#e6db74">`cnt2`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return whether the two vectors are equal.
 </span></span></code></pre></div>
 
 
@@ -699,17 +696,13 @@ Output: [&#34;banana&#34;]
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1460 Make Two Arrays Equal by Reversing Subarrays </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/">
+    <a class="next" href="/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2419 Longest Subarray With Maximum Bitwise AND </span>
+      <span> Problem 884 Uncommon Words From Two Sentences </span>
     </a>
   
 </nav>

@@ -6,8 +6,15 @@
     <description>Recent content in Sorting on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Sep 2024 16:34:05 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 22:36:08 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1460 Make Two Arrays Equal by Reversing Subarrays</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</link>
+      <pubDate>Thu, 19 Sep 2024 22:36:08 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</guid>
+      <description>Problem Statement Link - Problem 1460 Question You are given two integer arrays of equal length target and arr.</description>
+    </item>
     <item>
       <title>Problem 3273 Minimum Amount of Damage Dealt to Bob</title>
       <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/</link>
