@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1460 Make Two Arrays Equal by Reversing Subarrays &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1460 Make Two Arrays Equal by Reversing Subarrays &middot; The Indian Engineer" />
+  <title>Problem 874 Walking Robot Simulation &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 874 Walking Robot Simulation &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, counting, hash-table, sorting, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/" />
+  <meta name="keywords" content="math, simulation, array, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/" />
 
   
 
@@ -82,25 +82,24 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1460 Make Two Arrays Equal by Reversing Subarrays">
-  <meta property="og:description" content="Problem Statement Link - Problem 1460 Question You are given two integer arrays of equal length target and arr.">
+  <meta property="og:title" content="Problem 874 Walking Robot Simulation">
+  <meta property="og:description" content="Problem Statement Link - Problem 874 Question A robot on an infinite XY-plane starts at point (0, 0) facing north.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-09-19T22:36:08+05:30">
-    <meta property="article:modified_time" content="2024-09-19T22:36:08+05:30">
+    <meta property="article:published_time" content="2024-09-24T18:43:34+05:30">
+    <meta property="article:modified_time" content="2024-09-24T18:43:34+05:30">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Simulation">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Counting">
-    <meta property="article:tag" content="Hash-Table">
-    <meta property="article:tag" content="Sorting">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1460 Make Two Arrays Equal by Reversing Subarrays">
-  <meta name="twitter:description" content="Problem Statement Link - Problem 1460 Question You are given two integer arrays of equal length target and arr.">
+  <meta name="twitter:title" content="Problem 874 Walking Robot Simulation">
+  <meta name="twitter:description" content="Problem Statement Link - Problem 874 Question A robot on an infinite XY-plane starts at point (0, 0) facing north.">
 
   
 
@@ -399,7 +398,7 @@
 
 
 
-<h1 class="pg-title">Problem 1460 Make Two Arrays Equal by Reversing Subarrays</h1>
+<h1 class="pg-title">Problem 874 Walking Robot Simulation</h1>
 
 
 <div class="meta">
@@ -419,7 +418,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-19T22:36:08&#43;05:30">Sep 19, 2024</time>
+  Posted on <time datetime="2024-09-24T18:43:34&#43;05:30">Sep 24, 2024</time>
   
   
   
@@ -436,7 +435,7 @@
 
 </span>
   
-    2 mins
+    5 mins
   
 
 
@@ -453,13 +452,11 @@
 
  </span>
   
+  <a class="tag" href="/blog/tags/math/">Math</a>
+  
+  <a class="tag" href="/blog/tags/simulation/">Simulation</a>
+  
   <a class="tag" href="/blog/tags/array/">Array</a>
-  
-  <a class="tag" href="/blog/tags/counting/">Counting</a>
-  
-  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
-  
-  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
   
 </p>
 
@@ -512,7 +509,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/" target="_blank">Problem 1460</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/walking-robot-simulation/description/" target="_blank">Problem 874</a>
 </p>
 
 <h2 id="question">
@@ -526,8 +523,22 @@
  </a>
   
 </h2>
-<p>You are given two integer arrays of equal length <code>target</code> and <code>arr</code>. In one step, you can select any non-empty subarray of <code>arr</code> and reverse it. You are allowed to make any number of steps.</p>
-<p>Return <code>true</code> if you can make <code>arr</code> equal to <code>target</code> or <code>false</code> otherwise.</p>
+<p>A robot on an infinite XY-plane starts at point <code>(0, 0)</code> facing north. The robot receives an array of integers <code>commands</code>, which represents a sequence of moves that it needs to execute. There are only three possible types of instructions the robot can receive:</p>
+<ul>
+<li><code>-2</code>: Turn left 90 degrees.</li>
+<li><code>-1</code>: Turn right 90 degrees.</li>
+<li><code>1</code> &lt;= k &lt;= <code>9</code>: Move forward <code>k</code> units, one unit at a time.</li>
+</ul>
+<p>Some of the grid squares are obstacles. The <code>i</code><sup>th</sup> obstacle is at grid point <code>obstacles[i] = (xi, yi)</code>. If the robot runs into an obstacle, it will stay in its current location (on the block adjacent to the obstacle) and move onto the next command.</p>
+<p>Return the maximum squared Euclidean distance that the robot reaches at any point in its path (i.e. if the distance is 5, return 25).</p>
+<p>Note:</p>
+<p>There can be an obstacle at <code>(0, 0)</code>. If this happens, the robot will ignore the obstacle until it has moved off the origin. However, it will be unable to return to <code>(0, 0)</code> due to the obstacle.</p>
+<ul>
+<li>North means +Y direction.</li>
+<li>East means +X direction.</li>
+<li>South means -Y direction.</li>
+<li>West means -X direction.</li>
+</ul>
 
 <h2 id="example-1">
   Example 1
@@ -540,13 +551,18 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: target = [1,2,3,4], arr = [2,4,1,3]
-Output: true
-Explanation: You can follow the next steps to convert arr to target:
-1- Reverse subarray [2,4,1], arr becomes [1,4,2,3]
-2- Reverse subarray [4,2], arr becomes [1,2,4,3]
-3- Reverse subarray [4,3], arr becomes [1,2,3,4]
-There are multiple ways to convert arr to target, this is not the only way to do so.
+<pre tabindex="0"><code>Input: commands = [4,-1,3], obstacles = []
+
+Output: 25
+
+Explanation:
+
+The robot starts at (0, 0):
+
+Move north 4 units to (0, 4).
+Turn right.
+Move east 3 units to (3, 4).
+The furthest point the robot ever gets from the origin is (3, 4), which squared is 3^2 + 4^2 = 25 units away.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -559,9 +575,20 @@ There are multiple ways to convert arr to target, this is not the only way to do
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: target = [7], arr = [7]
-Output: true
-Explanation: arr is equal to target without any reverses.
+<pre tabindex="0"><code>nput: commands = [4,-1,4,-2,4], obstacles = [[2,4]]
+
+Output: 65
+
+Explanation:
+
+The robot starts at (0, 0):
+
+Move north 4 units to (0, 4).
+Turn right.
+Move east 1 unit and get blocked by the obstacle at (2, 4), robot is at (1, 4).
+Turn left.
+Move north 4 units to (1, 8).
+The furthest point the robot ever gets from the origin is (1, 8), which squared is 1^2 + 8^2 = 65 units away.
 </code></pre>
 <h2 id="example-3">
   Example 3
@@ -574,9 +601,19 @@ Explanation: arr is equal to target without any reverses.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: target = [3,7,9], arr = [3,7,11]
-Output: false
-Explanation: arr does not have value 9 and it can never be converted to target.
+<pre tabindex="0"><code>Input: commands = [6,-1,-1,6], obstacles = [[0,0]]
+
+Output: 36
+
+Explanation:
+
+The robot starts at (0, 0):
+
+Move north 6 units to (0, 6).
+Turn right.
+Turn right.
+Move south 5 units and get blocked by the obstacle at (0,0), robot is at (0, 1).
+The furthest point the robot ever gets from the origin is (0, 6), which squared is 6^2 = 36 units away.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -590,10 +627,11 @@ Explanation: arr does not have value 9 and it can never be converted to target.
   
 </h2>
 <ul>
-<li><code>target.length == arr.length</code></li>
-<li><code>1 &lt;= target.length &lt;= 1000</code></li>
-<li><code>1 &lt;= target[i] &lt;= 1000</code></li>
-<li><code>1 &lt;= arr[i] &lt;= 1000</code></li>
+<li>1 &lt;= <code>commands.length</code> &lt;= 10<sup>4</sup></li>
+<li><code>commands[i]</code> is either -2, -1, or an integer in the range [1, 9].</li>
+<li>0 &lt;= <code>obstacles.length</code> &lt;= 10<sup>4</sup></li>
+<li>-3 x 10<sup>4</sup> &lt;= <code>x</code><sub><code>i</code></sub>, <code>y</code><sub><code>i</code></sub>&lt;= 3 x 10<sup>4</sup></li>
+<li>The answer is guaranteed to be less than 2<sup>31</sup>.</li>
 </ul>
 
 <h2 id="solution">
@@ -609,16 +647,53 @@ Explanation: arr does not have value 9 and it can never be converted to target.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> canBeEqual(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> target, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> arr) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> cnt1(<span style="color:#ae81ff">1001</span>);
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> cnt2(<span style="color:#ae81ff">1001</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> v : target) {
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">++</span>cnt1[v];
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> robotSim(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> commands, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> obstacles) {
+</span></span><span style="display:flex;"><span>        ios<span style="color:#f92672">::</span>sync_with_stdio(false);
+</span></span><span style="display:flex;"><span>        cin.tie(<span style="color:#66d9ef">nullptr</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>,j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>,res <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>,direction<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        set<span style="color:#f92672">&lt;</span>pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> obsSet;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span> <span style="color:#f92672">&amp;</span>it : obstacles){
+</span></span><span style="display:flex;"><span>            obsSet.insert({it[<span style="color:#ae81ff">0</span>],it[<span style="color:#ae81ff">1</span>]});
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> v : arr) {
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">++</span>cnt2[v];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span> <span style="color:#f92672">&amp;</span> command : commands){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(command <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>                direction <span style="color:#f92672">=</span> (direction<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(command <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>){
+</span></span><span style="display:flex;"><span>                direction <span style="color:#f92672">=</span> (direction<span style="color:#f92672">+</span><span style="color:#ae81ff">3</span>)<span style="color:#f92672">%</span><span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>{
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">int</span> dist <span style="color:#f92672">=</span> command;
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">while</span>(dist <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>){
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span>(direction <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>){
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">if</span>(obsSet.find({i,j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>}) <span style="color:#f92672">!=</span> obsSet.end())
+</span></span><span style="display:flex;"><span>                            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>                        j<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(direction <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">if</span>(obsSet.find({i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,j}) <span style="color:#f92672">!=</span> obsSet.end())
+</span></span><span style="display:flex;"><span>                            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>                        i<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(direction <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>){
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">if</span>(obsSet.find({i,j<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>}) <span style="color:#f92672">!=</span> obsSet.end())
+</span></span><span style="display:flex;"><span>                            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>                        j<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">else</span>{
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">if</span>(obsSet.find({i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,j}) <span style="color:#f92672">!=</span> obsSet.end())
+</span></span><span style="display:flex;"><span>                            <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>                        i<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                    res <span style="color:#f92672">=</span> max(res,i<span style="color:#f92672">*</span>i <span style="color:#f92672">+</span> j<span style="color:#f92672">*</span>j);
+</span></span><span style="display:flex;"><span>                    dist<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> cnt1 <span style="color:#f92672">==</span> cnt2;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -635,7 +710,8 @@ Explanation: arr does not have value 9 and it can never be converted to target.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
 </span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Counting  | O(n)            | O(n)             |
+</span></span><span style="display:flex;"><span>| Hashset   | O(N)            | O(N)             |
+</span></span><span style="display:flex;"><span>| Traversal | O(N)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -660,12 +736,24 @@ Explanation: arr does not have value 9 and it can never be converted to target.
  </a>
   
 </h3>
-<p>We need to create subarrays of <code>arr</code> and reverse them to obtain target. But the key point is we can do this operation any number of times.</p>
 <ul>
-<li>This means we can take two element subarrays and reverse them to essentially generate the target array given that the elements are the same.</li>
-<li>Because of this we just need to check if the frequency of elements in both arrays is the same.</li>
-<li>If the frequency of elements is the same, we can generate the target array by reversing subarrays.</li>
-<li>If the frequency of elements is not the same, we cannot generate the target array by reversing subarrays.</li>
+<li>There is no special technique to solve this problem, we just need to follow the instructions.</li>
+<li>Consider 4 directions starting from north in clockwise order as 0,1,2,3.</li>
+<li>Robots starts from <code>(0,0)</code> facing north. We need to keep track of <code>i</code> and <code>j</code> coordinates and <code>direction</code>.</li>
+<li>Create a hashset of obstacles to check if the next move is an obstacle or not in O(1) time.</li>
+<li>Traverse the commands array and follow the instructions.</li>
+<li>If the command is <code>-1</code> then turn right by incrementing the direction by 1 and taking modulo 4.</li>
+<li>If the command is <code>-2</code> then turn left by decrementing the direction by 3 and taking modulo 4.</li>
+<li>If the command is number from 1 to 9 then
+<ul>
+<li>First check if the next move is an obstacle or not.</li>
+<li>If not then move in the direction of the robot and update the coordinates.</li>
+<li>If its an obstacle then break the loop.</li>
+<li>Update the result by taking the maximum of the current result and the squared euclidean distance.</li>
+<li>Decrement the distance by 1.</li>
+</ul>
+</li>
+<li>Return the result after traversing all the commands.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -679,10 +767,23 @@ Explanation: arr does not have value 9 and it can never be converted to target.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize two vectors <span style="color:#e6db74">`cnt1`</span> and <span style="color:#e6db74">`cnt2`</span> of size 1001 with 0.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the elements of <span style="color:#e6db74">`target`</span> and increment the count of the element in <span style="color:#e6db74">`cnt1`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the elements of <span style="color:#e6db74">`arr`</span> and increment the count of the element in <span style="color:#e6db74">`cnt2`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return whether the two vectors are equal.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Intialize the variables <span style="color:#e6db74">`i`</span>, <span style="color:#e6db74">`j`</span>, <span style="color:#e6db74">`res`</span> and <span style="color:#e6db74">`direction`</span> to 0.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Create a hashset <span style="color:#e6db74">`obsSet`</span> to store the obstacles.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Traverse the obstacles array and insert the obstacles into the hashset.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Traverse the commands array and follow the instructions.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the command is <span style="color:#e6db74">`-1`</span> then turn right by incrementing the direction by 1 and taking modulo 4.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the command is <span style="color:#e6db74">`-2`</span> then turn left by decrementing the direction by 3 and taking modulo 4.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the command is number from 1 to 9 then
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> First check if the next move is an obstacle or not.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If not then move in the direction of the robot and update the coordinates according to the direction.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> If the direction is 0 then increment the <span style="color:#e6db74">`j`</span> coordinate.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> If the direction is 1 then increment the <span style="color:#e6db74">`i`</span> coordinate.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> If the direction is 2 then decrement the <span style="color:#e6db74">`j`</span> coordinate.
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> If the direction is 3 then decrement the <span style="color:#e6db74">`i`</span> coordinate.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If its an obstacle then break the loop.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Update the result by taking the maximum of the current result and the squared euclidean distance.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Decrement the distance by 1.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the result.
 </span></span></code></pre></div>
 
 
@@ -696,17 +797,13 @@ Explanation: arr does not have value 9 and it can never be converted to target.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-874-walking-robot-simulation/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 874 Walking Robot Simulation </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/">
+    <a class="next" href="/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 884 Uncommon Words From Two Sentences </span>
+      <span> Problem 1460 Make Two Arrays Equal by Reversing Subarrays </span>
     </a>
   
 </nav>

@@ -6,8 +6,15 @@
     <description>Recent content in Math on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Sep 2024 11:40:37 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2024 18:43:34 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 874 Walking Robot Simulation</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</link>
+      <pubDate>Tue, 24 Sep 2024 18:43:34 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</guid>
+      <description>Problem Statement Link - Problem 874 Question A robot on an infinite XY-plane starts at point (0, 0) facing north.</description>
+    </item>
     <item>
       <title>Problem 3290 Maximum Multiplication Score</title>
       <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3290-maximum-multiplication-score/</link>

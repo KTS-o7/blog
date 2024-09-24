@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
-    <lastmod>2024-09-21T21:39:53+05:30</lastmod>
+    <lastmod>2024-09-24T18:43:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <lastmod>2024-09-24T18:43:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
+    <lastmod>2024-09-24T18:43:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</loc>
+    <lastmod>2024-09-24T18:43:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/simulation/</loc>
+    <lastmod>2024-09-24T18:43:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-09-24T18:43:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-09-24T18:43:34+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,18 +67,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-09-21T21:39:53+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-09-21T21:39:53+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/tags/counting/</loc>
     <lastmod>2024-09-19T22:36:08+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -50,12 +74,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/hash-table/</loc>
-    <lastmod>2024-09-19T22:36:08+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
     <lastmod>2024-09-19T22:36:08+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -93,12 +111,6 @@
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
     <lastmod>2024-09-17T12:53:11+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/math/</loc>
-    <lastmod>2024-09-17T11:40:37+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -224,12 +236,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</loc>
-    <lastmod>2024-09-09T12:43:46+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/simulation/</loc>
     <lastmod>2024-09-09T12:43:46+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
