@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html
+  lang="en-us"
+  dir="ltr"
+>
   <head>
   <meta charset="utf-8">
   <meta http-equiv="content-language" content="en-us" />
@@ -173,19 +176,25 @@
 </head>
 
   <body>
+    
     <script>
       const siteTheme = "auto";
-      let savedTheme = localStorage.getItem('theme') || siteTheme;
-      if (savedTheme == 'auto') {
-        if ( window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
-          savedTheme = 'dark';
-        }
+      let savedTheme = localStorage.getItem("theme") || siteTheme;
+
+      
+      if (
+        savedTheme === "auto" &&
+        window.matchMedia?.("(prefers-color-scheme: dark)").matches
+      ) {
+        savedTheme = "dark";
       }
+
       if (savedTheme === "dark") {
-        document.body.classList.add('dark');
-        localStorage.setItem('theme', 'dark');
+        document.body.classList.add("dark");
+        localStorage.setItem("theme", "dark");
       }
     </script>
+
     <div class="content">
       <header>
     
@@ -369,7 +378,6 @@
 </header>
 
       <main>
-        
 
 
 
@@ -786,8 +794,7 @@
   
 
 
-
-      </main>
+</main>
       <footer>
   <div class="copyright">
      © 2024  Krishnatejaswi S 

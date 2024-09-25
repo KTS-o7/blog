@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html
+  lang="en-us"
+  dir="ltr"
+>
   <head>
   <meta charset="utf-8">
   <meta http-equiv="content-language" content="en-us" />
@@ -166,19 +169,25 @@
 </head>
 
   <body>
+    
     <script>
       const siteTheme = "auto";
-      let savedTheme = localStorage.getItem('theme') || siteTheme;
-      if (savedTheme == 'auto') {
-        if ( window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
-          savedTheme = 'dark';
-        }
+      let savedTheme = localStorage.getItem("theme") || siteTheme;
+
+      
+      if (
+        savedTheme === "auto" &&
+        window.matchMedia?.("(prefers-color-scheme: dark)").matches
+      ) {
+        savedTheme = "dark";
       }
+
       if (savedTheme === "dark") {
-        document.body.classList.add('dark');
-        localStorage.setItem('theme', 'dark');
+        document.body.classList.add("dark");
+        localStorage.setItem("theme", "dark");
       }
     </script>
+
     <div class="content">
       <header>
     
@@ -362,7 +371,6 @@
 </header>
 
       <main>
-        
   <h1>404 Not Found 🙁 </h1>
   <p>It seems the page you're looking for has been moved or, in rare cases, removed.</p>
   <p>
@@ -370,8 +378,7 @@
         Return to the home page?
     </a>
   </p>
-
-      </main>
+</main>
       <footer>
   <div class="copyright">
      © 2024  Krishnatejaswi S 
