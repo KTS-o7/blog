@@ -97,7 +97,7 @@
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</link>
       <pubDate>Mon, 26 Aug 2024 21:43:05 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</guid>
-      <description>Problem Statement Link - Problem 145 Question Given the root of a binary tree, return the postorder traversal of its nodes&rsquo; values.</description>
+      <description>Problem Statement Link - Problem 145 Question Given the root of a binary tree, return the postorder traversal of its nodes&#39; values.</description>
     </item>
     <item>
       <title>Problem 3265 Count Almost Equal Pairs I</title>
@@ -202,7 +202,7 @@
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</link>
       <pubDate>Mon, 29 Jul 2024 22:05:47 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</guid>
-      <description>Problem Statement Link - Problem 371 Question Given two integers a and b, return the sum of the two integers without using the operators + and -.</description>
+      <description>Problem Statement Link - Problem 371 Question Given two integers a and b, return the sum of the two integers without using the operators &#43; and -.</description>
     </item>
     <item>
       <title>Problem 3217 Delete Nodes From Linked List Present in Array</title>
@@ -230,7 +230,7 @@
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</link>
       <pubDate>Mon, 29 Jul 2024 00:31:56 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</guid>
-      <description>Problem Statement Link - Problem 103 Question Given the root of a binary tree, return the zigzag level order traversal of its nodes&rsquo; values.</description>
+      <description>Problem Statement Link - Problem 103 Question Given the root of a binary tree, return the zigzag level order traversal of its nodes&#39; values.</description>
     </item>
     <item>
       <title>Problem 82 Remove Duplicates From Sorted List II</title>
@@ -398,7 +398,7 @@
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-merge-nodes-in-between-zeros/</link>
       <pubDate>Thu, 04 Jul 2024 21:58:32 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-merge-nodes-in-between-zeros/</guid>
-      <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&rsquo;s.</description>
+      <description>Problem Statement Link - Problem 2181 Question You are given the head of a linked list, which contains a series of integers separated by 0&#39;s.</description>
     </item>
     <item>
       <title>Problem 1509 Minimum Difference Between Largest and Smallest Value in Three Moves</title>
@@ -489,7 +489,7 @@
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</link>
       <pubDate>Mon, 17 Jun 2024 18:55:17 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</guid>
-      <description>Problem Statement Link - Problem 633 Question Given a non-negative integer c, decide whether there are two integers a and b such that a^2 + b^2 = c.</description>
+      <description>Problem Statement Link - Problem 633 Question Given a non-negative integer c, decide whether there are two integers a and b such that a^2 &#43; b^2 = c.</description>
     </item>
     <item>
       <title>Problem 502 IPO</title>
@@ -741,7 +741,7 @@
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</link>
       <pubDate>Fri, 19 Apr 2024 13:00:30 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</guid>
-      <description>Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.</description>
+      <description>Problem Statement Link - Problem 200 Question Given an m x n 2D binary grid grid which represents a map of &#39;1&#39;s (land) and &#39;0&#39;s (water), return the number of islands.</description>
     </item>
     <item>
       <title>Problem 463 Island Perimeter</title>
@@ -755,7 +755,7 @@
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</link>
       <pubDate>Wed, 17 Apr 2024 14:56:36 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</guid>
-      <description>Problem Statement Link - Problem 988 Question You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters 'a' to 'z'.</description>
+      <description>Problem Statement Link - Problem 988 Question You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters &#39;a&#39; to &#39;z&#39;.</description>
     </item>
     <item>
       <title>Problem 623 Add One Row to Tree</title>
