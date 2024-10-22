@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Substring on The Indian Engineer</title>
+    <link>https://KTS-o7.github.io/blog/tags/substring/</link>
+    <description>Recent content in Substring on The Indian Engineer</description>
+    <generator>Hugo -- 0.133.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Oct 2024 21:03:08 +0530</lastBuildDate>
+    <atom:link href="https://KTS-o7.github.io/blog/tags/substring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1593 Split a String Into Max Number of Unique Substrings</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1593-split-a-string-into-max-number-of-unique-substrings/</link>
+      <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1593-split-a-string-into-max-number-of-unique-substrings/</guid>
+      <description>Problem Statement Link - Problem 1593 Question Given a string s, return the maximum number of unique substrings that the given string can be split into.</description>
+    </item>
+  </channel>
+</rss>

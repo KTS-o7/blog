@@ -6,8 +6,85 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.133.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Sep 2024 22:13:02 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 20:50:55 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bfs</title>
+      <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
+      <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Binary-Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
+      <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Level-Order-Traversal</title>
+      <link>https://KTS-o7.github.io/blog/tags/level-order-traversal/</link>
+      <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/level-order-traversal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Priority-Queue</title>
+      <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
+      <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Queue</title>
+      <link>https://KTS-o7.github.io/blog/tags/queue/</link>
+      <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/queue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sum</title>
+      <link>https://KTS-o7.github.io/blog/tags/sum/</link>
+      <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/sum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backtrack</title>
+      <link>https://KTS-o7.github.io/blog/tags/backtrack/</link>
+      <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/backtrack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backtracking</title>
+      <link>https://KTS-o7.github.io/blog/tags/backtracking/</link>
+      <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/backtracking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Set</title>
+      <link>https://KTS-o7.github.io/blog/tags/set/</link>
+      <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/set/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://KTS-o7.github.io/blog/tags/string/</link>
+      <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Substring</title>
+      <link>https://KTS-o7.github.io/blog/tags/substring/</link>
+      <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/substring/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
@@ -86,31 +163,10 @@
       <description></description>
     </item>
     <item>
-      <title>String</title>
-      <link>https://KTS-o7.github.io/blog/tags/string/</link>
-      <pubDate>Tue, 17 Sep 2024 12:53:11 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Matrix</title>
       <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
       <pubDate>Sun, 15 Sep 2024 19:27:50 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bfs</title>
-      <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
-      <pubDate>Sun, 15 Sep 2024 16:15:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Queue</title>
-      <link>https://KTS-o7.github.io/blog/tags/queue/</link>
-      <pubDate>Sun, 15 Sep 2024 16:15:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/queue/</guid>
       <description></description>
     </item>
     <item>
@@ -170,13 +226,6 @@
       <description></description>
     </item>
     <item>
-      <title>Binary-Tree</title>
-      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
-      <pubDate>Sat, 07 Sep 2024 13:48:11 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Dfs</title>
       <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
       <pubDate>Sat, 07 Sep 2024 13:48:11 +0530</pubDate>
@@ -202,13 +251,6 @@
       <link>https://KTS-o7.github.io/blog/tags/arrays/</link>
       <pubDate>Mon, 02 Sep 2024 16:26:58 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/arrays/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Priority-Queue</title>
-      <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
-      <pubDate>Sun, 01 Sep 2024 17:05:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/priority-queue/</guid>
       <description></description>
     </item>
     <item>
@@ -335,13 +377,6 @@
       <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
       <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Backtracking</title>
-      <link>https://KTS-o7.github.io/blog/tags/backtracking/</link>
-      <pubDate>Tue, 13 Aug 2024 10:33:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/backtracking/</guid>
       <description></description>
     </item>
     <item>
@@ -513,13 +548,6 @@
       <description></description>
     </item>
     <item>
-      <title>Set</title>
-      <link>https://KTS-o7.github.io/blog/tags/set/</link>
-      <pubDate>Thu, 25 Jul 2024 21:47:34 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/set/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Vector</title>
       <link>https://KTS-o7.github.io/blog/tags/vector/</link>
       <pubDate>Thu, 25 Jul 2024 21:38:05 +0530</pubDate>
@@ -559,13 +587,6 @@
       <link>https://KTS-o7.github.io/blog/tags/stack/</link>
       <pubDate>Sun, 14 Jul 2024 22:24:15 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/stack/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Level-Order-Traversal</title>
-      <link>https://KTS-o7.github.io/blog/tags/level-order-traversal/</link>
-      <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/level-order-traversal/</guid>
       <description></description>
     </item>
     <item>
