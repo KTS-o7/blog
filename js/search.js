@@ -11,11 +11,11 @@
   var isResEmpty = true;
   var fuse;
   function fetchJSON(path, callback) {
-    let httpRequest = new XMLHttpRequest();
+    var httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = function() {
       if (httpRequest.readyState === 4) {
         if (httpRequest.status === 200) {
-          let data = JSON.parse(httpRequest.responseText);
+          var data = JSON.parse(httpRequest.responseText);
           if (callback) callback(data);
         }
       }
@@ -24,10 +24,10 @@
     httpRequest.send();
   }
   function buildIndex() {
-    let baseURL = searchCntr.getAttribute("data-url");
+    var baseURL = searchCntr.getAttribute("data-url");
     baseURL = baseURL.replace(/\/?$/, "/");
     fetchJSON(baseURL + "index.json", function(data) {
-      let options = {
+      var options = {
         shouldSort: true,
         ignoreLocation: true,
         threshold: 0,
@@ -66,7 +66,7 @@
     let resultsHtml = "";
     if (results.length > 1) {
       results.forEach(function(value, key) {
-        let meta = value.item.section + " | ";
+        var meta = value.item.section + " | ";
         meta = meta + value.item.date ? value.item.date + " | " : "";
         meta = meta + `<span class="srch-link">${value.item.permalink}</span>`;
         resultsHtml = resultsHtml + `<li><a href="${value.item.permalink}">

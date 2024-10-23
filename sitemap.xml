@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <lastmod>2024-10-23T22:27:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/</loc>
+    <lastmod>2024-10-23T22:27:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-10-23T22:27:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://KTS-o7.github.io/blog/tags/bfs/</loc>
     <lastmod>2024-10-22T20:50:55+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -8,12 +26,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/binary-tree/</loc>
-    <lastmod>2024-10-22T20:50:55+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
     <lastmod>2024-10-22T20:50:55+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -50,12 +62,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-10-22T20:50:55+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
     <lastmod>2024-10-22T20:50:55+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

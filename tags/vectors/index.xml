@@ -4,7 +4,7 @@
     <title>Vectors on The Indian Engineer</title>
     <link>https://KTS-o7.github.io/blog/tags/vectors/</link>
     <description>Recent content in Vectors on The Indian Engineer</description>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jul 2024 18:30:07 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/vectors/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,28 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1395-count-number-of-teams/</link>
       <pubDate>Mon, 29 Jul 2024 18:30:07 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1395-count-number-of-teams/</guid>
-      <description>Problem Statement Link - Problem 1395 Question There are n soldiers standing in a line.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 2191 Sort the Jumbled Number</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
       <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
-      <description>Problem Statement Link - Problem 2191 Question You are given a 0-indexed integer array mapping which represents the mapping rule of a shuffled decimal system.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 136 Single Number</title>
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-single-number/</link>
       <pubDate>Mon, 10 Jun 2024 21:33:50 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-single-number/</guid>
-      <description>Problem Statement Link - Problem 136 Question Given a non-empty array of integers nums, every element appears twice except for one.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 1051 Height Checker</title>
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-height-checker/</link>
       <pubDate>Mon, 10 Jun 2024 21:19:08 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-height-checker/</guid>
-      <description>Problem Statement Link - Problem 1051 Question A school is trying to take an annual photo of all the students.</description>
+      <description></description>
     </item>
   </channel>
 </rss>

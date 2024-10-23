@@ -4,7 +4,7 @@
     <title>All-Pair-Shortest-Path on The Indian Engineer</title>
     <link>https://KTS-o7.github.io/blog/tags/all-pair-shortest-path/</link>
     <description>Recent content in All-Pair-Shortest-Path on The Indian Engineer</description>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Jul 2024 15:35:56 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/all-pair-shortest-path/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</link>
       <pubDate>Sat, 27 Jul 2024 15:35:56 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</guid>
-      <description>Problem Statement Link - Problem Question You are given two 0-indexed strings source and target, both of length n and consisting of lowercase English letters.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 1334 Find the City With the Smallest Number of Neighbours at a Threshold Distance</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</link>
       <pubDate>Fri, 26 Jul 2024 15:00:02 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1334-find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance/</guid>
-      <description>Problem Statement Link - Problem 1334 Question There are n cities numbered from 0 to n-1.</description>
+      <description></description>
     </item>
   </channel>
 </rss>

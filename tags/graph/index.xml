@@ -4,7 +4,7 @@
     <title>Graph on The Indian Engineer</title>
     <link>https://KTS-o7.github.io/blog/tags/graph/</link>
     <description>Recent content in Graph on The Indian Engineer</description>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Aug 2024 21:35:03 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/graph/index.xml" rel="self" type="application/rss+xml" />
@@ -13,70 +13,70 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-947-most-stones-removed-with-same-row-or-column/</link>
       <pubDate>Thu, 29 Aug 2024 21:35:03 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-947-most-stones-removed-with-same-row-or-column/</guid>
-      <description>Problem Statement Link - Problem 947 Question On a 2D plane, we place n stones at some integer coordinate points.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 1514 Path With Maximum Probability</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1514-path-with-maximum-probability/</link>
       <pubDate>Tue, 27 Aug 2024 12:14:28 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1514-path-with-maximum-probability/</guid>
-      <description>Problem Statement Link - Problem 1514 Question You are given an undirected weighted graph of n nodes (0-indexed), represented by an edge list where edges[i] = [a, b] is an undirected edge connecting the nodes a and b with a probability of success of traversing that edge succProb[i].</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 787 Cheapest Flights Within K Stops</title>
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-787-cheapest-flights-within-k-stops/</link>
       <pubDate>Thu, 01 Aug 2024 18:56:42 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-787-cheapest-flights-within-k-stops/</guid>
-      <description>Problem Statement Link - Problem 787 Question There are n cities connected by some number of flights.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 743 Network Delay Time</title>
       <link>https://KTS-o7.github.io/blog/posts/extraques/problem-743-network-delay-time/</link>
       <pubDate>Thu, 01 Aug 2024 18:41:19 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-743-network-delay-time/</guid>
-      <description>Problem Statement Link - Problem 743 Question You are given a network of n nodes, labeled from 1 to n.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 2976 Minimum Cost to Convert String I</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</link>
       <pubDate>Sat, 27 Jul 2024 15:35:56 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2976-minimum-cost-to-convert-string-i/</guid>
-      <description>Problem Statement Link - Problem Question You are given two 0-indexed strings source and target, both of length n and consisting of lowercase English letters.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 2192 All Ancestors of a Node in a DAG</title>
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-all-ancestors-of-a-node-in-a-dag/</link>
       <pubDate>Sat, 29 Jun 2024 10:39:42 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-all-ancestors-of-a-node-in-a-dag/</guid>
-      <description>Problem Statement Link - Problem 2192 Question You are given a positive integer n representing the number of nodes of a Directed Acyclic Graph (DAG).</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 2285 Maximum Total Importance of Roads</title>
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</link>
       <pubDate>Fri, 28 Jun 2024 19:39:10 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</guid>
-      <description>Problem Statement Link - Problem 2285 Question You are given an integer n denoting the number of cities in a country.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 1791 Find Center of Star Graph</title>
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-center-of-star-graph/</link>
       <pubDate>Thu, 27 Jun 2024 10:59:29 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-center-of-star-graph/</guid>
-      <description>Problem Statement Link - Problem 1791 Question There is an undirected star graph consisting of n nodes labeled from 1 to n.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 752 Open the Lock</title>
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-open-the-lock/</link>
       <pubDate>Mon, 22 Apr 2024 16:27:12 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-open-the-lock/</guid>
-      <description>Problem Statement Link - Problem 752 Question You have a lock in front of you with 4 circular wheels.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 1971 Find if Path Exists in Graph</title>
       <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-if-path-exists-in-graph/</link>
       <pubDate>Sun, 21 Apr 2024 15:42:16 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-if-path-exists-in-graph/</guid>
-      <description>Problem Statement Link - Problem 1971 Question There is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n-1 (inclusive).</description>
+      <description></description>
     </item>
   </channel>
 </rss>

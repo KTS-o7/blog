@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<html
-  lang="en-us"
-  dir="ltr"
->
+<html lang="en-us" dir="ltr">
   <head>
   <meta charset="utf-8">
   <meta http-equiv="content-language" content="en-us" />
@@ -70,7 +67,7 @@
   
     
         
-        <script defer type="text/javascript" src="/blog/js/search.min.c15196008aa8da7db2b3324639d90091b5a154ef965278f956103344c8efc9899d2d3e1c26979f8aff9643eb422c1818cf109a51dd9c46925290a52bfd4efc82.js" integrity="sha512-wVGWAIqo2n2yszJGOdkAkbWhVO&#43;WUnj5VhAzRMjvyYmdLT4cJpefiv&#43;WQ&#43;tCLBgYzxCaUd2cRpJSkKUr/U78gg=="> </script>
+        <script defer type="text/javascript" src="/blog/js/search.min.bb866b924569dd33a507ff4631eae853f6b6902fe0dbfe5e8aad50e1ccd528db3a01aaf098948dd4516d6bbd2dab8c6716b4b31809eb28ad8ce47d4801a0f0c3.js" integrity="sha512-u4ZrkkVp3TOlB/9GMeroU/a2kC/g2/5eiq1Q4czVKNs6AarwmJSN1FFta70tq4xnFrSzGAnrKK2M5H1IAaDwww=="> </script>
       
     
   
@@ -125,24 +122,20 @@
   
   
   
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-KBGJZKY3DP"
-></script>
-<script>
-  let doNotTrack = false;
-  let dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
-  doNotTrack = dnt == "1" || dnt == "yes";
-
-  if (!doNotTrack) {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-KBGJZKY3DP");
-  }
-</script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBGJZKY3DP"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-KBGJZKY3DP');
+        }
+      </script>
 
   
   
@@ -171,25 +164,19 @@
 </head>
 
   <body>
-    
     <script>
       const siteTheme = "auto";
-      let savedTheme = localStorage.getItem("theme") || siteTheme;
-
-      
-      if (
-        savedTheme === "auto" &&
-        window.matchMedia?.("(prefers-color-scheme: dark)").matches
-      ) {
-        savedTheme = "dark";
+      let savedTheme = localStorage.getItem('theme') || siteTheme;
+      if (savedTheme == 'auto') {
+        if ( window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
+          savedTheme = 'dark';
+        }
       }
-
       if (savedTheme === "dark") {
-        document.body.classList.add("dark");
-        localStorage.setItem("theme", "dark");
+        document.body.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
       }
     </script>
-
     <div class="content">
       <header>
     
@@ -373,6 +360,7 @@
 </header>
 
       <main>
+        
   
   
   
@@ -484,7 +472,7 @@
 </p>
 
     <div class="description">
-  Problem Statement Link - Problem 726 Question Given a string formula representing a chemical formula, return the count of each atom.
+  
 </div>
 
 </li>
@@ -541,7 +529,7 @@
 </p>
 
     <div class="description">
-  Problem Statement Link - Problem 350 Question Given two integer arrays nums1 and nums2, return an array of their intersection.
+  
 </div>
 
 </li>
@@ -598,7 +586,7 @@
 </p>
 
     <div class="description">
-  Problem Statement Link - Problem 523 Question Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.
+  
 </div>
 
 </li>
@@ -632,7 +620,8 @@
     </section>
 
 
-</main>
+
+      </main>
       <footer>
   <div class="copyright">
      © 2024  Krishnatejaswi S 

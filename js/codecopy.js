@@ -29,15 +29,14 @@
         copyingDone();
       } catch (e) {
       }
+      ;
       selection.removeRange(range);
     });
     if (container.classList.contains("highlight")) {
       container.appendChild(copybutton);
     } else if (container.parentNode.firstChild == container) {
     } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-      codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(
-        copybutton
-      );
+      codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
     } else {
       codeblock.parentNode.appendChild(copybutton);
     }

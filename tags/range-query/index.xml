@@ -4,7 +4,7 @@
     <title>Range-Query on The Indian Engineer</title>
     <link>https://KTS-o7.github.io/blog/tags/range-query/</link>
     <description>Recent content in Range-Query on The Indian Engineer</description>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Sep 2024 14:57:52 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/range-query/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</link>
       <pubDate>Sat, 14 Sep 2024 14:57:52 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</guid>
-      <description>Problem Statement Link - Problem 2419 Question You are given an integer array nums of size n.</description>
+      <description></description>
     </item>
     <item>
       <title>Problem 1310 XOR Queries of a Subarray</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</link>
       <pubDate>Fri, 13 Sep 2024 10:33:51 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</guid>
-      <description>Problem Statement Link - Problem 1310 Question You are given an array arr of positive integers.</description>
+      <description></description>
     </item>
   </channel>
 </rss>
