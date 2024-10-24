@@ -6,8 +6,15 @@
     <description>Recent content in Greedy on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Aug 2024 19:52:59 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 22:27:57 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/greedy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1405 Longest Happy String</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/</link>
+      <pubDate>Wed, 23 Oct 2024 22:27:57 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 624 Maximum Distance in Arrays</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</link>

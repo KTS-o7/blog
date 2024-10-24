@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1405 Longest Happy String &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1405 Longest Happy String &middot; The Indian Engineer" />
+  <title>Problem 951 Flip Equivalent Binary Trees &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 951 Flip Equivalent Binary Trees &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="string, greedy, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/" />
+  <meta name="keywords" content="dfs, binary-tree, recursion, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/" />
 
   
 
@@ -82,28 +82,162 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1405 Longest Happy String">
+  <meta property="og:title" content="Problem 951 Flip Equivalent Binary Trees">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-10-23T22:27:57+05:30">
-    <meta property="article:modified_time" content="2024-10-23T22:27:57+05:30">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Greedy">
+    <meta property="article:published_time" content="2024-10-24T11:25:48+05:30">
+    <meta property="article:modified_time" content="2024-10-24T11:25:48+05:30">
+    <meta property="article:tag" content="Dfs">
+    <meta property="article:tag" content="Binary-Tree">
+    <meta property="article:tag" content="Recursion">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1405 Longest Happy String">
+  <meta name="twitter:title" content="Problem 951 Flip Equivalent Binary Trees">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
 
   
   
+
+
+
+<link type="text/css" rel="stylesheet" href="/blog/lib/katex/katex.min.68e17230ccd917b97b7a2def38a8108918599d8aa4f580bfb8cce5e13d23e4de43dcaba5f9000553cb2c10d0d1300aabfe5c433a3305ebd752609f0762a63e59.css" integrity="sha512-aOFyMMzZF7l7ei3vOKgQiRhZnYqk9YC/uMzl4T0j5N5D3Kul&#43;QAFU8ssENDRMAqr/lxDOjMF69dSYJ8HYqY&#43;WQ==" />
+
+
+<script defer src="/blog/lib/katex/katex.min.50f14e69d6a8da7128ae3b63974c544ed377c36d096b5e3750f114e84c89d668b9301d9b0ed3248969aa183aa2e3bc4d2c1e73d5dcb7d462890c45a18d424589.js" integrity="sha512-UPFOadao2nEorjtjl0xUTtN3w20Ja143UPEU6EyJ1mi5MB2bDtMkiWmqGDqi47xNLB5z1dy31GKJDEWhjUJFiQ=="></script>
+
+
+<script defer src="/blog/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -391,7 +525,7 @@
 
 
 
-<h1 class="pg-title">Problem 1405 Longest Happy String</h1>
+<h1 class="pg-title">Problem 951 Flip Equivalent Binary Trees</h1>
 
 
 <div class="meta">
@@ -411,7 +545,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-10-23T22:27:57&#43;05:30">Oct 23, 2024</time>
+  Posted on <time datetime="2024-10-24T11:25:48&#43;05:30">Oct 24, 2024</time>
   
   
   
@@ -428,7 +562,7 @@
 
 </span>
   
-    5 mins
+    4 mins
   
 
 
@@ -445,9 +579,11 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/dfs/">Dfs</a>
   
-  <a class="tag" href="/blog/tags/greedy/">Greedy</a>
+  <a class="tag" href="/blog/tags/binary-tree/">Binary-Tree</a>
+  
+  <a class="tag" href="/blog/tags/recursion/">Recursion</a>
   
 </p>
 
@@ -469,15 +605,17 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
+    <li><a href="#example-3">Example 3</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
     <li><a href="#explanation">Explanation</a>
       <ul>
-        <li><a href="#1-intuition-the-joy-of-being-happy-string">1. Intuition: The Joy of Being Happy (String)!</a></li>
-        <li><a href="#2-implementation-building-the-happy-tower">2. Implementation: Building the Happy Tower</a></li>
-        <li><a href="#implementation-deep-dive">Implementation Deep Dive</a></li>
-        <li><a href="#3-edge-cases-and-gotchas">3. Edge Cases and Gotchas</a></li>
+        <li><a href="#1-intuition-tree-isomorphism-with-controlled-transformations">1. Intuition: Tree Isomorphism with Controlled Transformations</a></li>
+        <li><a href="#2-mathematical-proof-of-correctness">2. Mathematical Proof of Correctness</a></li>
+        <li><a href="#3-implementation-analysis">3. Implementation Analysis</a></li>
+        <li><a href="#4-optimality-proof">4. Optimality Proof</a></li>
+        <li><a href="#5-edge-case-analysis">5. Edge Case Analysis</a></li>
       </ul>
     </li>
   </ul>
@@ -501,7 +639,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/longest-happy-string/description/" target="_blank">Problem 1405</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/flip-equivalent-binary-trees/description/?envType=daily-question&amp;envId=2024-10-24" target="_blank">Problem 951</a>
 </p>
 
 <h2 id="question">
@@ -515,16 +653,9 @@
  </a>
   
 </h2>
-<p>A string <code>s</code> is called happy if it satisfies the following conditions:</p>
-<ul>
-<li><code>s</code> only contains the letters <code>'a'</code>, <code>'b'</code>, and <code>'c'</code>.</li>
-<li><code>s</code> does not contain any of <code>&quot;aaa&quot;</code>, <code>&quot;bbb&quot;</code>, or <code>&quot;ccc&quot;</code> as a substring.</li>
-<li><code>s</code> contains at most <code>a</code> occurrences of the letter <code>'a'</code>.</li>
-<li><code>s</code> contains at most <code>b</code> occurrences of the letter <code>'b'</code>.</li>
-<li><code>s</code> contains at most <code>c</code> occurrences of the letter <code>'c'</code>.
-Given three integers <code>a</code>, <code>b</code>, and <code>c</code>, return the longest possible happy string. If there are multiple longest happy strings, return any of them. If there is no such string, return the empty string <code>&quot;&quot;</code>.</li>
-</ul>
-<p>A substring is a contiguous sequence of characters within a string.</p>
+<p>For a binary tree T, we can define a flip operation as follows: choose any node, and swap the left and right child subtrees.</p>
+<p>A binary tree X is flip equivalent to a binary tree Y if and only if we can make X equal to Y after some number of flip operations.</p>
+<p>Given the roots of two binary trees <code>root1</code> and <code>root2</code>, return <code>true</code> if the two trees are flip equivalent or <code>false</code> otherwise.</p>
 
 <h2 id="example-1">
   Example 1
@@ -537,9 +668,29 @@ Given three integers <code>a</code>, <code>b</code>, and <code>c</code>, return 
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: a = 1, b = 1, c = 7
-Output: &#34;ccaccbcc&#34;
-Explanation: &#34;ccbccacc&#34; would also be a correct answer.
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img loading="lazy" src="https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png" alt="image1" />
+
+
+
+</p>
+<pre tabindex="0"><code>Input: root1 = [1,2,3,4,5,6,null,null,null,7,8], root2 = [1,3,2,null,6,4,5,null,null,null,null,8,7]
+Output: true
+Explanation: We flipped at nodes with values 1, 3, and 5.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -552,9 +703,22 @@ Explanation: &#34;ccbccacc&#34; would also be a correct answer.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: a = 7, b = 1, c = 0
-Output: &#34;aabaa&#34;
-Explanation: It is the only correct answer in this case.
+<pre tabindex="0"><code>Input: root1 = [], root2 = []
+Output: true
+</code></pre>
+<h2 id="example-3">
+  Example 3
+  
+  <a hidden class="anchor" href="#example-3">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<pre tabindex="0"><code>Input: root1 = [], root2 = [1]
+Output: false
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -568,8 +732,8 @@ Explanation: It is the only correct answer in this case.
   
 </h2>
 <ul>
-<li><code>0 &lt;= a, b, c &lt;= 100</code></li>
-<li><code>a + b + c &gt; 0</code></li>
+<li>The number of nodes in each tree is in the range <code>[0, 100]</code>.</li>
+<li>Each tree will have unique node values in the range <code>[0, 99]</code>.</li>
 </ul>
 
 <h2 id="solution">
@@ -583,39 +747,27 @@ Explanation: It is the only correct answer in this case.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Definition for a binary tree node.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * struct TreeNode {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     int val;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *left;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode *right;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * right(right) {}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * };
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    string longestDiverseString(<span style="color:#66d9ef">int</span> a, <span style="color:#66d9ef">int</span> b, <span style="color:#66d9ef">int</span> c) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> streak_a <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, streak_b <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, streak_c <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> iter <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b <span style="color:#f92672">+</span> c;
-</span></span><span style="display:flex;"><span>        string ans <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> iter; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> ((a <span style="color:#f92672">&gt;=</span> b <span style="color:#f92672">&amp;&amp;</span> a <span style="color:#f92672">&gt;=</span> c <span style="color:#f92672">&amp;&amp;</span> streak_a <span style="color:#f92672">!=</span> <span style="color:#ae81ff">2</span>) <span style="color:#f92672">||</span> (a <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> (streak_b <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">||</span> streak_c <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>))) {
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                ans <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;a&#39;</span>;
-</span></span><span style="display:flex;"><span>                a<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>                streak_a<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                streak_b <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>                streak_c <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span> ((b <span style="color:#f92672">&gt;=</span> a <span style="color:#f92672">&amp;&amp;</span> b <span style="color:#f92672">&gt;=</span> c <span style="color:#f92672">&amp;&amp;</span> streak_b <span style="color:#f92672">!=</span> <span style="color:#ae81ff">2</span>) <span style="color:#f92672">||</span> (b <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> (streak_c <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">||</span> streak_a <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>))) {
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                ans <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;b&#39;</span>;
-</span></span><span style="display:flex;"><span>                b<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>                streak_b<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                streak_a <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>                streak_c <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span> ((c <span style="color:#f92672">&gt;=</span> a <span style="color:#f92672">&amp;&amp;</span> c <span style="color:#f92672">&gt;=</span> b <span style="color:#f92672">&amp;&amp;</span> streak_c <span style="color:#f92672">!=</span> <span style="color:#ae81ff">2</span>) <span style="color:#f92672">||</span> (c <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> (streak_a <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">||</span> streak_b <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>))) {
-</span></span><span style="display:flex;"><span>                ans <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;c&#39;</span>;
-</span></span><span style="display:flex;"><span>                c<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>                streak_c<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                streak_a <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>                streak_b <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> flipEquiv(TreeNode<span style="color:#f92672">*</span> root1, TreeNode<span style="color:#f92672">*</span> root2) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (root1 <span style="color:#f92672">==</span> NULL <span style="color:#f92672">||</span> root2 <span style="color:#f92672">==</span> NULL)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> root1 <span style="color:#f92672">==</span> root2;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (root1<span style="color:#f92672">-&gt;</span>val <span style="color:#f92672">!=</span> root2<span style="color:#f92672">-&gt;</span>val)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> (flipEquiv(root1<span style="color:#f92672">-&gt;</span>left, root2<span style="color:#f92672">-&gt;</span>left) <span style="color:#f92672">&amp;&amp;</span> flipEquiv(root1<span style="color:#f92672">-&gt;</span>right, root2<span style="color:#f92672">-&gt;</span>right)) <span style="color:#f92672">||</span>
+</span></span><span style="display:flex;"><span>                flipEquiv(root1<span style="color:#f92672">-&gt;</span>left, root2<span style="color:#f92672">-&gt;</span>right) <span style="color:#f92672">&amp;&amp;</span> flipEquiv(root1<span style="color:#f92672">-&gt;</span>right, root2<span style="color:#f92672">-&gt;</span>left);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -632,7 +784,7 @@ Explanation: It is the only correct answer in this case.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
 </span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Greedy    | O(n)            | O(n)             |
+</span></span><span style="display:flex;"><span>| DFS       | O(N)            | O(N)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -646,10 +798,10 @@ Explanation: It is the only correct answer in this case.
   
 </h2>
 
-<h3 id="1-intuition-the-joy-of-being-happy-string">
-  1. Intuition: The Joy of Being Happy (String)!
+<h3 id="1-intuition-tree-isomorphism-with-controlled-transformations">
+  1. Intuition: Tree Isomorphism with Controlled Transformations
   
-  <a hidden class="anchor" href="#1-intuition-the-joy-of-being-happy-string">
+  <a hidden class="anchor" href="#1-intuition-tree-isomorphism-with-controlled-transformations">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -657,50 +809,18 @@ Explanation: It is the only correct answer in this case.
  </a>
   
 </h3>
-<p>Imagine you&rsquo;re a builder with three types of blocks (a, b, and c), and you need to build the longest possible tower with two crucial rules:</p>
-<ul>
-<li>You can&rsquo;t put three identical blocks in a row (that would make the tower unstable!)</li>
-<li>You have a limited supply of each block type (a, b, and c blocks)</li>
-</ul>
-<p>This is exactly what our &ldquo;Happy String&rdquo; problem is about! But why does a greedy approach work here?</p>
-<p><strong>The Mathematical Beauty</strong></p>
-<p>Let&rsquo;s prove why being greedy (always choosing the most abundant available character that doesn&rsquo;t break the rules) leads to the optimal solution:</p>
+<p>The problem of flip-equivalent binary trees is fundamentally about tree isomorphism with a specific allowed transformation - the ability to swap left and right children at any node. This transforms the traditional tree equality problem into a more nuanced structural equivalence problem.</p>
+<p><strong>Core Concept</strong></p>
+<p>The fundamental insight lies in understanding that two trees can be structurally equivalent even if their current arrangement differs. At each node, we have two valid states for comparison:</p>
 <ol>
-<li>
-<p><strong>Proof by Contradiction:</strong></p>
-<ul>
-<li>Assume there exists a longer valid string S&rsquo; than our greedy solution S</li>
-<li>At the first position where S and S&rsquo; differ, S&rsquo; must choose a less abundant character</li>
-<li>This means S&rsquo; is &ldquo;saving&rdquo; a more abundant character for later use</li>
-<li>However, if it was safe to use the more abundant character at this position (doesn&rsquo;t create &ldquo;aaa&rdquo;, &ldquo;bbb&rdquo;, or &ldquo;ccc&rdquo;):
-<ul>
-<li>Using it would never prevent us from using other characters later</li>
-<li>Because we can always use less abundant characters whenever we have two consecutive occurrences of any character</li>
-</ul>
-</li>
-<li>Therefore, there&rsquo;s no advantage in &ldquo;saving&rdquo; more abundant characters</li>
-<li>This contradicts our assumption that S&rsquo; is longer than S</li>
-</ul>
-</li>
-<li>
-<p><strong>Why Local Optimality Leads to Global Optimality:</strong></p>
-<ul>
-<li>At each step, we have at most 3 choices</li>
-<li>By choosing the most abundant character (when valid):
-<ul>
-<li>We maximize the usage of the character that has the most potential for length</li>
-<li>We preserve the ability to use other characters as separators</li>
-<li>We ensure we don&rsquo;t &ldquo;waste&rdquo; positions with less abundant characters</li>
-</ul>
-</li>
-</ul>
-</li>
+<li>Direct structural match (left-to-left, right-to-right)</li>
+<li>Crossed structural match (left-to-right, right-to-left)</li>
 </ol>
 
-<h3 id="2-implementation-building-the-happy-tower">
-  2. Implementation: Building the Happy Tower
+<h3 id="2-mathematical-proof-of-correctness">
+  2. Mathematical Proof of Correctness
   
-  <a hidden class="anchor" href="#2-implementation-building-the-happy-tower">
+  <a hidden class="anchor" href="#2-mathematical-proof-of-correctness">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -708,43 +828,72 @@ Explanation: It is the only correct answer in this case.
  </a>
   
 </h3>
+<p>Let&rsquo;s establish the correctness through formal proof:</p>
 <ol>
 <li>
-<p><strong>Core Strategy:</strong></p>
-<ul>
-<li>Track streaks of each character (streak_a, streak_b, streak_c)</li>
-<li>Track remaining counts (a, b, c)</li>
-<li>Build string character by character</li>
-</ul>
-</li>
+<p><strong>Formal Definition:</strong>
+
+</p>
+$$
+   \begin{aligned}
+   & \text{Let } T_1, T_2 \text{ be binary trees} \\
+   & T_1 \equiv T_2 \iff \exists \text{ sequence of flips } F = \{f_1, f_2, ..., f_n\} \\
+   & \text{such that } F(T_1) = T_2 \\
+   & \text{where } f_i: V \rightarrow \{0,1\} \text{ represents a flip decision at node } v \in V
+   \end{aligned}
+   $$</li>
 <li>
-<p><strong>Decision Making at Each Step:</strong>
-We choose a character if either:</p>
-<ul>
-<li>It&rsquo;s the most abundant AND hasn&rsquo;t appeared twice in a row</li>
-<li>OR we&rsquo;re forced to use it because others have appeared twice</li>
-</ul>
-</li>
+<p><strong>Recursive Equivalence Relation:</strong>
+
+
+</p>
+$$
+   \begin{aligned}
+   & \text{flipEquiv}(n_1, n_2) \iff \\
+   & \begin{cases}
+   \text{true} & \text{if } n_1 = n_2 = \text{null} \\
+   \text{false} & \text{if } n_1 = \text{null} \oplus n_2 = \text{null} \\
+   \text{false} & \text{if } n_1.\text{val} \neq n_2.\text{val} \\
+   E(n_1, n_2) & \text{otherwise}
+   \end{cases}
+   \end{aligned}
+   $$</li>
+</ol>
+<p>Where E(n₁, n₂) is defined as:
+
+</p>
+$$
+\begin{aligned}
+E(n_1, n_2) = & [\text{flipEquiv}(n_1.\text{left}, n_2.\text{left}) \land \\
+& \text{flipEquiv}(n_1.\text{right}, n_2.\text{right})] \lor \\
+& [\text{flipEquiv}(n_1.\text{left}, n_2.\text{right}) \land \\
+& \text{flipEquiv}(n_1.\text{right}, n_2.\text{left})]
+\end{aligned}
+$$<ol start="3">
 <li>
-<p><strong>Priority System:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ((a <span style="color:#f92672">&gt;=</span> b <span style="color:#f92672">&amp;&amp;</span> a <span style="color:#f92672">&gt;=</span> c <span style="color:#f92672">&amp;&amp;</span> streak_a <span style="color:#f92672">!=</span> <span style="color:#ae81ff">2</span>) <span style="color:#f92672">||</span>    <span style="color:#75715e">// &#39;a&#39; is most abundant
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    (a <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> (streak_b <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">||</span> streak_c <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>))) <span style="color:#75715e">// forced to use &#39;a&#39;
-</span></span></span></code></pre></div></li>
+<p><strong>Time Complexity Analysis:</strong>
+
+</p>
+$$
+   \begin{aligned}
+   T(n) &= 2T(n/2) + O(1) \\
+   &= O(n) \text{ by Master Theorem}
+   \end{aligned}
+   $$</li>
 <li>
-<p><strong>State Updates:</strong>
-After adding a character:</p>
-<ul>
-<li>Decrement its count</li>
-<li>Reset other streaks</li>
-<li>Increment its streak</li>
-</ul>
-</li>
+<p><strong>Space Complexity on Recursion Stack:</strong>
+
+
+</p>
+$$
+   S(n) = O(h) \text{ where h is the height of the smaller tree}
+   $$</li>
 </ol>
 
-<h3 id="implementation-deep-dive">
-  Implementation Deep Dive
+<h3 id="3-implementation-analysis">
+  3. Implementation Analysis
   
-  <a hidden class="anchor" href="#implementation-deep-dive">
+  <a hidden class="anchor" href="#3-implementation-analysis">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -752,21 +901,21 @@ After adding a character:</p>
  </a>
   
 </h3>
-<p>Let&rsquo;s analyze how the code handles Example 1: a=1, b=1, c=7</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Initial state: a=1, b=1, c=7
-</span></span><span style="display:flex;"><span>Step 1: &#39;c&#39; (most abundant) → &#34;c&#34; (c=6)
-</span></span><span style="display:flex;"><span>Step 2: &#39;c&#39; (most abundant) → &#34;cc&#34; (c=5)
-</span></span><span style="display:flex;"><span>Step 3: &#39;a&#39; (forced) → &#34;cca&#34; (a=0)
-</span></span><span style="display:flex;"><span>Step 4: &#39;c&#39; (most abundant) → &#34;ccac&#34; (c=4)
-</span></span><span style="display:flex;"><span>Step 5: &#39;c&#39; (most abundant) → &#34;ccacc&#34; (c=3)
-</span></span><span style="display:flex;"><span>Step 6: &#39;b&#39; (forced) → &#34;ccaccb&#34; (b=0)
-</span></span><span style="display:flex;"><span>Step 7: &#39;c&#39; (only choice) → &#34;ccaccbc&#34;
-</span></span><span style="display:flex;"><span>Step 8: &#39;c&#39; (only choice) → &#34;ccaccbcc&#34;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> <span style="color:#a6e22e">flipEquiv</span>(TreeNode<span style="color:#f92672">*</span> root1, TreeNode<span style="color:#f92672">*</span> root2) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (root1 <span style="color:#f92672">==</span> NULL <span style="color:#f92672">||</span> root2 <span style="color:#f92672">==</span> NULL)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> root1 <span style="color:#f92672">==</span> root2;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (root1<span style="color:#f92672">-&gt;</span>val <span style="color:#f92672">!=</span> root2<span style="color:#f92672">-&gt;</span>val)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> (flipEquiv(root1<span style="color:#f92672">-&gt;</span>left, root2<span style="color:#f92672">-&gt;</span>left) <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>            flipEquiv(root1<span style="color:#f92672">-&gt;</span>right, root2<span style="color:#f92672">-&gt;</span>right)) <span style="color:#f92672">||</span>
+</span></span><span style="display:flex;"><span>           (flipEquiv(root1<span style="color:#f92672">-&gt;</span>left, root2<span style="color:#f92672">-&gt;</span>right) <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>            flipEquiv(root1<span style="color:#f92672">-&gt;</span>right, root2<span style="color:#f92672">-&gt;</span>left));
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
-<h3 id="3-edge-cases-and-gotchas">
-  3. Edge Cases and Gotchas
+<h3 id="4-optimality-proof">
+  4. Optimality Proof
   
-  <a hidden class="anchor" href="#3-edge-cases-and-gotchas">
+  <a hidden class="anchor" href="#4-optimality-proof">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -774,25 +923,42 @@ After adding a character:</p>
  </a>
   
 </h3>
-<ol>
-<li>
-<p><strong>All Zeros:</strong></p>
-<ul>
-<li>When any count is 0, we need to handle it gracefully</li>
-<li>The code naturally handles this by checking remaining counts</li>
-</ul>
-</li>
-<li>
-<p><strong>Single Character Dominance:</strong></p>
-<ul>
-<li>When one character count is much larger than others</li>
-<li>Example: a=7, b=1, c=0 → &ldquo;aabaa&rdquo;</li>
-<li>Solution ensures optimal distribution of separator characters</li>
-</ul>
-</li>
-</ol>
-<blockquote>
-<p><strong>Footnote:</strong> The beauty of this problem lies in its connection to the concept of &ldquo;greedy stays ahead.&rdquo; This principle, first formalized by David Johnson in 1974, shows that sometimes being greedily optimal at each step leads to a globally optimal solution. The Happy String problem is a perfect example where local optimization (using the most abundant valid character) naturally leads to the best possible outcome.</p>
+<p>Let&rsquo;s prove that our solution is optimal:</p>
+
+
+$$
+\begin{aligned}
+& \text{Theorem: The algorithm visits each node exactly once in the worst case.} \\
+& \text{Proof: } \\
+& 1. \text{Each node comparison requires } O(1) \text{ time} \\
+& 2. \text{For a tree with n nodes, we must verify: } \\
+& \quad \sum_{i=1}^n \text{isFlipEquiv}(v_i) \geq n \\
+& 3. \text{Therefore, } \Omega(n) \text{ is a lower bound} \\
+& 4. \text{Our solution achieves } O(n), \text{ making it optimal}
+\end{aligned}
+$$
+<h3 id="5-edge-case-analysis">
+  5. Edge Case Analysis
+  
+  <a hidden class="anchor" href="#5-edge-case-analysis">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>The solution handles all edge cases through its recursive definition:</p>
+
+
+$$
+\begin{aligned}
+& \text{Empty Trees: } T_1 = \emptyset \land T_2 = \emptyset \implies \text{true} \\
+& \text{Single Node: } |T_1| = 1 \land |T_2| = 1 \implies T_1.\text{val} = T_2.\text{val} \\
+& \text{Different Sizes: } |T_1| \neq |T_2| \implies \text{false}
+\end{aligned}
+$$<blockquote>
+<p><strong>Technical Note:</strong> This mathematical formulation demonstrates how recursive tree equivalence checking under constrained transformations can be elegantly expressed and proven correct using formal mathematics. The solution leverages the principle that local structural equivalence implies global structural equivalence under the given transformation rules.</p>
 </blockquote>
 
 
@@ -807,17 +973,13 @@ After adding a character:</p>
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 951 Flip Equivalent Binary Trees </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/">
+    <a class="next" href="/blog/leetcode-potd/problem-1405-longest-happy-string/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2583 Kth Largest Sum in a Binary Tree </span>
+      <span> Problem 1405 Longest Happy String </span>
     </a>
   
 </nav>

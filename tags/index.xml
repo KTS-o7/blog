@@ -6,20 +6,48 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Oct 2024 20:50:55 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 11:25:48 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary-Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
+      <pubDate>Thu, 24 Oct 2024 11:25:48 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dfs</title>
+      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
+      <pubDate>Thu, 24 Oct 2024 11:25:48 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursion</title>
+      <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
+      <pubDate>Thu, 24 Oct 2024 11:25:48 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greedy</title>
+      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
+      <pubDate>Wed, 23 Oct 2024 22:27:57 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://KTS-o7.github.io/blog/tags/string/</link>
+      <pubDate>Wed, 23 Oct 2024 22:27:57 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bfs</title>
       <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
       <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Binary-Tree</title>
-      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
-      <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
       <description></description>
     </item>
     <item>
@@ -69,13 +97,6 @@
       <link>https://KTS-o7.github.io/blog/tags/set/</link>
       <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/set/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>https://KTS-o7.github.io/blog/tags/string/</link>
-      <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
       <description></description>
     </item>
     <item>
@@ -226,20 +247,6 @@
       <description></description>
     </item>
     <item>
-      <title>Dfs</title>
-      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
-      <pubDate>Sat, 07 Sep 2024 13:48:11 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recursion</title>
-      <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
-      <pubDate>Sat, 07 Sep 2024 13:48:11 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/recursion/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Manipulation</title>
       <link>https://KTS-o7.github.io/blog/tags/manipulation/</link>
       <pubDate>Tue, 03 Sep 2024 13:14:25 +0530</pubDate>
@@ -363,13 +370,6 @@
       <link>https://KTS-o7.github.io/blog/tags/threads/</link>
       <pubDate>Tue, 20 Aug 2024 23:57:15 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/threads/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Greedy</title>
-      <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
-      <pubDate>Fri, 16 Aug 2024 19:52:59 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
       <description></description>
     </item>
     <item>
