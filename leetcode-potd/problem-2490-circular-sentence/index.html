@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2501 Longest Square Streak in an Array &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2501 Longest Square Streak in an Array &middot; The Indian Engineer" />
+  <title>Problem 2490 Circular Sentence &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2490 Circular Sentence &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="set, array, math, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/" />
+  <meta name="keywords" content="string, traversal, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2490-circular-sentence/" />
 
   
 
@@ -82,23 +82,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2490-circular-sentence/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2501 Longest Square Streak in an Array">
+  <meta property="og:title" content="Problem 2490 Circular Sentence">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-10-28T13:56:40+05:30">
-    <meta property="article:modified_time" content="2024-10-28T13:56:40+05:30">
-    <meta property="article:tag" content="Set">
-    <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Math">
+    <meta property="article:published_time" content="2024-11-02T10:10:39+05:30">
+    <meta property="article:modified_time" content="2024-11-02T10:10:39+05:30">
+    <meta property="article:tag" content="String">
+    <meta property="article:tag" content="Traversal">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2501 Longest Square Streak in an Array">
+  <meta name="twitter:title" content="Problem 2490 Circular Sentence">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +391,7 @@
 
 
 
-<h1 class="pg-title">Problem 2501 Longest Square Streak in an Array</h1>
+<h1 class="pg-title">Problem 2490 Circular Sentence</h1>
 
 
 <div class="meta">
@@ -412,7 +411,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-10-28T13:56:40&#43;05:30">Oct 28, 2024</time>
+  Posted on <time datetime="2024-11-02T10:10:39&#43;05:30">Nov 2, 2024</time>
   
   
   
@@ -429,7 +428,7 @@
 
 </span>
   
-    4 mins
+    3 mins
   
 
 
@@ -446,11 +445,9 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/set/">Set</a>
+  <a class="tag" href="/blog/tags/string/">String</a>
   
-  <a class="tag" href="/blog/tags/array/">Array</a>
-  
-  <a class="tag" href="/blog/tags/math/">Math</a>
+  <a class="tag" href="/blog/tags/traversal/">Traversal</a>
   
 </p>
 
@@ -472,6 +469,7 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
+    <li><a href="#example-3">Example 3</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
@@ -502,7 +500,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/longest-square-streak-in-an-array/" target="_blank">Problem 2501</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/circular-sentence/description/" target="_blank">Problem 2490</a>
 </p>
 
 <h2 id="question">
@@ -516,13 +514,18 @@
  </a>
   
 </h2>
-<p>You are given an integer array nums. A subsequence of nums is called a square streak if:</p>
+<p>A <strong>sentence</strong> is a list of words that are separated by a single space with no leading or trailing spaces.</p>
 <ul>
-<li>The length of the subsequence is at least <code>2</code>, and</li>
-<li>after sorting the subsequence, each element (except the first element) is the square of the previous number.</li>
+<li>For example, <code>&quot;Hello World&quot;</code>, <code>&quot;HELLO&quot;</code>, <code>&quot;hello world hello world&quot;</code> are all sentences.</li>
 </ul>
-<p>Return the length of the longest square streak in nums, or return <code>-1</code> if there is no square streak.</p>
-<p>A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining eleme</p>
+<p>Words consist of <strong>only</strong> uppercase and lowercase English letters. Uppercase and lowercase English letters are considered different.</p>
+<p>A sentence is <strong>circular</strong> if:</p>
+<ul>
+<li>The last character of a word is equal to the first character of the next word.</li>
+<li>The last character of the last word is equal to the first character of the first word.</li>
+</ul>
+<p>For example, <code>&quot;leetcode exercises sound delightful&quot;</code>, <code>&quot;eetcode&quot;</code>, <code>&quot;leetcode eats soul&quot;</code> are all circular sentences. However, <code>&quot;Leetcode is cool&quot;</code>, <code>&quot;happy Leetcode&quot;</code>, <code>&quot;Leetcode&quot;</code> and <code>&quot;I like Leetcode&quot;</code> are not circular sentences.</p>
+<p>Given a string <code>sentence</code>, return <code>true</code> if it is circular. Otherwise, return <code>false</code>.</p>
 
 <h2 id="example-1">
   Example 1
@@ -535,13 +538,14 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: nums = [4,3,6,16,8,2]
-Output: 3
-Explanation: Choose the subsequence [4,16,2]. After sorting it, it becomes [2,4,16].
-- 4 = 2 * 2.
-- 16 = 4 * 4.
-Therefore, [4,16,2] is a square streak.
-It can be shown that every subsequence of length 4 is not a square streak.
+<pre tabindex="0"><code>Input: sentence = &#34;leetcode exercises sound delightful&#34;
+Output: true
+Explanation: The words in sentence are [&#34;leetcode&#34;, &#34;exercises&#34;, &#34;sound&#34;, &#34;delightful&#34;].
+- leetcode&#39;s last character is equal to exercises&#39;s first character.
+- exercises&#39;s last character is equal to sound&#39;s first character.
+- sound&#39;s last character is equal to delightful&#39;s first character.
+- delightful&#39;s last character is equal to leetcode&#39;s first character.
+The sentence is circular.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -554,9 +558,28 @@ It can be shown that every subsequence of length 4 is not a square streak.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: nums = [2,3,5,6,7]
-Output: -1
-Explanation: There is no square streak in nums so return -1.
+<pre tabindex="0"><code>Input: sentence = &#34;eetcode&#34;
+Output: true
+Explanation: The words in sentence are [&#34;eetcode&#34;].
+- eetcode&#39;s last character is equal to eetcode&#39;s first character.
+The sentence is circular.
+</code></pre>
+<h2 id="example-3">
+  Example 3
+  
+  <a hidden class="anchor" href="#example-3">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<pre tabindex="0"><code>Input: sentence = &#34;Leetcode is cool&#34;
+Output: false
+Explanation: The words in sentence are [&#34;Leetcode&#34;, &#34;is&#34;, &#34;cool&#34;].
+- Leetcode&#39;s last character is not equal to is&#39;s first character.
+The sentence is not circular.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -570,8 +593,10 @@ Explanation: There is no square streak in nums so return -1.
   
 </h2>
 <ul>
-<li>2 &lt;= nums.length &lt;= 10<sup>5</sup></li>
-<li>2 &lt;= nums[i] &lt;= 10<sup>5</sup></li>
+<li><code>1 &lt;= sentence.length &lt;= 500</code></li>
+<li>sentence consist of only lowercase and uppercase English letters and spaces.</li>
+<li>The words in sentence are separated by a single space.</li>
+<li>There are no leading or trailing spaces.</li>
 </ul>
 
 <h2 id="solution">
@@ -587,28 +612,14 @@ Explanation: There is no square streak in nums so return -1.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> longestSquareStreak(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">bool</span><span style="color:#f92672">&gt;</span> check_vector(<span style="color:#ae81ff">100001</span>, false);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> num : nums) {
-</span></span><span style="display:flex;"><span>                check_vector[num] <span style="color:#f92672">=</span> true;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> max_len <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> num : nums) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">long</span> val <span style="color:#f92672">=</span> num;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (val <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">317</span>) { <span style="color:#75715e">// sqrt(100000) is around 317, so beyond this limit, squares exceed 100000
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                <span style="color:#66d9ef">continue</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (val <span style="color:#f92672">*</span> val <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">100000</span> <span style="color:#f92672">&amp;&amp;</span> check_vector[val <span style="color:#f92672">*</span> val]) {
-</span></span><span style="display:flex;"><span>                len<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                max_len <span style="color:#f92672">=</span> max(max_len, len);
-</span></span><span style="display:flex;"><span>                val <span style="color:#f92672">=</span> val <span style="color:#f92672">*</span> val;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> isCircularSentence(string s) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span> s.size(); i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(s[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39; &#39;</span>){
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(s[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">!=</span>s[i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> false;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> max_len;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> s[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">==</span>s[s.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>];
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -623,11 +634,9 @@ Explanation: There is no square streak in nums so return -1.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                 | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Creating a set for lookup | O(N)            | O(N)             |
-</span></span><span style="display:flex;"><span>| Iteration and checking    | O(N)            | O(1)             |
-</span></span><span style="display:flex;"><span>| Total                     | O(N)            | O(N)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm        | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ---------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| String traversal | O(N)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -640,9 +649,6 @@ Explanation: There is no square streak in nums so return -1.
  </a>
   
 </h2>
-<blockquote>
-<p>If a subsequence can be sorted after picking the elements, then its equivalent to sorting the parent array and then picking the elements.</p>
-</blockquote>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -656,17 +662,13 @@ Explanation: There is no square streak in nums so return -1.
   
 </h3>
 <ul>
-<li>Even though the question is saying subsequences, its just misleading.</li>
-<li>The actual question doesnt care about the order of the elements. Hence sorting also works.</li>
-<li>But to check if we can find a chain of squares, we need to look up the elements present in the array in O(1) time.</li>
-<li>Hence we can use a boolean array to store the presence of the elements.</li>
-<li>Then for every element, we can check if we can find a chain of squares starting from that element.</li>
-<li>If we can, we can update the maximum length of the chain.</li>
-<li>One more micro-optimization is to check if the square of the element is greater than 100000
-then we can skip that element as the square of that element will be greater than 100000.
-This is because the maximum element in the array is 100000 according to the constraints.</li>
-<li>Hence we can skip that element and move to the next element.</li>
-<li>This way we can find the maximum length of the chain of squares.</li>
+<li>This question is relatively straightforward.</li>
+<li>A circular sentence is a sentence where the last character of a word is equal to the first character of the next word.</li>
+<li>Also since a sentence cant have leading or trailing spaces, we also need to check if the last character of the last word is equal to the first character of the first word.</li>
+<li>Idea is to traverse the string and whenever encounter a space, check the last character of the previous word and the first character of the next word.</li>
+<li>Whenever we find a mismatch, return false.</li>
+<li>If we reach the end of the string, check if the last character of the last word is equal to the first character of the first word.</li>
+<li>If it is, return true, else return false.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -680,24 +682,14 @@ This is because the maximum element in the array is 100000 according to the cons
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Create a boolean array <span style="color:#e6db74">`check_vector`</span> of size 100001 and initialize all elements to <span style="color:#e6db74">`false`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the elements of the array and set the corresponding index in the <span style="color:#e6db74">`check_vector`</span> to <span style="color:#e6db74">`true`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize the variable <span style="color:#e6db74">`max_len`</span> to -1.
-</span></span><span style="display:flex;"><span>  This variable will store the maximum length of the chain of squares.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate over the elements of the array.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Initialize the variable <span style="color:#e6db74">`len`</span> to 1.
-</span></span><span style="display:flex;"><span>    This variable will store the length of the chain of squares starting from the current element.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Initialize the variable <span style="color:#e6db74">`val`</span> to the current element.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Check if the square of the current element is greater than 317.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If it is, then skip the current element and move to the next element.
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> While the square of the current element is less than or equal to 100000
-</span></span><span style="display:flex;"><span>      and the square of the current element is present in the <span style="color:#e6db74">`check_vector`</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">-</span> increment the <span style="color:#e6db74">`len`</span> variable
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">-</span> Update the <span style="color:#e6db74">`max_len`</span> variable with the maximum of the current <span style="color:#e6db74">`len`</span> and <span style="color:#e6db74">`max_len`</span>.
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">-</span> Update the <span style="color:#e6db74">`val`</span> variable with the square of the current element.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return the <span style="color:#e6db74">`max_len`</span> variable.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For every character <span style="color:#e6db74">`s[i]`</span> in the string do the following:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If <span style="color:#e6db74">`s[i]`</span> is a space,
+</span></span><span style="display:flex;"><span>    check if <span style="color:#e6db74">`s[i-1]`</span> is equal to <span style="color:#e6db74">`s[i+1]`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If it is not, return <span style="color:#e6db74">`false`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If we reach the end of the string, check if <span style="color:#e6db74">`s[s.size()-1]`</span> is equal to <span style="color:#e6db74">`s[0]`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If it is, return <span style="color:#e6db74">`true`</span>, else return <span style="color:#e6db74">`false`</span>.
 </span></span></code></pre></div><blockquote>
-<p>This is a relatively simple problem that can be solved using a set for lookup and iteration over the elements of the array. The time complexity of the solution is O(N), where N is the number of elements in the array, and the space complexity is O(N) for the set used for lookup.</p>
+<p>Easy problem, but a good one to practice string manipulation.</p>
 </blockquote>
 
 
@@ -712,17 +704,13 @@ This is because the maximum element in the array is 100000 according to the cons
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2490-circular-sentence/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2490 Circular Sentence </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-1381-design-a-stack-with-increment-operation/">
+    <a class="next" href="/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1381 Design a Stack With Increment Operation </span>
+      <span> Problem 2501 Longest Square Streak in an Array </span>
     </a>
   
 </nav>
