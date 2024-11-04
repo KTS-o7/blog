@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2490 Circular Sentence &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2490 Circular Sentence &middot; The Indian Engineer" />
+  <title>Problem 796 Rotate String &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 796 Rotate String &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="string, traversal, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2490-circular-sentence/" />
+  <meta name="keywords" content="string, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/" />
 
   
 
@@ -82,22 +82,21 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2490-circular-sentence/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2490 Circular Sentence">
+  <meta property="og:title" content="Problem 796 Rotate String">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-02T10:10:39+05:30">
-    <meta property="article:modified_time" content="2024-11-02T10:10:39+05:30">
+    <meta property="article:published_time" content="2024-11-04T21:45:44+05:30">
+    <meta property="article:modified_time" content="2024-11-04T21:45:44+05:30">
     <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Traversal">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2490 Circular Sentence">
+  <meta name="twitter:title" content="Problem 796 Rotate String">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -391,7 +390,7 @@
 
 
 
-<h1 class="pg-title">Problem 2490 Circular Sentence</h1>
+<h1 class="pg-title">Problem 796 Rotate String</h1>
 
 
 <div class="meta">
@@ -411,7 +410,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-02T10:10:39&#43;05:30">Nov 2, 2024</time>
+  Posted on <time datetime="2024-11-04T21:45:44&#43;05:30">Nov 4, 2024</time>
   
   
   
@@ -447,8 +446,6 @@
   
   <a class="tag" href="/blog/tags/string/">String</a>
   
-  <a class="tag" href="/blog/tags/traversal/">Traversal</a>
-  
 </p>
 
 
@@ -469,7 +466,6 @@
     <li><a href="#question">Question</a></li>
     <li><a href="#example-1">Example 1</a></li>
     <li><a href="#example-2">Example 2</a></li>
-    <li><a href="#example-3">Example 3</a></li>
     <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
@@ -500,7 +496,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/circular-sentence/description/" target="_blank">Problem 2490</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/rotate-string/description/" target="_blank">Problem 796</a>
 </p>
 
 <h2 id="question">
@@ -514,18 +510,11 @@
  </a>
   
 </h2>
-<p>A <strong>sentence</strong> is a list of words that are separated by a single space with no leading or trailing spaces.</p>
+<p>Given two strings <code>s</code> and <code>goal</code>, return <code>true</code> if and only if <code>s</code> can become <code>goal</code> after some number of <strong>shifts</strong> on <code>s</code>.</p>
+<p>A <strong>shift</strong> on <code>s</code> consists of moving the leftmost character of <code>s</code> to the rightmost position.</p>
 <ul>
-<li>For example, <code>&quot;Hello World&quot;</code>, <code>&quot;HELLO&quot;</code>, <code>&quot;hello world hello world&quot;</code> are all sentences.</li>
+<li>For example, if <code>s</code> = <code>&quot;abcde&quot;</code>, then it will be <code>&quot;bcdea&quot;</code> after one shift.</li>
 </ul>
-<p>Words consist of <strong>only</strong> uppercase and lowercase English letters. Uppercase and lowercase English letters are considered different.</p>
-<p>A sentence is <strong>circular</strong> if:</p>
-<ul>
-<li>The last character of a word is equal to the first character of the next word.</li>
-<li>The last character of the last word is equal to the first character of the first word.</li>
-</ul>
-<p>For example, <code>&quot;leetcode exercises sound delightful&quot;</code>, <code>&quot;eetcode&quot;</code>, <code>&quot;leetcode eats soul&quot;</code> are all circular sentences. However, <code>&quot;Leetcode is cool&quot;</code>, <code>&quot;happy Leetcode&quot;</code>, <code>&quot;Leetcode&quot;</code> and <code>&quot;I like Leetcode&quot;</code> are not circular sentences.</p>
-<p>Given a string <code>sentence</code>, return <code>true</code> if it is circular. Otherwise, return <code>false</code>.</p>
 
 <h2 id="example-1">
   Example 1
@@ -538,14 +527,8 @@
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: sentence = &#34;leetcode exercises sound delightful&#34;
+<pre tabindex="0"><code>Input: s = &#34;abcde&#34;, goal = &#34;cdeab&#34;
 Output: true
-Explanation: The words in sentence are [&#34;leetcode&#34;, &#34;exercises&#34;, &#34;sound&#34;, &#34;delightful&#34;].
-- leetcode&#39;s last character is equal to exercises&#39;s first character.
-- exercises&#39;s last character is equal to sound&#39;s first character.
-- sound&#39;s last character is equal to delightful&#39;s first character.
-- delightful&#39;s last character is equal to leetcode&#39;s first character.
-The sentence is circular.
 </code></pre>
 <h2 id="example-2">
   Example 2
@@ -558,28 +541,8 @@ The sentence is circular.
  </a>
   
 </h2>
-<pre tabindex="0"><code>Input: sentence = &#34;eetcode&#34;
-Output: true
-Explanation: The words in sentence are [&#34;eetcode&#34;].
-- eetcode&#39;s last character is equal to eetcode&#39;s first character.
-The sentence is circular.
-</code></pre>
-<h2 id="example-3">
-  Example 3
-  
-  <a hidden class="anchor" href="#example-3">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: sentence = &#34;Leetcode is cool&#34;
+<pre tabindex="0"><code>Input: s = &#34;abcde&#34;, goal = &#34;abced&#34;
 Output: false
-Explanation: The words in sentence are [&#34;Leetcode&#34;, &#34;is&#34;, &#34;cool&#34;].
-- Leetcode&#39;s last character is not equal to is&#39;s first character.
-The sentence is not circular.
 </code></pre>
 <h2 id="constraints">
   Constraints
@@ -593,10 +556,8 @@ The sentence is not circular.
   
 </h2>
 <ul>
-<li><code>1 &lt;= sentence.length &lt;= 500</code></li>
-<li>sentence consist of only lowercase and uppercase English letters and spaces.</li>
-<li>The words in sentence are separated by a single space.</li>
-<li>There are no leading or trailing spaces.</li>
+<li><code>1 &lt;= s.length, goal.length &lt;= 100</code></li>
+<li><code>s</code> and <code>goal</code> consist of lowercase English letters.</li>
 </ul>
 
 <h2 id="solution">
@@ -612,14 +573,23 @@ The sentence is not circular.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> isCircularSentence(string s) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span> s.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(s[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39; &#39;</span>){
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(s[i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">!=</span>s[i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>])
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> rotateString(string s, string goal) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(s.size()<span style="color:#f92672">!=</span>goal.size())
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        string test <span style="color:#f92672">=</span> s<span style="color:#f92672">+</span>s;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> t <span style="color:#f92672">=</span> test.size(), g <span style="color:#f92672">=</span> goal.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> j;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>t<span style="color:#f92672">-</span>g; i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span>(j<span style="color:#f92672">&lt;</span>g <span style="color:#f92672">&amp;&amp;</span> test[i<span style="color:#f92672">+</span>j] <span style="color:#f92672">==</span> goal[j]){
+</span></span><span style="display:flex;"><span>                j<span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(j<span style="color:#f92672">==</span>g)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> true;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> s[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">==</span>s[s.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> false;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -634,9 +604,9 @@ The sentence is not circular.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm        | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ---------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| String traversal | O(N)            | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm       | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| String matching | O(n^2)          | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -662,13 +632,12 @@ The sentence is not circular.
   
 </h3>
 <ul>
-<li>This question is relatively straightforward.</li>
-<li>A circular sentence is a sentence where the last character of a word is equal to the first character of the next word.</li>
-<li>Also since a sentence cant have leading or trailing spaces, we also need to check if the last character of the last word is equal to the first character of the first word.</li>
-<li>Idea is to traverse the string and whenever encounter a space, check the last character of the previous word and the first character of the next word.</li>
-<li>Whenever we find a mismatch, return false.</li>
-<li>If we reach the end of the string, check if the last character of the last word is equal to the first character of the first word.</li>
-<li>If it is, return true, else return false.</li>
+<li>After seeing the problem we can see that to check if a string can be rotated to form another string it is equivalent to check if the goal string is a substring of the original string concatenated with itself.</li>
+<li>This reduces the problem to a simple string matching problem.</li>
+<li>Why concatenation trick works ? Because if we concatenate the string with itself then any substring of size of the original string will be a rotation of the original string.</li>
+<li>So we can simply check if the goal string is a substring of the concatenated string or not using simple string matching algorithm.</li>
+<li>Since the constraints are small we can use a simple brute force string matching algorithm to solve the problem.</li>
+<li>If the constraints were large then we could have used KMP or Rabin Karp algorithm to solve the problem.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -682,14 +651,17 @@ The sentence is not circular.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For every character <span style="color:#e6db74">`s[i]`</span> in the string do the following:
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If <span style="color:#e6db74">`s[i]`</span> is a space,
-</span></span><span style="display:flex;"><span>    check if <span style="color:#e6db74">`s[i-1]`</span> is equal to <span style="color:#e6db74">`s[i+1]`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If it is not, return <span style="color:#e6db74">`false`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If we reach the end of the string, check if <span style="color:#e6db74">`s[s.size()-1]`</span> is equal to <span style="color:#e6db74">`s[0]`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If it is, return <span style="color:#e6db74">`true`</span>, else return <span style="color:#e6db74">`false`</span>.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the size of the strings are not equal then return <span style="color:#e6db74">`false`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> create a new string <span style="color:#e6db74">`test`</span> which is the concatenation of the original string with itself.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Let <span style="color:#e6db74">`t`</span> be the size of the <span style="color:#e6db74">`test`</span> string and <span style="color:#e6db74">`g`</span> be the size of the <span style="color:#e6db74">`goal`</span> string.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Now for each index <span style="color:#e6db74">`i`</span> from <span style="color:#e6db74">`0`</span> to <span style="color:#e6db74">`t-g`</span> do
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Let <span style="color:#e6db74">`j`</span> be <span style="color:#e6db74">`0`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> While <span style="color:#e6db74">`j`</span> is less than <span style="color:#e6db74">`g`</span> and <span style="color:#e6db74">`test[i+j]`</span> is equal to <span style="color:#e6db74">`goal[j]`</span> do
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Increment <span style="color:#e6db74">`j`</span> by <span style="color:#e6db74">`1`</span>.
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If <span style="color:#e6db74">`j`</span> is equal to <span style="color:#e6db74">`g`</span> then return <span style="color:#e6db74">`true`</span>.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the loop completes then return <span style="color:#e6db74">`false`</span>.
 </span></span></code></pre></div><blockquote>
-<p>Easy problem, but a good one to practice string manipulation.</p>
+<p>A neat trick to find all the rotations of a string is to concatenate the string with itself and then find all the substrings of size <code>n</code> where <code>n</code> is the size of the original string.</p>
 </blockquote>
 
 
@@ -704,17 +676,13 @@ The sentence is not circular.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-796-rotate-string/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 796 Rotate String </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/">
+    <a class="next" href="/blog/leetcode-potd/problem-2490-circular-sentence/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2501 Longest Square Streak in an Array </span>
+      <span> Problem 2490 Circular Sentence </span>
     </a>
   
 </nav>

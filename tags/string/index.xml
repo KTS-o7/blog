@@ -6,8 +6,15 @@
     <description>Recent content in String on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Nov 2024 10:10:39 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 21:45:44 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 796 Rotate String</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/</link>
+      <pubDate>Mon, 04 Nov 2024 21:45:44 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 2490 Circular Sentence</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2490-circular-sentence/</link>
