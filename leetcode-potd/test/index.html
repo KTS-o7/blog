@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-  <head>
+  <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta http-equiv="content-language" content="en-us" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,33 +8,30 @@
 
   
   
-  <title>Problem 796 Rotate String &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 796 Rotate String &middot; The Indian Engineer" />
+  <title>Problem 1 Two Sum &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1 Two Sum &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="string, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/" />
+  <meta name="keywords" content="array, hash table, " />
+  <link rel="canonical" href="http://localhost:1313/blog/leetcode-potd/test/" />
 
-  
-
-
-
-  
-    
   
 
   
     
+        <link rel="stylesheet" href="/blog/css/theme.css">
+    
   
-
+    
+        <link rel="stylesheet" href="/blog/css/main.css">
+    
   
-
+    
   
-  <link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.236cf0f5f0f0ad36f55502ffc2262891bc65e1670c91eb6370180ea007270f8a5322f443ae1ba428db833f5be863de1a135384773f65086d8a9b5175c2af3776.css" integrity="sha512-I2zw9fDwrTb1VQL/wiYokbxl4WcMketjcBgOoAcnD4pTIvRDrhukKNuDP1voY94aE1OEdz9lCG2Km1F1wq83dg==" />
 
 
   
@@ -50,24 +47,21 @@
 
   
     
-        
-        <script defer type="text/javascript" src="/blog/js/theme.min.b12ffe233a345d2a545ca355b5aa71c906bbebbee2ea801f46de9e7af2b59da08cc4ffe002b2f302ce00f00eddca05abd8f71c16335f949d96e42eb5971c0235.js" integrity="sha512-sS/&#43;Izo0XSpUXKNVtapxyQa7677i6oAfRt6eevK1naCMxP/gArLzAs4A8A7dygWr2PccFjNflJ2W5C61lxwCNQ=="> </script>
+        <script src="/blog/js/theme.js"></script>
       
     
   
 
   
     
-        
-        <script defer type="text/javascript" src="/blog/js/codecopy.min.6319d0ad3eae498a0591b4ec1d52cc0156f5c3cb95390089d7d0ac7fe6dfb183161c14f935d25b5ad896840e2a9d6a23f555a7976954d0a263c24a11272aa747.js" integrity="sha512-YxnQrT6uSYoFkbTsHVLMAVb1w8uVOQCJ19Csf&#43;bfsYMWHBT5NdJbWtiWhA4qnWoj9VWnl2lU0KJjwkoRJyqnRw=="> </script>
+        <script src="/blog/js/codecopy.js"></script>
       
     
   
 
   
     
-        
-        <script defer type="text/javascript" src="/blog/js/search.min.bb866b924569dd33a507ff4631eae853f6b6902fe0dbfe5e8aad50e1ccd528db3a01aaf098948dd4516d6bbd2dab8c6716b4b31809eb28ad8ce47d4801a0f0c3.js" integrity="sha512-u4ZrkkVp3TOlB/9GMeroU/a2kC/g2/5eiq1Q4czVKNs6AarwmJSN1FFta70tq4xnFrSzGAnrKK2M5H1IAaDwww=="> </script>
+        <script src="/blog/js/search.js"></script>
       
     
   
@@ -82,21 +76,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/">
+  <meta property="og:url" content="http://localhost:1313/blog/leetcode-potd/test/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 796 Rotate String">
+  <meta property="og:title" content="Problem 1 Two Sum">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-04T21:45:44+05:30">
-    <meta property="article:modified_time" content="2024-11-04T21:45:44+05:30">
-    <meta property="article:tag" content="String">
+    <meta property="article:published_time" content="2024-11-23T16:43:34+05:30">
+    <meta property="article:modified_time" content="2024-11-23T16:43:34+05:30">
+    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Hash-Table">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 796 Rotate String">
+  <meta name="twitter:title" content="Problem 1 Two Sum">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -124,25 +119,6 @@
 
   
   
-  
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBGJZKY3DP"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-KBGJZKY3DP');
-        }
-      </script>
-
-  
-  
-
 
 
   
@@ -156,7 +132,7 @@
   
   
   
-    <link rel="preload" href="https://KTS-o7.github.io/blog/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="http://localhost:1313/blog/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
   
 
   
@@ -254,7 +230,7 @@
 
 </button>
 
-<div id="search-container" data-url="https://KTS-o7.github.io/blog/">
+<div id="search-container" data-url="http://localhost:1313/blog/">
   <div class="search">
     <div class="panel">
       <form>
@@ -371,7 +347,7 @@
 
 
 <ul class="breadcrumbs">
-  <li><a href="https://KTS-o7.github.io/blog/">
+  <li><a href="http://localhost:1313/blog/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -380,7 +356,7 @@
   
     
     
-      <li><a href="https://KTS-o7.github.io/blog/leetcode-potd/">Leetcode POTDs</a></li>
+      <li><a href="http://localhost:1313/blog/leetcode-potd/">Leetcode POTDs</a></li>
     
     
   
@@ -390,7 +366,7 @@
 
 
 
-<h1 class="pg-title">Problem 796 Rotate String</h1>
+<h1 class="pg-title">Problem 1 Two Sum</h1>
 
 
 <div class="meta">
@@ -410,7 +386,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-04T21:45:44&#43;05:30">Nov 4, 2024</time>
+  Posted on <time datetime="2024-11-23T16:43:34&#43;05:30">Nov 23, 2024</time>
   
   
   
@@ -444,7 +420,9 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
+  
+  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
   
 </p>
 
@@ -464,9 +442,6 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#question">Question</a></li>
-    <li><a href="#example-1">Example 1</a></li>
-    <li><a href="#example-2">Example 2</a></li>
-    <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
     <li><a href="#explanation">Explanation</a>
@@ -496,7 +471,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/rotate-string/description/" target="_blank">Problem 796</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/two-sum/" target="_blank">Problem 1</a>
 </p>
 
 <h2 id="question">
@@ -510,55 +485,36 @@
  </a>
   
 </h2>
-<p>Given two strings <code>s</code> and <code>goal</code>, return <code>true</code> if and only if <code>s</code> can become <code>goal</code> after some number of <strong>shifts</strong> on <code>s</code>.</p>
-<p>A <strong>shift</strong> on <code>s</code> consists of moving the leftmost character of <code>s</code> to the rightmost position.</p>
+<p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
+<p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
+<p>You can return the answer in any order.</p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre>
+<strong>Input:</strong> nums = [2,7,11,15], target = 9
+<strong>Output:</strong> [0,1]
+<strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
+</pre>
+<p><strong class="example">Example 2:</strong></p>
+<pre>
+<strong>Input:</strong> nums = [3,2,4], target = 6
+<strong>Output:</strong> [1,2]
+</pre>
+<p><strong class="example">Example 3:</strong></p>
+<pre>
+<strong>Input:</strong> nums = [3,3], target = 6
+<strong>Output:</strong> [0,1]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 <ul>
-<li>For example, if <code>s</code> = <code>&quot;abcde&quot;</code>, then it will be <code>&quot;bcdea&quot;</code> after one shift.</li>
+	<li><code>2 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
+	<li><strong>Only one valid answer exists.</strong></li>
 </ul>
-
-<h2 id="example-1">
-  Example 1
-  
-  <a hidden class="anchor" href="#example-1">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: s = &#34;abcde&#34;, goal = &#34;cdeab&#34;
-Output: true
-</code></pre>
-<h2 id="example-2">
-  Example 2
-  
-  <a hidden class="anchor" href="#example-2">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: s = &#34;abcde&#34;, goal = &#34;abced&#34;
-Output: false
-</code></pre>
-<h2 id="constraints">
-  Constraints
-  
-  <a hidden class="anchor" href="#constraints">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<ul>
-<li><code>1 &lt;= s.length, goal.length &lt;= 100</code></li>
-<li><code>s</code> and <code>goal</code> consist of lowercase English letters.</li>
-</ul>
+<p>&nbsp;</p>
+<strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?
 
 <h2 id="solution">
   Solution
@@ -571,27 +527,33 @@ Output: false
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> rotateString(string s, string goal) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(s.size()<span style="color:#f92672">!=</span>goal.size())
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        string test <span style="color:#f92672">=</span> s<span style="color:#f92672">+</span>s;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> t <span style="color:#f92672">=</span> test.size(), g <span style="color:#f92672">=</span> goal.size();
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> j;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>t<span style="color:#f92672">-</span>g; i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span>(j<span style="color:#f92672">&lt;</span>g <span style="color:#f92672">&amp;&amp;</span> test[i<span style="color:#f92672">+</span>j] <span style="color:#f92672">==</span> goal[j]){
-</span></span><span style="display:flex;"><span>                j<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(j<span style="color:#f92672">==</span>g)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> true;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;vector&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;unordered_map&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> twoSum(<span style="color:#66d9ef">const</span> std<span style="color:#f92672">::</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> target) {
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>unordered_map<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> num_map;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> complement <span style="color:#f92672">=</span> target <span style="color:#f92672">-</span> nums[i];
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (num_map.find(complement) <span style="color:#f92672">!=</span> num_map.end()) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> {num_map[complement], i};
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>        num_map[nums[i]] <span style="color:#f92672">=</span> i;
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {};
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> nums <span style="color:#f92672">=</span> {<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">15</span>};
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> target <span style="color:#f92672">=</span> <span style="color:#ae81ff">9</span>;
+</span></span><span style="display:flex;"><span>    std<span style="color:#f92672">::</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> result <span style="color:#f92672">=</span> twoSum(nums, target);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>result.empty()) {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Indices: &#34;</span> <span style="color:#f92672">&lt;&lt;</span> result[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;, &#34;</span> <span style="color:#f92672">&lt;&lt;</span> result[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;No solution found.&#34;</span> <span style="color:#f92672">&lt;&lt;</span> std<span style="color:#f92672">::</span>endl;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
 <h2 id="complexity-analysis">
   Complexity Analysis
@@ -604,9 +566,9 @@ Output: false
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm       | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| String matching | O(n^2)          | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Solution  | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -631,15 +593,11 @@ Output: false
  </a>
   
 </h3>
-<ul>
-<li>After seeing the problem we can see that to check if a string can be rotated to form another string it is equivalent to check if the goal string is a substring of the original string concatenated with itself.</li>
-<li>This reduces the problem to a simple string matching problem.</li>
-<li>Why concatenation trick works ? Because if we concatenate the string with itself then any substring of size of the original string will be a rotation of the original string.</li>
-<li>So we can simply check if the goal string is a substring of the concatenated string or not using simple string matching algorithm.</li>
-<li>Since the constraints are small we can use a simple brute force string matching algorithm to solve the problem.</li>
-<li>If the constraints were large then we could have used KMP or Rabin Karp algorithm to solve the problem.</li>
-</ul>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> The problem can be solved using a hash map (unordered_map in C++) to store the indices of elements as they are processed
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each element, calculate the complement (target - current element)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Check if the complement is present in the hash map, if so, return the indices of the complement and the current element
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the complement is not present, add the current element and its index to the hash map
+</span></span></code></pre></div>
 <h3 id="2-implementation">
   2. Implementation
   
@@ -651,19 +609,13 @@ Output: false
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the size of the strings are not equal then return <span style="color:#e6db74">`false`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> create a new string <span style="color:#e6db74">`test`</span> which is the concatenation of the original string with itself.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Let <span style="color:#e6db74">`t`</span> be the size of the <span style="color:#e6db74">`test`</span> string and <span style="color:#e6db74">`g`</span> be the size of the <span style="color:#e6db74">`goal`</span> string.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Now for each index <span style="color:#e6db74">`i`</span> from <span style="color:#e6db74">`0`</span> to <span style="color:#e6db74">`t-g`</span> do
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Let <span style="color:#e6db74">`j`</span> be <span style="color:#e6db74">`0`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> While <span style="color:#e6db74">`j`</span> is less than <span style="color:#e6db74">`g`</span> and <span style="color:#e6db74">`test[i+j]`</span> is equal to <span style="color:#e6db74">`goal[j]`</span> do
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Increment <span style="color:#e6db74">`j`</span> by <span style="color:#e6db74">`1`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If <span style="color:#e6db74">`j`</span> is equal to <span style="color:#e6db74">`g`</span> then return <span style="color:#e6db74">`true`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the loop completes then return <span style="color:#e6db74">`false`</span>.
-</span></span></code></pre></div><blockquote>
-<p>A neat trick to find all the rotations of a string is to concatenate the string with itself and then find all the substrings of size <code>n</code> where <code>n</code> is the size of the original string.</p>
-</blockquote>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Create an unordered_map num_map to store the indices of elements
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Iterate through the input array nums
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For each element, calculate the complement (target - current element)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Check if the complement exists in the num_map using the find method, if it does, return the vector containing the complement&#39;s index and the current index
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the complement is not found, add the current element and its index to the num_map using the square bracket notation
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return an empty vector if no pair adds up to the target
+</span></span></code></pre></div>
 
 
 
@@ -676,17 +628,13 @@ Output: false
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1861-rotating-the-box/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1861 Rotating the Box </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2490-circular-sentence/">
+    <a class="next" href="/blog/leetcode-potd/problem-796-rotate-string/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2490 Circular Sentence </span>
+      <span> Problem 796 Rotate String </span>
     </a>
   
 </nav>

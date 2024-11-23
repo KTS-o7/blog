@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 796 Rotate String &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 796 Rotate String &middot; The Indian Engineer" />
+  <title>Problem 1861 Rotating the Box &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1861 Rotating the Box &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="string, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/" />
+  <meta name="keywords" content="array, two pointers, matrix, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1861-rotating-the-box/" />
 
   
 
@@ -82,21 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1861-rotating-the-box/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 796 Rotate String">
+  <meta property="og:title" content="Problem 1861 Rotating the Box">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-04T21:45:44+05:30">
-    <meta property="article:modified_time" content="2024-11-04T21:45:44+05:30">
-    <meta property="article:tag" content="String">
+    <meta property="article:published_time" content="2024-11-23T19:45:40+05:30">
+    <meta property="article:modified_time" content="2024-11-23T19:45:40+05:30">
+    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Two-Pointers">
+    <meta property="article:tag" content="Matrix">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 796 Rotate String">
+  <meta name="twitter:title" content="Problem 1861 Rotating the Box">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -390,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 796 Rotate String</h1>
+<h1 class="pg-title">Problem 1861 Rotating the Box</h1>
 
 
 <div class="meta">
@@ -410,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-04T21:45:44&#43;05:30">Nov 4, 2024</time>
+  Posted on <time datetime="2024-11-23T19:45:40&#43;05:30">Nov 23, 2024</time>
   
   
   
@@ -427,7 +429,7 @@
 
 </span>
   
-    3 mins
+    4 mins
   
 
 
@@ -444,7 +446,11 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
+  
+  <a class="tag" href="/blog/tags/two-pointers/">Two-Pointers</a>
+  
+  <a class="tag" href="/blog/tags/matrix/">Matrix</a>
   
 </p>
 
@@ -464,15 +470,18 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#question">Question</a></li>
-    <li><a href="#example-1">Example 1</a></li>
-    <li><a href="#example-2">Example 2</a></li>
-    <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
     <li><a href="#explanation">Explanation</a>
       <ul>
         <li><a href="#1-intuition">1. Intuition</a></li>
         <li><a href="#2-implementation">2. Implementation</a></li>
+      </ul>
+    </li>
+    <li><a href="#complexity-analysis-1">Complexity Analysis</a>
+      <ul>
+        <li><a href="#time-complexity">Time Complexity:</a></li>
+        <li><a href="#space-complexity">Space Complexity:</a></li>
       </ul>
     </li>
   </ul>
@@ -496,7 +505,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/rotate-string/description/" target="_blank">Problem 796</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/rotating-the-box/" target="_blank">Problem 1861</a>
 </p>
 
 <h2 id="question">
@@ -510,54 +519,54 @@
  </a>
   
 </h2>
-<p>Given two strings <code>s</code> and <code>goal</code>, return <code>true</code> if and only if <code>s</code> can become <code>goal</code> after some number of <strong>shifts</strong> on <code>s</code>.</p>
-<p>A <strong>shift</strong> on <code>s</code> consists of moving the leftmost character of <code>s</code> to the rightmost position.</p>
+<p>You are given an <code>m x n</code> matrix of characters <code>box</code> representing a side-view of a box. Each cell of the box is one of the following:</p>
 <ul>
-<li>For example, if <code>s</code> = <code>&quot;abcde&quot;</code>, then it will be <code>&quot;bcdea&quot;</code> after one shift.</li>
+	<li>A stone <code>&#39;#&#39;</code></li>
+	<li>A stationary obstacle <code>&#39;*&#39;</code></li>
+	<li>Empty <code>&#39;.&#39;</code></li>
 </ul>
-
-<h2 id="example-1">
-  Example 1
-  
-  <a hidden class="anchor" href="#example-1">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: s = &#34;abcde&#34;, goal = &#34;cdeab&#34;
-Output: true
-</code></pre>
-<h2 id="example-2">
-  Example 2
-  
-  <a hidden class="anchor" href="#example-2">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: s = &#34;abcde&#34;, goal = &#34;abced&#34;
-Output: false
-</code></pre>
-<h2 id="constraints">
-  Constraints
-  
-  <a hidden class="anchor" href="#constraints">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
+<p>The box is rotated <strong>90 degrees clockwise</strong>, causing some of the stones to fall due to gravity. Each stone falls down until it lands on an obstacle, another stone, or the bottom of the box. Gravity <strong>does not</strong> affect the obstacles&#39; positions, and the inertia from the box&#39;s rotation <strong>does not </strong>affect the stones&#39; horizontal positions.</p>
+<p>It is <strong>guaranteed</strong> that each stone in <code>box</code> rests on an obstacle, another stone, or the bottom of the box.</p>
+<p>Return <em>an </em><code>n x m</code><em> matrix representing the box after the rotation described above</em>.</p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<p><img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcodewithstones.png" style="width: 300px; height: 150px;" /></p>
+<pre>
+<strong>Input:</strong> box = [[&quot;#&quot;,&quot;.&quot;,&quot;#&quot;]]
+<strong>Output:</strong> [[&quot;.&quot;],
+&nbsp;        [&quot;#&quot;],
+&nbsp;        [&quot;#&quot;]]
+</pre>
+<p><strong class="example">Example 2:</strong></p>
+<p><img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcode2withstones.png" style="width: 375px; height: 195px;" /></p>
+<pre>
+<strong>Input:</strong> box = [[&quot;#&quot;,&quot;.&quot;,&quot;*&quot;,&quot;.&quot;],
+&nbsp;             [&quot;#&quot;,&quot;#&quot;,&quot;*&quot;,&quot;.&quot;]]
+<strong>Output:</strong> [[&quot;#&quot;,&quot;.&quot;],
+&nbsp;        [&quot;#&quot;,&quot;#&quot;],
+&nbsp;        [&quot;*&quot;,&quot;*&quot;],
+&nbsp;        [&quot;.&quot;,&quot;.&quot;]]
+</pre>
+<p><strong class="example">Example 3:</strong></p>
+<p><img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcode3withstone.png" style="width: 400px; height: 218px;" /></p>
+<pre>
+<strong>Input:</strong> box = [[&quot;#&quot;,&quot;#&quot;,&quot;*&quot;,&quot;.&quot;,&quot;*&quot;,&quot;.&quot;],
+&nbsp;             [&quot;#&quot;,&quot;#&quot;,&quot;#&quot;,&quot;*&quot;,&quot;.&quot;,&quot;.&quot;],
+&nbsp;             [&quot;#&quot;,&quot;#&quot;,&quot;#&quot;,&quot;.&quot;,&quot;#&quot;,&quot;.&quot;]]
+<strong>Output:</strong> [[&quot;.&quot;,&quot;#&quot;,&quot;#&quot;],
+&nbsp;        [&quot;.&quot;,&quot;#&quot;,&quot;#&quot;],
+&nbsp;        [&quot;#&quot;,&quot;#&quot;,&quot;*&quot;],
+&nbsp;        [&quot;#&quot;,&quot;*&quot;,&quot;.&quot;],
+&nbsp;        [&quot;#&quot;,&quot;.&quot;,&quot;*&quot;],
+&nbsp;        [&quot;#&quot;,&quot;.&quot;,&quot;.&quot;]]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 <ul>
-<li><code>1 &lt;= s.length, goal.length &lt;= 100</code></li>
-<li><code>s</code> and <code>goal</code> consist of lowercase English letters.</li>
+	<li><code>m == box.length</code></li>
+	<li><code>n == box[i].length</code></li>
+	<li><code>1 &lt;= m, n &lt;= 500</code></li>
+	<li><code>box[i][j]</code> is either <code>&#39;#&#39;</code>, <code>&#39;*&#39;</code>, or <code>&#39;.&#39;</code>.</li>
 </ul>
 
 <h2 id="solution">
@@ -573,23 +582,30 @@ Output: false
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> rotateString(string s, string goal) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(s.size()<span style="color:#f92672">!=</span>goal.size())
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&gt;</span> rotateTheBox(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&gt;&amp;</span> box) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> m <span style="color:#f92672">=</span>box.size(),n<span style="color:#f92672">=</span>box[<span style="color:#ae81ff">0</span>].size();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> <span style="color:#f92672">&amp;</span>row:box){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> obstacle <span style="color:#f92672">=</span> row.size();
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> row.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>; i<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">--</span>){
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(row[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;#&#39;</span>){
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">char</span> temp <span style="color:#f92672">=</span> row[i];
+</span></span><span style="display:flex;"><span>                    row[i]<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;.&#39;</span>;
+</span></span><span style="display:flex;"><span>                    row[obstacle<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>temp;
+</span></span><span style="display:flex;"><span>                    obstacle<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>                }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        string test <span style="color:#f92672">=</span> s<span style="color:#f92672">+</span>s;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> t <span style="color:#f92672">=</span> test.size(), g <span style="color:#f92672">=</span> goal.size();
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> j;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>t<span style="color:#f92672">-</span>g; i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span>(j<span style="color:#f92672">&lt;</span>g <span style="color:#f92672">&amp;&amp;</span> test[i<span style="color:#f92672">+</span>j] <span style="color:#f92672">==</span> goal[j]){
-</span></span><span style="display:flex;"><span>                j<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(row[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;*&#39;</span>)
+</span></span><span style="display:flex;"><span>                    obstacle <span style="color:#f92672">=</span>i;
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(j<span style="color:#f92672">==</span>g)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> true;
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&gt;</span>result(n,vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;</span>(m,<span style="color:#e6db74">&#39;.&#39;</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>m; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j<span style="color:#f92672">&lt;</span>n; j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>                result[j][m<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span>i] <span style="color:#f92672">=</span> box[i][j];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> result;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -604,9 +620,9 @@ Output: false
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm       | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| String matching | O(n^2)          | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Greedy    | O(mn)           | O(mn)            |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -631,15 +647,12 @@ Output: false
  </a>
   
 </h3>
-<ul>
-<li>After seeing the problem we can see that to check if a string can be rotated to form another string it is equivalent to check if the goal string is a substring of the original string concatenated with itself.</li>
-<li>This reduces the problem to a simple string matching problem.</li>
-<li>Why concatenation trick works ? Because if we concatenate the string with itself then any substring of size of the original string will be a rotation of the original string.</li>
-<li>So we can simply check if the goal string is a substring of the concatenated string or not using simple string matching algorithm.</li>
-<li>Since the constraints are small we can use a simple brute force string matching algorithm to solve the problem.</li>
-<li>If the constraints were large then we could have used KMP or Rabin Karp algorithm to solve the problem.</li>
-</ul>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> The problem requires us to simulate the rotation of a box 90 degrees clockwise and let the stones fall due to gravity.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can solve this problem in two steps: first, we simulate the falling of stones in each row, and then we rotate the box 90 degrees clockwise.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> To simulate the falling of stones, we iterate over each row from right to left and move the stones to the rightmost available position.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If we encounter an obstacle, we move the obstacle to its original position and continue the process.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> After simulating the falling of stones, we rotate the box 90 degrees clockwise by swapping the rows and columns.
+</span></span></code></pre></div>
 <h3 id="2-implementation">
   2. Implementation
   
@@ -651,18 +664,64 @@ Output: false
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the size of the strings are not equal then return <span style="color:#e6db74">`false`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> create a new string <span style="color:#e6db74">`test`</span> which is the concatenation of the original string with itself.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Let <span style="color:#e6db74">`t`</span> be the size of the <span style="color:#e6db74">`test`</span> string and <span style="color:#e6db74">`g`</span> be the size of the <span style="color:#e6db74">`goal`</span> string.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Now for each index <span style="color:#e6db74">`i`</span> from <span style="color:#e6db74">`0`</span> to <span style="color:#e6db74">`t-g`</span> do
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Let <span style="color:#e6db74">`j`</span> be <span style="color:#e6db74">`0`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> While <span style="color:#e6db74">`j`</span> is less than <span style="color:#e6db74">`g`</span> and <span style="color:#e6db74">`test[i+j]`</span> is equal to <span style="color:#e6db74">`goal[j]`</span> do
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">-</span> Increment <span style="color:#e6db74">`j`</span> by <span style="color:#e6db74">`1`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> If <span style="color:#e6db74">`j`</span> is equal to <span style="color:#e6db74">`g`</span> then return <span style="color:#e6db74">`true`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If the loop completes then return <span style="color:#e6db74">`false`</span>.
-</span></span></code></pre></div><blockquote>
-<p>A neat trick to find all the rotations of a string is to concatenate the string with itself and then find all the substrings of size <code>n</code> where <code>n</code> is the size of the original string.</p>
-</blockquote>
+<ul>
+<li>We start by iterating over each row in the box and simulating the falling of stones.</li>
+<li>We use a variable <code>obstacle</code> to keep track of the rightmost available position in the row.</li>
+<li>We iterate over each character in the row from right to left and check if it is a stone.</li>
+<li>If it is a stone, we move it to the rightmost available position by swapping it with the character at the <code>obstacle</code> index.</li>
+<li>We then decrement the <code>obstacle</code> index to keep track of the new rightmost available position.</li>
+<li>If we encounter an obstacle, we move it to its original position and reset the <code>obstacle</code> index.</li>
+<li>After simulating the falling of stones, we create a new matrix <code>result</code> to store the rotated box.</li>
+<li>We iterate over each character in the original box and assign it to the corresponding position in the <code>result</code> matrix.</li>
+<li>We use the formula <code>result[j][m-1-i] = box[i][j]</code> to rotate the box 90 degrees clockwise.</li>
+<li>Finally, we return the <code>result</code> matrix.</li>
+</ul>
+<hr>
+
+<h2 id="complexity-analysis-1">
+  Complexity Analysis
+  
+  <a hidden class="anchor" href="#complexity-analysis-1">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+
+<h3 id="time-complexity">
+  Time Complexity:
+  
+  <a hidden class="anchor" href="#time-complexity">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<ul>
+<li>Two nested loops are used to iterate through the box, each loop runs in O(m) and O(n) time respectively, where m is the number of rows and n is the number of columns.</li>
+<li>Inside the loops, constant time operations are performed, so they don&rsquo;t affect the overall time complexity.</li>
+<li>Therefore, the overall time complexity is O(mn) due to the nested loops.</li>
+</ul>
+
+<h3 id="space-complexity">
+  Space Complexity:
+  
+  <a hidden class="anchor" href="#space-complexity">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<ul>
+<li>A new 2D vector is created to store the result, which requires O(mn) space.</li>
+<li>The input 2D vector is also stored in memory, but this is not included in the space complexity because it is part of the input, not the auxiliary space used by the algorithm.</li>
+</ul>
 
 
 
@@ -676,17 +735,13 @@ Output: false
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1861-rotating-the-box/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1861 Rotating the Box </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2490-circular-sentence/">
+    <a class="next" href="/blog/leetcode-potd/problem-796-rotate-string/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2490 Circular Sentence </span>
+      <span> Problem 796 Rotate String </span>
     </a>
   
 </nav>

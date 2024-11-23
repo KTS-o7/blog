@@ -6,8 +6,29 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2024 21:45:44 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 23 Nov 2024 19:45:40 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array</title>
+      <link>https://KTS-o7.github.io/blog/tags/array/</link>
+      <pubDate>Sat, 23 Nov 2024 19:45:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix</title>
+      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
+      <pubDate>Sat, 23 Nov 2024 19:45:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Two-Pointers</title>
+      <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
+      <pubDate>Sat, 23 Nov 2024 19:45:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
+      <description></description>
+    </item>
     <item>
       <title>String</title>
       <link>https://KTS-o7.github.io/blog/tags/string/</link>
@@ -20,13 +41,6 @@
       <link>https://KTS-o7.github.io/blog/tags/traversal/</link>
       <pubDate>Sat, 02 Nov 2024 10:10:39 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/traversal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Array</title>
-      <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Mon, 28 Oct 2024 13:56:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
       <description></description>
     </item>
     <item>
@@ -230,13 +244,6 @@
       <link>https://KTS-o7.github.io/blog/tags/count/</link>
       <pubDate>Tue, 17 Sep 2024 12:53:11 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/count/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Matrix</title>
-      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
-      <pubDate>Sun, 15 Sep 2024 19:27:50 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
       <description></description>
     </item>
     <item>
@@ -531,13 +538,6 @@
       <link>https://KTS-o7.github.io/blog/tags/two-pointer/</link>
       <pubDate>Sun, 28 Jul 2024 20:59:29 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/two-pointer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Two-Pointers</title>
-      <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
-      <pubDate>Sun, 28 Jul 2024 20:59:29 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
       <description></description>
     </item>
     <item>
