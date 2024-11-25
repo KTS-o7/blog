@@ -6,8 +6,15 @@
     <description>Recent content in Leetcode POTDs on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2024 12:35:06 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 14:41:40 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/leetcode-potd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1574 Shortest Subarray to be Removed to Make Array Sorted</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1574-shortest-subarray-to-be-removed-to-make-array-sorted/</link>
+      <pubDate>Mon, 25 Nov 2024 14:41:40 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1574-shortest-subarray-to-be-removed-to-make-array-sorted/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 1652 Defuse the Bomb</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1652-defuse-the-bomb/</link>
