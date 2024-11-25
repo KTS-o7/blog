@@ -6,8 +6,15 @@
     <description>Recent content on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2024 14:41:40 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 15:14:21 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 2461 Maximum Sum of Distinct Subarrays With Length K</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/</link>
+      <pubDate>Mon, 25 Nov 2024 15:14:21 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 1574 Shortest Subarray to be Removed to Make Array Sorted</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1574-shortest-subarray-to-be-removed-to-make-array-sorted/</link>
