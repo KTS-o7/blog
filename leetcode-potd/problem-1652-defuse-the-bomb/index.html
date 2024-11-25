@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1861 Rotating the Box &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1861 Rotating the Box &middot; The Indian Engineer" />
+  <title>Problem 1652 Defuse the Bomb &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1652 Defuse the Bomb &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, two pointers, matrix, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1861-rotating-the-box/" />
+  <meta name="keywords" content="array, sliding window, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1652-defuse-the-bomb/" />
 
   
 
@@ -82,23 +82,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1861-rotating-the-box/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1652-defuse-the-bomb/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1861 Rotating the Box">
+  <meta property="og:title" content="Problem 1652 Defuse the Bomb">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-23T19:45:40+05:30">
-    <meta property="article:modified_time" content="2024-11-23T19:45:40+05:30">
+    <meta property="article:published_time" content="2024-11-25T12:35:06+05:30">
+    <meta property="article:modified_time" content="2024-11-25T12:35:06+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Two-Pointers">
-    <meta property="article:tag" content="Matrix">
+    <meta property="article:tag" content="Sliding Window">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1861 Rotating the Box">
+  <meta name="twitter:title" content="Problem 1652 Defuse the Bomb">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +391,7 @@
 
 
 
-<h1 class="pg-title">Problem 1861 Rotating the Box</h1>
+<h1 class="pg-title">Problem 1652 Defuse the Bomb</h1>
 
 
 <div class="meta">
@@ -412,7 +411,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-23T19:45:40&#43;05:30">Nov 23, 2024</time>
+  Posted on <time datetime="2024-11-25T12:35:06&#43;05:30">Nov 25, 2024</time>
   
   
   
@@ -448,9 +447,7 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/two-pointers/">Two-Pointers</a>
-  
-  <a class="tag" href="/blog/tags/matrix/">Matrix</a>
+  <a class="tag" href="/blog/tags/sliding-window/">Sliding Window</a>
   
 </p>
 
@@ -505,7 +502,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/rotating-the-box/" target="_blank">Problem 1861</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/defuse-the-bomb/" target="_blank">Problem 1652</a>
 </p>
 
 <h2 id="question">
@@ -519,54 +516,43 @@
  </a>
   
 </h2>
-<p>You are given an <code>m x n</code> matrix of characters <code>box</code> representing a side-view of a box. Each cell of the box is one of the following:</p>
+<p>You have a bomb to defuse, and your time is running out! Your informer will provide you with a <strong>circular</strong> array <code>code</code>&nbsp;of length of <code>n</code>&nbsp;and a key <code>k</code>.</p>
+<p>To decrypt the code, you must replace every number. All the numbers are replaced <strong>simultaneously</strong>.</p>
 <ul>
-	<li>A stone <code>&#39;#&#39;</code></li>
-	<li>A stationary obstacle <code>&#39;*&#39;</code></li>
-	<li>Empty <code>&#39;.&#39;</code></li>
+	<li>If <code>k &gt; 0</code>, replace the <code>i<sup>th</sup></code> number with the sum of the <strong>next</strong> <code>k</code> numbers.</li>
+	<li>If <code>k &lt; 0</code>, replace the <code>i<sup>th</sup></code> number with the sum of the <strong>previous</strong> <code>k</code> numbers.</li>
+	<li>If <code>k == 0</code>, replace the <code>i<sup>th</sup></code> number with <code>0</code>.</li>
 </ul>
-<p>The box is rotated <strong>90 degrees clockwise</strong>, causing some of the stones to fall due to gravity. Each stone falls down until it lands on an obstacle, another stone, or the bottom of the box. Gravity <strong>does not</strong> affect the obstacles&#39; positions, and the inertia from the box&#39;s rotation <strong>does not </strong>affect the stones&#39; horizontal positions.</p>
-<p>It is <strong>guaranteed</strong> that each stone in <code>box</code> rests on an obstacle, another stone, or the bottom of the box.</p>
-<p>Return <em>an </em><code>n x m</code><em> matrix representing the box after the rotation described above</em>.</p>
+<p>As <code>code</code> is circular, the next element of <code>code[n-1]</code> is <code>code[0]</code>, and the previous element of <code>code[0]</code> is <code>code[n-1]</code>.</p>
+<p>Given the <strong>circular</strong> array <code>code</code> and an integer key <code>k</code>, return <em>the decrypted code to defuse the bomb</em>!</p>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<p><img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcodewithstones.png" style="width: 300px; height: 150px;" /></p>
 <pre>
-<strong>Input:</strong> box = [[&quot;#&quot;,&quot;.&quot;,&quot;#&quot;]]
-<strong>Output:</strong> [[&quot;.&quot;],
-&nbsp;        [&quot;#&quot;],
-&nbsp;        [&quot;#&quot;]]
+<strong>Input:</strong> code = [5,7,1,4], k = 3
+<strong>Output:</strong> [12,10,16,13]
+<strong>Explanation:</strong> Each number is replaced by the sum of the next 3 numbers. 
+The decrypted code is [7+1+4, 1+4+5, 4+5+7, 5+7+1]. Notice that the numbers wrap around.
 </pre>
 <p><strong class="example">Example 2:</strong></p>
-<p><img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcode2withstones.png" style="width: 375px; height: 195px;" /></p>
 <pre>
-<strong>Input:</strong> box = [[&quot;#&quot;,&quot;.&quot;,&quot;*&quot;,&quot;.&quot;],
-&nbsp;             [&quot;#&quot;,&quot;#&quot;,&quot;*&quot;,&quot;.&quot;]]
-<strong>Output:</strong> [[&quot;#&quot;,&quot;.&quot;],
-&nbsp;        [&quot;#&quot;,&quot;#&quot;],
-&nbsp;        [&quot;*&quot;,&quot;*&quot;],
-&nbsp;        [&quot;.&quot;,&quot;.&quot;]]
+<strong>Input:</strong> code = [1,2,3,4], k = 0
+<strong>Output:</strong> [0,0,0,0]
+<strong>Explanation:</strong> When k is zero, the numbers are replaced by 0. 
 </pre>
 <p><strong class="example">Example 3:</strong></p>
-<p><img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcode3withstone.png" style="width: 400px; height: 218px;" /></p>
 <pre>
-<strong>Input:</strong> box = [[&quot;#&quot;,&quot;#&quot;,&quot;*&quot;,&quot;.&quot;,&quot;*&quot;,&quot;.&quot;],
-&nbsp;             [&quot;#&quot;,&quot;#&quot;,&quot;#&quot;,&quot;*&quot;,&quot;.&quot;,&quot;.&quot;],
-&nbsp;             [&quot;#&quot;,&quot;#&quot;,&quot;#&quot;,&quot;.&quot;,&quot;#&quot;,&quot;.&quot;]]
-<strong>Output:</strong> [[&quot;.&quot;,&quot;#&quot;,&quot;#&quot;],
-&nbsp;        [&quot;.&quot;,&quot;#&quot;,&quot;#&quot;],
-&nbsp;        [&quot;#&quot;,&quot;#&quot;,&quot;*&quot;],
-&nbsp;        [&quot;#&quot;,&quot;*&quot;,&quot;.&quot;],
-&nbsp;        [&quot;#&quot;,&quot;.&quot;,&quot;*&quot;],
-&nbsp;        [&quot;#&quot;,&quot;.&quot;,&quot;.&quot;]]
+<strong>Input:</strong> code = [2,4,9,3], k = -2
+<strong>Output:</strong> [12,5,6,13]
+<strong>Explanation:</strong> The decrypted code is [3+9, 2+3, 4+2, 9+4]. Notice that the numbers wrap around again.
+If k is negative, the sum is of the <strong>previous</strong> numbers.
 </pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>m == box.length</code></li>
-	<li><code>n == box[i].length</code></li>
-	<li><code>1 &lt;= m, n &lt;= 500</code></li>
-	<li><code>box[i][j]</code> is either <code>&#39;#&#39;</code>, <code>&#39;*&#39;</code>, or <code>&#39;.&#39;</code>.</li>
+	<li><code>n == code.length</code></li>
+	<li><code>1 &lt;= n&nbsp;&lt;= 100</code></li>
+	<li><code>1 &lt;= code[i] &lt;= 100</code></li>
+	<li><code>-(n - 1) &lt;= k &lt;= n - 1</code></li>
 </ul>
 
 <h2 id="solution">
@@ -582,29 +568,27 @@
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&gt;</span> rotateTheBox(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&gt;&amp;</span> box) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> m <span style="color:#f92672">=</span>box.size(),n<span style="color:#f92672">=</span>box[<span style="color:#ae81ff">0</span>].size();
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> <span style="color:#f92672">&amp;</span>row:box){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> obstacle <span style="color:#f92672">=</span> row.size();
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> row.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>; i<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">--</span>){
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(row[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;#&#39;</span>){
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">char</span> temp <span style="color:#f92672">=</span> row[i];
-</span></span><span style="display:flex;"><span>                    row[i]<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;.&#39;</span>;
-</span></span><span style="display:flex;"><span>                    row[obstacle<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]<span style="color:#f92672">=</span>temp;
-</span></span><span style="display:flex;"><span>                    obstacle<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> decrypt(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> code, <span style="color:#66d9ef">int</span> k) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> result(code.size(), <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (k <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> result;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(row[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;*&#39;</span>)
-</span></span><span style="display:flex;"><span>                    obstacle <span style="color:#f92672">=</span>i;
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> start <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, end <span style="color:#f92672">=</span> k, sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (k <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>            start <span style="color:#f92672">=</span> code.size() <span style="color:#f92672">-</span> abs(k);
+</span></span><span style="display:flex;"><span>            end <span style="color:#f92672">=</span> code.size() <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&gt;</span>result(n,vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;</span>(m,<span style="color:#e6db74">&#39;.&#39;</span>));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> start; i <span style="color:#f92672">&lt;=</span> end; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>            sum <span style="color:#f92672">+=</span> code[i];
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>m; i<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j<span style="color:#f92672">&lt;</span>n; j<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>                result[j][m<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span>i] <span style="color:#f92672">=</span> box[i][j];
-</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> code.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            result[i] <span style="color:#f92672">=</span> sum;
+</span></span><span style="display:flex;"><span>            sum <span style="color:#f92672">-=</span> code[start <span style="color:#f92672">%</span> code.size()];
+</span></span><span style="display:flex;"><span>            sum <span style="color:#f92672">+=</span> code[(end <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> code.size()];
+</span></span><span style="display:flex;"><span>            start<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            end<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> result;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
@@ -620,9 +604,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Greedy    | O(mn)           | O(mn)            |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm     | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| SlidingWindow | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -647,11 +631,11 @@
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> The problem requires us to simulate the rotation of a box 90 degrees clockwise and let the stones fall due to gravity.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can solve this problem in two steps: first, we simulate the falling of stones in each row, and then we rotate the box 90 degrees clockwise.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> To simulate the falling of stones, we iterate over each row from right to left and move the stones to the rightmost available position.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If we encounter an obstacle, we move the obstacle to its original position and continue the process.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> After simulating the falling of stones, we rotate the box 90 degrees clockwise by swapping the rows and columns.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> The problem requires us to decrypt a circular array by replacing each number with the sum of the next k numbers.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If k is 0, all numbers are replaced with 0.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> If k is negative, we need to sum the previous k numbers.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We can use a sliding window approach to calculate the sum of k numbers.
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> We need to handle the circular nature of the array by using the modulus operator.
 </span></span></code></pre></div>
 <h3 id="2-implementation">
   2. Implementation
@@ -665,16 +649,14 @@
   
 </h3>
 <ul>
-<li>We start by iterating over each row in the box and simulating the falling of stones.</li>
-<li>We use a variable <code>obstacle</code> to keep track of the rightmost available position in the row.</li>
-<li>We iterate over each character in the row from right to left and check if it is a stone.</li>
-<li>If it is a stone, we move it to the rightmost available position by swapping it with the character at the <code>obstacle</code> index.</li>
-<li>We then decrement the <code>obstacle</code> index to keep track of the new rightmost available position.</li>
-<li>If we encounter an obstacle, we move it to its original position and reset the <code>obstacle</code> index.</li>
-<li>After simulating the falling of stones, we create a new matrix <code>result</code> to store the rotated box.</li>
-<li>We iterate over each character in the original box and assign it to the corresponding position in the <code>result</code> matrix.</li>
-<li>We use the formula <code>result[j][m-1-i] = box[i][j]</code> to rotate the box 90 degrees clockwise.</li>
-<li>Finally, we return the <code>result</code> matrix.</li>
+<li>We first check if k is 0, in which case we return an array of zeros.</li>
+<li>We initialize the start and end indices of the sliding window based on the value of k.</li>
+<li>We calculate the sum of the first k numbers using a for loop.</li>
+<li>We then iterate over the array, replacing each number with the sum of the k numbers.</li>
+<li>We update the sum by subtracting the number that just left the window and adding the number that just entered the window.</li>
+<li>We use the modulus operator to handle the circular nature of the array.</li>
+<li>The code snippet <code>sum -= code[start % code.size()]; sum += code[(end + 1) % code.size()];</code> updates the sum for the next iteration.</li>
+<li>The code snippet <code>start++; end++;</code> moves the sliding window to the next position.</li>
 </ul>
 <hr>
 
@@ -702,9 +684,9 @@
   
 </h3>
 <ul>
-<li>Two nested loops are used to iterate through the box, each loop runs in O(m) and O(n) time respectively, where m is the number of rows and n is the number of columns.</li>
-<li>Inside the loops, constant time operations are performed, so they don&rsquo;t affect the overall time complexity.</li>
-<li>Therefore, the overall time complexity is O(mn) due to the nested loops.</li>
+<li>The outer loop in the solution iterates over each element in the <code>code</code> vector once.</li>
+<li>Inside the loop, a constant number of operations are performed, namely addition, subtraction, and assignment, for each element in the <code>code</code> vector.</li>
+<li>There are no nested loops in the solution, thus time complexity doesn&rsquo;t compound with more iterations.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -719,8 +701,8 @@
   
 </h3>
 <ul>
-<li>A new 2D vector is created to store the result, which requires O(mn) space.</li>
-<li>The input 2D vector is also stored in memory, but this is not included in the space complexity because it is part of the input, not the auxiliary space used by the algorithm.</li>
+<li>The solution uses a new vector of the same size as the input <code>code</code> vector to store the result.</li>
+<li>No additional space is used that scales with the input size, except for a constant amount of space to store the variables <code>start</code>, <code>end</code>, and <code>sum</code>.</li>
 </ul>
 
 
@@ -735,17 +717,13 @@
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1652-defuse-the-bomb/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1652 Defuse the Bomb </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-796-rotate-string/">
+    <a class="next" href="/blog/leetcode-potd/problem-1861-rotating-the-box/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 796 Rotate String </span>
+      <span> Problem 1861 Rotating the Box </span>
     </a>
   
 </nav>
