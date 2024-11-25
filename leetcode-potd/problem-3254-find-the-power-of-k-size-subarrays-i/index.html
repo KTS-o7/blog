@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2461 Maximum Sum of Distinct Subarrays With Length K &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2461 Maximum Sum of Distinct Subarrays With Length K &middot; The Indian Engineer" />
+  <title>Problem 3254 Find the Power of K-Size Subarrays I &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3254 Find the Power of K-Size Subarrays I &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, hash table, sliding window, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/" />
+  <meta name="keywords" content="array, sliding window, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/" />
 
   
 
@@ -82,23 +82,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2461 Maximum Sum of Distinct Subarrays With Length K">
+  <meta property="og:title" content="Problem 3254 Find the Power of K-Size Subarrays I">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-25T15:14:21+05:30">
-    <meta property="article:modified_time" content="2024-11-25T15:14:21+05:30">
+    <meta property="article:published_time" content="2024-11-25T15:17:30+05:30">
+    <meta property="article:modified_time" content="2024-11-25T15:17:30+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Hash-Table">
     <meta property="article:tag" content="Sliding Window">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2461 Maximum Sum of Distinct Subarrays With Length K">
+  <meta name="twitter:title" content="Problem 3254 Find the Power of K-Size Subarrays I">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +391,7 @@
 
 
 
-<h1 class="pg-title">Problem 2461 Maximum Sum of Distinct Subarrays With Length K</h1>
+<h1 class="pg-title">Problem 3254 Find the Power of K-Size Subarrays I</h1>
 
 
 <div class="meta">
@@ -412,7 +411,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-25T15:14:21&#43;05:30">Nov 25, 2024</time>
+  Posted on <time datetime="2024-11-25T15:17:30&#43;05:30">Nov 25, 2024</time>
   
   
   
@@ -429,7 +428,7 @@
 
 </span>
   
-    5 mins
+    4 mins
   
 
 
@@ -447,8 +446,6 @@
  </span>
   
   <a class="tag" href="/blog/tags/array/">Array</a>
-  
-  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
   
   <a class="tag" href="/blog/tags/sliding-window/">Sliding Window</a>
   
@@ -507,7 +504,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/" target="_blank">Problem 2461</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/" target="_blank">Problem 3254</a>
 </p>
 
 <h2 id="question">
@@ -521,39 +518,45 @@
  </a>
   
 </h2>
-<p>You are given an integer array <code>nums</code> and an integer <code>k</code>. Find the maximum subarray sum of all the subarrays of <code>nums</code> that meet the following conditions:</p>
+<p>You are given an array of integers <code>nums</code> of length <code>n</code> and a <em>positive</em> integer <code>k</code>.</p>
+<p>The <strong>power</strong> of an array is defined as:</p>
 <ul>
-	<li>The length of the subarray is <code>k</code>, and</li>
-	<li>All the elements of the subarray are <strong>distinct</strong>.</li>
+	<li>Its <strong>maximum</strong> element if <em>all</em> of its elements are <strong>consecutive</strong> and <strong>sorted</strong> in <strong>ascending</strong> order.</li>
+	<li>-1 otherwise.</li>
 </ul>
-<p>Return <em>the maximum subarray sum of all the subarrays that meet the conditions</em><em>.</em> If no subarray meets the conditions, return <code>0</code>.</p>
-<p><em>A <strong>subarray</strong> is a contiguous non-empty sequence of elements within an array.</em></p>
+<p>You need to find the <strong>power</strong> of all <span data-keyword="subarray-nonempty">subarrays</span> of <code>nums</code> of size <code>k</code>.</p>
+<p>Return an integer array <code>results</code> of size <code>n - k + 1</code>, where <code>results[i]</code> is the <em>power</em> of <code>nums[i..(i + k - 1)]</code>.</p>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<pre>
-<strong>Input:</strong> nums = [1,5,4,2,9,9,9], k = 3
-<strong>Output:</strong> 15
-<strong>Explanation:</strong> The subarrays of nums with length 3 are:
-- [1,5,4] which meets the requirements and has a sum of 10.
-- [5,4,2] which meets the requirements and has a sum of 11.
-- [4,2,9] which meets the requirements and has a sum of 15.
-- [2,9,9] which does not meet the requirements because the element 9 is repeated.
-- [9,9,9] which does not meet the requirements because the element 9 is repeated.
-We return 15 because it is the maximum subarray sum of all the subarrays that meet the conditions
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4,3,2,5], k = 3</span></p>
+<p><strong>Output:</strong> [3,4,-1,-1,-1]</p>
+<p><strong>Explanation:</strong></p>
+<p>There are 5 subarrays of <code>nums</code> of size 3:</p>
+<ul>
+	<li><code>[1, 2, 3]</code> with the maximum element 3.</li>
+	<li><code>[2, 3, 4]</code> with the maximum element 4.</li>
+	<li><code>[3, 4, 3]</code> whose elements are <strong>not</strong> consecutive.</li>
+	<li><code>[4, 3, 2]</code> whose elements are <strong>not</strong> sorted.</li>
+	<li><code>[3, 2, 5]</code> whose elements are <strong>not</strong> consecutive.</li>
+</ul>
+</div>
 <p><strong class="example">Example 2:</strong></p>
-<pre>
-<strong>Input:</strong> nums = [4,4,4], k = 3
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> The subarrays of nums with length 3 are:
-- [4,4,4] which does not meet the requirements because the element 4 is repeated.
-We return 0 because no subarrays meet the conditions.
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [2,2,2,2,2], k = 4</span></p>
+<p><strong>Output:</strong> <span class="example-io">[-1,-1]</span></p>
+</div>
+<p><strong class="example">Example 3:</strong></p>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [3,2,3,2,3,2], k = 2</span></p>
+<p><strong>Output:</strong> <span class="example-io">[-1,3,-1,3,-1]</span></p>
+</div>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= n == nums.length &lt;= 500</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= k &lt;= n</code></li>
 </ul>
 
 <h2 id="solution">
@@ -569,31 +572,25 @@ We return 0 because no subarrays meet the conditions.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> maximumSubarraySum(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> curr_sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        unordered_map<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> freq;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> resultsArray(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(k<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> nums;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); <span style="color:#f92672">++</span>i) {
-</span></span><span style="display:flex;"><span>            curr_sum <span style="color:#f92672">+=</span> nums[i];
-</span></span><span style="display:flex;"><span>            freq[nums[i]]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> size <span style="color:#f92672">=</span> nums.size();
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>result(size<span style="color:#f92672">-</span>k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>size<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">++</span>){
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">&gt;=</span> k) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">int</span> to_remove <span style="color:#f92672">=</span> nums[i <span style="color:#f92672">-</span> k];
-</span></span><span style="display:flex;"><span>                curr_sum <span style="color:#f92672">-=</span> to_remove;
-</span></span><span style="display:flex;"><span>                freq[to_remove]<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(nums[i]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">==</span> nums[i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>                count<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>                count <span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (freq[to_remove] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
-</span></span><span style="display:flex;"><span>                    freq.erase(to_remove);
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (freq.size() <span style="color:#f92672">==</span> k) {
-</span></span><span style="display:flex;"><span>                ans <span style="color:#f92672">=</span> max(ans, curr_sum);
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(count <span style="color:#f92672">&gt;=</span> k)
+</span></span><span style="display:flex;"><span>                result[i<span style="color:#f92672">+</span><span style="color:#ae81ff">2</span><span style="color:#f92672">-</span>k] <span style="color:#f92672">=</span> nums[i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>];
 </span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> result;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -608,9 +605,9 @@ We return 0 because no subarrays meet the conditions.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                   | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Sliding Window with Hashing | O(n)            | O(min(n, k))     |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                  | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------------------------------------ | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Single-pass traversal with auxiliary array | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -636,13 +633,13 @@ We return 0 because no subarrays meet the conditions.
   
 </h3>
 <ul>
-<li>The problem requires finding the maximum subarray sum of all subarrays of length k with distinct elements.</li>
-<li>To solve this problem, we can use a sliding window approach to efficiently calculate the sum of subarrays.</li>
-<li>We need to keep track of the frequency of elements in the current window to ensure all elements are distinct.</li>
-<li>Using an unordered_map to store the frequency of elements allows for efficient insertion and deletion of elements.</li>
-<li>The maximum subarray sum is updated whenever we find a window with k distinct elements.</li>
-<li>This approach ensures that we consider all possible subarrays of length k with distinct elements.</li>
-<li>The time complexity of this approach is O(n), where n is the length of the input array.</li>
+<li>The problem requires finding the power of all subarrays of size k in the given array nums.</li>
+<li>The power of an array is defined as its maximum element if all elements are consecutive and sorted in ascending order, otherwise -1.</li>
+<li>To solve this problem, we need to check each subarray of size k and determine if its elements are consecutive and sorted.</li>
+<li>We can use a sliding window approach to efficiently check all subarrays of size k.</li>
+<li>We need to keep track of the count of consecutive elements in the current window.</li>
+<li>If the count is greater than or equal to k, we can update the result array with the maximum element of the current window.</li>
+<li>We need to handle the edge case where k is 1, in which case the result is simply the input array.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -657,13 +654,13 @@ We return 0 because no subarrays meet the conditions.
   
 </h3>
 <ul>
-<li>We initialize variables <code>ans</code> to store the maximum subarray sum, <code>curr_sum</code> to store the sum of the current window, and <code>freq</code> to store the frequency of elements in the current window.</li>
-<li>We iterate over the input array using a for loop, and for each element, we add it to <code>curr_sum</code> and increment its frequency in <code>freq</code>.</li>
-<li>If the window size exceeds k, we remove the leftmost element from <code>curr_sum</code> and decrement its frequency in <code>freq</code>.</li>
-<li>If the frequency of an element becomes 0, we remove it from <code>freq</code> to ensure efficient lookup.</li>
-<li>We update <code>ans</code> with the maximum of <code>ans</code> and <code>curr_sum</code> whenever the size of <code>freq</code> equals k.</li>
-<li>Finally, we return <code>ans</code> as the maximum subarray sum.</li>
-<li>The use of <code>unordered_map</code> allows for efficient insertion and deletion of elements, making the overall time complexity O(n).</li>
+<li>The function resultsArray takes a vector of integers nums and an integer k as input and returns a vector of integers.</li>
+<li>If k is 1, the function returns the input array nums.</li>
+<li>The function initializes a result vector of size n-k+1 with all elements set to -1.</li>
+<li>The function uses a for loop to iterate over the input array, keeping track of the count of consecutive elements.</li>
+<li>Inside the loop, the function checks if the current element is consecutive to the previous element by comparing nums[i] and nums[i+1].</li>
+<li>If the elements are consecutive, the function increments the count; otherwise, it resets the count to 1.</li>
+<li>If the count is greater than or equal to k, the function updates the result array with the maximum element of the current window.</li>
 </ul>
 <hr>
 
@@ -691,9 +688,9 @@ We return 0 because no subarrays meet the conditions.
   
 </h3>
 <ul>
-<li>The algorithm iterates over the input array (<code>for (int i = 0; i &lt; nums.size(); ++i)</code>), resulting in a time complexity directly proportional to the size of the input array.</li>
-<li>Within the loop, each element is processed a constant number of times: added to <code>curr_sum</code> and updated in the <code>freq</code> hash table (<code>curr_sum += nums[i];</code>, <code>freq[nums[i]]++</code>).</li>
-<li>Since these operations occur once for each element, and the hash table operations take average O(1) time, the overall time complexity is O(n), where n is the number of elements in the input array.</li>
+<li>The solution iterates over the input array <code>nums</code> once, with a single loop running from <code>i=0</code> to <code>size-2</code></li>
+<li>The dominant operation is the conditional increment of the count variable, which occurs once per iteration, resulting in O(n) time complexity</li>
+<li>The time complexity remains the same in the best, average, and worst cases as the input size <code>n</code> directly dictates the number of iterations</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -708,9 +705,9 @@ We return 0 because no subarrays meet the conditions.
   
 </h3>
 <ul>
-<li>The input array is not modified or copied; the additional memory used comes from the <code>freq</code> unordered_map, storing frequency of elements within the current window.</li>
-<li>In the worst case, if all elements in the window are unique, the size of the frequency map can grow up to k elements, hence the space complexity is O(min(n, k))</li>
-<li>In practice, this will usually be closer to the value of k, as the algorithm enforces a fixed window size.</li>
+<li>The solution creates an auxiliary array <code>result</code> of size <code>n-k+1</code>, where <code>n</code> is the size of the input array</li>
+<li>The space complexity is dominated by the storage required for the <code>result</code> array, leading to O(n) space complexity</li>
+<li>The space complexity remains the same in all cases as the size of the auxiliary array directly depends on the input size, which must be stored in memory</li>
 </ul>
 <hr>
 
@@ -741,13 +738,7 @@ We return 0 because no subarrays meet the conditions.
   
 </h4>
 <blockquote>
-<p>Which elements change when moving from the subarray of size k that ends at index i to the subarray of size k that ends at index i + 1?</p>
-</blockquote>
-<blockquote>
-<p>Only two elements change, the element at i + 1 is added into the subarray, and the element at i - k + 1 gets removed from the subarray.</p>
-</blockquote>
-<blockquote>
-<p>Iterate through each subarray of size k and keep track of the sum of the subarray and the frequency of each element.</p>
+<p>Can we use a brute force solution with nested loops and HashSet?</p>
 </blockquote>
 <hr>
 
@@ -772,44 +763,8 @@ We return 0 because no subarrays meet the conditions.
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Max Consecutive Ones III</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/max-consecutive-ones-iii" target="_blank">https://leetcode.com/problems/max-consecutive-ones-iii</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Longest Nice Subarray</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/longest-nice-subarray" target="_blank">https://leetcode.com/problems/longest-nice-subarray</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Optimal Partition of String</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/optimal-partition-of-string" target="_blank">https://leetcode.com/problems/optimal-partition-of-string</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Count the Number of Good Subarrays</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/count-the-number-of-good-subarrays" target="_blank">https://leetcode.com/problems/count-the-number-of-good-subarrays</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Maximum Good Subarray Sum</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-good-subarray-sum" target="_blank">https://leetcode.com/problems/maximum-good-subarray-sum</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Find the Power of K-Size Subarrays I</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i" target="_blank">https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Find the Power of K-Size Subarrays II</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii" target="_blank">https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii</a>
+          <td style="text-align: left">Maximum Sum of Distinct Subarrays With Length K</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k" target="_blank">https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k</a>
 </td>
           <td style="text-align: left">Medium</td>
       </tr>
@@ -828,17 +783,13 @@ We return 0 because no subarrays meet the conditions.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3254 Find the Power of K-Size Subarrays I </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-1574-shortest-subarray-to-be-removed-to-make-array-sorted/">
+    <a class="next" href="/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1574 Shortest Subarray to be Removed to Make Array Sorted </span>
+      <span> Problem 2461 Maximum Sum of Distinct Subarrays With Length K </span>
     </a>
   
 </nav>
