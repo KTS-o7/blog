@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 3254 Find the Power of K-Size Subarrays I &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 3254 Find the Power of K-Size Subarrays I &middot; The Indian Engineer" />
+  <title>Problem 773 Sliding Puzzle &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 773 Sliding Puzzle &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, sliding window, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/" />
+  <meta name="keywords" content="array, breadth-first search, matrix, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-773-sliding-puzzle/" />
 
   
 
@@ -82,22 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-773-sliding-puzzle/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 3254 Find the Power of K-Size Subarrays I">
+  <meta property="og:title" content="Problem 773 Sliding Puzzle">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-25T15:17:30+05:30">
-    <meta property="article:modified_time" content="2024-11-25T15:17:30+05:30">
+    <meta property="article:published_time" content="2024-11-25T17:14:09+05:30">
+    <meta property="article:modified_time" content="2024-11-25T17:14:09+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Sliding Window">
+    <meta property="article:tag" content="Breadth-First Search">
+    <meta property="article:tag" content="Matrix">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 3254 Find the Power of K-Size Subarrays I">
+  <meta name="twitter:title" content="Problem 773 Sliding Puzzle">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -391,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 3254 Find the Power of K-Size Subarrays I</h1>
+<h1 class="pg-title">Problem 773 Sliding Puzzle</h1>
 
 
 <div class="meta">
@@ -411,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-25T15:17:30&#43;05:30">Nov 25, 2024</time>
+  Posted on <time datetime="2024-11-25T17:14:09&#43;05:30">Nov 25, 2024</time>
   
   
   
@@ -428,7 +429,7 @@
 
 </span>
   
-    4 mins
+    5 mins
   
 
 
@@ -447,7 +448,9 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/sliding-window/">Sliding Window</a>
+  <a class="tag" href="/blog/tags/breadth-first-search/">Breadth-First Search</a>
+  
+  <a class="tag" href="/blog/tags/matrix/">Matrix</a>
   
 </p>
 
@@ -480,7 +483,6 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
-        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -504,7 +506,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/" target="_blank">Problem 3254</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/sliding-puzzle/" target="_blank">Problem 773</a>
 </p>
 
 <h2 id="question">
@@ -518,45 +520,45 @@
  </a>
   
 </h2>
-<p>You are given an array of integers <code>nums</code> of length <code>n</code> and a <em>positive</em> integer <code>k</code>.</p>
-<p>The <strong>power</strong> of an array is defined as:</p>
-<ul>
-	<li>Its <strong>maximum</strong> element if <em>all</em> of its elements are <strong>consecutive</strong> and <strong>sorted</strong> in <strong>ascending</strong> order.</li>
-	<li>-1 otherwise.</li>
-</ul>
-<p>You need to find the <strong>power</strong> of all <span data-keyword="subarray-nonempty">subarrays</span> of <code>nums</code> of size <code>k</code>.</p>
-<p>Return an integer array <code>results</code> of size <code>n - k + 1</code>, where <code>results[i]</code> is the <em>power</em> of <code>nums[i..(i + k - 1)]</code>.</p>
+<p>On an <code>2 x 3</code> board, there are five tiles labeled from <code>1</code> to <code>5</code>, and an empty square represented by <code>0</code>. A <strong>move</strong> consists of choosing <code>0</code> and a 4-directionally adjacent number and swapping it.</p>
+<p>The state of the board is solved if and only if the board is <code>[[1,2,3],[4,5,0]]</code>.</p>
+<p>Given the puzzle board <code>board</code>, return <em>the least number of moves required so that the state of the board is solved</em>. If it is impossible for the state of the board to be solved, return <code>-1</code>.</p>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4,3,2,5], k = 3</span></p>
-<p><strong>Output:</strong> [3,4,-1,-1,-1]</p>
-<p><strong>Explanation:</strong></p>
-<p>There are 5 subarrays of <code>nums</code> of size 3:</p>
-<ul>
-	<li><code>[1, 2, 3]</code> with the maximum element 3.</li>
-	<li><code>[2, 3, 4]</code> with the maximum element 4.</li>
-	<li><code>[3, 4, 3]</code> whose elements are <strong>not</strong> consecutive.</li>
-	<li><code>[4, 3, 2]</code> whose elements are <strong>not</strong> sorted.</li>
-	<li><code>[3, 2, 5]</code> whose elements are <strong>not</strong> consecutive.</li>
-</ul>
-</div>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide1-grid.jpg" style="width: 244px; height: 165px;" />
+<pre>
+<strong>Input:</strong> board = [[1,2,3],[4,0,5]]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Swap the 0 and the 5 in one move.
+</pre>
 <p><strong class="example">Example 2:</strong></p>
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,2,2,2,2], k = 4</span></p>
-<p><strong>Output:</strong> <span class="example-io">[-1,-1]</span></p>
-</div>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide2-grid.jpg" style="width: 244px; height: 165px;" />
+<pre>
+<strong>Input:</strong> board = [[1,2,3],[5,4,0]]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> No number of moves will make the board solved.
+</pre>
 <p><strong class="example">Example 3:</strong></p>
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [3,2,3,2,3,2], k = 2</span></p>
-<p><strong>Output:</strong> <span class="example-io">[-1,3,-1,3,-1]</span></p>
-</div>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide3-grid.jpg" style="width: 244px; height: 165px;" />
+<pre>
+<strong>Input:</strong> board = [[4,1,2],[5,0,3]]
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> 5 is the smallest number of moves that solves the board.
+An example path:
+After move 0: [[4,1,2],[5,0,3]]
+After move 1: [[4,1,2],[0,5,3]]
+After move 2: [[0,1,2],[4,5,3]]
+After move 3: [[1,0,2],[4,5,3]]
+After move 4: [[1,2,0],[4,5,3]]
+After move 5: [[1,2,3],[4,5,0]]
+</pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= n == nums.length &lt;= 500</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= k &lt;= n</code></li>
+	<li><code>board.length == 2</code></li>
+	<li><code>board[i].length == 3</code></li>
+	<li><code>0 &lt;= board[i][j] &lt;= 5</code></li>
+	<li>Each value <code>board[i][j]</code> is <strong>unique</strong>.</li>
 </ul>
 
 <h2 id="solution">
@@ -572,25 +574,53 @@
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> resultsArray(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(k<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> nums;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> slidingPuzzle(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> board) {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> size <span style="color:#f92672">=</span> nums.size();
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>result(size<span style="color:#f92672">-</span>k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>size<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> directions <span style="color:#f92672">=</span> {{<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">3</span>}, {<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>}, {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>},
+</span></span><span style="display:flex;"><span>                                          {<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">4</span>}, {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>}, {<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>}};
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(nums[i]<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">==</span> nums[i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>])
-</span></span><span style="display:flex;"><span>                count<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>
-</span></span><span style="display:flex;"><span>                count <span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(count <span style="color:#f92672">&gt;=</span> k)
-</span></span><span style="display:flex;"><span>                result[i<span style="color:#f92672">+</span><span style="color:#ae81ff">2</span><span style="color:#f92672">-</span>k] <span style="color:#f92672">=</span> nums[i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>        string target <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;123450&#34;</span>;
+</span></span><span style="display:flex;"><span>        string start_state;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> board.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> board[<span style="color:#ae81ff">0</span>].size(); j<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>                start_state <span style="color:#f92672">+=</span> to_string(board[i][j]);
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> result;
 </span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        unordered_set<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span> visited;
+</span></span><span style="display:flex;"><span>        queue<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span> queue;
+</span></span><span style="display:flex;"><span>        queue.push(start_state);
+</span></span><span style="display:flex;"><span>        visited.insert(start_state);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> moves <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>queue.empty()) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> size <span style="color:#f92672">=</span> queue.size();
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (size <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>                string curr_state <span style="color:#f92672">=</span> queue.front();
+</span></span><span style="display:flex;"><span>                queue.pop();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (curr_state <span style="color:#f92672">==</span> target) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> moves;
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">int</span> zeroPos <span style="color:#f92672">=</span> curr_state.find(<span style="color:#e6db74">&#39;0&#39;</span>);
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> newPos : directions[zeroPos]) {
+</span></span><span style="display:flex;"><span>                    string next_state <span style="color:#f92672">=</span> curr_state;
+</span></span><span style="display:flex;"><span>                    swap(next_state[zeroPos], next_state[newPos]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> (visited.count(next_state))
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">continue</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                    visited.insert(next_state);
+</span></span><span style="display:flex;"><span>                    queue.push(next_state);
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                size<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            moves<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -605,9 +635,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                  | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------------------------------------ | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Single-pass traversal with auxiliary array | O(n)            | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                           | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------------------------------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Breadth-First Search with queue (Uninformed search) | O(b^d)          | O(b^d)           |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -633,13 +663,12 @@
   
 </h3>
 <ul>
-<li>The problem requires finding the power of all subarrays of size k in the given array nums.</li>
-<li>The power of an array is defined as its maximum element if all elements are consecutive and sorted in ascending order, otherwise -1.</li>
-<li>To solve this problem, we need to check each subarray of size k and determine if its elements are consecutive and sorted.</li>
-<li>We can use a sliding window approach to efficiently check all subarrays of size k.</li>
-<li>We need to keep track of the count of consecutive elements in the current window.</li>
-<li>If the count is greater than or equal to k, we can update the result array with the maximum element of the current window.</li>
-<li>We need to handle the edge case where k is 1, in which case the result is simply the input array.</li>
+<li>The problem can be solved using a breadth-first search (BFS) algorithm.</li>
+<li>The BFS algorithm is suitable for this problem because it allows us to explore all possible states of the board in a level-order manner.</li>
+<li>We can represent each state of the board as a string, where the digits 1-5 and 0 represent the tiles and the empty space, respectively.</li>
+<li>The goal state is the string <code>123450</code>, which represents the solved board.</li>
+<li>We can use a queue to keep track of the states to be explored, and a set to keep track of the visited states.</li>
+<li>The algorithm terminates when it finds the goal state or when the queue is empty, indicating that it is impossible to solve the board.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -654,13 +683,13 @@
   
 </h3>
 <ul>
-<li>The function resultsArray takes a vector of integers nums and an integer k as input and returns a vector of integers.</li>
-<li>If k is 1, the function returns the input array nums.</li>
-<li>The function initializes a result vector of size n-k+1 with all elements set to -1.</li>
-<li>The function uses a for loop to iterate over the input array, keeping track of the count of consecutive elements.</li>
-<li>Inside the loop, the function checks if the current element is consecutive to the previous element by comparing nums[i] and nums[i+1].</li>
-<li>If the elements are consecutive, the function increments the count; otherwise, it resets the count to 1.</li>
-<li>If the count is greater than or equal to k, the function updates the result array with the maximum element of the current window.</li>
+<li>The <code>directions</code> vector is used to represent the possible moves from each position on the board, <code>directions = {{1, 3}, {0, 2, 4}, {1, 5}, {0, 4}, {1, 3, 5}, {2, 4}};</code></li>
+<li>The <code>target</code> string represents the goal state, <code>string target = '123450';</code></li>
+<li>The <code>start_state</code> string represents the initial state of the board, which is constructed by iterating over the <code>board</code> vector.</li>
+<li>The <code>visited</code> set is used to keep track of the visited states, <code>unordered_set&lt;string&gt; visited;</code></li>
+<li>The <code>queue</code> is used to keep track of the states to be explored, <code>queue&lt;string&gt; queue;</code></li>
+<li>The algorithm uses a while loop to explore the states in the queue, and a nested while loop to explore the neighbors of each state.</li>
+<li>The <code>moves</code> variable is used to keep track of the number of moves, <code>int moves = 0;</code></li>
 </ul>
 <hr>
 
@@ -688,9 +717,9 @@
   
 </h3>
 <ul>
-<li>The solution iterates over the input array <code>nums</code> once, with a single loop running from <code>i=0</code> to <code>size-2</code></li>
-<li>The dominant operation is the conditional increment of the count variable, which occurs once per iteration, resulting in O(n) time complexity</li>
-<li>The time complexity remains the same in the best, average, and worst cases as the input size <code>n</code> directly dictates the number of iterations</li>
+<li>The time complexity is determined by the Breadth-First Search (BFS) algorithm used to explore all possible states of the sliding puzzle. The BFS algorithm has a time complexity of O(b^d), where b is the branching factor (i.e., the average number of possible moves from a given state) and d is the depth of the search tree.</li>
+<li>The dominant operation in this algorithm is the expansion of the current state into all possible next states, which is performed in the loop <code>for (int newPos : directions[zeroPos])</code>. This operation has a time complexity of O(b), as there are on average b possible moves from a given state.</li>
+<li>The entire search tree is traversed, resulting in a total time complexity of O(b^d), as each node in the tree is visited once. This is justified by the fact that the search is performed level by level, and all nodes at each level are visited before moving on to the next level.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -705,9 +734,9 @@
   
 </h3>
 <ul>
-<li>The solution creates an auxiliary array <code>result</code> of size <code>n-k+1</code>, where <code>n</code> is the size of the input array</li>
-<li>The space complexity is dominated by the storage required for the <code>result</code> array, leading to O(n) space complexity</li>
-<li>The space complexity remains the same in all cases as the size of the auxiliary array directly depends on the input size, which must be stored in memory</li>
+<li>The space complexity is determined by the need to store all visited states in the <code>visited</code> unordered set and the current queue of states to be visited.</li>
+<li>The space required to store the visited states is O(b^d), as each state is stored once in the <code>visited</code> set, and there are b^d possible states in the search tree.</li>
+<li>The space required to store the current queue of states is also O(b^d), as in the worst case, the queue will contain all states at the deepest level of the search tree. Therefore, the overall space complexity is O(b^d).</li>
 </ul>
 <hr>
 
@@ -723,7 +752,7 @@
   
 </h3>
 <blockquote>
-<p>This question is rated as <strong>Medium</strong> difficulty.</p>
+<p>This question is rated as <strong>Hard</strong> difficulty.</p>
 </blockquote>
 
 <h4 id="hints">
@@ -738,38 +767,8 @@
   
 </h4>
 <blockquote>
-<p>Can we use a brute force solution with nested loops and HashSet?</p>
+<p>Perform a breadth-first-search, where the nodes are the puzzle boards and edges are if two puzzle boards can be transformed into one another with one move.</p>
 </blockquote>
-<hr>
-
-<h3 id="similar-questions">
-  Similar Questions:
-  
-  <a hidden class="anchor" href="#similar-questions">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Title</th>
-          <th style="text-align: left">URL</th>
-          <th style="text-align: left">Difficulty</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Maximum Sum of Distinct Subarrays With Length K</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k" target="_blank">https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-  </tbody>
-</table>
 
 
 
@@ -783,17 +782,13 @@
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-773-sliding-puzzle/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 773 Sliding Puzzle </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/">
+    <a class="next" href="/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2461 Maximum Sum of Distinct Subarrays With Length K </span>
+      <span> Problem 3254 Find the Power of K-Size Subarrays I </span>
     </a>
   
 </nav>
