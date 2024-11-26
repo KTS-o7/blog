@@ -6,8 +6,36 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Nov 2024 16:26:43 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2024 16:33:15 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array</title>
+      <link>https://KTS-o7.github.io/blog/tags/array/</link>
+      <pubDate>Tue, 26 Nov 2024 16:33:15 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dp</title>
+      <link>https://KTS-o7.github.io/blog/tags/dp/</link>
+      <pubDate>Tue, 26 Nov 2024 16:33:15 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic-Programming</title>
+      <link>https://KTS-o7.github.io/blog/tags/dynamic-programming/</link>
+      <pubDate>Tue, 26 Nov 2024 16:33:15 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix</title>
+      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
+      <pubDate>Tue, 26 Nov 2024 16:33:15 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Graph</title>
       <link>https://KTS-o7.github.io/blog/tags/graph/</link>
@@ -16,24 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>Array</title>
-      <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Mon, 25 Nov 2024 17:14:09 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Breadth-First Search</title>
       <link>https://KTS-o7.github.io/blog/tags/breadth-first-search/</link>
       <pubDate>Mon, 25 Nov 2024 17:14:09 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/breadth-first-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Matrix</title>
-      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
-      <pubDate>Mon, 25 Nov 2024 17:14:09 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
       <description></description>
     </item>
     <item>
@@ -251,20 +265,6 @@
       <link>https://KTS-o7.github.io/blog/tags/simulation/</link>
       <pubDate>Tue, 24 Sep 2024 18:43:34 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/simulation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dp</title>
-      <link>https://KTS-o7.github.io/blog/tags/dp/</link>
-      <pubDate>Sat, 21 Sep 2024 21:39:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dynamic-Programming</title>
-      <link>https://KTS-o7.github.io/blog/tags/dynamic-programming/</link>
-      <pubDate>Sat, 21 Sep 2024 21:39:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dynamic-programming/</guid>
       <description></description>
     </item>
     <item>
