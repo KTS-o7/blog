@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 773 Sliding Puzzle &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 773 Sliding Puzzle &middot; The Indian Engineer" />
+  <title>Problem 2924 Find Champion II &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2924 Find Champion II &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, breadth-first search, matrix, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-773-sliding-puzzle/" />
+  <meta name="keywords" content="graph, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2924-find-champion-ii/" />
 
   
 
@@ -82,23 +82,21 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-773-sliding-puzzle/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2924-find-champion-ii/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 773 Sliding Puzzle">
+  <meta property="og:title" content="Problem 2924 Find Champion II">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-25T17:14:09+05:30">
-    <meta property="article:modified_time" content="2024-11-25T17:14:09+05:30">
-    <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Breadth-First Search">
-    <meta property="article:tag" content="Matrix">
+    <meta property="article:published_time" content="2024-11-26T16:26:43+05:30">
+    <meta property="article:modified_time" content="2024-11-26T16:26:43+05:30">
+    <meta property="article:tag" content="Graph">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 773 Sliding Puzzle">
+  <meta name="twitter:title" content="Problem 2924 Find Champion II">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +390,7 @@
 
 
 
-<h1 class="pg-title">Problem 773 Sliding Puzzle</h1>
+<h1 class="pg-title">Problem 2924 Find Champion II</h1>
 
 
 <div class="meta">
@@ -412,7 +410,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-25T17:14:09&#43;05:30">Nov 25, 2024</time>
+  Posted on <time datetime="2024-11-26T16:26:43&#43;05:30">Nov 26, 2024</time>
   
   
   
@@ -446,11 +444,7 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/array/">Array</a>
-  
-  <a class="tag" href="/blog/tags/breadth-first-search/">Breadth-First Search</a>
-  
-  <a class="tag" href="/blog/tags/matrix/">Matrix</a>
+  <a class="tag" href="/blog/tags/graph/">Graph</a>
   
 </p>
 
@@ -506,7 +500,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/sliding-puzzle/" target="_blank">Problem 773</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-champion-ii/" target="_blank">Problem 2924</a>
 </p>
 
 <h2 id="question">
@@ -520,45 +514,46 @@
  </a>
   
 </h2>
-<p>On an <code>2 x 3</code> board, there are five tiles labeled from <code>1</code> to <code>5</code>, and an empty square represented by <code>0</code>. A <strong>move</strong> consists of choosing <code>0</code> and a 4-directionally adjacent number and swapping it.</p>
-<p>The state of the board is solved if and only if the board is <code>[[1,2,3],[4,5,0]]</code>.</p>
-<p>Given the puzzle board <code>board</code>, return <em>the least number of moves required so that the state of the board is solved</em>. If it is impossible for the state of the board to be solved, return <code>-1</code>.</p>
+<p>There are <code>n</code> teams numbered from <code>0</code> to <code>n - 1</code> in a tournament; each team is also a node in a <strong>DAG</strong>.</p>
+<p>You are given the integer <code>n</code> and a <strong>0-indexed</strong> 2D integer array <code>edges</code> of length <code>m</code> representing the <strong>DAG</strong>, where <code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>]</code> indicates that there is a directed edge from team <code>u<sub>i</sub></code> to team <code>v<sub>i</sub></code> in the graph.</p>
+<p>A directed edge from <code>a</code> to <code>b</code> in the graph means that team <code>a</code> is <strong>stronger</strong> than team <code>b</code> and team <code>b</code> is <strong>weaker</strong> than team <code>a</code>.</p>
+<p>Team <code>a</code> will be the <strong>champion</strong> of the tournament if there is no team <code>b</code> that is <strong>stronger</strong> than team <code>a</code>.</p>
+<p>Return <em>the team that will be the <strong>champion</strong> of the tournament if there is a <strong>unique</strong> champion, otherwise, return </em><code>-1</code><em>.</em></p>
+<p><strong>Notes</strong></p>
+<ul>
+	<li>A <strong>cycle</strong> is a series of nodes <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>, a<sub>n+1</sub></code> such that node <code>a<sub>1</sub></code> is the same node as node <code>a<sub>n+1</sub></code>, the nodes <code>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></code> are distinct, and there is a directed edge from the node <code>a<sub>i</sub></code> to node <code>a<sub>i+1</sub></code> for every <code>i</code> in the range <code>[1, n]</code>.</li>
+	<li>A <strong>DAG</strong> is a directed graph that does not have any <strong>cycle</strong>.</li>
+</ul>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide1-grid.jpg" style="width: 244px; height: 165px;" />
+<p><img height="300" src="https://assets.leetcode.com/uploads/2023/10/19/graph-3.png" width="300" /></p>
 <pre>
-<strong>Input:</strong> board = [[1,2,3],[4,0,5]]
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> Swap the 0 and the 5 in one move.
+<strong>Input:</strong> n = 3, edges = [[0,1],[1,2]]
+<strong>Output:</strong> 0
+<strong>Explanation: </strong>Team 1 is weaker than team 0. 
+Team 2 is weaker than team 1. 
+So the champion is team 0.
 </pre>
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide2-grid.jpg" style="width: 244px; height: 165px;" />
+<p><img height="300" src="https://assets.leetcode.com/uploads/2023/10/19/graph-4.png" width="300" /></p>
 <pre>
-<strong>Input:</strong> board = [[1,2,3],[5,4,0]]
+<strong>Input:</strong> n = 4, edges = [[0,2],[1,3],[1,2]]
 <strong>Output:</strong> -1
-<strong>Explanation:</strong> No number of moves will make the board solved.
-</pre>
-<p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide3-grid.jpg" style="width: 244px; height: 165px;" />
-<pre>
-<strong>Input:</strong> board = [[4,1,2],[5,0,3]]
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> 5 is the smallest number of moves that solves the board.
-An example path:
-After move 0: [[4,1,2],[5,0,3]]
-After move 1: [[4,1,2],[0,5,3]]
-After move 2: [[0,1,2],[4,5,3]]
-After move 3: [[1,0,2],[4,5,3]]
-After move 4: [[1,2,0],[4,5,3]]
-After move 5: [[1,2,3],[4,5,0]]
+<strong>Explanation:</strong> Team 2 is weaker than team 0 and team 1. 
+Team 3 is weaker than team 1. But team 1 and team 0 are not weaker than any other teams.
+So the answer is -1.
 </pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>board.length == 2</code></li>
-	<li><code>board[i].length == 3</code></li>
-	<li><code>0 &lt;= board[i][j] &lt;= 5</code></li>
-	<li>Each value <code>board[i][j]</code> is <strong>unique</strong>.</li>
+	<li><code>1 &lt;= n &lt;= 100</code></li>
+	<li><code>m == edges.length</code></li>
+	<li><code>0 &lt;= m &lt;= n * (n - 1) / 2</code></li>
+	<li><code>edges[i].length == 2</code></li>
+	<li><code>0 &lt;= edge[i][j] &lt;= n - 1</code></li>
+	<li><code>edges[i][0] != edges[i][1]</code></li>
+	<li>The input is generated such that if team <code>a</code> is stronger than team <code>b</code>, team <code>b</code> is not stronger than team <code>a</code>.</li>
+	<li>The input is generated such that if team <code>a</code> is stronger than team <code>b</code> and team <code>b</code> is stronger than team <code>c</code>, then team <code>a</code> is stronger than team <code>c</code>.</li>
 </ul>
 
 <h2 id="solution">
@@ -574,53 +569,19 @@ After move 5: [[1,2,3],[4,5,0]]
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> slidingPuzzle(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> board) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> findChampion(<span style="color:#66d9ef">int</span> n, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> edges) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> in_degree(n,<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> edge:edges)
+</span></span><span style="display:flex;"><span>            in_degree[edge[<span style="color:#ae81ff">1</span>]]<span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> directions <span style="color:#f92672">=</span> {{<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">3</span>}, {<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>}, {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>},
-</span></span><span style="display:flex;"><span>                                          {<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">4</span>}, {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>}, {<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>}};
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        string target <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;123450&#34;</span>;
-</span></span><span style="display:flex;"><span>        string start_state;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> board.size(); i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> board[<span style="color:#ae81ff">0</span>].size(); j<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>                start_state <span style="color:#f92672">+=</span> to_string(board[i][j]);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> champion <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>n; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(in_degree[i]<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>){
+</span></span><span style="display:flex;"><span>                count<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>                champion <span style="color:#f92672">=</span> i;
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        unordered_set<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span> visited;
-</span></span><span style="display:flex;"><span>        queue<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span> queue;
-</span></span><span style="display:flex;"><span>        queue.push(start_state);
-</span></span><span style="display:flex;"><span>        visited.insert(start_state);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> moves <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>queue.empty()) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> size <span style="color:#f92672">=</span> queue.size();
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (size <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
-</span></span><span style="display:flex;"><span>                string curr_state <span style="color:#f92672">=</span> queue.front();
-</span></span><span style="display:flex;"><span>                queue.pop();
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (curr_state <span style="color:#f92672">==</span> target) {
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> moves;
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">int</span> zeroPos <span style="color:#f92672">=</span> curr_state.find(<span style="color:#e6db74">&#39;0&#39;</span>);
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> newPos : directions[zeroPos]) {
-</span></span><span style="display:flex;"><span>                    string next_state <span style="color:#f92672">=</span> curr_state;
-</span></span><span style="display:flex;"><span>                    swap(next_state[zeroPos], next_state[newPos]);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> (visited.count(next_state))
-</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">continue</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                    visited.insert(next_state);
-</span></span><span style="display:flex;"><span>                    queue.push(next_state);
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>                size<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            moves<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">?</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>champion;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -635,9 +596,9 @@ After move 5: [[1,2,3],[4,5,0]]
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                           | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------------------------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Breadth-First Search with queue (Uninformed search) | O(b^d)          | O(b^d)           |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                         | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Directed Graph In-Degree Analysis | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -663,12 +624,13 @@ After move 5: [[1,2,3],[4,5,0]]
   
 </h3>
 <ul>
-<li>The problem can be solved using a breadth-first search (BFS) algorithm.</li>
-<li>The BFS algorithm is suitable for this problem because it allows us to explore all possible states of the board in a level-order manner.</li>
-<li>We can represent each state of the board as a string, where the digits 1-5 and 0 represent the tiles and the empty space, respectively.</li>
-<li>The goal state is the string <code>123450</code>, which represents the solved board.</li>
-<li>We can use a queue to keep track of the states to be explored, and a set to keep track of the visited states.</li>
-<li>The algorithm terminates when it finds the goal state or when the queue is empty, indicating that it is impossible to solve the board.</li>
+<li>The problem can be solved by finding the node with no incoming edges in the directed graph.</li>
+<li>This is because a node with no incoming edges is not weaker than any other node.</li>
+<li>The champion of the tournament will be the node with no incoming edges.</li>
+<li>If there are multiple nodes with no incoming edges, then there is no unique champion.</li>
+<li>The problem can be solved using the concept of in-degree of a node in a graph.</li>
+<li>In-degree of a node is the number of edges that are incoming to the node.</li>
+<li>We can calculate the in-degree of each node by iterating over the edges of the graph.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -683,13 +645,13 @@ After move 5: [[1,2,3],[4,5,0]]
   
 </h3>
 <ul>
-<li>The <code>directions</code> vector is used to represent the possible moves from each position on the board, <code>directions = {{1, 3}, {0, 2, 4}, {1, 5}, {0, 4}, {1, 3, 5}, {2, 4}};</code></li>
-<li>The <code>target</code> string represents the goal state, <code>string target = '123450';</code></li>
-<li>The <code>start_state</code> string represents the initial state of the board, which is constructed by iterating over the <code>board</code> vector.</li>
-<li>The <code>visited</code> set is used to keep track of the visited states, <code>unordered_set&lt;string&gt; visited;</code></li>
-<li>The <code>queue</code> is used to keep track of the states to be explored, <code>queue&lt;string&gt; queue;</code></li>
-<li>The algorithm uses a while loop to explore the states in the queue, and a nested while loop to explore the neighbors of each state.</li>
-<li>The <code>moves</code> variable is used to keep track of the number of moves, <code>int moves = 0;</code></li>
+<li>Create a vector <code>in_degree</code> of size <code>n</code> to store the in-degree of each node.</li>
+<li>Initialize all elements of <code>in_degree</code> to 0.</li>
+<li>Iterate over the edges of the graph and increment the in-degree of the destination node of each edge.</li>
+<li>Use a loop to find the node with no incoming edges by checking the <code>in_degree</code> vector.</li>
+<li>If multiple nodes have no incoming edges, return -1.</li>
+<li>Otherwise, return the node with no incoming edges as the champion.</li>
+<li>The time complexity of this solution is O(n + m), where n is the number of nodes and m is the number of edges.</li>
 </ul>
 <hr>
 
@@ -717,9 +679,9 @@ After move 5: [[1,2,3],[4,5,0]]
   
 </h3>
 <ul>
-<li>The time complexity is determined by the Breadth-First Search (BFS) algorithm used to explore all possible states of the sliding puzzle. The BFS algorithm has a time complexity of O(b^d), where b is the branching factor (i.e., the average number of possible moves from a given state) and d is the depth of the search tree.</li>
-<li>The dominant operation in this algorithm is the expansion of the current state into all possible next states, which is performed in the loop <code>for (int newPos : directions[zeroPos])</code>. This operation has a time complexity of O(b), as there are on average b possible moves from a given state.</li>
-<li>The entire search tree is traversed, resulting in a total time complexity of O(b^d), as each node in the tree is visited once. This is justified by the fact that the search is performed level by level, and all nodes at each level are visited before moving on to the next level.</li>
+<li>The time complexity of the solution is O(n) because it consists of two loops: the first loop <code>for(auto edge:edges)</code> traverses each edge once, resulting in O(n) time, where n is the number of edges, and the second loop <code>for(int i = 0; i&lt;n; i++)</code> traverses each node once, resulting in O(n) time, where n is the number of nodes. Since these loops are sequential, we can add their times together.</li>
+<li>However, in terms of time complexity, we drop lower-order terms and ignore constants, which is why the time complexity is O(n) regardless of whether n represents nodes or edges, which we can assume will grow together in number for the purposes of this graph.</li>
+<li>The worst-case, average-case, and best-case times are all O(n) because both loops will always occur regardless of the input values.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -734,9 +696,9 @@ After move 5: [[1,2,3],[4,5,0]]
   
 </h3>
 <ul>
-<li>The space complexity is determined by the need to store all visited states in the <code>visited</code> unordered set and the current queue of states to be visited.</li>
-<li>The space required to store the visited states is O(b^d), as each state is stored once in the <code>visited</code> set, and there are b^d possible states in the search tree.</li>
-<li>The space required to store the current queue of states is also O(b^d), as in the worst case, the queue will contain all states at the deepest level of the search tree. Therefore, the overall space complexity is O(b^d).</li>
+<li>The space complexity of the solution is O(n) because it creates a vector of size n, <code>vector&lt;int&gt; in_degree(n,0)</code>, to store in-degrees for each node.</li>
+<li>The size of the created data structure grows directly with input size (the number of nodes), justifying the space complexity classification.</li>
+<li>Regardless of whether the graph is highly connected or minimally connected, the size of the <code>in_degree</code> vector will always scale linearly with the number of nodes, thus we don&rsquo;t have different space complexities in different scenarios.</li>
 </ul>
 <hr>
 
@@ -752,7 +714,7 @@ After move 5: [[1,2,3],[4,5,0]]
   
 </h3>
 <blockquote>
-<p>This question is rated as <strong>Hard</strong> difficulty.</p>
+<p>This question is rated as <strong>Medium</strong> difficulty.</p>
 </blockquote>
 
 <h4 id="hints">
@@ -767,7 +729,7 @@ After move 5: [[1,2,3],[4,5,0]]
   
 </h4>
 <blockquote>
-<p>Perform a breadth-first-search, where the nodes are the puzzle boards and edges are if two puzzle boards can be transformed into one another with one move.</p>
+<p>The champion(s) should have in-degree <code>0</code> in the DAG.</p>
 </blockquote>
 
 
@@ -782,17 +744,13 @@ After move 5: [[1,2,3],[4,5,0]]
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2924-find-champion-ii/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2924 Find Champion II </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/">
+    <a class="next" href="/blog/leetcode-potd/problem-773-sliding-puzzle/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3254 Find the Power of K-Size Subarrays I </span>
+      <span> Problem 773 Sliding Puzzle </span>
     </a>
   
 </nav>
