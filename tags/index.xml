@@ -6,13 +6,27 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Nov 2024 16:33:15 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 09:21:55 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Tue, 26 Nov 2024 16:33:15 +0530</pubDate>
+      <pubDate>Wed, 27 Nov 2024 09:21:55 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bit-Manipulation</title>
+      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
+      <pubDate>Wed, 27 Nov 2024 09:21:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sliding Window</title>
+      <link>https://KTS-o7.github.io/blog/tags/sliding-window/</link>
+      <pubDate>Wed, 27 Nov 2024 09:21:55 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/sliding-window/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +62,6 @@
       <link>https://KTS-o7.github.io/blog/tags/breadth-first-search/</link>
       <pubDate>Mon, 25 Nov 2024 17:14:09 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/breadth-first-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sliding Window</title>
-      <link>https://KTS-o7.github.io/blog/tags/sliding-window/</link>
-      <pubDate>Mon, 25 Nov 2024 15:17:30 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/sliding-window/</guid>
       <description></description>
     </item>
     <item>
@@ -279,13 +286,6 @@
       <link>https://KTS-o7.github.io/blog/tags/count/</link>
       <pubDate>Tue, 17 Sep 2024 12:53:11 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/count/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bit-Manipulation</title>
-      <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
-      <pubDate>Sat, 14 Sep 2024 14:57:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
       <description></description>
     </item>
     <item>

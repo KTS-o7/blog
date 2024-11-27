@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
-    <lastmod>2024-11-26T16:33:15+05:30</lastmod>
+    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
+    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</loc>
+    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/sliding-window/</loc>
+    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -19,12 +55,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
-    <lastmod>2024-11-26T16:33:15+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/tags/matrix/</loc>
     <lastmod>2024-11-26T16:33:15+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -32,18 +62,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1277-count-square-submatrices-with-all-ones/</loc>
-    <lastmod>2024-11-26T16:33:15+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-11-26T16:33:15+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
     <lastmod>2024-11-26T16:33:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -74,12 +92,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/</loc>
-    <lastmod>2024-11-25T15:17:30+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/sliding-window/</loc>
     <lastmod>2024-11-25T15:17:30+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -417,12 +429,6 @@
   <url>
     <loc>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</loc>
     <lastmod>2024-09-15T16:00:34+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
-    <lastmod>2024-09-14T14:57:52+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

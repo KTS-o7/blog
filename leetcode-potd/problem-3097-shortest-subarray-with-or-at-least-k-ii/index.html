@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1277 Count Square Submatrices with All Ones &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1277 Count Square Submatrices with All Ones &middot; The Indian Engineer" />
+  <title>Problem 3097 Shortest Subarray With OR at Least K II &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3097 Shortest Subarray With OR at Least K II &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, dynamic programming, matrix, dp, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1277-count-square-submatrices-with-all-ones/" />
+  <meta name="keywords" content="array, bit manipulation, sliding window, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/" />
 
   
 
@@ -82,24 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1277-count-square-submatrices-with-all-ones/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1277 Count Square Submatrices with All Ones">
+  <meta property="og:title" content="Problem 3097 Shortest Subarray With OR at Least K II">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-26T16:33:15+05:30">
-    <meta property="article:modified_time" content="2024-11-26T16:33:15+05:30">
+    <meta property="article:published_time" content="2024-11-27T09:21:55+05:30">
+    <meta property="article:modified_time" content="2024-11-27T09:21:55+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Dynamic-Programming">
-    <meta property="article:tag" content="Matrix">
-    <meta property="article:tag" content="Dp">
+    <meta property="article:tag" content="Bit-Manipulation">
+    <meta property="article:tag" content="Sliding Window">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1277 Count Square Submatrices with All Ones">
+  <meta name="twitter:title" content="Problem 3097 Shortest Subarray With OR at Least K II">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -393,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 1277 Count Square Submatrices with All Ones</h1>
+<h1 class="pg-title">Problem 3097 Shortest Subarray With OR at Least K II</h1>
 
 
 <div class="meta">
@@ -413,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-26T16:33:15&#43;05:30">Nov 26, 2024</time>
+  Posted on <time datetime="2024-11-27T09:21:55&#43;05:30">Nov 27, 2024</time>
   
   
   
@@ -449,11 +448,9 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
+  <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
   
-  <a class="tag" href="/blog/tags/matrix/">Matrix</a>
-  
-  <a class="tag" href="/blog/tags/dp/">Dp</a>
+  <a class="tag" href="/blog/tags/sliding-window/">Sliding Window</a>
   
 </p>
 
@@ -510,7 +507,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/count-square-submatrices-with-all-ones/" target="_blank">Problem 1277</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/" target="_blank">Problem 3097</a>
 </p>
 
 <h2 id="question">
@@ -524,41 +521,37 @@
  </a>
   
 </h2>
-<p>Given a <code>m*n</code> matrix of ones and zeros, return how many <strong>square</strong> submatrices have all ones.</p>
-<p><strong>Example 1:</strong></p>
-<pre>
-<strong>Input:</strong> matrix =
-[
-&nbsp; [0,1,1,1],
-&nbsp; [1,1,1,1],
-&nbsp; [0,1,1,1]
-]
-<strong>Output:</strong> 15
-<strong>Explanation:</strong> 
-There are <strong>10</strong> squares of side 1.
-There are <strong>4</strong> squares of side 2.
-There is  <strong>1</strong> square of side 3.
-Total number of squares = 10 + 4 + 1 = <strong>15</strong>.
-</pre>
+<p>You are given an array <code>nums</code> of <strong>non-negative</strong> integers and an integer <code>k</code>.</p>
+<p>An array is called <strong>special</strong> if the bitwise <code>OR</code> of all of its elements is <strong>at least</strong> <code>k</code>.</p>
+<p>Return <em>the length of the <strong>shortest</strong> <strong>special</strong> <strong>non-empty</strong> <span data-keyword="subarray-nonempty">subarray</span> of</em> <code>nums</code>, <em>or return</em> <code>-1</code> <em>if no special subarray exists</em>.</p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3], k = 2</span></p>
+<p><strong>Output:</strong> <span class="example-io">1</span></p>
+<p><strong>Explanation:</strong></p>
+<p>The subarray <code>[3]</code> has <code>OR</code> value of <code>3</code>. Hence, we return <code>1</code>.</p>
+</div>
 <p><strong class="example">Example 2:</strong></p>
-<pre>
-<strong>Input:</strong> matrix = 
-[
-  [1,0,1],
-  [1,1,0],
-  [1,1,0]
-]
-<strong>Output:</strong> 7
-<strong>Explanation:</strong> 
-There are <b>6</b> squares of side 1.  
-There is <strong>1</strong> square of side 2. 
-Total number of squares = 6 + 1 = <b>7</b>.
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [2,1,8], k = 10</span></p>
+<p><strong>Output:</strong> <span class="example-io">3</span></p>
+<p><strong>Explanation:</strong></p>
+<p>The subarray <code>[2,1,8]</code> has <code>OR</code> value of <code>11</code>. Hence, we return <code>3</code>.</p>
+</div>
+<p><strong class="example">Example 3:</strong></p>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [1,2], k = 0</span></p>
+<p><strong>Output:</strong> <span class="example-io">1</span></p>
+<p><strong>Explanation:</strong></p>
+<p>The subarray <code>[1]</code> has <code>OR</code> value of <code>1</code>. Hence, we return <code>1</code>.</p>
+</div>
+<p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= arr.length&nbsp;&lt;= 300</code></li>
-	<li><code>1 &lt;= arr[0].length&nbsp;&lt;= 300</code></li>
-	<li><code>0 &lt;= arr[i][j] &lt;= 1</code></li>
+	<li><code>1 &lt;= nums.length &lt;= 2 * 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>0 &lt;= k &lt;= 10<sup>9</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -574,19 +567,41 @@ Total number of squares = 6 + 1 = <b>7</b>.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> countSquares(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> matrix) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> row <span style="color:#f92672">=</span> matrix.size(), col <span style="color:#f92672">=</span> matrix[<span style="color:#ae81ff">0</span>].size();
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> dp(row <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>(col <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>));
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> row; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> col; j<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (matrix[i][j] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) {
-</span></span><span style="display:flex;"><span>                    dp[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>][j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> min({dp[i][j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>], dp[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>][j], dp[i][j]}) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>                    ans <span style="color:#f92672">+=</span> dp[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>][j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>];
-</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minimumSubarrayLength(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> bit_count(<span style="color:#ae81ff">32</span>, <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> current_val <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> start <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, end <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, min_length <span style="color:#f92672">=</span> INT_MAX;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (end <span style="color:#f92672">&lt;</span> nums.size()) {
+</span></span><span style="display:flex;"><span>            update_bits(bit_count, current_val, nums[end], <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (start <span style="color:#f92672">&lt;=</span> end <span style="color:#f92672">&amp;&amp;</span> current_val <span style="color:#f92672">&gt;=</span> k) {
+</span></span><span style="display:flex;"><span>                min_length <span style="color:#f92672">=</span> min(min_length, end <span style="color:#f92672">-</span> start <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>                update_bits(bit_count, current_val, nums[start], <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>                start<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            end<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> min_length <span style="color:#f92672">==</span> INT_MAX <span style="color:#f92672">?</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">:</span> min_length;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> update_bits(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> bit_count, <span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> current_val, <span style="color:#66d9ef">int</span> num, <span style="color:#66d9ef">int</span> val) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">32</span>; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (num <span style="color:#f92672">&amp;</span> (<span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;&lt;</span> i)) {
+</span></span><span style="display:flex;"><span>                bit_count[i] <span style="color:#f92672">+=</span> val;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Update current_val based on the change in bit count
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                <span style="color:#66d9ef">if</span> (bit_count[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">&amp;&amp;</span> val <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>                    current_val <span style="color:#f92672">|=</span> (<span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;&lt;</span> i);  <span style="color:#75715e">// Set the bit if it&#39;s newly active
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                }
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span> (bit_count[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> val <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>                    current_val <span style="color:#f92672">&amp;=</span> <span style="color:#f92672">~</span>(<span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;&lt;</span> i); <span style="color:#75715e">// Clear the bit if it&#39;s no longer active
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                }
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -601,9 +616,9 @@ Total number of squares = 6 + 1 = <b>7</b>.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                               | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Dynamic Programming for perfect squares | O(nm)           | O(nm)            |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                        | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| -------------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Sliding window with two-pointers | O(n)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -629,13 +644,13 @@ Total number of squares = 6 + 1 = <b>7</b>.
   
 </h3>
 <ul>
-<li>The problem can be solved by using dynamic programming to build up a table of the size of the largest square that can be formed at each position.</li>
-<li>The key insight is that the size of the largest square that can be formed at a position is determined by the minimum size of the largest squares that can be formed at the positions above, to the left, and diagonally above-left.</li>
-<li>This is because a square can only be formed if all of the positions that make up the square are 1.</li>
-<li>By using dynamic programming, we can efficiently build up the table of largest square sizes without having to recompute the same values multiple times.</li>
-<li>The final answer is the sum of the sizes of all the squares that can be formed at each position.</li>
-<li>This approach works because it takes into account the fact that a larger square can be formed by adding a row or column to a smaller square.</li>
-<li>The time complexity of this approach is O(mn), where m and n are the dimensions of the input matrix.</li>
+<li>The problem requires finding the shortest subarray with a bitwise OR of at least k.</li>
+<li>A sliding window approach can be used to efficiently find the shortest subarray.</li>
+<li>The sliding window should expand to the right until the bitwise OR is at least k.</li>
+<li>Once the bitwise OR is at least k, the window can start contracting from the left.</li>
+<li>The contraction should stop when the bitwise OR is less than k, and the window should expand again.</li>
+<li>This process continues until the entire array has been traversed.</li>
+<li>The minimum length of the subarray with a bitwise OR of at least k is the answer.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -650,13 +665,13 @@ Total number of squares = 6 + 1 = <b>7</b>.
   
 </h3>
 <ul>
-<li>The solution starts by initializing a 2D array <code>dp</code> of size (row+1) x (col+1) to store the size of the largest square that can be formed at each position.</li>
-<li>The <code>dp</code> array is initialized with zeros, and the <code>ans</code> variable is initialized to zero to store the final answer.</li>
-<li>The solution then iterates over each position in the input matrix, and if the value at the current position is 1, it updates the value in the <code>dp</code> array using the formula <code>dp[i + 1][j + 1] = min({dp[i][j + 1], dp[i + 1][j], dp[i][j]}) + 1</code>.</li>
-<li>The <code>ans</code> variable is then updated by adding the value of <code>dp[i + 1][j + 1]</code> to it.</li>
-<li>The solution uses the <code>min</code> function to find the minimum value of the largest squares that can be formed at the positions above, to the left, and diagonally above-left.</li>
-<li>The <code>+ 1</code> in the formula is used to increment the size of the largest square that can be formed at the current position.</li>
-<li>Finally, the solution returns the value of <code>ans</code>, which is the sum of the sizes of all the squares that can be formed at each position.</li>
+<li>A vector <code>bit_count</code> of size 32 is used to keep track of the bit counts of the current window.</li>
+<li>The <code>update_bits</code> function is used to update the <code>bit_count</code> and <code>current_val</code> based on the addition or removal of a number.</li>
+<li>The <code>while</code> loop is used to expand the window to the right until the bitwise OR is at least k.</li>
+<li>The <code>while</code> loop inside the outer loop is used to contract the window from the left until the bitwise OR is less than k.</li>
+<li>The minimum length of the subarray is updated whenever a valid subarray is found.</li>
+<li>The <code>update_bits</code> function uses bitwise operations to update the <code>bit_count</code> and <code>current_val</code>.</li>
+<li>The <code>current_val</code> is updated based on the change in the bit count, and the <code>bit_count</code> is updated based on the addition or removal of a number.</li>
 </ul>
 <hr>
 
@@ -684,9 +699,9 @@ Total number of squares = 6 + 1 = <b>7</b>.
   
 </h3>
 <ul>
-<li>The time complexity of the algorithm is O(n*m) where n is the number of rows and m is the number of columns in the input matrix. This is because we are iterating through each element in the matrix once.</li>
-<li>The dominant operations are the two nested for loops <code>for (int i = 0; i &lt; row; i++)</code> and <code>for (int j = 0; j &lt; col; j++)</code>, each of which has a time complexity of O(n) and O(m) respectively.</li>
-<li>The Big O classification justifies the time complexity as O(nm) because the two loops are nested, causing the time complexity to multiply. This satisfies the property of Big O notation where constant factors are ignored, and we are left with O(nm).</li>
+<li>The time complexity is determined by the two nested loops: the outer while loop that traverses the input array (<code>while (end &lt; nums.size())</code>), and the inner while loop that slides the window when the bit sum exceeds the target (<code>while (start &lt;= end &amp;&amp; current_val &gt;= k)</code>).</li>
+<li>The dominant operation is the update of the bit count array in the <code>update_bits</code> function, which runs in linear time with respect to the bit length (32 bits). However, since the bit length is a constant, this operation is considered O(1) per iteration.</li>
+<li>Given that the input array is traversed only once, and the inner while loop only contributes linearly to the overall time complexity due to the sliding window approach, the overall time complexity is O(n) where n is the length of the input array.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -701,9 +716,9 @@ Total number of squares = 6 + 1 = <b>7</b>.
   
 </h3>
 <ul>
-<li>The memory usage in this algorithm is primarily due to the creation of a new vector <code>dp</code> with dimensions (row+1) x (col+1) to store the lengths of the sides of perfect squares ending at each position in the matrix.</li>
-<li>The space impact of the dp vector is significant, resulting in a space complexity of O(nm) where n and m are the dimensions of the input matrix. This is because the size of the dp vector is directly proportional to the size of the input matrix.</li>
-<li>Justification of space complexity is that we need to store the values for all possible subproblems in the dp vector, and the number of these subproblems is equal to the number of elements in the input matrix, hence the space complexity of O(nm).</li>
+<li>The space complexity is primarily determined by the fixed-size bit count array (<code>vector&lt;int&gt; bit_count(32, 0)</code>).</li>
+<li>Although a dynamic array is used to represent the bit count, its maximum size is capped at 32, making the space complexity constant with respect to the input size.</li>
+<li>The space used by the input array and the sliding window pointers do not contribute to the space complexity since they are part of the input and are not allocated by the algorithm.</li>
 </ul>
 <hr>
 
@@ -734,10 +749,13 @@ Total number of squares = 6 + 1 = <b>7</b>.
   
 </h4>
 <blockquote>
-<p>Create an additive table that counts the sum of elements of submatrix with the superior corner at (0,0).</p>
+<p>For each <code>nums[i]</code>, we can maintain each subarray’s bitwise <code>OR</code> result ending with it.</p>
 </blockquote>
 <blockquote>
-<p>Loop over all subsquares in O(n^3) and check if the sum make the whole array to be ones, if it checks then add 1 to the answer.</p>
+<p>The property of bitwise <code>OR</code> is that it never unsets any bits and only sets new bits</p>
+</blockquote>
+<blockquote>
+<p>So the number of different results for each <code>nums[i]</code> is at most the number of bits 32.</p>
 </blockquote>
 <hr>
 
@@ -762,14 +780,14 @@ Total number of squares = 6 + 1 = <b>7</b>.
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Minimum Cost Homecoming of a Robot in a Grid</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid" target="_blank">https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid</a>
+          <td style="text-align: left">Maximum Size Subarray Sum Equals k</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-size-subarray-sum-equals-k" target="_blank">https://leetcode.com/problems/maximum-size-subarray-sum-equals-k</a>
 </td>
           <td style="text-align: left">Medium</td>
       </tr>
       <tr>
-          <td style="text-align: left">Count Fertile Pyramids in a Land</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/count-fertile-pyramids-in-a-land" target="_blank">https://leetcode.com/problems/count-fertile-pyramids-in-a-land</a>
+          <td style="text-align: left">Shortest Subarray with Sum at Least K</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k" target="_blank">https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k</a>
 </td>
           <td style="text-align: left">Hard</td>
       </tr>
@@ -788,17 +806,13 @@ Total number of squares = 6 + 1 = <b>7</b>.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3097 Shortest Subarray With OR at Least K II </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2924-find-champion-ii/">
+    <a class="next" href="/blog/leetcode-potd/problem-1277-count-square-submatrices-with-all-ones/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2924 Find Champion II </span>
+      <span> Problem 1277 Count Square Submatrices with All Ones </span>
     </a>
   
 </nav>
