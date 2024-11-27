@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2458 Height of Binary Tree After Subtree Removal Queries &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2458 Height of Binary Tree After Subtree Removal Queries &middot; The Indian Engineer" />
+  <title>Problem 3133 Minimum Array End &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3133 Minimum Array End &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, tree, depth-first search, breadth-first search, binary tree, bfs, dfs, binary-tree, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/" />
+  <meta name="keywords" content="bit manipulation, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3133-minimum-array-end/" />
 
   
 
@@ -82,26 +82,21 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3133-minimum-array-end/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2458 Height of Binary Tree After Subtree Removal Queries">
+  <meta property="og:title" content="Problem 3133 Minimum Array End">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-27T09:59:50+05:30">
-    <meta property="article:modified_time" content="2024-11-27T09:59:50+05:30">
-    <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Tree">
-    <meta property="article:tag" content="Depth-First Search">
-    <meta property="article:tag" content="Breadth-First Search">
-    <meta property="article:tag" content="Bfs">
-    <meta property="article:tag" content="Dfs">
+    <meta property="article:published_time" content="2024-11-27T10:11:36+05:30">
+    <meta property="article:modified_time" content="2024-11-27T10:11:36+05:30">
+    <meta property="article:tag" content="Bit-Manipulation">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2458 Height of Binary Tree After Subtree Removal Queries">
+  <meta name="twitter:title" content="Problem 3133 Minimum Array End">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -395,7 +390,7 @@
 
 
 
-<h1 class="pg-title">Problem 2458 Height of Binary Tree After Subtree Removal Queries</h1>
+<h1 class="pg-title">Problem 3133 Minimum Array End</h1>
 
 
 <div class="meta">
@@ -415,7 +410,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-27T09:59:50&#43;05:30">Nov 27, 2024</time>
+  Posted on <time datetime="2024-11-27T10:11:36&#43;05:30">Nov 27, 2024</time>
   
   
   
@@ -432,7 +427,7 @@
 
 </span>
   
-    5 mins
+    4 mins
   
 
 
@@ -449,19 +444,7 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/array/">Array</a>
-  
-  <a class="tag" href="/blog/tags/tree/">Tree</a>
-  
-  <a class="tag" href="/blog/tags/depth-first-search/">Depth-First Search</a>
-  
-  <a class="tag" href="/blog/tags/breadth-first-search/">Breadth-First Search</a>
-  
-  <a class="tag" href="/blog/tags/bfs/">Bfs</a>
-  
-  <a class="tag" href="/blog/tags/dfs/">Dfs</a>
-  
-  <a class="tag" href="/blog/tags/binary-tree/">Binary-Tree</a>
+  <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
   
 </p>
 
@@ -494,7 +477,6 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
-        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -518,7 +500,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/" target="_blank">Problem 2458</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/minimum-array-end/" target="_blank">Problem 3133</a>
 </p>
 
 <h2 id="question">
@@ -532,48 +514,27 @@
  </a>
   
 </h2>
-<p>You are given the <code>root</code> of a <strong>binary tree</strong> with <code>n</code> nodes. Each node is assigned a unique value from <code>1</code> to <code>n</code>. You are also given an array <code>queries</code> of size <code>m</code>.</p>
-<p>You have to perform <code>m</code> <strong>independent</strong> queries on the tree where in the <code>i<sup>th</sup></code> query you do the following:</p>
-<ul>
-	<li><strong>Remove</strong> the subtree rooted at the node with the value <code>queries[i]</code> from the tree. It is <strong>guaranteed</strong> that <code>queries[i]</code> will <strong>not</strong> be equal to the value of the root.</li>
-</ul>
-<p>Return <em>an array </em><code>answer</code><em> of size </em><code>m</code><em> where </em><code>answer[i]</code><em> is the height of the tree after performing the </em><code>i<sup>th</sup></code><em> query</em>.</p>
-<p><strong>Note</strong>:</p>
-<ul>
-	<li>The queries are independent, so the tree returns to its <strong>initial</strong> state after each query.</li>
-	<li>The height of a tree is the <strong>number of edges in the longest simple path</strong> from the root to some node in the tree.</li>
-</ul>
+<p>You are given two integers <code>n</code> and <code>x</code>. You have to construct an array of <strong>positive</strong> integers <code>nums</code> of size <code>n</code> where for every <code>0 &lt;= i &lt; n - 1</code>, <code>nums[i + 1]</code> is <strong>greater than</strong> <code>nums[i]</code>, and the result of the bitwise <code>AND</code> operation between all elements of <code>nums</code> is <code>x</code>.</p>
+<p>Return the <strong>minimum</strong> possible value of <code>nums[n - 1]</code>.</p>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2022/09/07/binaryytreeedrawio-1.png" style="width: 495px; height: 281px;" />
-<pre>
-<strong>Input:</strong> root = [1,3,4,2,null,6,5,null,null,null,null,null,7], queries = [4]
-<strong>Output:</strong> [2]
-<strong>Explanation:</strong> The diagram above shows the tree after removing the subtree rooted at node with value 4.
-The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">n = 3, x = 4</span></p>
+<p><strong>Output:</strong> <span class="example-io">6</span></p>
+<p><strong>Explanation:</strong></p>
+<p><code>nums</code> can be <code>[4,5,6]</code> and its last element is 6.</p>
+</div>
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2022/09/07/binaryytreeedrawio-2.png" style="width: 301px; height: 284px;" />
-<pre>
-<strong>Input:</strong> root = [5,8,9,2,1,3,7,4,6], queries = [3,2,4,8]
-<strong>Output:</strong> [3,2,3,2]
-<strong>Explanation:</strong> We have the following queries:
-- Removing the subtree rooted at node with value 3. The height of the tree becomes 3 (The path 5 -&gt; 8 -&gt; 2 -&gt; 4).
-- Removing the subtree rooted at node with value 2. The height of the tree becomes 2 (The path 5 -&gt; 8 -&gt; 1).
-- Removing the subtree rooted at node with value 4. The height of the tree becomes 3 (The path 5 -&gt; 8 -&gt; 2 -&gt; 6).
-- Removing the subtree rooted at node with value 8. The height of the tree becomes 2 (The path 5 -&gt; 9 -&gt; 3).
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">n = 2, x = 7</span></p>
+<p><strong>Output:</strong> <span class="example-io">15</span></p>
+<p><strong>Explanation:</strong></p>
+<p><code>nums</code> can be <code>[7,15]</code> and its last element is 15.</p>
+</div>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li>The number of nodes in the tree is <code>n</code>.</li>
-	<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= Node.val &lt;= n</code></li>
-	<li>All the values in the tree are <strong>unique</strong>.</li>
-	<li><code>m == queries.length</code></li>
-	<li><code>1 &lt;= m &lt;= min(n, 10<sup>4</sup>)</code></li>
-	<li><code>1 &lt;= queries[i] &lt;= n</code></li>
-	<li><code>queries[i] != root.val</code></li>
+	<li><code>1 &lt;= n, x &lt;= 10<sup>8</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -589,43 +550,14 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> maxHeightAfterRemoval;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> currentMaxHeight <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> minEnd(<span style="color:#66d9ef">int</span> n, <span style="color:#66d9ef">int</span> x) {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> treeQueries(TreeNode<span style="color:#f92672">*</span> root, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> queries) {
-</span></span><span style="display:flex;"><span>        maxHeightAfterRemoval.resize(<span style="color:#ae81ff">100001</span>);
-</span></span><span style="display:flex;"><span>        traverseLeftToRight(root, <span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>        currentMaxHeight <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        traverseRightToLeft(root, <span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> queryCount <span style="color:#f92672">=</span> queries.size();
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> queryResults(queryCount);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> queryCount; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            queryResults[i] <span style="color:#f92672">=</span> maxHeightAfterRemoval[queries[i]];
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> res <span style="color:#f92672">=</span> x;
+</span></span><span style="display:flex;"><span>        n<span style="color:#f92672">=</span>n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(n<span style="color:#f92672">--</span>){
+</span></span><span style="display:flex;"><span>            res <span style="color:#f92672">=</span> (res<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">|</span>x;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> queryResults;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> traverseLeftToRight(TreeNode<span style="color:#f92672">*</span> node, <span style="color:#66d9ef">int</span> currentHeight) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (node <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        maxHeightAfterRemoval[node<span style="color:#f92672">-&gt;</span>val] <span style="color:#f92672">=</span> currentMaxHeight;
-</span></span><span style="display:flex;"><span>        currentMaxHeight <span style="color:#f92672">=</span> max(currentMaxHeight, currentHeight);
-</span></span><span style="display:flex;"><span>        traverseLeftToRight(node<span style="color:#f92672">-&gt;</span>left, currentHeight <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>        traverseLeftToRight(node<span style="color:#f92672">-&gt;</span>right, currentHeight <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">traverseRightToLeft</span>(TreeNode<span style="color:#f92672">*</span> node, <span style="color:#66d9ef">int</span> currentHeight) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (node <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        maxHeightAfterRemoval[node<span style="color:#f92672">-&gt;</span>val] <span style="color:#f92672">=</span> max(maxHeightAfterRemoval[node<span style="color:#f92672">-&gt;</span>val], currentMaxHeight);
-</span></span><span style="display:flex;"><span>        currentMaxHeight <span style="color:#f92672">=</span> max(currentHeight, currentMaxHeight);
-</span></span><span style="display:flex;"><span>        traverseRightToLeft(node<span style="color:#f92672">-&gt;</span>right, currentHeight <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>        traverseRightToLeft(node<span style="color:#f92672">-&gt;</span>left, currentHeight <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -640,9 +572,9 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                                                                            | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ---------------------------------------------------------------------------------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Depth-First Search traversal with a post-order and then a post-order with a reverse hierarchy access | O(n)            | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                  | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| -------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Bit-manipulation traversal | O(n)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -668,13 +600,13 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
   
 </h3>
 <ul>
-<li>The problem requires finding the height of a binary tree after removing a subtree rooted at a given node.</li>
-<li>To solve this, we can use a two-pass approach: one pass from left to right and another from right to left.</li>
-<li>During the left-to-right pass, we update the maximum height of the tree after removing each node.</li>
-<li>During the right-to-left pass, we update the maximum height of the tree after removing each node, considering the maximum height of the right subtree.</li>
-<li>This approach ensures that we consider all possible removals and their effects on the tree height.</li>
-<li>By using this two-pass approach, we can efficiently calculate the height of the tree after removing each node.</li>
-<li>This solution works because it considers all possible removals and their effects on the tree height.</li>
+<li>The problem requires constructing an array of positive integers where each element is greater than the previous one, and the bitwise AND of all elements is x.</li>
+<li>To minimize the last element of the array, we should start with x and increment it by the smallest possible amount in each step.</li>
+<li>Since the bitwise AND of all elements must be x, we can&rsquo;t change the bits that are set in x.</li>
+<li>The key insight is to use the bitwise OR operation to set the bits that are not set in x, which allows us to increment the number while keeping the bitwise AND unchanged.</li>
+<li>This approach works because the bitwise OR operation sets a bit to 1 if either of the corresponding bits in the operands is 1.</li>
+<li>By using the bitwise OR operation with x, we ensure that the bitwise AND of all elements remains x.</li>
+<li>This solution has a time complexity of O(n) because we perform a constant amount of work in each iteration of the while loop.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -689,13 +621,11 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
   
 </h3>
 <ul>
-<li>We start by initializing a vector <code>maxHeightAfterRemoval</code> to store the maximum height of the tree after removing each node.</li>
-<li>We define two helper functions: <code>traverseLeftToRight</code> and <code>traverseRightToLeft</code>, to perform the two passes.</li>
-<li>In <code>traverseLeftToRight</code>, we update <code>maxHeightAfterRemoval</code> with the current maximum height and recursively traverse the left and right subtrees.</li>
-<li>In <code>traverseRightToLeft</code>, we update <code>maxHeightAfterRemoval</code> with the maximum of the current value and the current maximum height, and recursively traverse the right and left subtrees.</li>
-<li>We use <code>currentMaxHeight</code> to keep track of the maximum height of the tree after removing each node.</li>
-<li>We iterate over the queries and return the corresponding values from <code>maxHeightAfterRemoval</code>.</li>
-<li>We use <code>max</code> to update <code>currentMaxHeight</code> and <code>maxHeightAfterRemoval</code> with the maximum values.</li>
+<li>The function <code>minEnd</code> takes two integers <code>n</code> and <code>x</code> as input and returns the minimum possible value of the last element in the array.</li>
+<li>We initialize the result <code>res</code> to <code>x</code> and decrement <code>n</code> by 1 because we don&rsquo;t need to consider the first element separately.</li>
+<li>The while loop iterates <code>n</code> times, and in each iteration, we update <code>res</code> to be the bitwise OR of <code>res + 1</code> and <code>x</code> using the expression <code>(res+1)|x</code>.</li>
+<li>This expression sets the bits in <code>res</code> that are not set in <code>x</code> to 1, effectively incrementing <code>res</code> by the smallest possible amount.</li>
+<li>After the loop, <code>res</code> contains the minimum possible value of the last element in the array, which we return as the result.</li>
 </ul>
 <hr>
 
@@ -723,9 +653,9 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
   
 </h3>
 <ul>
-<li>The given algorithm performs two depth-first search (DFS) traversals: <code>traverseLeftToRight</code> and <code>traverseRightToLeft</code>, each visiting every node in the binary tree exactly once.</li>
-<li>Within each traversal, the dominant operations are the recursive calls (<code>traverseLeftToRight(node-&gt;left, currentHeight + 1)</code> and <code>traverseRightToLeft(node-&gt;right, currentHeight + 1)</code>) and comparisons (<code>max(currentMaxHeight, currentHeight)</code> and <code>max(maxHeightAfterRemoval[node-&gt;val], currentMaxHeight)</code>). These operations occur once per node, resulting in a total of O(n) operations for all nodes combined.</li>
-<li>Given that both traversals visit every node once, and the operations within the traversals do not repeat, the time complexity is O(n), where n represents the number of nodes in the binary tree.</li>
+<li>The loop <code>while(n--)</code> executes n times, which directly influences the time complexity.</li>
+<li>Within the loop, the operations <code>res = (res+1)|x</code> perform constant-time bit manipulation and addition.</li>
+<li>Since the loop executes n times, the overall time complexity is linear, classified as O(n). In both worst-case and best-case scenarios, the loop executes n times.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -740,9 +670,9 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
   
 </h3>
 <ul>
-<li>The primary memory usage comes from the recursive call stack, which can reach a maximum depth of O(h), where h represents the height of the binary tree.</li>
-<li>However, due to the possibility that the binary tree can be skewed, representing an edge case where O(h) equals O(n), the maximum space complexity is O(n).</li>
-<li>Additional memory is used by the vectors (<code>maxHeightAfterRemoval</code> and <code>queryResults</code>), both having a fixed size. Nonetheless, the space complexity is dominated by the recursive call stack, maintaining an overall space complexity of O(n)</li>
+<li>The algorithm only uses a constant amount of space, storing variables <code>res</code>, <code>n</code>, and <code>x</code> in memory.</li>
+<li>The loop does not create any data structures that grow with the input size n.</li>
+<li>As a result, the space complexity is constant, classified as O(1), regardless of the input size n.</li>
 </ul>
 <hr>
 
@@ -758,7 +688,7 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
   
 </h3>
 <blockquote>
-<p>This question is rated as <strong>Hard</strong> difficulty.</p>
+<p>This question is rated as <strong>Medium</strong> difficulty.</p>
 </blockquote>
 
 <h4 id="hints">
@@ -773,41 +703,14 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
   
 </h4>
 <blockquote>
-<p>Try pre-computing the answer for each node from 1 to n, and answer each query in O(1).</p>
+<p>Each element of the array should be obtained by “merging” <code>x</code> and <code>v</code> where <code>v = 0, 1, 2, …(n - 1)</code>.</p>
 </blockquote>
 <blockquote>
-<p>The answers can be precomputed in a single tree traversal after computing the height of each subtree.</p>
+<p>To merge <code>x</code> with another number <code>v</code>, keep the set bits of <code>x</code> untouched, for all the other bits, fill the set bits of <code>v</code> from right to left in order one by one.</p>
 </blockquote>
-<hr>
-
-<h3 id="similar-questions">
-  Similar Questions:
-  
-  <a hidden class="anchor" href="#similar-questions">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Title</th>
-          <th style="text-align: left">URL</th>
-          <th style="text-align: left">Difficulty</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Maximum Depth of Binary Tree</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree" target="_blank">https://leetcode.com/problems/maximum-depth-of-binary-tree</a>
-</td>
-          <td style="text-align: left">Easy</td>
-      </tr>
-  </tbody>
-</table>
+<blockquote>
+<p>So the final answer is the “merge” of <code>x</code> and <code>n - 1</code>.</p>
+</blockquote>
 
 
 
@@ -821,17 +724,13 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-3133-minimum-array-end/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3133 Minimum Array End </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/">
+    <a class="next" href="/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3097 Shortest Subarray With OR at Least K II </span>
+      <span> Problem 2458 Height of Binary Tree After Subtree Removal Queries </span>
     </a>
   
 </nav>
