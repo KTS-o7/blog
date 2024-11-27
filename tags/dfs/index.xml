@@ -6,8 +6,15 @@
     <description>Recent content in Dfs on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Oct 2024 11:25:48 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 09:59:50 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 2458 Height of Binary Tree After Subtree Removal Queries</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</link>
+      <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 951 Flip Equivalent Binary Trees</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/</link>

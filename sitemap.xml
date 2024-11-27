@@ -2,18 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
-    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
-    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
+    <loc>https://KTS-o7.github.io/blog/tags/bfs/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/binary-tree/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/breadth-first-search/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/depth-first-search/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/dfs/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/tree/</loc>
+    <lastmod>2024-11-27T09:59:50+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/bit-manipulation/</loc>
     <lastmod>2024-11-27T09:21:55+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -26,18 +80,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/sliding-window/</loc>
-    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-11-27T09:21:55+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
     <lastmod>2024-11-27T09:21:55+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -75,12 +117,6 @@
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2924-find-champion-ii/</loc>
     <lastmod>2024-11-26T16:26:43+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/breadth-first-search/</loc>
-    <lastmod>2024-11-25T17:14:09+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -235,18 +271,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/binary-tree/</loc>
-    <lastmod>2024-10-24T11:25:48+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/dfs/</loc>
-    <lastmod>2024-10-24T11:25:48+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/</loc>
     <lastmod>2024-10-24T11:25:48+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -267,12 +291,6 @@
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/</loc>
     <lastmod>2024-10-23T22:27:57+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/bfs/</loc>
-    <lastmod>2024-10-22T20:50:55+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -686,12 +704,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-590-n-ary-tree-postorder-traversal/</loc>
-    <lastmod>2024-08-26T10:27:00+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/tree/</loc>
     <lastmod>2024-08-26T10:27:00+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

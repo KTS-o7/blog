@@ -6,13 +6,55 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2024 09:21:55 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 09:59:50 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Wed, 27 Nov 2024 09:21:55 +0530</pubDate>
+      <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bfs</title>
+      <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
+      <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Binary-Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
+      <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breadth-First Search</title>
+      <link>https://KTS-o7.github.io/blog/tags/breadth-first-search/</link>
+      <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/breadth-first-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Depth-First Search</title>
+      <link>https://KTS-o7.github.io/blog/tags/depth-first-search/</link>
+      <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/depth-first-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dfs</title>
+      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
+      <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tree</title>
+      <link>https://KTS-o7.github.io/blog/tags/tree/</link>
+      <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/tree/</guid>
       <description></description>
     </item>
     <item>
@@ -55,13 +97,6 @@
       <link>https://KTS-o7.github.io/blog/tags/graph/</link>
       <pubDate>Tue, 26 Nov 2024 16:26:43 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/graph/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Breadth-First Search</title>
-      <link>https://KTS-o7.github.io/blog/tags/breadth-first-search/</link>
-      <pubDate>Mon, 25 Nov 2024 17:14:09 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/breadth-first-search/</guid>
       <description></description>
     </item>
     <item>
@@ -163,20 +198,6 @@
       <description></description>
     </item>
     <item>
-      <title>Binary-Tree</title>
-      <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
-      <pubDate>Thu, 24 Oct 2024 11:25:48 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/binary-tree/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dfs</title>
-      <link>https://KTS-o7.github.io/blog/tags/dfs/</link>
-      <pubDate>Thu, 24 Oct 2024 11:25:48 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/dfs/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Recursion</title>
       <link>https://KTS-o7.github.io/blog/tags/recursion/</link>
       <pubDate>Thu, 24 Oct 2024 11:25:48 +0530</pubDate>
@@ -188,13 +209,6 @@
       <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
       <pubDate>Wed, 23 Oct 2024 22:27:57 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bfs</title>
-      <link>https://KTS-o7.github.io/blog/tags/bfs/</link>
-      <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/bfs/</guid>
       <description></description>
     </item>
     <item>
@@ -412,13 +426,6 @@
       <link>https://KTS-o7.github.io/blog/tags/recursive/</link>
       <pubDate>Mon, 26 Aug 2024 21:43:05 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/recursive/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tree</title>
-      <link>https://KTS-o7.github.io/blog/tags/tree/</link>
-      <pubDate>Mon, 26 Aug 2024 10:27:00 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/tree/</guid>
       <description></description>
     </item>
     <item>
