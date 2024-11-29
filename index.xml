@@ -6,8 +6,15 @@
     <description>Recent content on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Nov 2024 12:31:26 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2024 12:34:23 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 2641 Cousins in Binary Tree II</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</link>
+      <pubDate>Fri, 29 Nov 2024 12:34:23 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 2406 Divide Intervals Into Minimum Number of Groups</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
