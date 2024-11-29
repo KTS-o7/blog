@@ -6,8 +6,15 @@
     <description>Recent content in Leetcode POTDs on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2024 10:14:15 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2024 12:27:54 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/leetcode-potd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1957 Delete Characters to Make Fancy String</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1957-delete-characters-to-make-fancy-string/</link>
+      <pubDate>Fri, 29 Nov 2024 12:27:54 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1957-delete-characters-to-make-fancy-string/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 1233 Remove Sub-Folders from the Filesystem</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</link>
