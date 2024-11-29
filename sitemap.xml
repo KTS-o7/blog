@@ -1,8 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/greedy/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/heap/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
-    <lastmod>2024-11-29T12:27:54+05:30</lastmod>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/prefix-sum/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/priority-queue/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/sorting/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/two-pointers/</loc>
+    <lastmod>2024-11-29T12:31:26+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -15,24 +75,6 @@
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
     <lastmod>2024-11-29T12:27:54+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-11-29T12:27:54+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-11-29T12:27:54+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
-    <lastmod>2024-11-27T10:14:15+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -199,12 +241,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/two-pointers/</loc>
-    <lastmod>2024-11-25T14:41:40+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1652-defuse-the-bomb/</loc>
     <lastmod>2024-11-25T12:35:06+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -307,12 +343,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/greedy/</loc>
-    <lastmod>2024-10-23T22:27:57+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/</loc>
     <lastmod>2024-10-23T22:27:57+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -320,12 +350,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/level-order-traversal/</loc>
-    <lastmod>2024-10-22T20:50:55+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/priority-queue/</loc>
     <lastmod>2024-10-22T20:50:55+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -386,12 +410,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-729-my-calendar-i/</loc>
-    <lastmod>2024-09-26T22:13:02+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/sorting/</loc>
     <lastmod>2024-09-26T22:13:02+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -483,12 +501,6 @@
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/range-query/</loc>
     <lastmod>2024-09-14T14:57:52+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/prefix-sum/</loc>
-    <lastmod>2024-09-13T10:33:51+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -860,12 +872,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/class/</loc>
-    <lastmod>2024-08-12T10:08:40+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/heap/</loc>
     <lastmod>2024-08-12T10:08:40+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

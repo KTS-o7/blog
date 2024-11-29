@@ -6,8 +6,15 @@
     <description>Recent content in Prefix-Sum on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Sep 2024 10:33:51 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2024 12:31:26 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/prefix-sum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 2406 Divide Intervals Into Minimum Number of Groups</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
+      <pubDate>Fri, 29 Nov 2024 12:31:26 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 1310 XOR Queries of a Subarray</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</link>
