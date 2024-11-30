@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2516 Take K of Each Character From Left and Right &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2516 Take K of Each Character From Left and Right &middot; The Indian Engineer" />
+  <title>Problem 3208 Alternating Groups II &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3208 Alternating Groups II &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="hash table, string, sliding window, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2516-take-k-of-each-character-from-left-and-right/" />
+  <meta name="keywords" content="array, sliding window, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3208-alternating-groups-ii/" />
 
   
 
@@ -82,23 +82,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2516-take-k-of-each-character-from-left-and-right/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3208-alternating-groups-ii/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2516 Take K of Each Character From Left and Right">
+  <meta property="og:title" content="Problem 3208 Alternating Groups II">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-11-30T11:12:04+05:30">
-    <meta property="article:modified_time" content="2024-11-30T11:12:04+05:30">
-    <meta property="article:tag" content="Hash-Table">
-    <meta property="article:tag" content="String">
+    <meta property="article:published_time" content="2024-11-30T11:15:06+05:30">
+    <meta property="article:modified_time" content="2024-11-30T11:15:06+05:30">
+    <meta property="article:tag" content="Array">
     <meta property="article:tag" content="Sliding Window">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2516 Take K of Each Character From Left and Right">
+  <meta name="twitter:title" content="Problem 3208 Alternating Groups II">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +391,7 @@
 
 
 
-<h1 class="pg-title">Problem 2516 Take K of Each Character From Left and Right</h1>
+<h1 class="pg-title">Problem 3208 Alternating Groups II</h1>
 
 
 <div class="meta">
@@ -412,7 +411,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-11-30T11:12:04&#43;05:30">Nov 30, 2024</time>
+  Posted on <time datetime="2024-11-30T11:15:06&#43;05:30">Nov 30, 2024</time>
   
   
   
@@ -429,7 +428,7 @@
 
 </span>
   
-    6 mins
+    5 mins
   
 
 
@@ -446,9 +445,7 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
-  
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
   
   <a class="tag" href="/blog/tags/sliding-window/">Sliding Window</a>
   
@@ -484,7 +481,6 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
-        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -508,7 +504,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/" target="_blank">Problem 2516</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/alternating-groups-ii/" target="_blank">Problem 3208</a>
 </p>
 
 <h2 id="question">
@@ -522,31 +518,46 @@
  </a>
   
 </h2>
-<p>You are given a string <code>s</code> consisting of the characters <code>&#39;a&#39;</code>, <code>&#39;b&#39;</code>, and <code>&#39;c&#39;</code> and a non-negative integer <code>k</code>. Each minute, you may take either the <strong>leftmost</strong> character of <code>s</code>, or the <strong>rightmost</strong> character of <code>s</code>.</p>
-<p>Return<em> the <strong>minimum</strong> number of minutes needed for you to take <strong>at least</strong> </em><code>k</code><em> of each character, or return </em><code>-1</code><em> if it is not possible to take </em><code>k</code><em> of each character.</em></p>
+<p>There is a circle of red and blue tiles. You are given an array of integers <code>colors</code> and an integer <code>k</code>. The color of tile <code>i</code> is represented by <code>colors[i]</code>:</p>
+<ul>
+	<li><code>colors[i] == 0</code> means that tile <code>i</code> is <strong>red</strong>.</li>
+	<li><code>colors[i] == 1</code> means that tile <code>i</code> is <strong>blue</strong>.</li>
+</ul>
+<p>An <strong>alternating</strong> group is every <code>k</code> contiguous tiles in the circle with <strong>alternating</strong> colors (each tile in the group except the first and last one has a different color from its <strong>left</strong> and <strong>right</strong> tiles).</p>
+<p>Return the number of <strong>alternating</strong> groups.</p>
+<p><strong>Note</strong> that since <code>colors</code> represents a <strong>circle</strong>, the <strong>first</strong> and the <strong>last</strong> tiles are considered to be next to each other.</p>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<pre>
-<strong>Input:</strong> s = &quot;aabaaaacaabc&quot;, k = 2
-<strong>Output:</strong> 8
-<strong>Explanation:</strong> 
-Take three characters from the left of s. You now have two &#39;a&#39; characters, and one &#39;b&#39; character.
-Take five characters from the right of s. You now have four &#39;a&#39; characters, two &#39;b&#39; characters, and two &#39;c&#39; characters.
-A total of 3 + 5 = 8 minutes is needed.
-It can be proven that 8 is the minimum number of minutes needed.
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">colors = [0,1,0,1,0], k = 3</span></p>
+<p><strong>Output:</strong> <span class="example-io">3</span></p>
+<p><strong>Explanation:</strong></p>
+<p><strong><img alt="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" src="https://assets.leetcode.com/uploads/2024/06/19/screenshot-2024-05-28-183519.png" style="width: 150px; height: 150px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor: #181a1b;" /></strong></p>
+<p>Alternating groups:</p>
+<p><img alt="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" src="https://assets.leetcode.com/uploads/2024/05/28/screenshot-2024-05-28-182448.png" style="width: 150px; height: 150px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor: #181a1b;" /><img alt="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" src="https://assets.leetcode.com/uploads/2024/05/28/screenshot-2024-05-28-182844.png" style="width: 150px; height: 150px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor: #181a1b;" /><img alt="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" src="https://assets.leetcode.com/uploads/2024/05/28/screenshot-2024-05-28-183057.png" style="width: 150px; height: 150px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor: #181a1b;" /></p>
+</div>
 <p><strong class="example">Example 2:</strong></p>
-<pre>
-<strong>Input:</strong> s = &quot;a&quot;, k = 1
-<strong>Output:</strong> -1
-<strong>Explanation:</strong> It is not possible to take one &#39;b&#39; or &#39;c&#39; so return -1.
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">colors = [0,1,0,0,1,0,1], k = 6</span></p>
+<p><strong>Output:</strong> <span class="example-io">2</span></p>
+<p><strong>Explanation:</strong></p>
+<p><strong><img alt="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" src="https://assets.leetcode.com/uploads/2024/06/19/screenshot-2024-05-28-183907.png" style="width: 150px; height: 150px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor: #181a1b;" /></strong></p>
+<p>Alternating groups:</p>
+<p><img alt="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" src="https://assets.leetcode.com/uploads/2024/06/19/screenshot-2024-05-28-184128.png" style="width: 150px; height: 150px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor: #181a1b;" /><img alt="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" src="https://assets.leetcode.com/uploads/2024/06/19/screenshot-2024-05-28-184240.png" style="width: 150px; height: 150px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor: #181a1b;" /></p>
+</div>
+<p><strong class="example">Example 3:</strong></p>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">colors = [1,1,0,1], k = 4</span></p>
+<p><strong>Output:</strong> <span class="example-io">0</span></p>
+<p><strong>Explanation:</strong></p>
+<p><img alt="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" src="https://assets.leetcode.com/uploads/2024/06/19/screenshot-2024-05-28-184516.png" style="width: 150px; height: 150px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor: #181a1b;" /></p>
+</div>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> consists of only the letters <code>&#39;a&#39;</code>, <code>&#39;b&#39;</code>, and <code>&#39;c&#39;</code>.</li>
-	<li><code>0 &lt;= k &lt;= s.length</code></li>
+	<li><code>3 &lt;= colors.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= colors[i] &lt;= 1</code></li>
+	<li><code>3 &lt;= k &lt;= colors.length</code></li>
 </ul>
 
 <h2 id="solution">
@@ -562,34 +573,21 @@ It can be proven that 8 is the minimum number of minutes needed.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> takeCharacters(string s, <span style="color:#66d9ef">int</span> k) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> count(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> s.length();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> numberOfAlternatingGroups(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> colors, <span style="color:#66d9ef">int</span> k) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> k <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; <span style="color:#f92672">++</span>i)
+</span></span><span style="display:flex;"><span>            colors.push_back(colors[i]);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> res <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> cnt <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> colors.size(); <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (colors[i] <span style="color:#f92672">!=</span> colors[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">++</span>cnt;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>                cnt <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">char</span> c : s) {
-</span></span><span style="display:flex;"><span>            count[c <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (cnt <span style="color:#f92672">&gt;=</span> k)
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">++</span>res;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (count[i] <span style="color:#f92672">&lt;</span> k)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> window(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, max_window <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; right <span style="color:#f92672">&lt;</span> n; right<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            window[s[right] <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>]<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (left <span style="color:#f92672">&lt;=</span> right <span style="color:#f92672">&amp;&amp;</span> (count[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">-</span> window[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;</span> k <span style="color:#f92672">||</span> count[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">-</span> window[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&lt;</span> k <span style="color:#f92672">||</span> count[<span style="color:#ae81ff">2</span>] <span style="color:#f92672">-</span> window[<span style="color:#ae81ff">2</span>] <span style="color:#f92672">&lt;</span> k)) {
-</span></span><span style="display:flex;"><span>                window[s[left] <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>]<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>                left<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            max_window <span style="color:#f92672">=</span> max(max_window, right <span style="color:#f92672">-</span> left <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> n <span style="color:#f92672">-</span> max_window;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -604,9 +602,9 @@ It can be proven that 8 is the minimum number of minutes needed.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                        | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| -------------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Sliding Window with Two Pointers | O(n)            | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                      | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ---------------------------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Modded Sliding Window Enumeration and Counting | O(n)            | O(k)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -631,7 +629,7 @@ It can be proven that 8 is the minimum number of minutes needed.
  </a>
   
 </h4>
-<p>My initial thoughts on this problem revolve around identifying the characters at both ends of the string. This problem asks us to find the minimum number of minutes to get at least k of each character, so we need to think about the optimal strategy to take characters from both the left and right sides. I think about this like trying to solve a puzzle where we have to balance taking characters from both sides to minimize the total time. I also consider how choosing characters from one side affects our ability to get enough characters from the other side.</p>
+<p>To approach this problem, first understand that we have a circular arrangement of red and blue tiles. An alternating group is formed when k contiguous tiles have alternating colors. Since the arrangement is circular, we need to consider the last and first tiles as adjacent. Initially, we cannot directly analyze the given array because of its circular nature. We need to consider the given array as a non-circular array by either making a copy or adding the first elements again at the end of the array to make it look like the circle. Then, we can iterate through the array to check for alternating groups.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -644,7 +642,7 @@ It can be proven that 8 is the minimum number of minutes needed.
  </a>
   
 </h4>
-<p>Upon deeper analysis, I realize that my initial intuition about balancing the characters from both sides is key. By maintaining a sliding window that captures our total count of each character, we ensure we know exactly how many we have of each character. The key insight here is to understand that taking characters from the left and right sides affects the total number of characters we have. We should keep removing characters from the left until we have enough characters of each type. We need to consider the characters we cannot move to the left side without affecting our total count of characters, indicating that we cannot take less than a certain number of characters. We continuously update our maximum window count to find the minimum number of minutes needed.</p>
+<p>An intuitive way to solve this problem is to think of it as identifying a pattern in the array. To identify an alternating pattern, we can simply check for adjacent tiles with different colors. We can maintain a counter to keep track of the number of continuous alternating tiles we have seen so far. As soon as we encounter a tile with the same color as its previous one, we can reset the counter. We can then check if the counter is equal to or greater than k. If yes, we have identified an alternating group and increment our result.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -658,13 +656,13 @@ It can be proven that 8 is the minimum number of minutes needed.
   
 </h3>
 <ul>
-<li>The problem can be solved by finding the minimum window that contains at least k characters of each type.</li>
-<li>We can use a sliding window approach to find this minimum window.</li>
-<li>The key insight is to maintain a count of characters outside the window and ensure it&rsquo;s greater than or equal to k.</li>
-<li>If the count of any character outside the window is less than k, we need to expand the window.</li>
-<li>We can use two pointers, left and right, to represent the window and expand it accordingly.</li>
-<li>The minimum number of minutes needed is the total length of the string minus the maximum window size.</li>
-<li>This approach ensures we consider all possible windows and find the minimum one that satisfies the condition.</li>
+<li>The problem asks for the number of alternating groups in a circular array of red and blue tiles.</li>
+<li>To solve this problem, we can extend the given array by appending the first k-1 elements to the end.</li>
+<li>This allows us to treat the circular array as a linear array and simplify the problem.</li>
+<li>We can then iterate through the extended array and count the number of alternating groups.</li>
+<li>An alternating group is formed when we have k consecutive tiles with alternating colors.</li>
+<li>We can use a counter to keep track of the length of the current alternating group.</li>
+<li>When the counter reaches k, we increment the result and reset the counter.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -679,14 +677,14 @@ It can be proven that 8 is the minimum number of minutes needed.
   
 </h3>
 <ul>
-<li>Initialize a count array <code>count</code> to store the total count of each character in the string <code>s</code>.</li>
-<li>Use a for loop to iterate over the string <code>s</code> and update the count array <code>count</code>.</li>
-<li>Check if the count of any character is less than k and return -1 if true.</li>
-<li>Initialize a window array <code>window</code> to store the count of each character in the current window.</li>
-<li>Use two pointers, <code>left</code> and <code>right</code>, to represent the window and expand it accordingly.</li>
-<li>Use a while loop to check if the count of any character outside the window is less than k and expand the window if true.</li>
-<li>Update the maximum window size <code>max_window</code> accordingly.</li>
-<li>Return the total length of the string minus the maximum window size <code>max_window</code>.</li>
+<li>We start by extending the given array using a loop: <code>for (int i = 0; i &lt; k - 1; ++i) colors.push_back(colors[i]);</code></li>
+<li>We then initialize two variables: <code>res</code> to store the result and <code>cnt</code> to keep track of the length of the current alternating group.</li>
+<li>We iterate through the extended array using a loop: <code>for (int i = 1; i &lt; colors.size(); ++i)</code></li>
+<li>Inside the loop, we check if the current tile has a different color than the previous tile: <code>if (colors[i] != colors[i - 1])</code></li>
+<li>If the colors are different, we increment the counter: <code>++cnt;</code></li>
+<li>If the colors are the same, we reset the counter: <code>cnt = 1;</code></li>
+<li>We also check if the counter has reached k: <code>if (cnt &gt;= k)</code></li>
+<li>If it has, we increment the result: <code>++res;</code></li>
 </ul>
 <hr>
 
@@ -714,9 +712,9 @@ It can be proven that 8 is the minimum number of minutes needed.
   
 </h3>
 <ul>
-<li>The time complexity of this solution is O(n) due to the two main loops that iterate through the string s. The first loop counts the frequency of each character, while the second loop is the sliding window with two pointers.</li>
-<li>The dominant operations are the incrementing of count and window arrays, as well as the comparisons in the while loop.</li>
-<li>The justification for O(n) is that the number of operations grows linearly with the size of the input string n, as we only make a constant amount of operations for each character in the string.</li>
+<li>The time complexity of this algorithm is influenced by two key loops: <code>for (int i = 0; i &lt; k - 1; ++i)</code> and <code>for (int i = 1; i &lt; colors.size(); ++i)</code>. The first loop iterates <code>k - 1</code> times, resulting in O(k) complexity.</li>
+<li>However, since <code>colors.push_back(colors[i])</code> adds elements to the vector and makes the second loop&rsquo;s size dependent on <code>k</code>, the dominant operation becomes the iteration through the colors vector in the second loop.</li>
+<li>This gives us a linear time complexity because the two main loops together perform a total of <code>n + k - 1</code> operations, where <code>n</code> is the original number of colors.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -731,9 +729,9 @@ It can be proven that 8 is the minimum number of minutes needed.
   
 </h3>
 <ul>
-<li>The space complexity of this solution is O(1) as the space usage does not grow with the size of the input string.</li>
-<li>The only data structures used are the count and window arrays, both of size 3, which are constants.</li>
-<li>The justification for O(1) is that the memory usage remains constant regardless of the size of the input string n.</li>
+<li>The primary memory usage comes from the expansion of the <code>colors</code> vector by <code>k - 1</code> elements, done with <code>colors.push_back(colors[i])</code></li>
+<li>This expansion is done <code>k - 1</code> times, meaning the space used grows by a constant factor <code>k</code>, independent of the original vector size <code>n</code>.</li>
+<li>Given this modification to the original data, we deduce that the space complexity directly relates to the <code>k</code> factor since that defines how extensively the space is increased relative to the original <code>colors</code> size.</li>
 </ul>
 <hr>
 
@@ -764,56 +762,11 @@ It can be proven that 8 is the minimum number of minutes needed.
   
 </h4>
 <blockquote>
-<p>Start by counting the frequency of each character and checking if it is possible.</p>
+<p>Try to find a tile that has the same color as its next tile (if it exists).</p>
 </blockquote>
 <blockquote>
-<p>If you take x characters from the left side, what is the minimum number of characters you need to take from the right side? Find this for all values of x in the range 0 ≤ x ≤ s.length.</p>
+<p>Then try to find maximal alternating groups by starting a single for loop from that tile.</p>
 </blockquote>
-<blockquote>
-<p>Use a two-pointers approach to avoid computing the same information multiple times.</p>
-</blockquote>
-<hr>
-
-<h3 id="similar-questions">
-  Similar Questions:
-  
-  <a hidden class="anchor" href="#similar-questions">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Title</th>
-          <th style="text-align: left">URL</th>
-          <th style="text-align: left">Difficulty</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Merge Sorted Array</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/merge-sorted-array" target="_blank">https://leetcode.com/problems/merge-sorted-array</a>
-</td>
-          <td style="text-align: left">Easy</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Reorder List</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/reorder-list" target="_blank">https://leetcode.com/problems/reorder-list</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Defuse the Bomb</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/defuse-the-bomb" target="_blank">https://leetcode.com/problems/defuse-the-bomb</a>
-</td>
-          <td style="text-align: left">Easy</td>
-      </tr>
-  </tbody>
-</table>
 
 
 
@@ -827,17 +780,13 @@ It can be proven that 8 is the minimum number of minutes needed.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-3208-alternating-groups-ii/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3208 Alternating Groups II </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/">
+    <a class="next" href="/blog/leetcode-potd/problem-2516-take-k-of-each-character-from-left-and-right/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3243 Shortest Distance After Road Addition Queries I </span>
+      <span> Problem 2516 Take K of Each Character From Left and Right </span>
     </a>
   
 </nav>
