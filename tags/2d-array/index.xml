@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>2D-Array on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/2d-array/</link>
+    <link>http://localhost:1313/blog/tags/2d-array/</link>
     <description>Recent content in 2D-Array on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 May 2024 10:58:07 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/2d-array/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/2d-array/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 2373 Largest Local Values in a Matrix</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-largest-local-values-in-a-matrix/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-largest-local-values-in-a-matrix/</link>
       <pubDate>Sun, 12 May 2024 10:58:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-largest-local-values-in-a-matrix/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-largest-local-values-in-a-matrix/</guid>
       <description></description>
     </item>
   </channel>

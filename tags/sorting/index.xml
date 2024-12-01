@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sorting on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
+    <link>http://localhost:1313/blog/tags/sorting/</link>
     <description>Recent content in Sorting on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Dec 2024 15:22:09 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 1346 Check If N and Its Double Exist</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</link>
       <pubDate>Sun, 01 Dec 2024 15:22:09 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2406 Divide Intervals Into Minimum Number of Groups</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
       <pubDate>Fri, 29 Nov 2024 12:31:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 729 My Calendar I</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-729-my-calendar-i/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-729-my-calendar-i/</link>
       <pubDate>Thu, 26 Sep 2024 22:13:02 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-729-my-calendar-i/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-729-my-calendar-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1460 Make Two Arrays Equal by Reversing Subarrays</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</link>
       <pubDate>Thu, 19 Sep 2024 22:36:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3273 Minimum Amount of Damage Dealt to Bob</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/</link>
       <pubDate>Sun, 01 Sep 2024 16:34:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3273-minimum-amount-of-damage-dealt-to-bob/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 719 Find K Th Smallest Pair Distance</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</link>
       <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3016 Minimum Number of Pushes to Type Word II</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
       <pubDate>Tue, 06 Aug 2024 20:59:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1508 Range Sum of Sorted Subarray Sums</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</link>
       <pubDate>Sun, 04 Aug 2024 17:16:54 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-1508-range-sum-of-sorted-subarray-sums/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 912 Sort an Array</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-912-sort-an-array/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-912-sort-an-array/</link>
       <pubDate>Thu, 25 Jul 2024 12:20:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-912-sort-an-array/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-912-sort-an-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2191 Sort the Jumbled Number</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
       <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1636 Sort Array by Increasing Frequency</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</link>
       <pubDate>Tue, 23 Jul 2024 21:12:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2418 Sort the People</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2418-sort-the-people/</link>
       <pubDate>Mon, 22 Jul 2024 18:47:32 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2418-sort-the-people/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2418-sort-the-people/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1509 Minimum Difference Between Largest and Smallest Value in Three Moves</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</link>
       <pubDate>Wed, 03 Jul 2024 21:40:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-difference-between-largest-and-smallest-value-in-three-moves/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 350 Intersection of Two Arrays II</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</link>
       <pubDate>Tue, 02 Jul 2024 22:34:05 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-intersection-of-two-arrays-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2285 Maximum Total Importance of Roads</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</link>
       <pubDate>Fri, 28 Jun 2024 19:39:10 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-maximum-total-importance-of-roads/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 826 Most Profit Assigning Work</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-most-profit-assigning-work/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-most-profit-assigning-work/</link>
       <pubDate>Tue, 18 Jun 2024 20:52:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-most-profit-assigning-work/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-most-profit-assigning-work/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 945 Minimum Increment to Make Array Unique</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</link>
       <pubDate>Fri, 14 Jun 2024 21:23:14 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2037 Minimum Number of Moves to Seat Everyone</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</link>
       <pubDate>Thu, 13 Jun 2024 21:56:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 75 Sort Colors</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-sort-colors/</link>
       <pubDate>Wed, 12 Jun 2024 18:48:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-sort-colors/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1122 Relative Sort Array</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-sort-array/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-relative-sort-array/</link>
       <pubDate>Tue, 11 Jun 2024 14:35:44 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-sort-array/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-relative-sort-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1051 Height Checker</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-height-checker/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-height-checker/</link>
       <pubDate>Mon, 10 Jun 2024 21:19:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-height-checker/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-height-checker/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 846 Hand of Straights</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-hand-of-straights/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-hand-of-straights/</link>
       <pubDate>Thu, 06 Jun 2024 23:33:06 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-hand-of-straights/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-hand-of-straights/</guid>
       <description></description>
     </item>
   </channel>

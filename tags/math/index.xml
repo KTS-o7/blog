@@ -2,206 +2,206 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Math on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/math/</link>
+    <link>http://localhost:1313/blog/tags/math/</link>
     <description>Recent content in Math on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Oct 2024 13:56:40 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 2501 Longest Square Streak in an Array</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/</link>
       <pubDate>Mon, 28 Oct 2024 13:56:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 874 Walking Robot Simulation</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-874-walking-robot-simulation/</link>
       <pubDate>Tue, 24 Sep 2024 18:43:34 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-874-walking-robot-simulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3290 Maximum Multiplication Score</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3290-maximum-multiplication-score/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3290-maximum-multiplication-score/</link>
       <pubDate>Tue, 17 Sep 2024 11:40:37 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3290-maximum-multiplication-score/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3290-maximum-multiplication-score/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3289 the Two Sneaky Numbers of Digitville</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3289-the-two-sneaky-numbers-of-digitville/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3289-the-two-sneaky-numbers-of-digitville/</link>
       <pubDate>Sun, 15 Sep 2024 19:27:50 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3289-the-two-sneaky-numbers-of-digitville/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3289-the-two-sneaky-numbers-of-digitville/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3285 Find Indices of Stable Mountains</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</link>
       <pubDate>Sun, 15 Sep 2024 16:08:07 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2544 Alternating Digit Sum</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-2544-alternating-digit-sum/</link>
       <pubDate>Sun, 15 Sep 2024 16:00:34 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-2544-alternating-digit-sum/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2419 Longest Subarray With Maximum Bitwise AND</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</link>
       <pubDate>Sat, 14 Sep 2024 14:57:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2807 Insert Greatest Common Divisors in Linked List</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</link>
       <pubDate>Tue, 10 Sep 2024 09:14:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1945 Sum of Digits of String After Convert</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</link>
       <pubDate>Tue, 03 Sep 2024 13:14:25 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1894 Find the Student That Will Replace the Chalk</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</link>
       <pubDate>Mon, 02 Sep 2024 16:26:58 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-1894-find-the-student-that-will-replace-the-chalk/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3275 K Th Nearest Obstacle Queries</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</link>
       <pubDate>Sun, 01 Sep 2024 17:05:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3274 Check if Two Chessboard Squares Have the Same Color</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</link>
       <pubDate>Sun, 01 Sep 2024 16:56:04 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3264 Final Array State After K Multiplication Operations I</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</link>
       <pubDate>Sun, 25 Aug 2024 12:18:01 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 264 Ugly Number II</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-264-ugly-number-ii/</link>
       <pubDate>Sat, 24 Aug 2024 15:04:39 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-264-ugly-number-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 592 Fraction Addition and Subtraction</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
       <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 650 2 Keys Keyboard</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-650-2-keys-keyboard/</link>
       <pubDate>Mon, 19 Aug 2024 22:02:24 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-650-2-keys-keyboard/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-650-2-keys-keyboard/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3233 Find the Count of Numbers Which Are Not Special</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3233-find-the-count-of-numbers-which-are-not-special/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3233-find-the-count-of-numbers-which-are-not-special/</link>
       <pubDate>Mon, 29 Jul 2024 19:08:13 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3233-find-the-count-of-numbers-which-are-not-special/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3233-find-the-count-of-numbers-which-are-not-special/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3232 Find if Digit Game Can Be Won</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3232-find-if-digit-game-can-be-won/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3232-find-if-digit-game-can-be-won/</link>
       <pubDate>Mon, 29 Jul 2024 19:00:51 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3232-find-if-digit-game-can-be-won/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3232-find-if-digit-game-can-be-won/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 89 Gray Code</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-89-gray-code/</link>
       <pubDate>Thu, 25 Jul 2024 22:03:45 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-89-gray-code/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2191 Sort the Jumbled Number</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
       <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1598 Crawler Log Folder</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-crawler-log-folder/</link>
       <pubDate>Wed, 10 Jul 2024 21:35:27 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-crawler-log-folder/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1823 Find the Winner of the Circular Game</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-winner-of-the-circular-game/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-winner-of-the-circular-game/</link>
       <pubDate>Tue, 09 Jul 2024 00:39:33 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-winner-of-the-circular-game/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-winner-of-the-circular-game/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1518 Water Bottles</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-water-bottles/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-water-bottles/</link>
       <pubDate>Sun, 07 Jul 2024 17:59:47 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-water-bottles/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-water-bottles/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2582 Pass the Pillow</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-pass-the-pillow/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-pass-the-pillow/</link>
       <pubDate>Sat, 06 Jul 2024 16:45:27 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-pass-the-pillow/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-pass-the-pillow/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2058 Find the Minimum and Maximum Number of Nodes Between Critical Points</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</link>
       <pubDate>Fri, 05 Jul 2024 18:54:28 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 633 Sum of Square Numbers</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-sum-of-square-numbers/</link>
       <pubDate>Mon, 17 Jun 2024 18:55:17 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-square-numbers/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-sum-of-square-numbers/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 786 K th Smallest Prime Fraction</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</link>
       <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1137 Nth Tribonacci Number</title>
-      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-nth-tribonacci-number/</link>
+      <link>http://localhost:1313/blog/posts/previous-solutions/problem-nth-tribonacci-number/</link>
       <pubDate>Wed, 24 Apr 2024 13:45:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-nth-tribonacci-number/</guid>
+      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-nth-tribonacci-number/</guid>
       <description></description>
     </item>
   </channel>

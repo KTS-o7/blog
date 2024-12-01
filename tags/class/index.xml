@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Class on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/class/</link>
+    <link>http://localhost:1313/blog/tags/class/</link>
     <description>Recent content in Class on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Aug 2024 10:08:40 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/class/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/class/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 703 Kth Largest Element in a Stream</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</link>
       <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 284 Peeking Iterator</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-284-peeking-iterator/</link>
       <pubDate>Sat, 27 Jul 2024 18:37:52 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-284-peeking-iterator/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-284-peeking-iterator/</guid>
       <description></description>
     </item>
   </channel>

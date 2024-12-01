@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Breadth-First Search on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/breadth-first-search/</link>
+    <link>http://localhost:1313/blog/tags/breadth-first-search/</link>
     <description>Recent content in Breadth-First Search on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Nov 2024 10:50:26 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/breadth-first-search/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/breadth-first-search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 3243 Shortest Distance After Road Addition Queries I</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/</link>
       <pubDate>Sat, 30 Nov 2024 10:50:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2641 Cousins in Binary Tree II</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</link>
       <pubDate>Fri, 29 Nov 2024 12:34:23 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2458 Height of Binary Tree After Subtree Removal Queries</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</link>
       <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 773 Sliding Puzzle</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-773-sliding-puzzle/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-773-sliding-puzzle/</link>
       <pubDate>Mon, 25 Nov 2024 17:14:09 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-773-sliding-puzzle/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-773-sliding-puzzle/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Count on The Indian Engineer</title>
-    <link>https://KTS-o7.github.io/blog/tags/count/</link>
+    <link>http://localhost:1313/blog/tags/count/</link>
     <description>Recent content in Count on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Sep 2024 12:53:11 +0530</lastBuildDate>
-    <atom:link href="https://KTS-o7.github.io/blog/tags/count/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/count/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 884 Uncommon Words From Two Sentences</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</link>
       <pubDate>Tue, 17 Sep 2024 12:53:11 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1684 Count the Number of Consistent Strings</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
       <pubDate>Thu, 12 Sep 2024 11:38:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2220 Minimum Bit Flips to Convert Number</title>
-      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</link>
+      <link>http://localhost:1313/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</link>
       <pubDate>Wed, 11 Sep 2024 09:20:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</guid>
+      <guid>http://localhost:1313/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3265 Count Almost Equal Pairs I</title>
-      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</link>
+      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</link>
       <pubDate>Sun, 25 Aug 2024 12:33:25 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</guid>
+      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 128 Longest Consecutive Sequence</title>
-      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-128-longest-consecutive-sequence/</link>
+      <link>http://localhost:1313/blog/posts/extraques/problem-128-longest-consecutive-sequence/</link>
       <pubDate>Thu, 25 Jul 2024 21:47:34 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-128-longest-consecutive-sequence/</guid>
+      <guid>http://localhost:1313/blog/posts/extraques/problem-128-longest-consecutive-sequence/</guid>
       <description></description>
     </item>
   </channel>
