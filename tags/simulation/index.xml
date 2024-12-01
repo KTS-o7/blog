@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Simulation on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/simulation/</link>
+    <link>https://KTS-o7.github.io/blog/tags/simulation/</link>
     <description>Recent content in Simulation on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Sep 2024 18:43:34 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 874 Walking Robot Simulation</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-874-walking-robot-simulation/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</link>
       <pubDate>Tue, 24 Sep 2024 18:43:34 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-874-walking-robot-simulation/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2326 Spiral Matrix IV</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</link>
       <pubDate>Mon, 09 Sep 2024 12:43:46 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2022 Convert 1D Array to 2D Array</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</link>
       <pubDate>Sun, 01 Sep 2024 17:21:31 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3274 Check if Two Chessboard Squares Have the Same Color</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</link>
       <pubDate>Sun, 01 Sep 2024 16:56:04 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3274-check-if-two-chessboard-squares-have-the-same-color/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3238 Find the Number of Winning Players</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-3238-find-the-number-of-winning-players/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-3238-find-the-number-of-winning-players/</link>
       <pubDate>Wed, 21 Aug 2024 22:42:42 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-3238-find-the-number-of-winning-players/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-3238-find-the-number-of-winning-players/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1701 Average Waiting Time</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-average-waiting-time/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-average-waiting-time/</link>
       <pubDate>Tue, 09 Jul 2024 23:52:07 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-average-waiting-time/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-average-waiting-time/</guid>
       <description></description>
     </item>
   </channel>

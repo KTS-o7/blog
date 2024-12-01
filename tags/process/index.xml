@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Process on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/process/</link>
+    <link>https://KTS-o7.github.io/blog/tags/process/</link>
     <description>Recent content in Process on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Aug 2024 23:57:15 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/process/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Process vs Threads</title>
-      <link>http://localhost:1313/blog/core-subjects/process-vs-threads/</link>
+      <link>https://KTS-o7.github.io/blog/core-subjects/process-vs-threads/</link>
       <pubDate>Tue, 20 Aug 2024 23:57:15 +0530</pubDate>
-      <guid>http://localhost:1313/blog/core-subjects/process-vs-threads/</guid>
+      <guid>https://KTS-o7.github.io/blog/core-subjects/process-vs-threads/</guid>
       <description></description>
     </item>
   </channel>

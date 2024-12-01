@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Priority-Queue on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/priority-queue/</link>
+    <link>https://KTS-o7.github.io/blog/tags/priority-queue/</link>
     <description>Recent content in Priority-Queue on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Nov 2024 12:31:26 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/priority-queue/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/priority-queue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 2406 Divide Intervals Into Minimum Number of Groups</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
       <pubDate>Fri, 29 Nov 2024 12:31:26 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2583 Kth Largest Sum in a Binary Tree</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/</link>
       <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3275 K Th Nearest Obstacle Queries</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</link>
       <pubDate>Sun, 01 Sep 2024 17:05:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3275-k-th-nearest-obstacle-queries/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3264 Final Array State After K Multiplication Operations I</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</link>
       <pubDate>Sun, 25 Aug 2024 12:18:01 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3264-final-array-state-after-k-multiplication-operations-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 264 Ugly Number II</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-264-ugly-number-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</link>
       <pubDate>Sat, 24 Aug 2024 15:04:39 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-264-ugly-number-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-264-ugly-number-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 719 Find K Th Smallest Pair Distance</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</link>
       <pubDate>Wed, 14 Aug 2024 18:02:48 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-719-find-k-th-smallest-pair-distance/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 703 Kth Largest Element in a Stream</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</link>
       <pubDate>Mon, 12 Aug 2024 10:08:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-703-kth-largest-element-in-a-stream/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2191 Sort the Jumbled Number</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</link>
       <pubDate>Wed, 24 Jul 2024 21:58:16 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2191-sort-the-jumbled-number/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1636 Sort Array by Increasing Frequency</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</link>
       <pubDate>Tue, 23 Jul 2024 21:12:33 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1636-sort-array-by-increasing-frequency/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 786 K th Smallest Prime Fraction</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</link>
       <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3075 Maximize Happiness of Selected Children</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-maximize-happiness-of-selected-children/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximize-happiness-of-selected-children/</link>
       <pubDate>Thu, 09 May 2024 14:35:42 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-maximize-happiness-of-selected-children/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximize-happiness-of-selected-children/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 506 Relative Ranks</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-relative-ranks/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-ranks/</link>
       <pubDate>Wed, 08 May 2024 14:24:30 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-relative-ranks/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-relative-ranks/</guid>
       <description></description>
     </item>
   </channel>

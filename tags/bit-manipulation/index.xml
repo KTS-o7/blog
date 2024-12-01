@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bit-Manipulation on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/bit-manipulation/</link>
+    <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
     <description>Recent content in Bit-Manipulation on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Nov 2024 10:11:36 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/bit-manipulation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/bit-manipulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 3133 Minimum Array End</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3133-minimum-array-end/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3133-minimum-array-end/</link>
       <pubDate>Wed, 27 Nov 2024 10:11:36 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3133-minimum-array-end/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3133-minimum-array-end/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3097 Shortest Subarray With OR at Least K II</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</link>
       <pubDate>Wed, 27 Nov 2024 09:21:55 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2419 Longest Subarray With Maximum Bitwise AND</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</link>
       <pubDate>Sat, 14 Sep 2024 14:57:52 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1310 XOR Queries of a Subarray</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</link>
       <pubDate>Fri, 13 Sep 2024 10:33:51 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2220 Minimum Bit Flips to Convert Number</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</link>
       <pubDate>Wed, 11 Sep 2024 09:20:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2220-minimum-bit-flips-to-convert-number/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 476 Number Complement</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-476-number-complement/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</link>
       <pubDate>Thu, 22 Aug 2024 10:49:10 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-476-number-complement/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-476-number-complement/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 371 Sum of Two Integers</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-371-sum-of-two-integers/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</link>
       <pubDate>Mon, 29 Jul 2024 22:05:47 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-371-sum-of-two-integers/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-371-sum-of-two-integers/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 89 Gray Code</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-89-gray-code/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</link>
       <pubDate>Thu, 25 Jul 2024 22:03:45 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-89-gray-code/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-89-gray-code/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 136 Single Number</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-single-number/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-single-number/</link>
       <pubDate>Mon, 10 Jun 2024 21:33:50 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-single-number/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-single-number/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1863 Sum of All Subset XOR Totals</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-sum-of-all-subset-xor-totals/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-all-subset-xor-totals/</link>
       <pubDate>Mon, 20 May 2024 22:32:09 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-sum-of-all-subset-xor-totals/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-of-all-subset-xor-totals/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3068 Find the Maximum Sum of Node Values</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</link>
       <pubDate>Sun, 19 May 2024 10:30:05 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-the-maximum-sum-of-node-values/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2331 Evaluate Boolean Binary Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</link>
       <pubDate>Fri, 17 May 2024 21:05:30 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 861 Score After Flipping Matrix</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-score-after-flipping-matrix/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-after-flipping-matrix/</link>
       <pubDate>Mon, 13 May 2024 20:20:37 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-score-after-flipping-matrix/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-after-flipping-matrix/</guid>
       <description></description>
     </item>
   </channel>

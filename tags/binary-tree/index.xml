@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Binary-Tree on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/binary-tree/</link>
+    <link>https://KTS-o7.github.io/blog/tags/binary-tree/</link>
     <description>Recent content in Binary-Tree on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Nov 2024 12:34:23 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/binary-tree/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/binary-tree/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 2641 Cousins in Binary Tree II</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</link>
       <pubDate>Fri, 29 Nov 2024 12:34:23 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2641-cousins-in-binary-tree-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2458 Height of Binary Tree After Subtree Removal Queries</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</link>
       <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 951 Flip Equivalent Binary Trees</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/</link>
       <pubDate>Thu, 24 Oct 2024 11:25:48 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-951-flip-equivalent-binary-trees/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2583 Kth Largest Sum in a Binary Tree</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/</link>
       <pubDate>Tue, 22 Oct 2024 20:50:55 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2583-kth-largest-sum-in-a-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1367 Linked List in Binary Tree</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/</link>
       <pubDate>Sat, 07 Sep 2024 13:48:11 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1367-linked-list-in-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 108 Convert Sorted Array to Binary Search Tree</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/</link>
       <pubDate>Fri, 30 Aug 2024 23:54:17 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-108-convert-sorted-array-to-binary-search-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 145 Binary Tree Postorder Traversal</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</link>
       <pubDate>Mon, 26 Aug 2024 21:43:05 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-145-binary-tree-postorder-traversal/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 103 Binary Tree Zigzag Level Order Traversal</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</link>
       <pubDate>Mon, 29 Jul 2024 00:31:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-103-binary-tree-zigzag-level-order-traversal/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1530 Number of Good Leaf Nodes Pairs</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-good-leaf-nodes-pairs/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-good-leaf-nodes-pairs/</link>
       <pubDate>Thu, 18 Jul 2024 16:16:45 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-good-leaf-nodes-pairs/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-good-leaf-nodes-pairs/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1110 Delete Nodes and Return Forest</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-delete-nodes-and-return-forest/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-nodes-and-return-forest/</link>
       <pubDate>Wed, 17 Jul 2024 12:04:05 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-delete-nodes-and-return-forest/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-nodes-and-return-forest/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2096 Step by Step Directions From a Binary Tree Node to Another</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
       <pubDate>Tue, 16 Jul 2024 12:54:12 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2196 Create Binary Tree From Descriptions</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-create-binary-tree-from-descriptions/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-create-binary-tree-from-descriptions/</link>
       <pubDate>Mon, 15 Jul 2024 15:17:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-create-binary-tree-from-descriptions/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-create-binary-tree-from-descriptions/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 297 Serialize and Deserialize Binary Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
       <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 226 Invert Binary Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-invert-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-invert-binary-tree/</link>
       <pubDate>Sun, 30 Jun 2024 18:59:42 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-invert-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-invert-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1382 Balance a Binary Search Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-balance-a-binary-search-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-balance-a-binary-search-tree/</link>
       <pubDate>Wed, 26 Jun 2024 14:23:32 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-balance-a-binary-search-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-balance-a-binary-search-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1038 Binary Search Tree to Greater Sum Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-binary-search-tree-to-greater-sum-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-binary-search-tree-to-greater-sum-tree/</link>
       <pubDate>Tue, 25 Jun 2024 09:30:02 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-binary-search-tree-to-greater-sum-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-binary-search-tree-to-greater-sum-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 979 Distribute Coins in Binary Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-distribute-coins-in-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-distribute-coins-in-binary-tree/</link>
       <pubDate>Sun, 19 May 2024 10:29:15 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-distribute-coins-in-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-distribute-coins-in-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1325 Delete Leaves With a Given Value</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-delete-leaves-with-a-given-value/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-leaves-with-a-given-value/</link>
       <pubDate>Sun, 19 May 2024 10:27:59 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-delete-leaves-with-a-given-value/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-delete-leaves-with-a-given-value/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2331 Evaluate Boolean Binary Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</link>
       <pubDate>Fri, 17 May 2024 21:05:30 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-evaluate-boolean-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 988 Smallest String Starting From Leaf</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</link>
       <pubDate>Wed, 17 Apr 2024 14:56:36 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-smallest-string-starting-from-leaf/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 623 Add One Row to Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-add-one-row-to-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-add-one-row-to-tree/</link>
       <pubDate>Tue, 16 Apr 2024 10:05:52 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-add-one-row-to-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-add-one-row-to-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 129 Sum Root to Leaf Numbers</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-sum-root-to-leaf-numbers/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-root-to-leaf-numbers/</link>
       <pubDate>Mon, 15 Apr 2024 19:38:03 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-sum-root-to-leaf-numbers/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sum-root-to-leaf-numbers/</guid>
       <description></description>
     </item>
   </channel>

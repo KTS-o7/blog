@@ -2,325 +2,325 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Array on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/array/</link>
+    <link>https://KTS-o7.github.io/blog/tags/array/</link>
     <description>Recent content in Array on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Dec 2024 15:25:52 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/array/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 3291 Minimum Number of Valid Strings to Form Target I</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/</link>
       <pubDate>Sun, 01 Dec 2024 15:25:52 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1346 Check If N and Its Double Exist</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</link>
       <pubDate>Sun, 01 Dec 2024 15:22:09 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3208 Alternating Groups II</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3208-alternating-groups-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3208-alternating-groups-ii/</link>
       <pubDate>Sat, 30 Nov 2024 11:15:06 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3208-alternating-groups-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3208-alternating-groups-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3243 Shortest Distance After Road Addition Queries I</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/</link>
       <pubDate>Sat, 30 Nov 2024 10:50:26 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3243-shortest-distance-after-road-addition-queries-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2406 Divide Intervals Into Minimum Number of Groups</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
       <pubDate>Fri, 29 Nov 2024 12:31:26 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1233 Remove Sub-Folders from the Filesystem</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</link>
       <pubDate>Wed, 27 Nov 2024 10:14:15 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2458 Height of Binary Tree After Subtree Removal Queries</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</link>
       <pubDate>Wed, 27 Nov 2024 09:59:50 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2458-height-of-binary-tree-after-subtree-removal-queries/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3097 Shortest Subarray With OR at Least K II</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</link>
       <pubDate>Wed, 27 Nov 2024 09:21:55 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3097-shortest-subarray-with-or-at-least-k-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1277 Count Square Submatrices with All Ones</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1277-count-square-submatrices-with-all-ones/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1277-count-square-submatrices-with-all-ones/</link>
       <pubDate>Tue, 26 Nov 2024 16:33:15 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1277-count-square-submatrices-with-all-ones/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1277-count-square-submatrices-with-all-ones/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 773 Sliding Puzzle</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-773-sliding-puzzle/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-773-sliding-puzzle/</link>
       <pubDate>Mon, 25 Nov 2024 17:14:09 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-773-sliding-puzzle/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-773-sliding-puzzle/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3254 Find the Power of K-Size Subarrays I</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/</link>
       <pubDate>Mon, 25 Nov 2024 15:17:30 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3254-find-the-power-of-k-size-subarrays-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2461 Maximum Sum of Distinct Subarrays With Length K</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/</link>
       <pubDate>Mon, 25 Nov 2024 15:14:21 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2461-maximum-sum-of-distinct-subarrays-with-length-k/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1574 Shortest Subarray to be Removed to Make Array Sorted</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1574-shortest-subarray-to-be-removed-to-make-array-sorted/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1574-shortest-subarray-to-be-removed-to-make-array-sorted/</link>
       <pubDate>Mon, 25 Nov 2024 14:41:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1574-shortest-subarray-to-be-removed-to-make-array-sorted/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1574-shortest-subarray-to-be-removed-to-make-array-sorted/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1652 Defuse the Bomb</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1652-defuse-the-bomb/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1652-defuse-the-bomb/</link>
       <pubDate>Mon, 25 Nov 2024 12:35:06 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1652-defuse-the-bomb/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1652-defuse-the-bomb/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1861 Rotating the Box</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1861-rotating-the-box/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1861-rotating-the-box/</link>
       <pubDate>Sat, 23 Nov 2024 19:45:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1861-rotating-the-box/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1861-rotating-the-box/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2501 Longest Square Streak in an Array</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/</link>
       <pubDate>Mon, 28 Oct 2024 13:56:40 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2501-longest-square-streak-in-an-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1381 Design a Stack With Increment Operation</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1381-design-a-stack-with-increment-operation/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1381-design-a-stack-with-increment-operation/</link>
       <pubDate>Fri, 25 Oct 2024 22:49:59 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1381-design-a-stack-with-increment-operation/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1381-design-a-stack-with-increment-operation/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 729 My Calendar I</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-729-my-calendar-i/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-729-my-calendar-i/</link>
       <pubDate>Thu, 26 Sep 2024 22:13:02 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-729-my-calendar-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-729-my-calendar-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 874 Walking Robot Simulation</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-874-walking-robot-simulation/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</link>
       <pubDate>Tue, 24 Sep 2024 18:43:34 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-874-walking-robot-simulation/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-874-walking-robot-simulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 121 Best Time to Buy and Sell Stock</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-121-best-time-to-buy-and-sell-stock/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-121-best-time-to-buy-and-sell-stock/</link>
       <pubDate>Sat, 21 Sep 2024 21:39:53 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-121-best-time-to-buy-and-sell-stock/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-121-best-time-to-buy-and-sell-stock/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1460 Make Two Arrays Equal by Reversing Subarrays</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</link>
       <pubDate>Thu, 19 Sep 2024 22:36:08 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1460-make-two-arrays-equal-by-reversing-subarrays/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3285 Find Indices of Stable Mountains</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</link>
       <pubDate>Sun, 15 Sep 2024 16:08:07 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3285-find-indices-of-stable-mountains/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2419 Longest Subarray With Maximum Bitwise AND</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</link>
       <pubDate>Sat, 14 Sep 2024 14:57:52 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2419-longest-subarray-with-maximum-bitwise-and/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1310 XOR Queries of a Subarray</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</link>
       <pubDate>Fri, 13 Sep 2024 10:33:51 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1310-xor-queries-of-a-subarray/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1684 Count the Number of Consistent Strings</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
       <pubDate>Thu, 12 Sep 2024 11:38:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2326 Spiral Matrix IV</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</link>
       <pubDate>Mon, 09 Sep 2024 12:43:46 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2326-spiral-matrix-iv/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2022 Convert 1D Array to 2D Array</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</link>
       <pubDate>Sun, 01 Sep 2024 17:21:31 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2022-convert-1d-array-to-2d-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 54 Sprial Matrix</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-54-sprial-matrix/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-54-sprial-matrix/</link>
       <pubDate>Sat, 17 Aug 2024 23:19:57 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-54-sprial-matrix/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-54-sprial-matrix/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 624 Maximum Distance in Arrays</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</link>
       <pubDate>Fri, 16 Aug 2024 19:52:59 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-624-maximum-distance-in-arrays/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 860 Lemonade Change</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-860-lemonade-change/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-860-lemonade-change/</link>
       <pubDate>Thu, 15 Aug 2024 18:20:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-860-lemonade-change/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-860-lemonade-change/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 40 Combination Sum II</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-40-combination-sum-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-40-combination-sum-ii/</link>
       <pubDate>Tue, 13 Aug 2024 10:33:14 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-40-combination-sum-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-40-combination-sum-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 832 Flipping an Image</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-832-flipping-an-image/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-832-flipping-an-image/</link>
       <pubDate>Thu, 25 Jul 2024 21:38:05 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-832-flipping-an-image/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-832-flipping-an-image/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2751 Robot Collisions</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-robot-collisions/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-robot-collisions/</link>
       <pubDate>Sat, 13 Jul 2024 12:20:45 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-robot-collisions/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-robot-collisions/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1701 Average Waiting Time</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-average-waiting-time/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-average-waiting-time/</link>
       <pubDate>Tue, 09 Jul 2024 23:52:07 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-average-waiting-time/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-average-waiting-time/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1550 Three Consecutive Odds</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-three-consecutive-odds/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-three-consecutive-odds/</link>
       <pubDate>Mon, 01 Jul 2024 18:55:41 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-three-consecutive-odds/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-three-consecutive-odds/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1552 Magnetic Force Between Two Balls</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-magnetic-force-between-two-balls/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-magnetic-force-between-two-balls/</link>
       <pubDate>Thu, 20 Jun 2024 21:42:43 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-magnetic-force-between-two-balls/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-magnetic-force-between-two-balls/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1482 Minimum Number of Days to Make M Bouquets</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-number-of-days-to-make-m-bouquets/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-days-to-make-m-bouquets/</link>
       <pubDate>Wed, 19 Jun 2024 23:03:42 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-days-to-make-m-bouquets/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 502 IPO</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-ipo/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-ipo/</link>
       <pubDate>Sat, 15 Jun 2024 10:35:35 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-ipo/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-ipo/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 945 Minimum Increment to Make Array Unique</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</link>
       <pubDate>Fri, 14 Jun 2024 21:23:14 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-increment-to-make-array-unique/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2037 Minimum Number of Moves to Seat Everyone</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</link>
       <pubDate>Thu, 13 Jun 2024 21:56:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-minimum-number-of-moves-to-seat-everyone/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 75 Sort Colors</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-sort-colors/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</link>
       <pubDate>Wed, 12 Jun 2024 18:48:37 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-sort-colors/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-sort-colors/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1002 Find Common Characters</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-find-common-characters/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</link>
       <pubDate>Thu, 06 Jun 2024 23:34:53 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-find-common-characters/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 786 K th Smallest Prime Fraction</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</link>
       <pubDate>Fri, 10 May 2024 19:04:08 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-k-th-smallest-prime-fraction/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 200 Number of Islands</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-islands/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</link>
       <pubDate>Fri, 19 Apr 2024 13:00:30 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-islands/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-islands/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 463 Island Perimeter</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-island-perimeter/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-island-perimeter/</link>
       <pubDate>Thu, 18 Apr 2024 20:48:14 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-island-perimeter/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-island-perimeter/</guid>
       <description></description>
     </item>
   </channel>

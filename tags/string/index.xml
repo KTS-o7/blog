@@ -2,227 +2,227 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>String on The Indian Engineer</title>
-    <link>http://localhost:1313/blog/tags/string/</link>
+    <link>https://KTS-o7.github.io/blog/tags/string/</link>
     <description>Recent content in String on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Dec 2024 15:25:52 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KTS-o7.github.io/blog/tags/string/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problem 3291 Minimum Number of Valid Strings to Form Target I</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/</link>
       <pubDate>Sun, 01 Dec 2024 15:25:52 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2516 Take K of Each Character From Left and Right</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2516-take-k-of-each-character-from-left-and-right/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2516-take-k-of-each-character-from-left-and-right/</link>
       <pubDate>Sat, 30 Nov 2024 11:12:04 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2516-take-k-of-each-character-from-left-and-right/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2516-take-k-of-each-character-from-left-and-right/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1957 Delete Characters to Make Fancy String</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1957-delete-characters-to-make-fancy-string/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1957-delete-characters-to-make-fancy-string/</link>
       <pubDate>Fri, 29 Nov 2024 12:27:54 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1957-delete-characters-to-make-fancy-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1957-delete-characters-to-make-fancy-string/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1233 Remove Sub-Folders from the Filesystem</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</link>
       <pubDate>Wed, 27 Nov 2024 10:14:15 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1233-remove-sub-folders-from-the-filesystem/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 796 Rotate String</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-796-rotate-string/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/</link>
       <pubDate>Mon, 04 Nov 2024 21:45:44 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-796-rotate-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-796-rotate-string/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2490 Circular Sentence</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2490-circular-sentence/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2490-circular-sentence/</link>
       <pubDate>Sat, 02 Nov 2024 10:10:39 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2490-circular-sentence/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2490-circular-sentence/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1405 Longest Happy String</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1405-longest-happy-string/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/</link>
       <pubDate>Wed, 23 Oct 2024 22:27:57 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1405-longest-happy-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1405-longest-happy-string/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1593 Split a String Into Max Number of Unique Substrings</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1593-split-a-string-into-max-number-of-unique-substrings/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1593-split-a-string-into-max-number-of-unique-substrings/</link>
       <pubDate>Mon, 21 Oct 2024 21:03:08 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1593-split-a-string-into-max-number-of-unique-substrings/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1593-split-a-string-into-max-number-of-unique-substrings/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 884 Uncommon Words From Two Sentences</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</link>
       <pubDate>Tue, 17 Sep 2024 12:53:11 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-884-uncommon-words-from-two-sentences/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2544 Alternating Digit Sum</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-2544-alternating-digit-sum/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</link>
       <pubDate>Sun, 15 Sep 2024 16:00:34 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-2544-alternating-digit-sum/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-2544-alternating-digit-sum/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1684 Count the Number of Consistent Strings</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</link>
       <pubDate>Thu, 12 Sep 2024 11:38:56 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1684-count-the-number-of-consistent-strings/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1945 Sum of Digits of String After Convert</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</link>
       <pubDate>Tue, 03 Sep 2024 13:14:25 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1945-sum-of-digits-of-string-after-convert/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3271 Hash Divided Strings</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</link>
       <pubDate>Sun, 01 Sep 2024 16:22:19 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3271-hash-divided-strings/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3270 Find the Key of Numbers</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</link>
       <pubDate>Sun, 01 Sep 2024 16:13:57 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3270-find-the-key-of-numbers/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3265 Count Almost Equal Pairs I</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</link>
       <pubDate>Sun, 25 Aug 2024 12:33:25 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3265-count-almost-equal-pairs-i/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 592 Fraction Addition and Subtraction</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</link>
       <pubDate>Fri, 23 Aug 2024 12:53:21 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-592-fraction-addition-and-subtraction/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3216 Lexographically Smallest String After a Swap</title>
-      <link>http://localhost:1313/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</link>
+      <link>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</link>
       <pubDate>Thu, 15 Aug 2024 19:15:18 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3216-lexographically-smallest-string-after-a-swap/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3016 Minimum Number of Pushes to Type Word II</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</link>
       <pubDate>Tue, 06 Aug 2024 20:59:08 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3016-minimum-number-of-pushes-to-type-word-ii/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2053 Kth Distinct String in an Array</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</link>
       <pubDate>Mon, 05 Aug 2024 13:09:46 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2053-kth-distinct-string-in-an-array/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2678 Number of Senior Citizens</title>
-      <link>http://localhost:1313/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</link>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</link>
       <pubDate>Thu, 01 Aug 2024 18:27:46 +0530</pubDate>
-      <guid>http://localhost:1313/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</guid>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2678-number-of-senior-citizens/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 299 Bulls and Cows</title>
-      <link>http://localhost:1313/blog/posts/extraques/problem-299-bulls-and-cows/</link>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-299-bulls-and-cows/</link>
       <pubDate>Sun, 28 Jul 2024 20:46:25 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/extraques/problem-299-bulls-and-cows/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-299-bulls-and-cows/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2096 Step by Step Directions From a Binary Tree Node to Another</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</link>
       <pubDate>Tue, 16 Jul 2024 12:54:12 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-step-by-step-directions-from-a-binary-tree-node-to-another/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 726 Number of Atoms</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-atoms/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-atoms/</link>
       <pubDate>Sun, 14 Jul 2024 22:24:15 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-number-of-atoms/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-number-of-atoms/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 297 Serialize and Deserialize Binary Tree</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</link>
       <pubDate>Fri, 12 Jul 2024 19:24:33 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-serialize-and-deserialize-binary-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1717 Maximum Score From Removing Substrings</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</link>
       <pubDate>Fri, 12 Jul 2024 19:10:01 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-maximum-score-from-removing-substrings/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1190 Reverse Substrings Between Each Pair of Parentheses</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</link>
       <pubDate>Thu, 11 Jul 2024 22:07:28 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-substrings-between-each-pair-of-parentheses/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1598 Crawler Log Folder</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-crawler-log-folder/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</link>
       <pubDate>Wed, 10 Jul 2024 21:35:27 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-crawler-log-folder/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-crawler-log-folder/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 1002 Find Common Characters</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-find-common-characters/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</link>
       <pubDate>Thu, 06 Jun 2024 23:34:53 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-find-common-characters/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-find-common-characters/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 344 Reverse String</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-string/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</link>
       <pubDate>Sun, 02 Jun 2024 16:56:53 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-string/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 3110 Score of a String</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-score-of-a-string/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-of-a-string/</link>
       <pubDate>Sat, 01 Jun 2024 11:51:08 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-score-of-a-string/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-score-of-a-string/</guid>
       <description></description>
     </item>
     <item>
       <title>Problem 2000 Reverse Prefix of Word</title>
-      <link>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</link>
+      <link>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</link>
       <pubDate>Wed, 01 May 2024 20:47:44 +0530</pubDate>
-      <guid>http://localhost:1313/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</guid>
+      <guid>https://KTS-o7.github.io/blog/posts/previous-solutions/problem-reverse-prefix-of-word/</guid>
       <description></description>
     </item>
   </channel>
