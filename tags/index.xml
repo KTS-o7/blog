@@ -6,13 +6,41 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Nov 2024 11:15:06 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2024 15:22:09 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Sat, 30 Nov 2024 11:15:06 +0530</pubDate>
+      <pubDate>Sun, 01 Dec 2024 15:22:09 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Binary-Search</title>
+      <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
+      <pubDate>Sun, 01 Dec 2024 15:22:09 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hash-Table</title>
+      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
+      <pubDate>Sun, 01 Dec 2024 15:22:09 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
+      <pubDate>Sun, 01 Dec 2024 15:22:09 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Two-Pointers</title>
+      <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
+      <pubDate>Sun, 01 Dec 2024 15:22:09 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +48,6 @@
       <link>https://KTS-o7.github.io/blog/tags/sliding-window/</link>
       <pubDate>Sat, 30 Nov 2024 11:15:06 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/sliding-window/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hash-Table</title>
-      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
-      <pubDate>Sat, 30 Nov 2024 11:12:04 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
       <description></description>
     </item>
     <item>
@@ -114,20 +135,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sorting</title>
-      <link>https://KTS-o7.github.io/blog/tags/sorting/</link>
-      <pubDate>Fri, 29 Nov 2024 12:31:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/sorting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Two-Pointers</title>
-      <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
-      <pubDate>Fri, 29 Nov 2024 12:31:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Trie</title>
       <link>https://KTS-o7.github.io/blog/tags/trie/</link>
       <pubDate>Wed, 27 Nov 2024 10:14:15 +0530</pubDate>
@@ -160,13 +167,6 @@
       <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
       <pubDate>Tue, 26 Nov 2024 16:33:15 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Binary-Search</title>
-      <link>https://KTS-o7.github.io/blog/tags/binary-search/</link>
-      <pubDate>Mon, 25 Nov 2024 14:41:40 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/binary-search/</guid>
       <description></description>
     </item>
     <item>

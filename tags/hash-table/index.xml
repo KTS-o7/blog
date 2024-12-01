@@ -6,8 +6,15 @@
     <description>Recent content in Hash-Table on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Nov 2024 11:12:04 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2024 15:22:09 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/hash-table/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1346 Check If N and Its Double Exist</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</link>
+      <pubDate>Sun, 01 Dec 2024 15:22:09 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 2516 Take K of Each Character From Left and Right</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2516-take-k-of-each-character-from-left-and-right/</link>
