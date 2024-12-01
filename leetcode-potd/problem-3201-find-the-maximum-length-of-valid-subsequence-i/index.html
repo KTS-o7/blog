@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 3291 Minimum Number of Valid Strings to Form Target I &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 3291 Minimum Number of Valid Strings to Form Target I &middot; The Indian Engineer" />
+  <title>Problem 3201 Find the Maximum Length of Valid Subsequence I &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3201 Find the Maximum Length of Valid Subsequence I &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, string, binary search, dynamic programming, trie, segment tree, rolling hash, string matching, hash function, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/" />
+  <meta name="keywords" content="array, dynamic programming, dp, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3201-find-the-maximum-length-of-valid-subsequence-i/" />
 
   
 
@@ -82,26 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3201-find-the-maximum-length-of-valid-subsequence-i/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 3291 Minimum Number of Valid Strings to Form Target I">
+  <meta property="og:title" content="Problem 3201 Find the Maximum Length of Valid Subsequence I">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-01T15:25:52+05:30">
-    <meta property="article:modified_time" content="2024-12-01T15:25:52+05:30">
+    <meta property="article:published_time" content="2024-12-01T22:37:24+05:30">
+    <meta property="article:modified_time" content="2024-12-01T22:37:24+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Binary-Search">
     <meta property="article:tag" content="Dynamic-Programming">
-    <meta property="article:tag" content="Trie">
-    <meta property="article:tag" content="Segment Tree">
+    <meta property="article:tag" content="Dp">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 3291 Minimum Number of Valid Strings to Form Target I">
+  <meta name="twitter:title" content="Problem 3201 Find the Maximum Length of Valid Subsequence I">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -395,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 3291 Minimum Number of Valid Strings to Form Target I</h1>
+<h1 class="pg-title">Problem 3201 Find the Maximum Length of Valid Subsequence I</h1>
 
 
 <div class="meta">
@@ -415,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-01T15:25:52&#43;05:30">Dec 1, 2024</time>
+  Posted on <time datetime="2024-12-01T22:37:24&#43;05:30">Dec 1, 2024</time>
   
   
   
@@ -432,7 +429,7 @@
 
 </span>
   
-    6 mins
+    5 mins
   
 
 
@@ -451,21 +448,9 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
-  
-  <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
-  
   <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
   
-  <a class="tag" href="/blog/tags/trie/">Trie</a>
-  
-  <a class="tag" href="/blog/tags/segment-tree/">Segment Tree</a>
-  
-  <a class="tag" href="/blog/tags/rolling-hash/">Rolling Hash</a>
-  
-  <a class="tag" href="/blog/tags/string-matching/">String Matching</a>
-  
-  <a class="tag" href="/blog/tags/hash-function/">Hash Function</a>
+  <a class="tag" href="/blog/tags/dp/">Dp</a>
   
 </p>
 
@@ -523,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i/" target="_blank">Problem 3291</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/" target="_blank">Problem 3201</a>
 </p>
 
 <h2 id="question">
@@ -537,45 +522,38 @@
  </a>
   
 </h2>
-<p>You are given an array of strings <code>words</code> and a string <code>target</code>.</p>
-<p>A string <code>x</code> is called <strong>valid</strong> if <code>x</code> is a <span data-keyword="string-prefix">prefix</span> of <strong>any</strong> string in <code>words</code>.</p>
-<p>Return the <strong>minimum</strong> number of <strong>valid</strong> strings that can be <em>concatenated</em> to form <code>target</code>. If it is <strong>not</strong> possible to form <code>target</code>, return <code>-1</code>.</p>
+<p>You are given an integer array <code>nums</code>.</p>
+<p>A <span data-keyword="subsequence-array">subsequence</span> <code>sub</code> of <code>nums</code> with length <code>x</code> is called <strong>valid</strong> if it satisfies:</p>
+<ul>
+	<li><code>(sub[0] + sub[1]) % 2 == (sub[1] + sub[2]) % 2 == ... == (sub[x - 2] + sub[x - 1]) % 2.</code></li>
+</ul>
+<p>Return the length of the <strong>longest</strong> <strong>valid</strong> subsequence of <code>nums</code>.</p>
+<p>A <strong>subsequence</strong> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
 <p><strong class="example">Example 1:</strong></p>
 <div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">words = [&quot;abc&quot;,&quot;aaaaa&quot;,&quot;bcdef&quot;], target = &quot;aabcdabc&quot;</span></p>
-<p><strong>Output:</strong> <span class="example-io">3</span></p>
+<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4]</span></p>
+<p><strong>Output:</strong> <span class="example-io">4</span></p>
 <p><strong>Explanation:</strong></p>
-<p>The target string can be formed by concatenating:</p>
-<ul>
-	<li>Prefix of length 2 of <code>words[1]</code>, i.e. <code>&quot;aa&quot;</code>.</li>
-	<li>Prefix of length 3 of <code>words[2]</code>, i.e. <code>&quot;bcd&quot;</code>.</li>
-	<li>Prefix of length 3 of <code>words[0]</code>, i.e. <code>&quot;abc&quot;</code>.</li>
-</ul>
+<p>The longest valid subsequence is <code>[1, 2, 3, 4]</code>.</p>
 </div>
 <p><strong class="example">Example 2:</strong></p>
 <div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">words = [&quot;abababab&quot;,&quot;ab&quot;], target = &quot;ababaababa&quot;</span></p>
-<p><strong>Output:</strong> <span class="example-io">2</span></p>
+<p><strong>Input:</strong> <span class="example-io">nums = [1,2,1,1,2,1,2]</span></p>
+<p><strong>Output:</strong> 6</p>
 <p><strong>Explanation:</strong></p>
-<p>The target string can be formed by concatenating:</p>
-<ul>
-	<li>Prefix of length 5 of <code>words[0]</code>, i.e. <code>&quot;ababa&quot;</code>.</li>
-	<li>Prefix of length 5 of <code>words[0]</code>, i.e. <code>&quot;ababa&quot;</code>.</li>
-</ul>
+<p>The longest valid subsequence is <code>[1, 2, 1, 2, 1, 2]</code>.</p>
 </div>
 <p><strong class="example">Example 3:</strong></p>
 <div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">words = [&quot;abcdef&quot;], target = &quot;xyz&quot;</span></p>
-<p><strong>Output:</strong> <span class="example-io">-1</span></p>
+<p><strong>Input:</strong> <span class="example-io">nums = [1,3]</span></p>
+<p><strong>Output:</strong> <span class="example-io">2</span></p>
+<p><strong>Explanation:</strong></p>
+<p>The longest valid subsequence is <code>[1, 3]</code>.</p>
 </div>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= words.length &lt;= 100</code></li>
-	<li><code>1 &lt;= words[i].length &lt;= 5 * 10<sup>3</sup></code></li>
-	<li>The input is generated such that <code>sum(words[i].length) &lt;= 10<sup>5</sup></code>.</li>
-	<li><code>words[i]</code> consists only of lowercase English letters.</li>
-	<li><code>1 &lt;= target.length &lt;= 5 * 10<sup>3</sup></code></li>
-	<li><code>target</code> consists only of lowercase English letters.</li>
+	<li><code>2 &lt;= nums.length &lt;= 2 * 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>7</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -589,60 +567,48 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TrieNode</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>TrieNode<span style="color:#f92672">*&gt;</span> children;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> isEnd;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    TrieNode() <span style="color:#f92672">:</span> children(<span style="color:#ae81ff">26</span>, <span style="color:#66d9ef">nullptr</span>), isEnd(false) {}
-</span></span><span style="display:flex;"><span>};
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    TrieNode<span style="color:#f92672">*</span> root;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">insert</span>(<span style="color:#66d9ef">const</span> string<span style="color:#f92672">&amp;</span> word) {
-</span></span><span style="display:flex;"><span>        TrieNode<span style="color:#f92672">*</span> node <span style="color:#f92672">=</span> root;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> word.length(); i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> index <span style="color:#f92672">=</span> word[i] <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>node<span style="color:#f92672">-&gt;</span>children[index]) {
-</span></span><span style="display:flex;"><span>                node<span style="color:#f92672">-&gt;</span>children[index] <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> TrieNode();
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            node <span style="color:#f92672">=</span> node<span style="color:#f92672">-&gt;</span>children[index];
-</span></span><span style="display:flex;"><span>            node<span style="color:#f92672">-&gt;</span>isEnd <span style="color:#f92672">=</span> true;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minValidStrings(vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;&amp;</span> words, string target) {
-</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>ios<span style="color:#f92672">::</span>sync_with_stdio(false);
-</span></span><span style="display:flex;"><span>        root <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> TrieNode();
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> string<span style="color:#f92672">&amp;</span> word : words) {
-</span></span><span style="display:flex;"><span>            insert(word);
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> target.length();
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> dp(n <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, INT_MAX <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>        dp[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (dp[i] <span style="color:#f92672">==</span> INT_MAX <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">continue</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            TrieNode<span style="color:#f92672">*</span> node <span style="color:#f92672">=</span> root;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> i; j <span style="color:#f92672">&lt;</span> n; j<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">int</span> index <span style="color:#f92672">=</span> target[j] <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>;
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>node<span style="color:#f92672">-&gt;</span>children[index])
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">break</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                node <span style="color:#f92672">=</span> node<span style="color:#f92672">-&gt;</span>children[index];
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (node<span style="color:#f92672">-&gt;</span>isEnd) {
-</span></span><span style="display:flex;"><span>                    dp[j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> min(dp[j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>], dp[i] <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> maximumLength(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> type_1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>){
+</span></span><span style="display:flex;"><span>                type_1<span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> dp[n] <span style="color:#f92672">==</span> INT_MAX <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">?</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">:</span> dp[n];
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> type_2<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>                type_2<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> turn <span style="color:#f92672">=</span> true;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> type_3 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(turn <span style="color:#f92672">&amp;&amp;</span> nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>){
+</span></span><span style="display:flex;"><span>                turn<span style="color:#f92672">=</span>false;
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(<span style="color:#f92672">!</span>turn <span style="color:#f92672">&amp;&amp;</span> nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>                turn<span style="color:#f92672">=</span>true;
+</span></span><span style="display:flex;"><span>                type_3<span style="color:#f92672">+=</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(turn<span style="color:#f92672">==</span>false){
+</span></span><span style="display:flex;"><span>            type_3<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        turn <span style="color:#f92672">=</span> true;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> type_4<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(turn <span style="color:#f92672">&amp;&amp;</span> nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>                turn<span style="color:#f92672">=</span>false;
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(<span style="color:#f92672">!</span>turn <span style="color:#f92672">&amp;&amp;</span> nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>){
+</span></span><span style="display:flex;"><span>                type_4<span style="color:#f92672">+=</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>                turn<span style="color:#f92672">=</span>true;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(turn<span style="color:#f92672">==</span>false){
+</span></span><span style="display:flex;"><span>            type_4<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">max</span>(max(type_1, type_2),max(type_3, type_4));
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -657,9 +623,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                     | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ----------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Dynamic programming with Trie | O(n log m + mn) | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                 | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Simple Frequency Counting | O(n)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -684,7 +650,7 @@
  </a>
   
 </h4>
-<p>Initial approach is to understand the characteristics of the given words and target strings, looking for patterns or prefixes in the words that could match the target. It seems like a problem where we need to find the shortest combination of valid prefixes from the given words to form the target. Using a Trie data structure could be helpful to store the words and efficiently check for prefixes. We also need to consider how to backtrack and try different combinations if the current path does not lead to the target.</p>
+<p>This problem can be approached by first identifying the pattern required for a valid subsequence, where each pair of consecutive numbers sums up to either an even or odd number consistently throughout the subsequence. We can consider the numbers to be of two types: even and odd. We need to maximize the length of the valid subsequence, so we should consider all possible scenarios for achieving this. Looking at the solution, we find four different types of subsequences being considered. The first two types involve only odd or even numbers. However, the last two types involve alternating between odd and even numbers. A valid subsequence could end with either an even or odd number depending on the starting number and the type of subsequence we are dealing with.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -697,7 +663,7 @@
  </a>
   
 </h4>
-<p>Intuitively, we can think of this problem as a dynamic programming problem where we build up a solution from smaller sub-problems. We start with an empty target and gradually build it up by trying to match prefixes from the given words. We need to keep track of the minimum number of valid strings required to form the target so far. If we reach the end of the target and we have a valid combination, we can return the count. If not, we need to backtrack and try different combinations. This process can be optimized using a Trie data structure to efficiently store and retrieve prefixes.</p>
+<p>The provided solution has correctly analyzed all possible types of valid subsequences. It first counts the number of odd and even numbers separately, and then considers the two alternating scenarios. In each scenario, it pairs the numbers from the start and the end, working its way towards the center to maximize the subsequence length. At the end, it chooses the maximum length from the four types of subsequences. We can intuitively understand that this is the best approach because we have considered all possible arrangements and are choosing the one that gives the maximum length.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -711,13 +677,13 @@
   
 </h3>
 <ul>
-<li>The problem can be solved by using a Trie data structure to store the given words.</li>
-<li>The Trie allows us to efficiently check if a prefix of the target string is present in the words.</li>
-<li>We can use dynamic programming to build up the solution by checking all prefixes of the target string.</li>
-<li>The key insight is that a valid string can be formed by concatenating prefixes of the words in the Trie.</li>
-<li>We need to find the minimum number of valid strings that can be concatenated to form the target string.</li>
-<li>The problem can be solved in O(n*m) time complexity where n is the length of the target string and m is the total length of all words.</li>
-<li>The space complexity is O(m) for storing the Trie.</li>
+<li>The problem asks for the longest valid subsequence where the sum of adjacent elements has the same parity.</li>
+<li>To solve this, we can categorize the numbers into two types: even and odd.</li>
+<li>We can then consider four cases: all even numbers, all odd numbers, alternating even and odd numbers starting with even, and alternating even and odd numbers starting with odd.</li>
+<li>The longest valid subsequence will be the maximum length among these four cases.</li>
+<li>This approach works because it considers all possible scenarios for the parity of adjacent elements.</li>
+<li>By counting the number of even and odd numbers, we can determine the maximum length of the valid subsequence.</li>
+<li>The time complexity of this approach is O(n), where n is the length of the input array.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -732,13 +698,13 @@
   
 </h3>
 <ul>
-<li>We create a TrieNode class to represent each node in the Trie, with a vector of children and a boolean to mark the end of a word.</li>
-<li>The insert function is used to insert each word into the Trie, setting the isEnd flag to true at the end of each word.</li>
-<li>We use a dynamic programming array dp to store the minimum number of valid strings that can be concatenated to form the target string up to each position.</li>
-<li>We initialize dp[0] to 0 and all other positions to INT_MAX - 1, indicating that it is not possible to form the target string up to that position.</li>
-<li>We iterate over the target string and for each position, we check all prefixes of the target string starting from that position.</li>
-<li>If a prefix is present in the Trie, we update dp[j + 1] to be the minimum of its current value and dp[i] + 1.</li>
-<li>Finally, we return dp[n] if it is not equal to INT_MAX - 1, indicating that it is possible to form the target string, otherwise we return -1.</li>
+<li>We initialize four variables <code>type_1</code>, <code>type_2</code>, <code>type_3</code>, and <code>type_4</code> to store the count of even numbers, odd numbers, alternating even and odd numbers starting with even, and alternating even and odd numbers starting with odd, respectively.</li>
+<li>We iterate through the input array to count the number of even and odd numbers using <code>if(nums[i]%2==0)</code> and <code>if(nums[i]%2==1)</code>.</li>
+<li>We use a boolean variable <code>turn</code> to keep track of the parity of the current number in the alternating sequences.</li>
+<li>We update the <code>type_3</code> and <code>type_4</code> variables based on the parity of the current number and the previous number.</li>
+<li>Finally, we return the maximum length among the four cases using <code>max(max(type_1, type_2),max(type_3, type_4))</code>.</li>
+<li>The code uses simple loops and conditional statements to implement the logic.</li>
+<li>The variables are named clearly to indicate their purpose, making the code easy to understand.</li>
 </ul>
 <hr>
 
@@ -766,9 +732,9 @@
   
 </h3>
 <ul>
-<li>The given code iterates through each string in the <code>words</code> array, resulting in O(m * n) operations, where <code>m</code> is the number of strings and <code>n</code> is the average length of a string.</li>
-<li>Additionally, the code has nested loops that traverse <code>target</code>, leading to O(n log m) operations where <code>n</code> is the target length and the log factor represents the average depth of the Trie.</li>
-<li>As a result, the overall time complexity is O(n log m + m * n), justifying the Big O classification since it represents the upper bound on the number of operations.</li>
+<li>The algorithm iterates over the input vector four times using loops (<code>for(int i = 0; i &lt; nums.size(); i++)</code>), resulting in a total of 4*n iterations, which simplifies to O(n) because constant factors are ignored in Big O notation.</li>
+<li>The dominant operations are the if condition checks within the loops (<code>if(nums[i]%2==0)</code> and <code>if(vals[i]%2==1</code>), which are executed a total of 4*n times.</li>
+<li>Given that the number of iterations grows linearly with the size of the input, the time complexity is classified as O(n)</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -783,9 +749,9 @@
   
 </h3>
 <ul>
-<li>The primary memory usage comes from the TrieNode&rsquo;s children array and the dp array in the <code>minValidStrings</code> method.</li>
-<li>Each TrieNode&rsquo;s children array takes up a constant amount of memory (O(26) to be precise), while the dp array requires O(n) space, where <code>n</code> is the target length.</li>
-<li>Considering all these factors, the space complexity justifies an assignment of O(n).</li>
+<li>The algorithm uses a constant amount of space to store variables (<code>type_1</code>, <code>type_2</code>, <code>type_3</code>, <code>type_4</code>, and <code>turn</code>), regardless of the size of the input vector.</li>
+<li>No data structures that scale with the input size (e.g., vectors, arrays) are used, minimizing memory usage.</li>
+<li>The constant space usage justifies the space complexity classification as O(1)</li>
 </ul>
 <hr>
 
@@ -816,13 +782,13 @@
   
 </h4>
 <blockquote>
-<p>Let <code>dp[i]</code> be the minimum cost to form the prefix of length <code>i</code> of <code>target</code>.</p>
+<p>The possible sequence either contains all even elements, all odd elements, alternate even odd, or alternate odd even elements.</p>
 </blockquote>
 <blockquote>
-<p>If <code>target[(i + 1)..j]</code> matches any prefix, update the range <code>dp[(i + 1)..j]</code> to minimum between original value and <code>dp[i] + 1</code>.</p>
+<p>Considering only the parity of elements, there are only 4 possibilities and we can try all of them.</p>
 </blockquote>
 <blockquote>
-<p>Use a Trie to check prefix matching.</p>
+<p>When selecting an element with any parity, try to select the earliest one.</p>
 </blockquote>
 <hr>
 
@@ -847,16 +813,16 @@
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Minimum Cost to Convert String II</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/minimum-cost-to-convert-string-ii" target="_blank">https://leetcode.com/problems/minimum-cost-to-convert-string-ii</a>
+          <td style="text-align: left">Longest Increasing Subsequence</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/longest-increasing-subsequence" target="_blank">https://leetcode.com/problems/longest-increasing-subsequence</a>
 </td>
-          <td style="text-align: left">Hard</td>
+          <td style="text-align: left">Medium</td>
       </tr>
       <tr>
-          <td style="text-align: left">Construct String with Minimum Cost</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/construct-string-with-minimum-cost" target="_blank">https://leetcode.com/problems/construct-string-with-minimum-cost</a>
+          <td style="text-align: left">Length of the Longest Subsequence That Sums to Target</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target" target="_blank">https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target</a>
 </td>
-          <td style="text-align: left">Hard</td>
+          <td style="text-align: left">Medium</td>
       </tr>
   </tbody>
 </table>
@@ -873,17 +839,13 @@
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-3201-find-the-maximum-length-of-valid-subsequence-i/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3201 Find the Maximum Length of Valid Subsequence I </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-1346-check-if-n-and-its-double-exist/">
+    <a class="next" href="/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1346 Check If N and Its Double Exist </span>
+      <span> Problem 3291 Minimum Number of Valid Strings to Form Target I </span>
     </a>
   
 </nav>
