@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1014 Best Sightseeing Pair &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1014 Best Sightseeing Pair &middot; The Indian Engineer" />
+  <title>Problem 48 Rotate Image &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 48 Rotate Image &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, dynamic programming, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1014-best-sightseeing-pair/" />
+  <meta name="keywords" content="array, math, matrix, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-48-rotate-image/" />
 
   
 
@@ -82,22 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1014-best-sightseeing-pair/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-48-rotate-image/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1014 Best Sightseeing Pair">
+  <meta property="og:title" content="Problem 48 Rotate Image">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-02T15:36:14+05:30">
-    <meta property="article:modified_time" content="2024-12-02T15:36:14+05:30">
+    <meta property="article:published_time" content="2024-12-02T15:40:41+05:30">
+    <meta property="article:modified_time" content="2024-12-02T15:40:41+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Dynamic-Programming">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Matrix">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1014 Best Sightseeing Pair">
+  <meta name="twitter:title" content="Problem 48 Rotate Image">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -391,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 1014 Best Sightseeing Pair</h1>
+<h1 class="pg-title">Problem 48 Rotate Image</h1>
 
 
 <div class="meta">
@@ -411,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-02T15:36:14&#43;05:30">Dec 2, 2024</time>
+  Posted on <time datetime="2024-12-02T15:40:41&#43;05:30">Dec 2, 2024</time>
   
   
   
@@ -428,7 +429,7 @@
 
 </span>
   
-    6 mins
+    5 mins
   
 
 
@@ -447,7 +448,9 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
+  <a class="tag" href="/blog/tags/math/">Math</a>
+  
+  <a class="tag" href="/blog/tags/matrix/">Matrix</a>
   
 </p>
 
@@ -481,6 +484,7 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
+        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -504,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/best-sightseeing-pair/" target="_blank">Problem 1014</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/rotate-image/" target="_blank">Problem 48</a>
 </p>
 
 <h2 id="question">
@@ -518,24 +522,27 @@
  </a>
   
 </h2>
-<p>You are given an integer array <code>values</code> where values[i] represents the value of the <code>i<sup>th</sup></code> sightseeing spot. Two sightseeing spots <code>i</code> and <code>j</code> have a <strong>distance</strong> <code>j - i</code> between them.</p>
-<p>The score of a pair (<code>i &lt; j</code>) of sightseeing spots is <code>values[i] + values[j] + i - j</code>: the sum of the values of the sightseeing spots, minus the distance between them.</p>
-<p>Return <em>the maximum score of a pair of sightseeing spots</em>.</p>
+<p>You are given an <code>n x n</code> 2D <code>matrix</code> representing an image, rotate the image by <strong>90</strong> degrees (clockwise).</p>
+<p>You have to rotate the image <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank"><strong>in-place</strong></a>, which means you have to modify the input 2D matrix directly. <strong>DO NOT</strong> allocate another 2D matrix and do the rotation.</p>
+<p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/08/28/mat1.jpg" style="width: 500px; height: 188px;" />
 <pre>
-<strong>Input:</strong> values = [8,1,5,2,6]
-<strong>Output:</strong> 11
-<strong>Explanation:</strong> i = 0, j = 2, values[i] + values[j] + i - j = 8 + 5 + 0 - 2 = 11
+<strong>Input:</strong> matrix = [[1,2,3],[4,5,6],[7,8,9]]
+<strong>Output:</strong> [[7,4,1],[8,5,2],[9,6,3]]
 </pre>
 <p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/08/28/mat2.jpg" style="width: 500px; height: 201px;" />
 <pre>
-<strong>Input:</strong> values = [1,2]
-<strong>Output:</strong> 2
+<strong>Input:</strong> matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
+<strong>Output:</strong> [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
 </pre>
+<p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>2 &lt;= values.length &lt;= 5 * 10<sup>4</sup></code></li>
-	<li><code>1 &lt;= values[i] &lt;= 1000</code></li>
+	<li><code>n == matrix.length == matrix[i].length</code></li>
+	<li><code>1 &lt;= n &lt;= 20</code></li>
+	<li><code>-1000 &lt;= matrix[i][j] &lt;= 1000</code></li>
 </ul>
 
 <h2 id="solution">
@@ -551,15 +558,20 @@
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> maxScoreSightseeingPair(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> values) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> values.size(), maxScore <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> maxLeft <span style="color:#f92672">=</span> values[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">+</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;</span> n; j<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            maxScore <span style="color:#f92672">=</span> max(maxScore, maxLeft <span style="color:#f92672">+</span> values[j] <span style="color:#f92672">-</span> j);
-</span></span><span style="display:flex;"><span>            maxLeft <span style="color:#f92672">=</span> max(maxLeft, values[j] <span style="color:#f92672">+</span> j);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> rotate(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> matrix) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> matrix.size();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> temp;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> i; j <span style="color:#f92672">&lt;</span> n <span style="color:#f92672">-</span> i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            temp <span style="color:#f92672">=</span> matrix[i][j];
+</span></span><span style="display:flex;"><span>            matrix[i][j] <span style="color:#f92672">=</span> matrix[n <span style="color:#f92672">-</span> j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][i];
+</span></span><span style="display:flex;"><span>            matrix[n <span style="color:#f92672">-</span> j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][i] <span style="color:#f92672">=</span> matrix[n <span style="color:#f92672">-</span> i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][n <span style="color:#f92672">-</span> j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>            matrix[n <span style="color:#f92672">-</span> i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][n <span style="color:#f92672">-</span> j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> matrix[j][n <span style="color:#f92672">-</span> i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>            matrix[j][n <span style="color:#f92672">-</span> i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> temp;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> maxScore;
-</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
 <h2 id="complexity-analysis">
@@ -573,9 +585,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm             | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Two-pointer traversal | O(n)            | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                        | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| -------------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Layered in-place matrix rotation | O(n^2)          | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -600,11 +612,7 @@
  </a>
   
 </h4>
-<p>The problem involves maximizing the score of a pair of sightseeing spots. The score is determined by adding the values of the two spots and subtracting the distance between them. This suggests that we need to balance the values of the spots with their distances.
-We could start by examining the relationship between the values and the distances. The distance is determined by the indices of the spots, so we may need to use the indices to our advantage.
-We could try to use a brute force approach, but given the constraints, this may not be efficient.
-A more efficient approach might involve using a sliding window or iterating through the array to find the optimal pair.
-The time complexity is O(n) and space complexity is O(1), so we should aim for a solution that meets these constraints.</p>
+<p>To approach this problem, think of the matrix as layers. Try visualizing the image and see how each layer would be affected. Focus on how to shift each layer without tampering with the original. To start, analyze how swapping the corner elements might work, this is essentially shifting layers and corners around. One method to attempt is transposing the matrix, followed by reversing each row for a 90 degree clockwise rotation. This can also help in simplifying how we should approach this problem. Another option is grouping the corners with edges which may require multiple nested loops, hence considering the algorithmic complexity during coding. Understanding these concepts helps us design our algorithm for achieving 90 degree rotation successfully. Recognize that in-place means altering current structure without requiring new structures.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -617,12 +625,7 @@ The time complexity is O(n) and space complexity is O(1), so we should aim for a
  </a>
   
 </h4>
-<p>One way to intuitively solve this problem is to think of it as a trade-off between the values of the spots and their distances. We want to maximize the total value while minimizing the distance.
-We can start by keeping track of the maximum left value (maxLeft) and updating it as we iterate through the array.
-The current score is determined by adding maxLeft to the current value and subtracting the distance.
-By keeping track of the maximum score, we can efficiently find the optimal pair without having to examine every pair.
-This approach allows us to balance the values and distances while meeting the time and space complexity requirements.
-By breaking down the problem into smaller sub-problems and solving them iteratively, we can find an efficient solution.</p>
+<p>When visualizing the rotation, it becomes intuitive that rotating each 2 x 2 cell within the matrix first will bring us halfway towards achieving our result. Think of the operation on a smaller scale: consider what happens when you rotate a single element – it moves to its adjacent element and then is swapped again. To solve this problem think in &lsquo;cycles&rsquo; how each corner moves, to the opposite corner i.e., shifting 90 degrees clockwise and finally each row shifted with all corner elements now having the old element values changed. In order to finalize, ensure that it stays in same row yet each column gets moved up one and new rotated corners added in.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -636,14 +639,13 @@ By breaking down the problem into smaller sub-problems and solving them iterativ
   
 </h3>
 <ul>
-<li>The problem can be solved by iterating through the array and maintaining the maximum score seen so far.</li>
-<li>The key insight is to realize that the score of a pair <code>(i, j)</code> can be rewritten as <code>(values[i] + i) + (values[j] - j)</code>.</li>
-<li>This allows us to separate the problem into two parts: finding the maximum value of <code>(values[i] + i)</code> and the maximum value of <code>(values[j] - j)</code>.</li>
-<li>However, we cannot simply find the maximum of these two values separately, because the indices i and j must be different.</li>
-<li>To solve this, we can maintain the maximum value of <code>(values[i] + i)</code> seen so far, and update it as we iterate through the array.</li>
-<li>We can then use this maximum value to calculate the maximum score of a pair <code>(i, j)</code>.</li>
-<li>This approach works because it ensures that we are always considering the maximum possible score for each pair <code>(i, j)</code>.</li>
-<li>It also has a time complexity of O(n), making it efficient for large inputs.</li>
+<li>The problem requires rotating a 2D matrix by 90 degrees clockwise in-place.</li>
+<li>To achieve this, we can use a layer-by-layer approach, starting from the outermost layer and moving inwards.</li>
+<li>Each layer is a square ring, and we can rotate the elements in each ring independently.</li>
+<li>The key insight is to recognize that each element in the ring can be rotated by swapping it with the corresponding elements in the other three positions of the ring.</li>
+<li>This approach ensures that the rotation is done in-place, without allocating additional memory.</li>
+<li>The time complexity of this approach is O(n^2), where n is the size of the matrix.</li>
+<li>The space complexity is O(1), since we are only using a constant amount of extra memory to store the temporary variable.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -658,14 +660,12 @@ By breaking down the problem into smaller sub-problems and solving them iterativ
   
 </h3>
 <ul>
-<li>The solution initializes <code>maxScore</code> to 0 and <code>maxLeft</code> to <code>values[0] + 0</code>, which represents the maximum value of <code>(values[i] + i)</code> seen so far.</li>
-<li>The solution then iterates through the array, starting from the second element (<code>j = 1</code>).</li>
-<li>For each element, it updates <code>maxScore</code> to be the maximum of the current <code>maxScore</code> and the score of the pair <code>(i, j)</code>, where i is the index of the maximum value of <code>(values[i] + i)</code> seen so far.</li>
-<li>The solution also updates <code>maxLeft</code> to be the maximum of the current <code>maxLeft</code> and the value of <code>(values[j] + j)</code>.</li>
-<li>This is done using the line <code>maxScore = max(maxScore, maxLeft + values[j] - j);</code> and <code>maxLeft = max(maxLeft, values[j] + j);</code>.</li>
-<li>The solution finally returns <code>maxScore</code>, which represents the maximum score of a pair <code>(i, j)</code>.</li>
-<li>The time complexity of the solution is O(n), where n is the length of the input array.</li>
-<li>The space complexity is O(1), as the solution only uses a constant amount of space to store the variables <code>maxScore</code> and <code>maxLeft</code>.</li>
+<li>We start by getting the size of the matrix using <code>int n = matrix.size();</code>.</li>
+<li>We then iterate over each layer of the matrix using two nested loops: <code>for(int i = 0; i &lt; n / 2; i++)</code> and <code>for(int j = i; j &lt; n - i - 1; j++)</code>.</li>
+<li>Inside the inner loop, we swap the elements in the current ring using a temporary variable <code>temp</code>.</li>
+<li>We first store the top-left element in <code>temp</code>, then move the top-right element to the top-left position, the bottom-right element to the top-right position, and so on.</li>
+<li>We use the following assignments to swap the elements: <code>matrix[i][j] = matrix[n - j - 1][i];</code>, <code>matrix[n - j - 1][i] = matrix[n - i - 1][n - j - 1];</code>, <code>matrix[n - i - 1][n - j - 1] = matrix[j][n - i - 1];</code>, and <code>matrix[j][n - i - 1] = temp;</code>.</li>
+<li>We repeat this process for each layer of the matrix until we have rotated all the elements.</li>
 </ul>
 <hr>
 
@@ -693,9 +693,9 @@ By breaking down the problem into smaller sub-problems and solving them iterativ
   
 </h3>
 <ul>
-<li>The algorithm iterates over the input array once, resulting in a linear time complexity. This is evident in the for loop <code>for(int j = 1; j &lt; n; j++)</code>, which visits each element in the array exactly once.</li>
-<li>The dominant operations within the loop are the comparisons and assignments, which occur in constant time. Therefore, the time complexity is not affected by the specific operations performed.</li>
-<li>The time complexity is classified as O(n) because the number of operations grows linearly with the size of the input. This is in line with the formal definition of Big O notation: the algorithm&rsquo;s running time is bounded above by a constant times the input size, ignoring lower-order terms.</li>
+<li>The time complexity analysis begins with the two nested loops <code>for(int i = 0; i &lt; n / 2; i++)</code> and <code>for(int j = i; j &lt; n - i - 1; j++)</code>, which both run approximately <code>n/2</code> and <code>n-i-1</code> times respectively. This results in a total of roughly <code>n*(n-1)/2</code> iterations.</li>
+<li>The dominant operations within the loops are the assignments and swaps of elements within the matrix, which occur in constant time <code>O(1)</code>. As such, each iteration of the loops contributes to the overall time complexity in linear fashion.</li>
+<li>Taking into account the approximations and considering the Big O notation&rsquo;s focus on the worst case, the <code>n*(n-1)/2</code> iterations can be simplified to <code>O(n^2)</code>, since the <code>n-1</code> is a constant factor in this context and is thus omitted in the final classification.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -710,9 +710,9 @@ By breaking down the problem into smaller sub-problems and solving them iterativ
   
 </h3>
 <ul>
-<li>The algorithm uses a constant amount of memory to store the variables <code>maxScore</code>, <code>maxLeft</code>, <code>n</code>, and <code>j</code>. This memory usage does not grow with the size of the input array.</li>
-<li>The only data structures used are a few integers, which have a fixed memory footprint. There are no arrays, linked lists, trees, or other data structures that would require additional memory proportional to the input size.</li>
-<li>Therefore, the space complexity is classified as O(1), indicating that the memory usage is constant and does not vary with the size of the input.</li>
+<li>This solution uses in-place matrix rotation, requiring no additional space that scales with input size <code>n</code>, since only a constant amount of space is used to store the temporary variable <code>temp</code>.</li>
+<li>The given array is not duplicated or transposed; instead, elements are rotated within their current bounds, thus removing the need for extra memory allocations that would increase with <code>n</code>.</li>
+<li>Considering the constant usage of memory regardless of input size, this solution&rsquo;s space complexity is classified as <code>O(1)</code></li>
 </ul>
 <hr>
 
@@ -730,21 +730,36 @@ By breaking down the problem into smaller sub-problems and solving them iterativ
 <blockquote>
 <p>This question is rated as <strong>Medium</strong> difficulty.</p>
 </blockquote>
+<hr>
 
-<h4 id="hints">
-  Hints
+<h3 id="similar-questions">
+  Similar Questions:
   
-  <a hidden class="anchor" href="#hints">
+  <a hidden class="anchor" href="#similar-questions">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
 
  </a>
   
-</h4>
-<blockquote>
-<p>Can you tell the best sightseeing spot in one pass (ie. as you iterate over the input?) What should we store or keep track of as we iterate to do this?</p>
-</blockquote>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Title</th>
+          <th style="text-align: left">URL</th>
+          <th style="text-align: left">Difficulty</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Determine Whether Matrix Can Be Obtained By Rotation</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation" target="_blank">https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation</a>
+</td>
+          <td style="text-align: left">Easy</td>
+      </tr>
+  </tbody>
+</table>
 
 
 
@@ -758,17 +773,13 @@ By breaking down the problem into smaller sub-problems and solving them iterativ
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-48-rotate-image/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 48 Rotate Image </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/">
+    <a class="next" href="/blog/leetcode-potd/problem-1014-best-sightseeing-pair/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence </span>
+      <span> Problem 1014 Best Sightseeing Pair </span>
     </a>
   
 </nav>
