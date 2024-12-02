@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence &middot; The Indian Engineer" />
+  <title>Problem 1014 Best Sightseeing Pair &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1014 Best Sightseeing Pair &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="two pointers, string, string matching, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/" />
+  <meta name="keywords" content="array, dynamic programming, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1014-best-sightseeing-pair/" />
 
   
 
@@ -82,23 +82,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1014-best-sightseeing-pair/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence">
+  <meta property="og:title" content="Problem 1014 Best Sightseeing Pair">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-02T15:07:37+05:30">
-    <meta property="article:modified_time" content="2024-12-02T15:07:37+05:30">
-    <meta property="article:tag" content="Two-Pointers">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="String Matching">
+    <meta property="article:published_time" content="2024-12-02T15:36:14+05:30">
+    <meta property="article:modified_time" content="2024-12-02T15:36:14+05:30">
+    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Dynamic-Programming">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence">
+  <meta name="twitter:title" content="Problem 1014 Best Sightseeing Pair">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +391,7 @@
 
 
 
-<h1 class="pg-title">Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence</h1>
+<h1 class="pg-title">Problem 1014 Best Sightseeing Pair</h1>
 
 
 <div class="meta">
@@ -412,7 +411,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-02T15:07:37&#43;05:30">Dec 2, 2024</time>
+  Posted on <time datetime="2024-12-02T15:36:14&#43;05:30">Dec 2, 2024</time>
   
   
   
@@ -446,11 +445,9 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/two-pointers/">Two-Pointers</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
-  
-  <a class="tag" href="/blog/tags/string-matching/">String Matching</a>
+  <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
   
 </p>
 
@@ -484,7 +481,6 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
-        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -508,7 +504,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/" target="_blank">Problem 1455</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/best-sightseeing-pair/" target="_blank">Problem 1014</a>
 </p>
 
 <h2 id="question">
@@ -522,33 +518,24 @@
  </a>
   
 </h2>
-<p>Given a <code>sentence</code> that consists of some words separated by a <strong>single space</strong>, and a <code>searchWord</code>, check if <code>searchWord</code> is a prefix of any word in <code>sentence</code>.</p>
-<p>Return <em>the index of the word in </em><code>sentence</code><em> (<strong>1-indexed</strong>) where </em><code>searchWord</code><em> is a prefix of this word</em>. If <code>searchWord</code> is a prefix of more than one word, return the index of the first word <strong>(minimum index)</strong>. If there is no such word return <code>-1</code>.</p>
-<p>A <strong>prefix</strong> of a string <code>s</code> is any leading contiguous substring of <code>s</code>.</p>
+<p>You are given an integer array <code>values</code> where values[i] represents the value of the <code>i<sup>th</sup></code> sightseeing spot. Two sightseeing spots <code>i</code> and <code>j</code> have a <strong>distance</strong> <code>j - i</code> between them.</p>
+<p>The score of a pair (<code>i &lt; j</code>) of sightseeing spots is <code>values[i] + values[j] + i - j</code>: the sum of the values of the sightseeing spots, minus the distance between them.</p>
+<p>Return <em>the maximum score of a pair of sightseeing spots</em>.</p>
 <p><strong class="example">Example 1:</strong></p>
 <pre>
-<strong>Input:</strong> sentence = &quot;i love eating burger&quot;, searchWord = &quot;burg&quot;
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> &quot;burg&quot; is prefix of &quot;burger&quot; which is the 4th word in the sentence.
+<strong>Input:</strong> values = [8,1,5,2,6]
+<strong>Output:</strong> 11
+<strong>Explanation:</strong> i = 0, j = 2, values[i] + values[j] + i - j = 8 + 5 + 0 - 2 = 11
 </pre>
 <p><strong class="example">Example 2:</strong></p>
 <pre>
-<strong>Input:</strong> sentence = &quot;this problem is an easy problem&quot;, searchWord = &quot;pro&quot;
+<strong>Input:</strong> values = [1,2]
 <strong>Output:</strong> 2
-<strong>Explanation:</strong> &quot;pro&quot; is prefix of &quot;problem&quot; which is the 2nd and the 6th word in the sentence, but we return 2 as it&#39;s the minimal index.
-</pre>
-<p><strong class="example">Example 3:</strong></p>
-<pre>
-<strong>Input:</strong> sentence = &quot;i am tired&quot;, searchWord = &quot;you&quot;
-<strong>Output:</strong> -1
-<strong>Explanation:</strong> &quot;you&quot; is not a prefix of any word in the sentence.
 </pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= sentence.length &lt;= 100</code></li>
-	<li><code>1 &lt;= searchWord.length &lt;= 10</code></li>
-	<li><code>sentence</code> consists of lowercase English letters and spaces.</li>
-	<li><code>searchWord</code> consists of lowercase English letters.</li>
+	<li><code>2 &lt;= values.length &lt;= 5 * 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= values[i] &lt;= 1000</code></li>
 </ul>
 
 <h2 id="solution">
@@ -564,31 +551,14 @@
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> isPrefixOfWord(string sentence, string searchWord) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span> words;
-</span></span><span style="display:flex;"><span>        string temp <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">char</span> ch : sentence) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (ch <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39; &#39;</span>) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>temp.empty()) {
-</span></span><span style="display:flex;"><span>                    words.push_back(temp);
-</span></span><span style="display:flex;"><span>                    temp <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>                temp <span style="color:#f92672">+=</span> ch;
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> maxScoreSightseeingPair(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> values) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> values.size(), maxScore <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> maxLeft <span style="color:#f92672">=</span> values[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">+</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;</span> n; j<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            maxScore <span style="color:#f92672">=</span> max(maxScore, maxLeft <span style="color:#f92672">+</span> values[j] <span style="color:#f92672">-</span> j);
+</span></span><span style="display:flex;"><span>            maxLeft <span style="color:#f92672">=</span> max(maxLeft, values[j] <span style="color:#f92672">+</span> j);
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>temp.empty()) {
-</span></span><span style="display:flex;"><span>            words.push_back(temp);
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> words.size(); i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (words[i].substr(<span style="color:#ae81ff">0</span>, searchWord.size()) <span style="color:#f92672">==</span> searchWord) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> maxScore;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -603,9 +573,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm           | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| String Tokenization | O(nm)      | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm             | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Two-pointer traversal | O(n)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -630,7 +600,11 @@
  </a>
   
 </h4>
-<p>To solve this problem, we need to think of a way to break down the sentence into individual words. One approach could be to use the space as a delimiter to split the sentence into words. Another crucial thing to consider is how we will be comparing the searchWord with each word in the sentence. A prefix comparison will be necessary, and we need to think of a way to achieve that. Lastly, we need to consider the edge case where the searchWord is not a prefix of any word in the sentence.</p>
+<p>The problem involves maximizing the score of a pair of sightseeing spots. The score is determined by adding the values of the two spots and subtracting the distance between them. This suggests that we need to balance the values of the spots with their distances.
+We could start by examining the relationship between the values and the distances. The distance is determined by the indices of the spots, so we may need to use the indices to our advantage.
+We could try to use a brute force approach, but given the constraints, this may not be efficient.
+A more efficient approach might involve using a sliding window or iterating through the array to find the optimal pair.
+The time complexity is O(n) and space complexity is O(1), so we should aim for a solution that meets these constraints.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -643,7 +617,12 @@
  </a>
   
 </h4>
-<p>Intuitively, we can solve this problem by breaking it down into three main steps. Firstly, we need to create a list of all words in the sentence, which can be achieved by splitting the sentence at each space. Secondly, we need to iterate over each word in the list and check if the searchWord is a prefix of that word. If it is, we need to return the index of that word. Lastly, we need to ensure that we return the index of the first word that the searchWord is a prefix of, which can be achieved by returning the index as soon as we find a match.</p>
+<p>One way to intuitively solve this problem is to think of it as a trade-off between the values of the spots and their distances. We want to maximize the total value while minimizing the distance.
+We can start by keeping track of the maximum left value (maxLeft) and updating it as we iterate through the array.
+The current score is determined by adding maxLeft to the current value and subtracting the distance.
+By keeping track of the maximum score, we can efficiently find the optimal pair without having to examine every pair.
+This approach allows us to balance the values and distances while meeting the time and space complexity requirements.
+By breaking down the problem into smaller sub-problems and solving them iteratively, we can find an efficient solution.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -657,13 +636,14 @@
   
 </h3>
 <ul>
-<li>The problem requires finding the index of the first word in a sentence that has a given search word as its prefix.</li>
-<li>To solve this problem, we need to split the sentence into individual words and then check each word to see if it starts with the search word.</li>
-<li>We can use the <code>substr</code> function in C++ to check if a word starts with the search word.</li>
-<li>The key insight here is that we only need to return the index of the first word that matches the search word, so we can stop checking as soon as we find a match.</li>
-<li>This solution works because it checks each word in the sentence in order, so it will always find the first word that matches the search word.</li>
-<li>The time complexity of this solution is <code>O(nm)</code>, where n is the number of words in the sentence, because we need to check each word once and logm is the time complexity of the <code>substr</code> function.</li>
-<li>The space complexity is also <code>O(n)</code>, because we need to store all the words in the sentence in a vector.</li>
+<li>The problem can be solved by iterating through the array and maintaining the maximum score seen so far.</li>
+<li>The key insight is to realize that the score of a pair <code>(i, j)</code> can be rewritten as <code>(values[i] + i) + (values[j] - j)</code>.</li>
+<li>This allows us to separate the problem into two parts: finding the maximum value of <code>(values[i] + i)</code> and the maximum value of <code>(values[j] - j)</code>.</li>
+<li>However, we cannot simply find the maximum of these two values separately, because the indices i and j must be different.</li>
+<li>To solve this, we can maintain the maximum value of <code>(values[i] + i)</code> seen so far, and update it as we iterate through the array.</li>
+<li>We can then use this maximum value to calculate the maximum score of a pair <code>(i, j)</code>.</li>
+<li>This approach works because it ensures that we are always considering the maximum possible score for each pair <code>(i, j)</code>.</li>
+<li>It also has a time complexity of O(n), making it efficient for large inputs.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -678,13 +658,14 @@
   
 </h3>
 <ul>
-<li>We start by splitting the sentence into individual words using a <code>for</code> loop and a temporary string <code>temp</code> to build each word.</li>
-<li>We use the line <code>if (ch == ' ')</code> to check if we have reached the end of a word, and if so, we add the word to the <code>words</code> vector.</li>
-<li>After splitting the sentence into words, we use another <code>for</code> loop to check each word to see if it starts with the search word.</li>
-<li>We use the line <code>if (words[i].substr(0, searchWord.size()) == searchWord)</code> to check if a word starts with the search word.</li>
-<li>If we find a word that starts with the search word, we return the index of that word plus one, because the problem uses 1-based indexing.</li>
-<li>If we don&rsquo;t find any words that start with the search word, we return -1 to indicate that no match was found.</li>
-<li>We use the line <code>if (!temp.empty())</code> to check if the temporary string is not empty before adding it to the <code>words</code> vector, to avoid adding an empty string to the vector.</li>
+<li>The solution initializes <code>maxScore</code> to 0 and <code>maxLeft</code> to <code>values[0] + 0</code>, which represents the maximum value of <code>(values[i] + i)</code> seen so far.</li>
+<li>The solution then iterates through the array, starting from the second element (<code>j = 1</code>).</li>
+<li>For each element, it updates <code>maxScore</code> to be the maximum of the current <code>maxScore</code> and the score of the pair <code>(i, j)</code>, where i is the index of the maximum value of <code>(values[i] + i)</code> seen so far.</li>
+<li>The solution also updates <code>maxLeft</code> to be the maximum of the current <code>maxLeft</code> and the value of <code>(values[j] + j)</code>.</li>
+<li>This is done using the line <code>maxScore = max(maxScore, maxLeft + values[j] - j);</code> and <code>maxLeft = max(maxLeft, values[j] + j);</code>.</li>
+<li>The solution finally returns <code>maxScore</code>, which represents the maximum score of a pair <code>(i, j)</code>.</li>
+<li>The time complexity of the solution is O(n), where n is the length of the input array.</li>
+<li>The space complexity is O(1), as the solution only uses a constant amount of space to store the variables <code>maxScore</code> and <code>maxLeft</code>.</li>
 </ul>
 <hr>
 
@@ -712,10 +693,9 @@
   
 </h3>
 <ul>
-<li>The algorithm iterates over the input sentence once to split it into words, resulting in O(n) time complexity where n is the length of the sentence.</li>
-<li>For each word, it performs a substring check to compare the word with the search word, contributing an additional O(m) factor to the time complexity where m is the length of the search word.</li>
-<li>Since the loop iterates over the words array (of size n) and checks substrings of size m, the overall time complexity is O(n*m) due to the substring checks.</li>
-<li>However, given that string comparison typically involves a constant-time comparison for each character (worst-case when the words are identical), we need to account for the average and worst case. Thus, the overall time complexity can be classified as O(n*m).</li>
+<li>The algorithm iterates over the input array once, resulting in a linear time complexity. This is evident in the for loop <code>for(int j = 1; j &lt; n; j++)</code>, which visits each element in the array exactly once.</li>
+<li>The dominant operations within the loop are the comparisons and assignments, which occur in constant time. Therefore, the time complexity is not affected by the specific operations performed.</li>
+<li>The time complexity is classified as O(n) because the number of operations grows linearly with the size of the input. This is in line with the formal definition of Big O notation: the algorithm&rsquo;s running time is bounded above by a constant times the input size, ignoring lower-order terms.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -730,9 +710,9 @@
   
 </h3>
 <ul>
-<li>The algorithm creates an additional data structure, a vector to hold the word tokens, requiring memory proportionate to the number of words in the sentence.</li>
-<li>This requires auxiliary space that scales with the input size. Assuming an average case where each word is roughly equally long, this contributes to a space complexity of O(n) where n is the number of words (which can be related to the length of the sentence) rather than its characters.</li>
-<li>The string variables &rsquo;temp&rsquo; and &lsquo;searchWord&rsquo; and local variables require constant space, thus not impacting the overall space complexity. Consequently, the space complexity of the algorithm can be classified as O(n).</li>
+<li>The algorithm uses a constant amount of memory to store the variables <code>maxScore</code>, <code>maxLeft</code>, <code>n</code>, and <code>j</code>. This memory usage does not grow with the size of the input array.</li>
+<li>The only data structures used are a few integers, which have a fixed memory footprint. There are no arrays, linked lists, trees, or other data structures that would require additional memory proportional to the input size.</li>
+<li>Therefore, the space complexity is classified as O(1), indicating that the memory usage is constant and does not vary with the size of the input.</li>
 </ul>
 <hr>
 
@@ -748,7 +728,7 @@
   
 </h3>
 <blockquote>
-<p>This question is rated as <strong>Easy</strong> difficulty.</p>
+<p>This question is rated as <strong>Medium</strong> difficulty.</p>
 </blockquote>
 
 <h4 id="hints">
@@ -763,50 +743,8 @@
   
 </h4>
 <blockquote>
-<p>First extract the words of the sentence.</p>
+<p>Can you tell the best sightseeing spot in one pass (ie. as you iterate over the input?) What should we store or keep track of as we iterate to do this?</p>
 </blockquote>
-<blockquote>
-<p>Check for each word if searchWord occurs at index 0, if so return the index of this word (1-indexed)</p>
-</blockquote>
-<blockquote>
-<p>If searchWord doesn&rsquo;t exist as a prefix of any word return the default value (-1).</p>
-</blockquote>
-<hr>
-
-<h3 id="similar-questions">
-  Similar Questions:
-  
-  <a hidden class="anchor" href="#similar-questions">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Title</th>
-          <th style="text-align: left">URL</th>
-          <th style="text-align: left">Difficulty</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Counting Words With a Given Prefix</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/counting-words-with-a-given-prefix" target="_blank">https://leetcode.com/problems/counting-words-with-a-given-prefix</a>
-</td>
-          <td style="text-align: left">Easy</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Count Prefixes of a Given String</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/count-prefixes-of-a-given-string" target="_blank">https://leetcode.com/problems/count-prefixes-of-a-given-string</a>
-</td>
-          <td style="text-align: left">Easy</td>
-      </tr>
-  </tbody>
-</table>
 
 
 
@@ -820,17 +758,13 @@
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1014-best-sightseeing-pair/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1014 Best Sightseeing Pair </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-3201-find-the-maximum-length-of-valid-subsequence-i/">
+    <a class="next" href="/blog/leetcode-potd/problem-1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3201 Find the Maximum Length of Valid Subsequence I </span>
+      <span> Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence </span>
     </a>
   
 </nav>
