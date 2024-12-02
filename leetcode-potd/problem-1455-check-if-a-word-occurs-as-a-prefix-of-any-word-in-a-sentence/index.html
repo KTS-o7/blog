@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 3201 Find the Maximum Length of Valid Subsequence I &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 3201 Find the Maximum Length of Valid Subsequence I &middot; The Indian Engineer" />
+  <title>Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, dynamic programming, dp, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3201-find-the-maximum-length-of-valid-subsequence-i/" />
+  <meta name="keywords" content="two pointers, string, string matching, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/" />
 
   
 
@@ -82,23 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3201-find-the-maximum-length-of-valid-subsequence-i/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 3201 Find the Maximum Length of Valid Subsequence I">
+  <meta property="og:title" content="Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-01T22:37:24+05:30">
-    <meta property="article:modified_time" content="2024-12-01T22:37:24+05:30">
-    <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Dynamic-Programming">
-    <meta property="article:tag" content="Dp">
+    <meta property="article:published_time" content="2024-12-02T15:07:37+05:30">
+    <meta property="article:modified_time" content="2024-12-02T15:07:37+05:30">
+    <meta property="article:tag" content="Two-Pointers">
+    <meta property="article:tag" content="String">
+    <meta property="article:tag" content="String Matching">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 3201 Find the Maximum Length of Valid Subsequence I">
+  <meta name="twitter:title" content="Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 3201 Find the Maximum Length of Valid Subsequence I</h1>
+<h1 class="pg-title">Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence</h1>
 
 
 <div class="meta">
@@ -412,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-01T22:37:24&#43;05:30">Dec 1, 2024</time>
+  Posted on <time datetime="2024-12-02T15:07:37&#43;05:30">Dec 2, 2024</time>
   
   
   
@@ -429,7 +429,7 @@
 
 </span>
   
-    5 mins
+    6 mins
   
 
 
@@ -446,11 +446,11 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/array/">Array</a>
+  <a class="tag" href="/blog/tags/two-pointers/">Two-Pointers</a>
   
-  <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
+  <a class="tag" href="/blog/tags/string/">String</a>
   
-  <a class="tag" href="/blog/tags/dp/">Dp</a>
+  <a class="tag" href="/blog/tags/string-matching/">String Matching</a>
   
 </p>
 
@@ -508,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/" target="_blank">Problem 3201</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/" target="_blank">Problem 1455</a>
 </p>
 
 <h2 id="question">
@@ -522,38 +522,33 @@
  </a>
   
 </h2>
-<p>You are given an integer array <code>nums</code>.</p>
-<p>A <span data-keyword="subsequence-array">subsequence</span> <code>sub</code> of <code>nums</code> with length <code>x</code> is called <strong>valid</strong> if it satisfies:</p>
-<ul>
-	<li><code>(sub[0] + sub[1]) % 2 == (sub[1] + sub[2]) % 2 == ... == (sub[x - 2] + sub[x - 1]) % 2.</code></li>
-</ul>
-<p>Return the length of the <strong>longest</strong> <strong>valid</strong> subsequence of <code>nums</code>.</p>
-<p>A <strong>subsequence</strong> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
+<p>Given a <code>sentence</code> that consists of some words separated by a <strong>single space</strong>, and a <code>searchWord</code>, check if <code>searchWord</code> is a prefix of any word in <code>sentence</code>.</p>
+<p>Return <em>the index of the word in </em><code>sentence</code><em> (<strong>1-indexed</strong>) where </em><code>searchWord</code><em> is a prefix of this word</em>. If <code>searchWord</code> is a prefix of more than one word, return the index of the first word <strong>(minimum index)</strong>. If there is no such word return <code>-1</code>.</p>
+<p>A <strong>prefix</strong> of a string <code>s</code> is any leading contiguous substring of <code>s</code>.</p>
 <p><strong class="example">Example 1:</strong></p>
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4]</span></p>
-<p><strong>Output:</strong> <span class="example-io">4</span></p>
-<p><strong>Explanation:</strong></p>
-<p>The longest valid subsequence is <code>[1, 2, 3, 4]</code>.</p>
-</div>
+<pre>
+<strong>Input:</strong> sentence = &quot;i love eating burger&quot;, searchWord = &quot;burg&quot;
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> &quot;burg&quot; is prefix of &quot;burger&quot; which is the 4th word in the sentence.
+</pre>
 <p><strong class="example">Example 2:</strong></p>
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,1,1,2,1,2]</span></p>
-<p><strong>Output:</strong> 6</p>
-<p><strong>Explanation:</strong></p>
-<p>The longest valid subsequence is <code>[1, 2, 1, 2, 1, 2]</code>.</p>
-</div>
+<pre>
+<strong>Input:</strong> sentence = &quot;this problem is an easy problem&quot;, searchWord = &quot;pro&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> &quot;pro&quot; is prefix of &quot;problem&quot; which is the 2nd and the 6th word in the sentence, but we return 2 as it&#39;s the minimal index.
+</pre>
 <p><strong class="example">Example 3:</strong></p>
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,3]</span></p>
-<p><strong>Output:</strong> <span class="example-io">2</span></p>
-<p><strong>Explanation:</strong></p>
-<p>The longest valid subsequence is <code>[1, 3]</code>.</p>
-</div>
+<pre>
+<strong>Input:</strong> sentence = &quot;i am tired&quot;, searchWord = &quot;you&quot;
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> &quot;you&quot; is not a prefix of any word in the sentence.
+</pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>2 &lt;= nums.length &lt;= 2 * 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>7</sup></code></li>
+	<li><code>1 &lt;= sentence.length &lt;= 100</code></li>
+	<li><code>1 &lt;= searchWord.length &lt;= 10</code></li>
+	<li><code>sentence</code> consists of lowercase English letters and spaces.</li>
+	<li><code>searchWord</code> consists of lowercase English letters.</li>
 </ul>
 
 <h2 id="solution">
@@ -569,46 +564,31 @@
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> maximumLength(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> type_1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>){
-</span></span><span style="display:flex;"><span>                type_1<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> isPrefixOfWord(string sentence, string searchWord) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;</span> words;
+</span></span><span style="display:flex;"><span>        string temp <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">char</span> ch : sentence) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (ch <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39; &#39;</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>temp.empty()) {
+</span></span><span style="display:flex;"><span>                    words.push_back(temp);
+</span></span><span style="display:flex;"><span>                    temp <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                temp <span style="color:#f92672">+=</span> ch;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> type_2<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>){
-</span></span><span style="display:flex;"><span>                type_2<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>temp.empty()) {
+</span></span><span style="display:flex;"><span>            words.push_back(temp);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> words.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (words[i].substr(<span style="color:#ae81ff">0</span>, searchWord.size()) <span style="color:#f92672">==</span> searchWord) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> turn <span style="color:#f92672">=</span> true;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> type_3 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(turn <span style="color:#f92672">&amp;&amp;</span> nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>){
-</span></span><span style="display:flex;"><span>                turn<span style="color:#f92672">=</span>false;
-</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(<span style="color:#f92672">!</span>turn <span style="color:#f92672">&amp;&amp;</span> nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>){
-</span></span><span style="display:flex;"><span>                turn<span style="color:#f92672">=</span>true;
-</span></span><span style="display:flex;"><span>                type_3<span style="color:#f92672">+=</span><span style="color:#ae81ff">2</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(turn<span style="color:#f92672">==</span>false){
-</span></span><span style="display:flex;"><span>            type_3<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        turn <span style="color:#f92672">=</span> true;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> type_4<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(turn <span style="color:#f92672">&amp;&amp;</span> nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>){
-</span></span><span style="display:flex;"><span>                turn<span style="color:#f92672">=</span>false;
-</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(<span style="color:#f92672">!</span>turn <span style="color:#f92672">&amp;&amp;</span> nums[i]<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>){
-</span></span><span style="display:flex;"><span>                type_4<span style="color:#f92672">+=</span><span style="color:#ae81ff">2</span>;
-</span></span><span style="display:flex;"><span>                turn<span style="color:#f92672">=</span>true;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(turn<span style="color:#f92672">==</span>false){
-</span></span><span style="display:flex;"><span>            type_4<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">max</span>(max(type_1, type_2),max(type_3, type_4));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -623,9 +603,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                 | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Simple Frequency Counting | O(n)            | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm           | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| String Tokenization | O(nm)      | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -650,7 +630,7 @@
  </a>
   
 </h4>
-<p>This problem can be approached by first identifying the pattern required for a valid subsequence, where each pair of consecutive numbers sums up to either an even or odd number consistently throughout the subsequence. We can consider the numbers to be of two types: even and odd. We need to maximize the length of the valid subsequence, so we should consider all possible scenarios for achieving this. Looking at the solution, we find four different types of subsequences being considered. The first two types involve only odd or even numbers. However, the last two types involve alternating between odd and even numbers. A valid subsequence could end with either an even or odd number depending on the starting number and the type of subsequence we are dealing with.</p>
+<p>To solve this problem, we need to think of a way to break down the sentence into individual words. One approach could be to use the space as a delimiter to split the sentence into words. Another crucial thing to consider is how we will be comparing the searchWord with each word in the sentence. A prefix comparison will be necessary, and we need to think of a way to achieve that. Lastly, we need to consider the edge case where the searchWord is not a prefix of any word in the sentence.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -663,7 +643,7 @@
  </a>
   
 </h4>
-<p>The provided solution has correctly analyzed all possible types of valid subsequences. It first counts the number of odd and even numbers separately, and then considers the two alternating scenarios. In each scenario, it pairs the numbers from the start and the end, working its way towards the center to maximize the subsequence length. At the end, it chooses the maximum length from the four types of subsequences. We can intuitively understand that this is the best approach because we have considered all possible arrangements and are choosing the one that gives the maximum length.</p>
+<p>Intuitively, we can solve this problem by breaking it down into three main steps. Firstly, we need to create a list of all words in the sentence, which can be achieved by splitting the sentence at each space. Secondly, we need to iterate over each word in the list and check if the searchWord is a prefix of that word. If it is, we need to return the index of that word. Lastly, we need to ensure that we return the index of the first word that the searchWord is a prefix of, which can be achieved by returning the index as soon as we find a match.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -677,13 +657,13 @@
   
 </h3>
 <ul>
-<li>The problem asks for the longest valid subsequence where the sum of adjacent elements has the same parity.</li>
-<li>To solve this, we can categorize the numbers into two types: even and odd.</li>
-<li>We can then consider four cases: all even numbers, all odd numbers, alternating even and odd numbers starting with even, and alternating even and odd numbers starting with odd.</li>
-<li>The longest valid subsequence will be the maximum length among these four cases.</li>
-<li>This approach works because it considers all possible scenarios for the parity of adjacent elements.</li>
-<li>By counting the number of even and odd numbers, we can determine the maximum length of the valid subsequence.</li>
-<li>The time complexity of this approach is O(n), where n is the length of the input array.</li>
+<li>The problem requires finding the index of the first word in a sentence that has a given search word as its prefix.</li>
+<li>To solve this problem, we need to split the sentence into individual words and then check each word to see if it starts with the search word.</li>
+<li>We can use the <code>substr</code> function in C++ to check if a word starts with the search word.</li>
+<li>The key insight here is that we only need to return the index of the first word that matches the search word, so we can stop checking as soon as we find a match.</li>
+<li>This solution works because it checks each word in the sentence in order, so it will always find the first word that matches the search word.</li>
+<li>The time complexity of this solution is <code>O(nm)</code>, where n is the number of words in the sentence, because we need to check each word once and logm is the time complexity of the <code>substr</code> function.</li>
+<li>The space complexity is also <code>O(n)</code>, because we need to store all the words in the sentence in a vector.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -698,13 +678,13 @@
   
 </h3>
 <ul>
-<li>We initialize four variables <code>type_1</code>, <code>type_2</code>, <code>type_3</code>, and <code>type_4</code> to store the count of even numbers, odd numbers, alternating even and odd numbers starting with even, and alternating even and odd numbers starting with odd, respectively.</li>
-<li>We iterate through the input array to count the number of even and odd numbers using <code>if(nums[i]%2==0)</code> and <code>if(nums[i]%2==1)</code>.</li>
-<li>We use a boolean variable <code>turn</code> to keep track of the parity of the current number in the alternating sequences.</li>
-<li>We update the <code>type_3</code> and <code>type_4</code> variables based on the parity of the current number and the previous number.</li>
-<li>Finally, we return the maximum length among the four cases using <code>max(max(type_1, type_2),max(type_3, type_4))</code>.</li>
-<li>The code uses simple loops and conditional statements to implement the logic.</li>
-<li>The variables are named clearly to indicate their purpose, making the code easy to understand.</li>
+<li>We start by splitting the sentence into individual words using a <code>for</code> loop and a temporary string <code>temp</code> to build each word.</li>
+<li>We use the line <code>if (ch == ' ')</code> to check if we have reached the end of a word, and if so, we add the word to the <code>words</code> vector.</li>
+<li>After splitting the sentence into words, we use another <code>for</code> loop to check each word to see if it starts with the search word.</li>
+<li>We use the line <code>if (words[i].substr(0, searchWord.size()) == searchWord)</code> to check if a word starts with the search word.</li>
+<li>If we find a word that starts with the search word, we return the index of that word plus one, because the problem uses 1-based indexing.</li>
+<li>If we don&rsquo;t find any words that start with the search word, we return -1 to indicate that no match was found.</li>
+<li>We use the line <code>if (!temp.empty())</code> to check if the temporary string is not empty before adding it to the <code>words</code> vector, to avoid adding an empty string to the vector.</li>
 </ul>
 <hr>
 
@@ -732,9 +712,10 @@
   
 </h3>
 <ul>
-<li>The algorithm iterates over the input vector four times using loops (<code>for(int i = 0; i &lt; nums.size(); i++)</code>), resulting in a total of 4*n iterations, which simplifies to O(n) because constant factors are ignored in Big O notation.</li>
-<li>The dominant operations are the if condition checks within the loops (<code>if(nums[i]%2==0)</code> and <code>if(vals[i]%2==1</code>), which are executed a total of 4*n times.</li>
-<li>Given that the number of iterations grows linearly with the size of the input, the time complexity is classified as O(n)</li>
+<li>The algorithm iterates over the input sentence once to split it into words, resulting in O(n) time complexity where n is the length of the sentence.</li>
+<li>For each word, it performs a substring check to compare the word with the search word, contributing an additional O(m) factor to the time complexity where m is the length of the search word.</li>
+<li>Since the loop iterates over the words array (of size n) and checks substrings of size m, the overall time complexity is O(n*m) due to the substring checks.</li>
+<li>However, given that string comparison typically involves a constant-time comparison for each character (worst-case when the words are identical), we need to account for the average and worst case. Thus, the overall time complexity can be classified as O(n*m).</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -749,9 +730,9 @@
   
 </h3>
 <ul>
-<li>The algorithm uses a constant amount of space to store variables (<code>type_1</code>, <code>type_2</code>, <code>type_3</code>, <code>type_4</code>, and <code>turn</code>), regardless of the size of the input vector.</li>
-<li>No data structures that scale with the input size (e.g., vectors, arrays) are used, minimizing memory usage.</li>
-<li>The constant space usage justifies the space complexity classification as O(1)</li>
+<li>The algorithm creates an additional data structure, a vector to hold the word tokens, requiring memory proportionate to the number of words in the sentence.</li>
+<li>This requires auxiliary space that scales with the input size. Assuming an average case where each word is roughly equally long, this contributes to a space complexity of O(n) where n is the number of words (which can be related to the length of the sentence) rather than its characters.</li>
+<li>The string variables &rsquo;temp&rsquo; and &lsquo;searchWord&rsquo; and local variables require constant space, thus not impacting the overall space complexity. Consequently, the space complexity of the algorithm can be classified as O(n).</li>
 </ul>
 <hr>
 
@@ -767,7 +748,7 @@
   
 </h3>
 <blockquote>
-<p>This question is rated as <strong>Medium</strong> difficulty.</p>
+<p>This question is rated as <strong>Easy</strong> difficulty.</p>
 </blockquote>
 
 <h4 id="hints">
@@ -782,13 +763,13 @@
   
 </h4>
 <blockquote>
-<p>The possible sequence either contains all even elements, all odd elements, alternate even odd, or alternate odd even elements.</p>
+<p>First extract the words of the sentence.</p>
 </blockquote>
 <blockquote>
-<p>Considering only the parity of elements, there are only 4 possibilities and we can try all of them.</p>
+<p>Check for each word if searchWord occurs at index 0, if so return the index of this word (1-indexed)</p>
 </blockquote>
 <blockquote>
-<p>When selecting an element with any parity, try to select the earliest one.</p>
+<p>If searchWord doesn&rsquo;t exist as a prefix of any word return the default value (-1).</p>
 </blockquote>
 <hr>
 
@@ -813,16 +794,16 @@
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Longest Increasing Subsequence</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/longest-increasing-subsequence" target="_blank">https://leetcode.com/problems/longest-increasing-subsequence</a>
+          <td style="text-align: left">Counting Words With a Given Prefix</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/counting-words-with-a-given-prefix" target="_blank">https://leetcode.com/problems/counting-words-with-a-given-prefix</a>
 </td>
-          <td style="text-align: left">Medium</td>
+          <td style="text-align: left">Easy</td>
       </tr>
       <tr>
-          <td style="text-align: left">Length of the Longest Subsequence That Sums to Target</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target" target="_blank">https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target</a>
+          <td style="text-align: left">Count Prefixes of a Given String</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/count-prefixes-of-a-given-string" target="_blank">https://leetcode.com/problems/count-prefixes-of-a-given-string</a>
 </td>
-          <td style="text-align: left">Medium</td>
+          <td style="text-align: left">Easy</td>
       </tr>
   </tbody>
 </table>
@@ -839,17 +820,13 @@
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-3291-minimum-number-of-valid-strings-to-form-target-i/">
+    <a class="next" href="/blog/leetcode-potd/problem-3201-find-the-maximum-length-of-valid-subsequence-i/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3291 Minimum Number of Valid Strings to Form Target I </span>
+      <span> Problem 3201 Find the Maximum Length of Valid Subsequence I </span>
     </a>
   
 </nav>
