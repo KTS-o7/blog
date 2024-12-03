@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2109 Adding Spaces to a String &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2109 Adding Spaces to a String &middot; The Indian Engineer" />
+  <title>Problem 2563 Count the Number of Fair Pairs &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2563 Count the Number of Fair Pairs &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, two pointers, string, simulation, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2109-adding-spaces-to-a-string/" />
+  <meta name="keywords" content="array, two pointers, binary search, sorting, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2563-count-the-number-of-fair-pairs/" />
 
   
 
@@ -82,24 +82,24 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2109-adding-spaces-to-a-string/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2563-count-the-number-of-fair-pairs/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2109 Adding Spaces to a String">
+  <meta property="og:title" content="Problem 2563 Count the Number of Fair Pairs">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-03T21:08:49+05:30">
-    <meta property="article:modified_time" content="2024-12-03T21:08:49+05:30">
+    <meta property="article:published_time" content="2024-12-03T21:11:39+05:30">
+    <meta property="article:modified_time" content="2024-12-03T21:11:39+05:30">
     <meta property="article:tag" content="Array">
     <meta property="article:tag" content="Two-Pointers">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Simulation">
+    <meta property="article:tag" content="Binary-Search">
+    <meta property="article:tag" content="Sorting">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2109 Adding Spaces to a String">
+  <meta name="twitter:title" content="Problem 2563 Count the Number of Fair Pairs">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -393,7 +393,7 @@
 
 
 
-<h1 class="pg-title">Problem 2109 Adding Spaces to a String</h1>
+<h1 class="pg-title">Problem 2563 Count the Number of Fair Pairs</h1>
 
 
 <div class="meta">
@@ -413,7 +413,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-03T21:08:49&#43;05:30">Dec 3, 2024</time>
+  Posted on <time datetime="2024-12-03T21:11:39&#43;05:30">Dec 3, 2024</time>
   
   
   
@@ -430,7 +430,7 @@
 
 </span>
   
-    6 mins
+    5 mins
   
 
 
@@ -451,9 +451,9 @@
   
   <a class="tag" href="/blog/tags/two-pointers/">Two-Pointers</a>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
   
-  <a class="tag" href="/blog/tags/simulation/">Simulation</a>
+  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
   
 </p>
 
@@ -487,6 +487,7 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
+        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -510,7 +511,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/adding-spaces-to-a-string/" target="_blank">Problem 2109</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/count-the-number-of-fair-pairs/" target="_blank">Problem 2563</a>
 </p>
 
 <h2 id="question">
@@ -524,41 +525,30 @@
  </a>
   
 </h2>
-<p>You are given a <strong>0-indexed</strong> string <code>s</code> and a <strong>0-indexed</strong> integer array <code>spaces</code> that describes the indices in the original string where spaces will be added. Each space should be inserted <strong>before</strong> the character at the given index.</p>
+<p>Given a <strong>0-indexed</strong> integer array <code>nums</code> of size <code>n</code> and two integers <code>lower</code> and <code>upper</code>, return <em>the number of fair pairs</em>.</p>
+<p>A pair <code>(i, j)</code> is <b>fair </b>if:</p>
 <ul>
-	<li>For example, given <code>s = &quot;EnjoyYourCoffee&quot;</code> and <code>spaces = [5, 9]</code>, we place spaces before <code>&#39;Y&#39;</code> and <code>&#39;C&#39;</code>, which are at indices <code>5</code> and <code>9</code> respectively. Thus, we obtain <code>&quot;Enjoy <strong><u>Y</u></strong>our <u><strong>C</strong></u>offee&quot;</code>.</li>
+	<li><code>0 &lt;= i &lt; j &lt; n</code>, and</li>
+	<li><code>lower &lt;= nums[i] + nums[j] &lt;= upper</code></li>
 </ul>
-<p>Return<strong> </strong><em>the modified string <strong>after</strong> the spaces have been added.</em></p>
 <p><strong class="example">Example 1:</strong></p>
 <pre>
-<strong>Input:</strong> s = &quot;LeetcodeHelpsMeLearn&quot;, spaces = [8,13,15]
-<strong>Output:</strong> &quot;Leetcode Helps Me Learn&quot;
-<strong>Explanation:</strong> 
-The indices 8, 13, and 15 correspond to the underlined characters in &quot;Leetcode<u><strong>H</strong></u>elps<u><strong>M</strong></u>e<u><strong>L</strong></u>earn&quot;.
-We then place spaces before those characters.
+<strong>Input:</strong> nums = [0,1,7,4,4,5], lower = 3, upper = 6
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> There are 6 fair pairs: (0,3), (0,4), (0,5), (1,3), (1,4), and (1,5).
 </pre>
 <p><strong class="example">Example 2:</strong></p>
 <pre>
-<strong>Input:</strong> s = &quot;icodeinpython&quot;, spaces = [1,5,7,9]
-<strong>Output:</strong> &quot;i code in py thon&quot;
-<strong>Explanation:</strong>
-The indices 1, 5, 7, and 9 correspond to the underlined characters in &quot;i<u><strong>c</strong></u>ode<u><strong>i</strong></u>n<u><strong>p</strong></u>y<u><strong>t</strong></u>hon&quot;.
-We then place spaces before those characters.
-</pre>
-<p><strong class="example">Example 3:</strong></p>
-<pre>
-<strong>Input:</strong> s = &quot;spacing&quot;, spaces = [0,1,2,3,4,5,6]
-<strong>Output:</strong> &quot; s p a c i n g&quot;
-<strong>Explanation:</strong>
-We are also able to place spaces before the first character of the string.
+<strong>Input:</strong> nums = [1,7,9,2,5], lower = 11, upper = 11
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There is a single fair pair: (2,3).
 </pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= s.length &lt;= 3 * 10<sup>5</sup></code></li>
-	<li><code>s</code> consists only of lowercase and uppercase English letters.</li>
-	<li><code>1 &lt;= spaces.length &lt;= 3 * 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= spaces[i] &lt;= s.length - 1</code></li>
-	<li>All the values of <code>spaces</code> are <strong>strictly increasing</strong>.</li>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>nums.length == n</code></li>
+	<li><code><font face="monospace">-10<sup>9</sup></font>&nbsp;&lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code><font face="monospace">-10<sup>9</sup>&nbsp;&lt;= lower &lt;= upper &lt;= 10<sup>9</sup></font></code></li>
 </ul>
 
 <h2 id="solution">
@@ -574,19 +564,16 @@ We are also able to place spaces before the first character of the string.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    string addSpaces(string s, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> spaces) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> total_size <span style="color:#f92672">=</span> s.size() <span style="color:#f92672">+</span> spaces.size();
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">char</span> result[total_size];
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> s_index <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, spaces_index <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, res_index <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (s_index <span style="color:#f92672">&lt;</span> s.size()) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (spaces_index <span style="color:#f92672">&lt;</span> spaces.size() <span style="color:#f92672">&amp;&amp;</span> s_index <span style="color:#f92672">==</span> spaces[spaces_index]) {
-</span></span><span style="display:flex;"><span>                result[res_index<span style="color:#f92672">++</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39; &#39;</span>;
-</span></span><span style="display:flex;"><span>                spaces_index<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            result[res_index<span style="color:#f92672">++</span>] <span style="color:#f92672">=</span> s[s_index<span style="color:#f92672">++</span>];
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> countFairPairs(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> lower, <span style="color:#66d9ef">int</span> upper) {
+</span></span><span style="display:flex;"><span>        sort(nums.begin(),nums.end());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>nums.size(); i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">auto</span> right <span style="color:#f92672">=</span> upper_bound(nums.begin()<span style="color:#f92672">+</span>i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,nums.end(),upper<span style="color:#f92672">-</span>nums[i]);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">auto</span> left <span style="color:#f92672">=</span> lower_bound(nums.begin()<span style="color:#f92672">+</span>i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,nums.end(),lower<span style="color:#f92672">-</span>nums[i]);
+</span></span><span style="display:flex;"><span>            ans <span style="color:#f92672">+=</span> (right<span style="color:#f92672">-</span>left);
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">string</span>(result, total_size);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -601,9 +588,9 @@ We are also able to place spaces before the first character of the string.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                           | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------------------------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Modified two-pointer traversal for string insertion | O(n)            | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                              | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| -------------------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Modified Merge Sort with Binary Search | O(n log n)      | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -628,7 +615,7 @@ We are also able to place spaces before the first character of the string.
  </a>
   
 </h4>
-<p>Think of the original string as a straight line without any spaces. The spaces array represents specific points where you want to introduce spaces. A natural approach could be to start from the beginning of the string and move through each character while also keeping track of the spaces we have to add. Another possible way could be to think of it as a sorting problem where you combine all the characters and spaces together in the correct order.</p>
+<p>When approaching a problem with pairs and constraints, consider first organizing the data if possible, as seen in the use of sorting. Then, identify potential pairs by narrowing the differences in values. This includes determining a range for the acceptable values, like using lower and upper bounds. Think about using &lsquo;sliding window&rsquo; style solutions to reduce the total number of calculations needed, as there can be pairs of pairs. One can also notice the repeated subtraction in the potential calculation of the pairs; instead, compute each difference and then set conditions.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -641,7 +628,7 @@ We are also able to place spaces before the first character of the string.
  </a>
   
 </h4>
-<p>Intuitively, it feels like a two-pointer problem where you&rsquo;re tracking both the current character in the string and the current space you need to add. The key insight is that you don&rsquo;t actually need to physically separate these two lists – you can generate the resulting string on the fly by deciding whether to add a space or a character at each step. This results in a very efficient and clean solution without the need for explicit loops or extra memory allocations beyond what&rsquo;s needed.</p>
+<p>For fair pairs, see the bigger picture: instead of individually inspecting pairs one by one, slice the whole list of numbers and check individual &lsquo;head-starts&rsquo; as we proceed in our sequence – which gives a relative space to efficiently spot pairs that we care about. Observe and then minimize the steps in computing potential valid pairs – it&rsquo;s better to minimize redundant calculations instead of iterating and checking for every potential situation.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -655,13 +642,13 @@ We are also able to place spaces before the first character of the string.
   
 </h3>
 <ul>
-<li>The problem requires adding spaces to a string at specific indices.</li>
-<li>We can solve this problem by iterating through the string and the indices simultaneously.</li>
-<li>We need to keep track of the current index in the string, the current index in the spaces array, and the current index in the result string.</li>
-<li>When the current index in the string matches the current index in the spaces array, we add a space to the result string.</li>
-<li>We can use a single loop to iterate through the string and the spaces array.</li>
-<li>This approach ensures that we add spaces at the correct indices in the string.</li>
-<li>This solution has a time complexity of O(n) and a space complexity of O(n).</li>
+<li>The problem can be solved by iterating over the array and for each element, finding the range of elements that can form a fair pair.</li>
+<li>To efficiently find the range of elements, we can use a sorted array and binary search.</li>
+<li>Sorting the array allows us to use upper_bound and lower_bound functions to find the range of elements in O(log n) time.</li>
+<li>The key insight is that for each element, we only need to consider the elements to its right to form a fair pair.</li>
+<li>This is because the problem statement specifies that i &lt; j, so we can&rsquo;t form a pair with an element to the left.</li>
+<li>Using upper_bound and lower_bound functions ensures that we don&rsquo;t count duplicate pairs.</li>
+<li>The time complexity of this approach is O(n log n) due to the sorting and binary search.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -676,13 +663,12 @@ We are also able to place spaces before the first character of the string.
   
 </h3>
 <ul>
-<li>We initialize the result string with a size equal to the sum of the string size and the spaces array size: <code>int total_size = s.size() + spaces.size();</code></li>
-<li>We initialize three indices: <code>s_index</code> for the string, <code>spaces_index</code> for the spaces array, and <code>res_index</code> for the result string: <code>int s_index = 0, spaces_index = 0, res_index = 0;</code></li>
-<li>We use a while loop to iterate through the string: <code>while (s_index &lt; s.size()) { ... }</code></li>
-<li>Inside the loop, we check if the current index in the string matches the current index in the spaces array: <code>if (spaces_index &lt; spaces.size() &amp;&amp; s_index == spaces[spaces_index]) { ... }</code></li>
-<li>If it matches, we add a space to the result string and increment the <code>spaces_index</code>: <code>result[res_index++] = ' '; spaces_index++;</code></li>
-<li>We then add the current character from the string to the result string and increment the <code>s_index</code>: <code>result[res_index++] = s[s_index++];</code></li>
-<li>Finally, we return the result string: <code>return string(result, total_size);</code></li>
+<li>The array is sorted using the <code>sort(nums.begin(),nums.end())</code> function.</li>
+<li>The <code>upper_bound</code> function is used to find the upper limit of the range of elements that can form a fair pair, <code>auto right = upper_bound(nums.begin()+i+1,nums.end(),upper-nums[i])</code>.</li>
+<li>The <code>lower_bound</code> function is used to find the lower limit of the range of elements that can form a fair pair, <code>auto left = lower_bound(nums.begin()+i+1,nums.end(),lower-nums[i])</code>.</li>
+<li>The number of fair pairs for each element is calculated as the difference between the upper and lower limits, <code>ans += (right-left)</code>.</li>
+<li>The <code>for</code> loop iterates over the array, and for each element, it calculates the number of fair pairs and adds it to the total count.</li>
+<li>The <code>long long</code> data type is used to store the total count to avoid overflow.</li>
 </ul>
 <hr>
 
@@ -710,9 +696,9 @@ We are also able to place spaces before the first character of the string.
   
 </h3>
 <ul>
-<li>The time complexity is linear because we only iterate through the input string <code>s</code> once, using the while loop condition <code>s_index &lt; s.size()</code>. This loop iterates <code>s.size()</code> times, and within each iteration, we perform constant-time operations.</li>
-<li>The dominant operations in the loop are <code>result[res_index++] = ' ';</code> and <code>result[res_index++] = s[s_index++];</code>, both of which take constant time. We perform a total of <code>s.size() + spaces.size()</code> assignments to <code>result</code> in the loop, plus some additional constant-time work to initialize the loop variables.</li>
-<li>Since the total number of iterations and constant-time operations within the loop grows linearly with the input size <code>s.size()</code>, we can express the time complexity as O(n + m), where n is the size of <code>s</code> and m is the size of <code>spaces</code>. Since Big O notation ignores lower-order terms, this simplifies to O(n + m), or simply O(n) when we consider the problem&rsquo;s constraints, where <code>m</code> is the number of spaces and <code>n</code> is the size of the string, with <code>m</code> bounded by <code>n</code>.</li>
+<li>The algorithm iterates through the sorted array of size &rsquo;n&rsquo;, resulting in a linear operation with a time complexity of O(n).</li>
+<li>However, the dominant operations are the binary searches performed by the &lsquo;upper_bound&rsquo; and &rsquo;lower_bound&rsquo; functions within the loop, each with a time complexity of O(log n) due to their binary search nature.</li>
+<li>Therefore, the overall time complexity is the product of these operations, resulting in O(n log n). This classification is justified due to the logarithmic search time being amplified by the linear number of iterations.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -727,9 +713,9 @@ We are also able to place spaces before the first character of the string.
   
 </h3>
 <ul>
-<li>We use a character array <code>result</code> to store the final output, which requires O(n + m) space in the worst case, where n is the size of the string <code>s</code> and m is the size of <code>spaces</code>. However, since m is bounded by n, we can simplify this to O(n).</li>
-<li>The space required to store the loops&rsquo; indices <code>s_index</code>, <code>spaces_index</code>, and <code>res_index</code> does not grow with the input size and can be ignored when analyzing space complexity.</li>
-<li>No dynamic memory allocation is performed within the loop. The memory is allocated upfront for the result array, and then reused throughout the algorithm.</li>
+<li>The algorithm sorts the input array &rsquo;nums&rsquo; in-place, which does not require any additional memory proportional to the input size.</li>
+<li>The usage of pointers and variables (e.g., &lsquo;i&rsquo;, &lsquo;right&rsquo;, and &rsquo;left&rsquo;) is constant and not dependent on the input size, and thus does not affect the overall space complexity.</li>
+<li>Therefore, the algorithm has a space complexity of O(1), as it only requires a constant amount of memory.</li>
 </ul>
 <hr>
 
@@ -760,14 +746,62 @@ We are also able to place spaces before the first character of the string.
   
 </h4>
 <blockquote>
-<p>Create a new string, initially empty, as the modified string. Iterate through the original string and append each character of the original string to the new string. However, each time you reach a character that requires a space before it, append a space before appending the character.</p>
+<p>Sort the array in ascending order.</p>
 </blockquote>
 <blockquote>
-<p>Since the array of indices for the space locations is sorted, use a pointer to keep track of the next index to place a space. Only increment the pointer once a space has been appended.</p>
+<p>For each number in the array, keep track of the smallest and largest numbers in the array that can form a fair pair with this number.</p>
 </blockquote>
 <blockquote>
-<p>Ensure that your append operation can be done in O(1).</p>
+<p>As you move to larger number, both boundaries move down.</p>
 </blockquote>
+<hr>
+
+<h3 id="similar-questions">
+  Similar Questions:
+  
+  <a hidden class="anchor" href="#similar-questions">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Title</th>
+          <th style="text-align: left">URL</th>
+          <th style="text-align: left">Difficulty</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Count of Range Sum</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/count-of-range-sum" target="_blank">https://leetcode.com/problems/count-of-range-sum</a>
+</td>
+          <td style="text-align: left">Hard</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Finding Pairs With a Certain Sum</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/finding-pairs-with-a-certain-sum" target="_blank">https://leetcode.com/problems/finding-pairs-with-a-certain-sum</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Count Number of Pairs With Absolute Difference K</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k" target="_blank">https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k</a>
+</td>
+          <td style="text-align: left">Easy</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Count Pairs Whose Sum is Less than Target</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target" target="_blank">https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target</a>
+</td>
+          <td style="text-align: left">Easy</td>
+      </tr>
+  </tbody>
+</table>
 
 
 
@@ -781,17 +815,13 @@ We are also able to place spaces before the first character of the string.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2563-count-the-number-of-fair-pairs/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2563 Count the Number of Fair Pairs </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-48-rotate-image/">
+    <a class="next" href="/blog/leetcode-potd/problem-2109-adding-spaces-to-a-string/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 48 Rotate Image </span>
+      <span> Problem 2109 Adding Spaces to a String </span>
     </a>
   
 </nav>
