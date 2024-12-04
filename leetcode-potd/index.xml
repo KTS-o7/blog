@@ -6,8 +6,15 @@
     <description>Recent content in Leetcode POTDs on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Dec 2024 19:50:34 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2024 19:53:02 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/leetcode-potd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 2601 Prime Subtraction Operation</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2601-prime-subtraction-operation/</link>
+      <pubDate>Wed, 04 Dec 2024 19:53:02 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-2601-prime-subtraction-operation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 2825 Make String a Subsequence Using Cyclic Increments</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2825-make-string-a-subsequence-using-cyclic-increments/</link>
