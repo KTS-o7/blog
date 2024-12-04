@@ -6,8 +6,22 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2024 21:11:39 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2024 19:50:34 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>String</title>
+      <link>https://KTS-o7.github.io/blog/tags/string/</link>
+      <pubDate>Wed, 04 Dec 2024 19:50:34 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Two-Pointers</title>
+      <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
+      <pubDate>Wed, 04 Dec 2024 19:50:34 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
@@ -30,24 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>Two-Pointers</title>
-      <link>https://KTS-o7.github.io/blog/tags/two-pointers/</link>
-      <pubDate>Tue, 03 Dec 2024 21:11:39 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/two-pointers/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Simulation</title>
       <link>https://KTS-o7.github.io/blog/tags/simulation/</link>
       <pubDate>Tue, 03 Dec 2024 21:08:49 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/simulation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>https://KTS-o7.github.io/blog/tags/string/</link>
-      <pubDate>Tue, 03 Dec 2024 21:08:49 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
       <description></description>
     </item>
     <item>

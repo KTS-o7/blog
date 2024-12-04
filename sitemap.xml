@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <lastmod>2024-12-04T19:50:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2825-make-string-a-subsequence-using-cyclic-increments/</loc>
+    <lastmod>2024-12-04T19:50:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
+    <lastmod>2024-12-04T19:50:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-12-04T19:50:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-12-04T19:50:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/two-pointers/</loc>
+    <lastmod>2024-12-04T19:50:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
     <lastmod>2024-12-03T21:11:39+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -8,12 +44,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/binary-search/</loc>
-    <lastmod>2024-12-03T21:11:39+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
     <lastmod>2024-12-03T21:11:39+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -31,24 +61,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-12-03T21:11:39+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
-    <lastmod>2024-12-03T21:11:39+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/two-pointers/</loc>
-    <lastmod>2024-12-03T21:11:39+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-2109-adding-spaces-to-a-string/</loc>
     <lastmod>2024-12-03T21:08:49+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -56,12 +68,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/simulation/</loc>
-    <lastmod>2024-12-03T21:08:49+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/string/</loc>
     <lastmod>2024-12-03T21:08:49+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
