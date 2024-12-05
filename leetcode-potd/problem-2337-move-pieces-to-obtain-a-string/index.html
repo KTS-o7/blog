@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2601 Prime Subtraction Operation &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2601 Prime Subtraction Operation &middot; The Indian Engineer" />
+  <title>Problem 2337 Move Pieces to Obtain a String &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2337 Move Pieces to Obtain a String &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, math, binary search, greedy, number theory, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2601-prime-subtraction-operation/" />
+  <meta name="keywords" content="two pointers, string, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2337-move-pieces-to-obtain-a-string/" />
 
   
 
@@ -82,25 +82,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2601-prime-subtraction-operation/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2337-move-pieces-to-obtain-a-string/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2601 Prime Subtraction Operation">
+  <meta property="og:title" content="Problem 2337 Move Pieces to Obtain a String">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-04T19:53:02+05:30">
-    <meta property="article:modified_time" content="2024-12-04T19:53:02+05:30">
-    <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Math">
-    <meta property="article:tag" content="Binary-Search">
-    <meta property="article:tag" content="Greedy">
-    <meta property="article:tag" content="Number Theory">
+    <meta property="article:published_time" content="2024-12-05T23:19:14+05:30">
+    <meta property="article:modified_time" content="2024-12-05T23:19:14+05:30">
+    <meta property="article:tag" content="Two-Pointers">
+    <meta property="article:tag" content="String">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2601 Prime Subtraction Operation">
+  <meta name="twitter:title" content="Problem 2337 Move Pieces to Obtain a String">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -394,7 +391,7 @@
 
 
 
-<h1 class="pg-title">Problem 2601 Prime Subtraction Operation</h1>
+<h1 class="pg-title">Problem 2337 Move Pieces to Obtain a String</h1>
 
 
 <div class="meta">
@@ -414,7 +411,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-04T19:53:02&#43;05:30">Dec 4, 2024</time>
+  Posted on <time datetime="2024-12-05T23:19:14&#43;05:30">Dec 5, 2024</time>
   
   
   
@@ -448,15 +445,9 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/array/">Array</a>
+  <a class="tag" href="/blog/tags/two-pointers/">Two-Pointers</a>
   
-  <a class="tag" href="/blog/tags/math/">Math</a>
-  
-  <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
-  
-  <a class="tag" href="/blog/tags/greedy/">Greedy</a>
-  
-  <a class="tag" href="/blog/tags/number-theory/">Number Theory</a>
+  <a class="tag" href="/blog/tags/string/">String</a>
   
 </p>
 
@@ -490,6 +481,7 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
+        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -513,7 +505,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/prime-subtraction-operation/" target="_blank">Problem 2601</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/move-pieces-to-obtain-a-string/" target="_blank">Problem 2337</a>
 </p>
 
 <h2 id="question">
@@ -527,36 +519,39 @@
  </a>
   
 </h2>
-<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of length <code>n</code>.</p>
-<p>You can perform the following operation as many times as you want:</p>
+<p>You are given two strings <code>start</code> and <code>target</code>, both of length <code>n</code>. Each string consists <strong>only</strong> of the characters <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and <code>&#39;_&#39;</code> where:</p>
 <ul>
-	<li>Pick an index <code>i</code> that you haven&rsquo;t picked before, and pick a prime <code>p</code> <strong>strictly less than</strong> <code>nums[i]</code>, then subtract <code>p</code> from <code>nums[i]</code>.</li>
+	<li>The characters <code>&#39;L&#39;</code> and <code>&#39;R&#39;</code> represent pieces, where a piece <code>&#39;L&#39;</code> can move to the <strong>left</strong> only if there is a <strong>blank</strong> space directly to its left, and a piece <code>&#39;R&#39;</code> can move to the <strong>right</strong> only if there is a <strong>blank</strong> space directly to its right.</li>
+	<li>The character <code>&#39;_&#39;</code> represents a blank space that can be occupied by <strong>any</strong> of the <code>&#39;L&#39;</code> or <code>&#39;R&#39;</code> pieces.</li>
 </ul>
-<p>Return <em>true if you can make <code>nums</code> a strictly increasing array using the above operation and false otherwise.</em></p>
-<p>A <strong>strictly increasing array</strong> is an array whose each element is strictly greater than its preceding element.</p>
+<p>Return <code>true</code> <em>if it is possible to obtain the string</em> <code>target</code><em> by moving the pieces of the string </em><code>start</code><em> <strong>any</strong> number of times</em>. Otherwise, return <code>false</code>.</p>
 <p><strong class="example">Example 1:</strong></p>
 <pre>
-<strong>Input:</strong> nums = [4,9,6,10]
+<strong>Input:</strong> start = &quot;_L__R__R_&quot;, target = &quot;L______RR&quot;
 <strong>Output:</strong> true
-<strong>Explanation:</strong> In the first operation: Pick i = 0 and p = 3, and then subtract 3 from nums[0], so that nums becomes [1,9,6,10].
-In the second operation: i = 1, p = 7, subtract 7 from nums[1], so nums becomes equal to [1,2,6,10].
-After the second operation, nums is sorted in strictly increasing order, so the answer is true.</pre>
+<strong>Explanation:</strong> We can obtain the string target from start by doing the following moves:
+- Move the first piece one step to the left, start becomes equal to &quot;<strong>L</strong>___R__R_&quot;.
+- Move the last piece one step to the right, start becomes equal to &quot;L___R___<strong>R</strong>&quot;.
+- Move the second piece three steps to the right, start becomes equal to &quot;L______<strong>R</strong>R&quot;.
+Since it is possible to get the string target from start, we return true.
+</pre>
 <p><strong class="example">Example 2:</strong></p>
 <pre>
-<strong>Input:</strong> nums = [6,8,11,12]
-<strong>Output:</strong> true
-<strong>Explanation: </strong>Initially nums is sorted in strictly increasing order, so we don&#39;t need to make any operations.</pre>
+<strong>Input:</strong> start = &quot;R_L_&quot;, target = &quot;__LR&quot;
+<strong>Output:</strong> false
+<strong>Explanation:</strong> The &#39;R&#39; piece in the string start can move one step to the right to obtain &quot;_<strong>R</strong>L_&quot;.
+After that, no pieces can move anymore, so it is impossible to obtain the string target from start.
+</pre>
 <p><strong class="example">Example 3:</strong></p>
 <pre>
-<strong>Input:</strong> nums = [5,8,3]
+<strong>Input:</strong> start = &quot;_R&quot;, target = &quot;R_&quot;
 <strong>Output:</strong> false
-<strong>Explanation:</strong> It can be proven that there is no way to perform operations to make nums sorted in strictly increasing order, 
-so the answer is false.</pre>
+<strong>Explanation:</strong> The piece in the string start can move only to the right, so it is impossible to obtain the string target from start.</pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= nums.length &lt;= 1000</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>
-	<li><code><font face="monospace">nums.length == n</font></code></li>
+	<li><code>n == start.length == target.length</code></li>
+	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
+	<li><code>start</code> and <code>target</code> consist of the characters <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and <code>&#39;_&#39;</code>.</li>
 </ul>
 
 <h2 id="solution">
@@ -572,38 +567,33 @@ so the answer is false.</pre>
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> primeSubOperation(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> maxElement <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>max_element(nums.begin(), nums.end());
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> canChange(string start, string target) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> start.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> start_ind <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, target_ind <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">bool</span><span style="color:#f92672">&gt;</span> primes(maxElement <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, true);
-</span></span><span style="display:flex;"><span>        primes[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> false;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>; i <span style="color:#f92672">&lt;=</span> sqrt(maxElement <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>); i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (primes[i] <span style="color:#f92672">==</span> true) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> i <span style="color:#f92672">*</span> i; j <span style="color:#f92672">&lt;=</span> maxElement; j <span style="color:#f92672">+=</span> i) {
-</span></span><span style="display:flex;"><span>                    primes[j] <span style="color:#f92672">=</span> false;
-</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (start_ind <span style="color:#f92672">&lt;</span> len <span style="color:#f92672">||</span> target_ind <span style="color:#f92672">&lt;</span> len) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (start_ind <span style="color:#f92672">&lt;</span> len <span style="color:#f92672">&amp;&amp;</span> start[start_ind] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;_&#39;</span>) {
+</span></span><span style="display:flex;"><span>                start_ind<span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (target_ind <span style="color:#f92672">&lt;</span> len <span style="color:#f92672">&amp;&amp;</span> target[target_ind] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;_&#39;</span>) {
+</span></span><span style="display:flex;"><span>                target_ind<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> currValue <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (i <span style="color:#f92672">&lt;</span> nums.size()) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (start_ind <span style="color:#f92672">==</span> len <span style="color:#f92672">||</span> target_ind <span style="color:#f92672">==</span> len) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> start_ind <span style="color:#f92672">==</span> len <span style="color:#f92672">&amp;&amp;</span> target_ind <span style="color:#f92672">==</span> len;
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> difference <span style="color:#f92672">=</span> nums[i] <span style="color:#f92672">-</span> currValue;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (difference <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (start[start_ind] <span style="color:#f92672">!=</span> target[target_ind])
 </span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (start[start_ind] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;L&#39;</span> <span style="color:#f92672">&amp;&amp;</span> start_ind <span style="color:#f92672">&lt;</span> target_ind)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (start[start_ind] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;R&#39;</span> <span style="color:#f92672">&amp;&amp;</span> start_ind <span style="color:#f92672">&gt;</span> target_ind)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> false;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (primes[difference] <span style="color:#f92672">||</span> difference <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
-</span></span><span style="display:flex;"><span>                i<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                currValue<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                currValue<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            start_ind<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            target_ind<span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> true;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
@@ -619,9 +609,9 @@ so the answer is false.</pre>
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                     | Time Complexity  | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------------------------------------- | ---------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Sieve of Eratosthenes with supplementary loop | O(m + nlogm + n) | O(m)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm             | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Two-pointer traversal | O(n)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -646,7 +636,7 @@ so the answer is false.</pre>
  </a>
   
 </h4>
-<p>The problem statement wants us to check if we can make the given array strictly increasing by subtracting a prime number less than the current number from it. Initial thoughts are to iterate through the array and check for each number if subtracting a prime number from it can make it fit in the increasing sequence. We will need a way to generate all prime numbers less than a certain limit. We can use the Sieve of Eratosthenes algorithm to generate all primes. Another thought is to keep track of the current value we are expecting in the strictly increasing sequence.</p>
+<p>To solve this problem, we need to understand the rules of movement. Start by considering each piece (&lsquo;L&rsquo; and &lsquo;R&rsquo;) and how it can move to either the left or the right by potentially shifting through a blank space (&rsquo;<em>&rsquo;). A key realization is that if &lsquo;L&rsquo; is to the right of &lsquo;R&rsquo; in the start string, it&rsquo;s impossible to change the positions, and this must also hold true for the target string. Next, consider that moving a piece will shift it one space, so checking for consecutive movements may be essential. Lastly, think about how you might remove excess information from the problem and focus only on the essential details - the positions of &lsquo;L&rsquo;s and &lsquo;R&rsquo;s alone, as spaces (&rsquo;</em>&rsquo;) don&rsquo;t affect the overall outcome.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -659,7 +649,7 @@ so the answer is false.</pre>
  </a>
   
 </h4>
-<p>Let&rsquo;s iterate through the array and track the current value. If we can subtract a prime number less than the current number, we increment the current value and move to the next number in the array. But if subtracting any prime number does not make the current number greater than the previous number, we simply increment the current value. This will ensure that we are always expecting the next number in the strictly increasing sequence. We continue this process until we have checked all numbers in the array. If we reach the end without returning false, then it means we can make the array strictly increasing by the given operation.</p>
+<p>Further reflection reveals that finding the positions of &lsquo;L&rsquo;s and &lsquo;R&rsquo;s in the start and target strings may not be enough. Think of comparing them directly instead - maybe aligning them on the same indices might provide insight. When a non-space character is encountered in both strings, compare the characters to verify they match, check if the movement was possible, and move to the next non-space characters in both strings. By essentially pairing the start characters with the target characters based on the positioning rules and non-space comparison, we are essentially validating whether each character&rsquo;s shift from start to target makes sense in one sweep. Overall, considering indexing, spacing, and matching pieces simplifies the complexity of determining possible movements. So try combining these observations in your problem-solving strategy.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -673,13 +663,13 @@ so the answer is false.</pre>
   
 </h3>
 <ul>
-<li>The problem requires us to determine if we can make the given array strictly increasing by subtracting a prime number less than the current element.</li>
-<li>We can approach this problem by first finding all prime numbers less than the maximum element in the array.</li>
-<li>We then iterate through the array and for each element, we check if the difference between the current element and the previous element is a prime number.</li>
-<li>If the difference is a prime number, we can subtract it from the current element to make the array strictly increasing.</li>
-<li>If the difference is not a prime number, we cannot make the array strictly increasing and we return false.</li>
-<li>We continue this process until we have iterated through the entire array.</li>
-<li>If we are able to make the array strictly increasing, we return true.</li>
+<li>The problem can be solved by comparing the positions of the pieces in the start and target strings.</li>
+<li>We can ignore the blank spaces in the strings and focus on the positions of the pieces.</li>
+<li>If the pieces in the start string can be moved to the positions of the pieces in the target string, then it is possible to obtain the target string.</li>
+<li>We need to check if the pieces in the start string can be moved to the positions of the pieces in the target string without crossing each other.</li>
+<li>If a piece in the start string is to the right of the corresponding piece in the target string, then it is not possible to obtain the target string.</li>
+<li>We can use two pointers to iterate through the start and target strings and compare the positions of the pieces.</li>
+<li>If we find a piece in the start string that cannot be moved to the position of the corresponding piece in the target string, then we return false.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -694,13 +684,13 @@ so the answer is false.</pre>
   
 </h3>
 <ul>
-<li>We first find the maximum element in the array using <code>*max_element(nums.begin(), nums.end())</code>.</li>
-<li>We then create a boolean array <code>primes</code> of size <code>maxElement + 1</code> and initialize all elements to true.</li>
-<li>We iterate through the array and mark the multiples of each prime number as false using <code>primes[j] = false</code>.</li>
-<li>We then iterate through the array and for each element, we check if the difference between the current element and the previous element is a prime number using <code>primes[difference]</code>.</li>
-<li>If the difference is a prime number, we increment the current value and move to the next element using <code>currValue++</code> and <code>i++</code>.</li>
-<li>If the difference is not a prime number, we only increment the current value using <code>currValue++</code>.</li>
-<li>We continue this process until we have iterated through the entire array using <code>while (i &lt; nums.size())</code>.</li>
+<li>We initialize two pointers, <code>start_ind</code> and <code>target_ind</code>, to the beginning of the start and target strings, respectively.</li>
+<li>We use two while loops to skip the blank spaces in the start and target strings.</li>
+<li>We compare the pieces at the current positions of the start and target strings.</li>
+<li>If the pieces are different, we return false.</li>
+<li>If the piece in the start string is &lsquo;L&rsquo; and it is to the right of the corresponding piece in the target string, we return false.</li>
+<li>If the piece in the start string is &lsquo;R&rsquo; and it is to the left of the corresponding piece in the target string, we return false.</li>
+<li>We increment the pointers and repeat the process until we reach the end of the start or target string.</li>
 </ul>
 <hr>
 
@@ -728,9 +718,10 @@ so the answer is false.</pre>
   
 </h3>
 <ul>
-<li>The time complexity is determined by the Sieve of Eratosthenes algorithm (<code>for (int i = 2; i &lt;= sqrt(maxElement + 1); i++)</code> and <code>for (int j = i * i; j &lt;= maxElement; j += i)</code>) which has a time complexity of O(n log(log n)) where n is the maximum element in the input array. However, after generating the primes, there is an additional loop (<code>while (i &lt; nums.size())</code>) which has a time complexity of O(m) where m is the size of the input array. Therefore, the total time complexity is O(m + n log(log n)).</li>
-<li>The dominant operations are the generation of primes using the Sieve of Eratosthenes algorithm and the subsequent loop to check for prime differences.</li>
-<li>The logarithmic term arises from the <code>sqrt(maxElement + 1)</code> in the outer loop of the Sieve of Eratosthenes algorithm. However, since the size of the input array m is generally smaller than the maximum element n, we can simplify the time complexity to O(m + n _ log m + n) = O(m _ log m + n * log n)</li>
+<li>The time complexity of this solution is dominated by the while loops that traverse the <code>start</code> and <code>target</code> strings. Both loops iterate at most <code>n</code> times, where <code>n</code> is the length of the strings.</li>
+<li>Inside the loops, constant-time operations are performed, such as comparing characters and incrementing indices.</li>
+<li>Since the loops are not nested, the overall time complexity is linear, proportional to the length of the input strings, hence O(n).</li>
+<li>Both the best and worst-case scenarios have the same time complexity because the loops always iterate through the entire strings, regardless of the arrangement of characters.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -745,9 +736,9 @@ so the answer is false.</pre>
   
 </h3>
 <ul>
-<li>The space complexity is determined by the storage of the prime numbers in the boolean array (<code>vector&lt;bool&gt; primes(maxElement + 1, true);</code>).</li>
-<li>The size of this array is proportional to the maximum element in the input array, hence the space complexity is O(m) where m is the maximum element.</li>
-<li>This space complexity is justified as the maximum amount of memory used to store the prime numbers is directly proportional to the maximum element in the input array.</li>
+<li>The space complexity of this solution is constant because it only uses a fixed amount of space to store the indices <code>start_ind</code> and <code>target_ind</code>.</li>
+<li>No additional data structures are used that scale with the input size, and the input strings are not modified.</li>
+<li>The space complexity is O(1) because the memory usage does not grow with the size of the input strings.</li>
 </ul>
 <hr>
 
@@ -778,11 +769,47 @@ so the answer is false.</pre>
   
 </h4>
 <blockquote>
-<p>Think about if we have many primes to subtract from nums[i]. Which prime is more optimal?</p>
+<p>After some sequence of moves, can the order of the pieces change?</p>
 </blockquote>
 <blockquote>
-<p>The most optimal prime to subtract from nums[i] is the one that makes nums[i] the smallest as possible and greater than nums[i-1].</p>
+<p>Try to match each piece in s with a piece in e.</p>
 </blockquote>
+<hr>
+
+<h3 id="similar-questions">
+  Similar Questions:
+  
+  <a hidden class="anchor" href="#similar-questions">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Title</th>
+          <th style="text-align: left">URL</th>
+          <th style="text-align: left">Difficulty</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Valid Parentheses</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/valid-parentheses" target="_blank">https://leetcode.com/problems/valid-parentheses</a>
+</td>
+          <td style="text-align: left">Easy</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Swap Adjacent in LR String</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/swap-adjacent-in-lr-string" target="_blank">https://leetcode.com/problems/swap-adjacent-in-lr-string</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+  </tbody>
+</table>
 
 
 
@@ -796,17 +823,13 @@ so the answer is false.</pre>
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2337-move-pieces-to-obtain-a-string/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2337 Move Pieces to Obtain a String </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2825-make-string-a-subsequence-using-cyclic-increments/">
+    <a class="next" href="/blog/leetcode-potd/problem-2601-prime-subtraction-operation/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2825 Make String a Subsequence Using Cyclic Increments </span>
+      <span> Problem 2601 Prime Subtraction Operation </span>
     </a>
   
 </nav>
