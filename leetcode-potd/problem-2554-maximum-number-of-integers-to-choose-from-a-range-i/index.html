@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2337 Move Pieces to Obtain a String &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2337 Move Pieces to Obtain a String &middot; The Indian Engineer" />
+  <title>Problem 2554 Maximum Number of Integers to Choose From a Range I &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2554 Maximum Number of Integers to Choose From a Range I &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="two pointers, string, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2337-move-pieces-to-obtain-a-string/" />
+  <meta name="keywords" content="array, hash table, binary search, greedy, sorting, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2554-maximum-number-of-integers-to-choose-from-a-range-i/" />
 
   
 
@@ -82,22 +82,25 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2337-move-pieces-to-obtain-a-string/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2554-maximum-number-of-integers-to-choose-from-a-range-i/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2337 Move Pieces to Obtain a String">
+  <meta property="og:title" content="Problem 2554 Maximum Number of Integers to Choose From a Range I">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-05T23:19:14+05:30">
-    <meta property="article:modified_time" content="2024-12-05T23:19:14+05:30">
-    <meta property="article:tag" content="Two-Pointers">
-    <meta property="article:tag" content="String">
+    <meta property="article:published_time" content="2024-12-06T18:50:23+05:30">
+    <meta property="article:modified_time" content="2024-12-06T18:50:23+05:30">
+    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Hash-Table">
+    <meta property="article:tag" content="Binary-Search">
+    <meta property="article:tag" content="Greedy">
+    <meta property="article:tag" content="Sorting">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2337 Move Pieces to Obtain a String">
+  <meta name="twitter:title" content="Problem 2554 Maximum Number of Integers to Choose From a Range I">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -391,7 +394,7 @@
 
 
 
-<h1 class="pg-title">Problem 2337 Move Pieces to Obtain a String</h1>
+<h1 class="pg-title">Problem 2554 Maximum Number of Integers to Choose From a Range I</h1>
 
 
 <div class="meta">
@@ -411,7 +414,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-05T23:19:14&#43;05:30">Dec 5, 2024</time>
+  Posted on <time datetime="2024-12-06T18:50:23&#43;05:30">Dec 6, 2024</time>
   
   
   
@@ -428,7 +431,7 @@
 
 </span>
   
-    6 mins
+    5 mins
   
 
 
@@ -445,9 +448,15 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/two-pointers/">Two-Pointers</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
+  
+  <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
+  
+  <a class="tag" href="/blog/tags/greedy/">Greedy</a>
+  
+  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
   
 </p>
 
@@ -505,7 +514,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/move-pieces-to-obtain-a-string/" target="_blank">Problem 2337</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/" target="_blank">Problem 2554</a>
 </p>
 
 <h2 id="question">
@@ -519,39 +528,39 @@
  </a>
   
 </h2>
-<p>You are given two strings <code>start</code> and <code>target</code>, both of length <code>n</code>. Each string consists <strong>only</strong> of the characters <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and <code>&#39;_&#39;</code> where:</p>
+<p>You are given an integer array <code>banned</code> and two integers <code>n</code> and <code>maxSum</code>. You are choosing some number of integers following the below rules:</p>
 <ul>
-	<li>The characters <code>&#39;L&#39;</code> and <code>&#39;R&#39;</code> represent pieces, where a piece <code>&#39;L&#39;</code> can move to the <strong>left</strong> only if there is a <strong>blank</strong> space directly to its left, and a piece <code>&#39;R&#39;</code> can move to the <strong>right</strong> only if there is a <strong>blank</strong> space directly to its right.</li>
-	<li>The character <code>&#39;_&#39;</code> represents a blank space that can be occupied by <strong>any</strong> of the <code>&#39;L&#39;</code> or <code>&#39;R&#39;</code> pieces.</li>
+	<li>The chosen integers have to be in the range <code>[1, n]</code>.</li>
+	<li>Each integer can be chosen <strong>at most once</strong>.</li>
+	<li>The chosen integers should not be in the array <code>banned</code>.</li>
+	<li>The sum of the chosen integers should not exceed <code>maxSum</code>.</li>
 </ul>
-<p>Return <code>true</code> <em>if it is possible to obtain the string</em> <code>target</code><em> by moving the pieces of the string </em><code>start</code><em> <strong>any</strong> number of times</em>. Otherwise, return <code>false</code>.</p>
+<p>Return <em>the <strong>maximum</strong> number of integers you can choose following the mentioned rules</em>.</p>
 <p><strong class="example">Example 1:</strong></p>
 <pre>
-<strong>Input:</strong> start = &quot;_L__R__R_&quot;, target = &quot;L______RR&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong> We can obtain the string target from start by doing the following moves:
-- Move the first piece one step to the left, start becomes equal to &quot;<strong>L</strong>___R__R_&quot;.
-- Move the last piece one step to the right, start becomes equal to &quot;L___R___<strong>R</strong>&quot;.
-- Move the second piece three steps to the right, start becomes equal to &quot;L______<strong>R</strong>R&quot;.
-Since it is possible to get the string target from start, we return true.
+<strong>Input:</strong> banned = [1,6,5], n = 5, maxSum = 6
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> You can choose the integers 2 and 4.
+2 and 4 are from the range [1, 5], both did not appear in banned, and their sum is 6, which did not exceed maxSum.
 </pre>
 <p><strong class="example">Example 2:</strong></p>
 <pre>
-<strong>Input:</strong> start = &quot;R_L_&quot;, target = &quot;__LR&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong> The &#39;R&#39; piece in the string start can move one step to the right to obtain &quot;_<strong>R</strong>L_&quot;.
-After that, no pieces can move anymore, so it is impossible to obtain the string target from start.
+<strong>Input:</strong> banned = [1,2,3,4,5,6,7], n = 8, maxSum = 1
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> You cannot choose any integer while following the mentioned conditions.
 </pre>
 <p><strong class="example">Example 3:</strong></p>
 <pre>
-<strong>Input:</strong> start = &quot;_R&quot;, target = &quot;R_&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong> The piece in the string start can move only to the right, so it is impossible to obtain the string target from start.</pre>
+<strong>Input:</strong> banned = [11], n = 7, maxSum = 50
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> You can choose the integers 1, 2, 3, 4, 5, 6, and 7.
+They are from the range [1, 7], all did not appear in banned, and their sum is 28, which did not exceed maxSum.
+</pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>n == start.length == target.length</code></li>
-	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>start</code> and <code>target</code> consist of the characters <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and <code>&#39;_&#39;</code>.</li>
+	<li><code>1 &lt;= banned.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= banned[i], n &lt;= 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= maxSum &lt;= 10<sup>9</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -567,34 +576,26 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> canChange(string start, string target) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> start.size();
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> start_ind <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, target_ind <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> maxCount(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> banned, <span style="color:#66d9ef">int</span> n, <span style="color:#66d9ef">int</span> maxSum) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">bool</span><span style="color:#f92672">&gt;</span>valid(<span style="color:#ae81ff">1e4</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>,true);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (start_ind <span style="color:#f92672">&lt;</span> len <span style="color:#f92672">||</span> target_ind <span style="color:#f92672">&lt;</span> len) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (start_ind <span style="color:#f92672">&lt;</span> len <span style="color:#f92672">&amp;&amp;</span> start[start_ind] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;_&#39;</span>) {
-</span></span><span style="display:flex;"><span>                start_ind<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> it:banned)
+</span></span><span style="display:flex;"><span>            valid[it] <span style="color:#f92672">=</span> false;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        n<span style="color:#f92672">=</span>n<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i<span style="color:#f92672">&lt;</span>n;i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>valid[i])
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">continue</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(maxSum<span style="color:#f92672">&gt;=</span>i){
+</span></span><span style="display:flex;"><span>                maxSum<span style="color:#f92672">-=</span>i;
+</span></span><span style="display:flex;"><span>                count<span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (target_ind <span style="color:#f92672">&lt;</span> len <span style="color:#f92672">&amp;&amp;</span> target[target_ind] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;_&#39;</span>) {
-</span></span><span style="display:flex;"><span>                target_ind<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (start_ind <span style="color:#f92672">==</span> len <span style="color:#f92672">||</span> target_ind <span style="color:#f92672">==</span> len) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> start_ind <span style="color:#f92672">==</span> len <span style="color:#f92672">&amp;&amp;</span> target_ind <span style="color:#f92672">==</span> len;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (start[start_ind] <span style="color:#f92672">!=</span> target[target_ind])
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (start[start_ind] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;L&#39;</span> <span style="color:#f92672">&amp;&amp;</span> start_ind <span style="color:#f92672">&lt;</span> target_ind)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (start[start_ind] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;R&#39;</span> <span style="color:#f92672">&amp;&amp;</span> start_ind <span style="color:#f92672">&gt;</span> target_ind)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            start_ind<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            target_ind<span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> true;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -609,9 +610,9 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm             | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Two-pointer traversal | O(n)            | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm    | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------ | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Linear Sweep | O(b+n)          | O(n+b)           |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -636,7 +637,7 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
  </a>
   
 </h4>
-<p>To solve this problem, we need to understand the rules of movement. Start by considering each piece (&lsquo;L&rsquo; and &lsquo;R&rsquo;) and how it can move to either the left or the right by potentially shifting through a blank space (&rsquo;<em>&rsquo;). A key realization is that if &lsquo;L&rsquo; is to the right of &lsquo;R&rsquo; in the start string, it&rsquo;s impossible to change the positions, and this must also hold true for the target string. Next, consider that moving a piece will shift it one space, so checking for consecutive movements may be essential. Lastly, think about how you might remove excess information from the problem and focus only on the essential details - the positions of &lsquo;L&rsquo;s and &lsquo;R&rsquo;s alone, as spaces (&rsquo;</em>&rsquo;) don&rsquo;t affect the overall outcome.</p>
+<p>First, understand the rules for choosing integers. Visualize a grid of numbers from 1 to n and cross out the banned ones. The goal is to pick as many numbers as possible without exceeding maxSum. Separate the banned numbers from the valid ones. Create a list or array to keep track of valid numbers.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -649,7 +650,7 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
  </a>
   
 </h4>
-<p>Further reflection reveals that finding the positions of &lsquo;L&rsquo;s and &lsquo;R&rsquo;s in the start and target strings may not be enough. Think of comparing them directly instead - maybe aligning them on the same indices might provide insight. When a non-space character is encountered in both strings, compare the characters to verify they match, check if the movement was possible, and move to the next non-space characters in both strings. By essentially pairing the start characters with the target characters based on the positioning rules and non-space comparison, we are essentially validating whether each character&rsquo;s shift from start to target makes sense in one sweep. Overall, considering indexing, spacing, and matching pieces simplifies the complexity of determining possible movements. So try combining these observations in your problem-solving strategy.</p>
+<p>Start from the smallest valid number and keep adding it to the running total until it reaches maxSum. Think of this process as pouring water into a jar - we fill the jar with the smallest amounts first. If a number exceeds maxSum, we stop and return the current count of valid numbers. Imagine the count as the number of &lsquo;stones&rsquo; we&rsquo;ve added to our jar, where each stone represents a valid number. This approach ensures we make the most of the sum limit while adhering to the rules.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -663,13 +664,13 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
   
 </h3>
 <ul>
-<li>The problem can be solved by comparing the positions of the pieces in the start and target strings.</li>
-<li>We can ignore the blank spaces in the strings and focus on the positions of the pieces.</li>
-<li>If the pieces in the start string can be moved to the positions of the pieces in the target string, then it is possible to obtain the target string.</li>
-<li>We need to check if the pieces in the start string can be moved to the positions of the pieces in the target string without crossing each other.</li>
-<li>If a piece in the start string is to the right of the corresponding piece in the target string, then it is not possible to obtain the target string.</li>
-<li>We can use two pointers to iterate through the start and target strings and compare the positions of the pieces.</li>
-<li>If we find a piece in the start string that cannot be moved to the position of the corresponding piece in the target string, then we return false.</li>
+<li>The problem can be solved by iterating through the range [1, n] and checking if each number is not in the banned array.</li>
+<li>We need to keep track of the sum of the chosen numbers to ensure it does not exceed maxSum.</li>
+<li>The key insight is to start from the smallest number and keep adding it to the sum until we reach maxSum.</li>
+<li>This greedy approach works because we are trying to maximize the count of chosen numbers.</li>
+<li>By choosing the smallest numbers first, we are maximizing the count of chosen numbers.</li>
+<li>This approach also ensures that we do not exceed maxSum.</li>
+<li>The time complexity of this approach is O(n) because we are iterating through the range [1, n] once.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -684,13 +685,13 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
   
 </h3>
 <ul>
-<li>We initialize two pointers, <code>start_ind</code> and <code>target_ind</code>, to the beginning of the start and target strings, respectively.</li>
-<li>We use two while loops to skip the blank spaces in the start and target strings.</li>
-<li>We compare the pieces at the current positions of the start and target strings.</li>
-<li>If the pieces are different, we return false.</li>
-<li>If the piece in the start string is &lsquo;L&rsquo; and it is to the right of the corresponding piece in the target string, we return false.</li>
-<li>If the piece in the start string is &lsquo;R&rsquo; and it is to the left of the corresponding piece in the target string, we return false.</li>
-<li>We increment the pointers and repeat the process until we reach the end of the start or target string.</li>
+<li>Create a boolean array <code>valid</code> of size 1e4+1 to keep track of banned numbers, <code>vector&lt;bool&gt;valid(1e4+1,true);</code></li>
+<li>Mark banned numbers as false in the <code>valid</code> array, <code>for(auto it:banned) valid[it] = false;</code></li>
+<li>Initialize count to 0 and iterate through the range [1, n], <code>int count = 0; for(int i = 1; i&lt;n;i++)</code></li>
+<li>If the current number is not banned and does not exceed maxSum, add it to the sum and increment count, <code>if(maxSum&gt;=i){ maxSum-=i; count++; }</code></li>
+<li>Return the count of chosen numbers, <code>return count;</code></li>
+<li>The space complexity is O(n) because of the <code>valid</code> array.</li>
+<li>The time complexity is O(n) because of the iteration through the range [1, n].</li>
 </ul>
 <hr>
 
@@ -718,10 +719,9 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
   
 </h3>
 <ul>
-<li>The time complexity of this solution is dominated by the while loops that traverse the <code>start</code> and <code>target</code> strings. Both loops iterate at most <code>n</code> times, where <code>n</code> is the length of the strings.</li>
-<li>Inside the loops, constant-time operations are performed, such as comparing characters and incrementing indices.</li>
-<li>Since the loops are not nested, the overall time complexity is linear, proportional to the length of the input strings, hence O(n).</li>
-<li>Both the best and worst-case scenarios have the same time complexity because the loops always iterate through the entire strings, regardless of the arrangement of characters.</li>
+<li>The time complexity of the given algorithm revolves around two primary loops: one for marking banned numbers, and the other for the linear sweep through numbers <code>1</code> to <code>n</code>. The first loop iterates over <code>banned</code> numbers, taking <code>O(b)</code> time, where <code>b</code> is the number of elements in the <code>banned</code> array.</li>
+<li>The subsequent linear sweep <code>for(int i = 1; i&lt;n;i++)</code> dominates with <code>O(n)</code> time complexity. This is because the loop iterates over numbers <code>1</code> to <code>n</code>, performing constant-time operations within the loop.</li>
+<li>Considering both operations are performed sequentially, the overall time complexity is <code>O(b + n)</code>. This classification captures the dominant linear sweep through the number space, impacted by the initial marking of banned numbers.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -736,9 +736,9 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
   
 </h3>
 <ul>
-<li>The space complexity of this solution is constant because it only uses a fixed amount of space to store the indices <code>start_ind</code> and <code>target_ind</code>.</li>
-<li>No additional data structures are used that scale with the input size, and the input strings are not modified.</li>
-<li>The space complexity is O(1) because the memory usage does not grow with the size of the input strings.</li>
+<li>The space complexity of the algorithm primarily stems from the usage of a <code>valid</code> vector with size <code>1e4+1</code>. This array is used to mark valid numbers, resulting in a memory usage proportional to its size.</li>
+<li>Additionally, the storage of <code>banned</code> numbers can contribute to the overall space complexity. This takes up space proportional to <code>b</code>, the number of banned numbers.</li>
+<li>Combining these insights, the space complexity is <code>O(n + b)</code>, which captures both the fixed allocation for the <code>valid</code> array and the size-dependent contribution of the <code>banned</code> array.</li>
 </ul>
 <hr>
 
@@ -769,10 +769,13 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
   
 </h4>
 <blockquote>
-<p>After some sequence of moves, can the order of the pieces change?</p>
+<p>Keep the banned numbers that are less than n in a set.</p>
 </blockquote>
 <blockquote>
-<p>Try to match each piece in s with a piece in e.</p>
+<p>Loop over the numbers from 1 to n and if the number is not banned, use it.</p>
+</blockquote>
+<blockquote>
+<p>Keep adding numbers while they are not banned, and their sum is less than k.</p>
 </blockquote>
 <hr>
 
@@ -797,14 +800,32 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Valid Parentheses</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/valid-parentheses" target="_blank">https://leetcode.com/problems/valid-parentheses</a>
+          <td style="text-align: left">First Missing Positive</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/first-missing-positive" target="_blank">https://leetcode.com/problems/first-missing-positive</a>
+</td>
+          <td style="text-align: left">Hard</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Find All Numbers Disappeared in an Array</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array" target="_blank">https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array</a>
 </td>
           <td style="text-align: left">Easy</td>
       </tr>
       <tr>
-          <td style="text-align: left">Swap Adjacent in LR String</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/swap-adjacent-in-lr-string" target="_blank">https://leetcode.com/problems/swap-adjacent-in-lr-string</a>
+          <td style="text-align: left">Append K Integers With Minimal Sum</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/append-k-integers-with-minimal-sum" target="_blank">https://leetcode.com/problems/append-k-integers-with-minimal-sum</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Replace Elements in an Array</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/replace-elements-in-an-array" target="_blank">https://leetcode.com/problems/replace-elements-in-an-array</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Maximum Number of Integers to Choose From a Range II</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii" target="_blank">https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii</a>
 </td>
           <td style="text-align: left">Medium</td>
       </tr>
@@ -823,17 +844,13 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2554-maximum-number-of-integers-to-choose-from-a-range-i/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2554 Maximum Number of Integers to Choose From a Range I </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2601-prime-subtraction-operation/">
+    <a class="next" href="/blog/leetcode-potd/problem-2337-move-pieces-to-obtain-a-string/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2601 Prime Subtraction Operation </span>
+      <span> Problem 2337 Move Pieces to Obtain a String </span>
     </a>
   
 </nav>
