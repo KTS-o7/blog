@@ -6,8 +6,15 @@
     <description>Recent content in Leetcode POTDs on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 14:50:02 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 16:26:26 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/leetcode-potd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 3255 Find the Power of K-Size Subarrays II</title>
+      <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-3255-find-the-power-of-k-size-subarrays-ii/</link>
+      <pubDate>Sat, 07 Dec 2024 16:26:26 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/leetcode-potd/problem-3255-find-the-power-of-k-size-subarrays-ii/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 1760 Minimum Limit of Balls in a Bag</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-1760-minimum-limit-of-balls-in-a-bag/</link>

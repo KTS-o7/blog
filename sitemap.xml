@@ -2,7 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://KTS-o7.github.io/blog/tags/array/</loc>
-    <lastmod>2024-12-07T14:50:02+05:30</lastmod>
+    <lastmod>2024-12-07T16:26:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
+    <lastmod>2024-12-07T16:26:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-3255-find-the-power-of-k-size-subarrays-ii/</loc>
+    <lastmod>2024-12-07T16:26:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/sliding-window/</loc>
+    <lastmod>2024-12-07T16:26:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/tags/</loc>
+    <lastmod>2024-12-07T16:26:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://KTS-o7.github.io/blog/</loc>
+    <lastmod>2024-12-07T16:26:26+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -13,25 +43,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://KTS-o7.github.io/blog/leetcode-potd/</loc>
-    <lastmod>2024-12-07T14:50:02+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-1760-minimum-limit-of-balls-in-a-bag/</loc>
-    <lastmod>2024-12-07T14:50:02+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/</loc>
-    <lastmod>2024-12-07T14:50:02+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/</loc>
     <lastmod>2024-12-07T14:50:02+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -206,12 +218,6 @@
   </url>
   <url>
     <loc>https://KTS-o7.github.io/blog/leetcode-potd/problem-3208-alternating-groups-ii/</loc>
-    <lastmod>2024-11-30T11:15:06+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://KTS-o7.github.io/blog/tags/sliding-window/</loc>
     <lastmod>2024-11-30T11:15:06+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

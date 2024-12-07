@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1760 Minimum Limit of Balls in a Bag &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1760 Minimum Limit of Balls in a Bag &middot; The Indian Engineer" />
+  <title>Problem 3255 Find the Power of K-Size Subarrays II &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3255 Find the Power of K-Size Subarrays II &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, binary search, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-1760-minimum-limit-of-balls-in-a-bag/" />
+  <meta name="keywords" content="array, sliding window, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3255-find-the-power-of-k-size-subarrays-ii/" />
 
   
 
@@ -82,22 +82,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-1760-minimum-limit-of-balls-in-a-bag/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3255-find-the-power-of-k-size-subarrays-ii/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1760 Minimum Limit of Balls in a Bag">
+  <meta property="og:title" content="Problem 3255 Find the Power of K-Size Subarrays II">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-07T14:50:02+05:30">
-    <meta property="article:modified_time" content="2024-12-07T14:50:02+05:30">
+    <meta property="article:published_time" content="2024-12-07T16:26:26+05:30">
+    <meta property="article:modified_time" content="2024-12-07T16:26:26+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Binary-Search">
+    <meta property="article:tag" content="Sliding Window">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1760 Minimum Limit of Balls in a Bag">
+  <meta name="twitter:title" content="Problem 3255 Find the Power of K-Size Subarrays II">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -391,7 +391,7 @@
 
 
 
-<h1 class="pg-title">Problem 1760 Minimum Limit of Balls in a Bag</h1>
+<h1 class="pg-title">Problem 3255 Find the Power of K-Size Subarrays II</h1>
 
 
 <div class="meta">
@@ -411,7 +411,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-07T14:50:02&#43;05:30">Dec 7, 2024</time>
+  Posted on <time datetime="2024-12-07T16:26:26&#43;05:30">Dec 7, 2024</time>
   
   
   
@@ -447,7 +447,7 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
+  <a class="tag" href="/blog/tags/sliding-window/">Sliding Window</a>
   
 </p>
 
@@ -505,7 +505,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/" target="_blank">Problem 1760</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/" target="_blank">Problem 3255</a>
 </p>
 
 <h2 id="question">
@@ -519,38 +519,43 @@
  </a>
   
 </h2>
-<p>You are given an integer array <code>nums</code> where the <code>i<sup>th</sup></code> bag contains <code>nums[i]</code> balls. You are also given an integer <code>maxOperations</code>.</p>
-<p>You can perform the following operation at most <code>maxOperations</code> times:</p>
-<p>Take any bag of balls and divide it into two new bags with a <strong>positive </strong>number of balls.</p>
+<p>You are given an array of integers <code>nums</code> of length <code>n</code> and a <em>positive</em> integer <code>k</code>.</p>
+<p>The <strong>power</strong> of an array is defined as:</p>
 <ul>
-    	<li>For example, a bag of <code>5</code> balls can become two new bags of <code>1</code> and <code>4</code> balls, or two new bags of <code>2</code> and <code>3</code> balls.</li>
+	<li>Its <strong>maximum</strong> element if <em>all</em> of its elements are <strong>consecutive</strong> and <strong>sorted</strong> in <strong>ascending</strong> order.</li>
+	<li>-1 otherwise.</li>
 </ul>
-<p>Your penalty is the <strong>maximum</strong> number of balls in a bag. You want to <strong>minimize</strong> your penalty after the operations.</p>
-<p>Return <em>the minimum possible penalty after performing the operations</em>.</p>
+<p>You need to find the <strong>power</strong> of all <span data-keyword="subarray-nonempty">subarrays</span> of <code>nums</code> of size <code>k</code>.</p>
+<p>Return an integer array <code>results</code> of size <code>n - k + 1</code>, where <code>results[i]</code> is the <em>power</em> of <code>nums[i..(i + k - 1)]</code>.</p>
 <p><strong class="example">Example 1:</strong></p>
-<pre>
-<strong>Input:</strong> nums = [9], maxOperations = 2
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> 
-- Divide the bag with 9 balls into two bags of sizes 6 and 3. [<strong><u>9</u></strong>] -&gt; [6,3].
-- Divide the bag with 6 balls into two bags of sizes 3 and 3. [<strong><u>6</u></strong>,3] -&gt; [3,3,3].
-The bag with the most number of balls has 3 balls, so your penalty is 3 and you should return 3.
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4,3,2,5], k = 3</span></p>
+<p><strong>Output:</strong> [3,4,-1,-1,-1]</p>
+<p><strong>Explanation:</strong></p>
+<p>There are 5 subarrays of <code>nums</code> of size 3:</p>
+<ul>
+	<li><code>[1, 2, 3]</code> with the maximum element 3.</li>
+	<li><code>[2, 3, 4]</code> with the maximum element 4.</li>
+	<li><code>[3, 4, 3]</code> whose elements are <strong>not</strong> consecutive.</li>
+	<li><code>[4, 3, 2]</code> whose elements are <strong>not</strong> sorted.</li>
+	<li><code>[3, 2, 5]</code> whose elements are <strong>not</strong> consecutive.</li>
+</ul>
+</div>
 <p><strong class="example">Example 2:</strong></p>
-<pre>
-<strong>Input:</strong> nums = [2,4,8,2], maxOperations = 4
-<strong>Output:</strong> 2
-<strong>Explanation:</strong>
-- Divide the bag with 8 balls into two bags of sizes 4 and 4. [2,4,<strong><u>8</u></strong>,2] -&gt; [2,4,4,4,2].
-- Divide the bag with 4 balls into two bags of sizes 2 and 2. [2,<strong><u>4</u></strong>,4,4,2] -&gt; [2,2,2,4,4,2].
-- Divide the bag with 4 balls into two bags of sizes 2 and 2. [2,2,2,<strong><u>4</u></strong>,4,2] -&gt; [2,2,2,2,2,4,2].
-- Divide the bag with 4 balls into two bags of sizes 2 and 2. [2,2,2,2,2,<strong><u>4</u></strong>,2] -&gt; [2,2,2,2,2,2,2,2].
-The bag with the most number of balls has 2 balls, so your penalty is 2, and you should return 2.
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [2,2,2,2,2], k = 4</span></p>
+<p><strong>Output:</strong> <span class="example-io">[-1,-1]</span></p>
+</div>
+<p><strong class="example">Example 3:</strong></p>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [3,2,3,2,3,2], k = 2</span></p>
+<p><strong>Output:</strong> <span class="example-io">[-1,3,-1,3,-1]</span></p>
+</div>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= maxOperations, nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>1 &lt;= n == nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
+	<li><code>1 &lt;= k &lt;= n</code></li>
 </ul>
 
 <h2 id="solution">
@@ -566,41 +571,46 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minimumSize(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> max_operations) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> left <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> resultsArray(<span style="color:#66d9ef">const</span> vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> nums.size();
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> result(n <span style="color:#f92672">-</span> k <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>        deque<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> dq;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">auto</span> num : nums) {
-</span></span><span style="display:flex;"><span>            right <span style="color:#f92672">=</span> max(right, num);
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> diff(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>            diff[i] <span style="color:#f92672">=</span> nums[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">-</span> nums[i];
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (left <span style="color:#f92672">&lt;</span> right) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> middle <span style="color:#f92672">=</span> (left <span style="color:#f92672">+</span> right) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (isPossible(middle, nums, max_operations)) {
-</span></span><span style="display:flex;"><span>                right <span style="color:#f92672">=</span> middle;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> consecutive_count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> k <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (diff[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) consecutive_count<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>dq.empty() <span style="color:#f92672">&amp;&amp;</span> dq.front() <span style="color:#f92672">&lt;=</span> i <span style="color:#f92672">-</span> k) {
+</span></span><span style="display:flex;"><span>                dq.pop_front();
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>                left <span style="color:#f92672">=</span> middle <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>dq.empty() <span style="color:#f92672">&amp;&amp;</span> nums[i] <span style="color:#f92672">&gt;=</span> nums[dq.back()]) {
+</span></span><span style="display:flex;"><span>                dq.pop_back();
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            dq.push_back(i);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">&gt;=</span> k <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (consecutive_count <span style="color:#f92672">==</span> k <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>                    result[i <span style="color:#f92672">-</span> k <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> nums[dq.front()];
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">-</span> k <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;</span> n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> (diff[i <span style="color:#f92672">-</span> k <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) consecutive_count<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">&lt;</span> n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">&amp;&amp;</span> diff[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) consecutive_count<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>                }
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> left;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> isPossible(<span style="color:#66d9ef">int</span> maxBallsInBag, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> max_operations) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> total_operations <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> num : nums) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> operations <span style="color:#f92672">=</span> ceil(num <span style="color:#f92672">/</span> (<span style="color:#66d9ef">double</span>)maxBallsInBag) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>            total_operations <span style="color:#f92672">+=</span> operations;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (total_operations <span style="color:#f92672">&gt;</span> max_operations)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> false;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> true;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> result;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -615,9 +625,9 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm     | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Binary Search | O(n log m)      | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                 | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Sliding Window with Deque | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -642,7 +652,12 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
  </a>
   
 </h4>
-<p>The goal is to minimize the maximum number of balls in a bag. Given an operation to divide a bag into two with a positive number of balls, think about the strategy for dividing the bags. The operation seems to reduce the maximum number of balls by repeatedly dividing the largest bag. Consider using a search strategy, like binary search, to efficiently find the smallest possible maximum. Identify the key factors that influence the minimum penalty, including the range of possible maximum balls and the total number of operations allowed.</p>
+<p>My initial approach would be to identify that checking every subarray for being consecutive and sorted would result in O(n^2 log n) complexity which is inefficient for large inputs.
+I&rsquo;d also think that the key here lies in finding a relation between each subarray.
+Then, consider using some sort of caching to reduce the number of computations required, for example the difference array,
+and a deque to keep track of maximum elements for each subarray.
+Consider starting by identifying when a subarray is a contiguous sequence of numbers and use the information from the last subarray
+to efficiently calculate the next one.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -655,7 +670,15 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
  </a>
   
 </h4>
-<p>First, determine the feasible range for the minimum penalty, from the smallest possible maximum (1 ball in a bag) to the largest possible maximum (the size of the largest bag without any operations). Next, design a search space to explore this range and identify a suitable criterion to decide on the feasibility of a given maximum. This criterion is whether the total number of operations required to achieve or improve upon the given maximum is within the allowed limit. Perform a binary search to efficiently narrow down the search space and converge on the optimal solution.</p>
+<p>To intuitively solve the problem, notice that all you need to do is keep track of whether the differences between the current subarray&rsquo;s elements
+are always equal to 1 and also track the max element for each subarray in O(1) time.
+After you&rsquo;ve found the first subarray that&rsquo;s a contiguous sequence,
+then notice that adding one element and removing another for the next subarray would only change the result by adding one or removing one
+element from the consecutive count if the differences are 1.
+To further optimize the algorithm, consider that each subarray&rsquo;s max value must also be calculated in O(1) time.
+You can use a deque for this, it&rsquo;s similar to a sliding window approach in other problems,
+where the deque holds the indices of elements in the current subarray, ordered by the value at each index,
+from largest to smallest. This way, you&rsquo;re always able to find the max element in O(1) time and be able to efficiently calculate the max of the next subarray.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -669,13 +692,14 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
   
 </h3>
 <ul>
-<li>The problem can be solved using a binary search approach to find the minimum possible penalty.</li>
-<li>The key insight is to find the maximum number of balls in a bag that can be achieved with the given max_operations.</li>
-<li>We can start by initializing the left and right pointers to 1 and the maximum number in the nums array, respectively.</li>
-<li>We then perform a binary search to find the minimum possible penalty.</li>
-<li>The isPossible function checks if it&rsquo;s possible to achieve a certain maximum number of balls in a bag with the given max_operations.</li>
-<li>The function returns true if the total operations required to achieve the maximum number of balls in a bag is less than or equal to max_operations.</li>
-<li>We use the ceil function to calculate the number of operations required to divide a bag into two bags of sizes maxBallsInBag and num - maxBallsInBag.</li>
+<li>The problem requires finding the power of all subarrays of size k in the given array nums.</li>
+<li>The power of an array is defined as its maximum element if all elements are consecutive and sorted in ascending order, otherwise -1.</li>
+<li>To solve this problem, we need to check each subarray of size k and determine if its elements are consecutive and sorted.</li>
+<li>We can use a deque to keep track of the indices of the elements in the current subarray.</li>
+<li>We also need to keep track of the count of consecutive elements in the current subarray.</li>
+<li>If the count of consecutive elements is equal to k-1, then the subarray is consecutive and sorted, and we can update the result array.</li>
+<li>We can use a diff array to store the differences between consecutive elements in the nums array.</li>
+<li>We can iterate over the nums array and update the consecutive count and the result array accordingly.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -690,13 +714,14 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
   
 </h3>
 <ul>
-<li>The minimumSize function initializes the left and right pointers and performs a binary search to find the minimum possible penalty.</li>
-<li>The while loop continues until the left pointer is less than the right pointer.</li>
-<li>Inside the loop, we calculate the middle value and check if it&rsquo;s possible to achieve the maximum number of balls in a bag with the given max_operations using the isPossible function.</li>
-<li>If it&rsquo;s possible, we update the right pointer to the middle value; otherwise, we update the left pointer to the middle value plus one.</li>
-<li>The isPossible function calculates the total operations required to achieve the maximum number of balls in a bag and checks if it&rsquo;s less than or equal to max_operations.</li>
-<li>The ceil function is used to calculate the number of operations required to divide a bag into two bags of sizes maxBallsInBag and num - maxBallsInBag.</li>
-<li>The total_operations variable keeps track of the total operations required to achieve the maximum number of balls in a bag.</li>
+<li>We initialize a result array of size n-k+1 with all elements set to -1.</li>
+<li>We create a deque dq to store the indices of the elements in the current subarray.</li>
+<li>We create a diff array to store the differences between consecutive elements in the nums array.</li>
+<li>We iterate over the nums array and update the consecutive count and the result array accordingly.</li>
+<li>We use the line <code>if (diff[i] == 1) consecutive_count++;</code> to update the consecutive count.</li>
+<li>We use the line <code>if (consecutive_count == k - 1) result[i - k + 1] = nums[dq.front()];</code> to update the result array.</li>
+<li>We use the line <code>while (!dq.empty() &amp;&amp; nums[i] &gt;= nums[dq.back()]) dq.pop_back();</code> to update the deque.</li>
+<li>We return the result array at the end of the function.</li>
 </ul>
 <hr>
 
@@ -724,9 +749,9 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
   
 </h3>
 <ul>
-<li>The <code>minimumSize</code> function iterates through the <code>nums</code> array once to find the initial <code>right</code> value, resulting in a linear complexity of O(n).</li>
-<li>The <code>while</code> loop then performs binary search, dividing the search space roughly in half at each step. This results in a logarithmic complexity of O(log m), where m represents the range of possible values. Since the loop iterates <code>nums</code> in each iteration, the total time complexity becomes O(n log m).</li>
-<li>The <code>isPossible</code> function iterates through <code>nums</code> once, performing a constant number of operations for each element. Its complexity is O(n) but does not dominate the overall time complexity due to the logarithmic term from the binary search.</li>
+<li>The code has two major loops: one for creating the <code>diff</code> vector and the other for processing the deque and calculating results. Both loops run in linear time.</li>
+<li>Dominant operations are loop iterations and deque operations (pop_front, pop_back, and push_back). Since each element is processed at most twice (once in each loop and additional constant time operations), the time complexity is linear.</li>
+<li>The overall time complexity is O(n) due to n being the maximum number of iterations in both loops, where n is the size of the input vector <code>nums</code>.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -741,9 +766,9 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
   
 </h3>
 <ul>
-<li>The <code>minimumSize</code> function uses a constant amount of space to store variables like <code>left</code>, <code>right</code>, and <code>middle</code>, regardless of the input size.</li>
-<li>The <code>isPossible</code> function also uses a constant amount of space to store variables like <code>total_operations</code> and does not allocate any additional memory.</li>
-<li>The input array <code>nums</code> is not modified, and no additional data structures are used, resulting in a space complexity of O(1).</li>
+<li>The code uses additional data structures, including the <code>diff</code> vector, the <code>dq</code> deque, and the <code>result</code> vector. All these data structures have a size dependent on the input size n.</li>
+<li>The impact of the <code>diff</code> vector and the <code>result</code> vector on space complexity is O(n) since their size grows linearly with the input size n.</li>
+<li>The <code>dq</code> deque also has a maximum size of n, as it stores at most n indices of the input vector. Therefore, the overall space complexity is O(n) due to these additional data structures.</li>
 </ul>
 <hr>
 
@@ -774,10 +799,16 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
   
 </h4>
 <blockquote>
-<p>Let&rsquo;s change the question if we know the maximum size of a bag what is the minimum number of bags you can make</p>
+<p>Let <code>dp[i]</code> denote the length of the longest subarray ending at index <code>i</code> that has consecutive and sorted elements.</p>
 </blockquote>
 <blockquote>
-<p>note that as the maximum size increases the minimum number of bags decreases so we can binary search the maximum size</p>
+<p>Use a TreeMap with a sliding window to check if there are <code>k</code> elements in the subarray ending at index <code>i</code>.</p>
+</blockquote>
+<blockquote>
+<p>If TreeMap has less than <code>k</code> elements and <code>dp[i] &lt; k</code>, the subarray has power equal to -1.</p>
+</blockquote>
+<blockquote>
+<p>Is it possible to achieve <code>O(nums.length)</code> using a Stack?</p>
 </blockquote>
 <hr>
 
@@ -802,14 +833,8 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Maximum Candies Allocated to K Children</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-candies-allocated-to-k-children" target="_blank">https://leetcode.com/problems/maximum-candies-allocated-to-k-children</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Minimized Maximum of Products Distributed to Any Store</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store" target="_blank">https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store</a>
+          <td style="text-align: left">Maximum Sum of Distinct Subarrays With Length K</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k" target="_blank">https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k</a>
 </td>
           <td style="text-align: left">Medium</td>
       </tr>
@@ -828,17 +853,13 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-3255-find-the-power-of-k-size-subarrays-ii/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3255 Find the Power of K-Size Subarrays II </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2554-maximum-number-of-integers-to-choose-from-a-range-i/">
+    <a class="next" href="/blog/leetcode-potd/problem-1760-minimum-limit-of-balls-in-a-bag/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2554 Maximum Number of Integers to Choose From a Range I </span>
+      <span> Problem 1760 Minimum Limit of Balls in a Bag </span>
     </a>
   
 </nav>
