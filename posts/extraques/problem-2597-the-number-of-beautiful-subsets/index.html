@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 310 Minimum Height Trees &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 310 Minimum Height Trees &middot; The Indian Engineer" />
+  <title>Problem 2597 The Number of Beautiful Subsets &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2597 The Number of Beautiful Subsets &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="depth-first search, breadth-first search, graph, topological sort, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-310-minimum-height-trees/" />
+  <meta name="keywords" content="array, hash table, math, dynamic programming, backtracking, sorting, combinatorics, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-2597-the-number-of-beautiful-subsets/" />
 
   
 
@@ -82,24 +82,26 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-310-minimum-height-trees/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-2597-the-number-of-beautiful-subsets/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 310 Minimum Height Trees">
+  <meta property="og:title" content="Problem 2597 The Number of Beautiful Subsets">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-12-07T17:18:21+05:30">
-    <meta property="article:modified_time" content="2024-12-07T17:18:21+05:30">
-    <meta property="article:tag" content="Depth-First Search">
-    <meta property="article:tag" content="Breadth-First Search">
-    <meta property="article:tag" content="Graph">
-    <meta property="article:tag" content="Topological Sort">
+    <meta property="article:published_time" content="2024-12-07T17:21:56+05:30">
+    <meta property="article:modified_time" content="2024-12-07T17:21:56+05:30">
+    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Hash-Table">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Dynamic-Programming">
+    <meta property="article:tag" content="Backtracking">
+    <meta property="article:tag" content="Sorting">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 310 Minimum Height Trees">
+  <meta name="twitter:title" content="Problem 2597 The Number of Beautiful Subsets">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -393,7 +395,7 @@
 
 
 
-<h1 class="pg-title">Problem 310 Minimum Height Trees</h1>
+<h1 class="pg-title">Problem 2597 The Number of Beautiful Subsets</h1>
 
 
 <div class="meta">
@@ -413,7 +415,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-07T17:18:21&#43;05:30">Dec 7, 2024</time>
+  Posted on <time datetime="2024-12-07T17:21:56&#43;05:30">Dec 7, 2024</time>
   
   
   
@@ -447,13 +449,19 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/depth-first-search/">Depth-First Search</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/breadth-first-search/">Breadth-First Search</a>
+  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
   
-  <a class="tag" href="/blog/tags/graph/">Graph</a>
+  <a class="tag" href="/blog/tags/math/">Math</a>
   
-  <a class="tag" href="/blog/tags/topological-sort/">Topological Sort</a>
+  <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
+  
+  <a class="tag" href="/blog/tags/backtracking/">Backtracking</a>
+  
+  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
+  
+  <a class="tag" href="/blog/tags/combinatorics/">Combinatorics</a>
   
 </p>
 
@@ -511,7 +519,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/minimum-height-trees/description/?envType=daily-question&amp;envId=2024-04-23" target="_blank">Problem 310</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/the-number-of-beautiful-subsets/description/?envType=daily-question&amp;envId=2024-05-23" target="_blank">Problem 2597</a>
 </p>
 
 <h2 id="question">
@@ -525,31 +533,28 @@
  </a>
   
 </h2>
-<p>A tree is an undirected graph in which any two vertices are connected by&nbsp;<i>exactly</i>&nbsp;one path. In other words, any connected graph without simple cycles is a tree.</p>
-<p>Given a tree of <code>n</code> nodes&nbsp;labelled from <code>0</code> to <code>n - 1</code>, and an array of&nbsp;<code>n - 1</code>&nbsp;<code>edges</code> where <code>edges[i] = [a<sub>i</sub>, b<sub>i</sub>]</code> indicates that there is an undirected edge between the two nodes&nbsp;<code>a<sub>i</sub></code> and&nbsp;<code>b<sub>i</sub></code> in the tree,&nbsp;you can choose any node of the tree as the root. When you select a node <code>x</code> as the root, the result tree has height <code>h</code>. Among all possible rooted trees, those with minimum height (i.e. <code>min(h)</code>)&nbsp; are called <strong>minimum height trees</strong> (MHTs).</p>
-<p>Return <em>a list of all <strong>MHTs&#39;</strong> root labels</em>.&nbsp;You can return the answer in <strong>any order</strong>.</p>
-<p>The <strong>height</strong> of a rooted tree is the number of edges on the longest downward path between the root and a leaf.</p>
+<p>You are given an array <code>nums</code> of positive integers and a <strong>positive</strong> integer <code>k</code>.</p>
+<p>A subset of <code>nums</code> is <strong>beautiful</strong> if it does not contain two integers with an absolute difference equal to <code>k</code>.</p>
+<p>Return <em>the number of <strong>non-empty beautiful </strong>subsets of the array</em> <code>nums</code>.</p>
+<p>A <strong>subset</strong> of <code>nums</code> is an array that can be obtained by deleting some (possibly none) elements from <code>nums</code>. Two subsets are different if and only if the chosen indices to delete are different.</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/09/01/e1.jpg" style="width: 800px; height: 213px;" />
 <pre>
-<strong>Input:</strong> n = 4, edges = [[1,0],[1,2],[1,3]]
-<strong>Output:</strong> [1]
-<strong>Explanation:</strong> As shown, the height of the tree is 1 when the root is the node with label 1 which is the only MHT.
+<strong>Input:</strong> nums = [2,4,6], k = 2
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The beautiful subsets of the array nums are: [2], [4], [6], [2, 6].
+It can be proved that there are only 4 beautiful subsets in the array [2,4,6].
 </pre>
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/09/01/e2.jpg" style="width: 800px; height: 321px;" />
 <pre>
-<strong>Input:</strong> n = 6, edges = [[3,0],[3,1],[3,2],[3,4],[5,4]]
-<strong>Output:</strong> [3,4]
+<strong>Input:</strong> nums = [1], k = 1
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The beautiful subset of the array nums is [1].
+It can be proved that there is only 1 beautiful subset in the array [1].
 </pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= n &lt;= 2 * 10<sup>4</sup></code></li>
-	<li><code>edges.length == n - 1</code></li>
-	<li><code>0 &lt;= a<sub>i</sub>, b<sub>i</sub> &lt; n</code></li>
-	<li><code>a<sub>i</sub> != b<sub>i</sub></code></li>
-	<li>All the pairs <code>(a<sub>i</sub>, b<sub>i</sub>)</code> are distinct.</li>
-	<li>The given input is <strong>guaranteed</strong> to be a tree and there will be <strong>no repeated</strong> edges.</li>
+	<li><code>1 &lt;= nums.length &lt;= 20</code></li>
+	<li><code>1 &lt;= nums[i], k &lt;= 1000</code></li>
 </ul>
 
 <h2 id="solution">
@@ -563,54 +568,30 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> findMinHeightTrees(<span style="color:#66d9ef">int</span> n, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> edges) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">return</span> {<span style="color:#ae81ff">0</span>}; <span style="color:#75715e">// If there&#39;s only one node, it&#39;s the root of the tree
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        std<span style="color:#f92672">::</span>ios<span style="color:#f92672">::</span>sync_with_stdio(false);
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> adj(n);
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> degree(n, <span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 1: Create an adjacency list and calculate the degree of each node
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> edge : edges) {
-</span></span><span style="display:flex;"><span>            adj[edge[<span style="color:#ae81ff">0</span>]].push_back(edge[<span style="color:#ae81ff">1</span>]);
-</span></span><span style="display:flex;"><span>            adj[edge[<span style="color:#ae81ff">1</span>]].push_back(edge[<span style="color:#ae81ff">0</span>]);
-</span></span><span style="display:flex;"><span>            degree[edge[<span style="color:#ae81ff">0</span>]]<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            degree[edge[<span style="color:#ae81ff">1</span>]]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> backtrack(<span style="color:#66d9ef">const</span> vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k, unordered_map<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> flag, <span style="color:#66d9ef">int</span> pos, <span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> result) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (pos <span style="color:#f92672">==</span> nums.size()) {
+</span></span><span style="display:flex;"><span>            result<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>;
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 2: Find the leaves
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        queue<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> leaves;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; <span style="color:#f92672">++</span>i) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (degree[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) {
-</span></span><span style="display:flex;"><span>                leaves.push(i);
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        backtrack(nums, k, flag, pos <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, result);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 3: Perform BFS
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">while</span> (n <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">2</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> size <span style="color:#f92672">=</span> leaves.size();
-</span></span><span style="display:flex;"><span>            n <span style="color:#f92672">-=</span> size;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> size; <span style="color:#f92672">++</span>i) {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">int</span> leaf <span style="color:#f92672">=</span> leaves.front();
-</span></span><span style="display:flex;"><span>                leaves.pop();
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> neighbor : adj[leaf]) {
-</span></span><span style="display:flex;"><span>                    degree[neighbor]<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> (degree[neighbor] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) {
-</span></span><span style="display:flex;"><span>                        leaves.push(neighbor);
-</span></span><span style="display:flex;"><span>                    }
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> num <span style="color:#f92672">=</span> nums[pos];
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>flag[num <span style="color:#f92672">-</span> k]) {
+</span></span><span style="display:flex;"><span>            flag[num]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            backtrack(nums, k, flag, pos <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, result);
+</span></span><span style="display:flex;"><span>            flag[num]<span style="color:#f92672">--</span>;
 </span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 4: Return the roots
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> roots;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>leaves.empty()) {
-</span></span><span style="display:flex;"><span>            roots.push_back(leaves.front());
-</span></span><span style="display:flex;"><span>            leaves.pop();
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> roots;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">beautifulSubsets</span>(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k) {
+</span></span><span style="display:flex;"><span>        sort(nums.begin(), nums.end());
+</span></span><span style="display:flex;"><span>        unordered_map<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> flag;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> res <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        backtrack(nums, k, flag, <span style="color:#ae81ff">0</span>, res);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -625,9 +606,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm            | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| -------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Breadth-first Search | O(n)            | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                            | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------------------------------ | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Backtracking-based subset generation | O(n(2^n))       | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -652,10 +633,7 @@
  </a>
   
 </h4>
-<p>This is a graph problem that requires finding the minimum height trees by considering all possible roots of the tree.
-Since it&rsquo;s a tree, we know it&rsquo;s connected and has no cycles, so we can start thinking about node degrees and possible paths.
-The problem can be solved by first identifying the leaves of the tree and then performing a Breadth-First Search (BFS).
-We also need to think about the cases where there are multiple roots with the same minimum height.</p>
+<p>When faced with this problem, my initial thoughts were to think about how subsets work, imagine each number has two options, include or exclude. But here we need to ensure no two numbers have an absolute difference equal to k. At first glance, this seems to be a hard problem, but then I thought of an analogy - thinking of this problem as placing balls in boxes with certain constraints.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -668,11 +646,7 @@ We also need to think about the cases where there are multiple roots with the sa
  </a>
   
 </h4>
-<p>Start by creating an adjacency list to represent the tree, which allows us to efficiently traverse the graph.
-Calculate the degree of each node, which is useful for identifying the leaves.
-Then perform BFS from the leaves, removing them and updating the degrees until only the roots are left.
-Use a queue to keep track of the nodes to be removed and consider multiple roots as the final answer if they have the same minimum height.
-Finally, analyze the logic and apply it to edge cases to ensure correctness.</p>
+<p>To solve the problem intuitively, try dividing it into two steps. First, understand the concept of beautiful subsets and how adding an element affects this. Think of it as if each element has its own &lsquo;special&rsquo; element which cannot be together in the subset. Once you grasp this idea, finding the correct path - whether to include an element or not - can be thought of as similar to the decision process in a recursive approach, checking if adding a new number affects an already added number. The tricky part comes when we backtrack - try thinking of this as like walking through various &lsquo;dead ends&rsquo; and correcting our path accordingly to achieve the final result.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -686,13 +660,13 @@ Finally, analyze the logic and apply it to edge cases to ensure correctness.</p>
   
 </h3>
 <ul>
-<li>The problem asks to find the roots of the minimum height trees in a given tree.</li>
-<li>To solve this problem, we can use a topological sorting approach.</li>
-<li>We start by finding the leaves of the tree, which are the nodes with degree 1.</li>
-<li>Then, we iteratively remove the leaves from the tree until we are left with 1 or 2 nodes.</li>
-<li>These remaining nodes are the roots of the minimum height trees.</li>
-<li>This approach works because the height of the tree is minimized when the root is chosen to be the node with the maximum degree.</li>
-<li>By removing the leaves iteratively, we ensure that the height of the tree is minimized.</li>
+<li>The problem asks for the number of non-empty beautiful subsets of the array nums, where a subset is beautiful if it does not contain two integers with an absolute difference equal to k.</li>
+<li>To solve this problem, we can use a backtracking approach to generate all possible subsets of the array nums.</li>
+<li>We need to keep track of the numbers that have been included in the current subset to avoid including numbers with an absolute difference equal to k.</li>
+<li>We can use a flag array to keep track of the numbers that have been included in the current subset.</li>
+<li>The key insight is to use the backtracking approach to generate all possible subsets and then filter out the subsets that contain numbers with an absolute difference equal to k.</li>
+<li>This approach works because it allows us to generate all possible subsets and then filter out the subsets that do not meet the condition.</li>
+<li>The time complexity of this approach is O(2^n), where n is the length of the array nums, because we generate all possible subsets of the array nums.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -707,13 +681,17 @@ Finally, analyze the logic and apply it to edge cases to ensure correctness.</p>
   
 </h3>
 <ul>
-<li>We create an adjacency list <code>adj</code> to represent the tree, where <code>adj[i]</code> is the list of neighbors of node <code>i</code>.</li>
-<li>We also create a degree array <code>degree</code> to keep track of the degree of each node.</li>
-<li>We initialize the degree array by iterating over the edges and incrementing the degree of each node by 1 for each edge.</li>
-<li>We find the leaves of the tree by iterating over the degree array and adding the nodes with degree 1 to a queue <code>leaves</code>.</li>
-<li>We perform a BFS traversal of the tree by iteratively removing the leaves from the queue and updating the degree array.</li>
-<li>We repeat this process until we are left with 1 or 2 nodes in the queue, which are the roots of the minimum height trees.</li>
-<li>We return the roots of the minimum height trees by popping the nodes from the queue and adding them to the result vector.</li>
+<li>The function <code>backtrack</code> is used to generate all possible subsets of the array nums using a backtracking approach.</li>
+<li>The function <code>backtrack</code> takes five parameters: <code>nums</code>, <code>k</code>, <code>flag</code>, <code>pos</code>, and <code>result</code>.</li>
+<li>The <code>flag</code> array is used to keep track of the numbers that have been included in the current subset.</li>
+<li>The <code>pos</code> parameter is used to keep track of the current position in the array nums.</li>
+<li>The <code>result</code> parameter is used to keep track of the number of beautiful subsets found so far.</li>
+<li>In the <code>backtrack</code> function, we first check if the current position <code>pos</code> is equal to the length of the array nums.</li>
+<li>If it is, we increment the <code>result</code> parameter and return.</li>
+<li>Otherwise, we recursively call the <code>backtrack</code> function with the next position <code>pos + 1</code>.</li>
+<li>We then check if the current number <code>nums[pos]</code> can be included in the current subset by checking if <code>flag[nums[pos] - k]</code> is false.</li>
+<li>If it is, we set <code>flag[nums[pos]]</code> to true and recursively call the <code>backtrack</code> function with the next position <code>pos + 1</code>.</li>
+<li>After the recursive call, we set <code>flag[nums[pos]]</code> to false to backtrack and try other possibilities.</li>
 </ul>
 <hr>
 
@@ -741,9 +719,9 @@ Finally, analyze the logic and apply it to edge cases to ensure correctness.</p>
   
 </h3>
 <ul>
-<li>The time complexity is dominated by the creation of the adjacency list and the BFS traversal. The <code>for</code> loop in Step 1 iterates over all edges, resulting in O(|E|) complexity, where |E| is the number of edges. Since |E| is at most n-1 in a tree, this reduces to O(n).</li>
-<li>The <code>while</code> loop in Step 3 iterates until n &gt; 2, and in each iteration, it processes all leaves. The total number of leaves processed across all iterations equals the total number of nodes, resulting in O(n) complexity.</li>
-<li>The overall time complexity is O(n) due to these dominant operations.</li>
+<li>In the <code>beautifulSubsets</code> function, <code>backtrack</code> is called recursively to generate all possible subsets, resulting in 2^n possible subsets for n numbers.</li>
+<li>For each subset generated, it iterates through all numbers, hence 2^n _ n possible operations, thus justifying the O(n _ 2^n) time complexity</li>
+<li>The recursive call <code>backtrack(nums, k, flag, pos + 1, result)</code> has n layers due to <code>pos</code> ranging from 0 to <code>nums.size()</code></li>
 </ul>
 
 <h3 id="space-complexity">
@@ -758,9 +736,9 @@ Finally, analyze the logic and apply it to edge cases to ensure correctness.</p>
   
 </h3>
 <ul>
-<li>The space complexity is dominated by the adjacency list and the queue used in BFS. The adjacency list stores all edges, resulting in O(n + |E|) space complexity, where n is the number of nodes and |E| is the number of edges.</li>
-<li>The queue stores at most n leaves at any given time, resulting in O(n) space complexity.</li>
-<li>The overall space complexity is O(n) because the adjacency list&rsquo;s space complexity reduces to O(n) in a tree, where |E| is at most n-1.</li>
+<li>The <code>backtrack</code> function call stack can go up to n layers (depth of recursion), hence n space complexity for call stack</li>
+<li>However, recursive call stack aside, additional space usage by the <code>flag</code> map is of size n for storing the count of each number</li>
+<li>Negligible space used by other variables like <code>res</code> and the parameters of <code>backtrack</code></li>
 </ul>
 <hr>
 
@@ -791,7 +769,13 @@ Finally, analyze the logic and apply it to edge cases to ensure correctness.</p>
   
 </h4>
 <blockquote>
-<p>How many MHTs can a graph have at most?</p>
+<p>Sort the array nums and create another array cnt of size nums[i].</p>
+</blockquote>
+<blockquote>
+<p>Use backtracking to generate all the beautiful subsets. If cnt[nums[i] - k] is positive, then it is impossible to add nums[i] in the subset, and we just move to the next index. Otherwise, it is also possible to add nums[i] in the subset, in this case, increase cnt[nums[i]], and move to the next index.</p>
+</blockquote>
+<blockquote>
+<p>Bonus: Can you solve the problem in O(n log n)?</p>
 </blockquote>
 <hr>
 
@@ -816,34 +800,10 @@ Finally, analyze the logic and apply it to edge cases to ensure correctness.</p>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Course Schedule</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/course-schedule" target="_blank">https://leetcode.com/problems/course-schedule</a>
+          <td style="text-align: left">Construct the Lexicographically Largest Valid Sequence</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence" target="_blank">https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence</a>
 </td>
           <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Course Schedule II</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/course-schedule-ii" target="_blank">https://leetcode.com/problems/course-schedule-ii</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Collect Coins in a Tree</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/collect-coins-in-a-tree" target="_blank">https://leetcode.com/problems/collect-coins-in-a-tree</a>
-</td>
-          <td style="text-align: left">Hard</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Count Pairs of Connectable Servers in a Weighted Tree Network</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network" target="_blank">https://leetcode.com/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Find Minimum Diameter After Merging Two Trees</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees" target="_blank">https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees</a>
-</td>
-          <td style="text-align: left">Hard</td>
       </tr>
   </tbody>
 </table>
@@ -860,17 +820,13 @@ Finally, analyze the logic and apply it to edge cases to ensure correctness.</p>
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/extraques/problem-2597-the-number-of-beautiful-subsets/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2597 The Number of Beautiful Subsets </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/leetcode-contest/problem-3207-maximum-points-after-enemy-battles/">
+    <a class="next" href="/blog/posts/extraques/problem-310-minimum-height-trees/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3207 Maximum Points After Enemy Battles </span>
+      <span> Problem 310 Minimum Height Trees </span>
     </a>
   
 </nav>
