@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 138 Copy List with Random Pointer &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 138 Copy List with Random Pointer &middot; The Indian Engineer" />
+  <title>Problem 3207 Maximum Points After Enemy Battles &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3207 Maximum Points After Enemy Battles &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="hash table, linked list, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-138-copy-list-with-random-pointer/" />
+  <meta name="keywords" content="array, greedy, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3207-maximum-points-after-enemy-battles/" />
 
   
 
@@ -82,22 +82,22 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-138-copy-list-with-random-pointer/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/leetcode-contest/problem-3207-maximum-points-after-enemy-battles/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 138 Copy List with Random Pointer">
+  <meta property="og:title" content="Problem 3207 Maximum Points After Enemy Battles">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-12-07T17:02:44+05:30">
-    <meta property="article:modified_time" content="2024-12-07T17:02:44+05:30">
-    <meta property="article:tag" content="Hash-Table">
-    <meta property="article:tag" content="Linked-List">
+    <meta property="article:published_time" content="2024-12-07T17:12:02+05:30">
+    <meta property="article:modified_time" content="2024-12-07T17:12:02+05:30">
+    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Greedy">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 138 Copy List with Random Pointer">
+  <meta name="twitter:title" content="Problem 3207 Maximum Points After Enemy Battles">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -391,7 +391,7 @@
 
 
 
-<h1 class="pg-title">Problem 138 Copy List with Random Pointer</h1>
+<h1 class="pg-title">Problem 3207 Maximum Points After Enemy Battles</h1>
 
 
 <div class="meta">
@@ -411,7 +411,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-07T17:02:44&#43;05:30">Dec 7, 2024</time>
+  Posted on <time datetime="2024-12-07T17:12:02&#43;05:30">Dec 7, 2024</time>
   
   
   
@@ -428,7 +428,7 @@
 
 </span>
   
-    7 mins
+    5 mins
   
 
 
@@ -445,9 +445,9 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
+  <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/linked-list/">Linked-List</a>
+  <a class="tag" href="/blog/tags/greedy/">Greedy</a>
   
 </p>
 
@@ -481,7 +481,6 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
-        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -505,7 +504,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/copy-list-with-random-pointer/submissions/1237453278/" target="_blank">Problem 138</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/maximum-points-after-enemy-battles/description/" target="_blank">Problem 3207</a>
 </p>
 
 <h2 id="question">
@@ -519,39 +518,54 @@
  </a>
   
 </h2>
-<p>A linked list of length <code>n</code> is given such that each node contains an additional random pointer, which could point to any node in the list, or <code>null</code>.</p>
-<p>Construct a <a href="https://en.wikipedia.org/wiki/Object_copying#Deep_copy" target="_blank"><strong>deep copy</strong></a> of the list. The deep copy should consist of exactly <code>n</code> <strong>brand new</strong> nodes, where each new node has its value set to the value of its corresponding original node. Both the <code>next</code> and <code>random</code> pointer of the new nodes should point to new nodes in the copied list such that the pointers in the original list and copied list represent the same list state. <strong>None of the pointers in the new list should point to nodes in the original list</strong>.</p>
-<p>For example, if there are two nodes <code>X</code> and <code>Y</code> in the original list, where <code>X.random --&gt; Y</code>, then for the corresponding two nodes <code>x</code> and <code>y</code> in the copied list, <code>x.random --&gt; y</code>.</p>
-<p>Return <em>the head of the copied linked list</em>.</p>
-<p>The linked list is represented in the input/output as a list of <code>n</code> nodes. Each node is represented as a pair of <code>[val, random_index]</code> where:</p>
+<p>You are given an integer array <code>enemyEnergies</code> denoting the energy values of various enemies.</p>
+<p>You are also given an integer <code>currentEnergy</code> denoting the amount of energy you have initially.</p>
+<p>You start with 0 points, and all the enemies are unmarked initially.</p>
+<p>You can perform <strong>either</strong> of the following operations <strong>zero </strong>or multiple times to gain points:</p>
 <ul>
-	<li><code>val</code>: an integer representing <code>Node.val</code></li>
-	<li><code>random_index</code>: the index of the node (range from <code>0</code> to <code>n-1</code>) that the <code>random</code> pointer points to, or <code>null</code> if it does not point to any node.</li>
+	<li>Choose an <strong>unmarked</strong> enemy, <code>i</code>, such that <code>currentEnergy &gt;= enemyEnergies[i]</code>. By choosing this option:
+<ul>
+    <li>You gain 1 point.</li>
+    <li>Your energy is reduced by the enemy&#39;s energy, i.e. <code>currentEnergy = currentEnergy - enemyEnergies[i]</code>.</li>
 </ul>
-<p>Your code will <strong>only</strong> be given the <code>head</code> of the original linked list.</p>
+</li>
+<li>If you have <strong>at least</strong> 1 point, you can choose an <strong>unmarked</strong> enemy, <code>i</code>. By choosing this option:
+<ul>
+    <li>Your energy increases by the enemy&#39;s energy, i.e. <code>currentEnergy = currentEnergy + enemyEnergies[i]</code>.</li>
+    <li>The <font face="monospace">e</font>nemy <code>i</code> is <strong>marked</strong>.</li>
+</ul>
+    </li>
+</ul>
+<p>Return an integer denoting the <strong>maximum</strong> points you can get in the end by optimally performing operations.</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/e1.png" style="width: 700px; height: 142px;" />
-<pre>
-<strong>Input:</strong> head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
-<strong>Output:</strong> [[7,null],[13,0],[11,4],[10,2],[1,0]]
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">enemyEnergies = [3,2,2], currentEnergy = 2</span></p>
+<p><strong>Output:</strong> <span class="example-io">3</span></p>
+<p><strong>Explanation:</strong></p>
+<p>The following operations can be performed to get 3 points, which is the maximum:</p>
+<p>First operation on enemy 1: <code>points</code> increases by 1, and <code>currentEnergy</code> decreases by 2.<br>
+So, <code>points = 1</code>, and <code>currentEnergy = 0</code>.
+Second operation on enemy 0: <code>currentEnergy</code> increases by 3, and enemy 0 is marked.<br>
+So, <code>points = 1</code>, <code>currentEnergy = 3</code>, and marked enemies = <code>[0]</code>.
+First operation on enemy 2: <code>points</code> increases by 1, and <code>currentEnergy</code> decreases by 2.<br>
+So, <code>points = 2</code>, <code>currentEnergy = 1</code>, and marked enemies = <code>[0]</code>.
+Second operation on enemy 2: <code>currentEnergy</code> increases by 2, and enemy 2 is marked.<br>
+So, <code>points = 2</code>, <code>currentEnergy = 3</code>, and marked enemies = <code>[0, 2]</code>.
+First operation on enemy 1: <code>points</code> increases by 1, and <code>currentEnergy</code> decreases by 2.<br>
+So, <code>points = 3</code>, <code>currentEnergy = 1</code>, and marked enemies = <code>[0, 2]</code>.</p>
+</div>
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/e2.png" style="width: 700px; height: 114px;" />
-<pre>
-<strong>Input:</strong> head = [[1,1],[2,1]]
-<strong>Output:</strong> [[1,1],[2,1]]
-</pre>
-<p><strong class="example">Example 3:</strong></p>
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/e3.png" style="width: 700px; height: 122px;" /></strong></p>
-<pre>
-<strong>Input:</strong> head = [[3,null],[3,0],[3,null]]
-<strong>Output:</strong> [[3,null],[3,0],[3,null]]
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">enemyEnergies = </span>[2]<span class="example-io">, currentEnergy = 10</span></p>
+<p><strong>Output:</strong> <span class="example-io">5</span></p>
+<p><strong>Explanation: </strong></p>
+<p>Performing the first operation 5 times on enemy 0 results in the maximum number of points.</p>
+</div>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>0 &lt;= n &lt;= 1000</code></li>
-	<li><code>-10<sup>4</sup> &lt;= Node.val &lt;= 10<sup>4</sup></code></li>
-	<li><code>Node.random</code> is <code>null</code> or is pointing to some node in the linked list.</li>
+	<li><code>1 &lt;= enemyEnergies.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= enemyEnergies[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>0 &lt;= currentEnergy &lt;= 10<sup>9</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -565,58 +579,27 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Definition for a Node.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">class Node {
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">public:
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    int val;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    Node* next;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    Node* random;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    Node(int _val) {
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        val = _val;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        next = NULL;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        random = NULL;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    }
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">*/</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    Node<span style="color:#f92672">*</span> copyRandomList(Node<span style="color:#f92672">*</span> head) {
-</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>ios<span style="color:#f92672">::</span>sync_with_stdio(false);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> maximumPoints(std<span style="color:#f92672">::</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> arr, <span style="color:#66d9ef">int</span> currentEnergy) {
+</span></span><span style="display:flex;"><span>        sort(arr.begin(), arr.end());
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>head) <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nullptr</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> total <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        total <span style="color:#f92672">=</span> std<span style="color:#f92672">::</span>accumulate(arr.begin(), arr.end(), <span style="color:#ae81ff">0LL</span>);
+</span></span><span style="display:flex;"><span>        total <span style="color:#f92672">-=</span> arr[<span style="color:#ae81ff">0</span>];
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        Node<span style="color:#f92672">*</span> curr <span style="color:#f92672">=</span> head;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (curr) {
-</span></span><span style="display:flex;"><span>            Node<span style="color:#f92672">*</span> new_node <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Node(curr<span style="color:#f92672">-&gt;</span>val);
-</span></span><span style="display:flex;"><span>            new_node<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> curr<span style="color:#f92672">-&gt;</span>next;
-</span></span><span style="display:flex;"><span>            curr<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> new_node;
-</span></span><span style="display:flex;"><span>            curr <span style="color:#f92672">=</span> new_node<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> <span style="color:#66d9ef">long</span> points <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (currentEnergy <span style="color:#f92672">&gt;=</span> arr[<span style="color:#ae81ff">0</span>]) {
+</span></span><span style="display:flex;"><span>            points<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>            currentEnergy <span style="color:#f92672">-=</span> arr[<span style="color:#ae81ff">0</span>];
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        curr <span style="color:#f92672">=</span> head;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (curr) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (curr<span style="color:#f92672">-&gt;</span>random) {
-</span></span><span style="display:flex;"><span>                curr<span style="color:#f92672">-&gt;</span>next<span style="color:#f92672">-&gt;</span>random <span style="color:#f92672">=</span> curr<span style="color:#f92672">-&gt;</span>random<span style="color:#f92672">-&gt;</span>next;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            curr <span style="color:#f92672">=</span> curr<span style="color:#f92672">-&gt;</span>next<span style="color:#f92672">-&gt;</span>next;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (points <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>            total <span style="color:#f92672">+=</span> currentEnergy;
+</span></span><span style="display:flex;"><span>            points <span style="color:#f92672">+=</span> total <span style="color:#f92672">/</span> arr[<span style="color:#ae81ff">0</span>];
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        Node<span style="color:#f92672">*</span> old_head <span style="color:#f92672">=</span> head;
-</span></span><span style="display:flex;"><span>        Node<span style="color:#f92672">*</span> new_head <span style="color:#f92672">=</span> head<span style="color:#f92672">-&gt;</span>next;
-</span></span><span style="display:flex;"><span>        Node<span style="color:#f92672">*</span> curr_old <span style="color:#f92672">=</span> old_head;
-</span></span><span style="display:flex;"><span>        Node<span style="color:#f92672">*</span> curr_new <span style="color:#f92672">=</span> new_head;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (curr_old) {
-</span></span><span style="display:flex;"><span>            curr_old<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> curr_old<span style="color:#f92672">-&gt;</span>next<span style="color:#f92672">-&gt;</span>next;
-</span></span><span style="display:flex;"><span>            curr_new<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> curr_new<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">?</span> curr_new<span style="color:#f92672">-&gt;</span>next<span style="color:#f92672">-&gt;</span>next : <span style="color:#66d9ef">nullptr</span>;
-</span></span><span style="display:flex;"><span>            curr_old <span style="color:#f92672">=</span> curr_old<span style="color:#f92672">-&gt;</span>next;
-</span></span><span style="display:flex;"><span>            curr_new <span style="color:#f92672">=</span> curr_new<span style="color:#f92672">-&gt;</span>next;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> new_head;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> points;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -631,9 +614,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ---------------------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Two-pointer traversal with Graph cloning | O(n)            | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm             | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Modified Accumulation | O(n log n)      | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -658,7 +641,7 @@
  </a>
   
 </h4>
-<p>When approaching this problem, it&rsquo;s essential to consider the interdependencies between the nodes due to the random pointers. One approach is to create a simple hash map that maps the original nodes to their deep copies. However, this approach has a time complexity of O(n) and space complexity of O(n) as well. Alternatively, we can think of a strategy to create a copy of each node in the original list, altering the next pointers to accommodate new nodes while preserving the original connections. We can differentiate the cloned nodes by setting the next pointer of the original node to the cloned node, a strategy referred to as &lsquo;weaving the clone list with the original list&rsquo;. We then fix the random pointers of the cloned nodes by following the original connections. This approach only involves changing the original list temporarily and finally decouples the cloned list from the original list, ensuring that no references from the cloned list to the original nodes are left. The time complexity for this approach remains O(n) and the space complexity is also O(1), not including the output space for the cloned list. Considering we are dealing with a deeply complex data structure like linked lists and want to optimize the solution for both space and time, the two-pass approach strategy seems the most fitting. We can apply this strategy to break down the original problem and finally restore the cloned version of the linked list.</p>
+<p>Sort the enemy energies array to prioritize the enemy with the least energy. Initialize points to 0. Consider the trade-off between scoring points and increasing energy by choosing the most energy-efficient enemy. Think about the benefit of marking an enemy and the potential loss of energy from fighting them.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -671,7 +654,7 @@
  </a>
   
 </h4>
-<p>To develop the problem-solving intuition, think of linked lists as forming an intricate dance. First, we fix the &rsquo;next step&rsquo; for each pair of nodes. Going forward, notice how original pointers were pointing not to their own similar pairs but individual nodes instead, then replicate that in the next step for the deep copied nodes. Lastly, understand that even restoring original connections by going back and fixing them, a new, independent network has been created that mirrors the original but exists independently in one whole piece.</p>
+<p>Imagine you&rsquo;re playing a game where you can choose to fight or boost your energy. You want to fight the enemies that require the least energy to beat and then use their energy to boost your own. The initial energy requirement is the lowest energy enemy, and then you can use the remaining enemies to boost your energy. This creates a snowball effect where you can fight and boost your energy repeatedly to maximize points.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -685,13 +668,14 @@
   
 </h3>
 <ul>
-<li>The problem requires creating a deep copy of a linked list with random pointers.</li>
-<li>A naive approach would be to create a new node for each node in the original list and then update the next and random pointers.</li>
-<li>However, this approach would not work because the random pointers in the new list would point to nodes in the original list, not the new list.</li>
-<li>To solve this problem, we need to create a new node for each node in the original list and then update the next and random pointers in two separate passes.</li>
-<li>The first pass creates new nodes and updates the next pointers, while the second pass updates the random pointers.</li>
-<li>This approach ensures that the random pointers in the new list point to nodes in the new list, not the original list.</li>
-<li>The time complexity of this approach is O(n), where n is the number of nodes in the original list.</li>
+<li>The problem can be solved by first sorting the enemy energies in ascending order.</li>
+<li>The goal is to maximize the points by choosing the enemies with the lowest energy first.</li>
+<li>If we have enough energy to defeat the first enemy, we can defeat it and gain a point.</li>
+<li>After defeating the first enemy, we can use the second operation to increase our energy by the energy of the first enemy.</li>
+<li>We can then use this increased energy to defeat more enemies and gain more points.</li>
+<li>The key insight is to use the second operation to increase our energy after defeating the first enemy.</li>
+<li>This allows us to defeat more enemies and gain more points.</li>
+<li>The time complexity of this solution is O(n log n) due to the sorting operation.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -706,13 +690,14 @@
   
 </h3>
 <ul>
-<li>We start by checking if the head of the original list is null, and if so, we return null.</li>
-<li>We then create a new node for each node in the original list and update the next pointers using a while loop: <code>while (curr) { Node* new_node = new Node(curr-&gt;val); new_node-&gt;next = curr-&gt;next; curr-&gt;next = new_node; curr = new_node-&gt;next; }</code></li>
-<li>Next, we update the random pointers using another while loop: <code>while (curr) { if (curr-&gt;random) { curr-&gt;next-&gt;random = curr-&gt;random-&gt;next; } curr = curr-&gt;next-&gt;next; }</code></li>
-<li>We then separate the new list from the original list using two pointers: <code>Node* old_head = head; Node* new_head = head-&gt;next; Node* curr_old = old_head; Node* curr_new = new_head;</code></li>
-<li>Finally, we return the head of the new list: <code>return new_head;</code></li>
-<li>The <code>std::ios::sync_with_stdio(false);</code> line is used to improve performance by disabling synchronization of C++ streams with C streams.</li>
-<li>The <code>if (!head) return nullptr;</code> line is used to handle the edge case where the input list is empty.</li>
+<li>The <code>sort(arr.begin(), arr.end())</code> line sorts the enemy energies in ascending order.</li>
+<li>The <code>total = std::accumulate(arr.begin(), arr.end(), 0LL)</code> line calculates the total energy of all enemies.</li>
+<li>The <code>total -= arr[0]</code> line subtracts the energy of the first enemy from the total energy.</li>
+<li>The <code>if (currentEnergy &gt;= arr[0])</code> line checks if we have enough energy to defeat the first enemy.</li>
+<li>The <code>points++</code> and <code>currentEnergy -= arr[0]</code> lines increment the points and decrement the energy after defeating the first enemy.</li>
+<li>The <code>if (points &gt;= 1)</code> line checks if we have at least one point.</li>
+<li>The <code>total += currentEnergy</code> line adds the current energy to the total energy.</li>
+<li>The <code>points += total / arr[0]</code> line calculates the maximum points we can gain by defeating the remaining enemies.</li>
 </ul>
 <hr>
 
@@ -740,9 +725,9 @@
   
 </h3>
 <ul>
-<li>The solution iterates through the linked list three times: once to create new nodes and insert them into the original list, once to adjust the random pointers of the new nodes, and once to split the list into the original and the cloned lists.</li>
-<li>The dominant operations in each iteration are the while loop traversals, which are proportional to the number of nodes in the linked list, therefore the time complexity is O(n).</li>
-<li>The constant number of operations inside each loop and the absence of nested loops justify the linear time complexity.</li>
+<li>The algorithm performs a sort operation <code>sort(arr.begin(), arr.end());</code> which takes O(n log n) time complexity. This is the most significant operation in the algorithm and thus determines its overall time complexity.</li>
+<li>Other operations in the algorithm like accumulation <code>total = std::accumulate(arr.begin(), arr.end(), 0LL);</code> and arithmetic operations take linear time, but they are dominated by the sorting operation.</li>
+<li>Since n is the number of elements in the input array arr, and sorting has a time complexity of O(n log n), the time complexity of this algorithm can be classified as O(n log n) due to the log-linear time complexity of the sorting operation.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -757,9 +742,9 @@
   
 </h3>
 <ul>
-<li>The algorithm creates a new node for each node in the original linked list, resulting in a linear increase in memory usage.</li>
-<li>No additional data structures are used, other than the extra nodes created to clone the linked list, which has a direct impact on the space complexity.</li>
-<li>Since the number of extra nodes created is proportional to the number of nodes in the original linked list, the space complexity is O(n).</li>
+<li>No additional space is used to store the input elements, and thus the memory usage does not grow with the input size. However, additional variables for accumulation and indexing are used, resulting in a constant space usage.</li>
+<li>The input array arr is sorted in-place, meaning that the sorting operation does not allocate additional space that scales with the input size.</li>
+<li>Since the algorithm does not use any data structures that allocate additional memory based on the input size, the space complexity is classified as O(1), indicating constant space usage.</li>
 </ul>
 <hr>
 
@@ -790,61 +775,17 @@
   
 </h4>
 <blockquote>
-<p>Just iterate the linked list and create copies of the nodes on the go. Since a node can be referenced from multiple nodes due to the random pointers, ensure you are not making multiple copies of the same node.</p>
+<p>The problem can be solved greedily.</p>
 </blockquote>
 <blockquote>
-<p>You may want to use extra space to keep old_node &mdash;&gt; new_node mapping to prevent creating multiple copies of the same node.</p>
+<p>Mark all the others except the smallest one first.</p>
 </blockquote>
 <blockquote>
-<p>We can avoid using extra space for old_node &mdash;&gt; new_node mapping by tweaking the original linked list. Simply interweave the nodes of the old and copied list. For example:
-Old List: A &ndash;&gt; B &ndash;&gt; C &ndash;&gt; D
-InterWeaved List: A &ndash;&gt; A&rsquo; &ndash;&gt; B &ndash;&gt; B&rsquo; &ndash;&gt; C &ndash;&gt; C&rsquo; &ndash;&gt; D &ndash;&gt; D&rsquo;</p>
+<p>Use the smallest one to increase the energy.</p>
 </blockquote>
 <blockquote>
-<p>The interweaving is done using next</b> pointers and we can make use of interweaved structure to get the correct reference nodes for random</b> pointers.</p>
+<p>Note that the initial energy should be no less than the smallest enemy.</p>
 </blockquote>
-<hr>
-
-<h3 id="similar-questions">
-  Similar Questions:
-  
-  <a hidden class="anchor" href="#similar-questions">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Title</th>
-          <th style="text-align: left">URL</th>
-          <th style="text-align: left">Difficulty</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Clone Graph</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/clone-graph" target="_blank">https://leetcode.com/problems/clone-graph</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Clone Binary Tree With Random Pointer</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/clone-binary-tree-with-random-pointer" target="_blank">https://leetcode.com/problems/clone-binary-tree-with-random-pointer</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Clone N-ary Tree</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/clone-n-ary-tree" target="_blank">https://leetcode.com/problems/clone-n-ary-tree</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-  </tbody>
-</table>
 
 
 
@@ -858,17 +799,13 @@ InterWeaved List: A &ndash;&gt; A&rsquo; &ndash;&gt; B &ndash;&gt; B&rsquo; &nda
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/leetcode-contest/problem-3207-maximum-points-after-enemy-battles/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3207 Maximum Points After Enemy Battles </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/extraques/problem-279-perfect-squares/">
+    <a class="next" href="/blog/posts/extraques/problem-138-copy-list-with-random-pointer/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 279 Perfect Squares </span>
+      <span> Problem 138 Copy List with Random Pointer </span>
     </a>
   
 </nav>
