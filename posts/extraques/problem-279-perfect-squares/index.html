@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 121 Best Time to Buy and Sell Stock &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 121 Best Time to Buy and Sell Stock &middot; The Indian Engineer" />
+  <title>Problem 279 Perfect Squares &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 279 Perfect Squares &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="dp, dynamic-programming, array, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-121-best-time-to-buy-and-sell-stock/" />
+  <meta name="keywords" content="math, dynamic programming, breadth-first search, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-279-perfect-squares/" />
 
   
 
@@ -82,23 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-121-best-time-to-buy-and-sell-stock/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-279-perfect-squares/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 121 Best Time to Buy and Sell Stock">
+  <meta property="og:title" content="Problem 279 Perfect Squares">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-09-21T21:39:53+05:30">
-    <meta property="article:modified_time" content="2024-09-21T21:39:53+05:30">
-    <meta property="article:tag" content="Dp">
+    <meta property="article:published_time" content="2024-12-07T16:41:39+05:30">
+    <meta property="article:modified_time" content="2024-12-07T16:41:39+05:30">
+    <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Dynamic-Programming">
-    <meta property="article:tag" content="Array">
+    <meta property="article:tag" content="Breadth-First Search">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 121 Best Time to Buy and Sell Stock">
+  <meta name="twitter:title" content="Problem 279 Perfect Squares">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 121 Best Time to Buy and Sell Stock</h1>
+<h1 class="pg-title">Problem 279 Perfect Squares</h1>
 
 
 <div class="meta">
@@ -412,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-21T21:39:53&#43;05:30">Sep 21, 2024</time>
+  Posted on <time datetime="2024-12-07T16:41:39&#43;05:30">Dec 7, 2024</time>
   
   
   
@@ -429,7 +429,7 @@
 
 </span>
   
-    2 mins
+    5 mins
   
 
 
@@ -446,11 +446,11 @@
 
  </span>
   
-  <a class="tag" href="/blog/tags/dp/">Dp</a>
+  <a class="tag" href="/blog/tags/math/">Math</a>
   
   <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
   
-  <a class="tag" href="/blog/tags/array/">Array</a>
+  <a class="tag" href="/blog/tags/breadth-first-search/">Breadth-First Search</a>
   
 </p>
 
@@ -470,15 +470,21 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#question">Question</a></li>
-    <li><a href="#example-1">Example 1</a></li>
-    <li><a href="#example-2">Example 2</a></li>
-    <li><a href="#constraints">Constraints</a></li>
     <li><a href="#solution">Solution</a></li>
     <li><a href="#complexity-analysis">Complexity Analysis</a></li>
     <li><a href="#explanation">Explanation</a>
       <ul>
+        <li></li>
         <li><a href="#1-intuition">1. Intuition</a></li>
         <li><a href="#2-implementation">2. Implementation</a></li>
+      </ul>
+    </li>
+    <li><a href="#complexity-analysis-1">Complexity Analysis</a>
+      <ul>
+        <li><a href="#time-complexity">Time Complexity:</a></li>
+        <li><a href="#space-complexity">Space Complexity:</a></li>
+        <li><a href="#footnote">Footnote</a></li>
+        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -502,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/" target="_blank">Problem 121</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/perfect-squares/" target="_blank">Problem 279</a>
 </p>
 
 <h2 id="question">
@@ -516,57 +522,23 @@
  </a>
   
 </h2>
-<p>You are given an array <code>prices</code> where <code>prices[i]</code> is the price of a given stock on the <code>i</code>th day.</p>
-<p>You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.</p>
-<p>Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return <code>0</code>.</p>
-
-<h2 id="example-1">
-  Example 1
-  
-  <a hidden class="anchor" href="#example-1">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: prices = [7,1,5,3,6,4]
-Output: 5
-Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6),
-profit = 6-1 = 5.
-Note that buying on day 2 and selling on day 1 is not allowed ,
-because you must buy before you sell.
-</code></pre>
-<h2 id="example-2">
-  Example 2
-  
-  <a hidden class="anchor" href="#example-2">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<pre tabindex="0"><code>Input: prices = [7,6,4,3,1]
-Output: 0
-Explanation: In this case, no transactions are done and the max profit = 0.
-</code></pre>
-<h2 id="constraints">
-  Constraints
-  
-  <a hidden class="anchor" href="#constraints">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
+<p>Given an integer <code>n</code>, return <em>the least number of perfect square numbers that sum to</em> <code>n</code>.</p>
+<p>A <strong>perfect square</strong> is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, <code>1</code>, <code>4</code>, <code>9</code>, and <code>16</code> are perfect squares while <code>3</code> and <code>11</code> are not.</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre>
+<strong>Input:</strong> n = 12
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> 12 = 4 + 4 + 4.
+</pre>
+<p><strong class="example">Example 2:</strong></p>
+<pre>
+<strong>Input:</strong> n = 13
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> 13 = 4 + 9.
+</pre>
+<p><strong>Constraints:</strong></p>
 <ul>
-<li>1 &lt;= prices.length &lt;= 10<sup>5</sup></li>
-<li>0 &lt;= prices[i] &lt;= 10<sup>4</sup></li>
+	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -582,17 +554,40 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> maxProfit(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> prices) {
-</span></span><span style="display:flex;"><span>        std<span style="color:#f92672">::</span>ios<span style="color:#f92672">::</span>sync_with_stdio(false);
-</span></span><span style="display:flex;"><span>        cin.tie(<span style="color:#66d9ef">nullptr</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> prices.size();
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> buyAtPrice <span style="color:#f92672">=</span> INT_MAX;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> maxProfit <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>; i<span style="color:#f92672">&lt;</span>n; i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            buyAtPrice <span style="color:#f92672">=</span> min(buyAtPrice, prices[i]);
-</span></span><span style="display:flex;"><span>            maxProfit <span style="color:#f92672">=</span> max(maxProfit, prices[i] <span style="color:#f92672">-</span> buyAtPrice);
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> dp;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">numSquares</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Initialize the dp array with INT_MAX except for dp[0] which is 0
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        dp.resize(n <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, INT_MAX);
+</span></span><span style="display:flex;"><span>        dp[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#75715e">// Set dp[0] to 0
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Call the solve function to recursively calculate the minimum number of squares
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span> solve(n);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">solve</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// If n is 0, it can be formed using 0 squares
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// If n is negative, it cannot be formed, return INT_MAX
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> INT_MAX;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// If the result for n is already calculated, return it
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> (dp[n] <span style="color:#f92672">!=</span> INT_MAX)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> dp[n];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> ans <span style="color:#f92672">=</span> INT_MAX;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Iterate through all numbers from 1 to sqrt(n)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">*</span> i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Recursively calculate the minimum number of squares needed for n-i*i
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">int</span> subproblem <span style="color:#f92672">=</span> solve(n <span style="color:#f92672">-</span> i <span style="color:#f92672">*</span> i);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Update the answer with the minimum of current answer and subproblem + 1
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            ans <span style="color:#f92672">=</span> min(ans, subproblem <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> maxProfit;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Memoize the result for n
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        dp[n] <span style="color:#f92672">=</span> ans;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Return the minimum number of squares needed for n
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -607,9 +602,9 @@ Explanation: In this case, no transactions are done and the max profit = 0.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Dp        | O(n)            | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                    | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ---------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Memoized Dynamic Programming | O(n sqrt(n))    | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -623,6 +618,32 @@ Explanation: In this case, no transactions are done and the max profit = 0.
   
 </h2>
 
+<h4 id="intial-thoughts">
+  Intial Thoughts
+  
+  <a hidden class="anchor" href="#intial-thoughts">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h4>
+<p>This problem involves breaking down a number into sums of perfect squares, a classic concept in number theory. My initial thoughts are to relate this problem to known results or patterns in number theory. I&rsquo;m reminded of the concept of sum of squares functions, Lagrange&rsquo;s Four-Square Theorem, and the Legendre&rsquo;s Three-Square Theorem. Another approach could be using a dynamic programming approach to build up the solution iteratively.</p>
+
+<h4 id="intuitive-analysis">
+  Intuitive Analysis
+  
+  <a hidden class="anchor" href="#intuitive-analysis">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h4>
+<p>To solve this problem intuitively, we can think of it as a dynamic programming problem where each number n can be broken down into its &lsquo;components&rsquo; of perfect squares. We can iteratively build up the solution by trying all possible combinations of perfect squares that sum up to n. As in many dynamic programming problems, memoization will be key to prevent redundant calculations and speed up the solution process. The key insight here is to realize that for a given number n, trying all possible &lsquo;subproblems&rsquo; of n is inefficient, and we should only try &lsquo;subproblems&rsquo; that are perfect squares themselves.</p>
+
 <h3 id="1-intuition">
   1. Intuition
   
@@ -635,13 +656,13 @@ Explanation: In this case, no transactions are done and the max profit = 0.
   
 </h3>
 <ul>
-<li>Objectives are to maximize the profit by buying and selling such that the difference between the selling price and buying price is maximum.</li>
-<li>for this to be to true, we need to find the relative differences towards the left to the right.</li>
-<li>So, if we arrive at a stock, we have to check if the current stock price is the minimum stock price we have seen so far.</li>
-<li>If it is, then we update the minimum stock price, but we can only sell towards right and not earlier.</li>
-<li>So every step we need to determine if we need to buy the stock now by comparing the current price to the lowest price we have seen so far.</li>
-<li>And profit is the difference between the current price and the lowest price we have seen so far.</li>
-<li>We need to maximize this profit.</li>
+<li>The problem can be solved using dynamic programming by breaking it down into smaller subproblems.</li>
+<li>The key insight is to find the minimum number of perfect squares that sum up to the given number.</li>
+<li>This can be achieved by iterating through all perfect squares less than or equal to the given number.</li>
+<li>For each perfect square, we recursively calculate the minimum number of squares needed for the remaining amount.</li>
+<li>We use memoization to store the results of subproblems to avoid redundant calculations.</li>
+<li>The final answer is the minimum number of squares needed for the given number.</li>
+<li>This approach ensures that we consider all possible combinations of perfect squares.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -655,14 +676,120 @@ Explanation: In this case, no transactions are done and the max profit = 0.
  </a>
   
 </h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Initialize two variables <span style="color:#e6db74">`buyAtPrice`</span> and <span style="color:#e6db74">`maxProfit`</span> to <span style="color:#e6db74">`INT_MAX`</span> and <span style="color:#e6db74">`0`</span> respectively.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> For every <span style="color:#e6db74">`price`</span> in <span style="color:#e6db74">`prices`</span>:
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Update <span style="color:#e6db74">`buyAtPrice`</span> to the minimum of <span style="color:#e6db74">`buyAtPrice`</span> and <span style="color:#e6db74">`price`</span>.
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Update <span style="color:#e6db74">`maxProfit`</span> to the maximum of <span style="color:#e6db74">`maxProfit`</span> and <span style="color:#e6db74">`price - buyAtPrice`</span>.
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Return <span style="color:#e6db74">`maxProfit`</span>.
-</span></span></code></pre></div><blockquote>
-<p>There are various follow ups, do check it out in leetcode.</p>
+<ul>
+<li>We initialize a dynamic programming array <code>dp</code> with size <code>n+1</code> and set <code>dp[0]</code> to 0, as the minimum number of squares needed for 0 is 0.</li>
+<li>We define a recursive function <code>solve</code> that takes an integer <code>n</code> as input and returns the minimum number of squares needed.</li>
+<li>In the <code>solve</code> function, we check if <code>n</code> is 0, in which case we return 0, or if <code>n</code> is negative, in which case we return <code>INT_MAX</code>.</li>
+<li>We also check if the result for <code>n</code> is already calculated and stored in <code>dp[n]</code>, in which case we return <code>dp[n]</code>.</li>
+<li>We iterate through all numbers from 1 to <code>sqrt(n)</code> and recursively calculate the minimum number of squares needed for <code>n-i*i</code>.</li>
+<li>We update the answer with the minimum of the current answer and the result of the subproblem plus 1.</li>
+<li>Finally, we memoize the result for <code>n</code> by storing it in <code>dp[n]</code> and return the minimum number of squares needed.</li>
+</ul>
+<hr>
+
+<h2 id="complexity-analysis-1">
+  Complexity Analysis
+  
+  <a hidden class="anchor" href="#complexity-analysis-1">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+
+<h3 id="time-complexity">
+  Time Complexity:
+  
+  <a hidden class="anchor" href="#time-complexity">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<ul>
+<li>The code has a nested loop structure, with a recursive call to solve(n) inside a for loop that runs from 1 to sqrt(n), and within the recursive call, there is another loop from 1 to sqrt(n). However, the introduction of memoization through dynamic programming reduces the time complexity. The outer loop runs in O(sqrt(n)) time and for each iteration of the outer loop, the inner computation takes constant time because of memoization, resulting in O(n sqrt(n)) time complexity. The O(n sqrt(n)) is due to the initial filling of dp array.</li>
+<li>The dominant operations are the recursive calls and loop iterations, but memoization reduces the number of recursive calls significantly.</li>
+<li>Therefore, the Big O classification of this algorithm&rsquo;s time complexity is O(n sqrt(n)).</li>
+</ul>
+
+<h3 id="space-complexity">
+  Space Complexity:
+  
+  <a hidden class="anchor" href="#space-complexity">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<ul>
+<li>The code uses a dp array of size n+1 to store the results of subproblems. The maximum amount of memory used is directly proportional to the size of the input.</li>
+<li>The use of a dynamic programming array (dp) to store intermediate results significantly impacts memory usage.</li>
+<li>The space complexity is thus classified as O(n), where n is the input size.</li>
+</ul>
+<hr>
+
+<h3 id="footnote">
+  Footnote
+  
+  <a hidden class="anchor" href="#footnote">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<blockquote>
+<p>This question is rated as <strong>Medium</strong> difficulty.</p>
 </blockquote>
+<hr>
+
+<h3 id="similar-questions">
+  Similar Questions:
+  
+  <a hidden class="anchor" href="#similar-questions">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Title</th>
+          <th style="text-align: left">URL</th>
+          <th style="text-align: left">Difficulty</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Count Primes</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/count-primes" target="_blank">https://leetcode.com/problems/count-primes</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ugly Number II</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/ugly-number-ii" target="_blank">https://leetcode.com/problems/ugly-number-ii</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ways to Express an Integer as Sum of Powers</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers" target="_blank">https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+  </tbody>
+</table>
 
 
 
@@ -676,17 +803,13 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/extraques/problem-279-perfect-squares/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 279 Perfect Squares </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/leetcode-contest/problem-3290-maximum-multiplication-score/">
+    <a class="next" href="/blog/posts/extraques/problem-121-best-time-to-buy-and-sell-stock/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3290 Maximum Multiplication Score </span>
+      <span> Problem 121 Best Time to Buy and Sell Stock </span>
     </a>
   
 </nav>
