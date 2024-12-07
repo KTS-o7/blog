@@ -6,8 +6,22 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 16:41:39 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 17:02:44 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hash-Table</title>
+      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
+      <pubDate>Sat, 07 Dec 2024 17:02:44 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linked-List</title>
+      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
+      <pubDate>Sat, 07 Dec 2024 17:02:44 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Breadth-First Search</title>
       <link>https://KTS-o7.github.io/blog/tags/breadth-first-search/</link>
@@ -55,13 +69,6 @@
       <link>https://KTS-o7.github.io/blog/tags/greedy/</link>
       <pubDate>Fri, 06 Dec 2024 18:50:23 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/greedy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hash-Table</title>
-      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
-      <pubDate>Fri, 06 Dec 2024 18:50:23 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
       <description></description>
     </item>
     <item>
@@ -384,13 +391,6 @@
       <link>https://KTS-o7.github.io/blog/tags/hamming-distance/</link>
       <pubDate>Wed, 11 Sep 2024 09:20:56 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/hamming-distance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linked-List</title>
-      <link>https://KTS-o7.github.io/blog/tags/linked-list/</link>
-      <pubDate>Tue, 10 Sep 2024 09:14:53 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/linked-list/</guid>
       <description></description>
     </item>
     <item>

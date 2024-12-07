@@ -6,8 +6,15 @@
     <description>Recent content in Linked-List on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Sep 2024 09:14:53 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 17:02:44 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 138 Copy List with Random Pointer</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-138-copy-list-with-random-pointer/</link>
+      <pubDate>Sat, 07 Dec 2024 17:02:44 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-138-copy-list-with-random-pointer/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 2807 Insert Greatest Common Divisors in Linked List</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2807-insert-greatest-common-divisors-in-linked-list/</link>
