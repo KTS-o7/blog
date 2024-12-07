@@ -6,13 +6,34 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 17:21:56 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 17:25:46 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Sat, 07 Dec 2024 17:21:56 +0530</pubDate>
+      <pubDate>Sat, 07 Dec 2024 17:25:46 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hash-Table</title>
+      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
+      <pubDate>Sat, 07 Dec 2024 17:25:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix</title>
+      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
+      <pubDate>Sat, 07 Dec 2024 17:25:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prefix-Sum</title>
+      <link>https://KTS-o7.github.io/blog/tags/prefix-sum/</link>
+      <pubDate>Sat, 07 Dec 2024 17:25:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/prefix-sum/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +55,6 @@
       <link>https://KTS-o7.github.io/blog/tags/dynamic-programming/</link>
       <pubDate>Sat, 07 Dec 2024 17:21:56 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/dynamic-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hash-Table</title>
-      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
-      <pubDate>Sat, 07 Dec 2024 17:21:56 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
       <description></description>
     </item>
     <item>
@@ -142,13 +156,6 @@
       <description></description>
     </item>
     <item>
-      <title>Matrix</title>
-      <link>https://KTS-o7.github.io/blog/tags/matrix/</link>
-      <pubDate>Mon, 02 Dec 2024 15:40:41 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/matrix/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>String Matching</title>
       <link>https://KTS-o7.github.io/blog/tags/string-matching/</link>
       <pubDate>Mon, 02 Dec 2024 15:07:37 +0530</pubDate>
@@ -223,13 +230,6 @@
       <link>https://KTS-o7.github.io/blog/tags/heap/</link>
       <pubDate>Fri, 29 Nov 2024 12:31:26 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/heap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Prefix-Sum</title>
-      <link>https://KTS-o7.github.io/blog/tags/prefix-sum/</link>
-      <pubDate>Fri, 29 Nov 2024 12:31:26 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/prefix-sum/</guid>
       <description></description>
     </item>
     <item>

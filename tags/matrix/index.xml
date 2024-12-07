@@ -6,8 +6,15 @@
     <description>Recent content in Matrix on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Dec 2024 15:40:41 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 17:25:46 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/matrix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1074 Number of Submatrices That Sum to Target</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-1074-number-of-submatrices-that-sum-to-target/</link>
+      <pubDate>Sat, 07 Dec 2024 17:25:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-1074-number-of-submatrices-that-sum-to-target/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 48 Rotate Image</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-48-rotate-image/</link>

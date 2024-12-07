@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2597 The Number of Beautiful Subsets &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2597 The Number of Beautiful Subsets &middot; The Indian Engineer" />
+  <title>Problem 1074 Number of Submatrices That Sum to Target &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1074 Number of Submatrices That Sum to Target &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, hash table, math, dynamic programming, backtracking, sorting, combinatorics, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-2597-the-number-of-beautiful-subsets/" />
+  <meta name="keywords" content="array, hash table, matrix, prefix sum, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-1074-number-of-submatrices-that-sum-to-target/" />
 
   
 
@@ -82,26 +82,24 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-2597-the-number-of-beautiful-subsets/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-1074-number-of-submatrices-that-sum-to-target/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2597 The Number of Beautiful Subsets">
+  <meta property="og:title" content="Problem 1074 Number of Submatrices That Sum to Target">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-12-07T17:21:56+05:30">
-    <meta property="article:modified_time" content="2024-12-07T17:21:56+05:30">
+    <meta property="article:published_time" content="2024-12-07T17:25:46+05:30">
+    <meta property="article:modified_time" content="2024-12-07T17:25:46+05:30">
     <meta property="article:tag" content="Array">
     <meta property="article:tag" content="Hash-Table">
-    <meta property="article:tag" content="Math">
-    <meta property="article:tag" content="Dynamic-Programming">
-    <meta property="article:tag" content="Backtracking">
-    <meta property="article:tag" content="Sorting">
+    <meta property="article:tag" content="Matrix">
+    <meta property="article:tag" content="Prefix-Sum">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2597 The Number of Beautiful Subsets">
+  <meta name="twitter:title" content="Problem 1074 Number of Submatrices That Sum to Target">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -395,7 +393,7 @@
 
 
 
-<h1 class="pg-title">Problem 2597 The Number of Beautiful Subsets</h1>
+<h1 class="pg-title">Problem 1074 Number of Submatrices That Sum to Target</h1>
 
 
 <div class="meta">
@@ -415,7 +413,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-07T17:21:56&#43;05:30">Dec 7, 2024</time>
+  Posted on <time datetime="2024-12-07T17:25:46&#43;05:30">Dec 7, 2024</time>
   
   
   
@@ -453,15 +451,9 @@
   
   <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
   
-  <a class="tag" href="/blog/tags/math/">Math</a>
+  <a class="tag" href="/blog/tags/matrix/">Matrix</a>
   
-  <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
-  
-  <a class="tag" href="/blog/tags/backtracking/">Backtracking</a>
-  
-  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
-  
-  <a class="tag" href="/blog/tags/combinatorics/">Combinatorics</a>
+  <a class="tag" href="/blog/tags/prefix-sum/">Prefix-Sum</a>
   
 </p>
 
@@ -519,7 +511,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/the-number-of-beautiful-subsets/description/?envType=daily-question&amp;envId=2024-05-23" target="_blank">Problem 2597</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/submissions/?envType=daily-question&amp;envId=2024-01-28" target="_blank">Problem 1074</a>
 </p>
 
 <h2 id="question">
@@ -533,28 +525,33 @@
  </a>
   
 </h2>
-<p>You are given an array <code>nums</code> of positive integers and a <strong>positive</strong> integer <code>k</code>.</p>
-<p>A subset of <code>nums</code> is <strong>beautiful</strong> if it does not contain two integers with an absolute difference equal to <code>k</code>.</p>
-<p>Return <em>the number of <strong>non-empty beautiful </strong>subsets of the array</em> <code>nums</code>.</p>
-<p>A <strong>subset</strong> of <code>nums</code> is an array that can be obtained by deleting some (possibly none) elements from <code>nums</code>. Two subsets are different if and only if the chosen indices to delete are different.</p>
+<p>Given a <code>matrix</code>&nbsp;and a <code>target</code>, return the number of non-empty submatrices that sum to <font face="monospace">target</font>.</p>
+<p>A submatrix <code>x1, y1, x2, y2</code> is the set of all cells <code>matrix[x][y]</code> with <code>x1 &lt;= x &lt;= x2</code> and <code>y1 &lt;= y &lt;= y2</code>.</p>
+<p>Two submatrices <code>(x1, y1, x2, y2)</code> and <code>(x1&#39;, y1&#39;, x2&#39;, y2&#39;)</code> are different if they have some coordinate&nbsp;that is different: for example, if <code>x1 != x1&#39;</code>.</p>
 <p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/09/02/mate1.jpg" style="width: 242px; height: 242px;" />
 <pre>
-<strong>Input:</strong> nums = [2,4,6], k = 2
+<strong>Input:</strong> matrix = [[0,1,0],[1,1,1],[0,1,0]], target = 0
 <strong>Output:</strong> 4
-<strong>Explanation:</strong> The beautiful subsets of the array nums are: [2], [4], [6], [2, 6].
-It can be proved that there are only 4 beautiful subsets in the array [2,4,6].
+<strong>Explanation:</strong> The four 1x1 submatrices that only contain 0.
 </pre>
 <p><strong class="example">Example 2:</strong></p>
 <pre>
-<strong>Input:</strong> nums = [1], k = 1
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> The beautiful subset of the array nums is [1].
-It can be proved that there is only 1 beautiful subset in the array [1].
+<strong>Input:</strong> matrix = [[1,-1],[-1,1]], target = 0
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> The two 1x2 submatrices, plus the two 2x1 submatrices, plus the 2x2 submatrix.
+</pre>
+<p><strong class="example">Example 3:</strong></p>
+<pre>
+<strong>Input:</strong> matrix = [[904]], target = 0
+<strong>Output:</strong> 0
 </pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= nums.length &lt;= 20</code></li>
-	<li><code>1 &lt;= nums[i], k &lt;= 1000</code></li>
+	<li><code>1 &lt;= matrix.length &lt;= 100</code></li>
+	<li><code>1 &lt;= matrix[0].length &lt;= 100</code></li>
+	<li><code>-1000 &lt;= matrix[i][j] &lt;= 1000</code></li>
+	<li><code>-10^8 &lt;= target &lt;= 10^8</code></li>
 </ul>
 
 <h2 id="solution">
@@ -570,28 +567,31 @@ It can be proved that there is only 1 beautiful subset in the array [1].
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> backtrack(<span style="color:#66d9ef">const</span> vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k, unordered_map<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> flag, <span style="color:#66d9ef">int</span> pos, <span style="color:#66d9ef">int</span><span style="color:#f92672">&amp;</span> result) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (pos <span style="color:#f92672">==</span> nums.size()) {
-</span></span><span style="display:flex;"><span>            result<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> numSubmatrixSumTarget(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> matrix, <span style="color:#66d9ef">int</span> target) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> numRows <span style="color:#f92672">=</span> matrix.size();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> numCols <span style="color:#f92672">=</span> matrix[<span style="color:#ae81ff">0</span>].size();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> prefixSum(numRows <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>(numCols <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> row <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; row <span style="color:#f92672">&lt;</span> numRows; <span style="color:#f92672">++</span>row) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> col <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; col <span style="color:#f92672">&lt;</span> numCols; <span style="color:#f92672">++</span>col) {
+</span></span><span style="display:flex;"><span>                prefixSum[row <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>][col <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> prefixSum[row][col <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> prefixSum[row <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>][col] <span style="color:#f92672">-</span> prefixSum[row][col] <span style="color:#f92672">+</span> matrix[row][col];
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        backtrack(nums, k, flag, pos <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, result);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> num <span style="color:#f92672">=</span> nums[pos];
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>flag[num <span style="color:#f92672">-</span> k]) {
-</span></span><span style="display:flex;"><span>            flag[num]<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>            backtrack(nums, k, flag, pos <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, result);
-</span></span><span style="display:flex;"><span>            flag[num]<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> row1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; row1 <span style="color:#f92672">&lt;</span> numRows; <span style="color:#f92672">++</span>row1) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> row2 <span style="color:#f92672">=</span> row1 <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>; row2 <span style="color:#f92672">&lt;=</span> numRows; <span style="color:#f92672">++</span>row2) {
+</span></span><span style="display:flex;"><span>                unordered_map<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> counter;
+</span></span><span style="display:flex;"><span>                counter[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> col <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; col <span style="color:#f92672">&lt;=</span> numCols; <span style="color:#f92672">++</span>col) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">int</span> currSum <span style="color:#f92672">=</span> prefixSum[row2][col] <span style="color:#f92672">-</span> prefixSum[row1][col];
+</span></span><span style="display:flex;"><span>                    count <span style="color:#f92672">+=</span> counter[currSum <span style="color:#f92672">-</span> target];
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">++</span>counter[currSum];
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">beautifulSubsets</span>(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> k) {
-</span></span><span style="display:flex;"><span>        sort(nums.begin(), nums.end());
-</span></span><span style="display:flex;"><span>        unordered_map<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> flag;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> res <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        backtrack(nums, k, flag, <span style="color:#ae81ff">0</span>, res);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -606,9 +606,9 @@ It can be proved that there is only 1 beautiful subset in the array [1].
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                            | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------------------------------ | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Backtracking-based subset generation | O(n(2^n))       | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------------------ | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Hash Map with Prefix Sum | O(n^3 log n)    | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -633,7 +633,7 @@ It can be proved that there is only 1 beautiful subset in the array [1].
  </a>
   
 </h4>
-<p>When faced with this problem, my initial thoughts were to think about how subsets work, imagine each number has two options, include or exclude. But here we need to ensure no two numbers have an absolute difference equal to k. At first glance, this seems to be a hard problem, but then I thought of an analogy - thinking of this problem as placing balls in boxes with certain constraints.</p>
+<p>To approach this problem, first think about the structure of a matrix and how submatrices are formed. Consider how you can efficiently calculate the sum of each submatrix. Note that the problem statement involves both positive and negative numbers, which can result in both positive and negative sums. Think about how you can keep track of the sums that have been seen so far. It might be useful to use a prefix sum array or a hash map to store intermediate results. Break down the problem into smaller sub-problems, such as calculating the sum of submatrices with a specific row or column range.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -646,7 +646,7 @@ It can be proved that there is only 1 beautiful subset in the array [1].
  </a>
   
 </h4>
-<p>To solve the problem intuitively, try dividing it into two steps. First, understand the concept of beautiful subsets and how adding an element affects this. Think of it as if each element has its own &lsquo;special&rsquo; element which cannot be together in the subset. Once you grasp this idea, finding the correct path - whether to include an element or not - can be thought of as similar to the decision process in a recursive approach, checking if adding a new number affects an already added number. The tricky part comes when we backtrack - try thinking of this as like walking through various &lsquo;dead ends&rsquo; and correcting our path accordingly to achieve the final result.</p>
+<p>To intuitively solve this problem, think of the prefix sum array as a tool to efficiently calculate the sum of any submatrix. Imagine a sliding window approach where you are moving the top and bottom boundaries of the submatrix, and for each position, you are calculating the sum of the submatrix. Use a hash map to store the frequency of each sum that has been seen so far. The key insight is that the number of submatrices that sum to the target is equal to the number of times the target minus the current sum is seen in the hash map. By using this approach, you can avoid recalculating the sum of submatrices and reduce the time complexity.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -660,13 +660,13 @@ It can be proved that there is only 1 beautiful subset in the array [1].
   
 </h3>
 <ul>
-<li>The problem asks for the number of non-empty beautiful subsets of the array nums, where a subset is beautiful if it does not contain two integers with an absolute difference equal to k.</li>
-<li>To solve this problem, we can use a backtracking approach to generate all possible subsets of the array nums.</li>
-<li>We need to keep track of the numbers that have been included in the current subset to avoid including numbers with an absolute difference equal to k.</li>
-<li>We can use a flag array to keep track of the numbers that have been included in the current subset.</li>
-<li>The key insight is to use the backtracking approach to generate all possible subsets and then filter out the subsets that contain numbers with an absolute difference equal to k.</li>
-<li>This approach works because it allows us to generate all possible subsets and then filter out the subsets that do not meet the condition.</li>
-<li>The time complexity of this approach is O(2^n), where n is the length of the array nums, because we generate all possible subsets of the array nums.</li>
+<li>The problem can be solved by using a prefix sum approach to efficiently calculate the sum of any submatrix.</li>
+<li>The prefix sum approach allows us to calculate the sum of a submatrix in constant time, which is crucial for achieving an efficient solution.</li>
+<li>We can use a hashmap to store the cumulative sum of each row and the frequency of each sum, which enables us to count the number of submatrices with a given sum in linear time.</li>
+<li>The key insight is to fix the top and bottom rows of the submatrix and then iterate over all possible left and right columns.</li>
+<li>This approach ensures that we consider all possible submatrices and count the ones with the target sum.</li>
+<li>The time complexity of this approach is O(n^3), where n is the number of rows in the matrix.</li>
+<li>The space complexity is O(n), which is used to store the prefix sum and the hashmap.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -681,17 +681,13 @@ It can be proved that there is only 1 beautiful subset in the array [1].
   
 </h3>
 <ul>
-<li>The function <code>backtrack</code> is used to generate all possible subsets of the array nums using a backtracking approach.</li>
-<li>The function <code>backtrack</code> takes five parameters: <code>nums</code>, <code>k</code>, <code>flag</code>, <code>pos</code>, and <code>result</code>.</li>
-<li>The <code>flag</code> array is used to keep track of the numbers that have been included in the current subset.</li>
-<li>The <code>pos</code> parameter is used to keep track of the current position in the array nums.</li>
-<li>The <code>result</code> parameter is used to keep track of the number of beautiful subsets found so far.</li>
-<li>In the <code>backtrack</code> function, we first check if the current position <code>pos</code> is equal to the length of the array nums.</li>
-<li>If it is, we increment the <code>result</code> parameter and return.</li>
-<li>Otherwise, we recursively call the <code>backtrack</code> function with the next position <code>pos + 1</code>.</li>
-<li>We then check if the current number <code>nums[pos]</code> can be included in the current subset by checking if <code>flag[nums[pos] - k]</code> is false.</li>
-<li>If it is, we set <code>flag[nums[pos]]</code> to true and recursively call the <code>backtrack</code> function with the next position <code>pos + 1</code>.</li>
-<li>After the recursive call, we set <code>flag[nums[pos]]</code> to false to backtrack and try other possibilities.</li>
+<li>We initialize a 2D array <code>prefixSum</code> to store the prefix sum of the matrix, where <code>prefixSum[i][j]</code> represents the sum of all elements in the submatrix from (0, 0) to (i, j).</li>
+<li>We calculate the prefix sum using the formula <code>prefixSum[i][j] = prefixSum[i-1][j] + prefixSum[i][j-1] - prefixSum[i-1][j-1] + matrix[i][j]</code>.</li>
+<li>We iterate over all possible top and bottom rows of the submatrix using two nested loops.</li>
+<li>For each pair of top and bottom rows, we iterate over all possible left columns and calculate the cumulative sum of the submatrix.</li>
+<li>We use a hashmap <code>counter</code> to store the frequency of each cumulative sum and count the number of submatrices with the target sum.</li>
+<li>We update the count by adding the frequency of the cumulative sum minus the target sum to the count.</li>
+<li>Finally, we return the count as the result.</li>
 </ul>
 <hr>
 
@@ -719,9 +715,9 @@ It can be proved that there is only 1 beautiful subset in the array [1].
   
 </h3>
 <ul>
-<li>In the <code>beautifulSubsets</code> function, <code>backtrack</code> is called recursively to generate all possible subsets, resulting in 2^n possible subsets for n numbers.</li>
-<li>For each subset generated, it iterates through all numbers, hence 2^n _ n possible operations, thus justifying the O(n _ 2^n) time complexity</li>
-<li>The recursive call <code>backtrack(nums, k, flag, pos + 1, result)</code> has n layers due to <code>pos</code> ranging from 0 to <code>nums.size()</code></li>
+<li>The algorithm starts by calculating the prefix sum of the matrix in O(numRows _ numCols) time. However, this is dominated by the nested for loops over all possible submatrices (row1 and row2), each taking O(numCols) time. Hence, the overall time complexity becomes O(numRows^2 _ numCols). Additionally, an unordered*map is used to keep track of the cumulative sum, contributing a O(log numCols) factor. Therefore, the total time complexity is O(numRows^2 * numCols _ log numCols) which can be simplified to O(n^3 log n) where n is the number of rows (or columns) of the matrix.</li>
+<li>The innermost for loop at <code>for (int col = 1; col &lt;= numCols; ++col)</code> iterates over each column, and the counter[currSum - target] operation within the loop contributes a significant amount to the time complexity. However, as an unordered_map is used, this operation takes constant time and does not affect the overall time complexity significantly.</li>
+<li>The use of nested loops and the contribution of the <code>unordered_map</code> can be justified using Big O notation. Since Big O provides an upper bound on the time complexity, and the given algorithm consists of operations that take O(n^3 log n) time in the worst case, the algorithm is classified as O(n^3 log n).</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -736,9 +732,9 @@ It can be proved that there is only 1 beautiful subset in the array [1].
   
 </h3>
 <ul>
-<li>The <code>backtrack</code> function call stack can go up to n layers (depth of recursion), hence n space complexity for call stack</li>
-<li>However, recursive call stack aside, additional space usage by the <code>flag</code> map is of size n for storing the count of each number</li>
-<li>Negligible space used by other variables like <code>res</code> and the parameters of <code>backtrack</code></li>
+<li>The given algorithm requires extra space to store the prefix sum matrix (<code>prefixSum</code>) and an unordered_map (<code>counter</code>). The prefix sum matrix takes O(numRows * numCols) space since it has an extra row and column. Hence, this is the dominant contributor to the space complexity.</li>
+<li>The unordered_map (<code>counter</code>) is used to store cumulative sums encountered so far. Since the map stores at most numCols entries in the worst case, the space complexity of the map can be considered as O(numCols). However, it is often noted that this growth rate is much slower than the growth rate of <code>prefixSum</code>.</li>
+<li>Given that the prefix sum matrix takes O(numRows * numCols) space, we can conclude the space complexity of the given algorithm is indeed O(n^2), where n is the number of rows (or columns) of the matrix, rather than O(n).</li>
 </ul>
 <hr>
 
@@ -754,7 +750,7 @@ It can be proved that there is only 1 beautiful subset in the array [1].
   
 </h3>
 <blockquote>
-<p>This question is rated as <strong>Medium</strong> difficulty.</p>
+<p>This question is rated as <strong>Hard</strong> difficulty.</p>
 </blockquote>
 
 <h4 id="hints">
@@ -769,13 +765,8 @@ It can be proved that there is only 1 beautiful subset in the array [1].
   
 </h4>
 <blockquote>
-<p>Sort the array nums and create another array cnt of size nums[i].</p>
-</blockquote>
-<blockquote>
-<p>Use backtracking to generate all the beautiful subsets. If cnt[nums[i] - k] is positive, then it is impossible to add nums[i] in the subset, and we just move to the next index. Otherwise, it is also possible to add nums[i] in the subset, in this case, increase cnt[nums[i]], and move to the next index.</p>
-</blockquote>
-<blockquote>
-<p>Bonus: Can you solve the problem in O(n log n)?</p>
+<p>Using a 2D prefix sum, we can query the sum of any submatrix in O(1) time.
+Now for each (r1, r2), we can find the largest sum of a submatrix that uses every row in [r1, r2] in linear time using a sliding window.</p>
 </blockquote>
 <hr>
 
@@ -800,8 +791,8 @@ It can be proved that there is only 1 beautiful subset in the array [1].
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Construct the Lexicographically Largest Valid Sequence</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence" target="_blank">https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence</a>
+          <td style="text-align: left">Disconnect Path in a Binary Matrix by at Most One Flip</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip" target="_blank">https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip</a>
 </td>
           <td style="text-align: left">Medium</td>
       </tr>
@@ -820,17 +811,13 @@ It can be proved that there is only 1 beautiful subset in the array [1].
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/extraques/problem-1074-number-of-submatrices-that-sum-to-target/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1074 Number of Submatrices That Sum to Target </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/extraques/problem-310-minimum-height-trees/">
+    <a class="next" href="/blog/posts/extraques/problem-2597-the-number-of-beautiful-subsets/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 310 Minimum Height Trees </span>
+      <span> Problem 2597 The Number of Beautiful Subsets </span>
     </a>
   
 </nav>

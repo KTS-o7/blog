@@ -6,8 +6,15 @@
     <description>Recent content in Prefix-Sum on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Nov 2024 12:31:26 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2024 17:25:46 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/prefix-sum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem 1074 Number of Submatrices That Sum to Target</title>
+      <link>https://KTS-o7.github.io/blog/posts/extraques/problem-1074-number-of-submatrices-that-sum-to-target/</link>
+      <pubDate>Sat, 07 Dec 2024 17:25:46 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/posts/extraques/problem-1074-number-of-submatrices-that-sum-to-target/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Problem 2406 Divide Intervals Into Minimum Number of Groups</title>
       <link>https://KTS-o7.github.io/blog/leetcode-potd/problem-2406-divide-intervals-into-minimum-number-of-groups/</link>
