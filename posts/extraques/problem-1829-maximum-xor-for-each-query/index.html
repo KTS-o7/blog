@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2070 Most Beautiful Item for Each Query &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2070 Most Beautiful Item for Each Query &middot; The Indian Engineer" />
+  <title>Problem 1829 Maximum XOR for Each Query &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 1829 Maximum XOR for Each Query &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, binary search, sorting, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-2070-most-beautiful-item-for-each-query/" />
+  <meta name="keywords" content="array, bit manipulation, prefix sum, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-1829-maximum-xor-for-each-query/" />
 
   
 
@@ -82,23 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-2070-most-beautiful-item-for-each-query/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-1829-maximum-xor-for-each-query/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2070 Most Beautiful Item for Each Query">
+  <meta property="og:title" content="Problem 1829 Maximum XOR for Each Query">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-12-08T11:15:00+05:30">
-    <meta property="article:modified_time" content="2024-12-08T11:15:00+05:30">
+    <meta property="article:published_time" content="2024-12-08T11:19:17+05:30">
+    <meta property="article:modified_time" content="2024-12-08T11:19:17+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Binary-Search">
-    <meta property="article:tag" content="Sorting">
+    <meta property="article:tag" content="Bit-Manipulation">
+    <meta property="article:tag" content="Prefix-Sum">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2070 Most Beautiful Item for Each Query">
+  <meta name="twitter:title" content="Problem 1829 Maximum XOR for Each Query">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 2070 Most Beautiful Item for Each Query</h1>
+<h1 class="pg-title">Problem 1829 Maximum XOR for Each Query</h1>
 
 
 <div class="meta">
@@ -412,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-08T11:15:00&#43;05:30">Dec 8, 2024</time>
+  Posted on <time datetime="2024-12-08T11:19:17&#43;05:30">Dec 8, 2024</time>
   
   
   
@@ -429,7 +429,7 @@
 
 </span>
   
-    7 mins
+    5 mins
   
 
 
@@ -448,9 +448,9 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
+  <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
   
-  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
+  <a class="tag" href="/blog/tags/prefix-sum/">Prefix-Sum</a>
   
 </p>
 
@@ -508,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/most-beautiful-item-for-each-query/?envType=daily-question&amp;envId=2024-11-12" target="_blank">Problem 2070</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/maximum-xor-for-each-query/?envType=daily-question&amp;envId=2024-11-08" target="_blank">Problem 1829</a>
 </p>
 
 <h2 id="question">
@@ -522,43 +522,44 @@
  </a>
   
 </h2>
-<p>You are given a 2D integer array <code>items</code> where <code>items[i] = [price<sub>i</sub>, beauty<sub>i</sub>]</code> denotes the <strong>price</strong> and <strong>beauty</strong> of an item respectively.</p>
-<p>You are also given a <strong>0-indexed</strong> integer array <code>queries</code>. For each <code>queries[j]</code>, you want to determine the <strong>maximum beauty</strong> of an item whose <strong>price</strong> is <strong>less than or equal</strong> to <code>queries[j]</code>. If no such item exists, then the answer to this query is <code>0</code>.</p>
-<p>Return <em>an array </em><code>answer</code><em> of the same length as </em><code>queries</code><em> where </em><code>answer[j]</code><em> is the answer to the </em><code>j<sup>th</sup></code><em> query</em>.</p>
+<p>You are given a <strong>sorted</strong> array <code>nums</code> of <code>n</code> non-negative integers and an integer <code>maximumBit</code>. You want to perform the following query <code>n</code> <strong>times</strong>:</p>
+<ol>
+	<li>Find a non-negative integer <code>k &lt; 2<sup>maximumBit</sup></code> such that <code>nums[0] XOR nums[1] XOR ... XOR nums[nums.length-1] XOR k</code> is <strong>maximized</strong>. <code>k</code> is the answer to the <code>i<sup>th</sup></code> query.</li>
+	<li>Remove the <strong>last </strong>element from the current array <code>nums</code>.</li>
+</ol>
+<p>Return <em>an array</em> <code>answer</code><em>, where </em><code>answer[i]</code><em> is the answer to the </em><code>i<sup>th</sup></code><em> query</em>.</p>
 <p><strong class="example">Example 1:</strong></p>
 <pre>
-<strong>Input:</strong> items = [[1,2],[3,2],[2,4],[5,6],[3,5]], queries = [1,2,3,4,5,6]
-<strong>Output:</strong> [2,4,5,5,6,6]
-<strong>Explanation:</strong>
-- For queries[0]=1, [1,2] is the only item which has price &lt;= 1. Hence, the answer for this query is 2.
-- For queries[1]=2, the items which can be considered are [1,2] and [2,4]. 
-  The maximum beauty among them is 4.
-- For queries[2]=3 and queries[3]=4, the items which can be considered are [1,2], [3,2], [2,4], and [3,5].
-  The maximum beauty among them is 5.
-- For queries[4]=5 and queries[5]=6, all items can be considered.
-  Hence, the answer for them is the maximum beauty of all items, i.e., 6.
+<strong>Input:</strong> nums = [0,1,1,3], maximumBit = 2
+<strong>Output:</strong> [0,3,2,3]
+<strong>Explanation</strong>: The queries are answered as follows:
+1<sup>st</sup> query: nums = [0,1,1,3], k = 0 since 0 XOR 1 XOR 1 XOR 3 XOR 0 = 3.
+2<sup>nd</sup> query: nums = [0,1,1], k = 3 since 0 XOR 1 XOR 1 XOR 3 = 3.
+3<sup>rd</sup> query: nums = [0,1], k = 2 since 0 XOR 1 XOR 2 = 3.
+4<sup>th</sup> query: nums = [0], k = 3 since 0 XOR 3 = 3.
 </pre>
 <p><strong class="example">Example 2:</strong></p>
 <pre>
-<strong>Input:</strong> items = [[1,2],[1,2],[1,3],[1,4]], queries = [1]
-<strong>Output:</strong> [4]
-<strong>Explanation:</strong> 
-The price of every item is equal to 1, so we choose the item with the maximum beauty 4. 
-Note that multiple items can have the same price and/or beauty.  
+<strong>Input:</strong> nums = [2,3,4,7], maximumBit = 3
+<strong>Output:</strong> [5,2,6,5]
+<strong>Explanation</strong>: The queries are answered as follows:
+1<sup>st</sup> query: nums = [2,3,4,7], k = 5 since 2 XOR 3 XOR 4 XOR 7 XOR 5 = 7.
+2<sup>nd</sup> query: nums = [2,3,4], k = 2 since 2 XOR 3 XOR 4 XOR 2 = 7.
+3<sup>rd</sup> query: nums = [2,3], k = 6 since 2 XOR 3 XOR 6 = 7.
+4<sup>th</sup> query: nums = [2], k = 5 since 2 XOR 5 = 7.
 </pre>
 <p><strong class="example">Example 3:</strong></p>
 <pre>
-<strong>Input:</strong> items = [[10,1000]], queries = [5]
-<strong>Output:</strong> [0]
-<strong>Explanation:</strong>
-No item has a price less than or equal to 5, so no item can be chosen.
-Hence, the answer to the query is 0.
+<strong>Input:</strong> nums = [0,1,2,2,5,7], maximumBit = 3
+<strong>Output:</strong> [4,3,6,4,6,7]
 </pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= items.length, queries.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>items[i].length == 2</code></li>
-	<li><code>1 &lt;= price<sub>i</sub>, beauty<sub>i</sub>, queries[j] &lt;= 10<sup>9</sup></code></li>
+	<li><code>nums.length == n</code></li>
+	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= maximumBit &lt;= 20</code></li>
+	<li><code>0 &lt;= nums[i] &lt; 2<sup>maximumBit</sup></code></li>
+	<li><code>nums</code>​​​ is sorted in <strong>ascending</strong> order.</li>
 </ul>
 
 <h2 id="solution">
@@ -574,38 +575,19 @@ Hence, the answer to the query is 0.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> maximumBeauty(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> items, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> queries) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> ans(queries.size());
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> getMaximumXor(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, <span style="color:#66d9ef">int</span> maximumBit) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> max_result <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span><span style="color:#f92672">&lt;&lt;</span>maximumBit)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> prefix_xor <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        sort(items.begin(), items.end(),[](vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> a, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> b) { <span style="color:#66d9ef">return</span> a[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;</span> b[<span style="color:#ae81ff">0</span>]; });
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>result(nums.size());
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> max_beauty <span style="color:#f92672">=</span> items[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">1</span>];
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> items.size(); i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            max_beauty <span style="color:#f92672">=</span> max(max_beauty, items[i][<span style="color:#ae81ff">1</span>]);
-</span></span><span style="display:flex;"><span>            items[i][<span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> max_beauty;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>nums.size();i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            prefix_xor<span style="color:#f92672">=</span>prefix_xor<span style="color:#f92672">^</span>nums[i];
+</span></span><span style="display:flex;"><span>            result[nums.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span>i] <span style="color:#f92672">=</span> prefix_xor<span style="color:#f92672">^</span>max_result;
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> queries.size(); i<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            ans[i] <span style="color:#f92672">=</span> binarySearch(items, queries[i]);
-</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> result;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">binarySearch</span>(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> items, <span style="color:#66d9ef">int</span> targetPrice) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span> items.size() <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> max_beauty <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (left <span style="color:#f92672">&lt;=</span> right) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> mid <span style="color:#f92672">=</span> (left <span style="color:#f92672">+</span> right) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (items[mid][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> targetPrice) {
-</span></span><span style="display:flex;"><span>                right <span style="color:#f92672">=</span> mid <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>                max_beauty <span style="color:#f92672">=</span> max(max_beauty, items[mid][<span style="color:#ae81ff">1</span>]);
-</span></span><span style="display:flex;"><span>                left <span style="color:#f92672">=</span> mid <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> max_beauty;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -620,9 +602,9 @@ Hence, the answer to the query is 0.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                        | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| -------------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Binary Search with Preprocessing | O(n log n)      | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                     | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ----------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Prefix XOR Array Construction | O(n)            | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -647,11 +629,7 @@ Hence, the answer to the query is 0.
  </a>
   
 </h4>
-<p>My initial thought was to approach this problem by identifying the relationship between the price and beauty of each item, then using that relationship to quickly find the maximum beauty for each query.
-The problem requires us to find the maximum beauty of an item for each query where the price is less than or equal to the query price.
-I realized that sorting the items by price could be useful in efficiently finding the maximum beauty for each query.
-I also noticed that there could be a connection between binary search and the sorted items, which could solve the problem efficiently.
-Lastly, I considered using dynamic programming to build up a solution by considering the previous items</p>
+<p>First, think about what the XOR operation does, it&rsquo;s like a light switch that turns a bit on or off depending on the input. Then, the goal is to maximize the result, so we should aim to flip as many bits as possible to 1. Given the maximumBit constraint, we need to understand its connection to 2^maximumBit. Think about how this limit can be used to find the maximum value. Lastly, consider how to utilize the prefix XOR to track the current sum and compute the final result.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -664,12 +642,7 @@ Lastly, I considered using dynamic programming to build up a solution by conside
  </a>
   
 </h4>
-<p>My intuition on this problem is that by sorting the items and using a modified binary search or lower-bound approach, we can efficiently find the maximum beauty for each query.
-I also thought to update the beauty of each item with the maximum beauty seen so far as we iterate through the sorted items, which would make the binary search even more efficient.
-By doing this, we ensure that the beauty of each item is the maximum beauty of all items with price less than or equal to its own price.
-This approach allows us to avoid redundant comparisons and directly find the maximum beauty for each query.
-Another key insight was to initialize the beauty of each item with its own beauty, and then update it as we iterate through the sorted items.
-This ensures that the binary search can efficiently find the maximum beauty for each query.</p>
+<p>To intuitively solve the problem, consider the prefix XOR as a cumulative sum of the current array. Maximize the result by finding the maximum possible value that fits within the 2^maximumBit constraint. The idea of maximizing the result can be linked to flipping all the available bits, which leads to the max_result variable in the solution. Notice that the solution uses this variable in conjunction with the prefix XOR to compute the final result for each step. Lastly, observe how the order of computation is reversed, meaning that the solution processes the array from the end to the beginning, which indicates that the most recently computed prefix XOR is used first.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -683,13 +656,12 @@ This ensures that the binary search can efficiently find the maximum beauty for 
   
 </h3>
 <ul>
-<li>The problem can be solved by first sorting the items based on their prices.</li>
-<li>Then, we can iterate through the sorted items and keep track of the maximum beauty encountered so far.</li>
-<li>This maximum beauty will be the answer for all queries with a price greater than or equal to the current item&rsquo;s price.</li>
-<li>To find the answer for a query, we can use binary search to find the largest price that is less than or equal to the query price.</li>
-<li>The maximum beauty at this index will be the answer for the query.</li>
-<li>This approach works because the items are sorted by price, and the maximum beauty is updated as we iterate through the items.</li>
-<li>This ensures that the maximum beauty at each index is the maximum beauty of all items with a price less than or equal to the current item&rsquo;s price.</li>
+<li>The problem asks to maximize the XOR of the prefix of the array and a number k, where k is less than 2^maximumBit.</li>
+<li>To maximize the XOR, we need to find the maximum possible value of k that can be XORed with the prefix.</li>
+<li>Since the array is sorted, we can use the property of XOR that a^a = 0 and a^0 = a.</li>
+<li>We can calculate the prefix XOR and then XOR it with the maximum possible value of k to get the maximum XOR.</li>
+<li>The maximum possible value of k is (1&laquo;maximumBit)-1, which is the maximum value that can be represented by maximumBit bits.</li>
+<li>By XORing the prefix XOR with the maximum possible value of k, we can get the maximum XOR for each prefix.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -704,13 +676,13 @@ This ensures that the binary search can efficiently find the maximum beauty for 
   
 </h3>
 <ul>
-<li>The <code>sort</code> function is used to sort the items based on their prices: <code>sort(items.begin(), items.end(),[](vector&lt;int&gt;&amp; a, vector&lt;int&gt;&amp; b) { return a[0] &lt; b[0]; });</code></li>
-<li>The <code>max_beauty</code> variable is used to keep track of the maximum beauty encountered so far: <code>int max_beauty = items[0][1];</code></li>
-<li>The <code>binarySearch</code> function is used to find the largest price that is less than or equal to the query price: <code>int binarySearch(vector&lt;vector&lt;int&gt;&gt;&amp; items, int targetPrice) { ... }</code></li>
-<li>The <code>binarySearch</code> function uses a binary search approach to find the largest price: <code>while (left &lt;= right) { ... }</code></li>
-<li>The <code>binarySearch</code> function returns the maximum beauty at the index found: <code>return max_beauty;</code></li>
-<li>The <code>maximumBeauty</code> function iterates through the queries and calls the <code>binarySearch</code> function for each query: <code>for (int i = 0; i &lt; queries.size(); i++) { ... }</code></li>
-<li>The <code>maximumBeauty</code> function returns the answers for all queries: <code>return ans;</code></li>
+<li>We initialize the maximum result as (1&laquo;maximumBit)-1, which is the maximum possible value of k.</li>
+<li>We initialize the prefix XOR as 0, which will store the XOR of the prefix of the array.</li>
+<li>We iterate over the array from left to right and calculate the prefix XOR by XORing the current element with the previous prefix XOR.</li>
+<li>We calculate the maximum XOR for each prefix by XORing the prefix XOR with the maximum result.</li>
+<li>We store the maximum XOR for each prefix in the result array in reverse order.</li>
+<li>We return the result array, which contains the maximum XOR for each prefix.</li>
+<li>The time complexity of this solution is O(n), where n is the size of the array.</li>
 </ul>
 <hr>
 
@@ -738,9 +710,9 @@ This ensures that the binary search can efficiently find the maximum beauty for 
   
 </h3>
 <ul>
-<li>The algorithm can be divided into three main steps: sorting, preprocessing, and binary search. The sorting step <code>sort(items.begin(), items.end(),[](vector&lt;int&gt;&amp; a, vector&lt;int&gt;&amp; b) { return a[0] &lt; b[0]; });</code> has a time complexity of O(n log n), where n is the number of items.</li>
-<li>The preprocessing step <code>for (int i = 0; i &lt; items.size(); i++) { ... }</code> has a time complexity of O(n), where n is the number of items.</li>
-<li>The binary search step <code>for (int i = 0; i &lt; queries.size(); i++) { ... }</code> has a time complexity of O(m log n), where m is the number of queries. Since m can be less than or equal to n, we can simplify this to O(n log n) and this dominant operation justifies the overall time complexity classification of O(n log n).</li>
+<li>The function iterates through each element in the input array <code>nums</code> exactly once in a single loop.</li>
+<li>The dominant operation in this loop is the bitwise XOR operation <code>prefix_xor^nums[i]</code> and <code>prefix_xor^max_result</code>, both of which take constant time, resulting in linear time complexity.</li>
+<li>Since the number of iterations is directly proportional to the input size <code>n</code>, the time complexity is O(n) in all cases - worst, average, and best.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -755,9 +727,9 @@ This ensures that the binary search can efficiently find the maximum beauty for 
   
 </h3>
 <ul>
-<li>The algorithm requires additional space to store the result <code>vector&lt;int&gt; ans(queries.size());</code> which has a space complexity of O(m), where m is the number of queries.</li>
-<li>The space required to store the items and queries also contributes to the overall space complexity of O(n + m), where n is the number of items and m is the number of queries.</li>
-<li>However, since n can be greater than or equal to m, we can simplify the overall space complexity to O(n), justifying the space complexity classification.</li>
+<li>The function creates an additional array <code>result</code> to store the prefix XOR results, which has the same size as the input array <code>nums</code>.</li>
+<li>This extra array contributes to the space complexity, which is O(n), where <code>n</code> is the size of the input array.</li>
+<li>The space usage does not change with the input values or the specific use case, resulting in a consistent space complexity of O(n) for all cases.</li>
 </ul>
 <hr>
 
@@ -788,10 +760,10 @@ This ensures that the binary search can efficiently find the maximum beauty for 
   
 </h4>
 <blockquote>
-<p>Can we process the queries in a smart order to avoid repeatedly checking the same items?</p>
+<p>Note that the maximum possible XOR result is always 2^(maximumBit) - 1</p>
 </blockquote>
 <blockquote>
-<p>How can we use the answer to a query for other queries?</p>
+<p>So the answer for a prefix is the XOR of that prefix XORed with 2^(maximumBit)-1</p>
 </blockquote>
 <hr>
 
@@ -816,22 +788,10 @@ This ensures that the binary search can efficiently find the maximum beauty for 
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Closest Room</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/closest-room" target="_blank">https://leetcode.com/problems/closest-room</a>
-</td>
-          <td style="text-align: left">Hard</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Find the Score of All Prefixes of an Array</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array" target="_blank">https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array</a>
+          <td style="text-align: left">Count the Number of Beautiful Subarrays</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/count-the-number-of-beautiful-subarrays" target="_blank">https://leetcode.com/problems/count-the-number-of-beautiful-subarrays</a>
 </td>
           <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Maximum Sum Queries</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-sum-queries" target="_blank">https://leetcode.com/problems/maximum-sum-queries</a>
-</td>
-          <td style="text-align: left">Hard</td>
       </tr>
   </tbody>
 </table>
@@ -848,17 +808,13 @@ This ensures that the binary search can efficiently find the maximum beauty for 
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/extraques/problem-1829-maximum-xor-for-each-query/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 1829 Maximum XOR for Each Query </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/extraques/problem-1255-maximum-score-words-formed-by-letters/">
+    <a class="next" href="/blog/posts/extraques/problem-2070-most-beautiful-item-for-each-query/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1255 Maximum Score Words Formed by Letters </span>
+      <span> Problem 2070 Most Beautiful Item for Each Query </span>
     </a>
   
 </nav>
