@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2054 Two Best Non-Overlapping Events &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2054 Two Best Non-Overlapping Events &middot; The Indian Engineer" />
+  <title>Problem 2064 Minimized Maximum of Products Distributed to Any Store &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2064 Minimized Maximum of Products Distributed to Any Store &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, binary search, dynamic programming, sorting, heap (priority queue), " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2054-two-best-non-overlapping-events/" />
+  <meta name="keywords" content="array, binary search, greedy, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2064-minimized-maximum-of-products-distributed-to-any-store/" />
 
   
 
@@ -82,25 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2054-two-best-non-overlapping-events/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2064-minimized-maximum-of-products-distributed-to-any-store/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2054 Two Best Non-Overlapping Events">
+  <meta property="og:title" content="Problem 2064 Minimized Maximum of Products Distributed to Any Store">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-08T11:04:19+05:30">
-    <meta property="article:modified_time" content="2024-12-08T11:04:19+05:30">
+    <meta property="article:published_time" content="2024-12-08T11:11:14+05:30">
+    <meta property="article:modified_time" content="2024-12-08T11:11:14+05:30">
     <meta property="article:tag" content="Array">
     <meta property="article:tag" content="Binary-Search">
-    <meta property="article:tag" content="Dynamic-Programming">
-    <meta property="article:tag" content="Sorting">
-    <meta property="article:tag" content="Heap (Priority Queue)">
+    <meta property="article:tag" content="Greedy">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2054 Two Best Non-Overlapping Events">
+  <meta name="twitter:title" content="Problem 2064 Minimized Maximum of Products Distributed to Any Store">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -394,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 2054 Two Best Non-Overlapping Events</h1>
+<h1 class="pg-title">Problem 2064 Minimized Maximum of Products Distributed to Any Store</h1>
 
 
 <div class="meta">
@@ -414,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-08T11:04:19&#43;05:30">Dec 8, 2024</time>
+  Posted on <time datetime="2024-12-08T11:11:14&#43;05:30">Dec 8, 2024</time>
   
   
   
@@ -431,7 +429,7 @@
 
 </span>
   
-    5 mins
+    7 mins
   
 
 
@@ -452,11 +450,7 @@
   
   <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
   
-  <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
-  
-  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
-  
-  <a class="tag" href="/blog/tags/heap-priority-queue/">Heap (Priority Queue)</a>
+  <a class="tag" href="/blog/tags/greedy/">Greedy</a>
   
 </p>
 
@@ -514,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/two-best-non-overlapping-events/description/?envType=daily-question&amp;envId=2024-12-08" target="_blank">Problem 2054</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/submissions/1452286706/?envType=daily-question&amp;envId=2024-11-14" target="_blank">Problem 2064</a>
 </p>
 
 <h2 id="question">
@@ -528,35 +522,45 @@
  </a>
   
 </h2>
-<p>You are given a <strong>0-indexed</strong> 2D integer array of <code>events</code> where <code>events[i] = [startTime<sub>i</sub>, endTime<sub>i</sub>, value<sub>i</sub>]</code>. The <code>i<sup>th</sup></code> event starts at <code>startTime<sub>i</sub></code><sub> </sub>and ends at <code>endTime<sub>i</sub></code>, and if you attend this event, you will receive a value of <code>value<sub>i</sub></code>. You can choose <strong>at most</strong> <strong>two</strong> <strong>non-overlapping</strong> events to attend such that the sum of their values is <strong>maximized</strong>.</p>
-<p>Return <em>this <strong>maximum</strong> sum.</em></p>
-<p>Note that the start time and end time is <strong>inclusive</strong>: that is, you cannot attend two events where one of them starts and the other ends at the same time. More specifically, if you attend an event with end time <code>t</code>, the next event must start at or after <code>t + 1</code>.</p>
+<p>You are given an integer <code>n</code> indicating there are <code>n</code> specialty retail stores. There are <code>m</code> product types of varying amounts, which are given as a <strong>0-indexed</strong> integer array <code>quantities</code>, where <code>quantities[i]</code> represents the number of products of the <code>i<sup>th</sup></code> product type.</p>
+<p>You need to distribute <strong>all products</strong> to the retail stores following these rules:</p>
+<ul>
+	<li>A store can only be given <strong>at most one product type</strong> but can be given <strong>any</strong> amount of it.</li>
+	<li>After distribution, each store will have been given some number of products (possibly <code>0</code>). Let <code>x</code> represent the maximum number of products given to any store. You want <code>x</code> to be as small as possible, i.e., you want to <strong>minimize</strong> the <strong>maximum</strong> number of products that are given to any store.</li>
+</ul>
+<p>Return <em>the minimum possible</em> <code>x</code>.</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/09/21/picture5.png" style="width: 400px; height: 75px;" />
 <pre>
-<strong>Input:</strong> events = [[1,3,2],[4,5,2],[2,4,3]]
-<strong>Output:</strong> 4
-<strong>Explanation: </strong>Choose the green events, 0 and 1 for a sum of 2 + 2 = 4.
+<strong>Input:</strong> n = 6, quantities = [11,6]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> One optimal way is:
+- The 11 products of type 0 are distributed to the first four stores in these amounts: 2, 3, 3, 3
+- The 6 products of type 1 are distributed to the other two stores in these amounts: 3, 3
+The maximum number of products given to any store is max(2, 3, 3, 3, 3, 3) = 3.
 </pre>
 <p><strong class="example">Example 2:</strong></p>
-<img alt="Example 1 Diagram" src="https://assets.leetcode.com/uploads/2021/09/21/picture1.png" style="width: 400px; height: 77px;" />
 <pre>
-<strong>Input:</strong> events = [[1,3,2],[4,5,2],[1,5,5]]
+<strong>Input:</strong> n = 7, quantities = [15,10,10]
 <strong>Output:</strong> 5
-<strong>Explanation: </strong>Choose event 2 for a sum of 5.
+<strong>Explanation:</strong> One optimal way is:
+- The 15 products of type 0 are distributed to the first three stores in these amounts: 5, 5, 5
+- The 10 products of type 1 are distributed to the next two stores in these amounts: 5, 5
+- The 10 products of type 2 are distributed to the last two stores in these amounts: 5, 5
+The maximum number of products given to any store is max(5, 5, 5, 5, 5, 5, 5) = 5.
 </pre>
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/09/21/picture3.png" style="width: 400px; height: 66px;" />
 <pre>
-<strong>Input:</strong> events = [[1,5,3],[1,5,1],[6,6,5]]
-<strong>Output:</strong> 8
-<strong>Explanation: </strong>Choose events 0 and 2 for a sum of 3 + 5 = 8.</pre>
+<strong>Input:</strong> n = 1, quantities = [100000]
+<strong>Output:</strong> 100000
+<strong>Explanation:</strong> The only optimal way is:
+- The 100000 products of type 0 are distributed to the only store.
+The maximum number of products given to any store is max(100000) = 100000.
+</pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>2 &lt;= events.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>events[i].length == 3</code></li>
-	<li><code>1 &lt;= startTime<sub>i</sub> &lt;= endTime<sub>i</sub> &lt;= 10<sup>9</sup></code></li>
-	<li><code>1 &lt;= value<sub>i</sub> &lt;= 10<sup>6</sup></code></li>
+	<li><code>m == quantities.length</code></li>
+	<li><code>1 &lt;= m &lt;= n &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= quantities[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -572,20 +576,34 @@
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> maxTwoEvents(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> events) {
-</span></span><span style="display:flex;"><span>        priority_queue<span style="color:#f92672">&lt;</span>pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>,vector<span style="color:#f92672">&lt;</span>pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span>,greater<span style="color:#f92672">&lt;</span>pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>,<span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&gt;</span>pq;
-</span></span><span style="display:flex;"><span>        sort(events.begin(),events.end());
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> max_val <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, max_sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> event:events){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span>(<span style="color:#f92672">!</span>pq.empty() <span style="color:#f92672">&amp;&amp;</span> pq.top().first<span style="color:#f92672">&lt;</span>event[<span style="color:#ae81ff">0</span>]){
-</span></span><span style="display:flex;"><span>                max_val <span style="color:#f92672">=</span> max(max_val,pq.top().second);
-</span></span><span style="display:flex;"><span>                pq.pop();
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            max_sum <span style="color:#f92672">=</span> max(max_sum,max_val<span style="color:#f92672">+</span>event[<span style="color:#ae81ff">2</span>]);
-</span></span><span style="display:flex;"><span>            pq.push({event[<span style="color:#ae81ff">1</span>],event[<span style="color:#ae81ff">2</span>]});
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minimizedMaximum(<span style="color:#66d9ef">int</span> n, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> quantities) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Initialize the search range for binary search
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> low <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, high <span style="color:#f92672">=</span> INT_MIN, res <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Find the maximum quantity in the quantities vector to set the upper bound
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> x: quantities)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(high <span style="color:#f92672">&lt;</span> x)
+</span></span><span style="display:flex;"><span>                high <span style="color:#f92672">=</span> x;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Perform binary search to find the minimized maximum value of products per store
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">while</span>(low <span style="color:#f92672">&lt;=</span> high) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> mid <span style="color:#f92672">=</span> low <span style="color:#f92672">+</span> (high <span style="color:#f92672">-</span> low) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;  <span style="color:#75715e">// Midpoint to test as a possible max value
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;  <span style="color:#75715e">// Sum represents the total stores needed if max products per store is `mid`
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Calculate total number of stores required if max products per store is `mid`
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> x: quantities)
+</span></span><span style="display:flex;"><span>                sum <span style="color:#f92672">+=</span> (ceil((<span style="color:#66d9ef">float</span>)x <span style="color:#f92672">/</span> <span style="color:#66d9ef">float</span>(mid)));  <span style="color:#75715e">// Calculate number of stores needed for each product
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Check if this midpoint allows for distribution within the given store limit `n`
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span>(sum <span style="color:#f92672">&lt;=</span> n) {
+</span></span><span style="display:flex;"><span>                res <span style="color:#f92672">=</span> mid;   <span style="color:#75715e">// Update the result with current valid mid
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                high <span style="color:#f92672">=</span> mid <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">// Try for a smaller maximum by reducing the upper bound
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                low <span style="color:#f92672">=</span> mid <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">// Increase the lower bound if more stores are needed than available
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            }
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> max_sum;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -600,9 +618,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------------------ | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Priority Queue + Sorting | O(n log n)      | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm     | Time Complexity           | Space Complexity |
+</span></span><span style="display:flex;"><span>| ------------- | ------------------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Binary Search | O(m log(max(quantities))) | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -627,7 +645,7 @@
  </a>
   
 </h4>
-<p>This is a problem involving scheduling and maximizing value. I think about how to prioritize and organize events to maximize the sum of values from the chosen events. A priority queue could come in handy here to keep track of events. Additionally, sorting events by start time could help in identifying potential events to choose. Thinking about using variables to track maximum values and maximum sums could also be beneficial.</p>
+<p>This problem requires distributing products into stores such that the maximum number of products per store is minimized. Given the constraints of m &lt;= n and 1 &lt;= quantities[i] &lt;= 10^5, a brute force approach would not be feasible. A binary search could potentially work, as the answer should be between the minimum and maximum quantity values. We also need to find the maximum quantity value to determine our upper search bound.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -640,7 +658,7 @@
  </a>
   
 </h4>
-<p>Imagine going through a calendar where you can attend at most two non-overlapping events. My approach is to have a flow where I continuously assess every upcoming event and evaluate the potential maximum sum it can contribute to. During the iteration, the events are sorted so I can consider one by one from the start. Also, maintaining a variable to remember the best value (maximum sum so far) helps in understanding when to consider updating that value. By keeping track of past events that could potentially contribute to a higher maximum sum, updating that best sum if encountered and verifying through comparison when an even greater sum becomes possible, is key to solving this kind of problems.</p>
+<p>The problem essentially boils down to a division problem, distributing quantities as evenly as possible. Each iteration of the binary search represents a maximum products per store value. For each quantity, the number of required stores is calculated using ceiling division. If the total required stores are less than or equal to n, we know the answer is less than or equal to the current mid value and we continue searching the lower half. If the total required stores exceed n, we increase the lower bound to find a larger maximum products per store. The iterative approach will eventually converge to the optimal result.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -654,13 +672,13 @@
   
 </h3>
 <ul>
-<li>The problem can be solved by maintaining a priority queue of events that have ended.</li>
-<li>We sort the events by their start time to ensure we process them in order.</li>
-<li>We keep track of the maximum value of events that have ended so far.</li>
-<li>For each event, we remove all events from the priority queue that have ended before it starts.</li>
-<li>We update the maximum value if the top of the priority queue has a higher value.</li>
-<li>We add the current event to the priority queue and update the maximum sum.</li>
-<li>The maximum sum is the maximum value of the current event plus the maximum value of events that have ended.</li>
+<li>The problem can be solved using binary search to find the minimum maximum number of products per store.</li>
+<li>The search range is from 1 to the maximum quantity in the quantities vector.</li>
+<li>The goal is to find the smallest maximum number of products per store that allows distribution within the given store limit <code>n</code>.</li>
+<li>The key insight is to calculate the total number of stores required if the maximum products per store is <code>mid</code> and check if it&rsquo;s within the limit <code>n</code>.</li>
+<li>If the total number of stores required is less than or equal to <code>n</code>, update the result with the current <code>mid</code> and try to find a smaller maximum.</li>
+<li>If the total number of stores required is more than <code>n</code>, increase the lower bound to try a larger maximum.</li>
+<li>The binary search continues until the lower bound is greater than the upper bound.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -675,13 +693,13 @@
   
 </h3>
 <ul>
-<li>We use a priority queue <code>pq</code> to store events that have ended, where <code>pq</code> is a min-heap of pairs <code>(endTime, value)</code>.</li>
-<li>We sort the <code>events</code> vector by their start time using <code>sort(events.begin(), events.end())</code>.</li>
-<li>We initialize <code>max_val</code> to 0 to keep track of the maximum value of events that have ended.</li>
-<li>We iterate over the sorted <code>events</code> vector and for each event, we remove all events from <code>pq</code> that have ended before it starts using <code>while (!pq.empty() &amp;&amp; pq.top().first &lt; event[0])</code>.</li>
-<li>We update <code>max_val</code> to be the maximum of its current value and the value of the top event in <code>pq</code> using <code>max_val = max(max_val, pq.top().second)</code>.</li>
-<li>We add the current event to <code>pq</code> using <code>pq.push({event[1], event[2]})</code>.</li>
-<li>We update <code>max_sum</code> to be the maximum of its current value and the sum of <code>max_val</code> and the value of the current event using <code>max_sum = max(max_sum, max_val + event[2])</code>.</li>
+<li>Initialize the search range with <code>low = 1</code> and <code>high = INT_MIN</code>, and the result <code>res = 0</code>.</li>
+<li>Find the maximum quantity in the quantities vector to set the upper bound <code>high</code> with <code>for(int x: quantities) if(high &lt; x) high = x;</code></li>
+<li>Perform binary search with <code>while(low &lt;= high)</code> and calculate the midpoint <code>mid = low + (high - low) / 2;</code></li>
+<li>Calculate the total number of stores required if the maximum products per store is <code>mid</code> with <code>for(int x: quantities) sum += (ceil((float)x / float(mid)));</code></li>
+<li>Check if the total number of stores required is within the limit <code>n</code> with <code>if(sum &lt;= n)</code> and update the result accordingly.</li>
+<li>Update the search range with <code>high = mid - 1</code> if the total number of stores required is within the limit, or <code>low = mid + 1</code> otherwise.</li>
+<li>Return the result <code>res</code> after the binary search is complete.</li>
 </ul>
 <hr>
 
@@ -709,9 +727,9 @@
   
 </h3>
 <ul>
-<li>The algorithm first sorts the events, which has a time complexity of O(n log n) due to the use of the built-in sort function.</li>
-<li>Then, it iterates over all events, and for each event, it pops elements from the priority queue until the top element&rsquo;s end time is greater than or equal to the current event&rsquo;s start time. This operation has a time complexity of O(log n) per event, resulting in a total of O(n log n) for all events.</li>
-<li>The overall time complexity is thus O(n log n) + O(n log n) = O(n log n), dominated by the sorting and priority queue operations.</li>
+<li>Time complexity is analyzed based on the nested loops in the provided code. The outer while loop iterates <code>log(high)</code> times due to the binary search nature, where <code>high</code> is the maximum quantity in the <code>quantities</code> vector.</li>
+<li>Inside the while loop, there&rsquo;s another for loop that iterates over the <code>quantities</code> vector, adding up to <code>m</code> operations (where <code>m</code> represents the number of elements in <code>quantities</code>).</li>
+<li>Since these two loops are nested, the overall time complexity would be O(m log(max(quantities))) in the worst case scenario, where <code>max(quantities)</code> represents the maximum quantity in the vector, thus influencing the number of iterations of the while loop.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -726,9 +744,9 @@
   
 </h3>
 <ul>
-<li>The algorithm uses a priority queue to store events, which has a maximum size of O(n) at any given time, since all events could potentially be in the queue.</li>
-<li>Additionally, the input vector of events has a size of O(n), which is not included in the space complexity because it is part of the input.</li>
-<li>Therefore, the overall space complexity is O(n) due to the priority queue.</li>
+<li>The algorithm uses a constant amount of space to store the <code>low</code>, <code>high</code>, and <code>res</code> variables, contributing O(1) to space complexity.</li>
+<li>Additionally, it makes use of the input vector <code>quantities</code>, but does not create any auxiliary data structures that scale with input size.</li>
+<li>Therefore, the total space complexity remains O(1) as the space used does not grow with input size <code>n</code> or the size of <code>quantities</code> vector.</li>
 </ul>
 <hr>
 
@@ -759,10 +777,13 @@
   
 </h4>
 <blockquote>
-<p>How can sorting the events on the basis of their start times help? How about end times?</p>
+<p>There exists a monotonic nature such that when x is smaller than some number, there will be no way to distribute, and when x is not smaller than that number, there will always be a way to distribute.</p>
 </blockquote>
 <blockquote>
-<p>How can we quickly get the maximum score of an interval not intersecting with the interval we chose?</p>
+<p>If you are given a number k, where the number of products given to any store does not exceed k, could you determine if all products can be distributed?</p>
+</blockquote>
+<blockquote>
+<p>Implement a function canDistribute(k), which returns true if you can distribute all products such that any store will not be given more than k products, and returns false if you cannot. Use this function to binary search for the smallest possible k.</p>
 </blockquote>
 <hr>
 
@@ -787,22 +808,52 @@
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Maximum Profit in Job Scheduling</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-profit-in-job-scheduling" target="_blank">https://leetcode.com/problems/maximum-profit-in-job-scheduling</a>
-</td>
-          <td style="text-align: left">Hard</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Maximum Number of Events That Can Be Attended II</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii" target="_blank">https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii</a>
-</td>
-          <td style="text-align: left">Hard</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Maximize Win From Two Segments</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximize-win-from-two-segments" target="_blank">https://leetcode.com/problems/maximize-win-from-two-segments</a>
+          <td style="text-align: left">Koko Eating Bananas</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/koko-eating-bananas" target="_blank">https://leetcode.com/problems/koko-eating-bananas</a>
 </td>
           <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Capacity To Ship Packages Within D Days</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/capacity-to-ship-packages-within-d-days" target="_blank">https://leetcode.com/problems/capacity-to-ship-packages-within-d-days</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Maximum Candies Allocated to K Children</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-candies-allocated-to-k-children" target="_blank">https://leetcode.com/problems/maximum-candies-allocated-to-k-children</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Find the Smallest Divisor Given a Threshold</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold" target="_blank">https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Magnetic Force Between Two Balls</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/magnetic-force-between-two-balls" target="_blank">https://leetcode.com/problems/magnetic-force-between-two-balls</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Minimum Limit of Balls in a Bag</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag" target="_blank">https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Minimum Time to Complete Trips</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/minimum-time-to-complete-trips" target="_blank">https://leetcode.com/problems/minimum-time-to-complete-trips</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Maximum Number of Robots Within Budget</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-number-of-robots-within-budget" target="_blank">https://leetcode.com/problems/maximum-number-of-robots-within-budget</a>
+</td>
+          <td style="text-align: left">Hard</td>
       </tr>
   </tbody>
 </table>
@@ -819,17 +870,13 @@
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-2064-minimized-maximum-of-products-distributed-to-any-store/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2064 Minimized Maximum of Products Distributed to Any Store </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-3255-find-the-power-of-k-size-subarrays-ii/">
+    <a class="next" href="/blog/leetcode-potd/problem-2054-two-best-non-overlapping-events/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 3255 Find the Power of K-Size Subarrays II </span>
+      <span> Problem 2054 Two Best Non-Overlapping Events </span>
     </a>
   
 </nav>
