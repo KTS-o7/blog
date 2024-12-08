@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2275 Largest Combination With Bitwise AND Greater Than Zero &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2275 Largest Combination With Bitwise AND Greater Than Zero &middot; The Indian Engineer" />
+  <title>Problem 3011 Find if Array Can Be Sorted &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3011 Find if Array Can Be Sorted &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, hash table, bit manipulation, counting, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-2275-largest-combination-with-bitwise-and-greater-than-zero/" />
+  <meta name="keywords" content="array, bit manipulation, sorting, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-3011-find-if-array-can-be-sorted/" />
 
   
 
@@ -82,24 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-2275-largest-combination-with-bitwise-and-greater-than-zero/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-3011-find-if-array-can-be-sorted/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2275 Largest Combination With Bitwise AND Greater Than Zero">
+  <meta property="og:title" content="Problem 3011 Find if Array Can Be Sorted">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-12-08T11:24:26+05:30">
-    <meta property="article:modified_time" content="2024-12-08T11:24:26+05:30">
+    <meta property="article:published_time" content="2024-12-08T11:30:57+05:30">
+    <meta property="article:modified_time" content="2024-12-08T11:30:57+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="Hash-Table">
     <meta property="article:tag" content="Bit-Manipulation">
-    <meta property="article:tag" content="Counting">
+    <meta property="article:tag" content="Sorting">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2275 Largest Combination With Bitwise AND Greater Than Zero">
+  <meta name="twitter:title" content="Problem 3011 Find if Array Can Be Sorted">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -393,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 2275 Largest Combination With Bitwise AND Greater Than Zero</h1>
+<h1 class="pg-title">Problem 3011 Find if Array Can Be Sorted</h1>
 
 
 <div class="meta">
@@ -413,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-08T11:24:26&#43;05:30">Dec 8, 2024</time>
+  Posted on <time datetime="2024-12-08T11:30:57&#43;05:30">Dec 8, 2024</time>
   
   
   
@@ -449,11 +448,9 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/hash-table/">Hash-Table</a>
-  
   <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
   
-  <a class="tag" href="/blog/tags/counting/">Counting</a>
+  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
   
 </p>
 
@@ -511,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/?envType=daily-question&amp;envId=2024-11-07" target="_blank">Problem 2275</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/find-if-array-can-be-sorted/?envType=daily-question&amp;envId=2024-11-06" target="_blank">Problem 3011</a>
 </p>
 
 <h2 id="question">
@@ -525,34 +522,40 @@
  </a>
   
 </h2>
-<p>The <strong>bitwise AND</strong> of an array <code>nums</code> is the bitwise AND of all integers in <code>nums</code>.</p>
-<ul>
-	<li>For example, for <code>nums = [1, 5, 3]</code>, the bitwise AND is equal to <code>1 &amp; 5 &amp; 3 = 1</code>.</li>
-	<li>Also, for <code>nums = [7]</code>, the bitwise AND is <code>7</code>.</li>
-</ul>
-<p>You are given an array of positive integers <code>candidates</code>. Compute the <strong>bitwise AND</strong> for all possible <strong>combinations</strong> of elements in the <code>candidates</code> array.</p>
-<p>Return <em>the size of the <strong>largest</strong> combination of </em><code>candidates</code><em> with a bitwise AND <strong>greater</strong> than </em><code>0</code>.</p>
+<p>You are given a <strong>0-indexed</strong> array of <strong>positive</strong> integers <code>nums</code>.</p>
+<p>In one <strong>operation</strong>, you can swap any two <strong>adjacent</strong> elements if they have the <strong>same</strong> number of <span data-keyword="set-bit">set bits</span>. You are allowed to do this operation <strong>any</strong> number of times (<strong>including zero</strong>).</p>
+<p>Return <code>true</code> <em>if you can sort the array in ascending order, else return </em><code>false</code>.</p>
 <p><strong class="example">Example 1:</strong></p>
 <pre>
-<strong>Input:</strong> candidates = [16,17,71,62,12,24,14]
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> The combination [16,17,62,24] has a bitwise AND of 16 &amp; 17 &amp; 62 &amp; 24 = 16 &gt; 0.
-The size of the combination is 4.
-It can be shown that no combination with a size greater than 4 has a bitwise AND greater than 0.
-Note that more than one combination may have the largest size.
-For example, the combination [62,12,24,14] has a bitwise AND of 62 &amp; 12 &amp; 24 &amp; 14 = 8 &gt; 0.
+<strong>Input:</strong> nums = [8,4,2,30,15]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Let&#39;s look at the binary representation of every element. 
+The numbers 2, 4, and 8 have one set bit each with binary representation &quot;10&quot;, &quot;100&quot;, and &quot;1000&quot; respectively. 
+The numbers 15 and 30 have four set bits each with binary representation &quot;1111&quot; and &quot;11110&quot;.
+We can sort the array using 4 operations:
+- Swap nums[0] with nums[1]. This operation is valid because 8 and 4 have one set bit each. The array becomes [4,8,2,30,15].
+- Swap nums[1] with nums[2]. This operation is valid because 8 and 2 have one set bit each. The array becomes [4,2,8,30,15].
+- Swap nums[0] with nums[1]. This operation is valid because 4 and 2 have one set bit each. The array becomes [2,4,8,30,15].
+- Swap nums[3] with nums[4]. This operation is valid because 30 and 15 have four set bits each. The array becomes [2,4,8,15,30].
+The array has become sorted, hence we return true.
+Note that there may be other sequences of operations which also sort the array.
 </pre>
 <p><strong class="example">Example 2:</strong></p>
 <pre>
-<strong>Input:</strong> candidates = [8,8]
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The largest combination [8,8] has a bitwise AND of 8 &amp; 8 = 8 &gt; 0.
-The size of the combination is 2, so we return 2.
+<strong>Input:</strong> nums = [1,2,3,4,5]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> The array is already sorted, hence we return true.
+</pre>
+<p><strong class="example">Example 3:</strong></p>
+<pre>
+<strong>Input:</strong> nums = [3,16,8,4,2]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> It can be shown that it is not possible to sort the input array using any number of operations.
 </pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= candidates.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= candidates[i] &lt;= 10<sup>7</sup></code></li>
+	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 2<sup>8</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -568,26 +571,29 @@ The size of the combination is 2, so we return 2.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> largestCombination(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> candidates) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>bit_count(<span style="color:#ae81ff">24</span>,<span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>candidates.size();i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> temp <span style="color:#f92672">=</span> candidates[i];
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> canSortArray(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> set_bits <span style="color:#f92672">=</span> __builtin_popcount(nums[<span style="color:#ae81ff">0</span>]);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> curr_max <span style="color:#f92672">=</span> nums[<span style="color:#ae81ff">0</span>], curr_min <span style="color:#f92672">=</span> nums[<span style="color:#ae81ff">0</span>], prev_max <span style="color:#f92672">=</span> INT_MIN;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">while</span>(temp<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0</span><span style="color:#f92672">&amp;&amp;</span>j<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">24</span>){
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>((temp<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span>){
-</span></span><span style="display:flex;"><span>                    bit_count[j]<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>                j<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                temp<span style="color:#f92672">=</span> temp<span style="color:#f92672">&gt;&gt;</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;</span>nums.size();i<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(__builtin_popcount(nums[i])<span style="color:#f92672">==</span>set_bits){
+</span></span><span style="display:flex;"><span>                curr_max <span style="color:#f92672">=</span> max(curr_max,nums[i]);
+</span></span><span style="display:flex;"><span>                curr_min <span style="color:#f92672">=</span> min(curr_min,nums[i]);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(curr_min<span style="color:#f92672">&lt;</span>prev_max)
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                prev_max <span style="color:#f92672">=</span> curr_max;
+</span></span><span style="display:flex;"><span>                curr_max <span style="color:#f92672">=</span> nums[i];
+</span></span><span style="display:flex;"><span>                curr_min <span style="color:#f92672">=</span> nums[i];
+</span></span><span style="display:flex;"><span>                set_bits <span style="color:#f92672">=</span> __builtin_popcount(nums[i]);
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(curr_min<span style="color:#f92672">&lt;</span>prev_max)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> false;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> max_count <span style="color:#f92672">=</span> INT_MIN;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> it:bit_count)
-</span></span><span style="display:flex;"><span>            max_count <span style="color:#f92672">=</span> max(max_count,it);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> max_count;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> true;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -602,9 +608,9 @@ The size of the combination is 2, so we return 2.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm         | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| ----------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Bitwise Iteration | O(n log n)      | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm             | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Single-pass traversal | O(n)            | O(1)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -629,7 +635,7 @@ The size of the combination is 2, so we return 2.
  </a>
   
 </h4>
-<p>To start solving this problem, consider the properties of bitwise AND operations, such as the fact that it returns 1 only if both bits are 1. Next, think about how to represent the given numbers in binary form and how their bitwise AND would look. It&rsquo;s also essential to consider how to generate all possible combinations of elements in the candidates array. Think about the concept of a bit count and how it can help in solving this problem. Consider the time complexity and how to optimize it. Reflect on the fact that we are looking for the largest combination, so we need to find the maximum size of a combination with a bitwise AND greater than 0.</p>
+<p>To approach this problem, we first need to understand the operation allowed: swapping two adjacent elements with the same number of set bits. This means we should group elements based on the number of set bits. Then, we should consider how to sort each group and ensure the sorted groups can be combined in ascending order. We also need to identify conditions where sorting is impossible, such as when elements with fewer set bits are larger than those in previous groups.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -642,7 +648,7 @@ The size of the combination is 2, so we return 2.
  </a>
   
 </h4>
-<p>The solution to this problem involves counting the number of 1s in each bit position across all numbers in the array. To intuitively solve this problem, think of each bit position as a separate &lsquo;slot&rsquo; where we count how many numbers have a 1 in that position. Then, look for the slot with the highest count because that&rsquo;s the bit position where the most numbers have a 1, indicating the largest combination with a bitwise AND greater than 0. Analyze how the while loop and the bitwise operations work together to achieve this. Consider the idea that if a bit position has the maximum count, it means that all numbers in the largest combination have a 1 in that position, resulting in a bitwise AND greater than 0 for that combination.</p>
+<p>Intuitively, the solution involves tracking the maximum and minimum values within each group of elements with the same number of set bits. By comparing these values across different groups, we can determine if the array can be sorted. If elements with fewer set bits are smaller than those in previous groups, it suggests the array can be sorted. However, if at any point an element with fewer set bits is larger than the maximum of the previous group, it indicates the array cannot be sorted in ascending order. This approach requires iterating through the array, checking the number of set bits in each element, and updating the maximum and minimum values accordingly.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -656,13 +662,13 @@ The size of the combination is 2, so we return 2.
   
 </h3>
 <ul>
-<li>The problem requires finding the largest combination of elements in the candidates array with a bitwise AND greater than 0.</li>
-<li>To solve this, we need to understand how bitwise AND operations work and how they can be used to find the largest combination.</li>
-<li>We can use a bit count array to keep track of the count of each bit in the candidates array.</li>
-<li>The maximum count in the bit count array will give us the size of the largest combination with a bitwise AND greater than 0.</li>
-<li>This approach works because the bitwise AND of two numbers will have a bit set to 1 only if the corresponding bits in both numbers are 1.</li>
-<li>By counting the number of bits set to 1 in each position, we can find the maximum number of elements that can be combined to get a bitwise AND greater than 0.</li>
-<li>This solution has a time complexity of O(n) and a space complexity of O(1), where n is the number of elements in the candidates array.</li>
+<li>The problem requires determining if an array can be sorted in ascending order by swapping adjacent elements with the same number of set bits.</li>
+<li>To approach this problem, we need to understand the concept of set bits and how it applies to the given array.</li>
+<li>We should consider the binary representation of each number and the number of set bits in each number.</li>
+<li>The key insight is to group numbers with the same number of set bits together and check if they can be sorted within their group.</li>
+<li>If the minimum value in a group is less than the maximum value in the previous group, it indicates that the array cannot be sorted.</li>
+<li>The solution involves iterating through the array and checking the number of set bits in each number to determine if it can be swapped with adjacent numbers.</li>
+<li>By maintaining the maximum and minimum values in each group, we can determine if the array can be sorted in ascending order.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -677,13 +683,13 @@ The size of the combination is 2, so we return 2.
   
 </h3>
 <ul>
-<li>We initialize a <code>bit_count</code> array of size 24 to keep track of the count of each bit in the candidates array.</li>
-<li>We iterate over each element in the <code>candidates</code> array and use a while loop to count the number of bits set to 1 in each position using the <code>temp &amp; 1</code> and <code>temp &gt;&gt; 1</code> operations.</li>
-<li>We update the <code>bit_count</code> array accordingly using the <code>bit_count[j]++</code> operation.</li>
-<li>After counting the bits for all elements, we find the maximum count in the <code>bit_count</code> array using the <code>max</code> function.</li>
-<li>We return the maximum count as the size of the largest combination with a bitwise AND greater than 0.</li>
-<li>The <code>INT_MIN</code> variable is used to initialize the <code>max_count</code> variable to negative infinity, ensuring that the first count will be greater than it.</li>
-<li>The <code>max</code> function is used to update the <code>max_count</code> variable with the maximum count found so far.</li>
+<li>The solution uses the <code>__builtin_popcount</code> function to count the number of set bits in each number.</li>
+<li>It initializes variables <code>set_bits</code>, <code>curr_max</code>, <code>curr_min</code>, and <code>prev_max</code> to keep track of the number of set bits and the maximum and minimum values in each group.</li>
+<li>The solution iterates through the array using a <code>for</code> loop, checking the number of set bits in each number and updating the <code>curr_max</code> and <code>curr_min</code> variables accordingly.</li>
+<li>If the number of set bits in the current number is different from the previous number, it updates the <code>prev_max</code> variable and resets the <code>curr_max</code> and <code>curr_min</code> variables.</li>
+<li>The solution checks if the <code>curr_min</code> value is less than the <code>prev_max</code> value to determine if the array can be sorted.</li>
+<li>If the array can be sorted, the solution returns <code>true</code>; otherwise, it returns <code>false</code>.</li>
+<li>The time complexity of the solution is O(n), where n is the length of the input array, and the space complexity is O(1) since it only uses a constant amount of space.</li>
 </ul>
 <hr>
 
@@ -711,9 +717,9 @@ The size of the combination is 2, so we return 2.
   
 </h3>
 <ul>
-<li>The algorithm iterates over each candidate in the input vector, and for each candidate, it performs a bitwise iteration using <code>temp = temp &gt;&gt; 1</code>, resulting in a time complexity of O(n log m), where n is the number of candidates and m is the maximum value in the candidates vector. However, since m is constrained to be at most 2^24 - 1 (as indicated by the size of the <code>bit_count</code> vector), we can consider log m to be a constant, making the time complexity O(n).</li>
-<li>The dominant operation is the while loop with the condition <code>temp &gt; 0 &amp;&amp; j &lt; 24</code>, which iterates over each bit in the binary representation of <code>temp</code>. The loop runs in O(log m) time, where m is the value of <code>temp</code>.</li>
-<li>Considering the outer loop iterates over each candidate in O(n) time and the inner loop runs in O(log m) time, the overall time complexity can be classified as O(n) due to the constraint on the size of m.</li>
+<li>The algorithm performs a single-pass traversal through the input array <code>nums</code>, which contains <code>n</code> elements, resulting in a linear time complexity.</li>
+<li>The dominant operations are the <code>__builtin_popcount</code> function calls, <code>max</code> and <code>min</code> calculations, and conditional checks, all of which run in constant time O(1).</li>
+<li>Since the loop iterates <code>n</code> times, and each iteration has constant time complexity, the overall time complexity is O(n) = O(1) * n = n, which simplifies to O(n).</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -728,9 +734,9 @@ The size of the combination is 2, so we return 2.
   
 </h3>
 <ul>
-<li>The algorithm uses a vector <code>bit_count</code> of size 24 to store the count of each bit position across all candidates, resulting in a space complexity of O(1) because the size of the vector is constant.</li>
-<li>The space usage does not grow with the size of the input vector <code>candidates</code>, making the space complexity O(1).</li>
-<li>The use of a constant-size vector <code>bit_count</code> justifies the O(1) space complexity, as it does not depend on the input size.</li>
+<li>The algorithm uses a constant amount of space to store variables like <code>set_bits</code>, <code>curr_max</code>, <code>curr_min</code>, and <code>prev_max</code>, regardless of the input size <code>n</code>.</li>
+<li>No additional data structures that scale with input size are used, so the space complexity is not affected by the size of the input array <code>nums</code>.</li>
+<li>The space used does not grow with the size of the input, resulting in a constant space complexity of O(1).</li>
 </ul>
 <hr>
 
@@ -761,10 +767,10 @@ The size of the combination is 2, so we return 2.
   
 </h4>
 <blockquote>
-<p>For the bitwise AND to be greater than zero, at least one bit should be 1 for every number in the combination.</p>
+<p>Split the array into segments. Each segment contains consecutive elements with the same number of set bits.</p>
 </blockquote>
 <blockquote>
-<p>The candidates are 24 bits long, so for every bit position, we can calculate the size of the largest combination such that the bitwise AND will have a 1 at that bit position.</p>
+<p>From left to right, the previous segment’s largest element should be smaller than the current segment’s smallest element.</p>
 </blockquote>
 <hr>
 
@@ -789,10 +795,10 @@ The size of the combination is 2, so we return 2.
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Count Number of Maximum Bitwise-OR Subsets</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets" target="_blank">https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets</a>
+          <td style="text-align: left">Sort Integers by The Number of 1 Bits</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits" target="_blank">https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits</a>
 </td>
-          <td style="text-align: left">Medium</td>
+          <td style="text-align: left">Easy</td>
       </tr>
   </tbody>
 </table>
@@ -809,17 +815,13 @@ The size of the combination is 2, so we return 2.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/extraques/problem-3011-find-if-array-can-be-sorted/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3011 Find if Array Can Be Sorted </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/extraques/problem-1829-maximum-xor-for-each-query/">
+    <a class="next" href="/blog/posts/extraques/problem-2275-largest-combination-with-bitwise-and-greater-than-zero/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1829 Maximum XOR for Each Query </span>
+      <span> Problem 2275 Largest Combination With Bitwise AND Greater Than Zero </span>
     </a>
   
 </nav>
