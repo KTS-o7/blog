@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 1255 Maximum Score Words Formed by Letters &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 1255 Maximum Score Words Formed by Letters &middot; The Indian Engineer" />
+  <title>Problem 2070 Most Beautiful Item for Each Query &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 2070 Most Beautiful Item for Each Query &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, string, dynamic programming, backtracking, bit manipulation, bitmask, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-1255-maximum-score-words-formed-by-letters/" />
+  <meta name="keywords" content="array, binary search, sorting, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/posts/extraques/problem-2070-most-beautiful-item-for-each-query/" />
 
   
 
@@ -82,26 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-1255-maximum-score-words-formed-by-letters/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/posts/extraques/problem-2070-most-beautiful-item-for-each-query/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 1255 Maximum Score Words Formed by Letters">
+  <meta property="og:title" content="Problem 2070 Most Beautiful Item for Each Query">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-12-07T17:34:53+05:30">
-    <meta property="article:modified_time" content="2024-12-07T17:34:53+05:30">
+    <meta property="article:published_time" content="2024-12-08T11:15:00+05:30">
+    <meta property="article:modified_time" content="2024-12-08T11:15:00+05:30">
     <meta property="article:tag" content="Array">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Dynamic-Programming">
-    <meta property="article:tag" content="Backtracking">
-    <meta property="article:tag" content="Bit-Manipulation">
-    <meta property="article:tag" content="Bitmask">
+    <meta property="article:tag" content="Binary-Search">
+    <meta property="article:tag" content="Sorting">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 1255 Maximum Score Words Formed by Letters">
+  <meta name="twitter:title" content="Problem 2070 Most Beautiful Item for Each Query">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -395,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 1255 Maximum Score Words Formed by Letters</h1>
+<h1 class="pg-title">Problem 2070 Most Beautiful Item for Each Query</h1>
 
 
 <div class="meta">
@@ -415,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-07T17:34:53&#43;05:30">Dec 7, 2024</time>
+  Posted on <time datetime="2024-12-08T11:15:00&#43;05:30">Dec 8, 2024</time>
   
   
   
@@ -432,7 +429,7 @@
 
 </span>
   
-    6 mins
+    7 mins
   
 
 
@@ -451,15 +448,9 @@
   
   <a class="tag" href="/blog/tags/array/">Array</a>
   
-  <a class="tag" href="/blog/tags/string/">String</a>
+  <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
   
-  <a class="tag" href="/blog/tags/dynamic-programming/">Dynamic-Programming</a>
-  
-  <a class="tag" href="/blog/tags/backtracking/">Backtracking</a>
-  
-  <a class="tag" href="/blog/tags/bit-manipulation/">Bit-Manipulation</a>
-  
-  <a class="tag" href="/blog/tags/bitmask/">Bitmask</a>
+  <a class="tag" href="/blog/tags/sorting/">Sorting</a>
   
 </p>
 
@@ -517,7 +508,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/?envType=daily-question&amp;envId=2024-05-24" target="_blank">Problem 1255</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/most-beautiful-item-for-each-query/?envType=daily-question&amp;envId=2024-11-12" target="_blank">Problem 2070</a>
 </p>
 
 <h2 id="question">
@@ -531,45 +522,43 @@
  </a>
   
 </h2>
-<p>Given a list of <code>words</code>, list of&nbsp; single&nbsp;<code>letters</code> (might be repeating)&nbsp;and <code>score</code>&nbsp;of every character.</p>
-<p>Return the maximum score of <strong>any</strong> valid set of words formed by using the given letters (<code>words[i]</code> cannot be used two&nbsp;or more times).</p>
-<p>It is not necessary to use all characters in <code>letters</code> and each letter can only be used once. Score of letters&nbsp;<code>&#39;a&#39;</code>, <code>&#39;b&#39;</code>, <code>&#39;c&#39;</code>, ... ,<code>&#39;z&#39;</code> is given by&nbsp;<code>score[0]</code>, <code>score[1]</code>, ... , <code>score[25]</code> respectively.</p>
+<p>You are given a 2D integer array <code>items</code> where <code>items[i] = [price<sub>i</sub>, beauty<sub>i</sub>]</code> denotes the <strong>price</strong> and <strong>beauty</strong> of an item respectively.</p>
+<p>You are also given a <strong>0-indexed</strong> integer array <code>queries</code>. For each <code>queries[j]</code>, you want to determine the <strong>maximum beauty</strong> of an item whose <strong>price</strong> is <strong>less than or equal</strong> to <code>queries[j]</code>. If no such item exists, then the answer to this query is <code>0</code>.</p>
+<p>Return <em>an array </em><code>answer</code><em> of the same length as </em><code>queries</code><em> where </em><code>answer[j]</code><em> is the answer to the </em><code>j<sup>th</sup></code><em> query</em>.</p>
 <p><strong class="example">Example 1:</strong></p>
 <pre>
-<strong>Input:</strong> words = [&quot;dog&quot;,&quot;cat&quot;,&quot;dad&quot;,&quot;good&quot;], letters = [&quot;a&quot;,&quot;a&quot;,&quot;c&quot;,&quot;d&quot;,&quot;d&quot;,&quot;d&quot;,&quot;g&quot;,&quot;o&quot;,&quot;o&quot;], 
-score = [1,0,9,5,0,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0]
-<strong>Output:</strong> 23
+<strong>Input:</strong> items = [[1,2],[3,2],[2,4],[5,6],[3,5]], queries = [1,2,3,4,5,6]
+<strong>Output:</strong> [2,4,5,5,6,6]
 <strong>Explanation:</strong>
-Score  a=1, c=9, d=5, g=3, o=2
-Given letters, we can form the words &quot;dad&quot; (5+1+5) and &quot;good&quot; (3+2+2+5) with a score of 23.
-Words &quot;dad&quot; and &quot;dog&quot; only get a score of 21.</pre>
+- For queries[0]=1, [1,2] is the only item which has price &lt;= 1. Hence, the answer for this query is 2.
+- For queries[1]=2, the items which can be considered are [1,2] and [2,4]. 
+  The maximum beauty among them is 4.
+- For queries[2]=3 and queries[3]=4, the items which can be considered are [1,2], [3,2], [2,4], and [3,5].
+  The maximum beauty among them is 5.
+- For queries[4]=5 and queries[5]=6, all items can be considered.
+  Hence, the answer for them is the maximum beauty of all items, i.e., 6.
+</pre>
 <p><strong class="example">Example 2:</strong></p>
 <pre>
-<strong>Input:</strong> words = [&quot;xxxz&quot;,&quot;ax&quot;,&quot;bx&quot;,&quot;cx&quot;], 
-letters = [&quot;z&quot;,&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;x&quot;,&quot;x&quot;,&quot;x&quot;], 
-score = [4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]
-<strong>Output:</strong> 27
-<strong>Explanation:</strong>
-Score  a=4, b=4, c=4, x=5, z=10
-Given letters, we can form the words &quot;ax&quot; (4+5), &quot;bx&quot; (4+5) and &quot;cx&quot; (4+5) with a score of 27.
-Word &quot;xxxz&quot; only get a score of 25.</pre>
+<strong>Input:</strong> items = [[1,2],[1,2],[1,3],[1,4]], queries = [1]
+<strong>Output:</strong> [4]
+<strong>Explanation:</strong> 
+The price of every item is equal to 1, so we choose the item with the maximum beauty 4. 
+Note that multiple items can have the same price and/or beauty.  
+</pre>
 <p><strong class="example">Example 3:</strong></p>
 <pre>
-<strong>Input:</strong> words = [&quot;leetcode&quot;], 
-letters = [&quot;l&quot;,&quot;e&quot;,&quot;t&quot;,&quot;c&quot;,&quot;o&quot;,&quot;d&quot;],
-score = [0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0]
-<strong>Output:</strong> 0
+<strong>Input:</strong> items = [[10,1000]], queries = [5]
+<strong>Output:</strong> [0]
 <strong>Explanation:</strong>
-Letter &quot;e&quot; can only be used once.</pre>
+No item has a price less than or equal to 5, so no item can be chosen.
+Hence, the answer to the query is 0.
+</pre>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>1 &lt;= words.length &lt;= 14</code></li>
-	<li><code>1 &lt;= words[i].length &lt;= 15</code></li>
-	<li><code>1 &lt;= letters.length &lt;= 100</code></li>
-	<li><code>letters[i].length == 1</code></li>
-	<li><code>score.length ==&nbsp;26</code></li>
-	<li><code>0 &lt;= score[i] &lt;= 10</code></li>
-	<li><code>words[i]</code>, <code>letters[i]</code>&nbsp;contains only lower case English letters.</li>
+	<li><code>1 &lt;= items.length, queries.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>items[i].length == 2</code></li>
+	<li><code>1 &lt;= price<sub>i</sub>, beauty<sub>i</sub>, queries[j] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
 <h2 id="solution">
@@ -585,33 +574,38 @@ Letter &quot;e&quot; can only be used once.</pre>
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> maxScoreWords(vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;&amp;</span> words, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&amp;</span> letters, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> score) {
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> count(<span style="color:#ae81ff">26</span>, <span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> lettersCount(<span style="color:#ae81ff">26</span>, <span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span> <span style="color:#f92672">&amp;</span>c : letters){
-</span></span><span style="display:flex;"><span>            count[c <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>]<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> maximumBeauty(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> items, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> queries) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> ans(queries.size());
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        sort(items.begin(), items.end(),[](vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> a, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> b) { <span style="color:#66d9ef">return</span> a[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;</span> b[<span style="color:#ae81ff">0</span>]; });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> max_beauty <span style="color:#f92672">=</span> items[<span style="color:#ae81ff">0</span>][<span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> items.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            max_beauty <span style="color:#f92672">=</span> max(max_beauty, items[i][<span style="color:#ae81ff">1</span>]);
+</span></span><span style="display:flex;"><span>            items[i][<span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> max_beauty;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>        backtracking(words, score, count, lettersCount, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, ans);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> queries.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            ans[i] <span style="color:#f92672">=</span> binarySearch(items, queries[i]);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">backtracking</span>(vector<span style="color:#f92672">&lt;</span>string<span style="color:#f92672">&gt;&amp;</span> words, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> score, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> count, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> lettersCount, <span style="color:#66d9ef">int</span> pos, <span style="color:#66d9ef">int</span> temp, <span style="color:#66d9ef">int</span> <span style="color:#f92672">&amp;</span>ans){
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">26</span>; i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(lettersCount[i] <span style="color:#f92672">&gt;</span> count[i])
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        ans <span style="color:#f92672">=</span> max(ans, temp);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> pos; i <span style="color:#f92672">&lt;</span> words.size(); i<span style="color:#f92672">++</span>){
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> c : words[i]){
-</span></span><span style="display:flex;"><span>                lettersCount[c <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>]<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>                temp<span style="color:#f92672">+=</span>score[c <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>];
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            backtracking(words, score, count, lettersCount, i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, temp, ans);
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">auto</span><span style="color:#f92672">&amp;</span> c : words[i]){
-</span></span><span style="display:flex;"><span>                lettersCount[c <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>]<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>                temp<span style="color:#f92672">-=</span>score[c <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;a&#39;</span>];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">binarySearch</span>(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> items, <span style="color:#66d9ef">int</span> targetPrice) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span> items.size() <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> max_beauty <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (left <span style="color:#f92672">&lt;=</span> right) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> mid <span style="color:#f92672">=</span> (left <span style="color:#f92672">+</span> right) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (items[mid][<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;</span> targetPrice) {
+</span></span><span style="display:flex;"><span>                right <span style="color:#f92672">=</span> mid <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                max_beauty <span style="color:#f92672">=</span> max(max_beauty, items[mid][<span style="color:#ae81ff">1</span>]);
+</span></span><span style="display:flex;"><span>                left <span style="color:#f92672">=</span> mid <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> max_beauty;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -626,9 +620,9 @@ Letter &quot;e&quot; can only be used once.</pre>
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                                               | Time Complexity  | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------------------------------------------------- | ---------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Backtracking for String Scoring with Depth-First Search | O((2^n) 26m + n) | O(n)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                        | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| -------------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Binary Search with Preprocessing | O(n log n)      | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -653,13 +647,11 @@ Letter &quot;e&quot; can only be used once.</pre>
  </a>
   
 </h4>
-<ul>
-<li>Treat each word as a different option in a multiple choice problem, look for all different possible word combinations, - Consider using backtracking to automatically traverse through all the word combinations, - It is also crucial to determine all other available letters which are in our letter bank after selecting some words,
-<ul>
-<li>Each letter can only be used once when finding possible word combinations and check for cases where word letters may not exist in our letter bank</li>
-</ul>
-</li>
-</ul>
+<p>My initial thought was to approach this problem by identifying the relationship between the price and beauty of each item, then using that relationship to quickly find the maximum beauty for each query.
+The problem requires us to find the maximum beauty of an item for each query where the price is less than or equal to the query price.
+I realized that sorting the items by price could be useful in efficiently finding the maximum beauty for each query.
+I also noticed that there could be a connection between binary search and the sorted items, which could solve the problem efficiently.
+Lastly, I considered using dynamic programming to build up a solution by considering the previous items</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -672,13 +664,12 @@ Letter &quot;e&quot; can only be used once.</pre>
  </a>
   
 </h4>
-<ul>
-<li>Focus on considering that once one selects a word it then modifies the possible letter bank we can then select from going forward.
-<ul>
-<li>Think of it as either selecting or skipping word possibilities from within our word database with the hope to maximize score we are trying to find. - Break the letters bank available based on how much we are iteratively willing to spend and backtrack over given words, - A good strategy also involves evaluating what the letters we cant form actually cost you.</li>
-</ul>
-</li>
-</ul>
+<p>My intuition on this problem is that by sorting the items and using a modified binary search or lower-bound approach, we can efficiently find the maximum beauty for each query.
+I also thought to update the beauty of each item with the maximum beauty seen so far as we iterate through the sorted items, which would make the binary search even more efficient.
+By doing this, we ensure that the beauty of each item is the maximum beauty of all items with price less than or equal to its own price.
+This approach allows us to avoid redundant comparisons and directly find the maximum beauty for each query.
+Another key insight was to initialize the beauty of each item with its own beauty, and then update it as we iterate through the sorted items.
+This ensures that the binary search can efficiently find the maximum beauty for each query.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -692,13 +683,13 @@ Letter &quot;e&quot; can only be used once.</pre>
   
 </h3>
 <ul>
-<li>The problem can be solved using backtracking, which is a form of recursion.</li>
-<li>The key insight is to try all possible combinations of words and keep track of the maximum score.</li>
-<li>We need to keep track of the count of each letter in the letters array and the current word being processed.</li>
-<li>We also need to keep track of the temporary score for the current combination of words.</li>
-<li>The backtracking approach allows us to explore all possible combinations of words and find the maximum score.</li>
-<li>The time complexity of this approach is O(2^n * m), where n is the number of words and m is the maximum length of a word.</li>
-<li>The space complexity is O(n * m), where n is the number of words and m is the maximum length of a word.</li>
+<li>The problem can be solved by first sorting the items based on their prices.</li>
+<li>Then, we can iterate through the sorted items and keep track of the maximum beauty encountered so far.</li>
+<li>This maximum beauty will be the answer for all queries with a price greater than or equal to the current item&rsquo;s price.</li>
+<li>To find the answer for a query, we can use binary search to find the largest price that is less than or equal to the query price.</li>
+<li>The maximum beauty at this index will be the answer for the query.</li>
+<li>This approach works because the items are sorted by price, and the maximum beauty is updated as we iterate through the items.</li>
+<li>This ensures that the maximum beauty at each index is the maximum beauty of all items with a price less than or equal to the current item&rsquo;s price.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -713,13 +704,13 @@ Letter &quot;e&quot; can only be used once.</pre>
   
 </h3>
 <ul>
-<li>We start by initializing the count array to keep track of the count of each letter in the letters array.</li>
-<li>We then call the backtracking function with the initial position, temporary score, and answer.</li>
-<li>In the backtracking function, we first check if the current combination of words is valid by checking if the count of each letter in the lettersCount array is less than or equal to the count in the count array.</li>
-<li>If the current combination is valid, we update the answer with the maximum score.</li>
-<li>We then try to add each word to the current combination and recursively call the backtracking function.</li>
-<li>After trying all words, we backtrack by removing the last word from the current combination and restoring the count of each letter in the lettersCount array.</li>
-<li>We use <code>lettersCount[c - 'a']++</code> to increment the count of each letter in the lettersCount array and <code>temp += score[c - 'a']</code> to update the temporary score.</li>
+<li>The <code>sort</code> function is used to sort the items based on their prices: <code>sort(items.begin(), items.end(),[](vector&lt;int&gt;&amp; a, vector&lt;int&gt;&amp; b) { return a[0] &lt; b[0]; });</code></li>
+<li>The <code>max_beauty</code> variable is used to keep track of the maximum beauty encountered so far: <code>int max_beauty = items[0][1];</code></li>
+<li>The <code>binarySearch</code> function is used to find the largest price that is less than or equal to the query price: <code>int binarySearch(vector&lt;vector&lt;int&gt;&gt;&amp; items, int targetPrice) { ... }</code></li>
+<li>The <code>binarySearch</code> function uses a binary search approach to find the largest price: <code>while (left &lt;= right) { ... }</code></li>
+<li>The <code>binarySearch</code> function returns the maximum beauty at the index found: <code>return max_beauty;</code></li>
+<li>The <code>maximumBeauty</code> function iterates through the queries and calls the <code>binarySearch</code> function for each query: <code>for (int i = 0; i &lt; queries.size(); i++) { ... }</code></li>
+<li>The <code>maximumBeauty</code> function returns the answers for all queries: <code>return ans;</code></li>
 </ul>
 <hr>
 
@@ -747,9 +738,9 @@ Letter &quot;e&quot; can only be used once.</pre>
   
 </h3>
 <ul>
-<li>The time complexity is dominated by the recursive call in the backtracking function, which is called for each word (<code>backtracking(words, score, count, lettersCount, i + 1, temp, ans)</code>). This results in 2^n recursive calls, where n is the number of words.</li>
-<li>Inside each recursive call, the algorithm iterates over the characters of the current word (<code>for(auto&amp; c : words[i])</code>), and also checks the count of letters (<code>for(int i = 0; i &lt; 26; i++)</code>), which results in an additional O(m * 26) time complexity, where m is the maximum length of the word.</li>
-<li>Overall, the time complexity can be expressed as O(2^n _ m _ 26 + n), where the dominant term is the recursive call.</li>
+<li>The algorithm can be divided into three main steps: sorting, preprocessing, and binary search. The sorting step <code>sort(items.begin(), items.end(),[](vector&lt;int&gt;&amp; a, vector&lt;int&gt;&amp; b) { return a[0] &lt; b[0]; });</code> has a time complexity of O(n log n), where n is the number of items.</li>
+<li>The preprocessing step <code>for (int i = 0; i &lt; items.size(); i++) { ... }</code> has a time complexity of O(n), where n is the number of items.</li>
+<li>The binary search step <code>for (int i = 0; i &lt; queries.size(); i++) { ... }</code> has a time complexity of O(m log n), where m is the number of queries. Since m can be less than or equal to n, we can simplify this to O(n log n) and this dominant operation justifies the overall time complexity classification of O(n log n).</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -764,9 +755,9 @@ Letter &quot;e&quot; can only be used once.</pre>
   
 </h3>
 <ul>
-<li>The space complexity is dominated by the recursion stack (<code>backtracking(words, score, count, lettersCount, i + 1, temp, ans)</code>), which can go up to n levels deep, where n is the number of words.</li>
-<li>Additionally, the algorithm uses several arrays to keep track of the count of letters and the score for each letter, which results in a space complexity of O(26) due to the fixed size arrays (<code>vector&lt;int&gt; count(26, 0)</code> and <code>vector&lt;int&gt; lettersCount(26, 0)</code>).</li>
-<li>However, since the space complexity of the array is constant, it does not affect the overall space complexity, which is therefore O(n).</li>
+<li>The algorithm requires additional space to store the result <code>vector&lt;int&gt; ans(queries.size());</code> which has a space complexity of O(m), where m is the number of queries.</li>
+<li>The space required to store the items and queries also contributes to the overall space complexity of O(n + m), where n is the number of items and m is the number of queries.</li>
+<li>However, since n can be greater than or equal to m, we can simplify the overall space complexity to O(n), justifying the space complexity classification.</li>
 </ul>
 <hr>
 
@@ -782,7 +773,7 @@ Letter &quot;e&quot; can only be used once.</pre>
   
 </h3>
 <blockquote>
-<p>This question is rated as <strong>Hard</strong> difficulty.</p>
+<p>This question is rated as <strong>Medium</strong> difficulty.</p>
 </blockquote>
 
 <h4 id="hints">
@@ -797,7 +788,10 @@ Letter &quot;e&quot; can only be used once.</pre>
   
 </h4>
 <blockquote>
-<p>Note that words.length is small. This means you can iterate over every subset of words (2^N).</p>
+<p>Can we process the queries in a smart order to avoid repeatedly checking the same items?</p>
+</blockquote>
+<blockquote>
+<p>How can we use the answer to a query for other queries?</p>
 </blockquote>
 <hr>
 
@@ -822,8 +816,20 @@ Letter &quot;e&quot; can only be used once.</pre>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Maximum Good People Based on Statements</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-good-people-based-on-statements" target="_blank">https://leetcode.com/problems/maximum-good-people-based-on-statements</a>
+          <td style="text-align: left">Closest Room</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/closest-room" target="_blank">https://leetcode.com/problems/closest-room</a>
+</td>
+          <td style="text-align: left">Hard</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Find the Score of All Prefixes of an Array</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array" target="_blank">https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array</a>
+</td>
+          <td style="text-align: left">Medium</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Maximum Sum Queries</td>
+          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-sum-queries" target="_blank">https://leetcode.com/problems/maximum-sum-queries</a>
 </td>
           <td style="text-align: left">Hard</td>
       </tr>
@@ -842,17 +848,13 @@ Letter &quot;e&quot; can only be used once.</pre>
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/posts/extraques/problem-2070-most-beautiful-item-for-each-query/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 2070 Most Beautiful Item for Each Query </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/posts/extraques/problem-1074-number-of-submatrices-that-sum-to-target/">
+    <a class="next" href="/blog/posts/extraques/problem-1255-maximum-score-words-formed-by-letters/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 1074 Number of Submatrices That Sum to Target </span>
+      <span> Problem 1255 Maximum Score Words Formed by Letters </span>
     </a>
   
 </nav>
