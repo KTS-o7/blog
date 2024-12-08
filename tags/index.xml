@@ -6,20 +6,34 @@
     <description>Recent content in Tags on The Indian Engineer</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 11:19:17 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 11:24:26 +0530</lastBuildDate>
     <atom:link href="https://KTS-o7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Array</title>
       <link>https://KTS-o7.github.io/blog/tags/array/</link>
-      <pubDate>Sun, 08 Dec 2024 11:19:17 +0530</pubDate>
+      <pubDate>Sun, 08 Dec 2024 11:24:26 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/array/</guid>
       <description></description>
     </item>
     <item>
       <title>Bit-Manipulation</title>
       <link>https://KTS-o7.github.io/blog/tags/bit-manipulation/</link>
-      <pubDate>Sun, 08 Dec 2024 11:19:17 +0530</pubDate>
+      <pubDate>Sun, 08 Dec 2024 11:24:26 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/bit-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Counting</title>
+      <link>https://KTS-o7.github.io/blog/tags/counting/</link>
+      <pubDate>Sun, 08 Dec 2024 11:24:26 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/counting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hash-Table</title>
+      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
+      <pubDate>Sun, 08 Dec 2024 11:24:26 +0530</pubDate>
+      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +97,6 @@
       <link>https://KTS-o7.github.io/blog/tags/string/</link>
       <pubDate>Sat, 07 Dec 2024 17:34:53 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/string/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hash-Table</title>
-      <link>https://KTS-o7.github.io/blog/tags/hash-table/</link>
-      <pubDate>Sat, 07 Dec 2024 17:25:46 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/hash-table/</guid>
       <description></description>
     </item>
     <item>
@@ -377,13 +384,6 @@
       <link>https://KTS-o7.github.io/blog/tags/hash-map/</link>
       <pubDate>Thu, 26 Sep 2024 22:13:02 +0530</pubDate>
       <guid>https://KTS-o7.github.io/blog/tags/hash-map/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Counting</title>
-      <link>https://KTS-o7.github.io/blog/tags/counting/</link>
-      <pubDate>Thu, 19 Sep 2024 22:36:08 +0530</pubDate>
-      <guid>https://KTS-o7.github.io/blog/tags/counting/</guid>
       <description></description>
     </item>
     <item>
