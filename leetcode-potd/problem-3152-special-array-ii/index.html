@@ -8,16 +8,16 @@
 
   
   
-  <title>Problem 2064 Minimized Maximum of Products Distributed to Any Store &middot; The Indian Engineer</title>
-  <meta name="title" content="Problem 2064 Minimized Maximum of Products Distributed to Any Store &middot; The Indian Engineer" />
+  <title>Problem 3152 Special Array II &middot; The Indian Engineer</title>
+  <meta name="title" content="Problem 3152 Special Array II &middot; The Indian Engineer" />
   
 
   
   
   <meta name="description" content="Blog authored by Krishnatejaswi S" />
   
-  <meta name="keywords" content="array, binary search, greedy, " />
-  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-2064-minimized-maximum-of-products-distributed-to-any-store/" />
+  <meta name="keywords" content="array, binary search, prefix sum, " />
+  <link rel="canonical" href="https://KTS-o7.github.io/blog/leetcode-potd/problem-3152-special-array-ii/" />
 
   
 
@@ -82,23 +82,23 @@
     <link rel="manifest" href="/blog/site.webmanifest" />
   
 
-  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-2064-minimized-maximum-of-products-distributed-to-any-store/">
+  <meta property="og:url" content="https://KTS-o7.github.io/blog/leetcode-potd/problem-3152-special-array-ii/">
   <meta property="og:site_name" content="The Indian Engineer">
-  <meta property="og:title" content="Problem 2064 Minimized Maximum of Products Distributed to Any Store">
+  <meta property="og:title" content="Problem 3152 Special Array II">
   <meta property="og:description" content="Blog authored by Krishnatejaswi S">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-08T11:11:14+05:30">
-    <meta property="article:modified_time" content="2024-12-08T11:11:14+05:30">
+    <meta property="article:published_time" content="2024-12-09T19:32:54+05:30">
+    <meta property="article:modified_time" content="2024-12-09T19:32:54+05:30">
     <meta property="article:tag" content="Array">
     <meta property="article:tag" content="Binary-Search">
-    <meta property="article:tag" content="Greedy">
+    <meta property="article:tag" content="Prefix-Sum">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Problem 2064 Minimized Maximum of Products Distributed to Any Store">
+  <meta name="twitter:title" content="Problem 3152 Special Array II">
   <meta name="twitter:description" content="Blog authored by Krishnatejaswi S">
 
   
@@ -392,7 +392,7 @@
 
 
 
-<h1 class="pg-title">Problem 2064 Minimized Maximum of Products Distributed to Any Store</h1>
+<h1 class="pg-title">Problem 3152 Special Array II</h1>
 
 
 <div class="meta">
@@ -412,7 +412,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-08T11:11:14&#43;05:30">Dec 8, 2024</time>
+  Posted on <time datetime="2024-12-09T19:32:54&#43;05:30">Dec 9, 2024</time>
   
   
   
@@ -429,7 +429,7 @@
 
 </span>
   
-    7 mins
+    6 mins
   
 
 
@@ -450,7 +450,7 @@
   
   <a class="tag" href="/blog/tags/binary-search/">Binary-Search</a>
   
-  <a class="tag" href="/blog/tags/greedy/">Greedy</a>
+  <a class="tag" href="/blog/tags/prefix-sum/">Prefix-Sum</a>
   
 </p>
 
@@ -484,7 +484,6 @@
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
         <li><a href="#footnote">Footnote</a></li>
-        <li><a href="#similar-questions">Similar Questions:</a></li>
       </ul>
     </li>
   </ul>
@@ -508,7 +507,7 @@
  </a>
   
 </h1>
-<p><strong>Link</strong> - <a href="https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/submissions/1452286706/?envType=daily-question&amp;envId=2024-11-14" target="_blank">Problem 2064</a>
+<p><strong>Link</strong> - <a href="https://leetcode.com/problems/special-array-ii/?envType=daily-question&amp;envId=2024-12-09" target="_blank">Problem 3152</a>
 </p>
 
 <h2 id="question">
@@ -522,45 +521,33 @@
  </a>
   
 </h2>
-<p>You are given an integer <code>n</code> indicating there are <code>n</code> specialty retail stores. There are <code>m</code> product types of varying amounts, which are given as a <strong>0-indexed</strong> integer array <code>quantities</code>, where <code>quantities[i]</code> represents the number of products of the <code>i<sup>th</sup></code> product type.</p>
-<p>You need to distribute <strong>all products</strong> to the retail stores following these rules:</p>
-<ul>
-	<li>A store can only be given <strong>at most one product type</strong> but can be given <strong>any</strong> amount of it.</li>
-	<li>After distribution, each store will have been given some number of products (possibly <code>0</code>). Let <code>x</code> represent the maximum number of products given to any store. You want <code>x</code> to be as small as possible, i.e., you want to <strong>minimize</strong> the <strong>maximum</strong> number of products that are given to any store.</li>
-</ul>
-<p>Return <em>the minimum possible</em> <code>x</code>.</p>
+<p>An array is considered <strong>special</strong> if every pair of its adjacent elements contains two numbers with different parity.</p>
+<p>You are given an array of integer <code>nums</code> and a 2D integer matrix <code>queries</code>, where for <code>queries[i] = [from<sub>i</sub>, to<sub>i</sub>]</code> your task is to check that <span data-keyword="subarray">subarray</span> <code>nums[from<sub>i</sub>..to<sub>i</sub>]</code> is <strong>special</strong> or not.</p>
+<p>Return an array of booleans <code>answer</code> such that <code>answer[i]</code> is <code>true</code> if <code>nums[from<sub>i</sub>..to<sub>i</sub>]</code> is special.<!-- notionvc: e5d6f4e2-d20a-4fbd-9c7f-22fbe52ef730 --></p>
 <p><strong class="example">Example 1:</strong></p>
-<pre>
-<strong>Input:</strong> n = 6, quantities = [11,6]
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> One optimal way is:
-- The 11 products of type 0 are distributed to the first four stores in these amounts: 2, 3, 3, 3
-- The 6 products of type 1 are distributed to the other two stores in these amounts: 3, 3
-The maximum number of products given to any store is max(2, 3, 3, 3, 3, 3) = 3.
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [3,4,1,2,6], queries = [[0,4]]</span></p>
+<p><strong>Output:</strong> <span class="example-io">[false]</span></p>
+<p><strong>Explanation:</strong></p>
+<p>The subarray is <code>[3,4,1,2,6]</code>. 2 and 6 are both even.</p>
+</div>
 <p><strong class="example">Example 2:</strong></p>
-<pre>
-<strong>Input:</strong> n = 7, quantities = [15,10,10]
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> One optimal way is:
-- The 15 products of type 0 are distributed to the first three stores in these amounts: 5, 5, 5
-- The 10 products of type 1 are distributed to the next two stores in these amounts: 5, 5
-- The 10 products of type 2 are distributed to the last two stores in these amounts: 5, 5
-The maximum number of products given to any store is max(5, 5, 5, 5, 5, 5, 5) = 5.
-</pre>
-<p><strong class="example">Example 3:</strong></p>
-<pre>
-<strong>Input:</strong> n = 1, quantities = [100000]
-<strong>Output:</strong> 100000
-<strong>Explanation:</strong> The only optimal way is:
-- The 100000 products of type 0 are distributed to the only store.
-The maximum number of products given to any store is max(100000) = 100000.
-</pre>
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">nums = [4,3,1,6], queries = [[0,2],[2,3]]</span></p>
+<p><strong>Output:</strong> <span class="example-io">[false,true]</span></p>
+<p><strong>Explanation:</strong></p>
+<ol>
+	<li>The subarray is <code>[4,3,1]</code>. 3 and 1 are both odd. So the answer to this query is <code>false</code>.</li>
+	<li>The subarray is <code>[1,6]</code>. There is only one pair: <code>(1,6)</code> and it contains numbers with different parity. So the answer to this query is <code>true</code>.</li>
+</ol>
+</div>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>m == quantities.length</code></li>
-	<li><code>1 &lt;= m &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= quantities[i] &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= queries.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>queries[i].length == 2</code></li>
+	<li><code>0 &lt;= queries[i][0] &lt;= queries[i][1] &lt;= nums.length - 1</code></li>
 </ul>
 
 <h2 id="solution">
@@ -576,34 +563,29 @@ The maximum number of products given to any store is max(100000) = 100000.
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> minimizedMaximum(<span style="color:#66d9ef">int</span> n, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> quantities) {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Initialize the search range for binary search
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> low <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, high <span style="color:#f92672">=</span> INT_MIN, res <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">bool</span><span style="color:#f92672">&gt;</span> isArraySpecial(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> queries) {
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">bool</span><span style="color:#f92672">&gt;</span> ans(queries.size(), false);
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> prefix(nums.size(), <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>        prefix[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Find the maximum quantity in the quantities vector to set the upper bound
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> x: quantities)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(high <span style="color:#f92672">&lt;</span> x)
-</span></span><span style="display:flex;"><span>                high <span style="color:#f92672">=</span> x;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Perform binary search to find the minimized maximum value of products per store
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">while</span>(low <span style="color:#f92672">&lt;=</span> high) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> mid <span style="color:#f92672">=</span> low <span style="color:#f92672">+</span> (high <span style="color:#f92672">-</span> low) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;  <span style="color:#75715e">// Midpoint to test as a possible max value
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;  <span style="color:#75715e">// Sum represents the total stores needed if max products per store is `mid`
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Calculate total number of stores required if max products per store is `mid`
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> x: quantities)
-</span></span><span style="display:flex;"><span>                sum <span style="color:#f92672">+=</span> (ceil((<span style="color:#66d9ef">float</span>)x <span style="color:#f92672">/</span> <span style="color:#66d9ef">float</span>(mid)));  <span style="color:#75715e">// Calculate number of stores needed for each product
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Check if this midpoint allows for distribution within the given store limit `n`
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span>(sum <span style="color:#f92672">&lt;=</span> n) {
-</span></span><span style="display:flex;"><span>                res <span style="color:#f92672">=</span> mid;   <span style="color:#75715e">// Update the result with current valid mid
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                high <span style="color:#f92672">=</span> mid <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">// Try for a smaller maximum by reducing the upper bound
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            } <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>                low <span style="color:#f92672">=</span> mid <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">// Increase the lower bound if more stores are needed than available
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> nums.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (nums[i] <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> nums[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span>) {
+</span></span><span style="display:flex;"><span>                prefix[i] <span style="color:#f92672">=</span> prefix[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>                prefix[i] <span style="color:#f92672">=</span> prefix[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> res;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> queries.size(); i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>            vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> query <span style="color:#f92672">=</span> queries[i];
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> start <span style="color:#f92672">=</span> query[<span style="color:#ae81ff">0</span>];
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> end <span style="color:#f92672">=</span> query[<span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            ans[i] <span style="color:#f92672">=</span> prefix[end] <span style="color:#f92672">-</span> prefix[start] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> ans;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div>
@@ -618,9 +600,9 @@ The maximum number of products given to any store is max(100000) = 100000.
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm     | Time Complexity           | Space Complexity |
-</span></span><span style="display:flex;"><span>| ------------- | ------------------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Binary Search | O(m log(max(quantities))) | O(1)             |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                         | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| --------------------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Prefix Sum Array with Linear Scan | O(n + q)        | O(n + q)         |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -645,7 +627,7 @@ The maximum number of products given to any store is max(100000) = 100000.
  </a>
   
 </h4>
-<p>This problem requires distributing products into stores such that the maximum number of products per store is minimized. Given the constraints of m &lt;= n and 1 &lt;= quantities[i] &lt;= 10^5, a brute force approach would not be feasible. A binary search could potentially work, as the answer should be between the minimum and maximum quantity values. We also need to find the maximum quantity value to determine our upper search bound.</p>
+<p>The problem seems to require checking for a specific property in subarrays, where each pair of adjacent elements must have different parity. The given solution uses a prefix array to track the number of pairs with the same parity. My initial thoughts are to consider how the prefix array can help in solving the problem, and what conditions must be met for a subarray to be considered special. The problem can be broken down into smaller parts: generating the prefix array, and using it to answer the queries. It&rsquo;s also important to understand the properties of even and odd numbers and how they relate to the problem. Additionally, thinking about edge cases, such as subarrays of length 1 or 2, can help in developing the solution.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -658,7 +640,7 @@ The maximum number of products given to any store is max(100000) = 100000.
  </a>
   
 </h4>
-<p>The problem essentially boils down to a division problem, distributing quantities as evenly as possible. Each iteration of the binary search represents a maximum products per store value. For each quantity, the number of required stores is calculated using ceiling division. If the total required stores are less than or equal to n, we know the answer is less than or equal to the current mid value and we continue searching the lower half. If the total required stores exceed n, we increase the lower bound to find a larger maximum products per store. The iterative approach will eventually converge to the optimal result.</p>
+<p>To intuitively solve the problem, one must first understand the concept of parity and how it applies to adjacent elements in an array. The idea is to iterate through the array, checking each pair of adjacent elements to see if they have the same parity. This process can be analogous to checking if two people are wearing different colored shoes - if they are, then they are &lsquo;special&rsquo;, otherwise, they are not. When generating the prefix array, think of it as a cumulative count of &rsquo;non-special&rsquo; pairs. This count can then be used to determine if a subarray is special by checking the difference in the prefix array values at the start and end of the subarray. The solution must also consider the case where the subarray has only one pair of adjacent elements, and how the prefix array can be used to efficiently answer multiple queries.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -672,13 +654,13 @@ The maximum number of products given to any store is max(100000) = 100000.
   
 </h3>
 <ul>
-<li>The problem can be solved using binary search to find the minimum maximum number of products per store.</li>
-<li>The search range is from 1 to the maximum quantity in the quantities vector.</li>
-<li>The goal is to find the smallest maximum number of products per store that allows distribution within the given store limit <code>n</code>.</li>
-<li>The key insight is to calculate the total number of stores required if the maximum products per store is <code>mid</code> and check if it&rsquo;s within the limit <code>n</code>.</li>
-<li>If the total number of stores required is less than or equal to <code>n</code>, update the result with the current <code>mid</code> and try to find a smaller maximum.</li>
-<li>If the total number of stores required is more than <code>n</code>, increase the lower bound to try a larger maximum.</li>
-<li>The binary search continues until the lower bound is greater than the upper bound.</li>
+<li>The problem requires checking if every pair of adjacent elements in a subarray has different parity, which means one is even and the other is odd.</li>
+<li>To solve this efficiently, we need to track the number of pairs with the same parity as we move through the array.</li>
+<li>A prefix sum array can be used to store the cumulative count of pairs with the same parity, allowing for efficient range queries.</li>
+<li>The key insight is that if the difference in the prefix sum between the end and start of a subarray is 0, it means all pairs within that subarray have different parity.</li>
+<li>This approach works because it leverages the property of prefix sums to calculate the number of same-parity pairs within any subarray in constant time.</li>
+<li>The algorithmic choice of using a prefix sum array is optimal because it allows for a linear time complexity for both the preprocessing and the query phases.</li>
+<li>Considering the constraints, this approach is scalable and efficient for large inputs.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -693,13 +675,13 @@ The maximum number of products given to any store is max(100000) = 100000.
   
 </h3>
 <ul>
-<li>Initialize the search range with <code>low = 1</code> and <code>high = INT_MIN</code>, and the result <code>res = 0</code>.</li>
-<li>Find the maximum quantity in the quantities vector to set the upper bound <code>high</code> with <code>for(int x: quantities) if(high &lt; x) high = x;</code></li>
-<li>Perform binary search with <code>while(low &lt;= high)</code> and calculate the midpoint <code>mid = low + (high - low) / 2;</code></li>
-<li>Calculate the total number of stores required if the maximum products per store is <code>mid</code> with <code>for(int x: quantities) sum += (ceil((float)x / float(mid)));</code></li>
-<li>Check if the total number of stores required is within the limit <code>n</code> with <code>if(sum &lt;= n)</code> and update the result accordingly.</li>
-<li>Update the search range with <code>high = mid - 1</code> if the total number of stores required is within the limit, or <code>low = mid + 1</code> otherwise.</li>
-<li>Return the result <code>res</code> after the binary search is complete.</li>
+<li>We start by initializing a <code>prefix</code> array of the same length as the input <code>nums</code> array, where <code>prefix[i]</code> will store the count of same-parity pairs up to index <code>i</code>.</li>
+<li>The <code>prefix</code> array is populated by iterating through <code>nums</code>, checking the parity of each pair of adjacent elements using the modulo operator (<code>nums[i] % 2 == nums[i - 1] % 2</code>), and incrementing the count if they have the same parity.</li>
+<li>For each query, we extract the start and end indices from the <code>queries</code> array and use them to calculate the difference in the <code>prefix</code> sum (<code>prefix[end] - prefix[start]</code>)</li>
+<li>If this difference is 0, it indicates that all pairs within the subarray have different parity, so we set the corresponding answer to <code>true</code>.</li>
+<li>The final answers for all queries are stored in the <code>ans</code> vector, which is returned at the end of the function.</li>
+<li>The use of <code>vector&lt;bool&gt;</code> for <code>ans</code> is efficient for storing boolean values, and <code>vector&lt;int&gt;</code> for <code>prefix</code> and <code>nums</code> is suitable for storing integer values.</li>
+<li>The overall implementation ensures a time complexity of O(n + q), where n is the length of <code>nums</code> and q is the number of queries.</li>
 </ul>
 <hr>
 
@@ -727,9 +709,9 @@ The maximum number of products given to any store is max(100000) = 100000.
   
 </h3>
 <ul>
-<li>Time complexity is analyzed based on the nested loops in the provided code. The outer while loop iterates <code>log(high)</code> times due to the binary search nature, where <code>high</code> is the maximum quantity in the <code>quantities</code> vector.</li>
-<li>Inside the while loop, there&rsquo;s another for loop that iterates over the <code>quantities</code> vector, adding up to <code>m</code> operations (where <code>m</code> represents the number of elements in <code>quantities</code>).</li>
-<li>Since these two loops are nested, the overall time complexity would be O(m log(max(quantities))) in the worst case scenario, where <code>max(quantities)</code> represents the maximum quantity in the vector, thus influencing the number of iterations of the while loop.</li>
+<li>The algorithm consists of two main loops: one for calculating the prefix sum array and another for processing the queries. The first loop iterates <code>n</code> times, where <code>n</code> is the size of the input array <code>nums</code>. The second loop iterates <code>q</code> times, where <code>q</code> is the number of queries. The dominant operations are the <code>for</code> loops that iterate over the input array <code>nums</code> and the queries <code>queries</code>. Therefore, the time complexity is O(n + q).</li>
+<li>The <code>if</code> condition inside the loop and the assignment to the <code>prefix</code> array take constant time. Hence, they do not affect the overall time complexity.</li>
+<li>Mathematically, the time complexity can be expressed as T(n, q) = O(n) + O(q) = O(n + q), justifying the Big O classification.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -744,9 +726,9 @@ The maximum number of products given to any store is max(100000) = 100000.
   
 </h3>
 <ul>
-<li>The algorithm uses a constant amount of space to store the <code>low</code>, <code>high</code>, and <code>res</code> variables, contributing O(1) to space complexity.</li>
-<li>Additionally, it makes use of the input vector <code>quantities</code>, but does not create any auxiliary data structures that scale with input size.</li>
-<li>Therefore, the total space complexity remains O(1) as the space used does not grow with input size <code>n</code> or the size of <code>quantities</code> vector.</li>
+<li>The algorithm uses two additional vectors: <code>ans</code> and <code>prefix</code>, both of which require extra space. The <code>ans</code> vector has a size of <code>q</code>, where <code>q</code> is the number of queries, and the <code>prefix</code> vector has a size of <code>n</code>, where <code>n</code> is the size of the input array <code>nums</code>.</li>
+<li>The input arrays <code>nums</code> and <code>queries</code> also occupy space, but this is not included in the space complexity analysis as it is part of the input size. The <code>prefix</code> and <code>ans</code> vectors are the primary contributors to the space complexity.</li>
+<li>The total space used is proportional to the sum of the sizes of the <code>ans</code> and <code>prefix</code> vectors, which is n + q. Hence, the space complexity is O(n + q).</li>
 </ul>
 <hr>
 
@@ -777,86 +759,11 @@ The maximum number of products given to any store is max(100000) = 100000.
   
 </h4>
 <blockquote>
-<p>There exists a monotonic nature such that when x is smaller than some number, there will be no way to distribute, and when x is not smaller than that number, there will always be a way to distribute.</p>
+<p>Try to split the array into some non-intersected continuous special subarrays.</p>
 </blockquote>
 <blockquote>
-<p>If you are given a number k, where the number of products given to any store does not exceed k, could you determine if all products can be distributed?</p>
+<p>For each query check that the first and the last elements of that query are in the same subarray or not.</p>
 </blockquote>
-<blockquote>
-<p>Implement a function canDistribute(k), which returns true if you can distribute all products such that any store will not be given more than k products, and returns false if you cannot. Use this function to binary search for the smallest possible k.</p>
-</blockquote>
-<hr>
-
-<h3 id="similar-questions">
-  Similar Questions:
-  
-  <a hidden class="anchor" href="#similar-questions">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Title</th>
-          <th style="text-align: left">URL</th>
-          <th style="text-align: left">Difficulty</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Koko Eating Bananas</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/koko-eating-bananas" target="_blank">https://leetcode.com/problems/koko-eating-bananas</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Capacity To Ship Packages Within D Days</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/capacity-to-ship-packages-within-d-days" target="_blank">https://leetcode.com/problems/capacity-to-ship-packages-within-d-days</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Maximum Candies Allocated to K Children</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-candies-allocated-to-k-children" target="_blank">https://leetcode.com/problems/maximum-candies-allocated-to-k-children</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Find the Smallest Divisor Given a Threshold</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold" target="_blank">https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Magnetic Force Between Two Balls</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/magnetic-force-between-two-balls" target="_blank">https://leetcode.com/problems/magnetic-force-between-two-balls</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Minimum Limit of Balls in a Bag</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag" target="_blank">https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Minimum Time to Complete Trips</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/minimum-time-to-complete-trips" target="_blank">https://leetcode.com/problems/minimum-time-to-complete-trips</a>
-</td>
-          <td style="text-align: left">Medium</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Maximum Number of Robots Within Budget</td>
-          <td style="text-align: left"><a href="https://leetcode.com/problems/maximum-number-of-robots-within-budget" target="_blank">https://leetcode.com/problems/maximum-number-of-robots-within-budget</a>
-</td>
-          <td style="text-align: left">Hard</td>
-      </tr>
-  </tbody>
-</table>
 
 
 
@@ -870,17 +777,13 @@ The maximum number of products given to any store is max(100000) = 100000.
 
 <nav class="pagenav">
   
-    <a class="prev" href="/blog/leetcode-potd/problem-3152-special-array-ii/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Problem 3152 Special Array II </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/blog/leetcode-potd/problem-2054-two-best-non-overlapping-events/">
+    <a class="next" href="/blog/leetcode-potd/problem-2064-minimized-maximum-of-products-distributed-to-any-store/">
       <span class="direction">Next »</span>
       <br>
-      <span> Problem 2054 Two Best Non-Overlapping Events </span>
+      <span> Problem 2064 Minimized Maximum of Products Distributed to Any Store </span>
     </a>
   
 </nav>
