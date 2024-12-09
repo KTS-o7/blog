@@ -89,8 +89,8 @@
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="leetcode-potd">
-    <meta property="article:published_time" content="2024-12-09T19:32:54+05:30">
-    <meta property="article:modified_time" content="2024-12-09T19:32:54+05:30">
+    <meta property="article:published_time" content="2024-12-09T20:39:24+05:30">
+    <meta property="article:modified_time" content="2024-12-09T20:39:24+05:30">
     <meta property="article:tag" content="Array">
     <meta property="article:tag" content="Binary-Search">
     <meta property="article:tag" content="Prefix-Sum">
@@ -105,6 +105,139 @@
 
   
   
+
+
+
+<link type="text/css" rel="stylesheet" href="/blog/lib/katex/katex.min.68e17230ccd917b97b7a2def38a8108918599d8aa4f580bfb8cce5e13d23e4de43dcaba5f9000553cb2c10d0d1300aabfe5c433a3305ebd752609f0762a63e59.css" integrity="sha512-aOFyMMzZF7l7ei3vOKgQiRhZnYqk9YC/uMzl4T0j5N5D3Kul&#43;QAFU8ssENDRMAqr/lxDOjMF69dSYJ8HYqY&#43;WQ==" />
+
+
+<script defer src="/blog/lib/katex/katex.min.50f14e69d6a8da7128ae3b63974c544ed377c36d096b5e3750f114e84c89d668b9301d9b0ed3248969aa183aa2e3bc4d2c1e73d5dcb7d462890c45a18d424589.js" integrity="sha512-UPFOadao2nEorjtjl0xUTtN3w20Ja143UPEU6EyJ1mi5MB2bDtMkiWmqGDqi47xNLB5z1dy31GKJDEWhjUJFiQ=="></script>
+
+
+<script defer src="/blog/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -412,7 +545,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-12-09T19:32:54&#43;05:30">Dec 9, 2024</time>
+  Posted on <time datetime="2024-12-09T20:39:24&#43;05:30">Dec 9, 2024</time>
   
   
   
@@ -483,6 +616,7 @@
       <ul>
         <li><a href="#time-complexity">Time Complexity:</a></li>
         <li><a href="#space-complexity">Space Complexity:</a></li>
+        <li><a href="#proof-of-correctness">Proof of correctness</a></li>
         <li><a href="#footnote">Footnote</a></li>
       </ul>
     </li>
@@ -524,6 +658,7 @@
 <p>An array is considered <strong>special</strong> if every pair of its adjacent elements contains two numbers with different parity.</p>
 <p>You are given an array of integer <code>nums</code> and a 2D integer matrix <code>queries</code>, where for <code>queries[i] = [from<sub>i</sub>, to<sub>i</sub>]</code> your task is to check that <span data-keyword="subarray">subarray</span> <code>nums[from<sub>i</sub>..to<sub>i</sub>]</code> is <strong>special</strong> or not.</p>
 <p>Return an array of booleans <code>answer</code> such that <code>answer[i]</code> is <code>true</code> if <code>nums[from<sub>i</sub>..to<sub>i</sub>]</code> is special.<!-- notionvc: e5d6f4e2-d20a-4fbd-9c7f-22fbe52ef730 --></p>
+<p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <div class="example-block">
 <p><strong>Input:</strong> <span class="example-io">nums = [3,4,1,2,6], queries = [[0,4]]</span></p>
@@ -541,6 +676,7 @@
 	<li>The subarray is <code>[1,6]</code>. There is only one pair: <code>(1,6)</code> and it contains numbers with different parity. So the answer to this query is <code>true</code>.</li>
 </ol>
 </div>
+<p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
@@ -600,9 +736,9 @@
  </a>
   
 </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm                         | Time Complexity | Space Complexity |
-</span></span><span style="display:flex;"><span>| --------------------------------- | --------------- | ---------------- |
-</span></span><span style="display:flex;"><span>| Prefix Sum Array with Linear Scan | O(n + q)        | O(n + q)         |
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Algorithm              | Time Complexity | Space Complexity |
+</span></span><span style="display:flex;"><span>| ---------------------- | --------------- | ---------------- |
+</span></span><span style="display:flex;"><span>| Prefix Sum Calculation | O(n + q)        | O(n)             |
 </span></span></code></pre></div>
 <h2 id="explanation">
   Explanation
@@ -627,7 +763,7 @@
  </a>
   
 </h4>
-<p>The problem seems to require checking for a specific property in subarrays, where each pair of adjacent elements must have different parity. The given solution uses a prefix array to track the number of pairs with the same parity. My initial thoughts are to consider how the prefix array can help in solving the problem, and what conditions must be met for a subarray to be considered special. The problem can be broken down into smaller parts: generating the prefix array, and using it to answer the queries. It&rsquo;s also important to understand the properties of even and odd numbers and how they relate to the problem. Additionally, thinking about edge cases, such as subarrays of length 1 or 2, can help in developing the solution.</p>
+<p>To determine if a subarray is special, we need to check if every pair of adjacent elements has different parity. This can be approached by creating a prefix array that keeps track of the number of pairs with the same parity. The key is to identify a pattern or a way to efficiently compare the parity of adjacent elements. We can start by examining the given solution and understanding how it utilizes the prefix array to simplify the comparison process. The initial steps should involve analyzing the array and queries to identify any patterns or relationships that can aid in solving the problem. We should also consider how the prefix array is constructed and how it is used to determine if a subarray is special.</p>
 
 <h4 id="intuitive-analysis">
   Intuitive Analysis
@@ -640,7 +776,7 @@
  </a>
   
 </h4>
-<p>To intuitively solve the problem, one must first understand the concept of parity and how it applies to adjacent elements in an array. The idea is to iterate through the array, checking each pair of adjacent elements to see if they have the same parity. This process can be analogous to checking if two people are wearing different colored shoes - if they are, then they are &lsquo;special&rsquo;, otherwise, they are not. When generating the prefix array, think of it as a cumulative count of &rsquo;non-special&rsquo; pairs. This count can then be used to determine if a subarray is special by checking the difference in the prefix array values at the start and end of the subarray. The solution must also consider the case where the subarray has only one pair of adjacent elements, and how the prefix array can be used to efficiently answer multiple queries.</p>
+<p>The given solution uses a prefix array to efficiently check if a subarray is special. Intuitively, this approach makes sense because it allows us to avoid comparing every pair of adjacent elements in the subarray. Instead, we can use the prefix array to quickly determine if there are any pairs with the same parity. To further develop our intuition, we can think of the prefix array as a &lsquo;counter&rsquo; that keeps track of the number of pairs with the same parity. By comparing the values in the prefix array at different indices, we can quickly determine if a subarray is special. We should also consider how the use of the modulo operator (%) to check parity affects the solution and how it contributes to the efficiency of the approach. Additionally, we can explore how the solution would change if we were to use a different data structure or approach.</p>
 
 <h3 id="1-intuition">
   1. Intuition
@@ -655,12 +791,12 @@
 </h3>
 <ul>
 <li>The problem requires checking if every pair of adjacent elements in a subarray has different parity, which means one is even and the other is odd.</li>
-<li>To solve this efficiently, we need to track the number of pairs with the same parity as we move through the array.</li>
-<li>A prefix sum array can be used to store the cumulative count of pairs with the same parity, allowing for efficient range queries.</li>
+<li>To solve this efficiently, we need to track the number of pairs with the same parity as we iterate through the array.</li>
+<li>A prefix sum array can be used to store the count of pairs with the same parity up to each index.</li>
 <li>The key insight is that if the difference in the prefix sum between the end and start of a subarray is 0, it means all pairs within that subarray have different parity.</li>
-<li>This approach works because it leverages the property of prefix sums to calculate the number of same-parity pairs within any subarray in constant time.</li>
-<li>The algorithmic choice of using a prefix sum array is optimal because it allows for a linear time complexity for both the preprocessing and the query phases.</li>
-<li>Considering the constraints, this approach is scalable and efficient for large inputs.</li>
+<li>This approach allows us to answer queries about any subarray in constant time after the initial array processing.</li>
+<li>The time complexity of this solution is O(n + q), where n is the size of the array and q is the number of queries.</li>
+<li>This is because we make a single pass through the array to calculate the prefix sum and then process each query individually.</li>
 </ul>
 
 <h3 id="2-implementation">
@@ -675,13 +811,13 @@
   
 </h3>
 <ul>
-<li>We start by initializing a <code>prefix</code> array of the same length as the input <code>nums</code> array, where <code>prefix[i]</code> will store the count of same-parity pairs up to index <code>i</code>.</li>
-<li>The <code>prefix</code> array is populated by iterating through <code>nums</code>, checking the parity of each pair of adjacent elements using the modulo operator (<code>nums[i] % 2 == nums[i - 1] % 2</code>), and incrementing the count if they have the same parity.</li>
-<li>For each query, we extract the start and end indices from the <code>queries</code> array and use them to calculate the difference in the <code>prefix</code> sum (<code>prefix[end] - prefix[start]</code>)</li>
-<li>If this difference is 0, it indicates that all pairs within the subarray have different parity, so we set the corresponding answer to <code>true</code>.</li>
-<li>The final answers for all queries are stored in the <code>ans</code> vector, which is returned at the end of the function.</li>
-<li>The use of <code>vector&lt;bool&gt;</code> for <code>ans</code> is efficient for storing boolean values, and <code>vector&lt;int&gt;</code> for <code>prefix</code> and <code>nums</code> is suitable for storing integer values.</li>
-<li>The overall implementation ensures a time complexity of O(n + q), where n is the length of <code>nums</code> and q is the number of queries.</li>
+<li>We start by initializing a <code>prefix</code> array of the same length as the input <code>nums</code> array, where <code>prefix[i]</code> will store the count of pairs with the same parity up to index <code>i</code>.</li>
+<li>We iterate through <code>nums</code> from the second element to the end, checking if the current element and the previous one have the same parity using the condition <code>nums[i] % 2 == nums[i - 1] % 2</code>.</li>
+<li>If they have the same parity, we increment the count in <code>prefix[i]</code> by 1 compared to <code>prefix[i - 1]</code>, otherwise, we keep the count the same.</li>
+<li>For each query, we extract the start and end indices and check if the difference <code>prefix[end] - prefix[start]</code> is 0, indicating all pairs in the subarray have different parity.</li>
+<li>We store the result of this check in the <code>ans</code> array at the corresponding index.</li>
+<li>Finally, we return the <code>ans</code> array containing the results for all queries.</li>
+<li>The use of <code>prefix</code> array allows for efficient calculation of the result for each query without needing to re-examine the subarray.</li>
 </ul>
 <hr>
 
@@ -709,9 +845,9 @@
   
 </h3>
 <ul>
-<li>The algorithm consists of two main loops: one for calculating the prefix sum array and another for processing the queries. The first loop iterates <code>n</code> times, where <code>n</code> is the size of the input array <code>nums</code>. The second loop iterates <code>q</code> times, where <code>q</code> is the number of queries. The dominant operations are the <code>for</code> loops that iterate over the input array <code>nums</code> and the queries <code>queries</code>. Therefore, the time complexity is O(n + q).</li>
-<li>The <code>if</code> condition inside the loop and the assignment to the <code>prefix</code> array take constant time. Hence, they do not affect the overall time complexity.</li>
-<li>Mathematically, the time complexity can be expressed as T(n, q) = O(n) + O(q) = O(n + q), justifying the Big O classification.</li>
+<li>The algorithm iterates through the input array <code>nums</code> of size <code>n</code> to calculate the prefix sum, resulting in a time complexity of O(n). It then iterates through the <code>queries</code> array of size <code>q</code>, resulting in an additional time complexity of O(q). Since these operations are performed sequentially, the overall time complexity is O(n + q).</li>
+<li>The dominant operations are the two nested loops: one for calculating the prefix sum and the other for iterating through the queries. Each loop has a linear time complexity.</li>
+<li>The Big O classification of O(n + q) is justified because the algorithm&rsquo;s running time grows linearly with the size of the input array and the number of queries.</li>
 </ul>
 
 <h3 id="space-complexity">
@@ -726,11 +862,31 @@
   
 </h3>
 <ul>
-<li>The algorithm uses two additional vectors: <code>ans</code> and <code>prefix</code>, both of which require extra space. The <code>ans</code> vector has a size of <code>q</code>, where <code>q</code> is the number of queries, and the <code>prefix</code> vector has a size of <code>n</code>, where <code>n</code> is the size of the input array <code>nums</code>.</li>
-<li>The input arrays <code>nums</code> and <code>queries</code> also occupy space, but this is not included in the space complexity analysis as it is part of the input size. The <code>prefix</code> and <code>ans</code> vectors are the primary contributors to the space complexity.</li>
-<li>The total space used is proportional to the sum of the sizes of the <code>ans</code> and <code>prefix</code> vectors, which is n + q. Hence, the space complexity is O(n + q).</li>
+<li>The algorithm uses a prefix sum array <code>prefix</code> of size <code>n</code> to store the cumulative sum of the input array <code>nums</code>, resulting in a space complexity of O(n).</li>
+<li>The use of the <code>prefix</code> array dominates the memory usage, as it requires a separate array of the same size as the input array.</li>
+<li>The space complexity is O(n) because the algorithm only uses a constant amount of additional space to store the input array and the queries, and the size of the prefix sum array grows linearly with the size of the input array.</li>
 </ul>
 <hr>
+
+<h3 id="proof-of-correctness">
+  Proof of correctness
+  
+  <a hidden class="anchor" href="#proof-of-correctness">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<ul>
+<li>Special Array II Algorithm</li>
+<li>Direct Proof</li>
+</ul>
+<p>
+
+</p>
+$$\text{Let } n \text{ be the length of the array } nums.$$$$\text{We use a prefix sum array } prefix \text{ where } prefix[i] \text{ stores the count of pairs with the same parity up to index } i.$$$$\forall i \in [1, n], \text{ if } nums[i] \equiv nums[i-1] \pmod{2}, \text{ then } prefix[i] = prefix[i-1] + 1.$$$$\text{Otherwise, } prefix[i] = prefix[i-1].$$$$\text{For each query } [start, end], \text{ the subarray } nums[start..end] \text{ is special if and only if } prefix[end] - prefix[start] = 0.$$<hr>
 
 <h3 id="footnote">
   Footnote
